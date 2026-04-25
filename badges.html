@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Badges | Pokopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-badges.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF8C42">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <div class="top-nav__left">
+      <span class="top-nav__title" data-i18n="badges_title">🏅 徽章</span>
+    </div>
+    <div class="top-nav__right">
+      <button class="lang-btn" data-lang="zh">🇹🇼</button>
+      <button class="lang-btn" data-lang="en">🇺🇸</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
+    </div>
+  </nav>
+
+  <div class="badges-container" id="badgesContainer">
+    <!-- Progress Overview -->
+    <div class="badges-overview">
+      <div class="badges-overview__icon">🏆</div>
+      <div class="badges-overview__title" id="progressTitle">收集進度</div>
+      <div class="badges-overview__subtitle" id="progressSubtitle">0 / 303 已收集</div>
+      <div class="badges-progress-bar">
+        <div class="badges-progress-bar__fill" id="progressBar" style="width:0%"></div>
+      </div>
+    </div>
+
+    <!-- Badge Grid -->
+    <div class="badges-grid" id="badgeGrid">
+      <!-- Dynamically rendered -->
+    </div>
+  </div>
+
+  <!-- Bottom Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-bar__item" data-tab="dex" href="index.html">
+      <span class="tab-bar__icon">📖</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+    </a>
+    <a class="tab-bar__item" data-tab="habitats" href="habitats.html">
+      <span class="tab-bar__icon">🏝️</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+    </a>
+    <a class="tab-bar__item active" data-tab="badges" href="badges.html">
+      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
+    </a>
+    <a class="tab-bar__item" data-tab="settings" href="settings.html">
+      <span class="tab-bar__icon">⚙️</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+  <script>
+    const I18N = {
+      zh: {
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: '徽章', tab_settings: '設定',
+        badges_title: '🏅 徽章',
+        progress_title: '收集進度',
+        collected_of: '已收集',
+        locked: '🔒 未解鎖',
+        unlocked: '✨ 已解鎖',
+        collector: '初級收藏家',
+        collector_desc: '收集 10 隻寶可夢',
+        explorer: '探險家',
+        explorer_desc: '收集 30 隻寶可夢',
+        veteran: '老練訓練師',
+        veteran_desc: '收集 60 隻寶可夢',
+        master: '寶可夢大師',
+        master_desc: '收集 100 隻寶可夢',
+        legend: '傳說訓練師',
+        legend_desc: '收集 150 隻寶可夢',
+        completionist: '完美主義者',
+        completionist_desc: '收集 200 隻寶可夢',
+        ultimate: '究極收藏家',
+        ultimate_desc: '收集 250 隻寶可夢',
+        god: '寶可夢之神',
+        god_desc: '收集所有 303 隻寶可夢',
+        type_specialist: '屬性專家',
+        type_specialist_desc: '收集 10 隻同屬性寶可夢',
+        habitat_hunter: '棲息地獵人',
+        habitat_hunter_desc: '解鎖 50 個棲息地',
+        night_owl: '夜貓子',
+        night_owl_desc: '在深夜使用圖鑑',
+        early_bird: '早起的鳥兒',
+        early_bird_desc: '在早晨使用圖鑑'
+      },
+      en: {
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        badges_title: '🏅 Badges',
+        progress_title: 'Collection Progress',
+        collected_of: 'collected',
+        locked: '🔒 Locked',
+        unlocked: '✨ Unlocked',
+        collector: 'Junior Collector',
+        collector_desc: 'Collect 10 Pokémon',
+        explorer: 'Explorer',
+        explorer_desc: 'Collect 30 Pokémon',
+        veteran: 'Veteran Trainer',
+        veteran_desc: 'Collect 60 Pokémon',
+        master: 'Pokémon Master',
+        master_desc: 'Collect 100 Pokémon',
+        legend: 'Legendary Trainer',
+        legend_desc: 'Collect 150 Pokémon',
+        completionist: 'Completionist',
+        completionist_desc: 'Collect 200 Pokémon',
+        ultimate: 'Ultimate Collector',
+        ultimate_desc: 'Collect 250 Pokémon',
+        god: 'Pokémon God',
+        god_desc: 'Collect all 303 Pokémon',
+        type_specialist: 'Type Specialist',
+        type_specialist_desc: 'Collect 10 same-type Pokémon',
+        habitat_hunter: 'Habitat Hunter',
+        habitat_hunter_desc: 'Unlock 50 habitats',
+        night_owl: 'Night Owl',
+        night_owl_desc: 'Use Pokédex at night',
+        early_bird: 'Early Bird',
+        early_bird_desc: 'Use Pokédex in the morning'
+      },
+      es: {
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        badges_title: '🏅 Medallas',
+        progress_title: 'Progreso de Colección',
+        collected_of: 'recogidos',
+        locked: '🔒 Bloqueado',
+        unlocked: '✨ Desbloqueado',
+        collector: 'Coleccionista Junior',
+        collector_desc: 'Recoge 10 Pokémon',
+        explorer: 'Explorador',
+        explorer_desc: 'Recoge 30 Pokémon',
+        veteran: 'Entrenador Veterano',
+        veteran_desc: 'Recoge 60 Pokémon',
+        master: 'Maestro Pokémon',
+        master_desc: 'Recoge 100 Pokémon',
+        legend: 'Entrenador Legendario',
+        legend_desc: 'Recoge 150 Pokémon',
+        completionist: 'Perfeccionista',
+        completionist_desc: 'Recoge 200 Pokémon',
+        ultimate: 'Coleccionista Supremo',
+        ultimate_desc: 'Recoge 250 Pokémon',
+        god: 'Dios Pokémon',
+        god_desc: 'Recoge todos los 303 Pokémon',
+        type_specialist: 'Especialista de Tipo',
+        type_specialist_desc: 'Recoge 10 Pokémon del mismo tipo',
+        habitat_hunter: 'Cazador de Hábitats',
+        habitat_hunter_desc: 'Desbloquea 50 hábitats',
+        night_owl: 'Noctámbulo',
+        night_owl_desc: 'Usa el Pokédex de noche',
+        early_bird: 'Madrugador',
+        early_bird_desc: 'Usa el Pokédex por la mañana'
+      }
+    };
+
+    const BADGES = [
+      { id: 'collector',     threshold: 10,   emoji: '🥉', color: '#CD7F32' },
+      { id: 'explorer',      threshold: 30,   emoji: '🧭', color: '#4A90D9' },
+      { id: 'veteran',       threshold: 60,   emoji: '🛡️', color: '#7B68EE' },
+      { id: 'master',        threshold: 100,  emoji: '⭐', color: '#FFD700' },
+      { id: 'legend',        threshold: 150,  emoji: '👑', color: '#FF6B35' },
+      { id: 'completionist', threshold: 200,  emoji: '💎', color: '#00CED1' },
+      { id: 'ultimate',      threshold: 250,  emoji: '🏆', color: '#FF1493' },
+      { id: 'god',           threshold: 303,  emoji: '🌟', color: '#FFD700' }
+    ];
+
+    async function init() {
+      await POKOPIA_DEX.loadData();
+      POKOPIA_DEX.renderLangButtons();
+      renderBadges();
+      document.addEventListener('langchange', () => {
+        updateI18N();
+        renderBadges();
+      });
+      updateI18N();
+    }
+
+    function updateI18N() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (t[key]) el.textContent = t[key];
+      });
+    }
+
+    function getCollectedCount() {
+      const collected = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
+      return collected.length;
+    }
+
+    function renderBadges() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      const count = getCollectedCount();
+      const total = 303;
+
+      // Progress overview
+      document.getElementById('progressTitle').textContent = t.progress_title;
+      document.getElementById('progressSubtitle').textContent = `${count} / ${total} ${t.collected_of}`;
+      document.getElementById('progressBar').style.width = `${(count / total * 100).toFixed(1)}%`;
+
+      // Badge grid
+      const grid = document.getElementById('badgeGrid');
+      grid.innerHTML = BADGES.map(badge => {
+        const unlocked = count >= badge.threshold;
+        const progress = Math.min(100, (count / badge.threshold * 100).toFixed(0));
+        const name = t[badge.id] || badge.id;
+        const desc = t[badge.id + '_desc'] || '';
+
+        return `
+          <div class="badge-card ${unlocked ? 'badge-card--unlocked' : 'badge-card--locked'}">
+            <div class="badge-card__emoji">${unlocked ? badge.emoji : '🔒'}</div>
+            <div class="badge-card__name">${name}</div>
+            <div class="badge-card__desc">${desc}</div>
+            <div class="badge-card__progress">
+              <div class="badge-card__progress-bar">
+                <div class="badge-card__progress-fill" style="width:${progress}%;background:${badge.color}"></div>
+              </div>
+              <span class="badge-card__progress-text">${count}/${badge.threshold}</span>
+            </div>
+            <div class="badge-card__status">${unlocked ? t.unlocked : t.locked}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    init();
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then(reg => {
+          console.log('SW registered:', reg.scope);
+        }).catch(err => {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

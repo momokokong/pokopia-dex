@@ -1,0 +1,40 @@
+{
+  "name": "Pokopia 三語寶可夢圖鑑",
+  "short_name": "PokopiaDex",
+  "description": "Trilingual educational Pokédex for Pokémon Pokopia — learn Chinese, English & Spanish while collecting!",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF8E1",
+  "theme_color": "#FF8C42",
+  "lang": "zh-Hant",
+  "categories": ["education", "kids"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}

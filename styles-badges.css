@@ -1,0 +1,157 @@
+/* ============================================
+   Badges Page Styles
+   ============================================ */
+
+.badges-container {
+  padding: 16px 16px 96px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.badges-overview {
+  background: linear-gradient(135deg, #FFD93D 0%, #FF6B6B 100%);
+  border-radius: 32px;
+  padding: 28px 20px;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 20px rgba(255, 107, 107, 0.3);
+}
+
+.badges-overview__icon {
+  font-size: 56px;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+}
+
+.badges-overview__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 6px;
+}
+
+.badges-overview__subtitle {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 14px;
+}
+
+.badges-progress-bar {
+  width: 100%;
+  height: 12px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.badges-progress-bar__fill {
+  height: 100%;
+  background: #FFF;
+  border-radius: 6px;
+  transition: width 0.6s ease;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.3);
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px;
+}
+
+.badge-card {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 20px 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.badge-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.badge-card--unlocked {
+  border-color: #FFD93D;
+  background: linear-gradient(135deg, #FFF 0%, #FFF9E6 100%);
+}
+
+.badge-card--locked {
+  opacity: 0.6;
+  filter: grayscale(0.5);
+}
+
+.badge-card--locked .badge-card__emoji {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.badge-card__emoji {
+  font-size: 44px;
+  line-height: 1;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.badge-card__name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-bottom: 4px;
+}
+
+.badge-card__desc {
+  font-size: 12px;
+  color: #7A7A7A;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.badge-card__progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.badge-card__progress-bar {
+  flex: 1;
+  height: 8px;
+  background: #FFF8E7;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.badge-card__progress-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.badge-card__progress-text {
+  font-size: 11px;
+  color: #7A7A7A;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge-card__status {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.badge-card--unlocked .badge-card__status {
+  color: #6BCB77;
+  background: rgba(123,201,80,0.15);
+}
+
+.badge-card--locked .badge-card__status {
+  color: #B0B0B0;
+  background: #FFF8E7;
+}

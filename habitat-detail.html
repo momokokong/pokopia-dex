@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Habitat Detail | Pokopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF8C42">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <div class="top-nav__left">
+      <button class="top-nav__back" onclick="location.href='habitats.html'">←</button>
+      <span class="top-nav__title" id="navTitle">🏝️ 棲息地</span>
+    </div>
+    <div class="top-nav__right">
+      <button class="lang-btn" data-lang="zh">🇹🇼</button>
+      <button class="lang-btn" data-lang="en">🇺🇸</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
+    </div>
+  </nav>
+
+  <div class="detail-container" id="habitatDetailContainer">
+    <!-- Dynamically rendered -->
+  </div>
+
+  <!-- Bottom Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-bar__item" data-tab="dex" href="index.html">
+      <span class="tab-bar__icon">📖</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+    </a>
+    <a class="tab-bar__item active" data-tab="habitats" href="habitats.html">
+      <span class="tab-bar__icon">🏝️</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+    </a>
+    <a class="tab-bar__item" data-tab="badges" href="badges.html">
+      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
+    </a>
+    <a class="tab-bar__item" data-tab="settings" href="settings.html">
+      <span class="tab-bar__icon">⚙️</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+  <script src="data/habitat-data.js"></script>
+  <script>
+    const I18N = {
+      zh: {
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        requirements: '建造需求', pokemon_in_habitat: '此處的寶可夢',
+        time: '時間', weather: '天氣', all_day: '全天候', all_weather: '全天氣',
+        common: '常見', uncommon: '較稀有', rare: '稀有', very_rare: '非常稀有',
+        back: '← 返回棲息地', rarity: '稀有度',
+        no_data: '尚無資料'
+      },
+      en: {
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        requirements: 'Requirements', pokemon_in_habitat: 'Pokémon in this Habitat',
+        time: 'Time', weather: 'Weather', all_day: 'All day', all_weather: 'All weather',
+        common: 'Common', uncommon: 'Uncommon', rare: 'Rare', very_rare: 'Very Rare',
+        back: '← Back to Habitats', rarity: 'Rarity',
+        no_data: 'No data'
+      },
+      es: {
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        requirements: 'Requisitos', pokemon_in_habitat: 'Pokémon en este Hábitat',
+        time: 'Hora', weather: 'Clima', all_day: 'Todo el día', all_weather: 'Todo clima',
+        common: 'Común', uncommon: 'Poco común', rare: 'Raro', very_rare: 'Muy raro',
+        back: '← Volver a Hábitats', rarity: 'Rareza',
+        no_data: 'Sin datos'
+      }
+    };
+
+    const SPRITE_BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/';
+
+    function getRarityLabel(rarity, lang) {
+      const t = I18N[lang] || I18N.en;
+      const map = { Common: t.common, Uncommon: t.uncommon, Rare: t.rare, 'Very Rare': t.very_rare };
+      return map[rarity] || rarity;
+    }
+
+    function getRarityClass(rarity) {
+      const map = { Common: 'common', Uncommon: 'uncommon', Rare: 'rare', 'Very Rare': 'very-rare' };
+      return map[rarity] || 'common';
+    }
+
+    function getRarityStars(rarity) {
+      const map = { Common: 1, Uncommon: 2, Rare: 3, 'Very Rare': 4 };
+      return '⭐'.repeat(map[rarity] || 1);
+    }
+
+    let currentHabitat = null;
+    let allPokemon = [];
+
+    async function init() {
+      const params = new URLSearchParams(window.location.search);
+      const hashMatch = window.location.hash.match(/id=(\d+)/);
+      let habitatId;
+      if (params.get('id')) {
+        habitatId = parseInt(params.get('id'));
+      } else if (hashMatch) {
+        habitatId = parseInt(hashMatch[1]);
+      } else {
+        const urlId = window.location.href.match(/id[\=](\d+)/);
+        habitatId = urlId ? parseInt(urlId[1]) : null;
+      }
+
+      allPokemon = await POKOPIA_DEX.loadData();
+      
+      // Load habitat data from HABITAT_DATA
+      if (typeof HABITAT_DATA !== 'undefined' && HABITAT_DATA[habitatId]) {
+        currentHabitat = HABITAT_DATA[habitatId];
+      } else {
+        document.getElementById('habitatDetailContainer').innerHTML =
+          '<div style="text-align:center;padding:60px 16px;color:var(--text-secondary)">Habitat not found 😢<br><a href="habitats.html" style="color:var(--type-grass)">← Back to Habitats</a></div>';
+        return;
+      }
+
+      POKOPIA_DEX.renderLangButtons();
+      renderHabitatDetail();
+      document.addEventListener('langchange', () => {
+        updateI18N();
+        renderHabitatDetail();
+      });
+      updateI18N();
+    }
+
+    function updateI18N() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (t[key]) el.textContent = t[key];
+      });
+    }
+
+    function renderHabitatDetail() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      const h = currentHabitat;
+
+      const habitatName = h.name[lang] || h.name.en;
+      document.title = `${habitatName} | Pokopia`;
+
+      // Nav title
+      document.getElementById('navTitle').textContent = `#${String(h.id).padStart(3, '0')} ${habitatName}`;
+
+      // Requirements
+      let reqHTML = '';
+      if (h.requirements && h.requirements.length > 0) {
+        reqHTML = h.requirements.map(r => {
+          const itemName = r.item[lang] || r.item.en;
+          const iconHTML = h.image && h.image.startsWith('habitats/') ? 
+            `<img src="${h.image}" style="width:24px;height:24px;object-fit:contain;border-radius:4px;">` : 
+            `<span>${h.image || '🌿'}</span>`;
+          return `<div class="habitat-req-item">
+            <span class="habitat-req-item__icon">${iconHTML}</span>
+            <span class="habitat-req-item__name">${itemName}</span>
+            <span class="habitat-req-item__count">×${r.count}</span>
+          </div>`;
+        }).join('');
+      }
+
+      // Pokémon list
+      let pokemonHTML = '';
+      h.pokemon.forEach(p => {
+        const spriteUrl = SPRITE_BASE + p.pokedex_number + '.png';
+        const collected = allPokemon.find(ap => ap.pokedex_number === p.pokedex_number);
+        const isCollected = collected ? POKOPIA_DEX.isCollected(collected.id) : false;
+        const pokemonName = p.name[lang] || p.name.en;
+        const rarityClass = getRarityClass(p.rarity);
+        const rarityLabel = getRarityLabel(p.rarity, lang);
+        const rarityStars = getRarityStars(p.rarity);
+        const zoneTag = p.zone ? `<span class="habitat-pokemon-card__zone">📍 ${p.zone}</span>` : '';
+
+        pokemonHTML += `
+          <a class="habitat-pokemon-card" href="detail.html?id=${collected ? collected.id : p.pokedex_number}">
+            <div class="habitat-pokemon-card__img-wrap">
+              <img class="habitat-pokemon-card__img ${isCollected ? '' : 'uncollected'}"
+                   src="${spriteUrl}" alt="${pokemonName}" loading="lazy">
+            </div>
+            <div class="habitat-pokemon-card__info">
+              <div class="habitat-pokemon-card__num">#${String(p.pokedex_number).padStart(3, '0')}</div>
+              <div class="habitat-pokemon-card__name">${isCollected ? pokemonName : '???'}</div>
+              <div class="habitat-pokemon-card__rarity">
+                <span class="biome-card__rarity biome-card__rarity--${rarityClass}">${rarityLabel}</span>
+                <span class="habitat-pokemon-card__stars">${rarityStars}</span>
+              </div>
+              ${zoneTag}
+            </div>
+            <span class="habitat-pokemon-card__arrow">›</span>
+          </a>`;
+      });
+
+      const container = document.getElementById('habitatDetailContainer');
+      container.innerHTML = `
+        <!-- Hero Section -->
+        <div class="detail-hero" style="background: linear-gradient(135deg, #a8e6cf 0%, #7bc97b 100%);">
+          <div class="detail-hero__pokedex-num">#${String(h.id).padStart(3, '0')}</div>
+          <div class="habitat-hero__icon" style="text-align:center;padding:20px 0;max-height:200px;overflow:hidden;">
+            ${h.image && h.image.startsWith('habitats/') ? 
+              `<img src="${h.image}" alt="${habitatName}" style="max-height:180px;width:auto;object-fit:contain;border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,0.15);">` : 
+              `<div style="font-size:100px;line-height:1;">${h.image || '🌿'}</div>`}
+          </div>
+          <div class="detail-hero__names">
+            <div class="detail-hero__name-main">${habitatName}
+              <span class="desc-voice-btns" style="margin-left:8px">
+                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.zh || h.name.en}', 'zh')" title="中文">🇹🇼 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.en}', 'en')" title="English">🇺🇸 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.es || h.name.en}', 'es')" title="Español">🇪🇸 🔊</button>
+              </span>
+            </div>
+            <div class="detail-hero__name-sub">${h.name.zh || ''} / ${h.name.en} / ${h.name.es || ''}</div>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div class="detail-section">
+          <div class="detail-section__title" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+            <span>${lang === 'zh' ? '棲息地簡介' : lang === 'es' ? 'Descripción del hábitat' : 'Habitat Description'}</span>
+            <span class="desc-voice-btns">
+              <button class="voice-btn voice-btn--sm" onclick="playHabitatDescVoice('zh')" title="中文">🇹🇼 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playHabitatDescVoice('en')" title="English">🇺🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playHabitatDescVoice('es')" title="Español">🇪🇸 🔊</button>
+            </span>
+          </div>
+          <div class="detail-desc" id="descText">${h.description[lang] || h.description.en}</div>
+        </div>
+
+        <!-- Requirements -->
+        ${h.requirements && h.requirements.length > 0 ? `
+        <div class="detail-section">
+          <div class="detail-section__title">${t.requirements}</div>
+          <div class="habitat-req-list">${reqHTML}</div>
+        </div>` : ''}
+
+        <!-- Pokémon List -->
+        <div class="detail-section">
+          <div class="detail-section__title">${t.pokemon_in_habitat}</div>
+          <div class="habitat-pokemon-list">${pokemonHTML}</div>
+        </div>
+      `;
+    }
+
+    let _voiceLangSave = null;
+    let _cancelKaraoke = null;
+
+
+    function playVoice(text, lang) {
+      if ('speechSynthesis' in window && text) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        const langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-419' };
+        utterance.lang = langMap[lang] || lang;
+        utterance.rate = 0.85;
+        utterance.pitch = 1.2;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    function splitSpeakChunks(text, lang) {
+      if (lang === 'zh') {
+        var raw = [];
+        var current = '';
+        for (var i = 0; i < text.length; i++) {
+          current += text[i];
+          var isPunct = /[，。！？、；：]/.test(text[i]);
+          if (isPunct) {
+            raw.push(current);
+            current = '';
+          } else if (current.length >= 3) {
+            raw.push(current);
+            current = '';
+          }
+        }
+        if (current) raw.push(current);
+        var chunks = [];
+        for (var j = 0; j < raw.length; j++) {
+          if (/^[，。！？、；：]$/.test(raw[j]) && chunks.length > 0) {
+            chunks[chunks.length - 1] += raw[j];
+          } else {
+            chunks.push(raw[j]);
+          }
+        }
+        return chunks;
+      } else {
+        return text.match(/\S+\s*/g) || [text];
+      }
+    }
+
+    function wrapCharSpans(text) {
+      var html = '';
+      for (var i = 0; i < text.length; i++) {
+        var c = text[i];
+        var esc = c === '<' ? '&lt;' : c === '>' ? '&gt;' : c === '&' ? '&amp;' : c;
+        html += '<span class="karaoke-char" data-idx="' + i + '"' + (c === ' ' ? ' style="white-space:pre"' : '') + '>' + esc + '</span>';
+      }
+      return html;
+    }
+
+    function karaokeUpdate(el, text, endIdx) {
+      var spans = el.querySelectorAll('.karaoke-char');
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].classList.toggle('karaoke-active', i < endIdx);
+      }
+    }
+
+    function karaokeClear(el) {
+      var spans = el.querySelectorAll('.karaoke-active');
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].classList.remove('karaoke-active');
+      }
+    }
+
+    function playHabitatDescVoice(voiceLang) {
+      if (!('speechSynthesis' in window)) return;
+      const currentLang = POKOPIA_DEX.getLang();
+      const descEl = document.getElementById('descText');
+      if (!descEl || !currentHabitat) return;
+
+      const text = currentHabitat.description[voiceLang] || currentHabitat.description.en;
+      _voiceLangSave = currentLang;
+      descEl.innerHTML = wrapCharSpans(text);
+
+      window.speechSynthesis.cancel();
+      if (_cancelKaraoke) { _cancelKaraoke(); _cancelKaraoke = null; }
+
+      var langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-419' };
+
+      if (voiceLang === 'zh') {
+        var chunks = splitSpeakChunks(text, 'zh');
+        var charOffset = 0;
+        var chunkIdx = 0;
+        var isCancelled = false;
+
+        function speakNext() {
+          if (isCancelled || chunkIdx >= chunks.length) return;
+          var chunk = chunks[chunkIdx];
+          var thisOffset = charOffset;
+          var utt = new SpeechSynthesisUtterance(chunk);
+          utt.lang = langMap[voiceLang] || voiceLang;
+          utt.rate = 0.8;
+          utt.pitch = 1.2;
+          utt.onend = function() {
+            karaokeUpdate(descEl, text, thisOffset + chunk.length);
+            charOffset += chunk.length;
+            chunkIdx++;
+            speakNext();
+          };
+          utt.onerror = function() {
+            charOffset += chunk.length;
+            chunkIdx++;
+            speakNext();
+          };
+          window.speechSynthesis.speak(utt);
+        }
+
+        speakNext();
+        _cancelKaraoke = function() { isCancelled = true; window.speechSynthesis.cancel(); };
+
+        var checkDone = setInterval(function() {
+          if (isCancelled || chunkIdx >= chunks.length) {
+            clearInterval(checkDone);
+            if (!isCancelled) {
+              karaokeClear(descEl);
+              if (_voiceLangSave) {
+                descEl.textContent = currentHabitat.description[_voiceLangSave] || currentHabitat.description.en;
+                _voiceLangSave = null;
+              }
+            }
+          }
+        }, 200);
+
+      } else {
+        // en/es: speak whole sentence with onboundary, fallback to chunks
+        var utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = langMap[voiceLang] || voiceLang;
+        utterance.rate = 0.8;
+        utterance.pitch = 1.2;
+
+        var boundaryFired = false;
+        var lastCharIdx = -1;
+        var fallbackTimers = [];
+
+        utterance.onboundary = function(event) {
+          boundaryFired = true;
+          fallbackTimers.forEach(function(t) { clearTimeout(t); });
+          fallbackTimers = [];
+          if (event.name === 'word') {
+            var ci = event.charIndex;
+            if (ci > lastCharIdx) {
+              lastCharIdx = ci;
+              karaokeUpdate(descEl, text, ci + 1);
+            }
+          }
+        };
+
+        utterance.onstart = function() {
+          setTimeout(function() {
+            if (!boundaryFired) {
+              window.speechSynthesis.cancel();
+              var chunks = splitSpeakChunks(text, voiceLang);
+              var charOffset2 = 0;
+              var chunkIdx2 = 0;
+              var isCancelled2 = false;
+
+              function speakNextChunk() {
+                if (isCancelled2 || chunkIdx2 >= chunks.length) return;
+                var chunk = chunks[chunkIdx2];
+                var thisOffset = charOffset2;
+                var utt2 = new SpeechSynthesisUtterance(chunk);
+                utt2.lang = langMap[voiceLang] || voiceLang;
+                utt2.rate = 0.8;
+                utt2.pitch = 1.2;
+                utt2.onend = function() {
+                  karaokeUpdate(descEl, text, thisOffset + chunk.length);
+                  charOffset2 += chunk.length;
+                  chunkIdx2++;
+                  speakNextChunk();
+                };
+                utt2.onerror = function() {
+                  charOffset2 += chunk.length;
+                  chunkIdx2++;
+                  speakNextChunk();
+                };
+                window.speechSynthesis.speak(utt2);
+              }
+
+              speakNextChunk();
+              _cancelKaraoke = function() { isCancelled2 = true; window.speechSynthesis.cancel(); };
+
+              var checkDone2 = setInterval(function() {
+                if (isCancelled2 || chunkIdx2 >= chunks.length) {
+                  clearInterval(checkDone2);
+                  if (!isCancelled2) {
+                    karaokeClear(descEl);
+                    if (_voiceLangSave) {
+                      descEl.textContent = currentHabitat.description[_voiceLangSave] || currentHabitat.description.en;
+                      _voiceLangSave = null;
+                    }
+                  }
+                }
+              }, 200);
+            }
+          }, 300);
+        };
+
+        utterance.onend = function() {
+          fallbackTimers.forEach(function(t) { clearTimeout(t); });
+          karaokeUpdate(descEl, text, text.length);
+          setTimeout(function() {
+            karaokeClear(descEl);
+            if (_voiceLangSave) {
+              descEl.textContent = currentHabitat.description[_voiceLangSave] || currentHabitat.description.en;
+              _voiceLangSave = null;
+            }
+          }, 500);
+        };
+
+        _cancelKaraoke = function() { window.speechSynthesis.cancel(); };
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    init();
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then(reg => {
+          console.log('SW registered:', reg.scope);
+        }).catch(err => {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

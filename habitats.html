@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Habitats | Pokopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .habitat-summary-card { display:flex; align-items:center; gap:8px; margin:12px 16px 8px; padding:14px 18px; background:linear-gradient(135deg,#FFF3E0,#FFECB3); border-radius:14px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+    .habitat-summary-card__number { font-size:28px; font-weight:700; color:var(--orange); }
+    .habitat-summary-card__label { font-size:15px; color:var(--text-secondary); font-weight:500; }
+  </style>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF8C42">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <div class="top-nav__left">
+      <span class="top-nav__title" id="habitatNavTitle">🏝️ 棲息地</span>
+    </div>
+    <div class="top-nav__right">
+      <button class="lang-btn" data-lang="zh">🇹🇼</button>
+      <button class="lang-btn" data-lang="en">🇺🇸</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
+    </div>
+  </nav>
+
+  <div id="habitatsContainer"></div>
+
+  <!-- Bottom Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-bar__item" data-tab="dex" href="index.html">
+      <span class="tab-bar__icon">📖</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+    </a>
+    <a class="tab-bar__item active" data-tab="habitats" href="habitats.html">
+      <span class="tab-bar__icon">🏝️</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+    </a>
+    <a class="tab-bar__item" data-tab="badges" href="badges.html">
+      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
+    </a>
+    <a class="tab-bar__item" data-tab="settings" href="settings.html">
+      <span class="tab-bar__icon">⚙️</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+  <script>
+    const I18N = {
+      zh: {
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        title: '🏝️ 棲息地', zone: '區域', biomes: 'Biome',
+        ideal_habitat: '理想環境', time: '時間', weather: '天氣',
+        all_day: '全天候', all_weather: '全天氣', special: '特殊',
+        pokemon_here: '此處的寶可夢', how_to_find: '如何找到',
+        no_zone: '一般區域', special_zone: '特殊區域',
+        common: '常見', uncommon: '較稀有', rare: '稀有',
+        special_mission: '🌟 特殊任務', special_mission_desc: '完成特殊任務才能遇見這隻寶可夢！',
+        biome: '棲息地', click_to_expand: '點擊展開',
+        palette_town: '🏘️ 調色盤小鎮', cloud_island: '☁️🏝️ 雲之島',
+        withered_wasteland: '🏜️ 枯萎荒地', general_area: '🌿 一般區域'
+      },
+      en: {
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        title: '🏝️ Habitats', zone: 'Zone', biomes: 'Biome',
+        ideal_habitat: 'Ideal Habitat', time: 'Time', weather: 'Weather',
+        all_day: 'All day', all_weather: 'All weather', special: 'Special',
+        pokemon_here: 'Pokémon Here', how_to_find: 'How to Find',
+        no_zone: 'General Area', special_zone: 'Special Area',
+        common: 'Common', uncommon: 'Uncommon', rare: 'Rare',
+        special_mission: '🌟 Special Mission', special_mission_desc: 'Complete a special mission to meet this Pokémon!',
+        biome: 'Biome', click_to_expand: 'Tap to expand',
+        palette_town: '🏘️ Palette Town', cloud_island: '☁️🏝️ Cloud Island',
+        withered_wasteland: '🏜️ Withered Wasteland', general_area: '🌿 General Area'
+      },
+      es: {
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        title: '🏝️ Hábitats', zone: 'Zona', biomes: 'Bioma',
+        ideal_habitat: 'Hábitat Ideal', time: 'Hora', weather: 'Clima',
+        all_day: 'Todo el día', all_weather: 'Todo clima', special: 'Especial',
+        pokemon_here: 'Pokémon Aquí', how_to_find: 'Cómo Encontrar',
+        no_zone: 'Área General', special_zone: 'Área Especial',
+        common: 'Común', uncommon: 'Poco común', rare: 'Raro',
+        special_mission: '🌟 Misión Especial', special_mission_desc: '¡Completa una misión especial para encontrar este Pokémon!',
+        biome: 'Bioma', click_to_expand: 'Toca para expandir',
+        palette_town: '🏘️ Pueblo Paleta', cloud_island: '☁️🏝️ Isla Nube',
+        withered_wasteland: '🏜️ Yermo Marchito', general_area: '🌿 Área General'
+      }
+    };
+
+    // Zone display info
+    const ZONE_INFO = {
+      'Palette Town': { emoji: '🏘️', nameKey: 'palette_town', color: 'rgba(255,140,66,0.12)', borderColor: 'rgba(255,140,66,0.3)' },
+      'Cloud Island': { emoji: '☁️🏝️', nameKey: 'cloud_island', color: 'rgba(91,184,245,0.12)', borderColor: 'rgba(91,184,245,0.3)' },
+      'Withered Wasteland': { emoji: '🏜️', nameKey: 'withered_wasteland', color: 'rgba(255,107,107,0.12)', borderColor: 'rgba(255,107,107,0.3)' },
+      '__none__': { emoji: '🌿', nameKey: 'general_area', color: 'rgba(123,201,80,0.12)', borderColor: 'rgba(123,201,80,0.3)' }
+    };
+
+    // Zone ordering
+    const ZONE_ORDER = ['Palette Town', 'Cloud Island', 'Withered Wasteland', '__none__'];
+
+    let allPokemon = [];
+
+    function getTimeLabel(time, lang) {
+      const t = I18N[lang] || I18N.en;
+      if (time === 'All day') return t.all_day;
+      if (time === 'Special') return t.special;
+      return time;
+    }
+
+    function getWeatherLabel(weather, lang) {
+      const t = I18N[lang] || I18N.en;
+      if (weather === 'All weather') return t.all_weather;
+      if (weather === 'Special') return t.special;
+      return weather;
+    }
+
+    function getRarityLabel(rarity, lang) {
+      const t = I18N[lang] || I18N.en;
+      const map = { Common: t.common, Uncommon: t.uncommon, Rare: t.rare };
+      return map[rarity] || rarity;
+    }
+
+    function getRarityClass(rarity) {
+      const map = { Common: 'common', Uncommon: 'uncommon', Rare: 'rare' };
+      return map[rarity] || 'common';
+    }
+
+    async function init() {
+      allPokemon = await POKOPIA_DEX.loadData();
+      POKOPIA_DEX.renderLangButtons();
+      POKOPIA_DEX.renderTabBar('habitats');
+      renderHabitats();
+      document.addEventListener('langchange', () => {
+        updateI18N();
+        renderHabitats();
+      });
+      updateI18N();
+    }
+
+    function updateI18N() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      document.getElementById('habitatNavTitle').textContent = t.title;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (t[key]) el.textContent = t[key];
+      });
+    }
+
+    function renderHabitats() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      const container = document.getElementById('habitatsContainer');
+
+      // Count total unique biomes across all pokemon
+      const allBiomeIds = new Set(allPokemon.flatMap(p => (p.habitat.biomes || []).map(b => b.id)));
+      const totalBiomes = allBiomeIds.size;
+
+      // Group by zone
+      const zones = {};
+      allPokemon.forEach(p => {
+        const zone = p.habitat.zone || '__none__';
+        if (!zones[zone]) zones[zone] = [];
+        zones[zone].push(p);
+      });
+
+      let html = `<div class="habitat-summary-card">
+        <span class="habitat-summary-card__number">${totalBiomes}</span>
+        <span class="habitat-summary-card__label">${lang === 'zh' ? '個棲息地' : lang === 'es' ? 'Hábitats' : 'Habitats'}</span>
+      </div>`;
+
+      // Render zones in specific order
+      ZONE_ORDER.forEach(zoneKey => {
+        if (!zones[zoneKey]) return;
+        const zonePokemon = zones[zoneKey];
+        const info = ZONE_INFO[zoneKey] || ZONE_INFO['__none__'];
+        const zoneName = t[info.nameKey];
+
+        // Count unique biomes in this zone
+        const zoneBiomeCount = new Set(zonePokemon.flatMap(p => (p.habitat.biomes || []).map(b => b.id))).size;
+
+        html += `<div class="habitat-zone-section">
+          <div class="habitat-zone-title">${zoneName}</div>
+          <div class="habitat-zone-subtitle">${zoneBiomeCount} ${lang === 'zh' ? '個棲息地' : lang === 'es' ? 'hábitats' : 'habitats'} · ${zonePokemon.length} ${lang === 'zh' ? '隻寶可夢' : 'Pokémon'}</div>`;
+
+        // Group by biome within zone
+        const biomeGroups = {};
+        const specialPokemon = [];
+
+        zonePokemon.forEach(p => {
+          const biomes = p.habitat.biomes || [];
+          if (biomes.length === 0) {
+            specialPokemon.push(p);
+          } else {
+            biomes.forEach(b => {
+              const key = b.id + '_' + b.name.en;
+              if (!biomeGroups[key]) biomeGroups[key] = { biome: b, pokemon: [] };
+              biomeGroups[key].pokemon.push(p);
+            });
+          }
+        });
+
+        // Render biome cards
+        Object.keys(biomeGroups).forEach(biomeKey => {
+          const group = biomeGroups[biomeKey];
+          const biome = group.biome;
+          const biomeName = POKOPIA_DEX.getBiomeName(biome, lang);
+          const biomeEmoji = POKOPIA_DEX.BIOME_EMOJI[biome.name.en] || '🌿';
+          const pokemonList = group.pokemon;
+
+          // Determine time/weather from first pokemon
+          const time = pokemonList[0].habitat.time;
+          const weather = pokemonList[0].habitat.weather;
+
+          html += `
+            <div class="habitat-card" id="biome_${biome.id}" onclick="location.href='habitat-detail.html?id=${biome.id}'" style="cursor:pointer">
+              <div class="habitat-card__header" onclick="this.parentElement.classList.toggle('open')">
+                <div class="habitat-card__icon" style="background:rgba(123,201,80,0.15)">
+                  ${biome.image ? `<img src="${biome.image}" alt="${biomeName}" style="width:48px;height:48px;object-fit:cover;border-radius:12px;">` : biomeEmoji}
+                </div>
+                <div class="habitat-card__info">
+                  <div class="habitat-card__name">${biomeName}</div>
+                  <div class="habitat-card__zone">${t.biome} #${String(biome.id).padStart(3, '0')} · ${pokemonList.length} 🐾</div>
+                </div>
+                <span class="habitat-card__pokemon-count" style="font-size:12px;color:var(--text-light)">▼</span>
+              </div>
+              <div class="habitat-card__body">
+                <div class="habitat-card__detail-row">
+                  <span>⏰ ${t.time}: ${getTimeLabel(time, lang)}</span>
+                  <span>🌤️ ${t.weather}: ${getWeatherLabel(weather, lang)}</span>
+                </div>
+                <div style="margin:8px 0 4px;font-size:13px;font-weight:600;color:var(--text-secondary)">${t.pokemon_here}</div>
+                <div class="habitat-card__pokemon-thumbs">
+                  ${pokemonList.map(p => {
+                    const collected = POKOPIA_DEX.isCollected(p.id);
+                    const name = POKOPIA_DEX.getName(p, lang);
+                    const rarityClass = getRarityClass(p.rarity);
+                    return `<a class="habitat-card__thumb-item" href="detail.html?id=${p.id}">
+                      <img class="habitat-card__thumb-img ${collected ? '' : 'uncollected'}"
+                           src="${p.sprite_url}" alt="${name}" loading="lazy">
+                      <span class="habitat-card__thumb-name">${name}</span>
+                      <span class="biome-card__rarity biome-card__rarity--${rarityClass}" style="font-size:10px;padding:1px 6px;margin-top:2px">${getRarityLabel(p.rarity, lang)}</span>
+                    </a>`;
+                  }).join('')}
+                </div>
+              </div>
+            </div>`;
+        });
+
+        // Render special Pokémon (no biomes)
+        specialPokemon.forEach(p => {
+          const collected = POKOPIA_DEX.isCollected(p.id);
+          const name = POKOPIA_DEX.getName(p, lang);
+          const howToFind = p.habitat.how_to_find
+            ? (p.habitat.how_to_find[lang] || p.habitat.how_to_find.en)
+            : '';
+
+          html += `
+            <div class="special-task-card">
+              <div class="special-task-card__icon">⭐</div>
+              <div class="special-task-card__title">${t.special_mission}</div>
+              <div class="special-task-card__desc">${howToFind || t.special_mission_desc}</div>
+              <a href="detail.html?id=${p.id}" class="special-task-card__pokemon">
+                <img src="${p.sprite_url}" alt="${name}" style="${collected ? '' : 'filter:brightness(0) saturate(0) opacity(0.4)'}">
+                <span>${collected ? name : '???'}</span>
+              </a>
+            </div>`;
+        });
+
+        html += '</div>';
+      });
+
+      container.innerHTML = html;
+    }
+
+    init();
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then(reg => {
+          console.log('SW registered:', reg.scope);
+        }).catch(err => {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

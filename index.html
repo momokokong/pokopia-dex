@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Pokédex | Pokopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .pokemon-list { padding-bottom: 10px; }
+    .empty-state { text-align: center; padding: 40px 16px; color: var(--text-secondary); font-size: 15px; }
+    .loading-state { text-align: center; padding: 40px 16px; color: var(--text-secondary); font-size: 15px; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+  </style>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF8C42">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <div class="top-nav__left">
+      <span class="top-nav__title">📖 Pokédex</span>
+    </div>
+    <div class="top-nav__right">
+      <button class="lang-btn" data-lang="zh">🇹🇼</button>
+      <button class="lang-btn" data-lang="en">🇺🇸</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
+    </div>
+  </nav>
+
+  <!-- Search -->
+  <div class="search-bar">
+    <span class="search-bar__icon">🔍</span>
+    <input class="search-bar__input" type="text" id="searchInput" placeholder="搜尋寶可夢...">
+  </div>
+
+  <!-- Type Filters -->
+  <div class="type-filters" id="typeFilters">
+    <button class="type-filter-btn active" data-type="all" data-i18n-type="all">全部</button>
+    <button class="type-filter-btn" data-type="Fire" data-i18n-type="Fire">🔥 火</button>
+    <button class="type-filter-btn" data-type="Water" data-i18n-type="Water">💧 水</button>
+    <button class="type-filter-btn" data-type="Grass" data-i18n-type="Grass">🌿 草</button>
+    <button class="type-filter-btn" data-type="Rock" data-i18n-type="Rock">🪨 岩石</button>
+    <button class="type-filter-btn" data-type="Fairy" data-i18n-type="Fairy">✨ 妖精</button>
+    <button class="type-filter-btn" data-type="Normal" data-i18n-type="Normal">⭐ 一般</button>
+    <button class="type-filter-btn" data-type="Poison" data-i18n-type="Poison">☠️ 毒</button>
+    <button class="type-filter-btn" data-type="Ground" data-i18n-type="Ground">⛰️ 地面</button>
+  </div>
+
+  <!-- Pokemon List -->
+  <div class="pokemon-list" id="pokemonList">
+    <div class="loading-state" id="loadingState">⏳ 載入中...</div>
+  </div>
+
+  <!-- Bottom Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-bar__item active" data-tab="dex" href="index.html">
+      <span class="tab-bar__icon">📖</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+    </a>
+    <a class="tab-bar__item" data-tab="habitats" href="habitats.html">
+      <span class="tab-bar__icon">🏝️</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+    </a>
+    <a class="tab-bar__item" data-tab="badges" href="badges.html">
+      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
+    </a>
+    <a class="tab-bar__item" data-tab="settings" href="settings.html">
+      <span class="tab-bar__icon">⚙️</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+  <script>
+    const I18N = {
+      zh: { search_placeholder: '搜尋寶可夢...', tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定', filter_all: '全部', collected: '✅', uncollected: '❓', type_Fire: '🔥 火', type_Water: '💧 水', type_Grass: '🌿 草', type_Rock: '🪨 岩石', type_Fairy: '✨ 妖精', type_Normal: '⭐ 一般', type_Poison: '☠️ 毒', type_Ground: '⛰️ 地面' },
+      en: { search_placeholder: 'Search Pokémon...', tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings', filter_all: 'All', collected: '✅', uncollected: '❓', type_Fire: '🔥 Fire', type_Water: '💧 Water', type_Grass: '🌿 Grass', type_Rock: '🪨 Rock', type_Fairy: '✨ Fairy', type_Normal: '⭐ Normal', type_Poison: '☠️ Poison', type_Ground: '⛰️ Ground' },
+      es: { search_placeholder: 'Buscar Pokémon...', tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes', filter_all: 'Todos', collected: '✅', uncollected: '❓', type_Fire: '🔥 Fuego', type_Water: '💧 Agua', type_Grass: '🌿 Planta', type_Rock: '🪨 Roca', type_Fairy: '✨ Hada', type_Normal: '⭐ Normal', type_Poison: '☠️ Veneno', type_Ground: '⛰️ Tierra' }
+    };
+
+    let allPokemon = [];
+    let activeTypeFilter = 'all';
+    let searchQuery = '';
+
+    async function init() {
+      try {
+        allPokemon = await POKOPIA_DEX.loadData();
+      } catch (e) {
+        console.error('Failed to load pokemon data:', e);
+        document.getElementById('loadingState').textContent = '❌ 載入失敗，點擊重試';
+        document.getElementById('loadingState').style.cursor = 'pointer';
+        document.getElementById('loadingState').onclick = () => location.reload();
+        return;
+      }
+      document.getElementById('loadingState')?.remove();
+      // Demo: pre-collect Bulbasaur and Eevee for showcase
+      if (!localStorage.getItem('pokopia-collected')) {
+        localStorage.setItem('pokopia-collected', JSON.stringify([1, 133]));
+      }
+      POKOPIA_DEX.renderLangButtons();
+      POKOPIA_DEX.renderTabBar('dex');
+      setupTypeFilters();
+      setupSearch();
+      renderList();
+      document.addEventListener('langchange', () => {
+        updateI18N();
+        renderList();
+        updateFilterLabels();
+      });
+      updateI18N();
+    }
+
+    function updateI18N() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      document.getElementById('searchInput').placeholder = t.search_placeholder;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (t[key]) el.textContent = t[key];
+      });
+    }
+
+    function updateFilterLabels() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      document.querySelectorAll('.type-filter-btn[data-i18n-type]').forEach(btn => {
+        const typeKey = btn.dataset.i18nType;
+        const key = 'type_' + typeKey;
+        if (typeKey === 'all') {
+          btn.textContent = t.filter_all;
+        } else if (t[key]) {
+          btn.textContent = t[key];
+        }
+      });
+    }
+
+    function setupTypeFilters() {
+      document.querySelectorAll('.type-filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.type-filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeTypeFilter = btn.dataset.type;
+          renderList();
+        });
+      });
+    }
+
+    function setupSearch() {
+      const input = document.getElementById('searchInput');
+      input.addEventListener('input', () => {
+        searchQuery = input.value.toLowerCase().trim();
+        renderList();
+      });
+    }
+
+    function filterPokemon() {
+      return allPokemon.filter(p => {
+        // Type filter
+        if (activeTypeFilter !== 'all' && !p.types.includes(activeTypeFilter)) return false;
+        // Search filter
+        if (searchQuery) {
+          const nameMatch = Object.values(p.name).some(n => n.toLowerCase().includes(searchQuery));
+          if (!nameMatch) return false;
+        }
+        return true;
+      });
+    }
+
+    function renderList() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      const list = document.getElementById('pokemonList');
+      const filtered = filterPokemon();
+
+      if (filtered.length === 0) {
+        const emptyMsg = { zh: '🤔 沒有找到符合的寶可夢', en: '🤔 No Pokémon found', es: '🤔 No se encontraron Pokémon' };
+        list.innerHTML = `<div class="empty-state">${emptyMsg[lang] || emptyMsg.en}</div>`;
+        return;
+      }
+
+      list.innerHTML = filtered.map(p => {
+        const collected = POKOPIA_DEX.isCollected(p.id);
+        const mainName = POKOPIA_DEX.getName(p, lang);
+        const otherLangs = ['zh','en','es'].filter(l => l !== lang);
+        const subNames = otherLangs.map(l => p.name[l]).filter(Boolean).join(' / ');
+        const stars = POKOPIA_DEX.getStars(p.rarity_stars);
+        const typeTags = p.types.map(t =>
+          `<span class="type-tag" data-type="${t}">${POKOPIA_DEX.getTypeEmoji(t)} ${t}</span>`
+        ).join('');
+        const collectIcon = collected ? t.collected : t.uncollected;
+
+        return `
+          <a class="pokemon-card ${collected ? '' : 'uncollected'}" href="detail.html?id=${p.id}">
+            <div class="pokemon-card__sprite-wrap">
+              <img class="pokemon-card__sprite ${collected ? '' : 'breathe'}"
+                   src="${p.sprite_url}" alt="${mainName}" loading="lazy">
+            </div>
+            <div class="pokemon-card__info">
+              <div class="pokemon-card__name">${mainName}</div>
+              <div class="pokemon-card__name-sub">${subNames}</div>
+              <div class="pokemon-card__meta">
+                <div class="pokemon-card__types">${typeTags}</div>
+                <span class="pokemon-card__stars">${stars}</span>
+              </div>
+            </div>
+            <div class="pokemon-card__collect-icon" onclick="toggleCollectFromList(event, ${p.id})">${collectIcon}</div>
+          </a>
+        `;
+      }).join('');
+    }
+
+    function toggleCollectFromList(event, id) {
+      event.preventDefault();
+      event.stopPropagation();
+      const collected = POKOPIA_DEX.isCollected(id);
+      if (collected) {
+        POKOPIA_DEX.setUncollected(id);
+      } else {
+        POKOPIA_DEX.setCollected(id);
+      }
+      renderList();
+    }
+
+    init();
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then(reg => {
+          console.log('SW registered:', reg.scope);
+        }).catch(err => {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

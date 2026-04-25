@@ -1,0 +1,1242 @@
+[
+  {
+    "id": 1,
+    "name": "Tall Grass",
+    "zh": "高草叢",
+    "es": "Hierba alta",
+    "requirements": "Material x1",
+    "pokemon": "Charizard, Bulbasaur, Charmander, Squirtle, Oddish"
+  },
+  {
+    "id": 2,
+    "name": "Tree Shaded Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Pinsir, Heracross, Bellsprout, Scyther, Scizor"
+  },
+  {
+    "id": 3,
+    "name": "Boulder Shaded Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Gurdurr, Timburr, Machop"
+  },
+  {
+    "id": 4,
+    "name": "Hydrated Tall Grass",
+    "zh": "潮濕高草叢",
+    "es": "Hierba alta hidratada",
+    "requirements": "Material x1",
+    "pokemon": "Blastoise, Wartortle, Squirtle, Sliggoo, Cramorant"
+  },
+  {
+    "id": 5,
+    "name": "Seaside Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Slowbro, Slowking, Slowpoke"
+  },
+  {
+    "id": 6,
+    "name": "Elevated Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Pidgeotto, Noctowl, Pidgey, Hoothoot"
+  },
+  {
+    "id": 7,
+    "name": "Illuminated Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Venomoth, Venonat"
+  },
+  {
+    "id": 8,
+    "name": "Pretty Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Pidgeotto, Pidgey, Hoothoot, Combee, Magby"
+  },
+  {
+    "id": 9,
+    "name": "Tree Shaded Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Cacturne, Vikavolt, Goomy"
+  },
+  {
+    "id": 10,
+    "name": "Hydrated Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Volbeat, Illumise"
+  },
+  {
+    "id": 11,
+    "name": "Field Of Flowers",
+    "requirements": "Material x1",
+    "pokemon": "Ivysaur, Venusaur, Vespiquen"
+  },
+  {
+    "id": 12,
+    "name": "Elevated Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Parasect, Paras"
+  },
+  {
+    "id": 13,
+    "name": "Grave With Flowers",
+    "requirements": "Material x1",
+    "pokemon": "Marowak, Cubone"
+  },
+  {
+    "id": 14,
+    "name": "Flower Garden",
+    "requirements": "Material x1",
+    "pokemon": "Parasect, Paras"
+  },
+  {
+    "id": 15,
+    "name": "Fresh Veggie Field",
+    "requirements": "Material x1",
+    "pokemon": "Excadrill, Drilbur, Rowlet"
+  },
+  {
+    "id": 16,
+    "name": "Riding Warm Updrafts",
+    "requirements": "Material x1",
+    "pokemon": "Drifloon"
+  },
+  {
+    "id": 17,
+    "name": "Campsite",
+    "requirements": "Material x1",
+    "pokemon": "Charmeleon"
+  },
+  {
+    "id": 18,
+    "name": "Training Waterfall",
+    "requirements": "Material x1",
+    "pokemon": "Tyrogue"
+  },
+  {
+    "id": 19,
+    "name": "Tantalizing Dining Set",
+    "requirements": "Material x1",
+    "pokemon": "Gulpin"
+  },
+  {
+    "id": 20,
+    "name": "Picnic Set",
+    "requirements": "Material x1",
+    "pokemon": "Pichu, Pikachu"
+  },
+  {
+    "id": 21,
+    "name": "Flowery Table",
+    "requirements": "Material x1",
+    "pokemon": "Victreebel, Weepinbell"
+  },
+  {
+    "id": 22,
+    "name": "Bench With Greenery",
+    "zh": "綠意長椅",
+    "es": "Banco con vegetación",
+    "requirements": "Material x1",
+    "pokemon": "Ivysaur, Bulbasaur, Tangrowth"
+  },
+  {
+    "id": 23,
+    "name": "Illuminated Bench",
+    "requirements": "Material x1",
+    "pokemon": "Venomoth, Venonat"
+  },
+  {
+    "id": 24,
+    "name": "Exercise Resting Spot",
+    "requirements": "Material x1",
+    "pokemon": "Hitmonchan"
+  },
+  {
+    "id": 25,
+    "name": "Urgent Care",
+    "requirements": "Material x1",
+    "pokemon": "Hitmonlee"
+  },
+  {
+    "id": 26,
+    "name": "Gym First Aid",
+    "requirements": "Material x1",
+    "pokemon": "Hitmontop"
+  },
+  {
+    "id": 27,
+    "name": "Road Sign",
+    "requirements": "Material x1",
+    "pokemon": "Shellos West Sea"
+  },
+  {
+    "id": 28,
+    "name": "Large Luggage Carrier",
+    "requirements": "Material x1",
+    "pokemon": "Gurdurr, Tinkatuff, Tinkatink"
+  },
+  {
+    "id": 29,
+    "name": "Lumberjacks Workplace",
+    "requirements": "Material x1",
+    "pokemon": "Haxorus, Axew, Fraxure"
+  },
+  {
+    "id": 30,
+    "name": "Bed With A Plush",
+    "requirements": "Material x1",
+    "pokemon": "Slowbro, Slowking, Munchlax, Drifloon"
+  },
+  {
+    "id": 31,
+    "name": "Gently Lit Bed",
+    "requirements": "Material x1",
+    "pokemon": "Noctowl, Hoothoot"
+  },
+  {
+    "id": 32,
+    "name": "Grave Offering",
+    "requirements": "Material x1",
+    "pokemon": "Lampent, Litwick"
+  },
+  {
+    "id": 33,
+    "name": "Creepy Grave Offering",
+    "requirements": "Material x1",
+    "pokemon": "Lampent, Chandelure, Litwick"
+  },
+  {
+    "id": 34,
+    "name": "Chansey Resting Area",
+    "requirements": "Material x1",
+    "pokemon": "Vileplume, Bellossom"
+  },
+  {
+    "id": 35,
+    "name": "Irresistible Scent And Glow",
+    "requirements": "Material x1",
+    "pokemon": "Victreebel, Weepinbell"
+  },
+  {
+    "id": 36,
+    "name": "Floating In The Shade",
+    "requirements": "Material x1",
+    "pokemon": "Blastoise"
+  },
+  {
+    "id": 37,
+    "name": "Smooth Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Onix"
+  },
+  {
+    "id": 38,
+    "name": "Factory Storage",
+    "requirements": "Material x1",
+    "pokemon": "Magnemite"
+  },
+  {
+    "id": 39,
+    "name": "Luxury Chirp Chirp Meal",
+    "requirements": "Material x1",
+    "pokemon": "Pidgeot"
+  },
+  {
+    "id": 40,
+    "name": "Berry Feast Campsite",
+    "requirements": "Material x1",
+    "pokemon": "Charizard"
+  },
+  {
+    "id": 41,
+    "name": "Rain Dance Site",
+    "requirements": "Material x1",
+    "pokemon": "Goomy"
+  },
+  {
+    "id": 42,
+    "name": "Sunny Day Site",
+    "requirements": "Material x1",
+    "pokemon": "Cacnea"
+  },
+  {
+    "id": 44,
+    "name": "Crazy Log Handicrafts",
+    "requirements": "Material x1",
+    "pokemon": "Haxorus, Axew, Fraxure"
+  },
+  {
+    "id": 45,
+    "name": "Very Berry Space",
+    "requirements": "Material x1",
+    "pokemon": "Goodra"
+  },
+  {
+    "id": 46,
+    "name": "Garden Terrace",
+    "requirements": "Material x1",
+    "pokemon": "Venusaur"
+  },
+  {
+    "id": 47,
+    "name": "Tree Shaded Snoozing Snorlax",
+    "requirements": "Material x1",
+    "pokemon": "Munchlax, Snorlax"
+  },
+  {
+    "id": 48,
+    "name": "Good Old Fashioned Antiques",
+    "requirements": "Material x1",
+    "pokemon": "Weezing, Snorlax"
+  },
+  {
+    "id": 49,
+    "name": "Nothin But Poke Balls",
+    "requirements": "Material x1",
+    "pokemon": "Tangela"
+  },
+  {
+    "id": 50,
+    "name": "Yellow Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Ariados, Spinarak, Grubbin"
+  },
+  {
+    "id": 51,
+    "name": "Tree Shaded Yellow Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Golbat, Hariyama, Zubat, Makuhita"
+  },
+  {
+    "id": 52,
+    "name": "Elevated Yellow Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Crobat, Pelipper, Wingull"
+  },
+  {
+    "id": 53,
+    "name": "Hydrated Yellow Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Marill, Prinplup, Azurill, Piplup"
+  },
+  {
+    "id": 54,
+    "name": "Marshy Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Clodsire, Wooper"
+  },
+  {
+    "id": 55,
+    "name": "Overgrowth Vending Machine",
+    "requirements": "Material x1",
+    "pokemon": "Mareep"
+  },
+  {
+    "id": 56,
+    "name": "Breezy Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Zoroark, Zorua, Pawmi"
+  },
+  {
+    "id": 57,
+    "name": "Tropical Vibes",
+    "requirements": "Material x1",
+    "pokemon": "Exeggutor, Gloom, Exeggcute"
+  },
+  {
+    "id": 58,
+    "name": "Windy Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Pelipper, Wingull"
+  },
+  {
+    "id": 59,
+    "name": "Shaded Beach",
+    "requirements": "Material x1",
+    "pokemon": "Exeggutor, Exeggcute"
+  },
+  {
+    "id": 60,
+    "name": "Tropical Seaside",
+    "requirements": "Material x1",
+    "pokemon": "Lapras"
+  },
+  {
+    "id": 61,
+    "name": "Resting Spot",
+    "requirements": "Material x1",
+    "pokemon": "Meowth"
+  },
+  {
+    "id": 62,
+    "name": "Perpetual Mess",
+    "requirements": "Material x1",
+    "pokemon": "Growlithe, Azurill"
+  },
+  {
+    "id": 63,
+    "name": "Trash Collection Site",
+    "requirements": "Material x1",
+    "pokemon": "Garbodor, Koffing, Weezing, Trubbish"
+  },
+  {
+    "id": 64,
+    "name": "Trash Can Central",
+    "requirements": "Material x1",
+    "pokemon": "Magnezone, Magneton, Electabuzz"
+  },
+  {
+    "id": 65,
+    "name": "Trash Disposal Site",
+    "requirements": "Material x1",
+    "pokemon": "Crobat"
+  },
+  {
+    "id": 66,
+    "name": "Park Bench",
+    "requirements": "Material x1",
+    "pokemon": "Electrode, Zubat, Voltorb"
+  },
+  {
+    "id": 67,
+    "name": "Tantalizing Restaurant",
+    "requirements": "Material x1",
+    "pokemon": "Pawmi, Pawmo"
+  },
+  {
+    "id": 68,
+    "name": "Tableside Delivery Cart",
+    "requirements": "Material x1",
+    "pokemon": "Empoleon"
+  },
+  {
+    "id": 69,
+    "name": "Chirp Chirp Meal",
+    "requirements": "Material x1",
+    "pokemon": "Blaziken, Torchic"
+  },
+  {
+    "id": 70,
+    "name": "Cafe Space",
+    "requirements": "Material x1",
+    "pokemon": "Pawmi, Pawmo, Pawmot"
+  },
+  {
+    "id": 71,
+    "name": "Beach Set",
+    "requirements": "Material x1",
+    "pokemon": "Tatsugiri Curly Form"
+  },
+  {
+    "id": 72,
+    "name": "Light Up Stage",
+    "requirements": "Material x1",
+    "pokemon": "Electabuzz, Electivire"
+  },
+  {
+    "id": 73,
+    "name": "Surprise In Store",
+    "requirements": "Material x1",
+    "pokemon": "Gengar, Zoroark, Haunter"
+  },
+  {
+    "id": 74,
+    "name": "Night Festival Venue",
+    "requirements": "Material x1",
+    "pokemon": "Flaaffy"
+  },
+  {
+    "id": 75,
+    "name": "Changing Area",
+    "requirements": "Material x1",
+    "pokemon": "Minccino"
+  },
+  {
+    "id": 76,
+    "name": "Private Makeup Stand",
+    "requirements": "Material x1",
+    "pokemon": "Cinccino, Minccino"
+  },
+  {
+    "id": 77,
+    "name": "Knitting Station",
+    "requirements": "Material x1",
+    "pokemon": "Mareep, Flaaffy"
+  },
+  {
+    "id": 78,
+    "name": "Hot Spring Shower",
+    "requirements": "Material x1",
+    "pokemon": "Golduck, Psyduck"
+  },
+  {
+    "id": 79,
+    "name": "Resort Meal Prep",
+    "requirements": "Material x1",
+    "pokemon": "Combusken, Growlithe, Torchic"
+  },
+  {
+    "id": 80,
+    "name": "All Packed Up",
+    "requirements": "Material x1",
+    "pokemon": "Hariyama, Farfetchd, Makuhita"
+  },
+  {
+    "id": 81,
+    "name": "Full Recovery",
+    "requirements": "Material x1",
+    "pokemon": "Chansey"
+  },
+  {
+    "id": 82,
+    "name": "Alarm Clock Sleep Zone",
+    "requirements": "Material x1",
+    "pokemon": "Happiny"
+  },
+  {
+    "id": 83,
+    "name": "Vending Machine Break Area",
+    "requirements": "Material x1",
+    "pokemon": "Charjabug, Grubbin"
+  },
+  {
+    "id": 84,
+    "name": "Vending Machine Set",
+    "requirements": "Material x1",
+    "pokemon": "Electivire, Elekid"
+  },
+  {
+    "id": 85,
+    "name": "Mini Game Corner",
+    "requirements": "Material x1",
+    "pokemon": "Magnezone, Magneton"
+  },
+  {
+    "id": 86,
+    "name": "Waterwheel Spot",
+    "requirements": "Material x1",
+    "pokemon": "Prinplup, Empoleon"
+  },
+  {
+    "id": 87,
+    "name": "Furnace Spot",
+    "requirements": "Material x1",
+    "pokemon": "Blaziken, Combusken"
+  },
+  {
+    "id": 88,
+    "name": "Dock",
+    "zh": "碼頭",
+    "es": "Muelle",
+    "requirements": "Material x1",
+    "pokemon": "Marill, Azumarill"
+  },
+  {
+    "id": 89,
+    "name": "Spooky Study",
+    "requirements": "Material x1",
+    "pokemon": "Gastly, Haunter"
+  },
+  {
+    "id": 90,
+    "name": "Playing Pirate",
+    "requirements": "Material x1",
+    "pokemon": "Electrode, Voltorb"
+  },
+  {
+    "id": 91,
+    "name": "Working The Register",
+    "requirements": "Material x1",
+    "pokemon": "Meowth, Happiny, Audino, Mawile"
+  },
+  {
+    "id": 92,
+    "name": "Tiny Atelier",
+    "requirements": "Material x1",
+    "pokemon": "Smeargle"
+  },
+  {
+    "id": 94,
+    "name": "Pikachu Space",
+    "requirements": "Material x1",
+    "pokemon": "Mimikyu"
+  },
+  {
+    "id": 95,
+    "name": "Cuteness Overload",
+    "requirements": "Material x1",
+    "pokemon": "Blissey"
+  },
+  {
+    "id": 96,
+    "name": "Welcoming Resort",
+    "requirements": "Material x1",
+    "pokemon": "Absol"
+  },
+  {
+    "id": 97,
+    "name": "Plain Life",
+    "requirements": "Material x1",
+    "pokemon": "Ampharos"
+  },
+  {
+    "id": 98,
+    "name": "Red Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Cinderace, Kricketune, Kricketot, Riolu, Scorbunny"
+  },
+  {
+    "id": 99,
+    "name": "Tree Shaded Red Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Dugtrio, Sudowoodo, Diglett, Bonsly"
+  },
+  {
+    "id": 100,
+    "name": "Pointy Tree Shaded Rocky Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Decidueye, Dartrix"
+  },
+  {
+    "id": 101,
+    "name": "Hydrated Red Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Lombre, Lotad"
+  },
+  {
+    "id": 102,
+    "name": "Elevated Red Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Chatot, Murkrow, Honchkrow"
+  },
+  {
+    "id": 103,
+    "name": "Grassy Training Field",
+    "requirements": "Material x1",
+    "pokemon": "Machamp, Machoke"
+  },
+  {
+    "id": 104,
+    "name": "Graceful Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Clefable, Dachsbun, Cleffa, Clefairy, Fidough"
+  },
+  {
+    "id": 105,
+    "name": "Tree Shaded Graceful Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Volcarona, Murkrow, Larvesta"
+  },
+  {
+    "id": 106,
+    "name": "Hydrated Graceful Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Arbok, Politoed, Ekans"
+  },
+  {
+    "id": 107,
+    "name": "Flower Garden Stump Stage",
+    "requirements": "Material x1",
+    "pokemon": "Politoed, Igglybuff, Jigglypuff"
+  },
+  {
+    "id": 108,
+    "name": "Toil In The Soil",
+    "requirements": "Material x1",
+    "pokemon": "Tyranitar"
+  },
+  {
+    "id": 109,
+    "name": "Uplifting Duckweed",
+    "requirements": "Material x1",
+    "pokemon": "Ludicolo, Lotad"
+  },
+  {
+    "id": 110,
+    "name": "Mossy Rest Spot",
+    "requirements": "Material x1",
+    "pokemon": "Tyranitar, Larvitar"
+  },
+  {
+    "id": 111,
+    "name": "Mossy Boulder",
+    "requirements": "Material x1",
+    "pokemon": "Golem, Graveler"
+  },
+  {
+    "id": 112,
+    "name": "Mossy Hot Spring",
+    "requirements": "Material x1",
+    "pokemon": "Torkoal"
+  },
+  {
+    "id": 113,
+    "name": "Open Air Bath",
+    "requirements": "Material x1",
+    "pokemon": "Raboot"
+  },
+  {
+    "id": 114,
+    "name": "Harmonious Hot Spring",
+    "requirements": "Material x1",
+    "pokemon": "Politoed"
+  },
+  {
+    "id": 115,
+    "name": "Piping Hot Lava",
+    "requirements": "Material x1",
+    "pokemon": "Volcarona, Charcadet"
+  },
+  {
+    "id": 116,
+    "name": "Digging And Burning",
+    "requirements": "Material x1",
+    "pokemon": "Magmar"
+  },
+  {
+    "id": 117,
+    "name": "Clink Clang Iron Construction",
+    "requirements": "Material x1",
+    "pokemon": "Machamp, Steelix"
+  },
+  {
+    "id": 118,
+    "name": "Creepy White Rocks",
+    "requirements": "Material x1",
+    "pokemon": "Glimmora, Glimmet"
+  },
+  {
+    "id": 119,
+    "name": "Container Snacking",
+    "requirements": "Material x1",
+    "pokemon": "Glimmora, Diglett, Glimmet"
+  },
+  {
+    "id": 120,
+    "name": "Dinner Table Surprise",
+    "requirements": "Material x1",
+    "pokemon": "Swalot"
+  },
+  {
+    "id": 121,
+    "name": "Best Bread Bakery",
+    "requirements": "Material x1",
+    "pokemon": "Dachsbun, Fidough"
+  },
+  {
+    "id": 122,
+    "name": "Mini Kitchen",
+    "requirements": "Material x1",
+    "pokemon": "Magmortar"
+  },
+  {
+    "id": 123,
+    "name": "House Party",
+    "requirements": "Material x1",
+    "pokemon": "Dugtrio, Sudowoodo"
+  },
+  {
+    "id": 124,
+    "name": "Lazy Photo Album Scrolling",
+    "requirements": "Material x1",
+    "pokemon": "Toxel"
+  },
+  {
+    "id": 125,
+    "name": "Chirping Recital",
+    "requirements": "Material x1",
+    "pokemon": "Chatot, Honchkrow"
+  },
+  {
+    "id": 126,
+    "name": "Recital Stage",
+    "zh": "獨奏舞台",
+    "es": "Escenario de recital",
+    "requirements": "Material x1",
+    "pokemon": "Wigglytuff, Jigglypuff"
+  },
+  {
+    "id": 127,
+    "name": "Box To The Rhythm",
+    "requirements": "Material x1",
+    "pokemon": "Machoke, Riolu, Lucario"
+  },
+  {
+    "id": 128,
+    "name": "Music And Magazines",
+    "requirements": "Material x1",
+    "pokemon": "Kricketune, Rotom, Kricketot"
+  },
+  {
+    "id": 129,
+    "name": "Mini Museum",
+    "requirements": "Material x1",
+    "pokemon": "Arcanine, Gimmighoul"
+  },
+  {
+    "id": 130,
+    "name": "Refreshing Locker Room",
+    "requirements": "Material x1",
+    "pokemon": "Cinderace, Raboot"
+  },
+  {
+    "id": 131,
+    "name": "Bronze Landmark",
+    "requirements": "Material x1",
+    "pokemon": "Clefable, Clefairy"
+  },
+  {
+    "id": 132,
+    "name": "Railroad Crossing",
+    "requirements": "Material x1",
+    "pokemon": "Coalossal, Rolycoly, Carkol"
+  },
+  {
+    "id": 133,
+    "name": "Chefs Kitchen",
+    "requirements": "Material x1",
+    "pokemon": "Greedent"
+  },
+  {
+    "id": 134,
+    "name": "Absolute Luxury",
+    "requirements": "Material x1",
+    "pokemon": "Gholdengo"
+  },
+  {
+    "id": 135,
+    "name": "Heavy Iron",
+    "requirements": "Material x1",
+    "pokemon": "Coalossal"
+  },
+  {
+    "id": 136,
+    "name": "Modern Living",
+    "requirements": "Material x1",
+    "pokemon": "Decidueye"
+  },
+  {
+    "id": 137,
+    "name": "Pink Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Vibrava, Flygon, Trapinch, Swablu, Duskull"
+  },
+  {
+    "id": 138,
+    "name": "Tree Shaded Pink Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Drakloak, Pupitar, Dreepy, Sprigatito"
+  },
+  {
+    "id": 139,
+    "name": "Hydrated Pink Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Greninja, Froakie, Frogadier"
+  },
+  {
+    "id": 140,
+    "name": "Elevated Pink Tall Grass",
+    "requirements": "Material x1",
+    "pokemon": "Corviknight, Kilowattrel, Corvisquire, Wattrel"
+  },
+  {
+    "id": 141,
+    "name": "Concrete Pipe Secret Base",
+    "requirements": "Material x1",
+    "pokemon": "Cyndaquil, Quilava"
+  },
+  {
+    "id": 142,
+    "name": "Fluffy Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Mismagius, Ninetales, Vulpix, Misdreavus, Rookidee"
+  },
+  {
+    "id": 143,
+    "name": "Tree Shaded Fluffy Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Serperior, Farigiraf, Servine, Girafarig"
+  },
+  {
+    "id": 144,
+    "name": "Hydrated Fluffy Flower Bed",
+    "requirements": "Material x1",
+    "pokemon": "Dragonair, Poliwhirl, Dratini"
+  },
+  {
+    "id": 145,
+    "name": "Waterside Dinghy",
+    "requirements": "Material x1",
+    "pokemon": "Dragonite"
+  },
+  {
+    "id": 146,
+    "name": "Illuminated Waterfall",
+    "requirements": "Material x1",
+    "pokemon": "Gyarados"
+  },
+  {
+    "id": 147,
+    "name": "Birdsong Garden",
+    "requirements": "Material x1",
+    "pokemon": "Altaria"
+  },
+  {
+    "id": 148,
+    "name": "Simple Bathroom",
+    "requirements": "Material x1",
+    "pokemon": "Dragonair, Dratini"
+  },
+  {
+    "id": 149,
+    "name": "Cycling Rest Stop",
+    "requirements": "Material x1",
+    "pokemon": "Beldum"
+  },
+  {
+    "id": 150,
+    "name": "Fireplace Nap Spot",
+    "requirements": "Material x1",
+    "pokemon": "Typhlosion, Quilava"
+  },
+  {
+    "id": 151,
+    "name": "Surging Psychic Power",
+    "requirements": "Material x1",
+    "pokemon": "Alakazam, Abra"
+  },
+  {
+    "id": 152,
+    "name": "Fortune Tellers Table",
+    "requirements": "Material x1",
+    "pokemon": "Kadabra, Abra"
+  },
+  {
+    "id": 153,
+    "name": "Trash Site Tv",
+    "requirements": "Material x1",
+    "pokemon": "Dusclops, Dusknoir"
+  },
+  {
+    "id": 154,
+    "name": "Oversized Dumping Ground",
+    "requirements": "Material x1",
+    "pokemon": "Tinkatink, Tinkaton"
+  },
+  {
+    "id": 155,
+    "name": "Interrogation Desk",
+    "requirements": "Material x1",
+    "pokemon": "Sprigatito, Floragato"
+  },
+  {
+    "id": 156,
+    "name": "Sewer Hole Inspection",
+    "requirements": "Material x1",
+    "pokemon": "Corviknight, Tinkatuff, Poliwrath, Tinkatink"
+  },
+  {
+    "id": 157,
+    "name": "Spotless Washing Station",
+    "requirements": "Material x1",
+    "pokemon": "Mime Jr, Mr Mime"
+  },
+  {
+    "id": 158,
+    "name": "Home Theater",
+    "requirements": "Material x1",
+    "pokemon": "Mismagius"
+  },
+  {
+    "id": 159,
+    "name": "Study Area",
+    "requirements": "Material x1",
+    "pokemon": "Kirlia, Ralts"
+  },
+  {
+    "id": 160,
+    "name": "Rhythmic Living Room",
+    "requirements": "Material x1",
+    "pokemon": "Noivern, Noibat"
+  },
+  {
+    "id": 161,
+    "name": "Squeaky Clean",
+    "requirements": "Material x1",
+    "pokemon": "Poliwag"
+  },
+  {
+    "id": 162,
+    "name": "Moisturizing Makeup Stand",
+    "requirements": "Material x1",
+    "pokemon": "Kirlia, Gardevoir"
+  },
+  {
+    "id": 163,
+    "name": "Mini Library",
+    "requirements": "Material x1",
+    "pokemon": "Gardevoir"
+  },
+  {
+    "id": 164,
+    "name": "Game Corner Battle Zone",
+    "requirements": "Material x1",
+    "pokemon": "Porygon Z"
+  },
+  {
+    "id": 165,
+    "name": "Playland",
+    "requirements": "Material x1",
+    "pokemon": "Snivy"
+  },
+  {
+    "id": 166,
+    "name": "Work Desk",
+    "requirements": "Material x1",
+    "pokemon": "Porygon2"
+  },
+  {
+    "id": 167,
+    "name": "Office Storeroom",
+    "requirements": "Material x1",
+    "pokemon": "Mismagius, Drakloak, Dragapult, Misdreavus"
+  },
+  {
+    "id": 168,
+    "name": "Experiment Space",
+    "requirements": "Material x1",
+    "pokemon": "Alakazam"
+  },
+  {
+    "id": 169,
+    "name": "Professors Apprentice Program",
+    "requirements": "Material x1",
+    "pokemon": "Metang"
+  },
+  {
+    "id": 170,
+    "name": "Researchers Desk",
+    "requirements": "Material x1",
+    "pokemon": "Porygon"
+  },
+  {
+    "id": 171,
+    "name": "Public Reading Material",
+    "requirements": "Material x1",
+    "pokemon": "Serperior, Mime Jr"
+  },
+  {
+    "id": 172,
+    "name": "Heart Pounding Surprise Box",
+    "requirements": "Material x1",
+    "pokemon": "Meowscarada"
+  },
+  {
+    "id": 173,
+    "name": "Prank Button",
+    "requirements": "Material x1",
+    "pokemon": "Greninja, Frogadier"
+  },
+  {
+    "id": 174,
+    "name": "Picturesque Photo Cutout Board",
+    "requirements": "Material x1",
+    "pokemon": "Plusle, Minun"
+  },
+  {
+    "id": 175,
+    "name": "Tire Park",
+    "requirements": "Material x1",
+    "pokemon": "Dedenne"
+  },
+  {
+    "id": 176,
+    "name": "Natures Market",
+    "requirements": "Material x1",
+    "pokemon": "Raichu"
+  },
+  {
+    "id": 177,
+    "name": "Construction Site Generator",
+    "requirements": "Material x1",
+    "pokemon": "Conkeldurr"
+  },
+  {
+    "id": 178,
+    "name": "Dojo Training",
+    "requirements": "Material x1",
+    "pokemon": "Gallade, Poliwrath"
+  },
+  {
+    "id": 179,
+    "name": "Evil Organization Hq",
+    "requirements": "Material x1",
+    "pokemon": "Persian"
+  },
+  {
+    "id": 180,
+    "name": "Nine Flames",
+    "requirements": "Material x1",
+    "pokemon": "Ninetales"
+  },
+  {
+    "id": 181,
+    "name": "Plush Central",
+    "requirements": "Material x1",
+    "pokemon": "Drifloon, Drifblim"
+  },
+  {
+    "id": 182,
+    "name": "Gamers Paradise",
+    "requirements": "Material x1",
+    "pokemon": "Metagross"
+  },
+  {
+    "id": 183,
+    "name": "Top Pop",
+    "requirements": "Material x1",
+    "pokemon": "Typhlosion"
+  },
+  {
+    "id": 184,
+    "name": "Fishing Pond",
+    "requirements": "Material x1",
+    "pokemon": "Slowbro, Slowking"
+  },
+  {
+    "id": 185,
+    "name": "Ocean Fishing Spot",
+    "requirements": "Material x1",
+    "pokemon": "Gastrodon East Sea, Magikarp"
+  },
+  {
+    "id": 186,
+    "name": "Marsh Fishing Spot",
+    "requirements": "Material x1",
+    "pokemon": "Muk, Clodsire, Grimer"
+  },
+  {
+    "id": 187,
+    "name": "Hot Spring Fishing Spot",
+    "requirements": "Material x1",
+    "pokemon": "Lombre, Lotad"
+  },
+  {
+    "id": 188,
+    "name": "Magma Fishing Spot",
+    "requirements": "Material x1",
+    "pokemon": "Arcanine"
+  },
+  {
+    "id": 191,
+    "name": "Malicious Knights Shrine",
+    "requirements": "Material x1",
+    "pokemon": "Ceruledge"
+  },
+  {
+    "id": 192,
+    "name": "Auspicious Knights Shrine",
+    "requirements": "Material x1",
+    "pokemon": "Armarouge"
+  },
+  {
+    "id": 193,
+    "name": "Wing Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Aerodactyl"
+  },
+  {
+    "id": 194,
+    "name": "Skull Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Cranidos"
+  },
+  {
+    "id": 195,
+    "name": "Headbutt Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Rampardos"
+  },
+  {
+    "id": 196,
+    "name": "Armor Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Shieldon"
+  },
+  {
+    "id": 197,
+    "name": "Shield Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Bastiodon"
+  },
+  {
+    "id": 198,
+    "name": "Jaw Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Tyrunt"
+  },
+  {
+    "id": 199,
+    "name": "Despot Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Tyrantrum"
+  },
+  {
+    "id": 200,
+    "name": "Sail Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Amaura"
+  },
+  {
+    "id": 201,
+    "name": "Tundra Fossil Display",
+    "requirements": "Material x1",
+    "pokemon": "Aurorus"
+  },
+  {
+    "id": 202,
+    "name": "Boundless Blue Beverage",
+    "requirements": "Material x1",
+    "pokemon": "Vaporeon"
+  },
+  {
+    "id": 203,
+    "name": "Electrifying Potatoes",
+    "requirements": "Material x1",
+    "pokemon": "Jolteon"
+  },
+  {
+    "id": 204,
+    "name": "Burning Hot Spice",
+    "requirements": "Material x1",
+    "pokemon": "Flareon"
+  },
+  {
+    "id": 205,
+    "name": "Elegant Daytime Treats",
+    "requirements": "Material x1",
+    "pokemon": "Espeon"
+  },
+  {
+    "id": 206,
+    "name": "Dark Chocolate Cookies",
+    "requirements": "Material x1",
+    "pokemon": "Umbreon"
+  },
+  {
+    "id": 207,
+    "name": "Leafy Greens Sandwich",
+    "requirements": "Material x1",
+    "pokemon": "Leafeon"
+  },
+  {
+    "id": 208,
+    "name": "Chilly Shaved Ice",
+    "requirements": "Material x1",
+    "pokemon": "Glaceon"
+  },
+  {
+    "id": 209,
+    "name": "Lovely Ribbon Cake",
+    "requirements": "Material x1",
+    "pokemon": "Sylveon"
+  }
+]

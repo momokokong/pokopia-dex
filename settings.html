@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Settings | Pokopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-settings.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF8C42">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <div class="top-nav__left">
+      <span class="top-nav__title" data-i18n="settings_title">⚙️ 設定</span>
+    </div>
+    <div class="top-nav__right">
+      <button class="lang-btn" data-lang="zh">🇹🇼</button>
+      <button class="lang-btn" data-lang="en">🇺🇸</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
+    </div>
+  </nav>
+
+  <div class="settings-page">
+
+    <!-- Language Section -->
+    <section class="settings-section">
+      <h2 class="settings-section__title" data-i18n="settings_lang">🌐 語言設定</h2>
+      <div class="settings-lang-grid">
+        <button class="settings-lang-btn" data-lang="zh">
+          <span class="settings-lang-btn__flag">🇹🇼</span>
+          <span class="settings-lang-btn__label">中文</span>
+          <span class="settings-lang-btn__check">✓</span>
+        </button>
+        <button class="settings-lang-btn" data-lang="en">
+          <span class="settings-lang-btn__flag">🇺🇸</span>
+          <span class="settings-lang-btn__label">English</span>
+          <span class="settings-lang-btn__check">✓</span>
+        </button>
+        <button class="settings-lang-btn" data-lang="es">
+          <span class="settings-lang-btn__flag">🇪🇸</span>
+          <span class="settings-lang-btn__label">Español</span>
+          <span class="settings-lang-btn__check">✓</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Trilingual Mode -->
+    <section class="settings-section">
+      <h2 class="settings-section__title" data-i18n="settings_trilingual">📚 三語顯示模式</h2>
+      <div class="settings-toggle-row">
+        <div class="settings-toggle-row__text">
+          <div class="settings-toggle-row__label" data-i18n="settings_trilingual_desc">同時顯示三語名稱</div>
+          <div class="settings-toggle-row__hint" data-i18n="settings_trilingual_hint">在卡片上同時顯示中、英、西名稱</div>
+        </div>
+        <label class="settings-toggle">
+          <input type="checkbox" id="trilingualToggle">
+          <span class="settings-toggle__slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Data Management -->
+    <section class="settings-section">
+      <h2 class="settings-section__title" data-i18n="settings_data">💾 資料管理</h2>
+
+      <div class="settings-action-row" id="exportBtn">
+        <div class="settings-action-row__icon">📤</div>
+        <div class="settings-action-row__text">
+          <div class="settings-action-row__label" data-i18n="settings_export">匯出收集進度</div>
+          <div class="settings-action-row__hint" data-i18n="settings_export_hint">下載 JSON 檔案備份</div>
+        </div>
+        <span class="settings-action-row__arrow">›</span>
+      </div>
+
+      <div class="settings-action-row" id="importBtn">
+        <div class="settings-action-row__icon">📥</div>
+        <div class="settings-action-row__text">
+          <div class="settings-action-row__label" data-i18n="settings_import">匯入收集進度</div>
+          <div class="settings-action-row__hint" data-i18n="settings_import_hint">從 JSON 檔案還原</div>
+        </div>
+        <span class="settings-action-row__arrow">›</span>
+      </div>
+      <input type="file" id="importFileInput" accept=".json" style="display:none">
+
+      <div class="settings-action-row settings-action-row--danger" id="clearBtn">
+        <div class="settings-action-row__icon">🗑️</div>
+        <div class="settings-action-row__text">
+          <div class="settings-action-row__label" data-i18n="settings_clear">清除所有資料</div>
+          <div class="settings-action-row__hint" data-i18n="settings_clear_hint">刪除收集進度與設定</div>
+        </div>
+        <span class="settings-action-row__arrow">›</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="settings-section">
+      <h2 class="settings-section__title" data-i18n="settings_about">ℹ️ 關於</h2>
+      <div class="settings-info-card">
+        <div class="settings-info-row">
+          <span class="settings-info-row__label" data-i18n="settings_version">版本</span>
+          <span class="settings-info-row__value">1.0.0</span>
+        </div>
+        <div class="settings-info-row">
+          <span class="settings-info-row__label" data-i18n="settings_app">應用程式</span>
+          <span class="settings-info-row__value">Pokopia 三語寶可夢圖鑑</span>
+        </div>
+        <div class="settings-info-row">
+          <span class="settings-info-row__label" data-i18n="settings_pokemon_count">寶可夢數量</span>
+          <span class="settings-info-row__value" id="pokemonCountValue">—</span>
+        </div>
+        <div class="settings-info-row">
+          <span class="settings-info-row__label" data-i18n="settings_collected">已收集</span>
+          <span class="settings-info-row__value" id="collectedCountValue">—</span>
+        </div>
+      </div>
+      <div class="settings-links">
+        <div class="settings-link-row" id="clearCacheBtn">
+          <span data-i18n="settings_clear_cache">清除快取</span>
+          <span class="settings-link-row__arrow">›</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="settings-disclaimer" data-i18n="settings_disclaimer">
+      ⚠️ 中文與西班牙文描述為 AI 翻譯，僅供教育參考用途。寶可夢名稱為官方譯名。圖片版權歸 Nintendo/Game Freak 所有。
+    </div>
+
+  </div>
+
+  <!-- Clear Data Confirmation Modal -->
+  <div class="settings-modal" id="clearModal">
+    <div class="settings-modal__overlay"></div>
+    <div class="settings-modal__content">
+      <div class="settings-modal__icon">⚠️</div>
+      <h3 class="settings-modal__title" data-i18n="settings_clear_confirm_title">確定要清除所有資料？</h3>
+      <p class="settings-modal__desc" data-i18n="settings_clear_confirm_desc">這將刪除你的收集進度與所有設定。此操作無法復原。</p>
+      <div class="settings-modal__actions">
+        <button class="settings-modal__btn settings-modal__btn--cancel" id="clearCancelBtn" data-i18n="settings_cancel">取消</button>
+        <button class="settings-modal__btn settings-modal__btn--danger" id="clearConfirmBtn" data-i18n="settings_clear_confirm">清除</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Import Success Toast -->
+  <div class="settings-toast" id="importToast">
+    <span class="settings-toast__icon">✅</span>
+    <span class="settings-toast__text" data-i18n="settings_import_success">匯入成功！</span>
+  </div>
+
+  <div class="settings-toast" id="exportToast">
+    <span class="settings-toast__icon">✅</span>
+    <span class="settings-toast__text" data-i18n="settings_export_success">匯出成功！</span>
+  </div>
+
+  <!-- Bottom Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-bar__item" data-tab="dex" href="index.html">
+      <span class="tab-bar__icon">📖</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+    </a>
+    <a class="tab-bar__item" data-tab="habitats" href="habitats.html">
+      <span class="tab-bar__icon">🏝️</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+    </a>
+    <a class="tab-bar__item" data-tab="badges" href="badges.html">
+      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
+    </a>
+    <a class="tab-bar__item active" data-tab="settings" href="settings.html">
+      <span class="tab-bar__icon">⚙️</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+  <script>
+    const I18N = {
+      zh: {
+        settings_title: '⚙️ 設定',
+        settings_lang: '🌐 語言設定',
+        settings_trilingual: '📚 三語顯示模式',
+        settings_trilingual_desc: '同時顯示三語名稱',
+        settings_trilingual_hint: '在卡片上同時顯示中、英、西名稱',
+        settings_data: '💾 資料管理',
+        settings_export: '匯出收集進度',
+        settings_export_hint: '下載 JSON 檔案備份',
+        settings_import: '匯入收集進度',
+        settings_import_hint: '從 JSON 檔案還原',
+        settings_clear: '清除所有資料',
+        settings_clear_hint: '刪除收集進度與設定',
+        settings_about: 'ℹ️ 關於',
+        settings_version: '版本',
+        settings_app: '應用程式',
+        settings_pokemon_count: '寶可夢數量',
+        settings_collected: '已收集',
+        settings_clear_cache: '清除快取',
+        settings_disclaimer: '⚠️ 中文與西班牙文描述為 AI 翻譯，僅供教育參考用途。寶可夢名稱為官方譯名。圖片版權歸 Nintendo/Game Freak 所有。',
+        settings_clear_confirm_title: '確定要清除所有資料？',
+        settings_clear_confirm_desc: '這將刪除你的收集進度與所有設定。此操作無法復原。',
+        settings_cancel: '取消',
+        settings_clear_confirm: '清除',
+        settings_import_success: '匯入成功！',
+        settings_export_success: '匯出成功！',
+        tab_dex: '圖鑑',
+        tab_habitats: '棲息地',
+        tab_badges: 'Badge',
+        tab_settings: '設定'
+      },
+      en: {
+        settings_title: '⚙️ Settings',
+        settings_lang: '🌐 Language',
+        settings_trilingual: '📚 Trilingual Mode',
+        settings_trilingual_desc: 'Show all three languages',
+        settings_trilingual_hint: 'Display Chinese, English & Spanish names on cards',
+        settings_data: '💾 Data Management',
+        settings_export: 'Export Collection',
+        settings_export_hint: 'Download JSON backup file',
+        settings_import: 'Import Collection',
+        settings_import_hint: 'Restore from JSON file',
+        settings_clear: 'Clear All Data',
+        settings_clear_hint: 'Delete progress & settings',
+        settings_about: 'ℹ️ About',
+        settings_version: 'Version',
+        settings_app: 'App',
+        settings_pokemon_count: 'Pokémon Count',
+        settings_collected: 'Collected',
+        settings_clear_cache: 'Clear Cache',
+        settings_disclaimer: '⚠️ Chinese and Spanish descriptions are AI-translated for educational reference only. Pokémon names are official translations. Images © Nintendo/Game Freak.',
+        settings_clear_confirm_title: 'Clear all data?',
+        settings_clear_confirm_desc: 'This will delete your collection progress and all settings. This cannot be undone.',
+        settings_cancel: 'Cancel',
+        settings_clear_confirm: 'Clear',
+        settings_import_success: 'Import successful!',
+        settings_export_success: 'Export successful!',
+        tab_dex: 'Pokédex',
+        tab_habitats: 'Habitats',
+        tab_badges: 'Badges',
+        tab_settings: 'Settings'
+      },
+      es: {
+        settings_title: '⚙️ Configuración',
+        settings_lang: '🌐 Idioma',
+        settings_trilingual: '📚 Modo trilingüe',
+        settings_trilingual_desc: 'Mostrar los tres idiomas',
+        settings_trilingual_hint: 'Mostrar nombres en chino, inglés y español en las tarjetas',
+        settings_data: '💾 Gestión de datos',
+        settings_export: 'Exportar colección',
+        settings_export_hint: 'Descargar archivo JSON de respaldo',
+        settings_import: 'Importar colección',
+        settings_import_hint: 'Restaurar desde archivo JSON',
+        settings_clear: 'Borrar todos los datos',
+        settings_clear_hint: 'Eliminar progreso y configuración',
+        settings_about: 'ℹ️ Acerca de',
+        settings_version: 'Versión',
+        settings_app: 'Aplicación',
+        settings_pokemon_count: 'Cantidad de Pokémon',
+        settings_collected: 'Coleccionados',
+        settings_clear_cache: 'Limpiar caché',
+        settings_disclaimer: '⚠️ Las descripciones en chino y español son traducciones de IA solo para referencia educativa. Los nombres de Pokémon son traducciones oficiales. Imágenes © Nintendo/Game Freak.',
+        settings_clear_confirm_title: '¿Borrar todos los datos?',
+        settings_clear_confirm_desc: 'Esto eliminará tu progreso de colección y toda la configuración. No se puede deshacer.',
+        settings_cancel: 'Cancelar',
+        settings_clear_confirm: 'Borrar',
+        settings_import_success: '¡Importación exitosa!',
+        settings_export_success: '¡Exportación exitosa!',
+        tab_dex: 'Pokédex',
+        tab_habitats: 'Hábitats',
+        tab_badges: 'Medallas',
+        tab_settings: 'Configuración'
+      }
+    };
+
+    function applyI18N() {
+      const lang = POKOPIA_DEX.getLang();
+      const strings = I18N[lang] || I18N.en;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (strings[key]) el.textContent = strings[key];
+      });
+      // Update page title
+      document.title = (strings.settings_title || 'Settings') + ' | Pokopia';
+    }
+
+    async function init() {
+      POKOPIA_DEX.loadData();
+      POKOPIA_DEX.renderLangButtons();
+      POKOPIA_DEX.renderTabBar('settings');
+
+      // Trilingual toggle
+      const trilingualToggle = document.getElementById('trilingualToggle');
+      trilingualToggle.checked = localStorage.getItem('pokopia-trilingual') === 'true';
+      trilingualToggle.addEventListener('change', () => {
+        localStorage.setItem('pokopia-trilingual', trilingualToggle.checked);
+        // Dispatch event so other pages can react
+        document.dispatchEvent(new CustomEvent('trilingualchange', { detail: { enabled: trilingualToggle.checked } }));
+      });
+
+      // Language buttons in settings
+      document.querySelectorAll('.settings-lang-btn').forEach(btn => {
+        const lang = btn.dataset.lang;
+        if (lang === POKOPIA_DEX.getLang()) btn.classList.add('active');
+        btn.addEventListener('click', () => {
+          POKOPIA_DEX.setLang(lang);
+          document.querySelectorAll('.settings-lang-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          applyI18N();
+        });
+      });
+
+      // Update counts
+      updateCounts();
+
+      // Export
+      document.getElementById('exportBtn').addEventListener('click', exportData);
+      // Import
+      document.getElementById('importBtn').addEventListener('click', () => {
+        document.getElementById('importFileInput').click();
+      });
+      document.getElementById('importFileInput').addEventListener('change', importData);
+
+      // Clear data
+      document.getElementById('clearBtn').addEventListener('click', () => {
+        document.getElementById('clearModal').classList.add('open');
+      });
+      document.getElementById('clearCancelBtn').addEventListener('click', () => {
+        document.getElementById('clearModal').classList.remove('open');
+      });
+      document.getElementById('clearConfirmBtn').addEventListener('click', clearAllData);
+      document.querySelector('.settings-modal__overlay').addEventListener('click', () => {
+        document.getElementById('clearModal').classList.remove('open');
+      });
+
+      // Clear cache
+      document.getElementById('clearCacheBtn').addEventListener('click', clearCache);
+
+      // Language change listener
+      document.addEventListener('langchange', () => {
+        applyI18N();
+        updateActiveLangBtn();
+      });
+
+      applyI18N();
+    }
+
+    function updateActiveLangBtn() {
+      const lang = POKOPIA_DEX.getLang();
+      document.querySelectorAll('.settings-lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+    }
+
+    function updateCounts() {
+      const collected = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
+      document.getElementById('pokemonCountValue').textContent = '303';
+      document.getElementById('collectedCountValue').textContent = collected.length + ' / 303';
+    }
+
+    function exportData() {
+      const data = {
+        version: '1.0.0',
+        exportedAt: new Date().toISOString(),
+        collected: JSON.parse(localStorage.getItem('pokopia-collected') || '[]'),
+        language: localStorage.getItem('pokopia-lang') || 'en',
+        trilingual: localStorage.getItem('pokopia-trilingual') === 'true'
+      };
+      const json = JSON.stringify(data, null, 2);
+      const blob = new Blob([json], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'pokopia-collection-backup.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('exportToast');
+    }
+
+    function importData(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const data = JSON.parse(e.target.result);
+          if (data.collected && Array.isArray(data.collected)) {
+            localStorage.setItem('pokopia-collected', JSON.stringify(data.collected));
+          }
+          if (data.language) {
+            localStorage.setItem('pokopia-lang', data.language);
+            POKOPIA_DEX.setLang(data.language);
+          }
+          if (typeof data.trilingual === 'boolean') {
+            localStorage.setItem('pokopia-trilingual', data.trilingual);
+            document.getElementById('trilingualToggle').checked = data.trilingual;
+          }
+          updateCounts();
+          updateActiveLangBtn();
+          applyI18N();
+          showToast('importToast');
+        } catch (err) {
+          alert('Invalid file format.');
+        }
+      };
+      reader.readAsText(file);
+      event.target.value = '';
+    }
+
+    function clearAllData() {
+      localStorage.removeItem('pokopia-collected');
+      localStorage.removeItem('pokopia-lang');
+      localStorage.removeItem('pokopia-trilingual');
+      document.getElementById('clearModal').classList.remove('open');
+      document.getElementById('trilingualToggle').checked = false;
+      POKOPIA_DEX.setLang('en');
+      updateCounts();
+      updateActiveLangBtn();
+      applyI18N();
+    }
+
+    function clearCache() {
+      if ('caches' in window) {
+        caches.keys().then(names => {
+          names.forEach(name => caches.delete(name));
+        });
+      }
+      alert('Cache cleared!');
+    }
+
+    function showToast(toastId) {
+      const toast = document.getElementById(toastId);
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then(reg => {
+          console.log('SW registered:', reg.scope);
+        }).catch(err => {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Pokémon Detail | Pokopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF8C42">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <div class="top-nav__left">
+      <button class="top-nav__back" onclick="history.back()">←</button>
+      <span class="top-nav__title" id="navTitle">Pokédex</span>
+    </div>
+    <div class="top-nav__right">
+      <button class="lang-btn" data-lang="zh">🇹🇼</button>
+      <button class="lang-btn" data-lang="en">🇺🇸</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
+    </div>
+  </nav>
+
+  <div class="detail-container" id="detailContainer">
+    <!-- Dynamically rendered -->
+  </div>
+
+  <!-- Bottom Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-bar__item" data-tab="dex" href="index.html">
+      <span class="tab-bar__icon">📖</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+    </a>
+    <a class="tab-bar__item" data-tab="habitats" href="habitats.html">
+      <span class="tab-bar__icon">🏝️</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+    </a>
+    <a class="tab-bar__item" data-tab="badges" href="badges.html">
+      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
+    </a>
+    <a class="tab-bar__item" data-tab="settings" href="settings.html">
+      <span class="tab-bar__icon">⚙️</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+  <script>
+    const I18N = {
+      zh: {
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        specialties: '特技', ideal_habitat: '理想棲息環境', favorites: '喜歡的東西',
+        rarity: '稀有度', where_to_find: '哪裡可以找到', description: 'Pokopia 簡介',
+        loved_items: '喜愛物品', furniture: '🪑 家具', food: '🍎 食物', misc: '📦 雜項',
+        collect_btn: '收集到了！', collected_btn: '✅ 已收集',
+        time: '時間', weather: '天氣', how_to_find: '如何找到',
+        all_day: '全天候', all_weather: '全天氣', special: '特殊',
+        zone: '區域', no_items: '尚無資料',
+        biome: '棲息地', common: '常見', uncommon: '較稀有', rare: '稀有'
+      },
+      en: {
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        specialties: 'Specialties', ideal_habitat: 'Ideal Habitat', favorites: 'Favorites',
+        rarity: 'Rarity', where_to_find: 'Where to Find', description: 'Pokopia Description',
+        loved_items: 'Loved Items', furniture: '🪑 Furniture', food: '🍎 Food', misc: '📦 Misc.',
+        collect_btn: 'Collected!', collected_btn: '✅ Collected',
+        time: 'Time', weather: 'Weather', how_to_find: 'How to Find',
+        all_day: 'All day', all_weather: 'All weather', special: 'Special',
+        zone: 'Zone', no_items: 'No data',
+        biome: 'Biome', common: 'Common', uncommon: 'Uncommon', rare: 'Rare'
+      },
+      es: {
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        specialties: 'Especialidades', ideal_habitat: 'Hábitat Ideal', favorites: 'Favoritos',
+        rarity: 'Rareza', where_to_find: 'Dónde encontrar', description: 'Descripción Pokopia',
+        loved_items: 'Objetos Favoritos', furniture: '🪑 Mobiliario', food: '🍎 Comida', misc: '📦 Varios',
+        collect_btn: '¡Recogido!', collected_btn: '✅ Recogido',
+        time: 'Hora', weather: 'Clima', how_to_find: 'Cómo encontrar',
+        all_day: 'Todo el día', all_weather: 'Todo clima', special: 'Especial',
+        zone: 'Zona', no_items: 'Sin datos',
+        biome: 'Bioma', common: 'Común', uncommon: 'Poco común', rare: 'Raro'
+      }
+    };
+
+    // Favorites emoji & color class map
+    const FAV_STYLE = {
+      'Lots of nature': { emoji: '🌿', cls: 'fav-tag--nature' },
+      'Soft stuff': { emoji: '🧸', cls: 'fav-tag--soft' },
+      'Cute stuff': { emoji: '💖', cls: 'fav-tag--cute' },
+      'Lots of water': { emoji: '💧', cls: 'fav-tag--water' },
+      'Group activities': { emoji: '🎉', cls: 'fav-tag--group' },
+      'Sweet flavors': { emoji: '🍬', cls: 'fav-tag--sweet' },
+      'Lots of fire': { emoji: '🔥', cls: 'fav-tag--fire' },
+      'Wooden stuff': { emoji: '🪵', cls: 'fav-tag--nature' },
+      'Hard stuff': { emoji: '🪨', cls: 'fav-tag--default' },
+      'Exercise': { emoji: '💪', cls: 'fav-tag--default' },
+      'Spicy flavors': { emoji: '🌶️', cls: 'fav-tag--fire' },
+      'Stone stuff': { emoji: '🪨', cls: 'fav-tag--default' },
+      'Letters and words': { emoji: '📝', cls: 'fav-tag--default' },
+      'Pretty flowers': { emoji: '🌸', cls: 'fav-tag--nature' },
+      'Gatherings': { emoji: '👥', cls: 'fav-tag--group' },
+      'Watching stuff': { emoji: '👀', cls: 'fav-tag--default' },
+      'Ocean vibes': { emoji: '🌊', cls: 'fav-tag--water' },
+      'Luxury': { emoji: '✨', cls: 'fav-tag--sweet' },
+      'Shiny stuff': { emoji: '💎', cls: 'fav-tag--default' },
+      'Glass stuff': { emoji: '🔮', cls: 'fav-tag--default' },
+      'Dry flavors': { emoji: '🫘', cls: 'fav-tag--default' }
+    };
+
+    // Ideal habitat emoji map
+    const HABITAT_EMOJI = {
+      'Bright': '🌞', '溫暖': '🌡️', 'Warm': '🌡️', 'Cálido': '🌡️',
+      'Humid': '💧', '潮濕': '💧', 'Húmedo': '💧',
+      '明亮': '🌞', 'Brillante': '🌞'
+    };
+
+    let pokemon = null;
+
+    function getTimeLabel(time, lang) {
+      const t = I18N[lang] || I18N.en;
+      if (time === 'All day') return t.all_day;
+      if (time === 'Special') return t.special;
+      return time;
+    }
+
+    function getWeatherLabel(weather, lang) {
+      const t = I18N[lang] || I18N.en;
+      if (weather === 'All weather') return t.all_weather;
+      if (weather === 'Special') return t.special;
+      return weather;
+    }
+
+    function getRarityLabel(rarity, lang) {
+      const t = I18N[lang] || I18N.en;
+      const map = { Common: t.common, Uncommon: t.uncommon, Rare: t.rare };
+      return map[rarity] || rarity;
+    }
+
+    function getRarityClass(rarity) {
+      const map = { Common: 'common', Uncommon: 'uncommon', Rare: 'rare' };
+      return map[rarity] || 'common';
+    }
+
+    function getFavTag(fav) {
+      const style = FAV_STYLE[fav] || { emoji: '❤️', cls: 'fav-tag--default' };
+      return `<span class="fav-tag ${style.cls}">${style.emoji} ${fav}</span>`;
+    }
+
+    function getHabitatEmoji(habitatName) {
+      return HABITAT_EMOJI[habitatName] || '🏠';
+    }
+
+    async function init() {
+      // Support both ?id=X and #id=X for robustness
+      let id;
+      const params = new URLSearchParams(window.location.search);
+      const hashMatch = window.location.hash.match(/id=(\d+)/);
+      if (params.get('id')) {
+        id = parseInt(params.get('id'));
+      } else if (hashMatch) {
+        id = parseInt(hashMatch[1]);
+      } else {
+        const urlId = window.location.href.match(/id[=](\d+)/);
+        id = urlId ? parseInt(urlId[1]) : NaN;
+      }
+      const allPokemon = await POKOPIA_DEX.loadData();
+      pokemon = allPokemon.find(p => p.id === id);
+      if (!pokemon) {
+        console.error('Pokemon not found! id:', id, 'available:', allPokemon.map(p=>p.id));
+        document.getElementById('detailContainer').innerHTML = '<div style="text-align:center;padding:60px 16px;color:var(--text-secondary)">Pokémon not found 😢</div>';
+        return;
+      }
+      POKOPIA_DEX.renderLangButtons();
+      renderDetail();
+      document.addEventListener('langchange', () => {
+        updateI18N();
+        renderDetail();
+      });
+      updateI18N();
+    }
+
+    function updateI18N() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (t[key]) el.textContent = t[key];
+      });
+    }
+
+    function renderDetail() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      const collected = POKOPIA_DEX.isCollected(pokemon.id);
+      const mainName = POKOPIA_DEX.getName(pokemon, lang);
+      const primaryType = pokemon.types[0];
+      const stars = POKOPIA_DEX.getStars(pokemon.rarity_stars);
+      const rarityText = getRarityLabel(pokemon.rarity, lang);
+      const desc = POKOPIA_DEX.getDescription(pokemon, lang);
+      const idealHabitat = POKOPIA_DEX.getIdealHabitat(pokemon, lang);
+
+      // Names in other languages
+      const otherLangs = ['zh','en','es'].filter(l => l !== lang);
+      const subNames = otherLangs.map(l => pokemon.name[l]).filter(Boolean);
+
+      // Type tags
+      const typeTags = pokemon.types.map(ty =>
+        `<span class="type-tag" data-type="${ty}">${POKOPIA_DEX.getTypeEmoji(ty)} ${ty}</span>`
+      ).join('');
+
+      // Specialties tags
+      const specTags = pokemon.specialties.length > 0
+        ? pokemon.specialties.map(s => `<span class="specialty-tag">${s}</span>`).join('')
+        : `<span class="tag" style="color:var(--text-light);background:rgba(0,0,0,0.04)">—</span>`;
+
+      // Ideal habitat tag with emoji
+      const habitatEmoji = getHabitatEmoji(idealHabitat);
+      const idealHabitatTag = `<span class="ideal-habitat-tag"><span class="ideal-habitat-tag__emoji">${habitatEmoji}</span> ${idealHabitat}</span>`;
+
+      // Favorites tags
+      const favTags = pokemon.favorites.map(f => getFavTag(f)).join('');
+
+      // ---- Where to Find section ----
+      let whereToFindHTML = '';
+
+      // Zone badge (if present)
+      if (pokemon.habitat.zone) {
+        whereToFindHTML += `<div style="margin-bottom:8px"><span class="biome-card__zone">📍 ${pokemon.habitat.zone}</span></div>`;
+      }
+
+      // Biome cards
+      if (pokemon.habitat.biomes && pokemon.habitat.biomes.length > 0) {
+        pokemon.habitat.biomes.forEach(b => {
+          const biomeName = POKOPIA_DEX.getBiomeName(b, lang);
+          const biomeEmoji = POKOPIA_DEX.BIOME_EMOJI[b.name.en] || '🌿';
+          const rarityClass = getRarityClass(pokemon.rarity);
+          whereToFindHTML += `
+            <a class="biome-card" href="habitat-detail.html?id=${b.id}" style="text-decoration:none;color:inherit">
+              <div style="display:flex;align-items:center;gap:6px">
+                <span style="font-size:20px">${biomeEmoji}</span>
+                <span class="biome-card__name">${biomeName}</span>
+                <span class="biome-card__id">#${String(b.id).padStart(3, '0')}</span>
+              </div>
+              <span class="biome-card__rarity biome-card__rarity--${rarityClass}">${getRarityLabel(pokemon.rarity, lang)}</span>
+              <span class="biome-card__link">›</span>
+              <div class="biome-card__meta">
+                <span>⏰ ${t.time}: ${getTimeLabel(pokemon.habitat.time, lang)}</span>
+                <span>🌤️ ${t.weather}: ${getWeatherLabel(pokemon.habitat.weather, lang)}</span>
+              </div>
+            </a>`;
+        });
+      }
+
+      // Time and weather (if no biomes but still has time/weather info)
+      if (!pokemon.habitat.biomes || pokemon.habitat.biomes.length === 0) {
+        whereToFindHTML += `
+          <div class="biome-card__meta" style="margin-top:4px">
+            <span>⏰ ${t.time}: ${getTimeLabel(pokemon.habitat.time, lang)}</span>
+            <span>🌤️ ${t.weather}: ${getWeatherLabel(pokemon.habitat.weather, lang)}</span>
+          </div>`;
+      }
+
+      // How to find (special task)
+      if (pokemon.habitat.how_to_find) {
+        const howText = pokemon.habitat.how_to_find[lang] || pokemon.habitat.how_to_find.en;
+        whereToFindHTML += `
+          <div class="how-to-find-alert">
+            <span class="how-to-find-alert__icon">🔍</span>${t.how_to_find}: ${howText}
+          </div>`;
+      }
+
+      // ---- Loved Items section ----
+      const hasLovedItems = (pokemon.loved_items.furniture && pokemon.loved_items.furniture.length > 0)
+        || (pokemon.loved_items.food && pokemon.loved_items.food.length > 0)
+        || (pokemon.loved_items.misc && pokemon.loved_items.misc.length > 0);
+
+      let lovedItemsHTML = '';
+      if (hasLovedItems) {
+        const sections = [
+          { key: 'furniture', label: t.furniture, items: pokemon.loved_items.furniture, itemClass: 'loved-item--furniture' },
+          { key: 'food', label: t.food, items: pokemon.loved_items.food, itemClass: 'loved-item--food' },
+          { key: 'misc', label: t.misc, items: pokemon.loved_items.misc, itemClass: 'loved-item--misc' }
+        ].filter(s => s.items && s.items.length > 0);
+
+        lovedItemsHTML = sections.map((s, idx) => `
+          <div class="loved-items-category${idx === 0 ? ' open' : ''}" id="lovedCat_${s.key}">
+            <div class="loved-items-category__header" onclick="toggleLovedCategory('lovedCat_${s.key}')">
+              <span class="loved-items-category__title">${s.label} <span class="loved-items-category__count">(${s.items.length})</span></span>
+              <span class="loved-items-category__chevron">▼</span>
+            </div>
+            <div class="loved-items-category__items">
+              <div class="loved-items-category__inner">
+                ${s.items.map(item => `<span class="loved-item ${s.itemClass}">${item}</span>`).join('')}
+              </div>
+            </div>
+          </div>
+        `).join('');
+      } else {
+        lovedItemsHTML = `<div style="color:var(--text-light);font-size:13px;text-align:center;padding:16px">${t.no_items}</div>`;
+      }
+
+      // Collect button
+      const collectBtnClass = collected ? 'collect-btn--collected' : 'collect-btn--uncollected';
+      const collectBtnText = collected ? t.collected_btn : t.collect_btn;
+
+      const container = document.getElementById('detailContainer');
+      container.innerHTML = `
+        <!-- 1. Hero Section -->
+        <div class="detail-hero detail-hero--${primaryType}">
+          <div class="detail-hero__pokedex-num">#${pokemon.pokedex_number != null ? String(pokemon.pokedex_number).padStart(3, '0') : String(pokemon.id).padStart(3, '0')}</div>
+          <img class="detail-hero__sprite ${collected ? 'flip-in' : 'silhouette breathe'}"
+               src="${pokemon.sprite_url || 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/' + (pokemon.pokedex_number || pokemon.id) + '.png'}" alt="${mainName}">
+          <div class="detail-hero__names">
+            <div class="detail-hero__name-main">${mainName}</div>
+            <div class="detail-hero__name-sub">${subNames.join(' / ')}</div>
+          </div>
+          <div class="detail-hero__voice-row">
+            <button class="voice-btn" onclick="playVoice('${pokemon.name.zh}', 'zh')" title="中文">🇹🇼 🔊</button>
+            <button class="voice-btn" onclick="playVoice('${pokemon.name.en}', 'en')" title="English">🇺🇸 🔊</button>
+            <button class="voice-btn" onclick="playVoice('${pokemon.name.es}', 'es')" title="Español">🇪🇸 🔊</button>
+          </div>
+          <div class="detail-types-row">${typeTags}</div>
+          <div class="detail-rarity" style="margin-top:8px;justify-content:center">
+            <span class="detail-rarity__stars">${stars}</span>
+            <span class="detail-rarity__text">${rarityText}</span>
+          </div>
+          <div style="margin-top:12px;text-align:center">
+            <button class="collect-btn collect-btn--hero ${collectBtnClass}" id="collectBtn" onclick="toggleCollect()">
+              ${collectBtnText}
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Pokopia Description -->
+        <div class="detail-section">
+          <div class="detail-section__title">
+            ${t.description}
+            <span class="desc-voice-btns">
+              <button class="voice-btn voice-btn--sm" onclick="playDescVoice('zh')" title="中文">🇹🇼 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playDescVoice('en')" title="English">🇺🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playDescVoice('es')" title="Español">🇪🇸 🔊</button>
+            </span>
+          </div>
+          <div class="detail-desc" id="descText">${desc}</div>
+        </div>
+
+        <!-- 3. Where to Find -->
+        <div class="detail-section">
+          <div class="detail-section__title">${t.where_to_find}</div>
+          ${whereToFindHTML}
+        </div>
+
+        <!-- 4. Specialties & Likes -->
+        <div class="detail-section">
+          <div class="detail-section__title">${t.specialties}</div>
+          <div class="tags-row">${specTags}</div>
+          <div class="detail-section__title" style="margin-top:14px">${t.ideal_habitat}</div>
+          <div class="tags-row">${idealHabitatTag}</div>
+          <div class="detail-section__title" style="margin-top:14px">${t.favorites}</div>
+          <div class="tags-row">${favTags}</div>
+        </div>
+
+        <!-- 5. Loved Items -->
+        <div class="detail-section" style="padding-bottom:8px">
+          <div class="detail-section__title">${t.loved_items}</div>
+          <div class="loved-items-section">
+            ${lovedItemsHTML}
+          </div>
+        </div>
+
+
+      `;
+
+      // Nav title
+      const pokedexDisplay = pokemon.pokedex_number != null ? String(pokemon.pokedex_number).padStart(3, '0') : String(pokemon.id).padStart(3, '0');
+      document.getElementById('navTitle').textContent = `#${pokedexDisplay} ${mainName}`;
+      document.title = `${mainName} | Pokopia Pokédex`;
+    }
+
+    function toggleLovedCategory(id) {
+      document.getElementById(id).classList.toggle('open');
+    }
+
+    function toggleCollect() {
+      const collected = POKOPIA_DEX.isCollected(pokemon.id);
+      if (collected) {
+        POKOPIA_DEX.setUncollected(pokemon.id);
+      } else {
+        POKOPIA_DEX.setCollected(pokemon.id);
+        // Add bounce effect
+        const btn = document.getElementById('collectBtn');
+        btn.classList.add('bounce');
+        // Add confetti effect
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti-effect';
+        btn.style.position = 'relative';
+        btn.appendChild(confetti);
+        setTimeout(() => {
+          confetti.remove();
+          btn.classList.remove('bounce');
+        }, 700);
+      }
+      renderDetail();
+    }
+
+    let _voiceLangSave = null;
+    let _currentVoiceText = '';
+    let _cancelKaraoke = null;
+
+    function playVoice(text, lang) {
+      if ('speechSynthesis' in window) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        const langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-419' };
+        utterance.lang = langMap[lang] || lang;
+        utterance.rate = 0.85;
+        utterance.pitch = 1.2;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    // Split text into speakable chunks for word-by-word playback
+    // zh: by clauses (2-4 chars), en/es: by words
+    function splitSpeakChunks(text, lang) {
+      if (lang === 'zh') {
+        // Split Chinese into ~3-char chunks
+        var raw = [];
+        var current = '';
+        for (var i = 0; i < text.length; i++) {
+          current += text[i];
+          var isPunct = /[，。！？、；：]/.test(text[i]);
+          if (isPunct) {
+            raw.push(current);
+            current = '';
+          } else if (current.length >= 3) {
+            raw.push(current);
+            current = '';
+          }
+        }
+        if (current) raw.push(current);
+        // Merge standalone punctuation into previous chunk
+        var chunks = [];
+        for (var j = 0; j < raw.length; j++) {
+          if (/^[，。！？、；：]$/.test(raw[j]) && chunks.length > 0) {
+            chunks[chunks.length - 1] += raw[j];
+          } else {
+            chunks.push(raw[j]);
+          }
+        }
+        return chunks;
+      } else {
+        // en/es: split by words
+        return text.match(/\S+\s*/g) || [text];
+      }
+    }
+
+    // Build char-highlight span wrapper
+    function wrapCharSpans(text) {
+      var html = '';
+      for (var i = 0; i < text.length; i++) {
+        var c = text[i];
+        var esc = c === '<' ? '&lt;' : c === '>' ? '&gt;' : c === '&' ? '&amp;' : c;
+        html += '<span class="karaoke-char" data-idx="' + i + '"' + (c === ' ' ? ' style="white-space:pre"' : '') + '>' + esc + '</span>';
+      }
+      return html;
+    }
+
+    function karaokeUpdate(el, text, endIdx) {
+      var spans = el.querySelectorAll('.karaoke-char');
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].classList.toggle('karaoke-active', i < endIdx);
+      }
+    }
+
+    function karaokeClear(el) {
+      var spans = el.querySelectorAll('.karaoke-active');
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].classList.remove('karaoke-active');
+      }
+    }
+
+    function playDescVoice(voiceLang) {
+      if (!('speechSynthesis' in window)) return;
+      const currentLang = POKOPIA_DEX.getLang();
+      const descEl = document.getElementById('descText');
+      if (!descEl || !pokemon) return;
+
+      const text = pokemon.description[voiceLang] || pokemon.description.en;
+      _voiceLangSave = currentLang;
+      _currentVoiceText = text;
+      descEl.innerHTML = wrapCharSpans(text);
+
+      window.speechSynthesis.cancel();
+      if (_cancelKaraoke) { _cancelKaraoke(); _cancelKaraoke = null; }
+
+      var langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-419' };
+
+      if (voiceLang === 'zh') {
+        // Chinese: always use chunk-by-chunk playback (onboundary unreliable for zh)
+        var chunks = splitSpeakChunks(text, 'zh');
+        var charOffset = 0;
+        var chunkIdx = 0;
+        var isCancelled = false;
+
+        function speakNext() {
+          if (isCancelled || chunkIdx >= chunks.length) return;
+          var chunk = chunks[chunkIdx];
+          var thisOffset = charOffset;
+          var utt = new SpeechSynthesisUtterance(chunk);
+          utt.lang = langMap[voiceLang] || voiceLang;
+          utt.rate = 0.8;
+          utt.pitch = 1.2;
+          utt.onend = function() {
+            karaokeUpdate(descEl, text, thisOffset + chunk.length);
+            charOffset += chunk.length;
+            chunkIdx++;
+            speakNext();
+          };
+          utt.onerror = function() {
+            charOffset += chunk.length;
+            chunkIdx++;
+            speakNext();
+          };
+          window.speechSynthesis.speak(utt);
+        }
+
+        speakNext();
+
+        _cancelKaraoke = function() { isCancelled = true; window.speechSynthesis.cancel(); };
+
+        var checkDone = setInterval(function() {
+          if (isCancelled || chunkIdx >= chunks.length) {
+            clearInterval(checkDone);
+            if (!isCancelled) {
+              karaokeClear(descEl);
+              if (_voiceLangSave) {
+                descEl.textContent = POKOPIA_DEX.getDescription(pokemon, _voiceLangSave);
+                _voiceLangSave = null;
+              }
+            }
+          }
+        }, 200);
+
+      } else {
+        // en/es: speak whole sentence, use onboundary for per-word highlight
+        // Falls back to chunk-by-chunk if onboundary never fires
+        var utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = langMap[voiceLang] || voiceLang;
+        utterance.rate = 0.8;
+        utterance.pitch = 1.2;
+
+        var boundaryFired = false;
+        var lastCharIdx = -1;
+        var fallbackTimers = [];
+
+        utterance.onboundary = function(event) {
+          boundaryFired = true;
+          fallbackTimers.forEach(function(t) { clearTimeout(t); });
+          fallbackTimers = [];
+          if (event.name === 'word') {
+            var ci = event.charIndex;
+            if (ci > lastCharIdx) {
+              lastCharIdx = ci;
+              karaokeUpdate(descEl, text, ci + 1);
+            }
+          }
+        };
+
+        utterance.onstart = function() {
+          // Fallback: if onboundary never fires (Android Chrome), switch to chunk playback
+          setTimeout(function() {
+            if (!boundaryFired) {
+              window.speechSynthesis.cancel();
+              // Fallback to chunk-by-chunk
+              var chunks = splitSpeakChunks(text, voiceLang);
+              var charOffset2 = 0;
+              var chunkIdx2 = 0;
+              var isCancelled2 = false;
+
+              function speakNextChunk() {
+                if (isCancelled2 || chunkIdx2 >= chunks.length) return;
+                var chunk = chunks[chunkIdx2];
+                var thisOffset = charOffset2;
+                var utt2 = new SpeechSynthesisUtterance(chunk);
+                utt2.lang = langMap[voiceLang] || voiceLang;
+                utt2.rate = 0.8;
+                utt2.pitch = 1.2;
+                utt2.onend = function() {
+                  karaokeUpdate(descEl, text, thisOffset + chunk.length);
+                  charOffset2 += chunk.length;
+                  chunkIdx2++;
+                  speakNextChunk();
+                };
+                utt2.onerror = function() {
+                  charOffset2 += chunk.length;
+                  chunkIdx2++;
+                  speakNextChunk();
+                };
+                window.speechSynthesis.speak(utt2);
+              }
+
+              speakNextChunk();
+
+              _cancelKaraoke = function() { isCancelled2 = true; window.speechSynthesis.cancel(); };
+
+              var checkDone2 = setInterval(function() {
+                if (isCancelled2 || chunkIdx2 >= chunks.length) {
+                  clearInterval(checkDone2);
+                  if (!isCancelled2) {
+                    karaokeClear(descEl);
+                    if (_voiceLangSave) {
+                      descEl.textContent = POKOPIA_DEX.getDescription(pokemon, _voiceLangSave);
+                      _voiceLangSave = null;
+                    }
+                  }
+                }
+              }, 200);
+            }
+          }, 300);
+        };
+
+        utterance.onend = function() {
+          fallbackTimers.forEach(function(t) { clearTimeout(t); });
+          karaokeUpdate(descEl, text, text.length);
+          setTimeout(function() {
+            karaokeClear(descEl);
+            if (_voiceLangSave) {
+              descEl.textContent = POKOPIA_DEX.getDescription(pokemon, _voiceLangSave);
+              _voiceLangSave = null;
+            }
+          }, 500);
+        };
+
+        _cancelKaraoke = function() { window.speechSynthesis.cancel(); };
+
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    init();
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then(reg => {
+          console.log('SW registered:', reg.scope);
+        }).catch(err => {
+          console.log('SW registration failed:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>
