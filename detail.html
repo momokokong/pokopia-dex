@@ -416,17 +416,42 @@
     let _karaokeSpans = null;
 
     function renderKaraokeWords(text, container) {
-      // Split into word-level spans using the pre-computed word timings
+      // Use the original pokemon description text (with spaces & punctuation preserved)
+      // but map the pre-computed word timings onto it
       if (!_karaokeWords) {
         container.innerHTML = `<span>${text}</span>`;
         return;
       }
       let html = '';
+      let textIdx = 0;
+      const textLen = text.length;
+
       for (const w of _karaokeWords) {
-        html += `<span class="karaoke-word" data-start="${w.startMs}" data-end="${w.startMs + w.durationMs}">${w.text}</span>`;
+        const wText = w.text;
+        // Find this word in the original text starting from current position
+        const foundIdx = text.indexOf(wText, textIdx);
+        if (foundIdx !== -1) {
+          // Add any skipped characters (spaces, punctuation) before this word
+          if (foundIdx > textIdx) {
+            const skipped = text.slice(textIdx, foundIdx);
+            html += `<span class="karaoke-word karaoke-word--static">${skipped}</span>`;
+          }
+          // Add the actual word with timing data
+          html += `<span class="karaoke-word" data-start="${w.startMs}" data-end="${w.startMs + w.durationMs}">${wText}</span>`;
+          textIdx = foundIdx + wText.length;
+        } else {
+          // Word not found in original text — just append it
+          html += `<span class="karaoke-word" data-start="${w.startMs}" data-end="${w.startMs + w.durationMs}">${wText}</span>`;
+        }
       }
+      // Append any remaining text after the last word
+      if (textIdx < textLen) {
+        const remaining = text.slice(textIdx);
+        html += `<span class="karaoke-word karaoke-word--static">${remaining}</span>`;
+      }
+
       container.innerHTML = html;
-      _karaokeSpans = container.querySelectorAll('.karaoke-word');
+      _karaokeSpans = container.querySelectorAll('.karaoke-word[data-start]');
     }
 
     function startKaraokeTick() {

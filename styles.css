@@ -943,6 +943,11 @@ body {
   text-shadow: 0 0 8px rgba(255,140,66,0.6);
 }
 
+.karaoke-word--static {
+  transition: none;
+  color: var(--text-secondary);
+}
+
 .karaoke-word.karaoke-done {
   color: var(--text-light);
 }
