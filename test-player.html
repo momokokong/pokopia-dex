@@ -385,6 +385,8 @@ function tick() {
       nearestIdx = i;
     } else if (nowMs >= end) {
       span.classList.add('done');
+    } else {
+      /* before start: default dim */
     }
   });
 
@@ -400,7 +402,7 @@ function tick() {
     wsEl.textContent = Math.round(w.startMs);
     ctEl.textContent = Math.round(nowMs);
     deltaEl.textContent = delta;
-    span.classList.add('highlight');
+    spans[nearestIdx].classList.add('highlight');
   }
 
   /* Debug chips */
