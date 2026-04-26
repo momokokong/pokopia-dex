@@ -1,0 +1,92 @@
+[
+  {
+    "text": "鴨",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "嘴",
+    "startMs": 312.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "火",
+    "startMs": 512.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "獸",
+    "startMs": 725.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "可以",
+    "startMs": 1012.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "在",
+    "startMs": 1275.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "火山口",
+    "startMs": 1450.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "附近",
+    "startMs": 2037.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "找到",
+    "startMs": 2425.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "這隻",
+    "startMs": 3775.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "噴火",
+    "startMs": 4175.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "寶",
+    "startMs": 4575.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "可",
+    "startMs": 4787.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "夢的",
+    "startMs": 4925.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "體溫",
+    "startMs": 5225.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "高達",
+    "startMs": 5612.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "將近",
+    "startMs": 5987.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "2200度",
+    "startMs": 6325.0,
+    "durationMs": 1050.0
+  }
+]

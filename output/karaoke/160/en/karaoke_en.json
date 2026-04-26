@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Often",
+    "startMs": 100.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "seen",
+    "startMs": 587.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "rolling",
+    "startMs": 1000.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "down",
+    "startMs": 1462.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "mountain",
+    "startMs": 1787.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "trails",
+    "startMs": 2237.5,
+    "durationMs": 662.5
+  },
+  {
+    "text": "Obstacles",
+    "startMs": 3762.5,
+    "durationMs": 762.5
+  },
+  {
+    "text": "are",
+    "startMs": 4537.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "just",
+    "startMs": 4725.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "things",
+    "startMs": 5062.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "to",
+    "startMs": 5362.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "roll",
+    "startMs": 5525.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "straight",
+    "startMs": 5837.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "over",
+    "startMs": 6275.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "not",
+    "startMs": 6900.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "avoid",
+    "startMs": 7150.0,
+    "durationMs": 487.5
+  }
+]

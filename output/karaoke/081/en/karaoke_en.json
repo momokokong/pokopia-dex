@@ -1,0 +1,92 @@
+[
+  {
+    "text": "It",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "has",
+    "startMs": 262.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "no",
+    "startMs": 587.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "eyes",
+    "startMs": 900.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "Instead",
+    "startMs": 2225.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "it",
+    "startMs": 3212.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "relies",
+    "startMs": 3337.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "on",
+    "startMs": 3850.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "its",
+    "startMs": 4012.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "ultrasonic",
+    "startMs": 4187.5,
+    "durationMs": 825.0
+  },
+  {
+    "text": "cries",
+    "startMs": 5025.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "for",
+    "startMs": 5537.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "echolocation",
+    "startMs": 5787.5,
+    "durationMs": 887.5
+  },
+  {
+    "text": "to",
+    "startMs": 6687.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "flit",
+    "startMs": 6837.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "about",
+    "startMs": 7200.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "in",
+    "startMs": 7550.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "darkness",
+    "startMs": 7762.5,
+    "durationMs": 725.0
+  }
+]

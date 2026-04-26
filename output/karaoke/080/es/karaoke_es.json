@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Su",
+    "startMs": 100.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "cola",
+    "startMs": 337.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "descarga",
+    "startMs": 587.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "electricidad",
+    "startMs": 1100.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "al",
+    "startMs": 1762.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "suelo",
+    "startMs": 1875.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "protegiéndose",
+    "startMs": 2550.0,
+    "durationMs": 750.0
+  },
+  {
+    "text": "de",
+    "startMs": 3312.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "recibir",
+    "startMs": 3437.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "una",
+    "startMs": 3912.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "descarga",
+    "startMs": 4075.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "eléctrica",
+    "startMs": 4650.0,
+    "durationMs": 625.0
+  }
+]

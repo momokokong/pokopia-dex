@@ -1,0 +1,77 @@
+[
+  {
+    "text": "班",
+    "startMs": 100.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "基拉斯",
+    "startMs": 287.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "非常",
+    "startMs": 825.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "強壯",
+    "startMs": 1212.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "能",
+    "startMs": 2000.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "改變",
+    "startMs": 2225.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "地貌",
+    "startMs": 2575.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "牠",
+    "startMs": 3937.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "性格",
+    "startMs": 4150.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "蠻橫",
+    "startMs": 4512.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "根本",
+    "startMs": 5250.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "不在乎",
+    "startMs": 5600.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "其他",
+    "startMs": 6087.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "寶可",
+    "startMs": 6462.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "夢",
+    "startMs": 6825.0,
+    "durationMs": 287.5
+  }
+]

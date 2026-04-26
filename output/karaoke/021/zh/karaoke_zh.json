@@ -1,0 +1,102 @@
+[
+  {
+    "text": "會",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "把",
+    "startMs": 312.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "腳",
+    "startMs": 512.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "深",
+    "startMs": 700.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "深",
+    "startMs": 912.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "埋",
+    "startMs": 1112.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "進",
+    "startMs": 1337.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "地下來",
+    "startMs": 1512.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "吸收",
+    "startMs": 2025.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "水分",
+    "startMs": 2437.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "不過",
+    "startMs": 3875.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "這樣",
+    "startMs": 4212.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "一來",
+    "startMs": 4500.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "被",
+    "startMs": 5150.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "攻擊",
+    "startMs": 5337.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "時",
+    "startMs": 5687.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "就",
+    "startMs": 5900.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "跑",
+    "startMs": 6087.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "不掉",
+    "startMs": 6287.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "了",
+    "startMs": 6650.0,
+    "durationMs": 212.5
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "text": "The",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "people",
+    "startMs": 262.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "of",
+    "startMs": 662.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "ancient",
+    "startMs": 800.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "times",
+    "startMs": 1300.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "believed",
+    "startMs": 1737.5,
+    "durationMs": 550.0
+  },
+  {
+    "text": "that",
+    "startMs": 2300.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "Larvesta",
+    "startMs": 2525.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "fell",
+    "startMs": 3175.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "from",
+    "startMs": 3525.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "the",
+    "startMs": 3775.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "sun.",
+    "startMs": 3875.0,
+    "durationMs": 437.5
+  }
+]

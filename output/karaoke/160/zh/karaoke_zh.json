@@ -1,0 +1,87 @@
+[
+  {
+    "text": "隆隆石",
+    "startMs": 100.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "經常",
+    "startMs": 700.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "在",
+    "startMs": 1175.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "山路",
+    "startMs": 1337.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "上",
+    "startMs": 1725.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "滾",
+    "startMs": 1987.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "來",
+    "startMs": 2125.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "滾",
+    "startMs": 2350.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "去",
+    "startMs": 2537.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "障礙物",
+    "startMs": 3762.5,
+    "durationMs": 675.0
+  },
+  {
+    "text": "直接",
+    "startMs": 5262.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "碾",
+    "startMs": 5650.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "過去",
+    "startMs": 5875.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "就",
+    "startMs": 6212.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "對了",
+    "startMs": 6450.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "不用",
+    "startMs": 7100.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "繞路",
+    "startMs": 7425.0,
+    "durationMs": 462.5
+  }
+]

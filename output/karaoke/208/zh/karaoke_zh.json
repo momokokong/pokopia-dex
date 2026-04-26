@@ -1,0 +1,92 @@
+[
+  {
+    "text": "九",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "尾",
+    "startMs": 325.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "有",
+    "startMs": 475.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "九",
+    "startMs": 650.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "條",
+    "startMs": 825.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "長尾",
+    "startMs": 1000.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "巴",
+    "startMs": 1412.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "和",
+    "startMs": 1637.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "閃閃",
+    "startMs": 1825.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "發光的",
+    "startMs": 2262.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "金色",
+    "startMs": 2762.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "毛髮",
+    "startMs": 3150.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "據說",
+    "startMs": 4525.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "牠",
+    "startMs": 4962.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "可以",
+    "startMs": 5212.5,
+    "durationMs": 225.0
+  },
+  {
+    "text": "活",
+    "startMs": 5500.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "一千",
+    "startMs": 5725.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "年",
+    "startMs": 6037.5,
+    "durationMs": 300.0
+  }
+]

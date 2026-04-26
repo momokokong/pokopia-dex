@@ -1,0 +1,77 @@
+[
+  {
+    "text": "燈火",
+    "startMs": 100.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "幽靈",
+    "startMs": 500.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "會",
+    "startMs": 850.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "在",
+    "startMs": 1025.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "生命",
+    "startMs": 1187.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "消逝的",
+    "startMs": 1537.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "瞬間",
+    "startMs": 2075.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "出現",
+    "startMs": 2462.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "立刻",
+    "startMs": 3362.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "將",
+    "startMs": 3700.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "離開",
+    "startMs": 3887.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "身體的",
+    "startMs": 4212.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "靈魂",
+    "startMs": 4737.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "吸入",
+    "startMs": 5112.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "體內",
+    "startMs": 5487.5,
+    "durationMs": 500.0
+  }
+]

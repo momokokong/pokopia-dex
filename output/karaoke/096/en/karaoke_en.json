@@ -1,0 +1,87 @@
+[
+  {
+    "text": "It",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "is",
+    "startMs": 262.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "said",
+    "startMs": 425.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "to",
+    "startMs": 712.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "camouflage",
+    "startMs": 850.0,
+    "durationMs": 737.5
+  },
+  {
+    "text": "itself",
+    "startMs": 1600.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "as",
+    "startMs": 2150.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "a",
+    "startMs": 2337.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "Poke",
+    "startMs": 2425.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "Ball",
+    "startMs": 2775.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "It",
+    "startMs": 4025.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "will",
+    "startMs": 4200.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "self-destruct",
+    "startMs": 4375.0,
+    "durationMs": 937.5
+  },
+  {
+    "text": "with",
+    "startMs": 5325.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "very",
+    "startMs": 5487.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "little",
+    "startMs": 5912.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "stimulus",
+    "startMs": 6250.0,
+    "durationMs": 825.0
+  }
+]

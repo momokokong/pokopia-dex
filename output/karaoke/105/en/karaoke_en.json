@@ -1,0 +1,92 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "single",
+    "startMs": 212.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "Electivire",
+    "startMs": 700.0,
+    "durationMs": 750.0
+  },
+  {
+    "text": "can",
+    "startMs": 1462.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "provide",
+    "startMs": 1662.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "enough",
+    "startMs": 2125.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "electricity",
+    "startMs": 2462.5,
+    "durationMs": 837.5
+  },
+  {
+    "text": "for",
+    "startMs": 3312.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "all",
+    "startMs": 3612.5,
+    "durationMs": 212.5
+  },
+  {
+    "text": "the",
+    "startMs": 3837.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "buildings",
+    "startMs": 3962.5,
+    "durationMs": 587.5
+  },
+  {
+    "text": "in",
+    "startMs": 4562.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "a",
+    "startMs": 4725.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "big",
+    "startMs": 4812.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "city",
+    "startMs": 5100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "for",
+    "startMs": 5512.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "a",
+    "startMs": 5800.0,
+    "durationMs": 25.0
+  },
+  {
+    "text": "year",
+    "startMs": 5837.5,
+    "durationMs": 425.0
+  }
+]

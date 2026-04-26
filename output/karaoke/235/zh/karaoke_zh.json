@@ -1,0 +1,87 @@
+[
+  {
+    "text": "正電",
+    "startMs": 100.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "拍拍",
+    "startMs": 512.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "會",
+    "startMs": 950.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "從",
+    "startMs": 1112.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "電線桿",
+    "startMs": 1362.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "吸收",
+    "startMs": 1900.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "電力",
+    "startMs": 2337.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "牠",
+    "startMs": 3712.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "會",
+    "startMs": 3937.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "把",
+    "startMs": 4112.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "體內的",
+    "startMs": 4312.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "電力",
+    "startMs": 4837.5,
+    "durationMs": 250.0
+  },
+  {
+    "text": "短路",
+    "startMs": 5150.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "放電",
+    "startMs": 5462.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "製造出",
+    "startMs": 6300.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "吵鬧的",
+    "startMs": 6800.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "聲音",
+    "startMs": 7275.0,
+    "durationMs": 450.0
+  }
+]

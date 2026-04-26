@@ -1,0 +1,92 @@
+[
+  {
+    "text": "火球",
+    "startMs": 100.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "鼠",
+    "startMs": 500.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "平時",
+    "startMs": 700.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "駝",
+    "startMs": 1112.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "著",
+    "startMs": 1337.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "背",
+    "startMs": 1525.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "但",
+    "startMs": 2675.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "如果",
+    "startMs": 2862.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "生氣",
+    "startMs": 3175.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "或",
+    "startMs": 3637.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "受到",
+    "startMs": 3837.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "驚嚇",
+    "startMs": 4175.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "背",
+    "startMs": 4950.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "上",
+    "startMs": 5112.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "就",
+    "startMs": 5337.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "會",
+    "startMs": 5462.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "噴出",
+    "startMs": 5625.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "火焰",
+    "startMs": 6012.5,
+    "durationMs": 525.0
+  }
+]

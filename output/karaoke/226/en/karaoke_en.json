@@ -1,0 +1,77 @@
+[
+  {
+    "text": "It",
+    "startMs": 100.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "likes",
+    "startMs": 300.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "playing",
+    "startMs": 637.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "mischievous",
+    "startMs": 1025.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "tricks",
+    "startMs": 1612.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "such",
+    "startMs": 2337.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "as",
+    "startMs": 2637.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "screaming",
+    "startMs": 2812.5,
+    "durationMs": 637.5
+  },
+  {
+    "text": "and",
+    "startMs": 3462.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "wailing",
+    "startMs": 3637.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "to",
+    "startMs": 4100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "startle",
+    "startMs": 4225.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "people",
+    "startMs": 4712.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "at",
+    "startMs": 5137.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "night",
+    "startMs": 5275.0,
+    "durationMs": 387.5
+  }
+]

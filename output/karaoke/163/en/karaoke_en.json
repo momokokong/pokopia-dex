@@ -1,0 +1,87 @@
+[
+  {
+    "text": "Found",
+    "startMs": 100.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "near",
+    "startMs": 625.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "the",
+    "startMs": 862.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "mouth",
+    "startMs": 975.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "of",
+    "startMs": 1362.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "a",
+    "startMs": 1512.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "volcano",
+    "startMs": 1600.0,
+    "durationMs": 762.5
+  },
+  {
+    "text": "This",
+    "startMs": 3225.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "fire-breather's",
+    "startMs": 3525.0,
+    "durationMs": 875.0
+  },
+  {
+    "text": "body",
+    "startMs": 4412.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "temperature",
+    "startMs": 4800.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "is",
+    "startMs": 5450.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "nearly",
+    "startMs": 5662.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "2",
+    "startMs": 6075.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "2000",
+    "startMs": 6612.5,
+    "durationMs": 662.5
+  },
+  {
+    "text": "degrees",
+    "startMs": 7287.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "Fahrenheit",
+    "startMs": 7750.0,
+    "durationMs": 725.0
+  }
+]

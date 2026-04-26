@@ -1,0 +1,62 @@
+[
+  {
+    "text": "It",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "lives",
+    "startMs": 312.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "in",
+    "startMs": 650.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "arid",
+    "startMs": 887.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "locations",
+    "startMs": 1262.5,
+    "durationMs": 912.5
+  },
+  {
+    "text": "Its",
+    "startMs": 3037.5,
+    "durationMs": 225.0
+  },
+  {
+    "text": "yellow",
+    "startMs": 3275.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "flowers",
+    "startMs": 3712.5,
+    "durationMs": 587.5
+  },
+  {
+    "text": "bloom",
+    "startMs": 4312.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "once",
+    "startMs": 4725.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "a",
+    "startMs": 5062.5,
+    "durationMs": 50.0
+  },
+  {
+    "text": "year",
+    "startMs": 5125.0,
+    "durationMs": 437.5
+  }
+]

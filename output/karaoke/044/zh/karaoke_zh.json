@@ -1,0 +1,102 @@
+[
+  {
+    "text": "牠",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "會",
+    "startMs": 325.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "瘋狂",
+    "startMs": 512.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "揮舞",
+    "startMs": 950.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "長",
+    "startMs": 1325.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "長的",
+    "startMs": 1550.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "夾",
+    "startMs": 1912.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "角",
+    "startMs": 2100.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "來",
+    "startMs": 2287.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "攻擊",
+    "startMs": 2462.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "到",
+    "startMs": 3900.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "了",
+    "startMs": 4112.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "寒冷的",
+    "startMs": 4237.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "時期",
+    "startMs": 4737.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "就",
+    "startMs": 5587.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "會",
+    "startMs": 5750.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "躲",
+    "startMs": 5912.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "到",
+    "startMs": 6075.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "森林",
+    "startMs": 6237.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "深處",
+    "startMs": 6625.0,
+    "durationMs": 550.0
+  }
+]

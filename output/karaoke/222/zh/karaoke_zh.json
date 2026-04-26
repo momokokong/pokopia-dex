@@ -1,0 +1,72 @@
+[
+  {
+    "text": "據說",
+    "startMs": 100.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "如果",
+    "startMs": 600.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "哈克",
+    "startMs": 925.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "龍",
+    "startMs": 1337.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "從",
+    "startMs": 1512.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "全身",
+    "startMs": 1725.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "散發",
+    "startMs": 2125.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "出氣場",
+    "startMs": 2512.5,
+    "durationMs": 700.0
+  },
+  {
+    "text": "天氣",
+    "startMs": 3537.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "就",
+    "startMs": 3875.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "會",
+    "startMs": 4050.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "立刻",
+    "startMs": 4200.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "發生",
+    "startMs": 4550.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "變化",
+    "startMs": 4925.0,
+    "durationMs": 575.0
+  }
+]

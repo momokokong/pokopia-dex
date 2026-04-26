@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Cuando",
+    "startMs": 100.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "oscurece",
+    "startMs": 375.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "la",
+    "startMs": 1250.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "luz",
+    "startMs": 1350.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "brillante",
+    "startMs": 1600.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "de",
+    "startMs": 2050.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "la",
+    "startMs": 2175.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "cola",
+    "startMs": 2287.5,
+    "durationMs": 250.0
+  },
+  {
+    "text": "de",
+    "startMs": 2550.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "Ampharos",
+    "startMs": 2662.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "se",
+    "startMs": 3075.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "puede",
+    "startMs": 3200.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "ver",
+    "startMs": 3462.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "desde",
+    "startMs": 3675.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "lejos",
+    "startMs": 3950.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "en",
+    "startMs": 4362.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "la",
+    "startMs": 4487.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "superficie",
+    "startMs": 4562.5,
+    "durationMs": 662.5
+  },
+  {
+    "text": "del",
+    "startMs": 5237.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "océano",
+    "startMs": 5412.5,
+    "durationMs": 512.5
+  }
+]

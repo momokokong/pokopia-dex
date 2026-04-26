@@ -1,0 +1,122 @@
+[
+  {
+    "text": "米",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "立",
+    "startMs": 300.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "龍",
+    "startMs": 487.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "上",
+    "startMs": 1000.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "弓",
+    "startMs": 1275.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "姿勢",
+    "startMs": 1437.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "是",
+    "startMs": 2212.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "一隻",
+    "startMs": 2362.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "極度",
+    "startMs": 2662.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "狡猾的",
+    "startMs": 3050.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "寶",
+    "startMs": 3550.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "可夢",
+    "startMs": 3737.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "牠",
+    "startMs": 5112.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "會",
+    "startMs": 5337.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "假裝",
+    "startMs": 5525.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "虛弱",
+    "startMs": 5925.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "來",
+    "startMs": 6325.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "引誘",
+    "startMs": 6512.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "獵物",
+    "startMs": 6862.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "再",
+    "startMs": 7612.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "命令",
+    "startMs": 7762.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "夥伴",
+    "startMs": 8100.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "發動",
+    "startMs": 8487.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "攻擊",
+    "startMs": 8850.0,
+    "durationMs": 537.5
+  }
+]

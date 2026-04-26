@@ -1,0 +1,87 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "partir",
+    "startMs": 250.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "de",
+    "startMs": 650.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "la",
+    "startMs": 762.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "comida",
+    "startMs": 862.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "que",
+    "startMs": 1250.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "digiere",
+    "startMs": 1375.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "genera",
+    "startMs": 2150.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "electricidad",
+    "startMs": 2525.0,
+    "durationMs": 712.5
+  },
+  {
+    "text": "y",
+    "startMs": 3250.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "almacena",
+    "startMs": 3350.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "esta",
+    "startMs": 3950.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "energía",
+    "startMs": 4187.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "en",
+    "startMs": 4687.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "su",
+    "startMs": 4787.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "saco",
+    "startMs": 4925.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "eléctrico",
+    "startMs": 5250.0,
+    "durationMs": 600.0
+  }
+]

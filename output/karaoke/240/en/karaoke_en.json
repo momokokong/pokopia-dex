@@ -1,0 +1,102 @@
+[
+  {
+    "text": "On",
+    "startMs": 100.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "sunny",
+    "startMs": 337.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "days",
+    "startMs": 725.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "it",
+    "startMs": 1462.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "flies",
+    "startMs": 1612.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "freely",
+    "startMs": 2062.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "through",
+    "startMs": 2537.5,
+    "durationMs": 250.0
+  },
+  {
+    "text": "the",
+    "startMs": 2800.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "sky",
+    "startMs": 2925.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "ad",
+    "startMs": 3350.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "blends",
+    "startMs": 3662.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "into",
+    "startMs": 4150.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "the",
+    "startMs": 4437.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "clouds",
+    "startMs": 4562.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "It",
+    "startMs": 5012.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "sings",
+    "startMs": 5175.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "in",
+    "startMs": 5650.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "a",
+    "startMs": 5800.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "beautiful",
+    "startMs": 5887.5,
+    "durationMs": 575.0
+  },
+  {
+    "text": "soprano",
+    "startMs": 6475.0,
+    "durationMs": 712.5
+  }
+]

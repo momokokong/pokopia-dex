@@ -1,0 +1,87 @@
+[
+  {
+    "text": "Le",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "gusta",
+    "startMs": 262.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "jugar",
+    "startMs": 575.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "bromas",
+    "startMs": 950.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "traviesas",
+    "startMs": 1337.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "como",
+    "startMs": 2137.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "gritar",
+    "startMs": 2387.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "y",
+    "startMs": 2775.0,
+    "durationMs": 37.5
+  },
+  {
+    "text": "gemir",
+    "startMs": 2825.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "para",
+    "startMs": 3200.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "asustar",
+    "startMs": 3400.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "a",
+    "startMs": 3862.5,
+    "durationMs": 37.5
+  },
+  {
+    "text": "la",
+    "startMs": 3912.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "gente",
+    "startMs": 4025.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "por",
+    "startMs": 4400.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "la",
+    "startMs": 4600.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "noche",
+    "startMs": 4687.5,
+    "durationMs": 425.0
+  }
+]

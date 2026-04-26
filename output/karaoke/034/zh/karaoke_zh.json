@@ -1,0 +1,87 @@
+[
+  {
+    "text": "牠",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "強烈的",
+    "startMs": 300.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "變強",
+    "startMs": 875.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "渴望",
+    "startMs": 1350.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "驅使",
+    "startMs": 1712.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "著",
+    "startMs": 2087.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "自己",
+    "startMs": 2300.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "拼命",
+    "startMs": 2637.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "鍛鍊",
+    "startMs": 2975.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "身體",
+    "startMs": 3300.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "不管",
+    "startMs": 4137.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "遇到",
+    "startMs": 4450.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "什麼",
+    "startMs": 4775.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "對手",
+    "startMs": 5175.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "都會",
+    "startMs": 5562.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "勇敢",
+    "startMs": 5850.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "挑戰",
+    "startMs": 6200.0,
+    "durationMs": 500.0
+  }
+]

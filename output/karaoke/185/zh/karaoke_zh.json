@@ -1,0 +1,97 @@
+[
+  {
+    "text": "木",
+    "startMs": 100.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "木梟",
+    "startMs": 275.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "喜歡",
+    "startMs": 625.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "待在",
+    "startMs": 1050.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "狹窄",
+    "startMs": 1362.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "陰暗的",
+    "startMs": 1725.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "地方",
+    "startMs": 2150.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "已",
+    "startMs": 2937.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "知",
+    "startMs": 3075.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "會",
+    "startMs": 3237.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "窩",
+    "startMs": 3412.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "進",
+    "startMs": 3587.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "訓練家的",
+    "startMs": 3750.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "背包",
+    "startMs": 4437.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "或",
+    "startMs": 4825.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "外套",
+    "startMs": 5037.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "前",
+    "startMs": 5400.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "襟裡",
+    "startMs": 5637.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "休息",
+    "startMs": 5950.0,
+    "durationMs": 587.5
+  }
+]

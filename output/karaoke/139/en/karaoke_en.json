@@ -1,0 +1,87 @@
+[
+  {
+    "text": "From",
+    "startMs": 100.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "the",
+    "startMs": 387.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "food",
+    "startMs": 500.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "it",
+    "startMs": 825.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "digests",
+    "startMs": 1000.0,
+    "durationMs": 750.0
+  },
+  {
+    "text": "it",
+    "startMs": 2075.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "generates",
+    "startMs": 2225.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "electricity",
+    "startMs": 2800.0,
+    "durationMs": 875.0
+  },
+  {
+    "text": "ad",
+    "startMs": 3975.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "it",
+    "startMs": 4200.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "stores",
+    "startMs": 4350.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "thi",
+    "startMs": 4862.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "energy",
+    "startMs": 5112.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "in",
+    "startMs": 5725.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "its",
+    "startMs": 5900.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "electric",
+    "startMs": 6062.5,
+    "durationMs": 550.0
+  },
+  {
+    "text": "sac",
+    "startMs": 6625.0,
+    "durationMs": 475.0
+  }
+]

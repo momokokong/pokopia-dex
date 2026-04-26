@@ -1,0 +1,87 @@
+[
+  {
+    "text": "戴",
+    "startMs": 100.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "著",
+    "startMs": 312.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "已故",
+    "startMs": 450.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "媽媽的",
+    "startMs": 775.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "頭骨",
+    "startMs": 1262.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "牠的",
+    "startMs": 2587.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "哭聲",
+    "startMs": 2962.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "在",
+    "startMs": 3400.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "頭骨",
+    "startMs": 3550.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "裡",
+    "startMs": 3912.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "迴盪",
+    "startMs": 4075.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "聽起來",
+    "startMs": 4875.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "就",
+    "startMs": 5462.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "像",
+    "startMs": 5575.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "一首",
+    "startMs": 5737.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "悲傷的",
+    "startMs": 6062.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "旋律",
+    "startMs": 6562.5,
+    "durationMs": 487.5
+  }
+]

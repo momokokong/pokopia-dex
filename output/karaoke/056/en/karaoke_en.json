@@ -1,0 +1,82 @@
+[
+  {
+    "text": "It",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "becomes",
+    "startMs": 262.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "active",
+    "startMs": 775.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "at",
+    "startMs": 1237.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "night",
+    "startMs": 1425.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "seeking",
+    "startMs": 2062.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "prey",
+    "startMs": 2512.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "that",
+    "startMs": 2875.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "is",
+    "startMs": 3100.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "exhausted",
+    "startMs": 3237.5,
+    "durationMs": 687.5
+  },
+  {
+    "text": "from",
+    "startMs": 3937.5,
+    "durationMs": 212.5
+  },
+  {
+    "text": "the",
+    "startMs": 4162.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "day",
+    "startMs": 4287.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "s",
+    "startMs": 4537.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "desert",
+    "startMs": 4812.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "heat",
+    "startMs": 5212.5,
+    "durationMs": 387.5
+  }
+]
