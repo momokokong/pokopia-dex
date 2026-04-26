@@ -11,7 +11,7 @@
     "description": {
       "en": "It carries a seed on its back right from birth. As its body grows larger, the seed does too.",
       "zh": "從出生起背上就帶著一顆種子。隨著身體長大，種子也會跟著長大。",
-      "es": "Lleva una semilla en su espalda desde que nace. A medida que su cuerpo crece, la semilla tambi├⌐n."
+      "es": "Lleva una semilla en su espalda desde que nace. A medida que su cuerpo crece, la semilla también."
     },
     "types": [
       "Grass",
@@ -36,7 +36,7 @@
           "name": {
             "en": "Bench With Greenery",
             "zh": "綠意環繞的長椅",
-            "es": "Banco con vegetaci├│n"
+            "es": "Banco con vegetación"
           },
           "image": "habitats/habitat_022.png"
         }
@@ -256,7 +256,7 @@
           "name": {
             "en": "Bench With Greenery",
             "zh": "綠意環繞的長椅",
-            "es": "Banco con vegetaci├│n"
+            "es": "Banco con vegetación"
           },
           "image": "habitats/habitat_022.png"
         }
@@ -446,7 +446,7 @@
     "description": {
       "en": "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power.",
       "zh": "妙蛙花會展開花朵上寬大的花瓣，沐浴在陽光下，讓全身充滿力量。",
-      "es": "Al extender las amplias p├⌐talos de su flor y captar los rayos del sol, llena su cuerpo de poder."
+      "es": "Al extender las amplias pétalos de su flor y captar los rayos del sol, llena su cuerpo de poder."
     },
     "types": [
       "Grass",
@@ -471,7 +471,7 @@
           "name": {
             "en": "Garden Terrace",
             "zh": "花園露台",
-            "es": "Terraza del jard├¡n"
+            "es": "Terraza del jardín"
           },
           "image": "habitats/habitat_046.png"
         }
@@ -663,7 +663,7 @@
     "description": {
       "en": "If Charmander is healthy, the flame on the tip of its tail will burn vigorously and won't go out even if it gets a bit wet.",
       "zh": "只要小火龍健康，尾巴尖端的火焰就會旺盛地燃燒，就算稍微被水潑到也不會熄滅。",
-      "es": "Si Charmander est├í sano, la llama de la punta de su cola arder├í con fuerza y no se apagar├í aunque se moje un poco."
+      "es": "Si Charmander está sano, la llama de la punta de su cola arderá con fuerza y no se apagará aunque se moje un poco."
     },
     "types": [
       "Fire"
@@ -846,7 +846,7 @@
     "description": {
       "en": "It is very hotheaded by nature, so it constantly seeks opponents battle against. Its aggression will not be quelled if it doesn't win;",
       "zh": "火恐龍天生脾氣暴躁，總是在尋找對手戰鬥。如果沒贏的話，牠的攻擊性是不會平息的。",
-      "es": "De naturaleza muy impulsivo, busca constantemente oponentes para batallar. Su agresividad no se calmar├í si no logra vencer."
+      "es": "De naturaleza muy impulsivo, busca constantemente oponentes para batallar. Su agresividad no se calmará si no logra vencer."
     },
     "types": [
       "Fire"
@@ -1008,7 +1008,7 @@
     "description": {
       "en": "When this Pok├⌐mon expels a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
       "zh": "當噴火龍噴出超高溫的火焰時，尾巴尖端的紅色火焰會燃燒得更加猛烈。",
-      "es": "Cuando este Pok├⌐mon exhala una r├ífaga de fuego s├║per caliente, la llama roja en la punta de su cola arde con mayor intensidad."
+      "es": "Cuando este Pokémon exhala una ráfaga de fuego súper caliente, la llama roja en la punta de su cola arde con mayor intensidad."
     },
     "types": [
       "Fire",
@@ -1192,7 +1192,7 @@
     "description": {
       "en": "Shoots water at prey while in the water. Withdraws into its shell when in danger.",
       "zh": "在水中向獵物射水。遇到危險時會縮回龜殼裡。",
-      "es": "Lanza agua a sus presas mientras est├í en el agua. Se esconde en su caparaz├│n cuando est├í en peligro."
+      "es": "Lanza agua a sus presas mientras está en el agua. Se esconde en su caparazón cuando está en peligro."
     },
     "types": [
       "Water"
@@ -1216,7 +1216,7 @@
           "name": {
             "en": "Hydrated Tall Grass",
             "zh": "潮濕的高草叢",
-            "es": "Hierba alta h├║meda"
+            "es": "Hierba alta húmeda"
           },
           "image": "habitats/habitat_004.png"
         }
@@ -1386,7 +1386,7 @@
     "description": {
       "en": "It often hides in water to stalk unwary prey. While swimming quickly, it moves its ears to maintain balance.",
       "zh": "卡咪龜常躲在水中伺機捕捉獵物。游泳時，牠會擺動耳朵來保持平衡。",
-      "es": "A menudo se esconde en el agua para acechar a sus presas desprevenidas. Mientras nada r├ípido, mueve sus orejas para mantener el equilibrio."
+      "es": "A menudo se esconde en el agua para acechar a sus presas desprevenidas. Mientras nada rápido, mueve sus orejas para mantener el equilibrio."
     },
     "types": [
       "Water"
@@ -1401,7 +1401,7 @@
           "name": {
             "en": "Hydrated Tall Grass",
             "zh": "潮濕的高草叢",
-            "es": "Hierba alta h├║meda"
+            "es": "Hierba alta húmeda"
           },
           "image": "habitats/habitat_004.png"
         }
@@ -1528,7 +1528,7 @@
     "description": {
       "en": "It has jet nozzles on its shell. This impressive Pok├⌐mon uses these jets to charge towards foes with all the force of a rocket.",
       "zh": "水箭龜的龜殼上有噴水口。這隻令人印象深刻的寶可夢會像火箭一樣，用噴射水流向對手衝去。",
-      "es": "Tiene boquillas de chorro en su caparaz├│n. Este impresionante Pok├⌐mon las usa para lanzarse contra sus enemigos con la fuerza de un cohete."
+      "es": "Tiene boquillas de chorro en su caparazón. Este impresionante Pokémon las usa para lanzarse contra sus enemigos con la fuerza de un cohete."
     },
     "types": [
       "Water"
@@ -1543,7 +1543,7 @@
           "name": {
             "en": "Hydrated Tall Grass",
             "zh": "潮濕的高草叢",
-            "es": "Hierba alta h├║meda"
+            "es": "Hierba alta húmeda"
           },
           "image": "habitats/habitat_004.png"
         },
@@ -1689,7 +1689,7 @@
     "description": {
       "en": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
       "zh": "波波非常溫馴。受到攻擊時，常常揚起沙子保護自己，而不是反擊。",
-      "es": "Muy d├│cil. Si lo atacan, suele levantar arena para protegerse en lugar de contraatacar."
+      "es": "Muy dócil. Si lo atacan, suele levantar arena para protegerse en lugar de contraatacar."
     },
     "types": [
       "Bug"
@@ -1899,7 +1899,7 @@
     "description": {
       "en": "This Pok├⌐mon is full of vitality. It constantly flies around its large territory in search of prey.",
       "zh": "這隻寶可夢充滿活力，總是在廣大的地盤裡飛來飛去，尋找獵物。",
-      "es": "Este Pok├⌐mon est├í lleno de vitalidad. Vuela constantemente por su amplio territorio en busca de presas."
+      "es": "Este Pokémon está lleno de vitalidad. Vuela constantemente por su amplio territorio en busca de presas."
     },
     "types": [
       "Bug"
@@ -2109,7 +2109,7 @@
     "description": {
       "en": "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
       "zh": "牠會大大展開華麗的翅膀來威嚇敵人，還能以兩倍音速在天空中飛行呢！",
-      "es": "Extiende sus magn├¡ficas alas para intimidar a sus enemigos. Vuela por los cielos a una velocidad de Mach 2."
+      "es": "Extiende sus magníficas alas para intimidar a sus enemigos. Vuela por los cielos a una velocidad de Mach 2."
     },
     "types": [
       "Bug",
@@ -2125,7 +2125,7 @@
           "name": {
             "en": "Luxury Chirp Chirp Meal",
             "zh": "奢華啾啾餐",
-            "es": "Comida p├¡o p├¡o de lujo"
+            "es": "Comida pío pío de lujo"
           },
           "image": "habitats/habitat_039.png"
         }
@@ -2294,7 +2294,7 @@
     "description": {
       "en": "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
       "zh": "牠的學名是「走路草漫遊種」。據說夜幕降臨時，牠會用兩根根鬚走路，移動距離可達一千英尺遠。",
-      "es": "Su nombre cient├¡fico es Oddium wanderus. Se dice que cuando cae la noche, camina hasta 300 metros usando sus dos ra├¡ces."
+      "es": "Su nombre científico es Oddium wanderus. Se dice que cuando cae la noche, camina hasta 300 metros usando sus dos raíces."
     },
     "types": [
       "Bug",
@@ -2494,7 +2494,7 @@
     "description": {
       "en": "The nectar it drools from its mouth smells so atrocious that it can make noses curl from more than a mile away.",
       "zh": "牠嘴裡滴出來的花蜜臭得不得了，就算在一英里外聞到都會讓人皺起鼻子呢！",
-      "es": "El n├⌐ctar que babea de su boca huele tan mal que puede hacer arrugar la nariz desde m├ís de un kil├│metro de distancia."
+      "es": "El néctar que babea de su boca huele tan mal que puede hacer arrugar la nariz desde más de un kilómetro de distancia."
     },
     "types": [
       "Bug",
@@ -2694,7 +2694,7 @@
     "description": {
       "en": "It has the world s largest petals. With every step, the petals shal out heavy clouds of toxic pollen.",
       "zh": "牠擁有世界上最大的花瓣。每走一步，花瓣就會散出濃濃的毒花粉。",
-      "es": "Tiene los p├⌐talos m├ís grandes del mundo. Con cada paso, los p├⌐talos esparcen densas nubes de polen t├│xico."
+      "es": "Tiene los pétalos más grandes del mundo. Con cada paso, los pétalos esparcen densas nubes de polen tóxico."
     },
     "types": [
       "Bug",
@@ -2710,7 +2710,7 @@
           "name": {
             "en": "Chansey Resting Area",
             "zh": "吉利吉休息區",
-            "es": "├ürea de descanso de Chansey"
+            "es": "Área de descanso de Chansey"
           },
           "image": "habitats/habitat_034.png"
         }
@@ -2896,7 +2896,7 @@
     "description": {
       "en": "Plentiful in the tropics When it dances, its petals rub together and make a pleasant ringing sound.",
       "zh": "在熱帶地區非常常見。當牠跳舞時，花瓣會互相摩擦，發出悅耳的鈴聲呢。",
-      "es": "Abundante en los tr├│picos. Cuando baila, sus p├⌐talos se frotan entre s├¡ y emiten un sonido de campanillas muy agradable."
+      "es": "Abundante en los trópicos. Cuando baila, sus pétalos se frotan entre sí y emiten un sonido de campanillas muy agradable."
     },
     "types": [
       "Normal",
@@ -2912,7 +2912,7 @@
           "name": {
             "en": "Chansey Resting Area",
             "zh": "吉利吉休息區",
-            "es": "├ürea de descanso de Chansey"
+            "es": "Área de descanso de Chansey"
           },
           "image": "habitats/habitat_034.png"
         }
@@ -3071,7 +3071,7 @@
     "description": {
       "en": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
       "zh": "會鑽到地底下啃食樹根。背上的蘑菇會吸收掉大部分的營養。",
-      "es": "Cava bajo tierra para roer las ra├¡ces de los ├írboles. Los hongos en su espalda absorben la mayor parte de la nutrici├│n."
+      "es": "Cava bajo tierra para roer las raíces de los árboles. Los hongos en su espalda absorben la mayor parte de la nutrición."
     },
     "types": [
       "Normal",
@@ -3096,7 +3096,7 @@
           "name": {
             "en": "Flower Garden",
             "zh": "花園",
-            "es": "Jard├¡n de flores"
+            "es": "Jardín de flores"
           },
           "image": "habitats/habitat_014.png"
         }
@@ -3250,7 +3250,7 @@
     "description": {
       "en": "The bug host is drained of energy by the mushroom on its back The mushroom appears to do all the thinking.",
       "zh": "宿主蟲子被背上的蘑菇吸走了能量。看起來所有的事情都是蘑菇在作主呢。",
-      "es": "El hongo en su espalda drena la energ├¡a del insecto hu├⌐sped. Parece que es el hongo quien realmente piensa."
+      "es": "El hongo en su espalda drena la energía del insecto huésped. Parece que es el hongo quien realmente piensa."
     },
     "types": [
       "Normal",
@@ -3275,7 +3275,7 @@
           "name": {
             "en": "Flower Garden",
             "zh": "花園",
-            "es": "Jard├¡n de flores"
+            "es": "Jardín de flores"
           },
           "image": "habitats/habitat_014.png"
         }
@@ -3612,7 +3612,7 @@
     "description": {
       "en": "The wings are covered with dustlike scales Every time it flaps its wings, it looses highly toxic dust.",
       "zh": "翅膀上佈滿了粉狀的鱗片。每次拍動翅膀，就會散出劇毒的粉末。",
-      "es": "Sus alas est├ín cubiertas de escamas polvorientas. Cada vez que las bate, esparce un polvo altamente t├│xico."
+      "es": "Sus alas están cubiertas de escamas polvorientas. Cada vez que las bate, esparce un polvo altamente tóxico."
     },
     "types": [
       "Normal"
@@ -3806,7 +3806,7 @@
           "name": {
             "en": "Tree Shaded Tall Grass",
             "zh": "樹蔭下的高草叢",
-            "es": "Hierba alta a la sombra de los ├írboles"
+            "es": "Hierba alta a la sombra de los árboles"
           },
           "image": "habitats/habitat_002.png"
         }
@@ -3960,7 +3960,7 @@
     "description": {
       "en": "Even though it is filled with acid, it does not melt because it also oozes a protective fluid.",
       "zh": "雖然體內裝滿了酸液，但因為也會分泌保護液，所以身體不會被融化。",
-      "es": "Aunque est├í lleno de ├ícido, no se derrite porque tambi├⌐n secreta un fluido protector."
+      "es": "Aunque está lleno de ácido, no se derrite porque también secreta un fluido protector."
     },
     "types": [
       "Normal",
@@ -4147,7 +4147,7 @@
     "description": {
       "en": "After dissolving many prey; this Pok├⌐mon's acid becomes sweete This makes it even easier to attract more prey.",
       "zh": "溶解了許多獵物後，牠的酸液會變得更香甜，這樣就更容易吸引新的獵物上門了。",
-      "es": "Despu├⌐s de disolver a muchas presas, el ├ícido de este Pok├⌐mon se vuelve m├ís dulce, facilitando atraer a├║n m├ís presas."
+      "es": "Después de disolver a muchas presas, el ácido de este Pokémon se vuelve más dulce, facilitando atraer aún más presas."
     },
     "types": [
       "Poison"
@@ -4333,7 +4333,7 @@
     "description": {
       "en": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
       "zh": "牠超級慢又超級呆。被攻擊的時候，要花五秒鐘才會感覺到痛呢！",
-      "es": "Es incre├¡blemente lento y atolondrado. Le toma cinco segundos sentir dolor cuando lo atacan."
+      "es": "Es increíblemente lento y atolondrado. Le toma cinco segundos sentir dolor cuando lo atacan."
     },
     "types": [
       "Poison"
@@ -4531,7 +4531,7 @@
     "description": {
       "en": "When a Slowpoke Went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
       "zh": "呆呆獸在海裡覓食時，尾巴被大舌貝咬住了，就這樣進化成了呆殼獸。",
-      "es": "Cuando un Slowpoke fue a cazar al mar, un Shellder mordi├│ su cola. As├¡ evolucion├│ a Slowbro."
+      "es": "Cuando un Slowpoke fue a cazar al mar, un Shellder mordió su cola. Así evolucionó a Slowbro."
     },
     "types": [
       "Electric"
@@ -4726,7 +4726,7 @@
     "description": {
       "en": "It has incredible intellect and intuition. Whatever the situation, remains calm and collected.",
       "zh": "擁有驚人的智慧和直覺。不管遇到什麼狀況，都能保持冷靜從容。",
-      "es": "Posee una inteligencia y una intuici├│n incre├¡bles. Sea cual sea la situaci├│n, se mantiene sereno y due├▒o de s├¡."
+      "es": "Posee una inteligencia y una intuición increíbles. Sea cual sea la situación, se mantiene sereno y dueño de sí."
     },
     "types": [
       "Electric"
@@ -4920,7 +4920,7 @@
     "description": {
       "en": "The electromagnetic waves emitted by the units at the sides of it head expel antigravity, which allows it to float.",
       "zh": "頭部兩側的零件發出的電磁波會產生反重力，讓牠能漂浮在空中。",
-      "es": "Las unidades electromagn├⌐ticas a los lados de su cabeza emiten antigravedad, permiti├⌐ndole flotar en el aire."
+      "es": "Las unidades electromagnéticas a los lados de su cabeza emiten antigravedad, permitiéndole flotar en el aire."
     },
     "types": [
       "Ground"
@@ -4935,7 +4935,7 @@
           "name": {
             "en": "Factory Storage",
             "zh": "工廠倉庫",
-            "es": "Almac├⌐n de la f├íbrica"
+            "es": "Almacén de la fábrica"
           },
           "image": "habitats/habitat_038.png"
         }
@@ -5110,7 +5110,7 @@
     "description": {
       "en": "This Pok├⌐mon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
       "zh": "這隻寶可夢是由三隻小磁怪連結而成的。牠會發出強大的電波來探測周遭的環境。",
-      "es": "Este Pok├⌐mon est├í formado por tres Magnemite unidos. Env├¡a poderosas ondas de radio para estudiar su entorno."
+      "es": "Este Pokémon está formado por tres Magnemite unidos. Envía poderosas ondas de radio para estudiar su entorno."
     },
     "types": [
       "Ground"
@@ -5134,7 +5134,7 @@
           "name": {
             "en": "Mini Game Corner",
             "zh": "迷你遊戲角落",
-            "es": "Rinc├│n de mini juegos"
+            "es": "Rincón de mini juegos"
           },
           "image": "habitats/habitat_085.png"
         }
@@ -5307,7 +5307,7 @@
     "description": {
       "en": "As it zooms through the sky, this Pok├⌐mon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
       "zh": "在天空中飛翔時，牠似乎一直在接收來路不明的訊號，同時也發射用途不明的訊號。",
-      "es": "Mientras vuela por el cielo, parece recibir se├▒ales de origen desconocido y transmitir se├▒ales de prop├│sito misterioso."
+      "es": "Mientras vuela por el cielo, parece recibir señales de origen desconocido y transmitir señales de propósito misterioso."
     },
     "types": [
       "Poison"
@@ -5331,7 +5331,7 @@
           "name": {
             "en": "Mini Game Corner",
             "zh": "迷你遊戲角落",
-            "es": "Rinc├│n de mini juegos"
+            "es": "Rincón de mini juegos"
           },
           "image": "habitats/habitat_085.png"
         }
@@ -5679,7 +5679,7 @@
     "description": {
       "en": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
       "zh": "據說是因為吞食泥土時在體內累積了鐵質，身體才產生了這樣的變化。",
-      "es": "Se cree que su cuerpo se transform├│ como resultado del hierro que se acumul├│ internamente al tragar tierra."
+      "es": "Se cree que su cuerpo se transformó como resultado del hierro que se acumuló internamente al tragar tierra."
     },
     "types": [
       "Poison",
@@ -5695,7 +5695,7 @@
           "name": {
             "en": "Clink Clang Iron Construction",
             "zh": "鏗鏘鐵匠工地",
-            "es": "Construcci├│n de hierro: ┬ícl├¡n cl├ín!"
+            "es": "Construcción de hierro: ¡clín clán!"
           },
           "image": "habitats/habitat_117.png"
         }
@@ -5854,7 +5854,7 @@
     "description": {
       "en": "Wears the skull of its deceased mother. Its cries echo inside the skull and come out as a sad melody.",
       "zh": "戴著已故媽媽的頭骨。牠的哭聲在頭骨裡迴盪，聽起來就像一首悲傷的旋律。",
-      "es": "Lleva el cr├íneo de su madre fallecida. Sus lamentos resuenan dentro del cr├íneo y salen como una melod├¡a triste."
+      "es": "Lleva el cráneo de su madre fallecida. Sus lamentos resuenan dentro del cráneo y salen como una melodía triste."
     },
     "types": [
       "Poison"
@@ -6023,7 +6023,7 @@
     "description": {
       "en": "Small and weak, this Pok├⌐mon is adept with its bone club. It has grown more vicious over the ages.",
       "zh": "雖然體型嬌小力氣不強，但牠很擅長使用骨頭棒。隨著時代演進，牠變得越來越凶悍了。",
-      "es": "Peque├▒o y d├⌐bil, este Pok├⌐mon es h├íbil con su garrote de hueso. Se ha vuelto m├ís feroz con el paso de los tiempos."
+      "es": "Pequeño y débil, este Pokémon es hábil con su garrote de hueso. Se ha vuelto más feroz con el paso de los tiempos."
     },
     "types": [
       "Poison"
@@ -6190,7 +6190,7 @@
     "description": {
       "en": "Its intense desire to become stronger and stronger drives it to recklessly train its body ad challenge any opponent it can find to battle.",
       "zh": "牠強烈的變強渴望驅使著自己拼命鍛鍊身體，不管遇到什麼對手都會勇敢挑戰。",
-      "es": "Su intensa sed de volverse m├ís fuerte lo lleva a entrenar su cuerpo sin descanso y a desafiar a cualquier rival que encuentre."
+      "es": "Su intensa sed de volverse más fuerte lo lleva a entrenar su cuerpo sin descanso y a desafiar a cualquier rival que encuentre."
     },
     "types": [
       "Poison",
@@ -6389,7 +6389,7 @@
     "description": {
       "en": "It has complete control over the ligaments in its legs, expanding and contracting them to double the reach of its kicks.",
       "zh": "牠能完全控制腿部的韌帶，自由伸縮，讓踢擊的距離變成兩倍遠！",
-      "es": "Tiene control total sobre los ligamentos de sus piernas, expandi├⌐ndolos y contray├⌐ndolos para duplicar el alcance de sus patadas."
+      "es": "Tiene control total sobre los ligamentos de sus piernas, expandiéndolos y contrayéndolos para duplicar el alcance de sus patadas."
     },
     "types": [
       "Fairy"
@@ -6404,7 +6404,7 @@
           "name": {
             "en": "Urgent Care",
             "zh": "緊急救護",
-            "es": "Atenci├│n urgente"
+            "es": "Atención urgente"
           },
           "image": "habitats/habitat_025.png"
         }
@@ -6587,7 +6587,7 @@
     "description": {
       "en": "It corners its foes with combo punches from both sides, then finished them off with a single strsight punch launched at over 300 mph.",
       "zh": "牠會用左右開弓的連續拳把對手逼到角落，然後以超過時速300英里的直拳一擊收尾。",
-      "es": "Acorrala a sus rivales con r├ífagas de golpes desde ambos lados, y los remata con un golpe recto lanzado a m├ís de 480 km/h."
+      "es": "Acorrala a sus rivales con ráfagas de golpes desde ambos lados, y los remata con un golpe recto lanzado a más de 480 km/h."
     },
     "types": [
       "Fairy"
@@ -6785,7 +6785,7 @@
     "description": {
       "en": "This Pok├⌐mon is adept at dance-like kicks. The horn atop its head is made from the same substance that generally forms fur and claws.",
       "zh": "這隻寶可夢擅長像跳舞一樣的踢技。頭頂上的角和一般毛髮爪子一樣，是由相同的物質構成的。",
-      "es": "Este Pok├⌐mon es experto en patadas al estilo danza. El cuerno sobre su cabeza est├í hecho de la misma sustancia que el pelo y las garras."
+      "es": "Este Pokémon es experto en patadas al estilo danza. El cuerno sobre su cabeza está hecho de la misma sustancia que el pelo y las garras."
     },
     "types": [
       "Fire"
@@ -6983,7 +6983,7 @@
     "description": {
       "en": "Lighter-than-air gases in its body keep it aloft. The gases not onl smell; they - are also explosive.",
       "zh": "體內比空氣還輕的氣體讓牠飄浮在空中。這些氣體不僅臭，還會爆炸呢！",
-      "es": "Los gases m├ís ligeros que el aire en su cuerpo lo mantienen flotando. Estos gases no solo huelen mal, ┬ísino que tambi├⌐n son explosivos!"
+      "es": "Los gases más ligeros que el aire en su cuerpo lo mantienen flotando. Estos gases no solo huelen mal, ¡sino que también son explosivos!"
     },
     "types": [
       "Fire"
@@ -6998,7 +6998,7 @@
           "name": {
             "en": "Trash Collection Site",
             "zh": "垃圾收集場",
-            "es": "Lugar de recolecci├│n de basura"
+            "es": "Lugar de recolección de basura"
           },
           "image": "habitats/habitat_063.png"
         }
@@ -7176,7 +7176,7 @@
     "description": {
       "en": "Top-grade perfume is made using its internal poison gases by diluting - them to the highest level.",
       "zh": "將牠體內的毒氣稀釋到最高等級後，竟然可以用來製作頂級香水呢。",
-      "es": "Se elabora perfume de primera calidad diluyendo al m├íximo los gases venenosos internos de este Pok├⌐mon."
+      "es": "Se elabora perfume de primera calidad diluyendo al máximo los gases venenosos internos de este Pokémon."
     },
     "types": [
       "Normal",
@@ -7192,7 +7192,7 @@
           "name": {
             "en": "Good Old Fashioned Antiques",
             "zh": "古色古香的古董",
-            "es": "Lindas antig├╝edades de antes"
+            "es": "Lindas antigüedades de antes"
           },
           "image": "habitats/habitat_048.png"
         },
@@ -7201,7 +7201,7 @@
           "name": {
             "en": "Trash Collection Site",
             "zh": "垃圾收集場",
-            "es": "Lugar de recolecci├│n de basura"
+            "es": "Lugar de recolección de basura"
           },
           "image": "habitats/habitat_063.png"
         }
@@ -7379,7 +7379,7 @@
     "description": {
       "en": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pok├⌐mon's true appearance remains a mystery.",
       "zh": "藏在不停生長的蔓藤之下，就算蔓藤被扯斷也會繼續長，這隻寶可夢的真面目至今還是個謎。",
-      "es": "Oculto bajo un enredo de vides que crecen sin parar incluso si se arrancan, la verdadera apariencia de este Pok├⌐mon sigue siendo un misterio."
+      "es": "Oculto bajo un enredo de vides que crecen sin parar incluso si se arrancan, la verdadera apariencia de este Pokémon sigue siendo un misterio."
     },
     "types": [
       "Normal",
@@ -7395,7 +7395,7 @@
           "name": {
             "en": "Nothin But Poke Balls",
             "zh": "只有寶貝球",
-            "es": "Nada m├ís que Pok├⌐ Balls"
+            "es": "Nada más que Poké Balls"
           },
           "image": "habitats/habitat_049.png"
         }
@@ -7542,7 +7542,7 @@
     "description": {
       "en": "Vine growth is accelerated for Tangrowth living in warm climates. If the vines grow long, Tangrowth shortens them by tearing parts of them off.",
       "zh": "生活在溫暖氣候中的巨蔓藤，藤蔓的生長速度會加快。如果藤蔓長得太長，巨蔓藤會把多餘的部分扯斷來縮短。",
-      "es": "El crecimiento de las enredaderas se acelera para Tangrowth que vive en climas c├ílidos. Si las enredaderas crecen mucho, Tangrowth las acorta arrancando partes."
+      "es": "El crecimiento de las enredaderas se acelera para Tangrowth que vive en climas cálidos. Si las enredaderas crecen mucho, Tangrowth las acorta arrancando partes."
     },
     "types": [
       "Poison",
@@ -7558,7 +7558,7 @@
           "name": {
             "en": "Bench With Greenery",
             "zh": "綠意環繞的長椅",
-            "es": "Banco con vegetaci├│n"
+            "es": "Banco con vegetación"
           },
           "image": "habitats/habitat_022.png"
         }
@@ -7710,7 +7710,7 @@
     "description": {
       "en": "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
       "zh": "前臂上鋒利的鐮刀透過不斷砍劈堅硬的物體，會變得越來越銳利。",
-      "es": "Las afiladas guada├▒as de sus antebrazos se vuelven cada vez m├ís filosas al cortar objetos duros."
+      "es": "Las afiladas guadañas de sus antebrazos se vuelven cada vez más filosas al cortar objetos duros."
     },
     "types": [
       "Poison",
@@ -7726,7 +7726,7 @@
           "name": {
             "en": "Tree Shaded Tall Grass",
             "zh": "樹蔭下的高草叢",
-            "es": "Hierba alta a la sombra de los ├írboles"
+            "es": "Hierba alta a la sombra de los árboles"
           },
           "image": "habitats/habitat_002.png"
         }
@@ -7856,7 +7856,7 @@
     "description": {
       "en": "It swings its eye-patterned pincers up to scare its foes. This makes it look like it has three heads.",
       "zh": "學名是「Oddium wanderus」。據說夜幕降臨時，牠會用兩根根部行走長達一千英尺。",
-      "es": "Su nombre cient├¡fico es Oddium wanderus. Se dice que cuando cae la noche, camina sobre sus dos ra├¡ces recorriendo hasta 1,000 pies."
+      "es": "Su nombre científico es Oddium wanderus. Se dice que cuando cae la noche, camina sobre sus dos raíces recorriendo hasta 1,000 pies."
     },
     "types": [
       "Grass",
@@ -7872,7 +7872,7 @@
           "name": {
             "en": "Tree Shaded Tall Grass",
             "zh": "樹蔭下的高草叢",
-            "es": "Hierba alta a la sombra de los ├írboles"
+            "es": "Hierba alta a la sombra de los árboles"
           },
           "image": "habitats/habitat_002.png"
         }
@@ -8047,7 +8047,7 @@
     "description": {
       "en": "It swings its long pincer horns wildly to attack. During cold periods, it hides deep in forests.",
       "zh": "牠會瘋狂揮舞長長的夾角來攻擊。到了寒冷的時期，就會躲到森林深處。",
-      "es": "Agita fren├⌐ticamente sus largos cuernos tenaza para atacar. Durante los periodos fr├¡os, se esconde en lo profundo de los bosques."
+      "es": "Agita frenéticamente sus largos cuernos tenaza para atacar. Durante los periodos fríos, se esconde en lo profundo de los bosques."
     },
     "types": [
       "Grass",
@@ -8063,7 +8063,7 @@
           "name": {
             "en": "Tree Shaded Tall Grass",
             "zh": "樹蔭下的高草叢",
-            "es": "Hierba alta a la sombra de los ├írboles"
+            "es": "Hierba alta a la sombra de los árboles"
           },
           "image": "habitats/habitat_002.png"
         }
@@ -8201,7 +8201,7 @@
     "description": {
       "en": "An underpowered, pathetic Pok├⌐mon. It may jump high on rare occasions but never more than seven feet.",
       "zh": "是一隻力量很弱、有點可憐的寶可夢。偶爾可以跳得很高，但從來不超過七英尺。",
-      "es": "Un Pok├⌐mon d├⌐bil y pat├⌐tico. En raras ocasiones puede saltar alto, pero nunca m├ís de dos metros."
+      "es": "Un Pokémon débil y patético. En raras ocasiones puede saltar alto, pero nunca más de dos metros."
     },
     "types": [
       "Grass",
@@ -8511,7 +8511,7 @@
     "description": {
       "en": "It can reorganize its cells to make itself into a duplicate of anything it sees. The quality of the duplicate depends on the individual.",
       "zh": "牠能重新排列自己的細胞，變成任何看到的東西的複製品。不過複製品的品質就要看個體而定了。",
-      "es": "Puede reorganizar sus c├⌐lulas para transformarse en una copia de cualquier cosa que vea. La calidad del duplicado depende del individuo."
+      "es": "Puede reorganizar sus células para transformarse en una copia de cualquier cosa que vea. La calidad del duplicado depende del individuo."
     },
     "types": [
       "Bug",
@@ -8769,7 +8769,7 @@
     "description": {
       "en": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
       "zh": "牠的眼睛有特殊的構造，能聚集微弱的光線，讓牠在黑暗中也能看得清清楚楚。",
-      "es": "Sus ojos est├ín especialmente adaptados. Concentran incluso la luz m├ís tenue y le permiten ver en la oscuridad."
+      "es": "Sus ojos están especialmente adaptados. Concentran incluso la luz más tenue y le permiten ver en la oscuridad."
     },
     "types": [
       "Bug",
@@ -9002,7 +9002,7 @@
           "name": {
             "en": "Tree Shaded Tall Grass",
             "zh": "樹蔭下的高草叢",
-            "es": "Hierba alta a la sombra de los ├írboles"
+            "es": "Hierba alta a la sombra de los árboles"
           },
           "image": "habitats/habitat_002.png"
         }
@@ -9164,7 +9164,7 @@
           "name": {
             "en": "Hydrated Flower Bed",
             "zh": "潮濕的花圃",
-            "es": "Macizo de flores h├║medo"
+            "es": "Macizo de flores húmedo"
           },
           "image": "habitats/habitat_010.png"
         }
@@ -9335,7 +9335,7 @@
     "description": {
       "en": "It guides Volbeat to draw signs in the night sky. There are scholars who research the meaning of these signs.",
       "zh": "牠會引導電螢蟲在夜空中畫出各種圖案。有學者專門研究這些圖案的意義呢。",
-      "es": "Gu├¡a a Volbeat para dibujar signos en el cielo nocturno. Hay estudiosos que investigan el significado de estos signos."
+      "es": "Guía a Volbeat para dibujar signos en el cielo nocturno. Hay estudiosos que investigan el significado de estos signos."
     },
     "types": [
       "Normal"
@@ -9350,7 +9350,7 @@
           "name": {
             "en": "Hydrated Flower Bed",
             "zh": "潮濕的花圃",
-            "es": "Macizo de flores h├║medo"
+            "es": "Macizo de flores húmedo"
           },
           "image": "habitats/habitat_010.png"
         }
@@ -9521,7 +9521,7 @@
     "description": {
       "en": "It has a small heart and brain. Its stomach comprises most of its body, with enzymes to dissolve anything.",
       "zh": "牠的心臟和腦袋都很小，身體大部分是胃，裡面裝滿了能溶解任何東西的酵素。",
-      "es": "Tiene un coraz├│n y un cerebro diminutos. Su est├│mago comprende la mayor parte de su cuerpo, con enzimas capaces de disolver cualquier cosa."
+      "es": "Tiene un corazón y un cerebro diminutos. Su estómago comprende la mayor parte de su cuerpo, con enzimas capaces de disolver cualquier cosa."
     },
     "types": [
       "Normal"
@@ -9704,7 +9704,7 @@
     "description": {
       "en": "It can swallow a tire whole in one gulp. It secretes a horribly toxic fluid from the pores on its body.",
       "zh": "牠能一口氣吞下一整個輪胎！身體的毛細孔還會分泌出劇毒的液體。",
-      "es": "Puede tragar una llanta entera de un solo bocado. Secreta un l├¡quido horriblemente t├│xico por los poros de su cuerpo."
+      "es": "Puede tragar una llanta entera de un solo bocado. Secreta un líquido horriblemente tóxico por los poros de su cuerpo."
     },
     "types": [
       "Water"
@@ -9879,7 +9879,7 @@
     "description": {
       "en": "It lives in arid locations. Its yellow flowers bloom once a year.",
       "zh": "生活在乾旱的地方。黃色的花每年只開一次呢。",
-      "es": "Vive en zonas ├íridas. Sus flores amarillas florecen solo una vez al a├▒o."
+      "es": "Vive en zonas áridas. Sus flores amarillas florecen solo una vez al año."
     },
     "types": [
       "Water"
@@ -9894,7 +9894,7 @@
           "name": {
             "en": "Sunny Day Site",
             "zh": "晴天場所",
-            "es": "Lugar de d├¡a soleado"
+            "es": "Lugar de día soleado"
           },
           "image": "habitats/habitat_042.png"
         }
@@ -10054,7 +10054,7 @@
     "description": {
       "en": "It becomes active at night, seeking prey that is exhausted from the day s desert heat.",
       "zh": "到了夜晚就會活躍起來，專門尋找被白天沙漠高溫弄得筋疲力盡的獵物。",
-      "es": "Se vuelve activo de noche, buscando presas agotadas por el calor del desierto durante el d├¡a."
+      "es": "Se vuelve activo de noche, buscando presas agotadas por el calor del desierto durante el día."
     },
     "types": [
       "Fighting"
@@ -10069,7 +10069,7 @@
           "name": {
             "en": "Tree Shaded Flower Bed",
             "zh": "樹蔭下的花圃",
-            "es": "Macizo de flores a la sombra de los ├írboles"
+            "es": "Macizo de flores a la sombra de los árboles"
           },
           "image": "habitats/habitat_009.png"
         }
@@ -10238,7 +10238,7 @@
     "description": {
       "en": "The trio is together from birth. It constantly gathers nectar from flowers to please Vespiquen.",
       "zh": "三隻從出生起就在一起。牠們不斷從花朵採集花蜜來討好蜂后。",
-      "es": "El tr├¡o est├í unido desde que nace. Constantemente recolecta n├⌐ctar de las flores para complacer a Vespiquen."
+      "es": "El trío está unido desde que nace. Constantemente recolecta néctar de las flores para complacer a Vespiquen."
     },
     "types": [
       "Fighting"
@@ -10422,7 +10422,7 @@
     "description": {
       "en": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
       "zh": "牠在體內的巢室中安置幼蟲，並釋放各種費洛蒙來指揮幼蟲為牠做事。",
-      "es": "Aloja a su colonia en celdas dentro de su cuerpo y libera diversas feromonas para que las larvas cumplan sus ├│rdenes."
+      "es": "Aloja a su colonia en celdas dentro de su cuerpo y libera diversas feromonas para que las larvas cumplan sus órdenes."
     },
     "types": [
       "Fire"
@@ -10591,7 +10591,7 @@
     "description": {
       "en": "This Pok├⌐mon can often be seen along seashores. It's capable of spending a limited amount of time on land.",
       "zh": "經常可以在海岸邊看到這隻寶可夢。牠能在陸地上短暫活動一陣子。",
-      "es": "Este Pok├⌐mon suele verse en las costas. Es capaz de pasar un tiempo limitado en tierra firme."
+      "es": "Este Pokémon suele verse en las costas. Es capaz de pasar un tiempo limitado en tierra firme."
     },
     "types": [
       "Water"
@@ -10606,7 +10606,7 @@
           "name": {
             "en": "Road Sign",
             "zh": "路標",
-            "es": "Se├▒al de camino"
+            "es": "Señal de camino"
           },
           "image": "habitats/habitat_027.png"
         }
@@ -10737,7 +10737,7 @@
     "description": {
       "en": "They normally inhabit rocky seahorses, but in times of continuous rain, they can sometimes be found in the mountains, far from the sea.",
       "zh": "牠們通常棲息在岩石海岸，但在連續下雨的日子裡，有時會出現在遠離大海的山區。",
-      "es": "Normalmente habitan en costas rocosas, pero en temporadas de lluvias continuas, a veces se les puede encontrar en las monta├▒as, lejos del mar."
+      "es": "Normalmente habitan en costas rocosas, pero en temporadas de lluvias continuas, a veces se les puede encontrar en las montañas, lejos del mar."
     },
     "types": [
       "Water",
@@ -10886,7 +10886,7 @@
     "description": {
       "en": "Because of the way it floats aimlessly, an old folktale calls it a &quot;signpost for wandering spirits.&quot;",
       "zh": "因為總是漫無目的地飄來飄去，古老的傳說把牠叫做「流浪靈魂的路標」。",
-      "es": "Por la forma en que flota sin rumbo, un viejo cuento lo llama ┬½se├▒al para los esp├¡ritus errantes┬╗."
+      "es": "Por la forma en que flota sin rumbo, un viejo cuento lo llama «señal para los espíritus errantes»."
     },
     "types": [
       "Water"
@@ -10901,7 +10901,7 @@
           "name": {
             "en": "Riding Warm Updrafts",
             "zh": "乘著暖暖上升氣流",
-            "es": "Surcando corrientes c├ílidas"
+            "es": "Surcando corrientes cálidas"
           },
           "image": "habitats/habitat_016.png"
         },
@@ -11072,7 +11072,7 @@
     "description": {
       "en": "It can generate and release gas within its body. That s how it can control the altitude of its drift.",
       "zh": "牠能在體內產生和釋放氣體，就這樣控制自己飄浮的高度呢。",
-      "es": "Puede generar y liberar gases dentro de su cuerpo. As├¡ controla la altitud a la que flota."
+      "es": "Puede generar y liberar gases dentro de su cuerpo. Así controla la altitud a la que flota."
     },
     "types": [
       "Water",
@@ -11233,7 +11233,7 @@
     "description": {
       "en": "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
       "zh": "螺釘地鼠把兩隻爪子合在一起高速旋轉，就能迅速地在土壤中穿梭前進。",
-      "es": "Se abre paso por el suelo r├ípidamente juntando ambas garras y girando a alta velocidad."
+      "es": "Se abre paso por el suelo rápidamente juntando ambas garras y girando a alta velocidad."
     },
     "types": [
       "Psychic"
@@ -11396,7 +11396,7 @@
     "description": {
       "en": "Forming a drill with its steel claws and head, it can bore through a steel plate, no matter how thick it is.",
       "zh": "龍頭地鼠用鋼鐵般的爪子和頭部組成鑽頭，不管多厚的鋼板都能鑽穿。",
-      "es": "Formando un taladro con sus garras de acero y su cabeza, puede perforar una placa de acero, sin importar qu├⌐ tan gruesa sea."
+      "es": "Formando un taladro con sus garras de acero y su cabeza, puede perforar una placa de acero, sin importar qué tan gruesa sea."
     },
     "types": [
       "Psychic"
@@ -11568,7 +11568,7 @@
     "description": {
       "en": "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
       "zh": "搬運小匠總是扛著方木頭幫忙做建築工作。隨著成長，牠們會搬越來越大的木頭。",
-      "es": "Siempre cargan troncos cuadrados y ayudan en la construcci├│n. A medida que crecen, cargan troncos m├ís grandes."
+      "es": "Siempre cargan troncos cuadrados y ayudan en la construcción. A medida que crecen, cargan troncos más grandes."
     },
     "types": [
       "Psychic"
@@ -11736,7 +11736,7 @@
     "description": {
       "en": "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
       "zh": "鐵骨土人透過搬運鋼樑來鍛鍊身體。牠們喜歡向朋友展示自己鼓鼓的大肌肉。",
-      "es": "Fortalecen sus cuerpos cargando vigas de acero. Les gusta presumir sus grandes m├║sculos ante sus amigos."
+      "es": "Fortalecen sus cuerpos cargando vigas de acero. Les gusta presumir sus grandes músculos ante sus amigos."
     },
     "types": [
       "Fighting"
@@ -11933,7 +11933,7 @@
     "description": {
       "en": "It is thought that Conkeldurr taught humans how to make concre more than 2,000 years ago.",
       "zh": "據說修建老匠在兩千多年前就教會了人類如何製造混凝土。",
-      "es": "Se dice que Conkeldurr ense├▒├│ a los humanos a hacer concreto hace m├ís de 2,000 a├▒os."
+      "es": "Se dice que Conkeldurr enseñó a los humanos a hacer concreto hace más de 2,000 años."
     },
     "types": [
       "Fighting"
@@ -12104,7 +12104,7 @@
     "description": {
       "en": "While shining a light and pretending to be a guide, it leeches off the life-force of any who follow it.",
       "zh": "燭光靈會一邊散發光芒假裝要為人引路，一邊悄悄吸取跟隨者的生命力。",
-      "es": "Mientras brilla y finge ser una gu├¡a, absorbe la fuerza vital de quienes la siguen."
+      "es": "Mientras brilla y finge ser una guía, absorbe la fuerza vital de quienes la siguen."
     },
     "types": [
       "Fighting"
@@ -12286,7 +12286,7 @@
     "description": {
       "en": "Lampent appears at the moment of death and promptly absorbs the spirit as it leaves the body.",
       "zh": "燈火幽靈會在生命消逝的瞬間出現，立刻將離開身體的靈魂吸入體內。",
-      "es": "Lampent aparece en el momento de la muerte y absorbe de inmediato el esp├¡ritu cuando abandona el cuerpo."
+      "es": "Lampent aparece en el momento de la muerte y absorbe de inmediato el espíritu cuando abandona el cuerpo."
     },
     "types": [
       "Grass",
@@ -12465,7 +12465,7 @@
     "description": {
       "en": "The spirits burned up in its ominous flame lose their way and wander this World forever.",
       "zh": "被水晶燈火靈詭異火焰燒盡的靈魂會迷失方向，永遠在這個世界徘徊。",
-      "es": "Los esp├¡ritus quemados por su siniestra llama pierden su camino y vagan por este mundo para siempre."
+      "es": "Los espíritus quemados por su siniestra llama pierden su camino y vagan por este mundo para siempre."
     },
     "types": [
       "Grass",
@@ -12622,7 +12622,7 @@
     "description": {
       "en": "These Pok├⌐mon nest in the ground and use their tusks to crush hard berries. Crushing berries is also how they test each other s strength.",
       "zh": "牙牙們在地洞裡築巢，用獠牙咬碎堅硬的漿果。咬漿果也是牠們互相測試力量的方式。",
-      "es": "Estos Pok├⌐mon anidan en el suelo y usan sus colmillos para triturar bayas duras. Aplastar bayas tambi├⌐n es su forma de medir su fuerza entre ellos."
+      "es": "Estos Pokémon anidan en el suelo y usan sus colmillos para triturar bayas duras. Aplastar bayas también es su forma de medir su fuerza entre ellos."
     },
     "types": [
       "Grass",
@@ -12638,7 +12638,7 @@
           "name": {
             "en": "Lumberjacks Workplace",
             "zh": "伐木工的工作場",
-            "es": "Lugar de trabajo del le├▒ador"
+            "es": "Lugar de trabajo del leñador"
           },
           "image": "habitats/habitat_029.png"
         },
@@ -12821,7 +12821,7 @@
           "name": {
             "en": "Lumberjacks Workplace",
             "zh": "伐木工的工作場",
-            "es": "Lugar de trabajo del le├▒ador"
+            "es": "Lugar de trabajo del leñador"
           },
           "image": "habitats/habitat_029.png"
         },
@@ -12984,7 +12984,7 @@
           "name": {
             "en": "Lumberjacks Workplace",
             "zh": "伐木工的工作場",
-            "es": "Lugar de trabajo del le├▒ador"
+            "es": "Lugar de trabajo del leñador"
           },
           "image": "habitats/habitat_029.png"
         },
@@ -13130,7 +13130,7 @@
     "description": {
       "en": "Most of a Goomy's body is water. A membrane covers the whole Pok├⌐mon to prevent it from shriveling up in dry weather.",
       "zh": "黏黏寶的身體大部分是水。整個身體覆蓋著一層薄膜，防止在乾燥天氣中乾癟。",
-      "es": "La mayor parte del cuerpo de Goomy es agua. Una membrana cubre todo el Pok├⌐mon para evitar que se marchite en clima seco."
+      "es": "La mayor parte del cuerpo de Goomy es agua. Una membrana cubre todo el Pokémon para evitar que se marchite en clima seco."
     },
     "types": [
       "Rock",
@@ -13146,7 +13146,7 @@
           "name": {
             "en": "Tree Shaded Flower Bed",
             "zh": "樹蔭下的花圃",
-            "es": "Macizo de flores a la sombra de los ├írboles"
+            "es": "Macizo de flores a la sombra de los árboles"
           },
           "image": "habitats/habitat_009.png"
         },
@@ -13316,7 +13316,7 @@
     "description": {
       "en": "The swirly protrusion on its back is filled with all its vital organs, such as its brain and heart.",
       "zh": "静止時看起來就像一塊石頭。不小心踩到它會讓它憤怒地揮舞拳頭。",
-      "es": "Cuando descansa, parece una roca. Si alguien lo pisa sin querer, balan├ºar├í los pu├▒os con anger."
+      "es": "Cuando descansa, parece una roca. Si alguien lo pisa sin querer, balançará los puños con anger."
     },
     "types": [
       "Rock",
@@ -13332,7 +13332,7 @@
           "name": {
             "en": "Hydrated Tall Grass",
             "zh": "潮濕的高草叢",
-            "es": "Hierba alta h├║meda"
+            "es": "Hierba alta húmeda"
           },
           "image": "habitats/habitat_004.png"
         }
@@ -13511,7 +13511,7 @@
     "description": {
       "en": "Its form of offense is forcefully stretching out its horns. The strik land 100 times harder than any blow from a heavyweight boxer.",
       "zh": "黏美龍的攻擊方式是用力伸出觸角。那一擊的力道比重量級拳擊手的拳頭還要強上一百倍。",
-      "es": "Su forma de ataque es extender sus cuernos con fuerza. El impacto es 100 veces m├ís fuerte que el golpe de un boxeador de peso pesado."
+      "es": "Su forma de ataque es extender sus cuernos con fuerza. El impacto es 100 veces más fuerte que el golpe de un boxeador de peso pesado."
     },
     "types": [
       "Rock",
@@ -13664,7 +13664,7 @@
     "description": {
       "en": "Cramorant instinctively swallow everything whole. They're at their most formidable when they're struggling to swallow overly large prey.",
       "zh": "古月鳥會本能地把所有東西整個吞下去。當牠們努力吞下過大的獵物時，反而是最可怕的時候。",
-      "es": "Cramorant traga todo entero por instinto. Son m├ís formidables cuando est├ín luchando por tragar una presa demasiado grande."
+      "es": "Cramorant traga todo entero por instinto. Son más formidables cuando están luchando por tragar una presa demasiado grande."
     },
     "types": [
       "Fire"
@@ -13679,7 +13679,7 @@
           "name": {
             "en": "Hydrated Tall Grass",
             "zh": "潮濕的高草叢",
-            "es": "Hierba alta h├║meda"
+            "es": "Hierba alta húmeda"
           },
           "image": "habitats/habitat_004.png"
         }
@@ -13822,7 +13822,7 @@
     "description": {
       "en": "It has electric sacs in its cheeks. When they're fully charged, Pichu plays very energetically.",
       "zh": "皮丘的臉頰裡有電氣囊。當電力充滿時，皮丘就會變得精力充沛、玩得超開心！",
-      "es": "Tiene bolsas el├⌐ctricas en las mejillas. Cuando est├ín completamente cargadas, Pichu juega con much├¡sima energ├¡a."
+      "es": "Tiene bolsas eléctricas en las mejillas. Cuando están completamente cargadas, Pichu juega con muchísima energía."
     },
     "types": [
       "Fire"
@@ -14025,7 +14025,7 @@
     "description": {
       "en": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
       "zh": "能產生強大電力的皮卡丘，臉頰的電氣囊特別柔軟、彈性超好。",
-      "es": "Los Pikachu que pueden generar electricidad poderosa tienen bolsas en las mejillas extra suaves y s├║per el├ísticas."
+      "es": "Los Pikachu que pueden generar electricidad poderosa tienen bolsas en las mejillas extra suaves y súper elásticas."
     },
     "types": [
       "Water",
@@ -14204,7 +14204,7 @@
     "description": {
       "en": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
       "zh": "雷丘會將多餘的電力從尾巴排到地面上，這樣牠自己就不會被電到了。",
-      "es": "Su cola descarga electricidad al suelo, protegi├⌐ndose de recibir una descarga el├⌐ctrica."
+      "es": "Su cola descarga electricidad al suelo, protegiéndose de recibir una descarga eléctrica."
     },
     "types": [
       "Water",
@@ -14384,7 +14384,7 @@
     "description": {
       "en": "It has no eyes. Instead, it relies on its ultrasonic cries for echolocation to flit about in darkness.",
       "zh": "超音蝠沒有眼睛。牠依靠發出超音波叫聲來回聲定位，在黑暗中靈活飛行。",
-      "es": "No tiene ojos. En su lugar, depende de sus gritos ultras├│nicos para la ecolocalizaci├│n y revolotear en la oscuridad."
+      "es": "No tiene ojos. En su lugar, depende de sus gritos ultrasónicos para la ecolocalización y revolotear en la oscuridad."
     },
     "types": [
       "Electric",
@@ -14400,7 +14400,7 @@
           "name": {
             "en": "Tree Shaded Yellow Tall Grass",
             "zh": "樹蔭下的黃色高草叢",
-            "es": "Hierba alta amarilla a la sombra de los ├írboles"
+            "es": "Hierba alta amarilla a la sombra de los árboles"
           },
           "image": "habitats/habitat_051.png"
         },
@@ -14568,7 +14568,7 @@
           "name": {
             "en": "Tree Shaded Yellow Tall Grass",
             "zh": "樹蔭下的黃色高草叢",
-            "es": "Hierba alta amarilla a la sombra de los ├írboles"
+            "es": "Hierba alta amarilla a la sombra de los árboles"
           },
           "image": "habitats/habitat_051.png"
         }
@@ -14711,7 +14711,7 @@
     "description": {
       "en": "It flies so silently through the dark on its four wings that it may n be noticed even when nearby.",
       "zh": "叉字蝠用四片翅膀在黑暗中無聲飛行，就算在附近，你可能也不會注意到牠。",
-      "es": "Vuela tan silenciosamente en la oscuridad con sus cuatro alas que puede pasar desapercibido incluso cuando est├í cerca."
+      "es": "Vuela tan silenciosamente en la oscuridad con sus cuatro alas que puede pasar desapercibido incluso cuando está cerca."
     },
     "types": [
       "Normal",
@@ -14736,7 +14736,7 @@
           "name": {
             "en": "Trash Disposal Site",
             "zh": "垃圾處理場",
-            "es": "Lugar de eliminaci├│n de basura"
+            "es": "Lugar de eliminación de basura"
           },
           "image": "habitats/habitat_065.png"
         }
@@ -14882,7 +14882,7 @@
     "description": {
       "en": "Appears to be more active at night. It loves round and shiny things. It can't stop itself from picking them up.",
       "zh": "喵喵在夜間比較活躍。牠非常喜歡圓圓亮亮的東西，看到就忍不住要撿起來。",
-      "es": "Parece estar m├ís activo de noche. Le encantan las cosas redondas y brillantes. No puede evitar recogerlas."
+      "es": "Parece estar más activo de noche. Le encantan las cosas redondas y brillantes. No puede evitar recogerlas."
     },
     "types": [
       "Normal",
@@ -15090,7 +15090,7 @@
     "description": {
       "en": "The gem in its forehead glows on its own! It walks with all the grace and elegance of a proud queen.",
       "zh": "貓老大額頭上的寶石會自己發光！牠走路時優雅高貴，就像一位驕傲的女王。",
-      "es": "┬íLa joya en su frente brilla por s├¡ sola! Camina con toda la gracia y elegancia de una orgullosa reina."
+      "es": "¡La joya en su frente brilla por sí sola! Camina con toda la gracia y elegancia de una orgullosa reina."
     },
     "types": [
       "Normal",
@@ -15106,7 +15106,7 @@
           "name": {
             "en": "Evil Organization Hq",
             "zh": "邪惡組織總部",
-            "es": "Cuartel general de la organizaci├│n maligna"
+            "es": "Cuartel general de la organización maligna"
           },
           "image": "habitats/habitat_179.png"
         }
@@ -15448,7 +15448,7 @@
     "description": {
       "en": "It swims gracefully along on the quiet, slow-moving rivers and lakes of which it is so fond.",
       "zh": "哥達鴨在牠最喜歡的寧靜河流和湖泊上優雅地滑行。",
-      "es": "Nada con gracia por los r├¡os y lagos tranquilos y lentos que tanto le gustan."
+      "es": "Nada con gracia por los ríos y lagos tranquilos y lentos que tanto le gustan."
     },
     "types": [
       "Water",
@@ -15609,7 +15609,7 @@
     "description": {
       "en": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
       "zh": "卡蒂狗天性勇敢可靠。面對更大更強的對手，牠也會毫不畏懼地挺身而出。",
-      "es": "Tiene una naturaleza valiente y digna de confianza. Se enfrenta sin miedo a rivales m├ís grandes y fuertes."
+      "es": "Tiene una naturaleza valiente y digna de confianza. Se enfrenta sin miedo a rivales más grandes y fuertes."
     },
     "types": [
       "Poison"
@@ -15633,7 +15633,7 @@
           "name": {
             "en": "Resort Meal Prep",
             "zh": "度假村餐點準備",
-            "es": "Preparaci├│n de comida del resort"
+            "es": "Preparación de comida del resort"
           },
           "image": "habitats/habitat_079.png"
         }
@@ -15785,7 +15785,7 @@
           "name": {
             "en": "Mini Museum",
             "zh": "迷你博物館",
-            "es": "Muse├¡to"
+            "es": "Museíto"
           },
           "image": "habitats/habitat_129.png"
         },
@@ -15926,13 +15926,13 @@
     "pokedex_number": 83,
     "name": {
       "en": "Farfetchd",
-      "es": "FarfetchΓÇÖd",
+      "es": "Farfetch’d",
       "zh": "大蔥鴨"
     },
     "description": {
       "en": "It always walks about with a plant stalk clamped in its beak The stalk is used for building its nest.",
       "zh": "大蔥鴨總是嘴裡夾著一根蔥。這根蔥也會被用來築巢。",
-      "es": "Siempre camina con un tallo de planta sujeto en el pico. El tallo tambi├⌐n lo usa para construir su nido."
+      "es": "Siempre camina con un tallo de planta sujeto en el pico. El tallo también lo usa para construir su nido."
     },
     "types": [
       "Water"
@@ -16113,7 +16113,7 @@
     "description": {
       "en": "Born from sludge, these Pok├⌐mon now gather in polluted places and increase the bacteria in their bodies.",
       "zh": "臭泥誕生於污泥，現在會聚集在污染嚴重的地方，增加體內的細菌。",
-      "es": "Nacidos del lodo, estos Pok├⌐mon ahora se re├║nen en lugares contaminados y aumentan las bacterias en sus cuerpos."
+      "es": "Nacidos del lodo, estos Pokémon ahora se reúnen en lugares contaminados y aumentan las bacterias en sus cuerpos."
     },
     "types": [
       "Water",
@@ -16280,7 +16280,7 @@
     "description": {
       "en": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.",
       "zh": "臭臭泥的臭味令人作嘔，甚至能讓人昏倒。但因為鼻子退化了，牠自己反而聞不到。",
-      "es": "Huele tan mal que puede hacer que la gente se desmaye. Sin embargo, perdi├│ el sentido del olfato por la degeneraci├│n de su nariz."
+      "es": "Huele tan mal que puede hacer que la gente se desmaye. Sin embargo, perdió el sentido del olfato por la degeneración de su nariz."
     },
     "types": [
       "Ghost",
@@ -16634,7 +16634,7 @@
     "description": {
       "en": "If you get the feeling of being watched in darkness when nobody is around, Haunter is there.",
       "zh": "如果在黑暗中感覺有人在看著你，但周圍明明沒有人，那就是鬼斯通在作怪。",
-      "es": "Si sientes que te observan en la oscuridad cuando no hay nadie, Haunter est├í ah├¡."
+      "es": "Si sientes que te observan en la oscuridad cuando no hay nadie, Haunter está ahí."
     },
     "types": [
       "Ghost",
@@ -16824,7 +16824,7 @@
     "description": {
       "en": "A Gengar is close by if you feel a sudden chill. It may be trying to lay a curse on you.",
       "zh": "如果你突然感到一陣寒意，那就是耿鬼在你附近。牠可能正在試圖對你下咒。",
-      "es": "Si sientes un fr├¡o repentino, un Gengar est├í cerca. Puede que est├⌐ intentando lanzarte una maldici├│n."
+      "es": "Si sientes un frío repentino, un Gengar está cerca. Puede que esté intentando lanzarte una maldición."
     },
     "types": [
       "Rock",
@@ -17003,7 +17003,7 @@
     "description": {
       "en": "It is said to camouflage itself as a Poke Ball. It will self-destruct with very little stimulus.",
       "zh": "據說霹靂電球會偽裝成精靈球的樣子。只要受到一點點刺激，牠就會自我爆炸。",
-      "es": "Se dice que se camufla como una Pok├⌐bola. Se autodestruir├í con muy poco est├¡mulo."
+      "es": "Se dice que se camufla como una Pokébola. Se autodestruirá con muy poco estímulo."
     },
     "types": [
       "Psychic"
@@ -17174,7 +17174,7 @@
     "description": {
       "en": "It stores an overflowing amount of electric energy inside its body Even a small shock makes it explode.",
       "zh": "頑皮雷彈體內儲存了滿溢的電力。只要受到一點小小的震動就會爆炸。",
-      "es": "Almacena una cantidad desbordante de energ├¡a el├⌐ctrica en su cuerpo. Incluso una peque├▒a descarga lo hace explotar."
+      "es": "Almacena una cantidad desbordante de energía eléctrica en su cuerpo. Incluso una pequeña descarga lo hace explotar."
     },
     "types": [
       "Psychic"
@@ -17337,7 +17337,7 @@
     "description": {
       "en": "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six.",
       "zh": "蛋蛋們用心電感應互相溝通，只有同伴才能接收。牠們總是六隻聚在一起。",
-      "es": "Usando telepat├¡a que solo otros Exeggcute pueden captar, siempre forman un grupo de seis."
+      "es": "Usando telepatía que solo otros Exeggcute pueden captar, siempre forman un grupo de seis."
     },
     "types": [
       "Water"
@@ -17719,7 +17719,7 @@
     "description": {
       "en": "It carefully carries a round, white rock that it thinks is an egg. It's bothered by how curly its hair looks.",
       "zh": "小福蛋會小心翼翼地抱著一顆圓圓的白石頭，以為那是蛋。牠很煩惱自己捲捲的頭髮。",
-      "es": "Cuidadosamente carga una roca blanca y redonda que cree que es un huevo. Le molesta lo rizado que est├í su pelo."
+      "es": "Cuidadosamente carga una roca blanca y redonda que cree que es un huevo. Le molesta lo rizado que está su pelo."
     },
     "types": [
       "Electric"
@@ -17936,7 +17936,7 @@
     "description": {
       "en": "A gentle and kindhearted Pok├⌐mon that shares its nutritious eggs if it sees an injured Pok├⌐mon.",
       "zh": "吉利蛋是一隻溫柔善良的寶可夢，如果看到受傷的寶可夢，就會分享自己營養豐富的蛋。",
-      "es": "Un Pok├⌐mon amable y bondadoso que comparte sus huevos nutritivos si ve a un Pok├⌐mon herido."
+      "es": "Un Pokémon amable y bondadoso que comparte sus huevos nutritivos si ve a un Pokémon herido."
     },
     "types": [
       "Electric"
@@ -17951,7 +17951,7 @@
           "name": {
             "en": "Full Recovery",
             "zh": "完全恢復",
-            "es": "Recuperaci├│n total"
+            "es": "Recuperación total"
           },
           "image": "habitats/habitat_081.png"
         }
@@ -18138,7 +18138,7 @@
     "description": {
       "en": "The eggs it lays are filled with happiness Eating even one bite will bring a smile to anyone.",
       "zh": "幸福蛋產下的蛋充滿了幸福。只要吃上一口，任誰都會露出笑容。",
-      "es": "Los huevos que pone est├ín llenos de felicidad. Con solo un bocado, cualquiera sonreir├í."
+      "es": "Los huevos que pone están llenos de felicidad. Con solo un bocado, cualquiera sonreirá."
     },
     "types": [
       "Grass",
@@ -18340,7 +18340,7 @@
     "description": {
       "en": "It rotates its arms to generate electricity, but it tires easily, so it only charges up a little bit.",
       "zh": "電擊怪會轉動手臂來發電，但很容易累，所以只能充上一點點電。",
-      "es": "Gira sus brazos para generar electricidad, pero se cansa f├ícilmente, as├¡ que solo se carga un poquito."
+      "es": "Gira sus brazos para generar electricidad, pero se cansa fácilmente, así que solo se carga un poquito."
     },
     "types": [
       "Grass",
@@ -18356,7 +18356,7 @@
           "name": {
             "en": "Vending Machine Set",
             "zh": "自動販賣機組",
-            "es": "Set de m├íquinas expendedoras"
+            "es": "Set de máquinas expendedoras"
           },
           "image": "habitats/habitat_084.png"
         }
@@ -18516,7 +18516,7 @@
     "description": {
       "en": "Its body constantly discharges electricity. Getting close to it will make your hair stand on end./",
       "zh": "電擊獸的身體不斷放電。靠近牠的話，你的頭髮就會豎起來！",
-      "es": "Su cuerpo descarga electricidad constantemente. Acercarte a ├⌐l har├í que se te erice el cabello."
+      "es": "Su cuerpo descarga electricidad constantemente. Acercarte a él hará que se te erice el cabello."
     },
     "types": [
       "Ground"
@@ -18683,7 +18683,7 @@
     "description": {
       "en": "A single Electivire can provide enough electricity for all the buildings in a big city for a year.",
       "zh": "一隻電擊魔獸提供的電力，就夠一座大城市所有建築用上一整年。",
-      "es": "Un solo Electivire puede proporcionar suficiente electricidad para todos los edificios de una gran ciudad durante un a├▒o."
+      "es": "Un solo Electivire puede proporcionar suficiente electricidad para todos los edificios de una gran ciudad durante un año."
     },
     "types": [
       "Ground"
@@ -18707,7 +18707,7 @@
           "name": {
             "en": "Vending Machine Set",
             "zh": "自動販賣機組",
-            "es": "Set de m├íquinas expendedoras"
+            "es": "Set de máquinas expendedoras"
           },
           "image": "habitats/habitat_084.png"
         }
@@ -18854,7 +18854,7 @@
     "description": {
       "en": "A smart and kindhearted Pok├⌐mon, it glides across the surface of the sea while its beautiful song echoes around it.",
       "zh": "拉普拉斯是一隻聰明又善良的寶可夢，在海面上優雅滑行時，美妙的歌聲在四周迴盪。",
-      "es": "Un Pok├⌐mon inteligente y bondadoso que se desliza por la superficie del mar mientras su hermoso canto resuena a su alrededor."
+      "es": "Un Pokémon inteligente y bondadoso que se desliza por la superficie del mar mientras su hermoso canto resuena a su alrededor."
     },
     "types": [
       "Fighting"
@@ -19018,7 +19018,7 @@
           "name": {
             "en": "Tree Shaded Snoozing Snorlax",
             "zh": "樹蔭下打盹的卡比獸",
-            "es": "Snorlax dormitando a la sombra de los ├írboles"
+            "es": "Snorlax dormitando a la sombra de los árboles"
           },
           "image": "habitats/habitat_047.png"
         }
@@ -19203,7 +19203,7 @@
     "description": {
       "en": "It doesn't do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.",
       "zh": "卡比獸除了吃就是睡。不過如果認真起來，據說牠能展現出驚人的力量。",
-      "es": "No hace nada m├ís que comer y dormir. Pero cuando se esfuerza en serio, al parecer muestra un poder asombroso."
+      "es": "No hace nada más que comer y dormir. Pero cuando se esfuerza en serio, al parecer muestra un poder asombroso."
     },
     "types": [
       "Normal"
@@ -19218,7 +19218,7 @@
           "name": {
             "en": "Tree Shaded Snoozing Snorlax",
             "zh": "樹蔭下打盹的卡比獸",
-            "es": "Snorlax dormitando a la sombra de los ├írboles"
+            "es": "Snorlax dormitando a la sombra de los árboles"
           },
           "image": "habitats/habitat_047.png"
         },
@@ -19227,7 +19227,7 @@
           "name": {
             "en": "Good Old Fashioned Antiques",
             "zh": "古色古香的古董",
-            "es": "Lindas antig├╝edades de antes"
+            "es": "Lindas antigüedades de antes"
           },
           "image": "habitats/habitat_048.png"
         }
@@ -19571,7 +19571,7 @@
     "description": {
       "en": "It spins string not only from its rear but also from its mouth. It s hard to tell which end is which.",
       "zh": "阿利多斯不只從尾部，也從嘴裡吐絲。根本分不清哪一邊是頭哪一邊是尾。",
-      "es": "Hila hilos no solo de su parte posterior, sino tambi├⌐n de su boca. Es dif├¡cil saber qu├⌐ extremo es cu├íl."
+      "es": "Hila hilos no solo de su parte posterior, sino también de su boca. Es difícil saber qué extremo es cuál."
     },
     "types": [
       "Poison"
@@ -19747,7 +19747,7 @@
     "description": {
       "en": "If static electricity builds in its body, its fleece doubles in volume Touching it will shock you.",
       "zh": "如果靜電在咩利羊體內累積，牠的毛就會膨脹到兩倍大。摸牠一下就會被電到！",
-      "es": "Si la electricidad est├ítica se acumula en su cuerpo, su vell├│n se duplica en volumen. ┬íTocarlo te dar├í una descarga!"
+      "es": "Si la electricidad estática se acumula en su cuerpo, su vellón se duplica en volumen. ¡Tocarlo te dará una descarga!"
     },
     "types": [
       "Ground",
@@ -19763,7 +19763,7 @@
           "name": {
             "en": "Overgrowth Vending Machine",
             "zh": "雜草叢生的販賣機",
-            "es": "M├íquina expendedora cubierta de maleza"
+            "es": "Máquina expendedora cubierta de maleza"
           },
           "image": "habitats/habitat_055.png"
         },
@@ -19772,7 +19772,7 @@
           "name": {
             "en": "Knitting Station",
             "zh": "編織站",
-            "es": "Estaci├│n de tejido"
+            "es": "Estación de tejido"
           },
           "image": "habitats/habitat_077.png"
         }
@@ -19962,7 +19962,7 @@
     "description": {
       "en": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
       "zh": "因為儲存了太多電力，茸茸羊身上有些地方連柔軟的毛都長不出來了。",
-      "es": "Como resultado de almacenar demasiada electricidad, desarroll├│ parches donde ni siquiera la lana suave puede crecer."
+      "es": "Como resultado de almacenar demasiada electricidad, desarrolló parches donde ni siquiera la lana suave puede crecer."
     },
     "types": [
       "Ground",
@@ -19987,7 +19987,7 @@
           "name": {
             "en": "Knitting Station",
             "zh": "編織站",
-            "es": "Estaci├│n de tejido"
+            "es": "Estación de tejido"
           },
           "image": "habitats/habitat_077.png"
         }
@@ -20146,7 +20146,7 @@
     "description": {
       "en": "When it gets dark, the light from its bright, shiny tail can be seen from far away on the ocean surface.",
       "zh": "天色暗下來時，從遠處的海面上也能看到電龍尾巴發出的明亮光芒。",
-      "es": "Cuando oscurece, la luz brillante de la cola de Ampharos se puede ver desde lejos en la superficie del oc├⌐ano."
+      "es": "Cuando oscurece, la luz brillante de la cola de Ampharos se puede ver desde lejos en la superficie del océano."
     },
     "types": [
       "Normal"
@@ -20319,7 +20319,7 @@
     "description": {
       "en": "Its tail is packed full of the nutrients it needs to grow.",
       "zh": "露力麗的尾巴裡塞滿了成長所需的營養。",
-      "es": "Su cola est├í llena de los nutrientes que necesita para crecer."
+      "es": "Su cola está llena de los nutrientes que necesita para crecer."
     },
     "types": [
       "Grass"
@@ -20334,7 +20334,7 @@
           "name": {
             "en": "Hydrated Yellow Tall Grass",
             "zh": "潮濕的黃色高草叢",
-            "es": "Hierba alta amarilla h├║meda"
+            "es": "Hierba alta amarilla húmeda"
           },
           "image": "habitats/habitat_053.png"
         },
@@ -20475,7 +20475,7 @@
     "description": {
       "en": "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents.",
       "zh": "尾巴裡充滿油脂可以當作浮標，所以即使在湍急的河流中也完全沒問題。",
-      "es": "La cola llena de aceite funciona como un flotador, as├¡ que est├í bien incluso en r├¡os con corrientes fuertes."
+      "es": "La cola llena de aceite funciona como un flotador, así que está bien incluso en ríos con corrientes fuertes."
     },
     "types": [
       "Normal"
@@ -20490,7 +20490,7 @@
           "name": {
             "en": "Hydrated Yellow Tall Grass",
             "zh": "潮濕的黃色高草叢",
-            "es": "Hierba alta amarilla h├║meda"
+            "es": "Hierba alta amarilla húmeda"
           },
           "image": "habitats/habitat_053.png"
         },
@@ -20651,7 +20651,7 @@
     "description": {
       "en": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
       "zh": "瑪力露麗的長耳朵是極佳的感應器。牠能分辨水中物體的動態，還能判斷是什麼東西。",
-      "es": "Sus largas orejas son sensores excelentes. Puede distinguir los movimientos de las cosas en el agua e identificar qu├⌐ son."
+      "es": "Sus largas orejas son sensores excelentes. Puede distinguir los movimientos de las cosas en el agua e identificar qué son."
     },
     "types": [
       "Water"
@@ -20816,7 +20816,7 @@
     "description": {
       "en": "After losing a territorial struggle, Wooper began living on land. The Pok├⌐mon changed over time, developing a poisonous film to protect its body.",
       "zh": "在領地爭奪中失敗後，烏波開始在陸地上生活。隨著時間推移，牠身上發展出一層有毒的薄膜來保護身體。",
-      "es": "Despu├⌐s de perder una lucha territorial, Wooper comenz├│ a vivir en tierra. Con el tiempo, desarroll├│ una pel├¡cula venenosa para proteger su cuerpo."
+      "es": "Después de perder una lucha territorial, Wooper comenzó a vivir en tierra. Con el tiempo, desarrolló una película venenosa para proteger su cuerpo."
     },
     "types": [
       "Water"
@@ -21145,7 +21145,7 @@
     "description": {
       "en": "This Pok├⌐mon secretes multicolored bodily fluids from the tip of its tail it uses as paint. It hopes to paint the landscape of its birthplace someday.",
       "zh": "圖圖犬會從尾巴尖端分泌出多彩的體液當作顏料。牠希望有一天能畫出故鄉的風景。",
-      "es": "Este Pok├⌐mon secreta fluidos corporales de m├║ltiples colores desde la punta de su cola que usa como pintura. Espera alg├║n d├¡a pintar el paisaje de su lugar de nacimiento."
+      "es": "Este Pokémon secreta fluidos corporales de múltiples colores desde la punta de su cola que usa como pintura. Espera algún día pintar el paisaje de su lugar de nacimiento."
     },
     "types": [
       "Water"
@@ -21348,7 +21348,7 @@
     "description": {
       "en": "In its belly, it has a sac filled with burning - fire; meaning that Torchic feels as warm as a hot-water bottle if you hug it.",
       "zh": "火稚雞肚子裡有一個裝滿火焰的囊，所以抱起來就像抱著一個暖呼呼的熱水袋。",
-      "es": "En su barriga tiene un saco lleno de fuego ardiente, lo que significa que si lo abrazas, Torchic se siente tan c├ílido como una bolsa de agua caliente."
+      "es": "En su barriga tiene un saco lleno de fuego ardiente, lo que significa que si lo abrazas, Torchic se siente tan cálido como una bolsa de agua caliente."
     },
     "types": [
       "Water"
@@ -21363,7 +21363,7 @@
           "name": {
             "en": "Chirp Chirp Meal",
             "zh": "啾啾餐",
-            "es": "Comida p├¡o p├¡o"
+            "es": "Comida pío pío"
           },
           "image": "habitats/habitat_069.png"
         },
@@ -21372,7 +21372,7 @@
           "name": {
             "en": "Resort Meal Prep",
             "zh": "度假村餐點準備",
-            "es": "Preparaci├│n de comida del resort"
+            "es": "Preparación de comida del resort"
           },
           "image": "habitats/habitat_079.png"
         }
@@ -21536,7 +21536,7 @@
     "description": {
       "en": "It boosts its concentration by emitting harsh cries. Its kicks have outstanding destructive power.",
       "zh": "力壯雞會發出尖銳的叫聲來集中精神。牠的踢擊擁有驚人的破壞力！",
-      "es": "Aumenta su concentraci├│n emitiendo gritos feroces. Sus patadas tienen un poder destructivo impresionante."
+      "es": "Aumenta su concentración emitiendo gritos feroces. Sus patadas tienen un poder destructivo impresionante."
     },
     "types": [
       "Water",
@@ -21552,7 +21552,7 @@
           "name": {
             "en": "Resort Meal Prep",
             "zh": "度假村餐點準備",
-            "es": "Preparaci├│n de comida del resort"
+            "es": "Preparación de comida del resort"
           },
           "image": "habitats/habitat_079.png"
         },
@@ -21713,7 +21713,7 @@
     "description": {
       "en": "When facing a tough foe; it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
       "zh": "面對強敵時，火焰雞會從手腕噴出烈焰。牠強壯的腿可以輕鬆跳過一棟大樓！",
-      "es": "Cuando enfrenta a un rival duro, suelta llamas de sus mu├▒ecas. Sus poderosas patas le permiten saltar por encima de edificios."
+      "es": "Cuando enfrenta a un rival duro, suelta llamas de sus muñecas. Sus poderosas patas le permiten saltar por encima de edificios."
     },
     "types": [
       "Psychic",
@@ -21729,7 +21729,7 @@
           "name": {
             "en": "Chirp Chirp Meal",
             "zh": "啾啾餐",
-            "es": "Comida p├¡o p├¡o"
+            "es": "Comida pío pío"
           },
           "image": "habitats/habitat_069.png"
         },
@@ -22064,7 +22064,7 @@
     "description": {
       "en": "It protects its young in its beak It bobs on waves, resting on ther on days when the waters are calm.",
       "zh": "大嘴鷗會用大嘴保護寶寶。在風平浪靜的日子裡，牠會在海面上隨波漂浮休息。",
-      "es": "Protege a sus cr├¡as en su pico. Flota sobre las olas, descansando en los d├¡as en que el mar est├í en calma."
+      "es": "Protege a sus crías en su pico. Flota sobre las olas, descansando en los días en que el mar está en calma."
     },
     "types": [
       "Ice",
@@ -22223,7 +22223,7 @@
     "description": {
       "en": "It toughens up by slamming into thick trees over and over. It gain a sturdy body and dauntless spirit.",
       "zh": "幕下力士會不斷撞擊粗壯的樹木來鍛鍊自己。牠從中獲得了強壯的體魄和無畏的精神。",
-      "es": "Se endurece golpeando ├írboles gruesos una y otra vez. As├¡ gana un cuerpo robusto y un esp├¡ritu intr├⌐pido."
+      "es": "Se endurece golpeando árboles gruesos una y otra vez. Así gana un cuerpo robusto y un espíritu intrépido."
     },
     "types": [
       "Electric"
@@ -22238,7 +22238,7 @@
           "name": {
             "en": "Tree Shaded Yellow Tall Grass",
             "zh": "樹蔭下的黃色高草叢",
-            "es": "Hierba alta amarilla a la sombra de los ├írboles"
+            "es": "Hierba alta amarilla a la sombra de los árboles"
           },
           "image": "habitats/habitat_051.png"
         },
@@ -22429,7 +22429,7 @@
           "name": {
             "en": "Tree Shaded Yellow Tall Grass",
             "zh": "樹蔭下的黃色高草叢",
-            "es": "Hierba alta amarilla a la sombra de los ├írboles"
+            "es": "Hierba alta amarilla a la sombra de los árboles"
           },
           "image": "habitats/habitat_051.png"
         },
@@ -22613,7 +22613,7 @@
     "description": {
       "en": "Because of this Pok├⌐mon's ability to detect danger, people mistook Absol as a bringer of doom.",
       "zh": "因為阿勃梭魯能預感危險，人們反而誤以為牠是帶來災難的寶可夢。",
-      "es": "Debido a la habilidad de este Pok├⌐mon para detectar peligros, la gente confundi├│ a Absol con un portador de desgracias."
+      "es": "Debido a la habilidad de este Pokémon para detectar peligros, la gente confundió a Absol con un portador de desgracias."
     },
     "types": [
       "Bug"
@@ -22803,7 +22803,7 @@
           "name": {
             "en": "Hydrated Yellow Tall Grass",
             "zh": "潮濕的黃色高草叢",
-            "es": "Hierba alta amarilla h├║meda"
+            "es": "Hierba alta amarilla húmeda"
           },
           "image": "habitats/habitat_053.png"
         }
@@ -22952,7 +22952,7 @@
     "description": {
       "en": "Because every Prinplup considers itself to be the most important , they can never form a group.",
       "zh": "因為每隻波皇子都覺得自己是最重要的，所以牠們永遠無法組成一個群體。",
-      "es": "Como cada Prinplup se considera el m├ís importante, nunca pueden formar un grupo."
+      "es": "Como cada Prinplup se considera el más importante, nunca pueden formar un grupo."
     },
     "types": [
       "Water"
@@ -22967,7 +22967,7 @@
           "name": {
             "en": "Hydrated Yellow Tall Grass",
             "zh": "潮濕的黃色高草叢",
-            "es": "Hierba alta amarilla h├║meda"
+            "es": "Hierba alta amarilla húmeda"
           },
           "image": "habitats/habitat_053.png"
         },
@@ -23126,7 +23126,7 @@
     "description": {
       "en": "If anyone Were to hurt its pride, it would slash them in two with wings that can cleave through an ice floe.",
       "zh": "如果有人傷了帝王拿波的自尊，牠會用能劈開浮冰的翅膀把對手砍成兩半！",
-      "es": "Si alguien hiere su orgullo, lo partir├í en dos con alas que pueden cortar un t├⌐mpano de hielo."
+      "es": "Si alguien hiere su orgullo, lo partirá en dos con alas que pueden cortar un témpano de hielo."
     },
     "types": [
       "Water",
@@ -23314,7 +23314,7 @@
     "description": {
       "en": "Audino's sense of hearing is superb. Not even a pebble rolling along over a mile away will escape Audino's ears.",
       "zh": "差不多娃娃的聽力超級敏銳。就算是一英里外有小石子滾動，也逃不過牠的耳朵。",
-      "es": "El o├¡do de Audino es extraordinario. Ni siquiera una piedrita rodando a m├ís de un kil├│metro de distancia escapa a sus o├¡dos."
+      "es": "El oído de Audino es extraordinario. Ni siquiera una piedrita rodando a más de un kilómetro de distancia escapa a sus oídos."
     },
     "types": [
       "Water",
@@ -23516,7 +23516,7 @@
     "description": {
       "en": "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pok├⌐mon living in your room.",
       "zh": "破破袋最喜歡骯髒的地方。如果你房間亂丟垃圾，說不定就會發現一隻破破袋住進來了！",
-      "es": "Sus lugares favoritos son los antihigi├⌐nicos. Si dejas basura tirada, podr├¡as encontrar a uno de estos Pok├⌐mon viviendo en tu cuarto."
+      "es": "Sus lugares favoritos son los antihigiénicos. Si dejas basura tirada, podrías encontrar a uno de estos Pokémon viviendo en tu cuarto."
     },
     "types": [
       "Normal"
@@ -23531,7 +23531,7 @@
           "name": {
             "en": "Trash Collection Site",
             "zh": "垃圾收集場",
-            "es": "Lugar de recolecci├│n de basura"
+            "es": "Lugar de recolección de basura"
           },
           "image": "habitats/habitat_063.png"
         }
@@ -23681,7 +23681,7 @@
     "description": {
       "en": "This Pok├⌐mon eats trash, which turns into poison inside its body The main component of the poison depends on what sort of trash was eaten.",
       "zh": "灰塵山會吃垃圾，在體內變成毒液。毒液的主要成分取決於牠吃了什麼樣的垃圾。",
-      "es": "Este Pok├⌐mon come basura, que se convierte en veneno dentro de su cuerpo. El componente principal del veneno depende del tipo de basura que haya comido."
+      "es": "Este Pokémon come basura, que se convierte en veneno dentro de su cuerpo. El componente principal del veneno depende del tipo de basura que haya comido."
     },
     "types": [
       "Normal"
@@ -23696,7 +23696,7 @@
           "name": {
             "en": "Trash Collection Site",
             "zh": "垃圾收集場",
-            "es": "Lugar de recolecci├│n de basura"
+            "es": "Lugar de recolección de basura"
           },
           "image": "habitats/habitat_063.png"
         }
@@ -23846,7 +23846,7 @@
     "description": {
       "en": "Zorua is a timid Pok├⌐mon. This disposition seems to be what led to the development of Zorua ability to take on the forms of other creatures.",
       "zh": "索羅亞是一隻膽小的寶可夢。正是因為這種性格，牠才發展出化身為其他生物的能力。",
-      "es": "Zorua es un Pok├⌐mon t├¡mido. Esta disposici├│n parece haber llevado al desarrollo de su capacidad de transformarse en otras criaturas."
+      "es": "Zorua es un Pokémon tímido. Esta disposición parece haber llevado al desarrollo de su capacidad de transformarse en otras criaturas."
     },
     "types": [
       "Water"
@@ -24044,7 +24044,7 @@
     "description": {
       "en": "This Pok├⌐mon cares deeply about others of its kind, and it will conjure terrifying illusions to keep its den and pack safe.",
       "zh": "索羅亞克非常在乎同類，會製造恐怖的幻象來保護自己的巢穴和夥伴。",
-      "es": "Este Pok├⌐mon se preocupa profundamente por los de su especie y conjura ilusiones aterradoras para mantener a salvo su guarida y su manada."
+      "es": "Este Pokémon se preocupa profundamente por los de su especie y conjura ilusiones aterradoras para mantener a salvo su guarida y su manada."
     },
     "types": [
       "Electric"
@@ -24245,7 +24245,7 @@
     "description": {
       "en": "These Pok├⌐mon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
       "zh": "泡沫栗鼠喜歡乾乾淨淨的環境。牠們總是拿尾巴當掃把，把自己的住處打掃得一塵不染。",
-      "es": "A estos Pok├⌐mon les gusta tener todo limpio y ordenado. Siempre barren y limpian su h├íbitat usando sus colas como escobas."
+      "es": "A estos Pokémon les gusta tener todo limpio y ordenado. Siempre barren y limpian su hábitat usando sus colas como escobas."
     },
     "types": [
       "Fire"
@@ -24260,7 +24260,7 @@
           "name": {
             "en": "Changing Area",
             "zh": "更衣區",
-            "es": "├ürea de cambio"
+            "es": "Área de cambio"
           },
           "image": "habitats/habitat_075.png"
         },
@@ -24637,7 +24637,7 @@
     "description": {
       "en": "Grubbin normally live underground, but if they - get unearthed by Hoothoot, they - may be found gathered around electric Pokemor",
       "zh": "強顎雞母蟲通常住在地下，但如果被咕咕挖出來，可能會聚集在有電氣寶可夢的地方。",
-      "es": "Normalmente viven bajo tierra, pero si Hoothoot los desentierra, pueden reunirse alrededor de Pok├⌐mon el├⌐ctricos."
+      "es": "Normalmente viven bajo tierra, pero si Hoothoot los desentierra, pueden reunirse alrededor de Pokémon eléctricos."
     },
     "types": [
       "Rock",
@@ -24662,7 +24662,7 @@
           "name": {
             "en": "Vending Machine Break Area",
             "zh": "販賣機休息區",
-            "es": "├ürea de descanso junto a la m├íquina expendedora"
+            "es": "Área de descanso junto a la máquina expendedora"
           },
           "image": "habitats/habitat_083.png"
         }
@@ -24826,7 +24826,7 @@
     "description": {
       "en": "From the food it digests, it generates electricity, ad it stores thi energy in its electric sac.",
       "zh": "蟲電寶從消化的食物中產生電力，並把能量儲存在電氣囊裡。",
-      "es": "A partir de la comida que digiere, genera electricidad y almacena esta energ├¡a en su saco el├⌐ctrico."
+      "es": "A partir de la comida que digiere, genera electricidad y almacena esta energía en su saco eléctrico."
     },
     "types": [
       "Rock",
@@ -24842,7 +24842,7 @@
           "name": {
             "en": "Vending Machine Break Area",
             "zh": "販賣機休息區",
-            "es": "├ürea de descanso junto a la m├íquina expendedora"
+            "es": "Área de descanso junto a la máquina expendedora"
           },
           "image": "habitats/habitat_083.png"
         }
@@ -25013,7 +25013,7 @@
     "description": {
       "en": "Displaying exceptional mobility, it weaves between trees ad shoots down bird Pok├⌐mon with its electromagnetic beams.",
       "zh": "鍬農炮蟲展現出非凡的機動力，在樹木間穿梭飛行，用電磁光束射下空中的鳥寶可夢。",
-      "es": "Con una movilidad excepcional, se desliza entre los ├írboles y derriba a Pok├⌐mon aves con sus rayos electromagn├⌐ticos."
+      "es": "Con una movilidad excepcional, se desliza entre los árboles y derriba a Pokémon aves con sus rayos electromagnéticos."
     },
     "types": [
       "Rock",
@@ -25029,7 +25029,7 @@
           "name": {
             "en": "Tree Shaded Flower Bed",
             "zh": "樹蔭下的花圃",
-            "es": "Macizo de flores a la sombra de los ├írboles"
+            "es": "Macizo de flores a la sombra de los árboles"
           },
           "image": "habitats/habitat_009.png"
         }
@@ -25185,7 +25185,7 @@
     "description": {
       "en": "This Pok├⌐mon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
       "zh": "謎擬Ｑ住在陽光照不到的陰暗處。出現在人類面前時，牠會用像皮卡丘的布把自己遮起來。",
-      "es": "Este Pok├⌐mon vive en lugares oscuros donde no llega la luz del sol. Cuando aparece ante humanos, se esconde bajo una tela que se parece a un Pikachu."
+      "es": "Este Pokémon vive en lugares oscuros donde no llega la luz del sol. Cuando aparece ante humanos, se esconde bajo una tela que se parece a un Pikachu."
     },
     "types": [
       "Rock",
@@ -25391,7 +25391,7 @@
     "description": {
       "en": "It has undeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
       "zh": "布撥的臉頰上有未發育的電氣囊。必須用前腳掌的肉墊拼命摩擦，才能產生電力。",
-      "es": "Tiene sacos el├⌐ctricos poco desarrollados en las mejillas. Estos solo pueden producir electricidad si Pawmi los frota vigorosamente con las almohadillas de sus patas."
+      "es": "Tiene sacos eléctricos poco desarrollados en las mejillas. Estos solo pueden producir electricidad si Pawmi los frota vigorosamente con las almohadillas de sus patas."
     },
     "types": [
       "Rock",
@@ -25425,7 +25425,7 @@
           "name": {
             "en": "Cafe Space",
             "zh": "咖啡空間",
-            "es": "Espacio de caf├⌐"
+            "es": "Espacio de café"
           },
           "image": "habitats/habitat_070.png"
         }
@@ -25601,7 +25601,7 @@
     "description": {
       "en": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
       "zh": "群體遭受攻擊時，布土撥會第一個跳出來迎戰，用帶電的格鬥技打敗敵人。",
-      "es": "Cuando su grupo es atacado, Pawmo es el primero en lanzarse a la batalla, derrotando a los enemigos con una t├⌐cnica de lucha que utiliza descargas el├⌐ctricas."
+      "es": "Cuando su grupo es atacado, Pawmo es el primero en lanzarse a la batalla, derrotando a los enemigos con una técnica de lucha que utiliza descargas eléctricas."
     },
     "types": [
       "Normal"
@@ -25625,7 +25625,7 @@
           "name": {
             "en": "Cafe Space",
             "zh": "咖啡空間",
-            "es": "Espacio de caf├⌐"
+            "es": "Espacio de café"
           },
           "image": "habitats/habitat_070.png"
         }
@@ -25792,7 +25792,7 @@
     "description": {
       "en": "Pawmot fluffy fur acts as a battery. It can store the same amoun of electricity as an electric car.",
       "zh": "巴布土撥蓬鬆的毛髮就像電池一樣，可以儲存和一輛電動車一樣多的電力！",
-      "es": "El pelaje esponjoso de Pawmot funciona como una bater├¡a. Puede almacenar la misma cantidad de electricidad que un auto el├⌐ctrico."
+      "es": "El pelaje esponjoso de Pawmot funciona como una batería. Puede almacenar la misma cantidad de electricidad que un auto eléctrico."
     },
     "types": [
       "Ice",
@@ -25808,7 +25808,7 @@
           "name": {
             "en": "Cafe Space",
             "zh": "咖啡空間",
-            "es": "Espacio de caf├⌐"
+            "es": "Espacio de café"
           },
           "image": "habitats/habitat_070.png"
         }
@@ -25967,7 +25967,7 @@
     "description": {
       "en": "Tatsugiri is an extremely cunning Pok├⌐mon. It feigns weakness to lure in prey, then orders its partner to attack.",
       "zh": "米立龍（上弓姿勢）是一隻極度狡猾的寶可夢。牠會假裝虛弱來引誘獵物，再命令夥伴發動攻擊。",
-      "es": "Tatsugiri es un Pok├⌐mon extremadamente astuto. Finge debilidad para atraer a sus presas y luego ordena a su compa├▒ero que ataque."
+      "es": "Tatsugiri es un Pokémon extremadamente astuto. Finge debilidad para atraer a sus presas y luego ordena a su compañero que ataque."
     },
     "types": [
       "Steel"
@@ -26115,7 +26115,7 @@
     "description": {
       "en": "A very common sight in grasslands and such. It flicks its tongue in and out to sense danger in its surroundings.",
       "zh": "阿柏蛇在草地等地很常見。牠會不斷伸出舌頭探測周圍的危險。",
-      "es": "Es muy com├║n verlo en praderas y similares. Sacando la lengua dentro y fuera, percibe el peligro en su entorno."
+      "es": "Es muy común verlo en praderas y similares. Sacando la lengua dentro y fuera, percibe el peligro en su entorno."
     },
     "types": [
       "Fire",
@@ -26131,7 +26131,7 @@
           "name": {
             "en": "Hydrated Graceful Flower Bed",
             "zh": "潮濕的優雅花圃",
-            "es": "Macizo de flores elegante h├║medo"
+            "es": "Macizo de flores elegante húmedo"
           },
           "image": "habitats/habitat_106.png"
         }
@@ -26282,7 +26282,7 @@
     "description": {
       "en": "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
       "zh": "阿柏怪肚子上的花紋看起來像一張恐怖的臉。弱小的敵人光看到這個花紋就會嚇跑。",
-      "es": "El patr├│n de su vientre parece una cara aterradora. Los rivales d├⌐biles huyen con solo verlo."
+      "es": "El patrón de su vientre parece una cara aterradora. Los rivales débiles huyen con solo verlo."
     },
     "types": [
       "Dragon"
@@ -26297,7 +26297,7 @@
           "name": {
             "en": "Hydrated Graceful Flower Bed",
             "zh": "潮濕的優雅花圃",
-            "es": "Macizo de flores elegante h├║medo"
+            "es": "Macizo de flores elegante húmedo"
           },
           "image": "habitats/habitat_106.png"
         }
@@ -26448,7 +26448,7 @@
     "description": {
       "en": "Since it is often seen when shooting stars fill the night skies, it's said to come here by riding on a star.",
       "zh": "因為常常在流星劃過夜空時出現，人們說皮寶寶是搭乘星星來到這裡的。",
-      "es": "Como se le ve a menudo cuando las estrellas fugaces llenan los cielos nocturnos, se dice que lleg├│ aqu├¡ montado en una estrella."
+      "es": "Como se le ve a menudo cuando las estrellas fugaces llenan los cielos nocturnos, se dice que llegó aquí montado en una estrella."
     },
     "types": [
       "Dragon"
@@ -26619,7 +26619,7 @@
     "description": {
       "en": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
       "zh": "據說看到皮皮們在滿月下跳舞，就會帶來幸福。",
-      "es": "Se dice que la felicidad llegar├í a quienes vean a un grupo de Clefairy bailando bajo la luna llena."
+      "es": "Se dice que la felicidad llegará a quienes vean a un grupo de Clefairy bailando bajo la luna llena."
     },
     "types": [
       "Dragon",
@@ -26812,7 +26812,7 @@
     "description": {
       "en": "Said to live in quiet, remote mountains, this type of fairy has a strong aversion to being seen.",
       "zh": "皮可西據說住在安靜的深山裡，這種仙子寶可夢非常不喜歡被人看見。",
-      "es": "Se dice que vive en monta├▒as tranquilas y remotas. A este tipo de hada le desagrada enormemente ser vista."
+      "es": "Se dice que vive en montañas tranquilas y remotas. A este tipo de hada le desagrada enormemente ser vista."
     },
     "types": [
       "Psychic"
@@ -27018,7 +27018,7 @@
           "name": {
             "en": "Flower Garden Stump Stage",
             "zh": "花園樹樁舞台",
-            "es": "Escenario de tronco en el jard├¡n de flores"
+            "es": "Escenario de tronco en el jardín de flores"
           },
           "image": "habitats/habitat_107.png"
         }
@@ -27190,7 +27190,7 @@
     "description": {
       "en": "When its huge eyes waver, it sings a mysteriously soothing meloc that lulls its enemies to sleep.",
       "zh": "當它的大眼睛閃爍時，會唱出神秘舒緩的旋律，讓敵人昏昏欲睡。",
-      "es": "Cuando sus grandes ojos vacilan, canta una melod├¡a misteriosamente relajante que adormece a sus enemigos."
+      "es": "Cuando sus grandes ojos vacilan, canta una melodía misteriosamente relajante que adormece a sus enemigos."
     },
     "types": [
       "Grass"
@@ -27205,7 +27205,7 @@
           "name": {
             "en": "Flower Garden Stump Stage",
             "zh": "花園樹樁舞台",
-            "es": "Escenario de tronco en el jard├¡n de flores"
+            "es": "Escenario de tronco en el jardín de flores"
           },
           "image": "habitats/habitat_107.png"
         },
@@ -27393,7 +27393,7 @@
     "description": {
       "en": "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they - can grow 20 times largerl",
       "zh": "胖可丁生氣時會拼命吸氣，身體就會慢慢膨脹起來。有時候可以脹大到原來的20倍！",
-      "es": "Cuando se enoja, inhala con todas sus fuerzas y su cuerpo se infla gradualmente. ┬íA veces pueden crecer hasta 20 veces su tama├▒o!"
+      "es": "Cuando se enoja, inhala con todas sus fuerzas y su cuerpo se infla gradualmente. ¡A veces pueden crecer hasta 20 veces su tamaño!"
     },
     "types": [
       "Grass"
@@ -27612,7 +27612,7 @@
           "name": {
             "en": "Tree Shaded Red Tall Grass",
             "zh": "樹蔭下的紅色高草叢",
-            "es": "Hierba alta roja a la sombra de los ├írboles"
+            "es": "Hierba alta roja a la sombra de los árboles"
           },
           "image": "habitats/habitat_099.png"
         },
@@ -27788,7 +27788,7 @@
     "description": {
       "en": "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
       "zh": "三地鼠的三個頭會各自上下擺動，把附近的土壤弄鬆，讓鑽洞更輕鬆。",
-      "es": "Sus tres cabezas se mueven arriba y abajo por separado para aflojar la tierra cercana, facilit├índole excavar."
+      "es": "Sus tres cabezas se mueven arriba y abajo por separado para aflojar la tierra cercana, facilitándole excavar."
     },
     "types": [
       "Fire"
@@ -27803,7 +27803,7 @@
           "name": {
             "en": "Tree Shaded Red Tall Grass",
             "zh": "樹蔭下的紅色高草叢",
-            "es": "Hierba alta roja a la sombra de los ├írboles"
+            "es": "Hierba alta roja a la sombra de los árboles"
           },
           "image": "habitats/habitat_099.png"
         },
@@ -28144,7 +28144,7 @@
     "description": {
       "en": "It willingly assists with hard labor because it knows the work is good training for its muscles.",
       "zh": "豪力樂意幫忙做粗重的工作，因為牠知道這是鍛鍊肌肉的好機會。",
-      "es": "Ayuda voluntariamente con el trabajo pesado porque sabe que es un buen entrenamiento para sus m├║sculos."
+      "es": "Ayuda voluntariamente con el trabajo pesado porque sabe que es un buen entrenamiento para sus músculos."
     },
     "types": [
       "Fire"
@@ -28326,7 +28326,7 @@
     "description": {
       "en": "It can lift heavy loads with the greatest of ease. It can even heft dump trucks. But its clumsy fingers prevent it from doing any precision Work",
       "zh": "怪力能輕鬆舉起重物，連卡車都舉得起來。但笨拙的手指讓牠做不了精細的活兒。",
-      "es": "Puede levantar cargas pesadas con la mayor facilidad. Incluso puede alzar camiones de volteo. Pero sus dedos torpes le impiden hacer trabajos de precisi├│n."
+      "es": "Puede levantar cargas pesadas con la mayor facilidad. Incluso puede alzar camiones de volteo. Pero sus dedos torpes le impiden hacer trabajos de precisión."
     },
     "types": [
       "Water"
@@ -28350,7 +28350,7 @@
           "name": {
             "en": "Clink Clang Iron Construction",
             "zh": "鏗鏘鐵匠工地",
-            "es": "Construcci├│n de hierro: ┬ícl├¡n cl├ín!"
+            "es": "Construcción de hierro: ¡clín clán!"
           },
           "image": "habitats/habitat_117.png"
         }
@@ -28510,7 +28510,7 @@
     "description": {
       "en": "At rest, it looks just like a rock. Carelessly stepping on it will mal it swing its fists angrily.",
       "zh": "小拳石休息時看起來就像一塊石頭。不小心踩到牠的話，牠會揮著拳頭生氣地反擊！",
-      "es": "En reposo, parece una roca. Si lo pisas sin cuidado, empezar├í a agitar los pu├▒os con furia."
+      "es": "En reposo, parece una roca. Si lo pisas sin cuidado, empezará a agitar los puños con furia."
     },
     "types": [
       "Water"
@@ -28667,7 +28667,7 @@
     "description": {
       "en": "Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.",
       "zh": "隆隆石經常在山路上滾來滾去。障礙物？直接碾過去就對了，不用繞路。",
-      "es": "A menudo se le ve rodando por senderos de monta├▒a. Los obst├ículos son cosas para rodar directamente sobre ellas, no para evitarlas."
+      "es": "A menudo se le ve rodando por senderos de montaña. Los obstáculos son cosas para rodar directamente sobre ellas, no para evitarlas."
     },
     "types": [
       "Water"
@@ -29151,7 +29151,7 @@
     "description": {
       "en": "Found near the mouth of a volcano. This fire-breather's body temperature is nearly 2,2000 degrees Fahrenheit.",
       "zh": "鴨嘴火獸可以在火山口附近找到。這隻噴火寶可夢的體溫高達將近2200度！",
-      "es": "Se encuentra cerca de la boca de un volc├ín. La temperatura corporal de este Pok├⌐mon escupe-fuego es de casi 1,200 grados Celsius."
+      "es": "Se encuentra cerca de la boca de un volcán. La temperatura corporal de este Pokémon escupe-fuego es de casi 1,200 grados Celsius."
     },
     "types": [
       "Normal",
@@ -29467,7 +29467,7 @@
     "description": {
       "en": "From its eyes, it can expel excess moisture from its body. This liquid is similar in composition to human sweat.",
       "zh": "盆才怪可以從眼睛排出體內多餘的水分。這液體的成分和人類的汗很像喔。",
-      "es": "Desde sus ojos puede expulsar el exceso de humedad de su cuerpo. Este l├¡quido tiene una composici├│n similar al sudor humano."
+      "es": "Desde sus ojos puede expulsar el exceso de humedad de su cuerpo. Este líquido tiene una composición similar al sudor humano."
     },
     "types": [
       "Bug",
@@ -29483,7 +29483,7 @@
           "name": {
             "en": "Tree Shaded Red Tall Grass",
             "zh": "樹蔭下的紅色高草叢",
-            "es": "Hierba alta roja a la sombra de los ├írboles"
+            "es": "Hierba alta roja a la sombra de los árboles"
           },
           "image": "habitats/habitat_099.png"
         }
@@ -29642,7 +29642,7 @@
     "description": {
       "en": "Although it always pretends to be a tree, its composition appear more similar to rock than to vegetation.",
       "zh": "樹才怪雖然總是假裝自己是一棵樹，但牠的組成看起來更像石頭而不是植物。",
-      "es": "Aunque siempre finge ser un ├írbol, su composici├│n parece m├ís similar a la roca que a la vegetaci├│n."
+      "es": "Aunque siempre finge ser un árbol, su composición parece más similar a la roca que a la vegetación."
     },
     "types": [
       "Bug",
@@ -29658,7 +29658,7 @@
           "name": {
             "en": "Tree Shaded Red Tall Grass",
             "zh": "樹蔭下的紅色高草叢",
-            "es": "Hierba alta roja a la sombra de los ├írboles"
+            "es": "Hierba alta roja a la sombra de los árboles"
           },
           "image": "habitats/habitat_099.png"
         },
@@ -29827,7 +29827,7 @@
     "description": {
       "en": "They awaken at dusk and take wing in the twilight, leading to the expression, Get home before the Murkrow fly.",
       "zh": "黑暗鴉在黃昏時醒來，在暮色中展翅飛翔，因此有了「在黑暗鴉飛回來之前回家」這句俗語。",
-      "es": "Despiertan al anochecer y vuelan en el crep├║sculo, dando origen al dicho: ┬½Llega a casa antes de que los Murkrow vuelen┬╗."
+      "es": "Despiertan al anochecer y vuelan en el crepúsculo, dando origen al dicho: «Llega a casa antes de que los Murkrow vuelen»."
     },
     "types": [
       "Bug",
@@ -29852,7 +29852,7 @@
           "name": {
             "en": "Tree Shaded Graceful Flower Bed",
             "zh": "樹蔭下的優雅花圃",
-            "es": "Macizo de flores elegante a la sombra de los ├írboles"
+            "es": "Macizo de flores elegante a la sombra de los árboles"
           },
           "image": "habitats/habitat_105.png"
         }
@@ -30045,7 +30045,7 @@
     "description": {
       "en": "A single cry from this nocturnal Pok├⌐mon, and more than 100 of its Murkrow cronies will assemble.",
       "zh": "這隻夜行寶可夢只要叫一聲，就會有超過一百隻黑暗鴉嘍囉聚集過來。",
-      "es": "Con un solo grito de este Pok├⌐mon nocturno, m├ís de 100 secuaces Murkrow se re├║nen."
+      "es": "Con un solo grito de este Pokémon nocturno, más de 100 secuaces Murkrow se reúnen."
     },
     "types": [
       "Bug",
@@ -30070,7 +30070,7 @@
           "name": {
             "en": "Chirping Recital",
             "zh": "啾啾演奏會",
-            "es": "Recital de p├¡o p├¡o"
+            "es": "Recital de pío pío"
           },
           "image": "habitats/habitat_125.png"
         }
@@ -30216,7 +30216,7 @@
     "description": {
       "en": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
       "zh": "幼基拉斯以泥土為食。吃完一座大山之後，牠就會沉沉睡去，準備長大。",
-      "es": "Se alimenta de tierra. Despu├⌐s de devorar una monta├▒a entera, se queda profundamente dormido para poder crecer."
+      "es": "Se alimenta de tierra. Después de devorar una montaña entera, se queda profundamente dormido para poder crecer."
     },
     "types": [
       "Poison",
@@ -30394,7 +30394,7 @@
     "description": {
       "en": "Its shell is as hard as bedrock, and it is also very strong. Its thrashing can topple a mountain.",
       "zh": "沙基拉斯的殼硬得像岩盤，而且非常強壯。牠掙扎的力道足以推倒一座山。",
-      "es": "Su caparaz├│n es tan duro como la roca madre y tambi├⌐n muy fuerte. Sus sacudidas pueden derrumbar una monta├▒a."
+      "es": "Su caparazón es tan duro como la roca madre y también muy fuerte. Sus sacudidas pueden derrumbar una montaña."
     },
     "types": [
       "Water",
@@ -30410,7 +30410,7 @@
           "name": {
             "en": "Tree Shaded Pink Tall Grass",
             "zh": "樹蔭下的粉色高草叢",
-            "es": "Hierba alta rosa a la sombra de los ├írboles"
+            "es": "Hierba alta rosa a la sombra de los árboles"
           },
           "image": "habitats/habitat_138.png"
         }
@@ -30571,7 +30571,7 @@
     "description": {
       "en": "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
       "zh": "班基拉斯非常強壯，能改變地貌。牠性格蠻橫，根本不在乎其他寶可夢。",
-      "es": "Extremadamente fuerte, puede transformar el paisaje. Es tan insolente que no le importa nadie m├ís."
+      "es": "Extremadamente fuerte, puede transformar el paisaje. Es tan insolente que no le importa nadie más."
     },
     "types": [
       "Water",
@@ -30757,7 +30757,7 @@
     "description": {
       "en": "The leaf on its head is naturally dirt repellent and will stay clean even after transporting Pok├⌐mon that are covered in mud.",
       "zh": "蓮葉童子頭上的葉子天生就會排斥污垢，就算載了滿身泥巴的寶可夢也不會弄髒。",
-      "es": "La hoja en su cabeza repele naturalmente la suciedad y se mantiene limpia incluso despu├⌐s de transportar Pok├⌐mon cubiertos de barro."
+      "es": "La hoja en su cabeza repele naturalmente la suciedad y se mantiene limpia incluso después de transportar Pokémon cubiertos de barro."
     },
     "types": [
       "Electric"
@@ -30772,7 +30772,7 @@
           "name": {
             "en": "Hydrated Red Tall Grass",
             "zh": "潮濕的紅色高草叢",
-            "es": "Hierba alta roja h├║meda"
+            "es": "Hierba alta roja húmeda"
           },
           "image": "habitats/habitat_101.png"
         },
@@ -30950,7 +30950,7 @@
     "description": {
       "en": "It is nocturnal and becomes active at nightfall. It feeds on aquatid mosses that grow in the riverbed.",
       "zh": "蓮帽小童是夜行性的，天黑後才會活躍起來。牠以河床上生長的水生苔蘚為食。",
-      "es": "Es nocturno y se vuelve activo al caer la noche. Se alimenta de musgos acu├íticos que crecen en el lecho del r├¡o."
+      "es": "Es nocturno y se vuelve activo al caer la noche. Se alimenta de musgos acuáticos que crecen en el lecho del río."
     },
     "types": [
       "Fairy"
@@ -30965,7 +30965,7 @@
           "name": {
             "en": "Hydrated Red Tall Grass",
             "zh": "潮濕的紅色高草叢",
-            "es": "Hierba alta roja h├║meda"
+            "es": "Hierba alta roja húmeda"
           },
           "image": "habitats/habitat_101.png"
         },
@@ -31134,7 +31134,7 @@
     "description": {
       "en": "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
       "zh": "樂天河童只要聽到節慶的音樂，全身就充滿力量，忍不住翩翩起舞！",
-      "es": "Si escucha m├║sica festiva, todos sus m├║sculos se llenan de energ├¡a. No puede evitar lanzarse a bailar."
+      "es": "Si escucha música festiva, todos sus músculos se llenan de energía. No puede evitar lanzarse a bailar."
     },
     "types": [
       "Normal",
@@ -31311,7 +31311,7 @@
     "description": {
       "en": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
       "zh": "大嘴娃用那張看似溫順的臉讓對手放下戒心，然後用巨大無情的雙顎狠狠咬住！",
-      "es": "Usa su cara de aspecto d├│cil para relajar a sus rivales, y luego muerde con sus enormes e implacables mand├¡bulas."
+      "es": "Usa su cara de aspecto dócil para relajar a sus rivales, y luego muerde con sus enormes e implacables mandíbulas."
     },
     "types": [
       "Fairy"
@@ -31515,7 +31515,7 @@
     "description": {
       "en": "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live.",
       "zh": "煤炭龜的能量來源就是煤炭。在牠們居住的山上可以找到大量的煤炭。",
-      "es": "El carb├│n es la fuente de energ├¡a de Torkoal. Se pueden encontrar grandes cantidades de carb├│n en las monta├▒as donde viven."
+      "es": "El carbón es la fuente de energía de Torkoal. Se pueden encontrar grandes cantidades de carbón en las montañas donde viven."
     },
     "types": [
       "Fairy",
@@ -31692,7 +31692,7 @@
     "description": {
       "en": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
       "zh": "圓法師的腿很短，走路的時候常常絆倒。一摔跤，硬硬的觸角就會敲出木琴般的聲音。",
-      "es": "Sus patas son cortas. Cada vez que tropieza, sus r├¡gidas antenas chocan con un sonido de xil├│fono."
+      "es": "Sus patas son cortas. Cada vez que tropieza, sus rígidas antenas chocan con un sonido de xilófono."
     },
     "types": [
       "Psychic",
@@ -31717,7 +31717,7 @@
           "name": {
             "en": "Music And Magazines",
             "zh": "音樂與雜誌",
-            "es": "M├║sica y revistas"
+            "es": "Música y revistas"
           },
           "image": "habitats/habitat_128.png"
         }
@@ -31905,7 +31905,7 @@
           "name": {
             "en": "Music And Magazines",
             "zh": "音樂與雜誌",
-            "es": "M├║sica y revistas"
+            "es": "Música y revistas"
           },
           "image": "habitats/habitat_128.png"
         }
@@ -32068,7 +32068,7 @@
     "description": {
       "en": "They can learn and speak human Words. If they gather, they all learn the same saying.",
       "zh": "聒噪鳥能學會並說出人類的話。如果一群聒噪鳥聚在一起，牠們會學會同一句話。",
-      "es": "Pueden aprender y decir palabras humanas. Si se re├║nen, todos aprenden la misma frase."
+      "es": "Pueden aprender y decir palabras humanas. Si se reúnen, todos aprenden la misma frase."
     },
     "types": [
       "Electric"
@@ -32092,7 +32092,7 @@
           "name": {
             "en": "Chirping Recital",
             "zh": "啾啾演奏會",
-            "es": "Recital de p├¡o p├¡o"
+            "es": "Recital de pío pío"
           },
           "image": "habitats/habitat_125.png"
         }
@@ -32266,7 +32266,7 @@
     "description": {
       "en": "It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience.",
       "zh": "利歐路精力超級旺盛，體力好到可以跑上一整晚。帶牠散步可是個大挑戰！",
-      "es": "Es sumamente en├⌐rgico, con la resistencia para correr toda la noche. Sacarlo a pasear puede ser todo un desaf├¡o."
+      "es": "Es sumamente enérgico, con la resistencia para correr toda la noche. Sacarlo a pasear puede ser todo un desafío."
     },
     "types": [
       "Electric"
@@ -32466,7 +32466,7 @@
     "description": {
       "en": "A well-trained one can use its aura to identify and take in the feelings of creatures over half a mile away-",
       "zh": "訓練有素的路卡利歐能用波導感知半英里外生物的情緒。",
-      "es": "Uno bien entrenado puede usar su aura para identificar y captar los sentimientos de criaturas a m├ís de 800 metros de distancia."
+      "es": "Uno bien entrenado puede usar su aura para identificar y captar los sentimientos de criaturas a más de 800 metros de distancia."
     },
     "types": [
       "Electric"
@@ -32636,7 +32636,7 @@
     "description": {
       "en": "This Rotem entered a mini stereo system and was deeply moved by the synth-op CD someone had left inside. The experience gave this Pok├⌐mon an upbeat personality.",
       "zh": "這隻洛托姆進入了一台迷你音響，被裡面一張合成流行音樂CD深深感動。這次經歷讓牠變得活潑開朗。",
-      "es": "Este Rotom entr├│ en un mini equipo de sonido y se conmovi├│ profundamente por un CD de synth-pop que alguien hab├¡a dejado adentro. La experiencia le dio una personalidad alegre."
+      "es": "Este Rotom entró en un mini equipo de sonido y se conmovió profundamente por un CD de synth-pop que alguien había dejado adentro. La experiencia le dio una personalidad alegre."
     },
     "types": [
       "Grass"
@@ -32651,7 +32651,7 @@
           "name": {
             "en": "Music And Magazines",
             "zh": "音樂與雜誌",
-            "es": "M├║sica y revistas"
+            "es": "Música y revistas"
           },
           "image": "habitats/habitat_128.png"
         }
@@ -32831,7 +32831,7 @@
     "description": {
       "en": "The people of ancient times believed that Larvesta fell from the sun.",
       "zh": "古代的人們相信，燃燒蟲是從太陽上掉下來的。",
-      "es": "La gente de la antig├╝edad cre├¡a que Larvesta hab├¡a ca├¡do del sol."
+      "es": "La gente de la antigüedad creía que Larvesta había caído del sol."
     },
     "types": [
       "Water",
@@ -32847,7 +32847,7 @@
           "name": {
             "en": "Tree Shaded Graceful Flower Bed",
             "zh": "樹蔭下的優雅花圃",
-            "es": "Macizo de flores elegante a la sombra de los ├írboles"
+            "es": "Macizo de flores elegante a la sombra de los árboles"
           },
           "image": "habitats/habitat_105.png"
         }
@@ -32982,7 +32982,7 @@
     "description": {
       "en": "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
       "zh": "火神蛾燃燒的身體讓牠在炎熱地區不受歡迎，但在寒冷的地方，火神蛾被尊為太陽的化身。",
-      "es": "Su cuerpo ardiente lo hace impopular en las regiones c├ílidas, pero en las fr├¡as, Volcarona es venerado como encarnaci├│n del sol."
+      "es": "Su cuerpo ardiente lo hace impopular en las regiones cálidas, pero en las frías, Volcarona es venerado como encarnación del sol."
     },
     "types": [
       "Water",
@@ -32998,7 +32998,7 @@
           "name": {
             "en": "Tree Shaded Graceful Flower Bed",
             "zh": "樹蔭下的優雅花圃",
-            "es": "Macizo de flores elegante a la sombra de los ├írboles"
+            "es": "Macizo de flores elegante a la sombra de los árboles"
           },
           "image": "habitats/habitat_105.png"
         },
@@ -33339,7 +33339,7 @@
     "description": {
       "en": "The narcissistic Pok├⌐mon is a clean freak. If you don't groom it diligently, it may stop listening to you.",
       "zh": "投羽梟是個愛漂亮的寶可夢，有嚴重的潔癖。如果你不勤勞地幫牠梳理，牠可能就不聽話了。",
-      "es": "Este Pok├⌐mon narcisista es un mani├ítico de la limpieza. Si no lo cepillas con diligencia, puede dejar de hacerte caso."
+      "es": "Este Pokémon narcisista es un maniático de la limpieza. Si no lo cepillas con diligencia, puede dejar de hacerte caso."
     },
     "types": [
       "Water"
@@ -33354,7 +33354,7 @@
           "name": {
             "en": "Pointy Tree Shaded Rocky Tall Grass",
             "zh": "尖樹蔭下的岩石高草叢",
-            "es": "Hierba alta rocosa a la sombra del ├írbol puntiagudo"
+            "es": "Hierba alta rocosa a la sombra del árbol puntiagudo"
           },
           "image": "habitats/habitat_100.png"
         }
@@ -33508,7 +33508,7 @@
     "description": {
       "en": "It cunningly conceals arrow quills in its wings. It launches these quills with such precision that they can pierce a pebble at over a hundred yards.",
       "zh": "狙射樹梟會巧妙地把箭羽藏在翅膀裡。發射的箭羽精準無比，百碼之外都能射穿一顆小石頭！",
-      "es": "Oculta h├íbilmente flechas de pluma en sus alas. Las lanza con tal precisi├│n que pueden perforar una piedrita a m├ís de 100 metros."
+      "es": "Oculta hábilmente flechas de pluma en sus alas. Las lanza con tal precisión que pueden perforar una piedrita a más de 100 metros."
     },
     "types": [
       "Grass",
@@ -33524,7 +33524,7 @@
           "name": {
             "en": "Pointy Tree Shaded Rocky Tall Grass",
             "zh": "尖樹蔭下的岩石高草叢",
-            "es": "Hierba alta rocosa a la sombra del ├írbol puntiagudo"
+            "es": "Hierba alta rocosa a la sombra del árbol puntiagudo"
           },
           "image": "habitats/habitat_100.png"
         },
@@ -33886,7 +33886,7 @@
     "description": {
       "en": "Thanks to its soft ad fluffy fur, Raboot can easily heat up its fire energy and produce flames with more power.",
       "zh": "多虧了柔軟蓬鬆的毛，騰蹴小將可以輕鬆加熱火焰能量，踢出更強力的火焰。",
-      "es": "Gracias a su pelaje suave y esponjoso, Raboot puede calentar f├ícilmente su energ├¡a de fuego y producir llamas con m├ís potencia."
+      "es": "Gracias a su pelaje suave y esponjoso, Raboot puede calentar fácilmente su energía de fuego y producir llamas con más potencia."
     },
     "types": [
       "Grass",
@@ -33902,7 +33902,7 @@
           "name": {
             "en": "Open Air Bath",
             "zh": "露天浴池",
-            "es": "Ba├▒o al aire libre"
+            "es": "Baño al aire libre"
           },
           "image": "habitats/habitat_113.png"
         },
@@ -34081,7 +34081,7 @@
     "description": {
       "en": "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
       "zh": "閃焰王牌會用腳顛著一顆小石頭，把它變成燃燒的足球射出去。射擊力道超強，被擊中還會被燙傷！",
-      "es": "Hace malabares con una piedrita con sus pies, convirti├⌐ndola en un bal├│n de fuego en llamas. Sus disparos golpean con fuerza y dejan al rival chamuscado."
+      "es": "Hace malabares con una piedrita con sus pies, convirtiéndola en un balón de fuego en llamas. Sus disparos golpean con fuerza y dejan al rival chamuscado."
     },
     "types": [
       "Normal"
@@ -34262,7 +34262,7 @@
     "description": {
       "en": "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
       "zh": "不管貪心栗鼠把肚子塞得多滿，牠還是擔心會再餓。所以牠會把漿果藏在臉頰和尾巴裡。",
-      "es": "No importa cu├ínto llene su barriga, siempre est├í ansioso por volver a tener hambre. As├¡ que guarda bayas en sus mejillas y su cola."
+      "es": "No importa cuánto llene su barriga, siempre está ansioso por volver a tener hambre. Así que guarda bayas en sus mejillas y su cola."
     },
     "types": [
       "Grass"
@@ -34277,7 +34277,7 @@
           "name": {
             "en": "Tree Shaded Tall Grass",
             "zh": "樹蔭下的高草叢",
-            "es": "Hierba alta a la sombra de los ├írboles"
+            "es": "Hierba alta a la sombra de los árboles"
           },
           "image": "habitats/habitat_002.png"
         }
@@ -34445,7 +34445,7 @@
     "description": {
       "en": "Growing up with a family of foodies, this Pok├⌐mon learned to love cooking.",
       "zh": "藏飽栗鼠在一個美食家庭中長大，自然而然也愛上了烹飪。",
-      "es": "Creciendo en una familia de amantes de la comida, este Pok├⌐mon aprendi├│ a amar la cocina."
+      "es": "Creciendo en una familia de amantes de la comida, este Pokémon aprendió a amar la cocina."
     },
     "types": [
       "Grass"
@@ -34653,7 +34653,7 @@
     "description": {
       "en": "On sunny days, Rolycoly will come out onto grassy plains and roll around. Then it will eat the grass that gets tangled in its wheel-like leg.",
       "zh": "晴天的時候，小炭仔會跑到草地上滾來滾去，然後吃掉纏在輪子狀腿上的草。",
-      "es": "En los d├¡as soleados, Rolycoly sale a las praderas y rueda por todas partes. Luego se come la hierba que se enreda en su pata con forma de rueda."
+      "es": "En los días soleados, Rolycoly sale a las praderas y rueda por todas partes. Luego se come la hierba que se enreda en su pata con forma de rueda."
     },
     "types": [
       "Bug",
@@ -34828,7 +34828,7 @@
     "description": {
       "en": "Due to the coal tar created inside it, the heap of coal on Carkol back never falls apart, even when the Pok├⌐mon rolls around at high speeds",
       "zh": "大炭車體內產生的煤焦油讓背上的煤堆怎麼滾都不會散開，即使高速翻滾也一樣！",
-      "es": "Gracias al alquitr├ín de carb├│n que se crea en su interior, la pila de carb├│n en la espalda de Carkol nunca se desmorona, ni siquiera cuando rueda a toda velocidad."
+      "es": "Gracias al alquitrán de carbón que se crea en su interior, la pila de carbón en la espalda de Carkol nunca se desmorona, ni siquiera cuando rueda a toda velocidad."
     },
     "types": [
       "Water",
@@ -35005,7 +35005,7 @@
     "description": {
       "en": "It's gentle usually but fearsome when angered. With a body that burns at over 2,700 degrees Fahrenheit, it crushes foes and turnz them to ash.",
       "zh": "巨炭山平時很溫和，但生氣時非常可怕。身體燃燒超過2700度，能把敵人碾成灰燼。",
-      "es": "Normalmente es gentil, pero terrible cuando se enoja. Con un cuerpo que arde a m├ís de 1,500 grados Celsius, aplasta a sus rivales y los convierte en cenizas."
+      "es": "Normalmente es gentil, pero terrible cuando se enoja. Con un cuerpo que arde a más de 1,500 grados Celsius, aplasta a sus rivales y los convierte en cenizas."
     },
     "types": [
       "Water",
@@ -35191,7 +35191,7 @@
     "description": {
       "en": "It has no problem drinking dirty Water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel.",
       "zh": "毒電嬰喝髒水也完全沒問題。牠體內的器官會把髒水過濾成一種對毒電嬰無害的毒液。",
-      "es": "No tiene problema en beber agua sucia. Un ├│rgano dentro del cuerpo de Toxel filtra esa agua y la convierte en un l├¡quido venenoso que es inofensivo para ├⌐l."
+      "es": "No tiene problema en beber agua sucia. Un órgano dentro del cuerpo de Toxel filtra esa agua y la convierte en un líquido venenoso que es inofensivo para él."
     },
     "types": [
       "Psychic"
@@ -35206,7 +35206,7 @@
           "name": {
             "en": "Lazy Photo Album Scrolling",
             "zh": "懶洋洋翻相簿",
-            "es": "Ojeando el ├ílbum de fotos con pereza"
+            "es": "Ojeando el álbum de fotos con pereza"
           },
           "image": "habitats/habitat_124.png"
         }
@@ -35351,7 +35351,7 @@
     "description": {
       "en": "The yeast in Fidough's breath is useful for cooking, so this Pok├⌐mon has been protected by people since long ago.",
       "zh": "顫弦蠑螈一邊散發劇毒汗水、一邊釋放電力時，周圍會響起像吉他演奏般的旋律。",
-      "es": "Mientras esparce sudor t├│xico y emite electricidad, una melod├¡a que suena como si viniera de una guitarra resuena por los alrededores."
+      "es": "Mientras esparce sudor tóxico y emite electricidad, una melodía que suena como si viniera de una guitarra resuena por los alrededores."
     },
     "types": [
       "Dark",
@@ -35376,7 +35376,7 @@
           "name": {
             "en": "Best Bread Bakery",
             "zh": "最佳麵包烘焙坊",
-            "es": "La mejor panader├¡a"
+            "es": "La mejor panadería"
           },
           "image": "habitats/habitat_121.png"
         }
@@ -35562,7 +35562,7 @@
     "description": {
       "en": "The pleasant aroma that emanates from this Pok├⌐mon s body help wheat grow, so Dachsbun has been treasured by farming villages",
       "zh": "狗仔包呼吸中的酵母很適合做麵包，所以從很久以前就被人類保護著。",
-      "es": "La levadura en el aliento de Fidough es ├║til para cocinar, por lo que este Pok├⌐mon ha sido protegido por la gente desde hace mucho tiempo."
+      "es": "La levadura en el aliento de Fidough es útil para cocinar, por lo que este Pokémon ha sido protegido por la gente desde hace mucho tiempo."
     },
     "types": [
       "Water",
@@ -35587,7 +35587,7 @@
           "name": {
             "en": "Best Bread Bakery",
             "zh": "最佳麵包烘焙坊",
-            "es": "La mejor panader├¡a"
+            "es": "La mejor panadería"
           },
           "image": "habitats/habitat_121.png"
         }
@@ -35756,7 +35756,7 @@
     "description": {
       "en": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
       "zh": "麻花犬身上散發的宜人香氣能幫助小麥生長，所以牠一直深受農村喜愛。",
-      "es": "El aroma agradable que emana del cuerpo de este Pok├⌐mon ayuda a cultivar el trigo, por lo que Dachsbun ha sido muy apreciado en las aldeas agr├¡colas."
+      "es": "El aroma agradable que emana del cuerpo de este Pokémon ayuda a cultivar el trigo, por lo que Dachsbun ha sido muy apreciado en las aldeas agrícolas."
     },
     "types": [
       "Ghost"
@@ -35928,7 +35928,7 @@
     "description": {
       "en": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pok├⌐mon is incredibly loyal.",
       "zh": "炭小侍戰鬥時體溫會升高，火力可達1800度以上。牠喜歡富含脂肪的漿果。",
-      "es": "Su poder de fuego aumenta cuando combate, alcanzando m├ís de 1,000 grados Celsius. Le gustan las bayas ricas en grasa."
+      "es": "Su poder de fuego aumenta cuando combate, alcanzando más de 1,000 grados Celsius. Le gustan las bayas ricas en grasa."
     },
     "types": [
       "Psychic"
@@ -36101,7 +36101,7 @@
     "description": {
       "en": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
       "zh": "紅蓮鎧騎是穿上了一位傑出戰士的盔甲後進化的。這隻寶可夢非常忠誠。",
-      "es": "Armarouge evolucion├│ usando un conjunto de armadura que perteneci├│ a un guerrero distinguido. Este Pok├⌐mon es incre├¡blemente leal."
+      "es": "Armarouge evolucionó usando un conjunto de armadura que perteneció a un guerrero distinguido. Este Pokémon es increíblemente leal."
     },
     "types": [
       "Psychic"
@@ -36273,7 +36273,7 @@
     "description": {
       "en": "It absorbs nutrients from cave walls The petals it Wears are made of crystallized poison.",
       "zh": "蒼炎刃鬼手臂上燃燒的火焰之刃，帶著揮劍者未完成心願的怨恨。",
-      "es": "Las hojas ardientes en sus brazos arden con el resentimiento persistente de un espadach├¡n que cay├│ antes de cumplir su objetivo."
+      "es": "Las hojas ardientes en sus brazos arden con el resentimiento persistente de un espadachín que cayó antes de cumplir su objetivo."
     },
     "types": [
       "Normal",
@@ -36439,7 +36439,7 @@
     "description": {
       "en": "When this Pok├⌐mon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
       "zh": "晶光芽會從洞壁上吸收養分。牠身上戴的花瓣其實是結晶化的毒。",
-      "es": "Absorbe nutrientes de las paredes de las cuevas. Los p├⌐talos que lleva son veneno cristalizado."
+      "es": "Absorbe nutrientes de las paredes de las cuevas. Los pétalos que lleva son veneno cristalizado."
     },
     "types": [
       "Bug"
@@ -36604,7 +36604,7 @@
     "description": {
       "en": "It lives inside an old treasure chest. Sometimes it gets left in shop corners since nobody realizes it's actually a Pok├⌐mon.",
       "zh": "晶光花偵測到危險時，會展開水晶花瓣，從錐狀身體射出光束。",
-      "es": "Cuando este Pok├⌐mon detecta peligro, abre sus p├⌐talos cristalinos y dispara rayos desde su cuerpo c├│nico."
+      "es": "Cuando este Pokémon detecta peligro, abre sus pétalos cristalinos y dispara rayos desde su cuerpo cónico."
     },
     "types": [
       "Bug",
@@ -36620,7 +36620,7 @@
           "name": {
             "en": "Mini Museum",
             "zh": "迷你博物館",
-            "es": "Muse├¡to"
+            "es": "Museíto"
           },
           "image": "habitats/habitat_129.png"
         }
@@ -36783,7 +36783,7 @@
     "description": {
       "en": "Its body seems to be made up of 1,000 coins This Pok├⌐mon get along well with others and is quick to make friends with anybody",
       "zh": "索財靈住在一個舊寶箱裡。有時因為沒人發現牠其實是寶可夢，就被放在商店角落積灰塵。",
-      "es": "Vive dentro de un vieco cofre del tesoro. A veces lo dejan olvidado en las esquinas de las tiendas porque nadie se da cuenta de que en realidad es un Pok├⌐mon."
+      "es": "Vive dentro de un vieco cofre del tesoro. A veces lo dejan olvidado en las esquinas de las tiendas porque nadie se da cuenta de que en realidad es un Pokémon."
     },
     "types": [
       "Normal"
@@ -36961,7 +36961,7 @@
     "description": {
       "en": "From its mouth spew flames that seem to resemble the spirits of the deceased. Some people mistakenly think this fire is a ghost.",
       "zh": "賽富豪的身體好像是由一千枚金幣組成的！牠很容易和大家打成一片，很快就交到朋友。",
-      "es": "Su cuerpo parece estar formado por 1,000 monedas. Este Pok├⌐mon se lleva bien con los dem├ís y hace amigos r├ípidamente con cualquiera."
+      "es": "Su cuerpo parece estar formado por 1,000 monedas. Este Pokémon se lleva bien con los demás y hace amigos rápidamente con cualquiera."
     },
     "types": [
       "Ground",
@@ -37160,7 +37160,7 @@
     "description": {
       "en": "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
       "zh": "六尾口中噴出的火焰看起來像是亡靈。有些人會誤以為那是鬼火。",
-      "es": "De su boca escupe llamas que parecen esp├¡ritus de los difuntos. Algunas personas confunden este fuego con un fantasma."
+      "es": "De su boca escupe llamas que parecen espíritus de los difuntos. Algunas personas confunden este fuego con un fantasma."
     },
     "types": [
       "Steel",
@@ -37372,7 +37372,7 @@
     "description": {
       "en": "For Poliwag swimming is easier than walking. The swirl pattern its belly is actually part of the Pok├⌐mon s innards showing throug the skin.",
       "zh": "九尾有九條長尾巴和閃閃發光的金色毛髮。據說牠可以活一千年。",
-      "es": "Tiene nueve colas largas y un pelaje que resplandece en dorado. Se dice que vive por 1,000 a├▒os."
+      "es": "Tiene nueve colas largas y un pelaje que resplandece en dorado. Se dice que vive por 1,000 años."
     },
     "types": [
       "Fairy"
@@ -37524,7 +37524,7 @@
     "description": {
       "en": "Its two legs are well developed. Even though it can live on the ground, it prefers living in water.",
       "zh": "對蚊香蝌蚪來說，游泳比走路容易多了。肚子上那個漩渦花紋其實是透過皮膚看到的內臟。",
-      "es": "Para Poliwag, nadar es m├ís f├ícil que caminar. El patr├│n de remolino en su vientre es en realidad parte de sus entra├▒as que se ven a trav├⌐s de la piel."
+      "es": "Para Poliwag, nadar es más fácil que caminar. El patrón de remolino en su vientre es en realidad parte de sus entrañas que se ven a través de la piel."
     },
     "types": [
       "Fairy"
@@ -37539,7 +37539,7 @@
           "name": {
             "en": "Hydrated Fluffy Flower Bed",
             "zh": "潮濕的毛茸茸花圃",
-            "es": "Macizo de flores esponjoso h├║medo"
+            "es": "Macizo de flores esponjoso húmedo"
           },
           "image": "habitats/habitat_144.png"
         }
@@ -37657,7 +37657,7 @@
     "description": {
       "en": "The muscles it has developed through swimming are thick and powerful. When it lands a square punch, it can turn huge boulder to dust.",
       "zh": "蚊香君的兩條腿發育得很好。雖然可以在陸地上生活，牠還是更喜歡住在水裡。",
-      "es": "Sus dos patas est├ín bien desarrolladas. Aunque puede vivir en tierra, prefiere vivir en el agua."
+      "es": "Sus dos patas están bien desarrolladas. Aunque puede vivir en tierra, prefiere vivir en el agua."
     },
     "types": [
       "Water",
@@ -37673,7 +37673,7 @@
           "name": {
             "en": "Sewer Hole Inspection",
             "zh": "下水道口檢查",
-            "es": "Inspecci├│n de alcantarilla"
+            "es": "Inspección de alcantarilla"
           },
           "image": "habitats/habitat_156.png"
         },
@@ -37818,7 +37818,7 @@
     "description": {
       "en": "They gather on moonlit nights to form a large chorus. Their cries sound angry and not at all pleasant, but they are certainly distinctive.",
       "zh": "蚊香泳士透過游泳鍛鍊出的肌肉又厚又強壯。牠的一記直拳可以把大岩石打碎！",
-      "es": "Los m├║sculos que ha desarrollado nadando son gruesos y poderosos. Cuando asesta un golpe recto, puede reducir a polvo enormes rocas."
+      "es": "Los músculos que ha desarrollado nadando son gruesos y poderosos. Cuando asesta un golpe recto, puede reducir a polvo enormes rocas."
     },
     "types": [
       "Bug",
@@ -37834,7 +37834,7 @@
           "name": {
             "en": "Hydrated Graceful Flower Bed",
             "zh": "潮濕的優雅花圃",
-            "es": "Macizo de flores elegante h├║medo"
+            "es": "Macizo de flores elegante húmedo"
           },
           "image": "habitats/habitat_106.png"
         },
@@ -37843,7 +37843,7 @@
           "name": {
             "en": "Flower Garden Stump Stage",
             "zh": "花園樹樁舞台",
-            "es": "Escenario de tronco en el jard├¡n de flores"
+            "es": "Escenario de tronco en el jardín de flores"
           },
           "image": "habitats/habitat_107.png"
         },
@@ -38007,7 +38007,7 @@
     "description": {
       "en": "It uses various psychic powers even while it's sleeping, so you can t tell whether or not it s awake.",
       "zh": "蚊香蛙皇們會在月圓之夜聚在一起大合唱。叫聲聽起來凶巴巴的，一點都不好聽，但很有特色。",
-      "es": "Se re├║nen en noches de luna llena para formar un gran coro. Sus cantos suenan furiosos y nada agradables, pero ciertamente distintivos."
+      "es": "Se reúnen en noches de luna llena para formar un gran coro. Sus cantos suenan furiosos y nada agradables, pero ciertamente distintivos."
     },
     "types": [
       "Bug",
@@ -38023,7 +38023,7 @@
           "name": {
             "en": "Surging Psychic Power",
             "zh": "洶湧的超能力",
-            "es": "Poder ps├¡quico arrollador"
+            "es": "Poder psíquico arrollador"
           },
           "image": "habitats/habitat_151.png"
         },
@@ -38032,7 +38032,7 @@
           "name": {
             "en": "Fortune Tellers Table",
             "zh": "占卜師的桌子",
-            "es": "Mesa de la quirom├íntica"
+            "es": "Mesa de la quiromántica"
           },
           "image": "habitats/habitat_152.png"
         }
@@ -38224,7 +38224,7 @@
     "description": {
       "en": "It possesses strong mental capabilities, but its psychic powers are halved when it s not holding a silver spoon.",
       "zh": "凱西即使在睡覺時也會使用各種超能力，所以你根本分不清牠到底醒著還是睡著。",
-      "es": "Usa varios poderes ps├¡quicos incluso mientras duerme, as├¡ que no puedes saber si est├í despierto o no."
+      "es": "Usa varios poderes psíquicos incluso mientras duerme, así que no puedes saber si está despierto o no."
     },
     "types": [
       "Bug",
@@ -38240,7 +38240,7 @@
           "name": {
             "en": "Fortune Tellers Table",
             "zh": "占卜師的桌子",
-            "es": "Mesa de la quirom├íntica"
+            "es": "Mesa de la quiromántica"
           },
           "image": "habitats/habitat_152.png"
         }
@@ -38409,7 +38409,7 @@
     "description": {
       "en": "A Pok├⌐mon that can memorize anything. It never forgets what it learnsΓÇöthat's why this Pok├⌐mon is smart.",
       "zh": "勇基拉擁有強大的精神力量，但如果手裡沒有拿著銀湯匙，超能力就會減半。",
-      "es": "Posee fuertes capacidades mentales, pero sus poderes ps├¡quicos se reducen a la mitad cuando no sostiene una cuchara de plata."
+      "es": "Posee fuertes capacidades mentales, pero sus poderes psíquicos se reducen a la mitad cuando no sostiene una cuchara de plata."
     },
     "types": [
       "Dark",
@@ -38425,7 +38425,7 @@
           "name": {
             "en": "Surging Psychic Power",
             "zh": "洶湧的超能力",
-            "es": "Poder ps├¡quico arrollador"
+            "es": "Poder psíquico arrollador"
           },
           "image": "habitats/habitat_151.png"
         },
@@ -38597,7 +38597,7 @@
     "description": {
       "en": "Mime Jr. is a gifted mimic. When it startles an opponent with its skills, it teels so delighted that it forgets to keep up its act.",
       "zh": "胡地是一隻什麼都能記住的寶可夢。牠永遠不會忘記學到的東西——這就是牠聰明的原因。",
-      "es": "Un Pok├⌐mon que puede memorizar cualquier cosa. Nunca olvida lo que aprende, por eso es tan inteligente."
+      "es": "Un Pokémon que puede memorizar cualquier cosa. Nunca olvida lo que aprende, por eso es tan inteligente."
     },
     "types": [
       "Normal"
@@ -38612,7 +38612,7 @@
           "name": {
             "en": "Spotless Washing Station",
             "zh": "一塵不染的清洗站",
-            "es": "Estaci├│n de lavado impecable"
+            "es": "Estación de lavado impecable"
           },
           "image": "habitats/habitat_157.png"
         },
@@ -38621,7 +38621,7 @@
           "name": {
             "en": "Public Reading Material",
             "zh": "公共閱讀資料",
-            "es": "Material de lectura p├║blico"
+            "es": "Material de lectura público"
           },
           "image": "habitats/habitat_171.png"
         }
@@ -38795,7 +38795,7 @@
           "name": {
             "en": "Spotless Washing Station",
             "zh": "一塵不染的清洗站",
-            "es": "Estaci├│n de lavado impecable"
+            "es": "Estación de lavado impecable"
           },
           "image": "habitats/habitat_157.png"
         }
@@ -38950,7 +38950,7 @@
     "description": {
       "en": "It is an artificial Pok├⌐mon. Since it doesn't breathe, people are excited by its potential to be useful in any environment.",
       "zh": "魔牆人偶總是在練習默劇。牠能讓敵人相信一些根本不存在的東西。",
-      "es": "Siempre practicando su actuaci├│n de mimo. Hace creer a sus enemigos que existe algo que realmente no est├í ah├¡."
+      "es": "Siempre practicando su actuación de mimo. Hace creer a sus enemigos que existe algo que realmente no está ahí."
     },
     "types": [
       "Fire"
@@ -39157,7 +39157,7 @@
     "description": {
       "en": "This artificial Pok├⌐mon evolved thanks to cutting-edge science. It sometimes displays behavior that is not in its programming.",
       "zh": "多邊獸是一隻人工寶可夢。因為不需要呼吸，人們對牠在各種環境中都能派上用場感到很期待。",
-      "es": "Es un Pok├⌐mon artificial. Como no respira, la gente se emociona con su potencial para ser ├║til en cualquier entorno."
+      "es": "Es un Pokémon artificial. Como no respira, la gente se emociona con su potencial para ser útil en cualquier entorno."
     },
     "types": [
       "Fire",
@@ -39356,7 +39356,7 @@
     "description": {
       "en": "An additional program was installed to create a more advanced Pok├⌐mon, but it was apparently flawed. Porygon-Z moves oddly as a result.",
       "zh": "這隻人工寶可夢是靠尖端科學進化的。有時會表現出程式裡沒寫的行為。",
-      "es": "Este Pok├⌐mon artificial evolucion├│ gracias a la ciencia de vanguardia. A veces muestra comportamientos que no est├ín en su programaci├│n."
+      "es": "Este Pokémon artificial evolucionó gracias a la ciencia de vanguardia. A veces muestra comportamientos que no están en su programación."
     },
     "types": [
       "Ice",
@@ -39558,7 +39558,7 @@
     "description": {
       "en": "It is called the Mirage Pok├⌐mon because so few have seen it, but its shed skin has been found.",
       "zh": "為了打造更先進的寶可夢而安裝了額外程式，但似乎有缺陷。多邊獸Ｚ因此行動怪怪的。",
-      "es": "Se instal├│ un programa adicional para crear un Pok├⌐mon m├ís avanzado, pero al parecer era defectuoso. Porygon-Z se mueve de forma extra├▒a como resultado."
+      "es": "Se instaló un programa adicional para crear un Pokémon más avanzado, pero al parecer era defectuoso. Porygon-Z se mueve de forma extraña como resultado."
     },
     "types": [
       "Ice",
@@ -39574,7 +39574,7 @@
           "name": {
             "en": "Hydrated Fluffy Flower Bed",
             "zh": "潮濕的毛茸茸花圃",
-            "es": "Macizo de flores esponjoso h├║medo"
+            "es": "Macizo de flores esponjoso húmedo"
           },
           "image": "habitats/habitat_144.png"
         },
@@ -39583,7 +39583,7 @@
           "name": {
             "en": "Simple Bathroom",
             "zh": "簡約浴室",
-            "es": "Ba├▒o sencillo"
+            "es": "Baño sencillo"
           },
           "image": "habitats/habitat_148.png"
         }
@@ -39733,7 +39733,7 @@
     "description": {
       "en": "They - say that if it emits an aura from its whole body, the Weather will begin to change instantly.",
       "zh": "迷你龍被稱為幻之寶可夢，因為很少人見過牠，但曾有人發現牠蛻下來的皮。",
-      "es": "Se le llama el Pok├⌐mon Espejismo porque muy pocos lo han visto, pero se han encontrado pieles que ha mudado."
+      "es": "Se le llama el Pokémon Espejismo porque muy pocos lo han visto, pero se han encontrado pieles que ha mudado."
     },
     "types": [
       "Water",
@@ -39749,7 +39749,7 @@
           "name": {
             "en": "Hydrated Fluffy Flower Bed",
             "zh": "潮濕的毛茸茸花圃",
-            "es": "Macizo de flores esponjoso h├║medo"
+            "es": "Macizo de flores esponjoso húmedo"
           },
           "image": "habitats/habitat_144.png"
         },
@@ -39758,7 +39758,7 @@
           "name": {
             "en": "Simple Bathroom",
             "zh": "簡約浴室",
-            "es": "Ba├▒o sencillo"
+            "es": "Baño sencillo"
           },
           "image": "habitats/habitat_148.png"
         }
@@ -39899,7 +39899,7 @@
     "description": {
       "en": "It can fly in spite of its bug and bulky physique. It circles the globe in just 16 hours.",
       "zh": "據說如果哈克龍從全身散發出氣場，天氣就會立刻發生變化。",
-      "es": "Se dice que si emite un aura de todo su cuerpo, el clima comenzar├í a cambiar instant├íneamente."
+      "es": "Se dice que si emite un aura de todo su cuerpo, el clima comenzará a cambiar instantáneamente."
     },
     "types": [
       "Water"
@@ -40022,7 +40022,7 @@
     "description": {
       "en": "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
       "zh": "別看快龍圓滾滾的，牠可是能飛的！牠只要16小時就能繞地球一圈。",
-      "es": "Puede volar a pesar de su f├¡sico regordete y voluminoso. Da la vuelta al mundo en solo 16 horas."
+      "es": "Puede volar a pesar de su físico regordete y voluminoso. Da la vuelta al mundo en solo 16 horas."
     },
     "types": [
       "Water"
@@ -40691,7 +40691,7 @@
           "name": {
             "en": "Office Storeroom",
             "zh": "辦公室儲藏室",
-            "es": "Almac├⌐n de la oficina"
+            "es": "Almacén de la oficina"
           },
           "image": "habitats/habitat_167.png"
         }
@@ -40876,7 +40876,7 @@
           "name": {
             "en": "Office Storeroom",
             "zh": "辦公室儲藏室",
-            "es": "Almac├⌐n de la oficina"
+            "es": "Almacén de la oficina"
           },
           "image": "habitats/habitat_167.png"
         }
@@ -41056,7 +41056,7 @@
           "name": {
             "en": "Tree Shaded Fluffy Flower Bed",
             "zh": "樹蔭下的毛茸茸花圃",
-            "es": "Macizo de flores esponjoso a la sombra de los ├írboles"
+            "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
           "image": "habitats/habitat_143.png"
         }
@@ -41237,7 +41237,7 @@
     "description": {
       "en": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pok├⌐mon is 10 times stronger than Girafarig's.",
       "zh": "麒麟奇的尾巴上有一顆小頭。這顆小頭會本能地咬任何從背後靠近的敵人。",
-      "es": "La cola de Girafarig tiene una peque├▒a cabeza. Instintivamente muerde a cualquier enemigo que se acerque por detr├ís."
+      "es": "La cola de Girafarig tiene una pequeña cabeza. Instintivamente muerde a cualquier enemigo que se acerque por detrás."
     },
     "types": [
       "Water",
@@ -41253,7 +41253,7 @@
           "name": {
             "en": "Tree Shaded Fluffy Flower Bed",
             "zh": "樹蔭下的毛茸茸花圃",
-            "es": "Macizo de flores esponjoso a la sombra de los ├írboles"
+            "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
           "image": "habitats/habitat_143.png"
         }
@@ -41435,7 +41435,7 @@
     "description": {
       "en": "Ifits horns capture the warm feelings of people or Pok├⌐mon, its body warms up slightly.",
       "zh": "奇麒麟的頭部和尾部腦波同步後，超能力比麒麟奇強了十倍！",
-      "es": "Ahora que las ondas cerebrales de la cabeza y la cola est├ín sincronizadas, el poder ps├¡quico de este Pok├⌐mon es 10 veces m├ís fuerte que el de Girafarig."
+      "es": "Ahora que las ondas cerebrales de la cabeza y la cola están sincronizadas, el poder psíquico de este Pokémon es 10 veces más fuerte que el de Girafarig."
     },
     "types": [
       "Ground"
@@ -41450,7 +41450,7 @@
           "name": {
             "en": "Study Area",
             "zh": "讀書區",
-            "es": "├ürea de estudio"
+            "es": "Área de estudio"
           },
           "image": "habitats/habitat_159.png"
         }
@@ -41603,7 +41603,7 @@
     "description": {
       "en": "It has a psychic power that enables it to distort the space around it and see into the future.",
       "zh": "如果拉魯拉絲的角接收到了人或寶可夢的溫暖情感，牠的身體就會微微變暖。",
-      "es": "Si sus cuernos captan los sentimientos c├ílidos de personas o Pok├⌐mon, su cuerpo se calienta un poco."
+      "es": "Si sus cuernos captan los sentimientos cálidos de personas o Pokémon, su cuerpo se calienta un poco."
     },
     "types": [
       "Ground"
@@ -41618,7 +41618,7 @@
           "name": {
             "en": "Study Area",
             "zh": "讀書區",
-            "es": "├ürea de estudio"
+            "es": "Área de estudio"
           },
           "image": "habitats/habitat_159.png"
         },
@@ -41781,7 +41781,7 @@
     "description": {
       "en": "To protect its Trainer, it will expend all its Psychic power to creal a small black hole.",
       "zh": "奇魯莉安擁有超能力，能扭曲周圍的空間，還能看見未來。",
-      "es": "Tiene un poder ps├¡quico que le permite distorsionar el espacio a su alrededor y ver el futuro."
+      "es": "Tiene un poder psíquico que le permite distorsionar el espacio a su alrededor y ver el futuro."
     },
     "types": [
       "Normal"
@@ -41960,7 +41960,7 @@
     "description": {
       "en": "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
       "zh": "為了保護訓練家，沙奈朵會耗盡所有超能力來製造一個小黑洞。",
-      "es": "Para proteger a su Entrenador, gastar├í todo su poder ps├¡quico para crear un peque├▒o agujero negro."
+      "es": "Para proteger a su Entrenador, gastará todo su poder psíquico para crear un pequeño agujero negro."
     },
     "types": [
       "Normal"
@@ -42155,7 +42155,7 @@
     "description": {
       "en": "This Pok├⌐mon absorbs electricity from telephone poles. It shorts out the electricity stored inside its body to create noises.",
       "zh": "因為能感知對手在想什麼，艾路雷朵的攻擊總是又快又猛，搶盡先機。",
-      "es": "Como puede sentir lo que piensa su rival, sus ataques estallan primero, r├ípido y furiosos."
+      "es": "Como puede sentir lo que piensa su rival, sus ataques estallan primero, rápido y furiosos."
     },
     "types": [
       "Normal"
@@ -42170,7 +42170,7 @@
           "name": {
             "en": "Picturesque Photo Cutout Board",
             "zh": "風景人像立牌",
-            "es": "Recorte fotogr├ífico pintoresco"
+            "es": "Recorte fotográfico pintoresco"
           },
           "image": "habitats/habitat_174.png"
         }
@@ -42363,7 +42363,7 @@
     "description": {
       "en": "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
       "zh": "正電拍拍會從電線桿吸收電力。牠會把體內的電力短路放電，製造出吵鬧的聲音。",
-      "es": "Este Pok├⌐mon absorbe electricidad de los postes telef├│nicos. Cortocircuita la electricidad almacenada en su cuerpo para crear ruidos."
+      "es": "Este Pokémon absorbe electricidad de los postes telefónicos. Cortocircuita la electricidad almacenada en su cuerpo para crear ruidos."
     },
     "types": [
       "Fighting"
@@ -42378,7 +42378,7 @@
           "name": {
             "en": "Picturesque Photo Cutout Board",
             "zh": "風景人像立牌",
-            "es": "Recorte fotogr├ífico pintoresco"
+            "es": "Recorte fotográfico pintoresco"
           },
           "image": "habitats/habitat_174.png"
         }
@@ -42571,7 +42571,7 @@
     "description": {
       "en": "This Pok├⌐mon lives in arid deserts It patiently awaits prey inside its funnel-shaped nest.",
       "zh": "接觸負電拍拍和正電拍拍的電力，可以促進血液循環、放鬆肌肉。",
-      "es": "La exposici├│n a la electricidad de Minun y Plusle promueve la circulaci├│n sangu├¡nea y relaja los m├║sculos."
+      "es": "La exposición a la electricidad de Minun y Plusle promueve la circulación sanguínea y relaja los músculos."
     },
     "types": [
       "Fighting"
@@ -42731,7 +42731,7 @@
     "description": {
       "en": "Rather than using its underdeveloped wings for flight, it rubs the together, emitting ultrasonic waves to attack its enemies.",
       "zh": "大顎蟻住在乾燥的沙漠裡，牠會耐心地在漏斗形的巢穴中等待獵物。",
-      "es": "Este Pok├⌐mon vive en desiertos ├íridos. Espera pacientemente dentro de su nido en forma de embudo."
+      "es": "Este Pokémon vive en desiertos áridos. Espera pacientemente dentro de su nido en forma de embudo."
     },
     "types": [
       "Ice",
@@ -42913,7 +42913,7 @@
     "description": {
       "en": "Known as the Desert Spirit, this Pok├⌐mon hides in the sandstorm it causes by beating its wings.",
       "zh": "超音波幼蟲不用未發育完全的翅膀飛行，而是摩擦翅膀發出超音波攻擊敵人。",
-      "es": "En lugar de usar sus alas poco desarrolladas para volar, las frota entre s├¡, emitiendo ondas ultras├│nicas para atacar a sus enemigos."
+      "es": "En lugar de usar sus alas poco desarrolladas para volar, las frota entre sí, emitiendo ondas ultrasónicas para atacar a sus enemigos."
     },
     "types": [
       "Electric"
@@ -43083,7 +43083,7 @@
     "description": {
       "en": "It can t relax if it or its surroundings are not clean. It wipes off dir with its wings.",
       "zh": "沙漠蜻蜓被稱為沙漠之靈，牠會隱藏在拍打翅膀造成的沙暴中。",
-      "es": "Conocido como el Esp├¡ritu del Desierto, este Pok├⌐mon se esconde en la tormenta de arena que causa al batir sus alas."
+      "es": "Conocido como el Espíritu del Desierto, este Pokémon se esconde en la tormenta de arena que causa al batir sus alas."
     },
     "types": [
       "Fire"
@@ -43284,7 +43284,7 @@
     "description": {
       "en": "On sunny days, it flies freely through the sky ad blends into the clouds It sings in a beautiful soprano.",
       "zh": "青綿鳥無法忍受自己或周圍不乾淨。牠會用翅膀擦掉身上的髒污。",
-      "es": "No puede relajarse si no est├í limpio, ni siquiera su entorno. Se limpia la suciedad con sus alas."
+      "es": "No puede relajarse si no está limpio, ni siquiera su entorno. Se limpia la suciedad con sus alas."
     },
     "types": [
       "Normal"
@@ -43299,7 +43299,7 @@
           "name": {
             "en": "Birdsong Garden",
             "zh": "鳥鳴花園",
-            "es": "Jard├¡n del canto de los p├íjaros"
+            "es": "Jardín del canto de los pájaros"
           },
           "image": "habitats/habitat_147.png"
         }
@@ -43483,7 +43483,7 @@
     "description": {
       "en": "In the dead of night, these Pok├⌐mon wander through towns in search of children, whose vital energy is a Duskull favorite fooc",
       "zh": "晴天的時候，七夕青鳥會自由地在天空中飛翔，融入雲朵之中。牠會用美麗的女高音歌唱。",
-      "es": "En los d├¡as soleados, vuela libremente por el cielo y se funde con las nubes. Canta con una hermosa voz de soprano."
+      "es": "En los días soleados, vuela libremente por el cielo y se funde con las nubes. Canta con una hermosa voz de soprano."
     },
     "types": [
       "Normal"
@@ -43680,7 +43680,7 @@
     "description": {
       "en": "Dusclops is feared because it's said to pull the soul out of anyone who gazes upon the strange movements of its hands.",
       "zh": "在深夜裡，夜巡靈會在小鎮中遊蕩，尋找小孩子——因為小孩子的生命力是夜巡靈最愛的食物！",
-      "es": "En la madrugada, estos Pok├⌐mon vagan por los pueblos buscando ni├▒os, cuya energ├¡a vital es el plato favorito de Duskull."
+      "es": "En la madrugada, estos Pokémon vagan por los pueblos buscando niños, cuya energía vital es el plato favorito de Duskull."
     },
     "types": [
       "Electric"
@@ -43695,7 +43695,7 @@
           "name": {
             "en": "Trash Site Tv",
             "zh": "垃圾場電視",
-            "es": "Televisi├│n del basurero"
+            "es": "Televisión del basurero"
           },
           "image": "habitats/habitat_153.png"
         }
@@ -43886,7 +43886,7 @@
     "description": {
       "en": "It comes and goes between this world and the afterlife. People fear this Pok├⌐mon because it is said to suck in lost spirits and take them along.",
       "zh": "人們害怕彷徨夜靈，因為據說只要盯著牠雙手詭異的動作看，靈魂就會被牠吸走。",
-      "es": "Se teme a Dusclops porque se dice que arranca el alma de cualquiera que contemple los extra├▒os movimientos de sus manos."
+      "es": "Se teme a Dusclops porque se dice que arranca el alma de cualquiera que contemple los extraños movimientos de sus manos."
     },
     "types": [
       "Fire"
@@ -43901,7 +43901,7 @@
           "name": {
             "en": "Trash Site Tv",
             "zh": "垃圾場電視",
-            "es": "Televisi├│n del basurero"
+            "es": "Televisión del basurero"
           },
           "image": "habitats/habitat_153.png"
         }
@@ -44076,7 +44076,7 @@
     "description": {
       "en": "The magnetic force generated by its body repels the ground natural magnetism, letting it float.",
       "zh": "黑夜魔靈往返於這個世界和冥界之間。人們害怕牠，因為據說牠會吸走迷失的靈魂帶走。",
-      "es": "Va y viene entre este mundo y el m├ís all├í. La gente teme a este Pok├⌐mon porque se dice que absorbe esp├¡ritus perdidos y se los lleva."
+      "es": "Va y viene entre este mundo y el más allá. La gente teme a este Pokémon porque se dice que absorbe espíritus perdidos y se los lleva."
     },
     "types": [
       "Water"
@@ -44091,7 +44091,7 @@
           "name": {
             "en": "Cycling Rest Stop",
             "zh": "單車休息站",
-            "es": "├ürea de descanso para ciclistas"
+            "es": "Área de descanso para ciclistas"
           },
           "image": "habitats/habitat_149.png"
         }
@@ -44255,7 +44255,7 @@
     "description": {
       "en": "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
       "zh": "鐵啞鈴身體產生的磁力會排斥大地的自然磁力，讓牠可以漂浮在空中。",
-      "es": "La fuerza magn├⌐tica generada por su cuerpo repele el magnetismo natural de la tierra, permiti├⌐ndole flotar."
+      "es": "La fuerza magnética generada por su cuerpo repele el magnetismo natural de la tierra, permitiéndole flotar."
     },
     "types": [
       "Rock",
@@ -44436,7 +44436,7 @@
     "description": {
       "en": "It firmly pins its prey using its four claws and large body. Then Metagross uses the mouth on its stomach to chew its prey to bits",
       "zh": "金屬怪是由兩隻鐵啞鈴合體而成的。兩個大腦相連，讓超能力倍增！",
-      "es": "Est├í formado por dos Beldum unidos. Sus dos cerebros est├ín conectados, amplificando su poder ps├¡quico."
+      "es": "Está formado por dos Beldum unidos. Sus dos cerebros están conectados, amplificando su poder psíquico."
     },
     "types": [
       "Rock",
@@ -44452,7 +44452,7 @@
           "name": {
             "en": "Gamers Paradise",
             "zh": "玩家天堂",
-            "es": "Para├¡so de los jugadores"
+            "es": "Paraíso de los jugadores"
           },
           "image": "habitats/habitat_182.png"
         }
@@ -44633,7 +44633,7 @@
     "description": {
       "en": "The leaf on Snivy tail generates energy when exposed to sunlight, making Snivy swifter and adding an edge to its moves.",
       "zh": "巨金怪會用四隻爪子和巨大的身體死死壓住獵物，然後用腹部的嘴把獵物嚼碎。",
-      "es": "Fija firmemente a su presa con sus cuatro garras y su gran cuerpo. Luego usa la boca de su est├│mago para masticarla en pedazos."
+      "es": "Fija firmemente a su presa con sus cuatro garras y su gran cuerpo. Luego usa la boca de su estómago para masticarla en pedazos."
     },
     "types": [
       "Rock",
@@ -44808,7 +44808,7 @@
     "description": {
       "en": "When it gets dirty, its leaves can't be used in photosynthesis, so always keeps itself clean.",
       "zh": "藤藤蛇尾巴上的葉子在陽光照射下會產生能量，讓藤藤蛇更靈活，招式也更有威力。",
-      "es": "La hoja en la cola de Snivy genera energ├¡a al exponerse a la luz del sol, haci├⌐ndolo m├ís ├ígil y potenciando sus movimientos."
+      "es": "La hoja en la cola de Snivy genera energía al exponerse a la luz del sol, haciéndolo más ágil y potenciando sus movimientos."
     },
     "types": [
       "Psychic",
@@ -44824,7 +44824,7 @@
           "name": {
             "en": "Tree Shaded Fluffy Flower Bed",
             "zh": "樹蔭下的毛茸茸花圃",
-            "es": "Macizo de flores esponjoso a la sombra de los ├írboles"
+            "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
           "image": "habitats/habitat_143.png"
         }
@@ -44983,7 +44983,7 @@
     "description": {
       "en": "An intimidating gaze and majestic appearance have caused this Pok├⌐mon to be known as the Lord of the Forest.",
       "zh": "青藤蛇如果弄髒了，葉子就無法進行光合作用，所以牠總是保持乾乾淨淨的。",
-      "es": "Cuando se ensucia, sus hojas no pueden hacer la fotos├¡ntesis, as├¡ que siempre se mantiene impecable."
+      "es": "Cuando se ensucia, sus hojas no pueden hacer la fotosíntesis, así que siempre se mantiene impecable."
     },
     "types": [
       "Fire",
@@ -44999,7 +44999,7 @@
           "name": {
             "en": "Tree Shaded Fluffy Flower Bed",
             "zh": "樹蔭下的毛茸茸花圃",
-            "es": "Macizo de flores esponjoso a la sombra de los ├írboles"
+            "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
           "image": "habitats/habitat_143.png"
         },
@@ -45008,7 +45008,7 @@
           "name": {
             "en": "Public Reading Material",
             "zh": "公共閱讀資料",
-            "es": "Material de lectura p├║blico"
+            "es": "Material de lectura público"
           },
           "image": "habitats/habitat_171.png"
         }
@@ -45170,7 +45170,7 @@
     "description": {
       "en": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
       "zh": "君主蛇那威嚴的凝視和莊嚴的外表，讓牠贏得了「森林之王」的稱號。",
-      "es": "Su mirada intimidante y apariencia majestuosa le han valido a este Pok├⌐mon el t├¡tulo de Se├▒or del Bosque."
+      "es": "Su mirada intimidante y apariencia majestuosa le han valido a este Pokémon el título de Señor del Bosque."
     },
     "types": [
       "Psychic",
@@ -45186,7 +45186,7 @@
           "name": {
             "en": "Hydrated Pink Tall Grass",
             "zh": "潮濕的粉色高草叢",
-            "es": "Hierba alta rosa h├║meda"
+            "es": "Hierba alta rosa húmeda"
           },
           "image": "habitats/habitat_139.png"
         }
@@ -45358,7 +45358,7 @@
           "name": {
             "en": "Hydrated Pink Tall Grass",
             "zh": "潮濕的粉色高草叢",
-            "es": "Hierba alta rosa h├║meda"
+            "es": "Hierba alta rosa húmeda"
           },
           "image": "habitats/habitat_139.png"
         },
@@ -45367,7 +45367,7 @@
           "name": {
             "en": "Prank Button",
             "zh": "惡作劇按鈕",
-            "es": "Bot├│n de broma"
+            "es": "Botón de broma"
           },
           "image": "habitats/habitat_173.png"
         }
@@ -45512,7 +45512,7 @@
           "name": {
             "en": "Hydrated Pink Tall Grass",
             "zh": "潮濕的粉色高草叢",
-            "es": "Hierba alta rosa h├║meda"
+            "es": "Hierba alta rosa húmeda"
           },
           "image": "habitats/habitat_139.png"
         },
@@ -45521,7 +45521,7 @@
           "name": {
             "en": "Prank Button",
             "zh": "惡作劇按鈕",
-            "es": "Bot├│n de broma"
+            "es": "Botón de broma"
           },
           "image": "habitats/habitat_173.png"
         }
@@ -45852,7 +45852,7 @@
     "description": {
       "en": "After nightfall;, they emerge from the caves they nest in during the day. Using their ultrasonic Waves, they go on the hunt for ripened fruit.",
       "zh": "咚咚鼠的鬍鬚能接收其他咚咚鼠發出的電波。牠們會互相分享食物或電力的位置。",
-      "es": "Los bigotes de un Dedenne captan las ondas el├⌐ctricas que env├¡an otros Dedenne. Comparten entre ellos las ubicaciones de comida o electricidad."
+      "es": "Los bigotes de un Dedenne captan las ondas eléctricas que envían otros Dedenne. Comparten entre ellos las ubicaciones de comida o electricidad."
     },
     "types": [
       "Fire"
@@ -45867,7 +45867,7 @@
           "name": {
             "en": "Rhythmic Living Room",
             "zh": "有節奏的客廳",
-            "es": "Sala de estar r├¡tmica"
+            "es": "Sala de estar rítmica"
           },
           "image": "habitats/habitat_160.png"
         }
@@ -46055,7 +46055,7 @@
     "description": {
       "en": "Although it has a violent disposition, if you give it a nice ripe frui that it loves, Noivern will suddenly become tame.",
       "zh": "夜幕降臨後，嗡蝠會從白天棲息的洞穴中飛出來。牠們用超音波去尋找熟透的果實。",
-      "es": "Despu├⌐s del anochecer, emergen de las cuevas donde anidan durante el d├¡a. Usando sus ondas ultras├│nicas, salen a cazar frutas maduras."
+      "es": "Después del anochecer, emergen de las cuevas donde anidan durante el día. Usando sus ondas ultrasónicas, salen a cazar frutas maduras."
     },
     "types": [
       "Fire",
@@ -46071,7 +46071,7 @@
           "name": {
             "en": "Rhythmic Living Room",
             "zh": "有節奏的客廳",
-            "es": "Sala de estar r├¡tmica"
+            "es": "Sala de estar rítmica"
           },
           "image": "habitats/habitat_160.png"
         }
@@ -46210,7 +46210,7 @@
     "description": {
       "en": "This Pok├⌐mon is brave and reckless The white markings around Rookidee's eyes intimidate fainthearted Pok├⌐mon.",
       "zh": "音波龍雖然脾氣暴躁，但只要你給牠一顆牠愛的熟透果實，牠就會突然變得溫順。",
-      "es": "Aunque tiene un car├ícter violento, si le das una fruta madura y jugosa que le encante, Noivern se volver├í d├│cil de repente."
+      "es": "Aunque tiene un carácter violento, si le das una fruta madura y jugosa que le encante, Noivern se volverá dócil de repente."
     },
     "types": [
       "Fire",
@@ -46379,7 +46379,7 @@
     "description": {
       "en": "This intelligent Pok├⌐mon will quickly learn how to use ay tool it can hold in its beak or its talons",
       "zh": "稚山雀既勇敢又莽撞。眼睛周圍的白色花紋會嚇退膽小的寶可夢。",
-      "es": "Este Pok├⌐mon es valiente y temerario. Las marcas blancas alrededor de los ojos de Rookidee intimidan a los Pok├⌐mon cobardes."
+      "es": "Este Pokémon es valiente y temerario. Las marcas blancas alrededor de los ojos de Rookidee intimidan a los Pokémon cobardes."
     },
     "types": [
       "Water"
@@ -46547,7 +46547,7 @@
     "description": {
       "en": "Although its wings have partly turned to steel and become heavy as a result, this Pok├⌐mon flies through the skies with ease.",
       "zh": "藍鴉很聰明，能迅速學會使用任何用嘴巴或爪子拿得住的工具。",
-      "es": "Este Pok├⌐mon inteligente aprende r├ípidamente a usar cualquier herramienta que pueda sostener con su pico o sus garras."
+      "es": "Este Pokémon inteligente aprende rápidamente a usar cualquier herramienta que pueda sostener con su pico o sus garras."
     },
     "types": [
       "Water",
@@ -46572,7 +46572,7 @@
           "name": {
             "en": "Sewer Hole Inspection",
             "zh": "下水道口檢查",
-            "es": "Inspecci├│n de alcantarilla"
+            "es": "Inspección de alcantarilla"
           },
           "image": "habitats/habitat_156.png"
         }
@@ -46743,7 +46743,7 @@
     "description": {
       "en": "In the evening; groups of Dreepy will fly at high speeds over the ocean and poke at Pok├⌐mon in the Water for fun.",
       "zh": "雖然鋼鎧鴉的翅膀有一部分變成了鋼鐵而變重了，但牠飛行起來依然輕鬆自如。",
-      "es": "Aunque sus alas se han convertido parcialmente en acero y se han vuelto pesadas como resultado, este Pok├⌐mon vuela por los cielos con facilidad."
+      "es": "Aunque sus alas se han convertido parcialmente en acero y se han vuelto pesadas como resultado, este Pokémon vuela por los cielos con facilidad."
     },
     "types": [
       "Water",
@@ -46759,7 +46759,7 @@
           "name": {
             "en": "Tree Shaded Pink Tall Grass",
             "zh": "樹蔭下的粉色高草叢",
-            "es": "Hierba alta rosa a la sombra de los ├írboles"
+            "es": "Hierba alta rosa a la sombra de los árboles"
           },
           "image": "habitats/habitat_138.png"
         }
@@ -46922,7 +46922,7 @@
     "description": {
       "en": "This Pok├⌐mon flies around at over 120 miles per hour. If a Drakloak is defeated in a battle, its Dreepy - will wander off without a second thought.",
       "zh": "傍晚時分，多龍梅西亞群會在海面上高速飛行，還會戳水裡的寶可夢來玩耍。",
-      "es": "Al atardecer, grupos de Dreepy vuelan a gran velocidad sobre el oc├⌐ano y picotean a los Pok├⌐mon en el agua por diversi├│n."
+      "es": "Al atardecer, grupos de Dreepy vuelan a gran velocidad sobre el océano y picotean a los Pokémon en el agua por diversión."
     },
     "types": [
       "Dark"
@@ -46937,7 +46937,7 @@
           "name": {
             "en": "Tree Shaded Pink Tall Grass",
             "zh": "樹蔭下的粉色高草叢",
-            "es": "Hierba alta rosa a la sombra de los ├írboles"
+            "es": "Hierba alta rosa a la sombra de los árboles"
           },
           "image": "habitats/habitat_138.png"
         },
@@ -46946,7 +46946,7 @@
           "name": {
             "en": "Office Storeroom",
             "zh": "辦公室儲藏室",
-            "es": "Almac├⌐n de la oficina"
+            "es": "Almacén de la oficina"
           },
           "image": "habitats/habitat_167.png"
         }
@@ -47109,7 +47109,7 @@
     "description": {
       "en": "Dragapult can make its whole body transparent by clearing its mind and focusing. Even the Dreepy in Dragapult s horns become invisible.",
       "zh": "多龍奇能以時速超過120英里的速度飛行。如果多龍奇被打敗了，背上的多龍梅西亞會毫不猶豫地離開。",
-      "es": "Este Pok├⌐mon vuela a m├ís de 190 km/h. Si un Drakloak es derrotado en batalla, su Dreepy se ir├í sin pensarlo dos veces."
+      "es": "Este Pokémon vuela a más de 190 km/h. Si un Drakloak es derrotado en batalla, su Dreepy se irá sin pensarlo dos veces."
     },
     "types": [
       "Dark"
@@ -47124,7 +47124,7 @@
           "name": {
             "en": "Office Storeroom",
             "zh": "辦公室儲藏室",
-            "es": "Almac├⌐n de la oficina"
+            "es": "Almacén de la oficina"
           },
           "image": "habitats/habitat_167.png"
         }
@@ -47287,7 +47287,7 @@
     "description": {
       "en": "Its fluffy fur is similar in composition to plants. This Pok├⌐mon frequently washes its face to keep it from drying out.",
       "zh": "多龍巴魯托只要靜下心來專注，就能讓全身變透明。連角上的多龍梅西亞也會跟著隱形！",
-      "es": "Dragapult puede hacer todo su cuerpo transparente despejando su mente y concentr├índose. Incluso los Dreepy en sus cuernos se vuelven invisibles."
+      "es": "Dragapult puede hacer todo su cuerpo transparente despejando su mente y concentrándose. Incluso los Dreepy en sus cuernos se vuelven invisibles."
     },
     "types": [
       "Normal"
@@ -47302,7 +47302,7 @@
           "name": {
             "en": "Tree Shaded Pink Tall Grass",
             "zh": "樹蔭下的粉色高草叢",
-            "es": "Hierba alta rosa a la sombra de los ├írboles"
+            "es": "Hierba alta rosa a la sombra de los árboles"
           },
           "image": "habitats/habitat_138.png"
         },
@@ -47487,7 +47487,7 @@
     "description": {
       "en": "The hardness of Floragato's fur depends on the Pok├⌐mon's mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp.",
       "zh": "新葉喵蓬鬆的毛髮成分和植物很像。牠經常洗臉，以免臉部乾燥。",
-      "es": "Su pelaje esponjoso tiene una composici├│n similar a la de las plantas. Este Pok├⌐mon se lava la cara frecuentemente para evitar que se seque."
+      "es": "Su pelaje esponjoso tiene una composición similar a la de las plantas. Este Pokémon se lava la cara frecuentemente para evitar que se seque."
     },
     "types": [
       "Normal"
@@ -47665,7 +47665,7 @@
     "description": {
       "en": "This Pok├⌐mon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
       "zh": "蒂蕾喵的毛髮硬度取決於牠的心情。準備戰鬥時，毛會變得像針一樣尖銳！",
-      "es": "La dureza del pelaje de Floragato depende del estado de ├ínimo del Pok├⌐mon. Cuando est├í listo para la batalla, su pelaje se vuelve puntiagudo y afilado como agujas."
+      "es": "La dureza del pelaje de Floragato depende del estado de ánimo del Pokémon. Cuando está listo para la batalla, su pelaje se vuelve puntiagudo y afilado como agujas."
     },
     "types": [
       "Bug"
@@ -47680,7 +47680,7 @@
           "name": {
             "en": "Heart Pounding Surprise Box",
             "zh": "心跳加速驚喜箱",
-            "es": "Caja sorpresa que hace latir el coraz├│n"
+            "es": "Caja sorpresa que hace latir el corazón"
           },
           "image": "habitats/habitat_172.png"
         }
@@ -47862,7 +47862,7 @@
     "description": {
       "en": "These Pok├⌐mon make their nests on coastal cliffs. The nests have a strange, crackling texture, ad they re a popular delicacy.",
       "zh": "魔幻假面喵會用斗篷內側的反光毛皮來隱藏花莖，製造花朵漂浮在空中的幻覺。",
-      "es": "Este Pok├⌐mon usa el pelaje reflectante del forro de su capa para camuflar el tallo de su flor, creando la ilusi├│n de que la flor est├í flotando."
+      "es": "Este Pokémon usa el pelaje reflectante del forro de su capa para camuflar el tallo de su flor, creando la ilusión de que la flor está flotando."
     },
     "types": [
       "Bug"
@@ -48021,7 +48021,7 @@
     "description": {
       "en": "It uses its throat sac to store electricity generated by its wings. There s hardly any oil in its feathers, so it is a poor swimmer.",
       "zh": "電海燕們在海岸峭壁上築巢。巢有一種奇妙的脆脆口感，居然是很受歡迎的美食！",
-      "es": "Estos Pok├⌐mon hacen sus nidos en acantilados costeros. Los nidos tienen una extra├▒a textura crepitante y son un manjar popular."
+      "es": "Estos Pokémon hacen sus nidos en acantilados costeros. Los nidos tienen una extraña textura crepitante y son un manjar popular."
     },
     "types": [
       "Bug",
@@ -48181,7 +48181,7 @@
     "description": {
       "en": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pok├⌐mon that eat metal.",
       "zh": "大電海燕用喉囊儲存翅膀產生的電力。牠的羽毛幾乎沒有油脂，所以不太會游泳。",
-      "es": "Usa su bolsa en la garganta para almacenar la electricidad generada por sus alas. Apenas tiene aceite en sus plumas, as├¡ que nada mal."
+      "es": "Usa su bolsa en la garganta para almacenar la electricidad generada por sus alas. Apenas tiene aceite en sus plumas, así que nada mal."
     },
     "types": [
       "Bug"
@@ -48214,7 +48214,7 @@
           "name": {
             "en": "Sewer Hole Inspection",
             "zh": "下水道口檢查",
-            "es": "Inspecci├│n de alcantarilla"
+            "es": "Inspección de alcantarilla"
           },
           "image": "habitats/habitat_156.png"
         }
@@ -48387,7 +48387,7 @@
     "description": {
       "en": "These Pok├⌐mon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
       "zh": "小鍛匠會揮舞自製的鐵鎚保護自己，但鐵鎚常被愛吃金屬的寶可夢搶走。",
-      "es": "Agita su martillo hecho a mano para protegerse, pero el martillo suele ser robado por Pok├⌐mon que comen metal."
+      "es": "Agita su martillo hecho a mano para protegerse, pero el martillo suele ser robado por Pokémon que comen metal."
     },
     "types": [
       "Bug",
@@ -48412,7 +48412,7 @@
           "name": {
             "en": "Sewer Hole Inspection",
             "zh": "下水道口檢查",
-            "es": "Inspecci├│n de alcantarilla"
+            "es": "Inspección de alcantarilla"
           },
           "image": "habitats/habitat_156.png"
         }
@@ -48595,7 +48595,7 @@
     "description": {
       "en": "A Tinkaton that is particularly skilled with its hands, allowing it to make good use of other tools in addition to its hammer. It is very curious about buildings and machines made by humans.",
       "zh": "巧鍛匠們住在廢金屬堆裡。牠們會互相用鐵鎚對砸來測試誰的鎚子更硬！",
-      "es": "Estos Pok├⌐mon hacen sus hogares en montones de chatarra. Ponen a prueba la resistencia de los martillos de cada quien estrell├índolos entre s├¡."
+      "es": "Estos Pokémon hacen sus hogares en montones de chatarra. Ponen a prueba la resistencia de los martillos de cada quien estrellándolos entre sí."
     },
     "types": [
       "Water",
@@ -48796,7 +48796,7 @@
     "description": {
       "en": "It flew through the open skies over the ancient continent as if they were its own. When it touched ground, its walk was weak and slow.",
       "zh": "巨鍛匠特別心靈手巧，除了鐵鎚之外也能善用其他工具。牠對人類建造的房屋和機器充滿好奇。",
-      "es": "Una Tinkaton particularmente h├íbil con las manos, capaz de usar bien otras herramientas adem├ís de su martillo. Tiene mucha curiosidad por los edificios y m├íquinas hechos por los humanos."
+      "es": "Una Tinkaton particularmente hábil con las manos, capaz de usar bien otras herramientas además de su martillo. Tiene mucha curiosidad por los edificios y máquinas hechos por los humanos."
     },
     "types": [
       "Water",
@@ -48812,7 +48812,7 @@
           "name": {
             "en": "Wing Fossil Display",
             "zh": "翅膀化石展示",
-            "es": "Exhibici├│n de f├│sil ala"
+            "es": "Exhibición de fósil ala"
           },
           "image": "habitats/habitat_193.png"
         }
@@ -48954,7 +48954,7 @@
     "description": {
       "en": "In rock layers where Cranidos fossils are found, the fossilized trunks of trees snapped in two are also often found.",
       "zh": "化石翼龍在古代大陸的開闊天空中自由翱翔。但一落到地面，走路就又慢又笨拙。",
-      "es": "Volaba por los cielos abiertos del continente antiguo como si fueran suyos. Al tocar tierra, su caminar era d├⌐bil y lento."
+      "es": "Volaba por los cielos abiertos del continente antiguo como si fueran suyos. Al tocar tierra, su caminar era débil y lento."
     },
     "types": [
       "Water",
@@ -48970,7 +48970,7 @@
           "name": {
             "en": "Skull Fossil Display",
             "zh": "頭蓋骨化石展示",
-            "es": "Exhibici├│n de f├│sil cr├íneo"
+            "es": "Exhibición de fósil cráneo"
           },
           "image": "habitats/habitat_194.png"
         }
@@ -49131,7 +49131,7 @@
     "description": {
       "en": "In ancient times, people would dig up fossils of this Pok├⌐mon and use its skull, which is harder than steel, to make helmets.",
       "zh": "在發現頭蓋龍化石的岩層中，也常發現被折斷的樹幹化石。",
-      "es": "En las capas de roca donde se encuentran f├│siles de Cranidos, tambi├⌐n suelen hallarse troncos de ├írboles fosilizados partidos en dos."
+      "es": "En las capas de roca donde se encuentran fósiles de Cranidos, también suelen hallarse troncos de árboles fosilizados partidos en dos."
     },
     "types": [
       "Grass"
@@ -49146,7 +49146,7 @@
           "name": {
             "en": "Headbutt Fossil Display",
             "zh": "頭錘化石展示",
-            "es": "Exhibici├│n de f├│sil cabezazo"
+            "es": "Exhibición de fósil cabezazo"
           },
           "image": "habitats/habitat_195.png"
         }
@@ -49324,7 +49324,7 @@
     "description": {
       "en": "Although its fossils can be found in layers of primeval rock, nothing but its face has ever been discovered.",
       "zh": "古人會挖出戰槌龍的化石，用牠比鋼鐵還硬的頭骨來製作頭盔。",
-      "es": "En la antig├╝edad, la gente desenterraba f├│siles de este Pok├⌐mon y usaba su cr├íneo, m├ís duro que el acero, para fabricar cascos."
+      "es": "En la antigüedad, la gente desenterraba fósiles de este Pokémon y usaba su cráneo, más duro que el acero, para fabricar cascos."
     },
     "types": [
       "Grass",
@@ -49340,7 +49340,7 @@
           "name": {
             "en": "Armor Fossil Display",
             "zh": "鎧甲化石展示",
-            "es": "Exhibici├│n de f├│sil coraza"
+            "es": "Exhibición de fósil coraza"
           },
           "image": "habitats/habitat_196.png"
         }
@@ -49518,7 +49518,7 @@
     "description": {
       "en": "It lived in the same environments as Rampardos. Their fossils have been found togetherΓÇöseemingly from after they'd fought to the finish.",
       "zh": "雖然在原始岩層中可以找到盾甲龍的化石，但除了臉部之外，其他部分從未被發現過。",
-      "es": "Aunque sus f├│siles se encuentran en capas de roca primitiva, nunca se ha descubierto nada m├ís que su rostro."
+      "es": "Aunque sus fósiles se encuentran en capas de roca primitiva, nunca se ha descubierto nada más que su rostro."
     },
     "types": [
       "Grass",
@@ -49534,7 +49534,7 @@
           "name": {
             "en": "Shield Fossil Display",
             "zh": "盾化石展示",
-            "es": "Exhibici├│n de f├│sil escudo"
+            "es": "Exhibición de fósil escudo"
           },
           "image": "habitats/habitat_197.png"
         }
@@ -49712,7 +49712,7 @@
     "description": {
       "en": "This is an ancient Pok├⌐mon, revived in modern times. It has a violent disposition, ad it'Il tear apart aything it gets between its hefty jaws.",
       "zh": "護城龍和戰槌龍生活在同一個環境。牠們的化石常被一起發現——看起來像是鬥到同歸於盡的結果。",
-      "es": "Viv├¡a en los mismos entornos que Rampardos. Sus f├│siles se han encontrado juntos, aparentemente tras haber luchado hasta el final."
+      "es": "Vivía en los mismos entornos que Rampardos. Sus fósiles se han encontrado juntos, aparentemente tras haber luchado hasta el final."
     },
     "types": [
       "Normal",
@@ -49728,7 +49728,7 @@
           "name": {
             "en": "Jaw Fossil Display",
             "zh": "下顎化石展示",
-            "es": "Exhibici├│n de f├│sil mand├¡bula"
+            "es": "Exhibición de fósil mandíbula"
           },
           "image": "habitats/habitat_198.png"
         }
@@ -49886,7 +49886,7 @@
     "description": {
       "en": "Complete restoration is impossible, allowing room for theories that its entire body was once covered in a feather-like coat.",
       "zh": "寶寶暴龍是從化石復原的古代寶可夢。牠性情暴躁，什麼東西都會被牠的大嘴咬碎！",
-      "es": "Este es un Pok├⌐mon antiguo, revivido en tiempos modernos. Tiene un car├ícter violento y despedazar├í cualquier cosa que ponga entre sus fuertes mand├¡bulas."
+      "es": "Este es un Pokémon antiguo, revivido en tiempos modernos. Tiene un carácter violento y despedazará cualquier cosa que ponga entre sus fuertes mandíbulas."
     },
     "types": [
       "Normal",
@@ -49902,7 +49902,7 @@
           "name": {
             "en": "Despot Fossil Display",
             "zh": "暴君化石展示",
-            "es": "Exhibici├│n de f├│sil d├⌐spota"
+            "es": "Exhibición de fósil déspota"
           },
           "image": "habitats/habitat_199.png"
         }
@@ -50059,7 +50059,7 @@
     "description": {
       "en": "This Pok├⌐mon was successfully restored from a fossil. In the past, it lived with others of its kind in cold lands where there Were fewer predators.",
       "zh": "怪顎龍的完全復原是不可能的，因此有理論認為牠全身曾經覆蓋著像羽毛一樣的外衣。",
-      "es": "La restauraci├│n completa es imposible, lo que da lugar a teor├¡as de que todo su cuerpo estuvo alguna vez cubierto por un abrigo similar a plumas."
+      "es": "La restauración completa es imposible, lo que da lugar a teorías de que todo su cuerpo estuvo alguna vez cubierto por un abrigo similar a plumas."
     },
     "types": [
       "Water",
@@ -50075,7 +50075,7 @@
           "name": {
             "en": "Sail Fossil Display",
             "zh": "帆化石展示",
-            "es": "Exhibici├│n de f├│sil vela"
+            "es": "Exhibición de fósil vela"
           },
           "image": "habitats/habitat_200.png"
         }
@@ -50249,7 +50249,7 @@
     "description": {
       "en": "Aurorus was restored from a fossil. It said that when this Pok├⌐mon howls, auroras appear in the night sky.",
       "zh": "冰雪龍是從化石成功復原的寶可夢。在遠古時代，牠們和同伴一起生活在寒冷、掠食者較少的土地上。",
-      "es": "Este Pok├⌐mon fue restaurado exitosamente a partir de un f├│sil. En el pasado, viv├¡a con otros de su especie en tierras fr├¡as donde hab├¡a menos depredadores."
+      "es": "Este Pokémon fue restaurado exitosamente a partir de un fósil. En el pasado, vivía con otros de su especie en tierras frías donde había menos depredadores."
     },
     "types": [
       "Water",
@@ -50265,7 +50265,7 @@
           "name": {
             "en": "Tundra Fossil Display",
             "zh": "凍原化石展示",
-            "es": "Exhibici├│n de f├│siles de la tundra"
+            "es": "Exhibición de fósiles de la tundra"
           },
           "image": "habitats/habitat_201.png"
         }
@@ -50615,7 +50615,7 @@
     "description": {
       "en": "It prefers beautiful shores. With cells similar to water molecules, could melt in water.",
       "zh": "水伊布喜歡美麗的海岸。牠的身體細胞和水分子很像，甚至能融化在水中。",
-      "es": "Prefiere las costas hermosas. Con c├⌐lulas similares a las mol├⌐culas de agua, podr├¡a fundirse en el agua."
+      "es": "Prefiere las costas hermosas. Con células similares a las moléculas de agua, podría fundirse en el agua."
     },
     "types": [
       "Psychic",
@@ -50782,7 +50782,7 @@
     "description": {
       "en": "A sensitive Pok├⌐mon that easily becomes sad or angry. Every time its mood changes, it charges power.",
       "zh": "雷伊布是一隻敏感的寶可夢，很容易傷心或生氣。情緒每次變化都會充電！",
-      "es": "Un Pok├⌐mon sensible que f├ícilmente se entristece o enoja. Cada vez que cambia su estado de ├ínimo, se carga de energ├¡a."
+      "es": "Un Pokémon sensible que fácilmente se entristece o enoja. Cada vez que cambia su estado de ánimo, se carga de energía."
     },
     "types": [
       "Psychic",
@@ -50973,7 +50973,7 @@
           "name": {
             "en": "Burning Hot Spice",
             "zh": "超辣辛香料",
-            "es": "Especias s├║per picantes"
+            "es": "Especias súper picantes"
           },
           "image": "habitats/habitat_204.png"
         }
@@ -51145,7 +51145,7 @@
     "description": {
       "en": "By reading air currents, it can predict things such as weather or its foe's next move.",
       "zh": "太陽伊布能讀取氣流，預測天氣變化或對手下一步的動作。",
-      "es": "Al leer las corrientes de aire, puede predecir cosas como el clima o el pr├│ximo movimiento de su rival."
+      "es": "Al leer las corrientes de aire, puede predecir cosas como el clima o el próximo movimiento de su rival."
     },
     "types": [
       "Bug",
@@ -51161,7 +51161,7 @@
           "name": {
             "en": "Elegant Daytime Treats",
             "zh": "優雅的午茶甜點",
-            "es": "Delicias elegantes de d├¡a"
+            "es": "Delicias elegantes de día"
           },
           "image": "habitats/habitat_205.png"
         }
@@ -51501,7 +51501,7 @@
     "description": {
       "en": "When you see Leafeon asleep in a patch of sunshine, you Il know it is using photosynthesis to produce clean air.",
       "zh": "如果你看到葉伊布在陽光下睡覺，就知道牠正在進行光合作用，製造新鮮空氣！",
-      "es": "Cuando ves a Leafeon durmiendo en un rayo de sol, sabes que est├í usando la fotos├¡ntesis para producir aire limpio."
+      "es": "Cuando ves a Leafeon durmiendo en un rayo de sol, sabes que está usando la fotosíntesis para producir aire limpio."
     },
     "types": [
       "Grass",
@@ -51517,7 +51517,7 @@
           "name": {
             "en": "Leafy Greens Sandwich",
             "zh": "鮮綠蔬菜三明治",
-            "es": "S├índwich de verduras frescas"
+            "es": "Sándwich de verduras frescas"
           },
           "image": "habitats/habitat_207.png"
         }
@@ -51705,7 +51705,7 @@
     "description": {
       "en": "It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust.",
       "zh": "冰伊布能隨意控制體溫。這讓牠可以冷凍空氣中的水分，製造出鑽石星塵般的雪花！",
-      "es": "Puede controlar su temperatura corporal a voluntad. Esto le permite congelar la humedad en la atm├│sfera, creando r├ífagas de polvo de diamante."
+      "es": "Puede controlar su temperatura corporal a voluntad. Esto le permite congelar la humedad en la atmósfera, creando ráfagas de polvo de diamante."
     },
     "types": [
       "Normal"
@@ -52102,7 +52102,7 @@
     "description": {
       "en": "It is sad to have widened the seas by causing downpours. It had been asleep in a marine trench.",
       "zh": "蓋歐卡因為降下大雨使海洋變寬而感到悲傷，一直在海溝中沉睡著。",
-      "es": "Le entristece haber ampliado los mares provocando diluvios. Sigue durmiendo en las fosas oce├ínicas."
+      "es": "Le entristece haber ampliado los mares provocando diluvios. Sigue durmiendo en las fosas oceánicas."
     },
     "types": [
       "Normal"
@@ -52149,7 +52149,7 @@
     "description": {
       "en": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
       "zh": "雷公背上的雷雨雲讓牠能隨心所欲地發射雷電。據說牠是乘著閃電降臨的。",
-      "es": "Las nubes de tormenta que lleva le permiten disparar rel├ímpagos a voluntad. Se dice que descendi├│ con los rayos."
+      "es": "Las nubes de tormenta que lleva le permiten disparar relámpagos a voluntad. Se dice que descendió con los rayos."
     },
     "types": [
       "Bug",
@@ -52314,7 +52314,7 @@
     "description": {
       "en": "It is said that when it roars, a volcano erupts somewhere around the globe.",
       "zh": "據說炎帝一旦吼叫，世界上某個地方就會有火山爆發。",
-      "es": "Se dice que cuando ruge, un volc├ín entra en erupci├│n en alg├║n lugar del mundo."
+      "es": "Se dice que cuando ruge, un volcán entra en erupción en algún lugar del mundo."
     },
     "types": [
       "Bug",
@@ -52604,7 +52604,7 @@
     "description": {
       "en": "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
       "zh": "波爾凱尼恩會噴出大量的蒸汽，然後消失在濃霧中。據說牠住在人跡罕至的深山裡。",
-      "es": "Suelta grandes nubes de vapor y desaparece en la niebla densa. Se dice que vive en monta├▒as donde los humanos no se aventuran."
+      "es": "Suelta grandes nubes de vapor y desaparece en la niebla densa. Se dice que vive en montañas donde los humanos no se aventuran."
     },
     "types": [
       "Normal"
@@ -52761,7 +52761,7 @@
     "description": {
       "en": "A legendary bird Pok├⌐mon. It freezes water that is contained in winter air and makes it snow.",
       "zh": "急凍鳥是傳說的鳥寶可夢。牠能將冬季空氣中的水分凍結，降下大雪。",
-      "es": "Un Pok├⌐mon ave legendario. Congela el agua contenida en el aire invernal y hace nevar."
+      "es": "Un Pokémon ave legendario. Congela el agua contenida en el aire invernal y hace nevar."
     },
     "types": [
       "Normal"
@@ -52921,7 +52921,7 @@
     "description": {
       "en": "This Pok├⌐mon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
       "zh": "閃電鳥擁有完全掌控電力的能力。傳說閃電鳥會在漆黑的雷雨雲深處築巢。",
-      "es": "Este Pok├⌐mon tiene control total sobre la electricidad. Hay relatos de Zapdos anidando en las profundidades oscuras de nubes de tormenta."
+      "es": "Este Pokémon tiene control total sobre la electricidad. Hay relatos de Zapdos anidando en las profundidades oscuras de nubes de tormenta."
     },
     "types": [
       "Normal"
@@ -53084,7 +53084,7 @@
     "description": {
       "en": "A legendary bird Pok├⌐mon. As it flaps its flaming wings, even the night sky will turn red.",
       "zh": "火焰鳥是傳說的鳥寶可夢。當牠拍動燃燒的翅膀時，連夜空都會被染紅。",
-      "es": "Un Pok├⌐mon ave legendario. Al batir sus alas en llamas, incluso el cielo nocturno se ti├▒e de rojo."
+      "es": "Un Pokémon ave legendario. Al batir sus alas en llamas, incluso el cielo nocturno se tiñe de rojo."
     },
     "types": [
       "Fighting"
@@ -53243,7 +53243,7 @@
     "description": {
       "en": "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
       "zh": "洛奇亞沉睡在深海的海溝裡。據說牠一旦拍動翅膀，就會引發長達40天的暴風雨。",
-      "es": "Duerme en una fosa submarina. Se dice que si bate sus alas, provocar├í una tormenta de 40 d├¡as."
+      "es": "Duerme en una fosa submarina. Se dice que si bate sus alas, provocará una tormenta de 40 días."
     },
     "types": [
       "Fighting"
@@ -53288,7 +53288,7 @@
     "description": {
       "en": "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
       "zh": "傳說鳳王全身會散發七彩光芒。據說當牠飛翔時，身後就會出現一道彩虹。",
-      "es": "Una leyenda dice que su cuerpo brilla en siete colores. Se dice que un arco├¡ris se forma detr├ís de ├⌐l cuando vuela."
+      "es": "Una leyenda dice que su cuerpo brilla en siete colores. Se dice que un arcoíris se forma detrás de él cuando vuela."
     },
     "types": [
       "Normal",
@@ -53334,7 +53334,7 @@
     "description": {
       "en": "Its DNA is almost the same as Mew s. However, its size and disposition are vastly different.",
       "zh": "超夢的DNA幾乎跟夢幻一模一樣。但體型和性格卻大不相同。",
-      "es": "Su ADN es casi id├⌐ntico al de Mew. Sin embargo, su tama├▒o y temperamento son muy diferentes."
+      "es": "Su ADN es casi idéntico al de Mew. Sin embargo, su tamaño y temperamento son muy diferentes."
     },
     "types": [
       "Rock"
@@ -53480,7 +53480,7 @@
     "description": {
       "en": "It's very intelligent and can use an incredible variety of moves. Many believe that all other Pok├⌐mon are descendants of this one",
       "zh": "夢幻非常聰明，能使用各種各樣的招式。很多人相信所有其他寶可夢都是從夢幻演化而來的。",
-      "es": "Es muy inteligente y puede usar una incre├¡ble variedad de movimientos. Muchos creen que todos los dem├ís Pok├⌐mon descienden de este."
+      "es": "Es muy inteligente y puede usar una increíble variedad de movimientos. Muchos creen que todos los demás Pokémon descienden de este."
     },
     "types": [
       "Normal"
@@ -53645,7 +53645,7 @@
     "description": {
       "en": "As it scatters toxic sweat and emits electricity, a melody that sounds like it came from a guitar reverberates through the surrounding area.",
       "zh": "顫弦蠑螈一邊散發劇毒汗水、一邊釋放電力時，周圍會響起像吉他演奏般的旋律。",
-      "es": "Mientras esparce sudor t├│xico y emite electricidad, una melod├¡a que suena como si viniera de una guitarra resuena por los alrededores."
+      "es": "Mientras esparce sudor tóxico y emite electricidad, una melodía que suena como si viniera de una guitarra resuena por los alrededores."
     },
     "habitat": {
       "biomes": [],
@@ -53686,7 +53686,7 @@
     "description": {
       "en": "When this Pok├⌐mon was still a Tangela, it lived with a human professor. It now wears that professor&#x27;s favorite pair of glasses on its chest.",
       "zh": "當這隻寶可夢還是蔓藤怪的時候，曾和人類教授一起生活。現今牠把教授最愛的眼鏡戴在胸前。",
-      "es": "Cuando este Pok├⌐mon era a├║n un Tangela, viv├¡a con un profesor humano. Ahora lleva los anteojos favoritos de ese profesor en su pecho."
+      "es": "Cuando este Pokémon era aún un Tangela, vivía con un profesor humano. Ahora lleva los anteojos favoritos de ese profesor en su pecho."
     },
     "habitat": {
       "biomes": [],
@@ -53719,7 +53719,7 @@
     "name": {
       "en": "Pikachu Pale",
       "zh": "皮卡丘（淡色）",
-      "es": "Pikachu P├ílido"
+      "es": "Pikachu Pálido"
     },
     "types": [
       "Electric"
@@ -53727,7 +53727,7 @@
     "description": {
       "en": "When its friends were sick, this Pok├⌐mon repeatedly shared its own electricity with them. As a result, its physical structure changed, and it became unable to generate electricity.",
       "zh": "這隻皮卡丘（淡色）在朋友生病時不斷把自己的電力分享給牠們。結果身體結構改變，再也無法自行發電了。",
-      "es": "Cuando sus amigos estaban enfermos, este Pikachu comparti├│ su propia electricidad con ellos una y otra vez. Como resultado, su estructura f├¡sica cambi├│ y ya no puede generar electricidad."
+      "es": "Cuando sus amigos estaban enfermos, este Pikachu compartió su propia electricidad con ellos una y otra vez. Como resultado, su estructura física cambió y ya no puede generar electricidad."
     },
     "habitat": {
       "biomes": [],
@@ -53768,7 +53768,7 @@
     "description": {
       "en": "This Pok├⌐mon tried to sleep off its bad mood after it lost a fight, but it slept so long that dirt piled up all around it, leaving it buried. During its long slumber, it forgot all about the Pok├⌐mon it lost to.",
       "zh": "這隻卡比獸（苔蘚）輸了比賽後想睡一覺消消氣，結果睡太久被泥土埋住了。在漫長的沉睡中，牠已經完全忘記了當初輸給誰。",
-      "es": "Este Pok├⌐mon intent├│ dormir su mal humor despu├⌐s de perder una pelea, pero durmi├│ tanto tiempo que la tierra se acumul├│ a su alrededor y qued├│ enterrado. Durante su largo letargo, olvid├│ por completo al Pok├⌐mon que lo venci├│."
+      "es": "Este Pokémon intentó dormir su mal humor después de perder una pelea, pero durmió tanto tiempo que la tierra se acumuló a su alrededor y quedó enterrado. Durante su largo letargo, olvidó por completo al Pokémon que lo venció."
     },
     "habitat": {
       "biomes": [],
