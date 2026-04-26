@@ -14,13 +14,14 @@
   <!-- Top Nav -->
   <nav class="top-nav">
     <div class="top-nav__left">
-      <button class="top-nav__back" onclick="history.back()">←</button>
+      <button class="top-nav__back" onclick="goPrevPokemon()">←</button>
       <span class="top-nav__title" id="navTitle">Pokédex</span>
     </div>
     <div class="top-nav__right">
       <button class="lang-btn" data-lang="zh">🇹🇼</button>
       <button class="lang-btn" data-lang="en">🇺🇸</button>
       <button class="lang-btn" data-lang="es">🇸🇻</button>
+      <button class="top-nav__next" onclick="goNextPokemon()">→</button>
     </div>
   </nav>
 
@@ -167,13 +168,14 @@
         const urlId = window.location.href.match(/id[=](\d+)/);
         id = urlId ? parseInt(urlId[1]) : NaN;
       }
-      const allPokemon = await POKOPIA_DEX.loadData();
-      pokemon = allPokemon.find(p => p.id === id);
+      _allPokemon = await POKOPIA_DEX.loadData();
+      pokemon = _allPokemon.find(p => p.id === id);
       if (!pokemon) {
-        console.error('Pokemon not found! id:', id, 'available:', allPokemon.map(p=>p.id));
+        console.error('Pokemon not found! id:', id, 'available:', _allPokemon.map(p=>p.id));
         document.getElementById('detailContainer').innerHTML = '<div style="text-align:center;padding:60px 16px;color:var(--text-secondary)">Pokémon not found 😢</div>';
         return;
       }
+      _currentIndex = _allPokemon.findIndex(p => p.id === id);
       POKOPIA_DEX.renderLangButtons();
       renderDetail();
       document.addEventListener('langchange', () => {
@@ -181,6 +183,23 @@
         renderDetail();
       });
       updateI18N();
+    }
+
+    var _allPokemon = [];
+    var _currentIndex = -1;
+
+    function goPrevPokemon() {
+      if (_allPokemon.length === 0 || _currentIndex <= 0) return;
+      _currentIndex--;
+      const prev = _allPokemon[_currentIndex];
+      window.location.href = 'detail.html?id=' + prev.id;
+    }
+
+    function goNextPokemon() {
+      if (_allPokemon.length === 0 || _currentIndex >= _allPokemon.length - 1) return;
+      _currentIndex++;
+      const next = _allPokemon[_currentIndex];
+      window.location.href = 'detail.html?id=' + next.id;
     }
 
     function updateI18N() {
