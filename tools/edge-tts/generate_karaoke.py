@@ -33,11 +33,24 @@ VOICE_MAP = {
 
 
 def get_text_from_pokemon(pid: int, lang: str, data_file: str) -> str:
-    """Load description text from pokemon.json by ID."""
+    """Load description text from pokemon.json by ID.
+    
+    Supports both formats:
+    - {"pokemon": [...]} (wrapped object)
+    - [...] (raw array)
+    """
     with open(data_file, "r", encoding="utf-8") as f:
         data = json.load(f)
-    pokemon = data.get("pokemon", [])
-    for p in pokemon:
+    
+    # Handle both wrapped object and raw array
+    if isinstance(data, dict):
+        pokemon_list = data.get("pokemon", [])
+    elif isinstance(data, list):
+        pokemon_list = data
+    else:
+        raise ValueError(f"Invalid data format in {data_file}")
+    
+    for p in pokemon_list:
         if p.get("id") == pid:
             return p.get("description", {}).get(lang, "")
     raise ValueError(f"Pokemon id={pid} not found in {data_file}")

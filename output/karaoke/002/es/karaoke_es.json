@@ -1,0 +1,92 @@
+[
+  {
+    "text": "El",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "bulbo",
+    "startMs": 312.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "en",
+    "startMs": 587.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "su",
+    "startMs": 662.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "espalda",
+    "startMs": 750.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "crece",
+    "startMs": 1162.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "a",
+    "startMs": 1487.5,
+    "durationMs": 25.0
+  },
+  {
+    "text": "medida",
+    "startMs": 1525.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "que",
+    "startMs": 1937.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "absorbe",
+    "startMs": 2075.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "nutrientes",
+    "startMs": 2500.0,
+    "durationMs": 737.5
+  },
+  {
+    "text": "Cuando",
+    "startMs": 4100.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "florece",
+    "startMs": 4387.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "despide",
+    "startMs": 5175.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "un",
+    "startMs": 5637.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "aroma",
+    "startMs": 5800.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "muy",
+    "startMs": 6112.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "agradable",
+    "startMs": 6400.0,
+    "durationMs": 612.5
+  }
+]
