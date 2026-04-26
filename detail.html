@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Pokémon Detail | Pokopia</title>
+  <title>PokÃ©mon Detail | Pokopia</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#FF8C42">
@@ -14,13 +14,13 @@
   <!-- Top Nav -->
   <nav class="top-nav">
     <div class="top-nav__left">
-      <button class="top-nav__back" onclick="history.back()">←</button>
-      <span class="top-nav__title" id="navTitle">Pokédex</span>
+      <button class="top-nav__back" onclick="history.back()">â†</button>
+      <span class="top-nav__title" id="navTitle">PokÃ©dex</span>
     </div>
     <div class="top-nav__right">
-      <button class="lang-btn" data-lang="zh">🇹🇼</button>
-      <button class="lang-btn" data-lang="en">🇺🇸</button>
-      <button class="lang-btn" data-lang="es">🇪🇸</button>
+      <button class="lang-btn" data-lang="zh">ðŸ‡¹ðŸ‡¼</button>
+      <button class="lang-btn" data-lang="en">ðŸ‡ºðŸ‡¸</button>
+      <button class="lang-btn" data-lang="es">ðŸ‡¸ðŸ‡»</button>
     </div>
   </nav>
 
@@ -31,20 +31,20 @@
   <!-- Bottom Tab Bar -->
   <nav class="tab-bar">
     <a class="tab-bar__item" data-tab="dex" href="index.html">
-      <span class="tab-bar__icon">📖</span>
-      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+      <span class="tab-bar__icon">ðŸ“–</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">åœ–é‘‘</span>
     </a>
     <a class="tab-bar__item" data-tab="habitats" href="habitats.html">
-      <span class="tab-bar__icon">🏝️</span>
-      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+      <span class="tab-bar__icon">ðŸï¸</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">æ£²æ¯åœ°</span>
     </a>
     <a class="tab-bar__item" data-tab="badges" href="badges.html">
-      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__icon">ðŸ…</span>
       <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
     </a>
     <a class="tab-bar__item" data-tab="settings" href="settings.html">
-      <span class="tab-bar__icon">⚙️</span>
-      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+      <span class="tab-bar__icon">âš™ï¸</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">è¨­å®š</span>
     </a>
   </nav>
 
@@ -52,70 +52,70 @@
   <script>
     const I18N = {
       zh: {
-        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
-        specialties: '特技', ideal_habitat: '理想棲息環境', favorites: '喜歡的東西',
-        rarity: '稀有度', where_to_find: '哪裡可以找到', description: 'Pokopia 簡介',
-        loved_items: '喜愛物品', furniture: '🪑 家具', food: '🍎 食物', misc: '📦 雜項',
-        collect_btn: '收集到了！', collected_btn: '✅ 已收集',
-        time: '時間', weather: '天氣', how_to_find: '如何找到',
-        all_day: '全天候', all_weather: '全天氣', special: '特殊',
-        zone: '區域', no_items: '尚無資料',
-        biome: '棲息地', common: '常見', uncommon: '較稀有', rare: '稀有'
+        tab_dex: 'åœ–é‘‘', tab_habitats: 'æ£²æ¯åœ°', tab_badges: 'Badge', tab_settings: 'è¨­å®š',
+        specialties: 'ç‰¹æŠ€', ideal_habitat: 'ç†æƒ³æ£²æ¯ç’°å¢ƒ', favorites: 'å–œæ­¡çš„æ±è¥¿',
+        rarity: 'ç¨€æœ‰åº¦', where_to_find: 'å“ªè£¡å¯ä»¥æ‰¾åˆ°', description: 'Pokopia ç°¡ä»‹',
+        loved_items: 'å–œæ„›ç‰©å“', furniture: 'ðŸª‘ å®¶å…·', food: 'ðŸŽ é£Ÿç‰©', misc: 'ðŸ“¦ é›œé …',
+        collect_btn: 'æ”¶é›†åˆ°äº†ï¼', collected_btn: 'âœ… å·²æ”¶é›†',
+        time: 'æ™‚é–“', weather: 'å¤©æ°£', how_to_find: 'å¦‚ä½•æ‰¾åˆ°',
+        all_day: 'å…¨å¤©å€™', all_weather: 'å…¨å¤©æ°£', special: 'ç‰¹æ®Š',
+        zone: 'å€åŸŸ', no_items: 'å°šç„¡è³‡æ–™',
+        biome: 'æ£²æ¯åœ°', common: 'å¸¸è¦‹', uncommon: 'è¼ƒç¨€æœ‰', rare: 'ç¨€æœ‰'
       },
       en: {
-        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        tab_dex: 'PokÃ©dex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
         specialties: 'Specialties', ideal_habitat: 'Ideal Habitat', favorites: 'Favorites',
         rarity: 'Rarity', where_to_find: 'Where to Find', description: 'Pokopia Description',
-        loved_items: 'Loved Items', furniture: '🪑 Furniture', food: '🍎 Food', misc: '📦 Misc.',
-        collect_btn: 'Collected!', collected_btn: '✅ Collected',
+        loved_items: 'Loved Items', furniture: 'ðŸª‘ Furniture', food: 'ðŸŽ Food', misc: 'ðŸ“¦ Misc.',
+        collect_btn: 'Collected!', collected_btn: 'âœ… Collected',
         time: 'Time', weather: 'Weather', how_to_find: 'How to Find',
         all_day: 'All day', all_weather: 'All weather', special: 'Special',
         zone: 'Zone', no_items: 'No data',
         biome: 'Biome', common: 'Common', uncommon: 'Uncommon', rare: 'Rare'
       },
       es: {
-        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
-        specialties: 'Especialidades', ideal_habitat: 'Hábitat Ideal', favorites: 'Favoritos',
-        rarity: 'Rareza', where_to_find: 'Dónde encontrar', description: 'Descripción Pokopia',
-        loved_items: 'Objetos Favoritos', furniture: '🪑 Mobiliario', food: '🍎 Comida', misc: '📦 Varios',
-        collect_btn: '¡Recogido!', collected_btn: '✅ Recogido',
-        time: 'Hora', weather: 'Clima', how_to_find: 'Cómo encontrar',
-        all_day: 'Todo el día', all_weather: 'Todo clima', special: 'Especial',
+        tab_dex: 'PokÃ©dex', tab_habitats: 'HÃ¡bitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        specialties: 'Especialidades', ideal_habitat: 'HÃ¡bitat Ideal', favorites: 'Favoritos',
+        rarity: 'Rareza', where_to_find: 'DÃ³nde encontrar', description: 'DescripciÃ³n Pokopia',
+        loved_items: 'Objetos Favoritos', furniture: 'ðŸª‘ Mobiliario', food: 'ðŸŽ Comida', misc: 'ðŸ“¦ Varios',
+        collect_btn: 'Â¡Recogido!', collected_btn: 'âœ… Recogido',
+        time: 'Hora', weather: 'Clima', how_to_find: 'CÃ³mo encontrar',
+        all_day: 'Todo el dÃ­a', all_weather: 'Todo clima', special: 'Especial',
         zone: 'Zona', no_items: 'Sin datos',
-        biome: 'Bioma', common: 'Común', uncommon: 'Poco común', rare: 'Raro'
+        biome: 'Bioma', common: 'ComÃºn', uncommon: 'Poco comÃºn', rare: 'Raro'
       }
     };
 
     // Favorites emoji & color class map
     const FAV_STYLE = {
-      'Lots of nature': { emoji: '🌿', cls: 'fav-tag--nature' },
-      'Soft stuff': { emoji: '🧸', cls: 'fav-tag--soft' },
-      'Cute stuff': { emoji: '💖', cls: 'fav-tag--cute' },
-      'Lots of water': { emoji: '💧', cls: 'fav-tag--water' },
-      'Group activities': { emoji: '🎉', cls: 'fav-tag--group' },
-      'Sweet flavors': { emoji: '🍬', cls: 'fav-tag--sweet' },
-      'Lots of fire': { emoji: '🔥', cls: 'fav-tag--fire' },
-      'Wooden stuff': { emoji: '🪵', cls: 'fav-tag--nature' },
-      'Hard stuff': { emoji: '🪨', cls: 'fav-tag--default' },
-      'Exercise': { emoji: '💪', cls: 'fav-tag--default' },
-      'Spicy flavors': { emoji: '🌶️', cls: 'fav-tag--fire' },
-      'Stone stuff': { emoji: '🪨', cls: 'fav-tag--default' },
-      'Letters and words': { emoji: '📝', cls: 'fav-tag--default' },
-      'Pretty flowers': { emoji: '🌸', cls: 'fav-tag--nature' },
-      'Gatherings': { emoji: '👥', cls: 'fav-tag--group' },
-      'Watching stuff': { emoji: '👀', cls: 'fav-tag--default' },
-      'Ocean vibes': { emoji: '🌊', cls: 'fav-tag--water' },
-      'Luxury': { emoji: '✨', cls: 'fav-tag--sweet' },
-      'Shiny stuff': { emoji: '💎', cls: 'fav-tag--default' },
-      'Glass stuff': { emoji: '🔮', cls: 'fav-tag--default' },
-      'Dry flavors': { emoji: '🫘', cls: 'fav-tag--default' }
+      'Lots of nature': { emoji: 'ðŸŒ¿', cls: 'fav-tag--nature' },
+      'Soft stuff': { emoji: 'ðŸ§¸', cls: 'fav-tag--soft' },
+      'Cute stuff': { emoji: 'ðŸ’–', cls: 'fav-tag--cute' },
+      'Lots of water': { emoji: 'ðŸ’§', cls: 'fav-tag--water' },
+      'Group activities': { emoji: 'ðŸŽ‰', cls: 'fav-tag--group' },
+      'Sweet flavors': { emoji: 'ðŸ¬', cls: 'fav-tag--sweet' },
+      'Lots of fire': { emoji: 'ðŸ”¥', cls: 'fav-tag--fire' },
+      'Wooden stuff': { emoji: 'ðŸªµ', cls: 'fav-tag--nature' },
+      'Hard stuff': { emoji: 'ðŸª¨', cls: 'fav-tag--default' },
+      'Exercise': { emoji: 'ðŸ’ª', cls: 'fav-tag--default' },
+      'Spicy flavors': { emoji: 'ðŸŒ¶ï¸', cls: 'fav-tag--fire' },
+      'Stone stuff': { emoji: 'ðŸª¨', cls: 'fav-tag--default' },
+      'Letters and words': { emoji: 'ðŸ“', cls: 'fav-tag--default' },
+      'Pretty flowers': { emoji: 'ðŸŒ¸', cls: 'fav-tag--nature' },
+      'Gatherings': { emoji: 'ðŸ‘¥', cls: 'fav-tag--group' },
+      'Watching stuff': { emoji: 'ðŸ‘€', cls: 'fav-tag--default' },
+      'Ocean vibes': { emoji: 'ðŸŒŠ', cls: 'fav-tag--water' },
+      'Luxury': { emoji: 'âœ¨', cls: 'fav-tag--sweet' },
+      'Shiny stuff': { emoji: 'ðŸ’Ž', cls: 'fav-tag--default' },
+      'Glass stuff': { emoji: 'ðŸ”®', cls: 'fav-tag--default' },
+      'Dry flavors': { emoji: 'ðŸ«˜', cls: 'fav-tag--default' }
     };
 
     // Ideal habitat emoji map
     const HABITAT_EMOJI = {
-      'Bright': '🌞', '溫暖': '🌡️', 'Warm': '🌡️', 'Cálido': '🌡️',
-      'Humid': '💧', '潮濕': '💧', 'Húmedo': '💧',
-      '明亮': '🌞', 'Brillante': '🌞'
+      'Bright': 'ðŸŒž', 'æº«æš–': 'ðŸŒ¡ï¸', 'Warm': 'ðŸŒ¡ï¸', 'CÃ¡lido': 'ðŸŒ¡ï¸',
+      'Humid': 'ðŸ’§', 'æ½®æ¿•': 'ðŸ’§', 'HÃºmedo': 'ðŸ’§',
+      'æ˜Žäº®': 'ðŸŒž', 'Brillante': 'ðŸŒž'
     };
 
     let pokemon = null;
@@ -146,12 +146,12 @@
     }
 
     function getFavTag(fav) {
-      const style = FAV_STYLE[fav] || { emoji: '❤️', cls: 'fav-tag--default' };
+      const style = FAV_STYLE[fav] || { emoji: 'â¤ï¸', cls: 'fav-tag--default' };
       return `<span class="fav-tag ${style.cls}">${style.emoji} ${fav}</span>`;
     }
 
     function getHabitatEmoji(habitatName) {
-      return HABITAT_EMOJI[habitatName] || '🏠';
+      return HABITAT_EMOJI[habitatName] || 'ðŸ ';
     }
 
     async function init() {
@@ -171,7 +171,7 @@
       pokemon = allPokemon.find(p => p.id === id);
       if (!pokemon) {
         console.error('Pokemon not found! id:', id, 'available:', allPokemon.map(p=>p.id));
-        document.getElementById('detailContainer').innerHTML = '<div style="text-align:center;padding:60px 16px;color:var(--text-secondary)">Pokémon not found 😢</div>';
+        document.getElementById('detailContainer').innerHTML = '<div style="text-align:center;padding:60px 16px;color:var(--text-secondary)">PokÃ©mon not found ðŸ˜¢</div>';
         return;
       }
       POKOPIA_DEX.renderLangButtons();
@@ -215,7 +215,7 @@
       // Specialties tags
       const specTags = pokemon.specialties.length > 0
         ? pokemon.specialties.map(s => `<span class="specialty-tag">${s}</span>`).join('')
-        : `<span class="tag" style="color:var(--text-light);background:rgba(0,0,0,0.04)">—</span>`;
+        : `<span class="tag" style="color:var(--text-light);background:rgba(0,0,0,0.04)">â€”</span>`;
 
       // Ideal habitat tag with emoji
       const habitatEmoji = getHabitatEmoji(idealHabitat);
@@ -229,14 +229,14 @@
 
       // Zone badge (if present)
       if (pokemon.habitat.zone) {
-        whereToFindHTML += `<div style="margin-bottom:8px"><span class="biome-card__zone">📍 ${pokemon.habitat.zone}</span></div>`;
+        whereToFindHTML += `<div style="margin-bottom:8px"><span class="biome-card__zone">ðŸ“ ${pokemon.habitat.zone}</span></div>`;
       }
 
       // Biome cards
       if (pokemon.habitat.biomes && pokemon.habitat.biomes.length > 0) {
         pokemon.habitat.biomes.forEach(b => {
           const biomeName = POKOPIA_DEX.getBiomeName(b, lang);
-          const biomeEmoji = POKOPIA_DEX.BIOME_EMOJI[b.name.en] || '🌿';
+          const biomeEmoji = POKOPIA_DEX.BIOME_EMOJI[b.name.en] || 'ðŸŒ¿';
           const rarityClass = getRarityClass(pokemon.rarity);
           whereToFindHTML += `
             <a class="biome-card" href="habitat-detail.html?id=${b.id}" style="text-decoration:none;color:inherit">
@@ -247,11 +247,11 @@
               </div>
               <div style="display:flex;align-items:center;gap:8px;margin-top:4px">
                 <span class="biome-card__rarity biome-card__rarity--${rarityClass}">${getRarityLabel(pokemon.rarity, lang)}</span>
-                <span class="biome-card__link">›</span>
+                <span class="biome-card__link">â€º</span>
               </div>
               <div class="biome-card__meta">
-                <span>⏰ ${t.time}: ${getTimeLabel(pokemon.habitat.time, lang)}</span>
-                <span>🌤️ ${t.weather}: ${getWeatherLabel(pokemon.habitat.weather, lang)}</span>
+                <span>â° ${t.time}: ${getTimeLabel(pokemon.habitat.time, lang)}</span>
+                <span>ðŸŒ¤ï¸ ${t.weather}: ${getWeatherLabel(pokemon.habitat.weather, lang)}</span>
               </div>
             </a>`;
         });
@@ -261,8 +261,8 @@
       if (!pokemon.habitat.biomes || pokemon.habitat.biomes.length === 0) {
         whereToFindHTML += `
           <div class="biome-card__meta" style="margin-top:4px">
-            <span>⏰ ${t.time}: ${getTimeLabel(pokemon.habitat.time, lang)}</span>
-            <span>🌤️ ${t.weather}: ${getWeatherLabel(pokemon.habitat.weather, lang)}</span>
+            <span>â° ${t.time}: ${getTimeLabel(pokemon.habitat.time, lang)}</span>
+            <span>ðŸŒ¤ï¸ ${t.weather}: ${getWeatherLabel(pokemon.habitat.weather, lang)}</span>
           </div>`;
       }
 
@@ -271,7 +271,7 @@
         const howText = pokemon.habitat.how_to_find[lang] || pokemon.habitat.how_to_find.en;
         whereToFindHTML += `
           <div class="how-to-find-alert">
-            <span class="how-to-find-alert__icon">🔍</span>${t.how_to_find}: ${howText}
+            <span class="how-to-find-alert__icon">ðŸ”</span>${t.how_to_find}: ${howText}
           </div>`;
       }
 
@@ -292,7 +292,7 @@
           <div class="loved-items-category${idx === 0 ? ' open' : ''}" id="lovedCat_${s.key}">
             <div class="loved-items-category__header" onclick="toggleLovedCategory('lovedCat_${s.key}')">
               <span class="loved-items-category__title">${s.label} <span class="loved-items-category__count">(${s.items.length})</span></span>
-              <span class="loved-items-category__chevron">▼</span>
+              <span class="loved-items-category__chevron">â–¼</span>
             </div>
             <div class="loved-items-category__items">
               <div class="loved-items-category__inner">
@@ -321,9 +321,9 @@
             <div class="detail-hero__name-sub">${subNames.join(' / ')}</div>
           </div>
           <div class="detail-hero__voice-row">
-            <button class="voice-btn" onclick="playVoice('${pokemon.name.zh}', 'zh')" title="中文">🇹🇼 🔊</button>
-            <button class="voice-btn" onclick="playVoice('${pokemon.name.en}', 'en')" title="English">🇺🇸 🔊</button>
-            <button class="voice-btn" onclick="playVoice('${pokemon.name.es}', 'es')" title="Español">🇪🇸 🔊</button>
+            <button class="voice-btn" onclick="playVoice('${pokemon.name.zh}', 'zh')" title="ä¸­æ–‡">ðŸ‡¹ðŸ‡¼ ðŸ”Š</button>
+            <button class="voice-btn" onclick="playVoice('${pokemon.name.en}', 'en')" title="English">ðŸ‡ºðŸ‡¸ ðŸ”Š</button>
+            <button class="voice-btn" onclick="playVoice('${pokemon.name.es}', 'es')" title="EspaÃ±ol">ðŸ‡ªðŸ‡¸ ðŸ”Š</button>
           </div>
           <div class="detail-types-row">${typeTags}</div>
           <div class="detail-rarity" style="margin-top:8px;justify-content:center">
@@ -342,9 +342,9 @@
           <div class="detail-section__title">
             ${t.description}
             <span class="desc-voice-btns">
-              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('es')" title="Español">🇪🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('zh')" title="ä¸­æ–‡">ðŸ‡¹ðŸ‡¼ ðŸ”Š</button>
+              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('en')" title="English">ðŸ‡ºðŸ‡¸ ðŸ”Š</button>
+              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('es')" title="EspaÃ±ol">ðŸ‡ªðŸ‡¸ ðŸ”Š</button>
             </span>
           </div>
           <div class="detail-desc" id="descText">${desc}</div>
@@ -380,7 +380,7 @@
       // Nav title
       const pokedexDisplay = pokemon.pokedex_number != null ? String(pokemon.pokedex_number).padStart(3, '0') : String(pokemon.id).padStart(3, '0');
       document.getElementById('navTitle').textContent = `#${pokedexDisplay} ${mainName}`;
-      document.title = `${mainName} | Pokopia Pokédex`;
+      document.title = `${mainName} | Pokopia PokÃ©dex`;
     }
 
     function toggleLovedCategory(id) {
@@ -409,7 +409,7 @@
       renderDetail();
     }
 
-    // ── Edge-TTS Karaoke Player ──────────────────────────────
+    // â”€â”€ Edge-TTS Karaoke Player â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     let _karaokeAudio = null;
     let _karaokeRaf = null;
     let _karaokeWords = null;
@@ -440,7 +440,7 @@
           html += `<span class="karaoke-word" data-start="${w.startMs}" data-end="${w.startMs + w.durationMs}">${wText}</span>`;
           textIdx = foundIdx + wText.length;
         } else {
-          // Word not found in original text — just append it
+          // Word not found in original text â€” just append it
           html += `<span class="karaoke-word" data-start="${w.startMs}" data-end="${w.startMs + w.durationMs}">${wText}</span>`;
         }
       }
@@ -502,7 +502,7 @@
         if (!resp.ok) throw new Error('JSON not found');
         _karaokeWords = await resp.json();
       } catch {
-        // No pre-generated audio — fall back to Web Speech API
+        // No pre-generated audio â€” fall back to Web Speech API
         _karaokeWords = null;
         playDescVoice(voiceLang);
         return;
@@ -526,7 +526,7 @@
       }, { once: true });
     }
 
-    // ── Legacy Web Speech API ─────────────────────────────────
+    // â”€â”€ Legacy Web Speech API â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     let _voiceLangSave = null;
     let _currentVoiceText = '';
     let _cancelKaraoke = null;
@@ -534,7 +534,7 @@
     function playVoice(text, lang) {
       if ('speechSynthesis' in window) {
         const utterance = new SpeechSynthesisUtterance(text);
-        const langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-419' };
+        const langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-SV' };
         utterance.lang = langMap[lang] || lang;
         utterance.rate = 0.85;
         utterance.pitch = 1.2;
@@ -552,7 +552,7 @@
         var current = '';
         for (var i = 0; i < text.length; i++) {
           current += text[i];
-          var isPunct = /[，。！？、；：]/.test(text[i]);
+          var isPunct = /[ï¼Œã€‚ï¼ï¼Ÿã€ï¼›ï¼š]/.test(text[i]);
           if (isPunct) {
             raw.push(current);
             current = '';
@@ -565,7 +565,7 @@
         // Merge standalone punctuation into previous chunk
         var chunks = [];
         for (var j = 0; j < raw.length; j++) {
-          if (/^[，。！？、；：]$/.test(raw[j]) && chunks.length > 0) {
+          if (/^[ï¼Œã€‚ï¼ï¼Ÿã€ï¼›ï¼š]$/.test(raw[j]) && chunks.length > 0) {
             chunks[chunks.length - 1] += raw[j];
           } else {
             chunks.push(raw[j]);
@@ -617,7 +617,7 @@
       window.speechSynthesis.cancel();
       if (_cancelKaraoke) { _cancelKaraoke(); _cancelKaraoke = null; }
 
-      var langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-419' };
+      var langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-SV' };
 
       if (voiceLang === 'zh') {
         // Chinese: always use chunk-by-chunk playback (onboundary unreliable for zh)
