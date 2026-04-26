@@ -1,0 +1,7 @@
+{
+  "text": "Pikachu has soft and stretchy cheek sacs that can generate powerful electricity.",
+  "lang": "en",
+  "voice": "en-US-AnaNeural",
+  "expectedChunks": ["Pikachu", "has", "soft", "and", "stretchy", "cheek", "sacs", "that", "can", "generate", "powerful", "electricity", "."],
+  "notes": "Test English word-level timing accuracy"
+}
