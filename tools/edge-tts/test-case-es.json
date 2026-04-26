@@ -1,0 +1,7 @@
+{
+  "text": "Pikachu tiene mejillas suaves y elásticas que pueden generar electricidad poderosa.",
+  "lang": "es",
+  "voice": "es-MX-JorgeNeural",
+  "expectedChunks": ["Pikachu", "tiene", "mejillas", "suaves", "y", "elásticas", "que", "pueden", "generar", "electricidad", "poderosa", "."],
+  "notes": "Probar precisión de temporización a nivel de palabra en español"
+}

@@ -1,0 +1,4 @@
+# Edge-TTS output directories
+output/
+*.mp3
+*.wav
