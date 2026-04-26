@@ -946,6 +946,7 @@ body {
 .karaoke-word--static {
   transition: none;
   color: var(--text-secondary);
+  white-space: pre;
 }
 
 .karaoke-word.karaoke-done {
