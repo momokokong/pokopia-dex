@@ -929,6 +929,24 @@ body {
   background: linear-gradient(180deg, transparent 65%, rgba(255,140,66,0.2) 65%);
 }
 
+/* Karaoke word-level highlight (edge-tts pre-generated) */
+.karaoke-word {
+  transition: color 0.1s ease, background 0.1s ease;
+  border-radius: 2px;
+  color: var(--text-light);
+}
+
+.karaoke-word.karaoke-active {
+  font-weight: 700;
+  color: #FFF;
+  background: var(--accent-orange);
+  text-shadow: 0 0 8px rgba(255,140,66,0.6);
+}
+
+.karaoke-word.karaoke-done {
+  color: var(--text-light);
+}
+
 .collect-btn--uncollected {
   background: var(--accent-blue);
   color: #FFF;

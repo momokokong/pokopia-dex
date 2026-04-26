@@ -342,9 +342,9 @@
           <div class="detail-section__title">
             ${t.description}
             <span class="desc-voice-btns">
-              <button class="voice-btn voice-btn--sm" onclick="playDescVoice('zh')" title="中文">🇹🇼 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playDescVoice('en')" title="English">🇺🇸 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playDescVoice('es')" title="Español">🇪🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('es')" title="Español">🇪🇸 🔊</button>
             </span>
           </div>
           <div class="detail-desc" id="descText">${desc}</div>
@@ -409,6 +409,99 @@
       renderDetail();
     }
 
+    // ── Edge-TTS Karaoke Player ──────────────────────────────
+    let _karaokeAudio = null;
+    let _karaokeRaf = null;
+    let _karaokeWords = null;
+    let _karaokeSpans = null;
+
+    function renderKaraokeWords(text, container) {
+      // Split into word-level spans using the pre-computed word timings
+      if (!_karaokeWords) {
+        container.innerHTML = `<span>${text}</span>`;
+        return;
+      }
+      let html = '';
+      for (const w of _karaokeWords) {
+        html += `<span class="karaoke-word" data-start="${w.startMs}" data-end="${w.startMs + w.durationMs}">${w.text}</span>`;
+      }
+      container.innerHTML = html;
+      _karaokeSpans = container.querySelectorAll('.karaoke-word');
+    }
+
+    function startKaraokeTick() {
+      function tick() {
+        if (!_karaokeAudio || !_karaokeSpans) return;
+        const nowMs = _karaokeAudio.currentTime * 1000;
+        _karaokeSpans.forEach(s => {
+          const start = +s.dataset.start;
+          const end = +s.dataset.end;
+          s.classList.toggle('karaoke-active', nowMs >= start && nowMs < end);
+          s.classList.toggle('karaoke-done', nowMs >= end);
+        });
+        _karaokeRaf = requestAnimationFrame(tick);
+      }
+      _karaokeRaf = requestAnimationFrame(tick);
+    }
+
+    function stopKaraokeTick() {
+      if (_karaokeRaf) { cancelAnimationFrame(_karaokeRaf); _karaokeRaf = null; }
+    }
+
+    function clearKaraokeHighlights() {
+      if (_karaokeSpans) {
+        _karaokeSpans.forEach(s => {
+          s.classList.remove('karaoke-active');
+          s.classList.remove('karaoke-done');
+        });
+      }
+    }
+
+    async function playKaraokeAudio(voiceLang) {
+      if (!pokemon) return;
+      const pokemonId = pokemon.id;
+      const jsonPath = `output/karaoke/${String(pokemonId).padStart(3, '0')}/${voiceLang}/karaoke_${voiceLang}.json`;
+      const mp3Path = `output/karaoke/${String(pokemonId).padStart(3, '0')}/${voiceLang}/audio_${voiceLang}.mp3`;
+
+      // Stop any previous playback
+      stopKaraokeTick();
+      if (_karaokeAudio) { _karaokeAudio.pause(); _karaokeAudio.currentTime = 0; _karaokeAudio = null; }
+      clearKaraokeHighlights();
+
+      const descEl = document.getElementById('descText');
+      const text = pokemon.description[voiceLang] || pokemon.description.en;
+
+      try {
+        // Fetch word timings
+        const resp = await fetch(jsonPath);
+        if (!resp.ok) throw new Error('JSON not found');
+        _karaokeWords = await resp.json();
+      } catch {
+        // No pre-generated audio — fall back to Web Speech API
+        _karaokeWords = null;
+        playDescVoice(voiceLang);
+        return;
+      }
+
+      // Render word spans
+      renderKaraokeWords(text, descEl);
+
+      // Create audio
+      _karaokeAudio = new Audio(mp3Path);
+      _karaokeAudio.play().catch(() => {});
+
+      startKaraokeTick();
+
+      _karaokeAudio.addEventListener('ended', () => {
+        stopKaraokeTick();
+        clearKaraokeHighlights();
+        _karaokeWords = null;
+        _karaokeSpans = null;
+        descEl.textContent = text;
+      }, { once: true });
+    }
+
+    // ── Legacy Web Speech API ─────────────────────────────────
     let _voiceLangSave = null;
     let _currentVoiceText = '';
     let _cancelKaraoke = null;
