@@ -245,8 +245,10 @@
                 <span class="biome-card__name">${biomeName}</span>
                 <span class="biome-card__id">#${String(b.id).padStart(3, '0')}</span>
               </div>
-              <span class="biome-card__rarity biome-card__rarity--${rarityClass}">${getRarityLabel(pokemon.rarity, lang)}</span>
-              <span class="biome-card__link">›</span>
+              <div style="display:flex;align-items:center;gap:8px;margin-top:4px">
+                <span class="biome-card__rarity biome-card__rarity--${rarityClass}">${getRarityLabel(pokemon.rarity, lang)}</span>
+                <span class="biome-card__link">›</span>
+              </div>
               <div class="biome-card__meta">
                 <span>⏰ ${t.time}: ${getTimeLabel(pokemon.habitat.time, lang)}</span>
                 <span>🌤️ ${t.weather}: ${getWeatherLabel(pokemon.habitat.weather, lang)}</span>

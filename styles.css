@@ -590,6 +590,8 @@ body {
 
 /* Where to Find - Biome Cards */
 .biome-card {
+  display: flex;
+  flex-direction: column;
   background: var(--bg-secondary);
   border-radius: var(--radius-md);
   padding: 14px;
