@@ -1,0 +1,67 @@
+[
+  {
+    "text": "太陽",
+    "startMs": 100.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "伊",
+    "startMs": 462.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "布能",
+    "startMs": 662.5,
+    "durationMs": 225.0
+  },
+  {
+    "text": "讀取",
+    "startMs": 950.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "氣流",
+    "startMs": 1262.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "預測",
+    "startMs": 2100.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "天氣",
+    "startMs": 2400.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "變化",
+    "startMs": 2787.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "或",
+    "startMs": 3275.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "對手",
+    "startMs": 3500.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "下",
+    "startMs": 3812.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "一步的",
+    "startMs": 4050.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "動作",
+    "startMs": 4425.0,
+    "durationMs": 500.0
+  }
+]

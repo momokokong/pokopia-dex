@@ -1,0 +1,107 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "legend",
+    "startMs": 212.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "says",
+    "startMs": 762.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "that",
+    "startMs": 1150.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "its",
+    "startMs": 1337.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "body",
+    "startMs": 1525.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "glows",
+    "startMs": 1937.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "in",
+    "startMs": 2412.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "seven",
+    "startMs": 2625.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "colors",
+    "startMs": 3037.5,
+    "durationMs": 637.5
+  },
+  {
+    "text": "A",
+    "startMs": 4537.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "rainbow",
+    "startMs": 4675.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "is",
+    "startMs": 5275.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "said",
+    "startMs": 5462.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "to",
+    "startMs": 5737.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "form",
+    "startMs": 5850.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "behind",
+    "startMs": 6237.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "it",
+    "startMs": 6712.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "when",
+    "startMs": 6900.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "it",
+    "startMs": 7100.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "flies",
+    "startMs": 7237.5,
+    "durationMs": 600.0
+  }
+]

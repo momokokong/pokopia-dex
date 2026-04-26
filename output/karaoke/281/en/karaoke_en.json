@@ -1,0 +1,87 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "sensitive",
+    "startMs": 225.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "Pok├⌐mon",
+    "startMs": 875.0,
+    "durationMs": 625.0
+  },
+  {
+    "text": "that",
+    "startMs": 1512.5,
+    "durationMs": 225.0
+  },
+  {
+    "text": "easily",
+    "startMs": 1750.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "becomes",
+    "startMs": 2225.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "sad",
+    "startMs": 2725.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "or",
+    "startMs": 3150.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "angry",
+    "startMs": 3387.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "Every",
+    "startMs": 4787.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "time",
+    "startMs": 5150.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "its",
+    "startMs": 5500.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "mood",
+    "startMs": 5687.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "changes",
+    "startMs": 6025.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "it",
+    "startMs": 7000.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "charges",
+    "startMs": 7162.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "power",
+    "startMs": 7712.5,
+    "durationMs": 525.0
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "text": "By",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "reading",
+    "startMs": 312.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "air",
+    "startMs": 800.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "currents",
+    "startMs": 1050.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "it",
+    "startMs": 1950.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "can",
+    "startMs": 2087.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "predict",
+    "startMs": 2287.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "things",
+    "startMs": 2737.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "such",
+    "startMs": 3087.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "as",
+    "startMs": 3387.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "weather",
+    "startMs": 3550.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "or",
+    "startMs": 4062.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "its",
+    "startMs": 4275.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "foe's",
+    "startMs": 4475.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "next",
+    "startMs": 4837.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "move",
+    "startMs": 5250.0,
+    "durationMs": 412.5
+  }
+]

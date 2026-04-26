@@ -1,0 +1,72 @@
+[
+  {
+    "text": "It",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "is",
+    "startMs": 262.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "said",
+    "startMs": 437.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "that",
+    "startMs": 762.5,
+    "durationMs": 212.5
+  },
+  {
+    "text": "when",
+    "startMs": 987.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "it",
+    "startMs": 1200.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "roars",
+    "startMs": 1375.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "a",
+    "startMs": 2137.5,
+    "durationMs": 50.0
+  },
+  {
+    "text": "volcano",
+    "startMs": 2200.0,
+    "durationMs": 712.5
+  },
+  {
+    "text": "erupts",
+    "startMs": 2925.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "somewhere",
+    "startMs": 3462.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "around",
+    "startMs": 3937.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "the",
+    "startMs": 4362.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "globe",
+    "startMs": 4462.5,
+    "durationMs": 412.5
+  }
+]

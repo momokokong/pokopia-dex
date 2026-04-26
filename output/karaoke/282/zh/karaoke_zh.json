@@ -1,0 +1,102 @@
+[
+  {
+    "text": "火",
+    "startMs": 100.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "伊",
+    "startMs": 350.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "布",
+    "startMs": 512.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "吸入的",
+    "startMs": 637.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "空氣",
+    "startMs": 1162.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "會",
+    "startMs": 1600.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "被",
+    "startMs": 1800.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "送",
+    "startMs": 1937.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "進",
+    "startMs": 2175.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "火焰",
+    "startMs": 2337.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "囊",
+    "startMs": 2700.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "中",
+    "startMs": 2912.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "加熱",
+    "startMs": 3100.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "再",
+    "startMs": 3937.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "以",
+    "startMs": 4087.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "超過",
+    "startMs": 4212.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "3000度",
+    "startMs": 4575.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "的",
+    "startMs": 5150.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "火焰",
+    "startMs": 5287.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "呼出",
+    "startMs": 5675.0,
+    "durationMs": 525.0
+  }
+]

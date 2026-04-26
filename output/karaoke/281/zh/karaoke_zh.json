@@ -1,0 +1,87 @@
+[
+  {
+    "text": "雷",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "伊",
+    "startMs": 312.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "布",
+    "startMs": 475.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "是",
+    "startMs": 600.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "一隻",
+    "startMs": 737.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "敏感的",
+    "startMs": 1062.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "寶可夢",
+    "startMs": 1525.0,
+    "durationMs": 662.5
+  },
+  {
+    "text": "很",
+    "startMs": 2475.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "容易",
+    "startMs": 2637.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "傷心",
+    "startMs": 2962.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "或",
+    "startMs": 3387.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "生氣",
+    "startMs": 3575.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "情緒",
+    "startMs": 5075.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "每次",
+    "startMs": 5512.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "變化",
+    "startMs": 5887.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "都會",
+    "startMs": 6387.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "充電",
+    "startMs": 6650.0,
+    "durationMs": 512.5
+  }
+]

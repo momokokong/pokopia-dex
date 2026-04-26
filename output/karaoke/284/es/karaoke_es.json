@@ -1,0 +1,102 @@
+[
+  {
+    "text": "En",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "la",
+    "startMs": 312.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "noche",
+    "startMs": 412.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "de",
+    "startMs": 737.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "luna",
+    "startMs": 850.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "llena",
+    "startMs": 1125.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "o",
+    "startMs": 1737.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "cuando",
+    "startMs": 1837.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "se",
+    "startMs": 2112.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "emociona",
+    "startMs": 2250.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "los",
+    "startMs": 3112.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "patrones",
+    "startMs": 3262.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "de",
+    "startMs": 3737.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "anillos",
+    "startMs": 3812.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "en",
+    "startMs": 4250.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "su",
+    "startMs": 4375.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "cuerpo",
+    "startMs": 4525.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "brillan",
+    "startMs": 4912.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "en",
+    "startMs": 5300.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "amarillo",
+    "startMs": 5425.0,
+    "durationMs": 537.5
+  }
+]
