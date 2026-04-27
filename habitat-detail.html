@@ -383,9 +383,15 @@
     }
 
     function renderHabitatKaraokeWords(words, el) {
+      // Reconstruct text with spaces between words for readability
       var html = '';
       words.forEach(function(w, i) {
-        html += '<span class="karaoke-word" data-word-idx="' + i + '">' + w.text + '</span>';
+        var txt = w.text;
+        // Add space after word if it doesn't end with punctuation
+        if (i < words.length - 1 && !/[，。！？、；：\s]$/.test(txt)) {
+          txt += ' ';
+        }
+        html += '<span class="karaoke-word" data-word-idx="' + i + '">' + txt + '</span>';
       });
       el.innerHTML = html;
       _habitatKaraokeSpans = el.querySelectorAll('.karaoke-word');
