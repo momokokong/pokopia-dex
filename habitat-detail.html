@@ -260,9 +260,9 @@
           <div class="detail-hero__names">
             <div class="detail-hero__name-main">${habitatName}
               <span class="desc-voice-btns" style="margin-left:8px">
-                <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
-                <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
-                <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('es')" title="Español">🇪🇸 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.zh || h.name.en}', 'zh')" title="中文">🇹🇼 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.en}', 'en')" title="English">🇺🇸 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.es || h.name.en}', 'es')" title="Español">🇪🇸 🔊</button>
               </span>
             </div>
             <div class="detail-hero__name-sub">${h.name.zh || ''} / ${h.name.en} / ${h.name.es || ''}</div>
