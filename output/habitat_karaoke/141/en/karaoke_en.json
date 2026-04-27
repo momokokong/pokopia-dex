@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "concrete",
+    "startMs": 225.0,
+    "durationMs": 662.5
+  },
+  {
+    "text": "pipe",
+    "startMs": 900.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "secret",
+    "startMs": 1225.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "base",
+    "startMs": 1700.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "so",
+    "startMs": 2050.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "cool",
+    "startMs": 2325.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "Cyndaquil",
+    "startMs": 3037.5,
+    "durationMs": 712.5
+  },
+  {
+    "text": "and",
+    "startMs": 3762.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "Quilava",
+    "startMs": 3912.5,
+    "durationMs": 575.0
+  },
+  {
+    "text": "explore",
+    "startMs": 4500.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "inside",
+    "startMs": 5150.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "the",
+    "startMs": 5712.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "pipes",
+    "startMs": 5812.5,
+    "durationMs": 550.0
+  }
+]

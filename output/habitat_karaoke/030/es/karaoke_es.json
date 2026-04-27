@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Una",
+    "startMs": 100.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "cama",
+    "startMs": 337.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "acogedora",
+    "startMs": 612.5,
+    "durationMs": 575.0
+  },
+  {
+    "text": "con",
+    "startMs": 1200.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "peluche",
+    "startMs": 1400.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "Snorlax",
+    "startMs": 2125.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "y",
+    "startMs": 2775.0,
+    "durationMs": 62.5
+  },
+  {
+    "text": "Munchlax",
+    "startMs": 2850.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "duermen",
+    "startMs": 3400.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "dulcemente",
+    "startMs": 3812.5,
+    "durationMs": 725.0
+  }
+]

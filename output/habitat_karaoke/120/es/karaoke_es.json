@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Mesa",
+    "startMs": 100.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "de",
+    "startMs": 475.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "cena",
+    "startMs": 600.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "llena",
+    "startMs": 912.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "de",
+    "startMs": 1200.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "sorpresas",
+    "startMs": 1325.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "Swalot",
+    "startMs": 2225.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "espera",
+    "startMs": 2737.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "devorar",
+    "startMs": 3125.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "el",
+    "startMs": 3562.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "banquete",
+    "startMs": 3675.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "misterioso",
+    "startMs": 4150.0,
+    "durationMs": 725.0
+  }
+]

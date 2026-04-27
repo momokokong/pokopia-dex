@@ -1,0 +1,42 @@
+[
+  {
+    "text": "路標",
+    "startMs": 100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "指引",
+    "startMs": 550.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "方向",
+    "startMs": 850.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "海牛",
+    "startMs": 1675.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "在",
+    "startMs": 2075.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "路邊",
+    "startMs": 2225.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "悠閒",
+    "startMs": 2587.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "散步",
+    "startMs": 2962.5,
+    "durationMs": 525.0
+  }
+]

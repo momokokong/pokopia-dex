@@ -1,0 +1,52 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "cozy",
+    "startMs": 225.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "resting",
+    "startMs": 700.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "spot",
+    "startMs": 1175.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "Meowth",
+    "startMs": 1937.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "sneaks",
+    "startMs": 2400.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "in",
+    "startMs": 2925.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "a",
+    "startMs": 3100.0,
+    "durationMs": 62.5
+  },
+  {
+    "text": "little",
+    "startMs": 3175.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "catnap",
+    "startMs": 3512.5,
+    "durationMs": 637.5
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "text": "El",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "horno",
+    "startMs": 312.5,
+    "durationMs": 250.0
+  },
+  {
+    "text": "brilla",
+    "startMs": 575.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "intensamente",
+    "startMs": 875.0,
+    "durationMs": 812.5
+  },
+  {
+    "text": "Blaziken",
+    "startMs": 2000.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "y",
+    "startMs": 2512.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "Combusken",
+    "startMs": 2587.5,
+    "durationMs": 587.5
+  },
+  {
+    "text": "forjan",
+    "startMs": 3187.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "espíritus",
+    "startMs": 3575.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "fuertes",
+    "startMs": 4162.5,
+    "durationMs": 600.0
+  }
+]

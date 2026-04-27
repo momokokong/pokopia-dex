@@ -1,0 +1,57 @@
+[
+  {
+    "text": "吉利",
+    "startMs": 100.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "蛋",
+    "startMs": 512.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "休息",
+    "startMs": 675.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "區",
+    "startMs": 1050.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "溫馨",
+    "startMs": 1300.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "舒適",
+    "startMs": 1650.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "霸王花",
+    "startMs": 2400.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "和美麗",
+    "startMs": 3012.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "花在",
+    "startMs": 3575.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "這裡",
+    "startMs": 3950.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "放鬆",
+    "startMs": 4262.5,
+    "durationMs": 512.5
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Sitio",
+    "startMs": 100.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "de",
+    "startMs": 550.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "día",
+    "startMs": 650.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "soleado",
+    "startMs": 887.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "con",
+    "startMs": 1337.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "sol",
+    "startMs": 1525.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "brillante",
+    "startMs": 1737.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "Cacnea",
+    "startMs": 2525.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "se",
+    "startMs": 2975.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "estira",
+    "startMs": 3112.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "feliz",
+    "startMs": 3512.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "bajo",
+    "startMs": 3900.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "el",
+    "startMs": 4125.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "calor",
+    "startMs": 4212.5,
+    "durationMs": 437.5
+  }
+]

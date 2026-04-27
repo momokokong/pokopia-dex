@@ -1,0 +1,77 @@
+[
+  {
+    "text": "Una",
+    "startMs": 100.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "parada",
+    "startMs": 337.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "de",
+    "startMs": 700.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "descanso",
+    "startMs": 812.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "para",
+    "startMs": 1362.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "ciclistas",
+    "startMs": 1562.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "y",
+    "startMs": 2175.0,
+    "durationMs": 62.5
+  },
+  {
+    "text": "recargar",
+    "startMs": 2250.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "Beldum",
+    "startMs": 3100.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "toma",
+    "startMs": 3550.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "un",
+    "startMs": 3837.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "descanso",
+    "startMs": 3975.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "antes",
+    "startMs": 4525.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "de",
+    "startMs": 4850.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "continuar",
+    "startMs": 4950.0,
+    "durationMs": 587.5
+  }
+]

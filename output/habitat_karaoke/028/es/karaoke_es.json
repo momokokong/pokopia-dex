@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Área",
+    "startMs": 100.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "de",
+    "startMs": 400.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "equipaje",
+    "startMs": 512.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "ocupada",
+    "startMs": 987.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "donde",
+    "startMs": 1425.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "Gurdurr",
+    "startMs": 1687.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "ayuda",
+    "startMs": 2050.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "a",
+    "startMs": 2412.5,
+    "durationMs": 50.0
+  },
+  {
+    "text": "cargar",
+    "startMs": 2475.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "cosas",
+    "startMs": 2912.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "pesadas",
+    "startMs": 3300.0,
+    "durationMs": 650.0
+  }
+]

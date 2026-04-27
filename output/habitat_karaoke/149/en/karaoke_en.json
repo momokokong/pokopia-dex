@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "cycling",
+    "startMs": 212.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "rest",
+    "startMs": 825.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "stop",
+    "startMs": 1187.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "to",
+    "startMs": 1587.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "recharge",
+    "startMs": 1762.5,
+    "durationMs": 687.5
+  },
+  {
+    "text": "Beldum",
+    "startMs": 2762.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "takes",
+    "startMs": 3275.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "a",
+    "startMs": 3587.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "roadside",
+    "startMs": 3662.5,
+    "durationMs": 675.0
+  },
+  {
+    "text": "break",
+    "startMs": 4350.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "before",
+    "startMs": 4725.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "heading",
+    "startMs": 5150.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "out",
+    "startMs": 5512.5,
+    "durationMs": 325.0
+  }
+]

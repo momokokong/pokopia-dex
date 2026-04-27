@@ -1,0 +1,62 @@
+[
+  {
+    "text": "垃圾",
+    "startMs": 100.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "處理",
+    "startMs": 500.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "場",
+    "startMs": 850.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "暗藏",
+    "startMs": 1062.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "玄機",
+    "startMs": 1425.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "叉",
+    "startMs": 2262.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "字",
+    "startMs": 2487.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "蝠",
+    "startMs": 2650.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "在",
+    "startMs": 2862.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "夜間",
+    "startMs": 3000.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "悄悄",
+    "startMs": 3387.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "巡邏",
+    "startMs": 3762.5,
+    "durationMs": 537.5
+  }
+]

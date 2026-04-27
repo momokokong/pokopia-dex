@@ -1,0 +1,77 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "home",
+    "startMs": 212.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "theater",
+    "startMs": 562.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "with",
+    "startMs": 1075.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "a",
+    "startMs": 1262.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "big",
+    "startMs": 1350.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "screen",
+    "startMs": 1650.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "Mismagius",
+    "startMs": 2437.5,
+    "durationMs": 775.0
+  },
+  {
+    "text": "snuggles",
+    "startMs": 3225.0,
+    "durationMs": 625.0
+  },
+  {
+    "text": "on",
+    "startMs": 3862.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "the",
+    "startMs": 4012.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "couch",
+    "startMs": 4112.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "for",
+    "startMs": 4537.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "movie",
+    "startMs": 4737.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "night",
+    "startMs": 5100.0,
+    "durationMs": 425.0
+  }
+]

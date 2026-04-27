@@ -1,0 +1,82 @@
+[
+  {
+    "text": "超",
+    "startMs": 100.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "大",
+    "startMs": 350.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "垃圾場",
+    "startMs": 537.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "堆滿",
+    "startMs": 1150.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "廢料",
+    "startMs": 1475.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "小",
+    "startMs": 2250.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "鍛匠",
+    "startMs": 2487.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "和",
+    "startMs": 2900.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "巨",
+    "startMs": 3112.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "鍛匠",
+    "startMs": 3250.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "在",
+    "startMs": 3662.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "廢",
+    "startMs": 3812.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "鐵",
+    "startMs": 4000.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "中",
+    "startMs": 4187.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "尋",
+    "startMs": 4362.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "寶",
+    "startMs": 4562.5,
+    "durationMs": 250.0
+  }
+]

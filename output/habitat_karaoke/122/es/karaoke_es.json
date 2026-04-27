@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Mini",
+    "startMs": 100.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "cocina",
+    "startMs": 450.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "con",
+    "startMs": 900.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "ollas",
+    "startMs": 1112.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "y",
+    "startMs": 1437.5,
+    "durationMs": 50.0
+  },
+  {
+    "text": "sartenes",
+    "startMs": 1500.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "volando",
+    "startMs": 2037.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "Magmortar",
+    "startMs": 2812.5,
+    "durationMs": 562.5
+  },
+  {
+    "text": "demuestra",
+    "startMs": 3387.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "sus",
+    "startMs": 3875.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "habilidades",
+    "startMs": 4087.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "culinarias",
+    "startMs": 4700.0,
+    "durationMs": 800.0
+  }
+]

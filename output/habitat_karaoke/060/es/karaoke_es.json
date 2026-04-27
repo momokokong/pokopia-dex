@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Costa",
+    "startMs": 100.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "tropical",
+    "startMs": 425.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "con",
+    "startMs": 937.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "cielo",
+    "startMs": 1125.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "azul",
+    "startMs": 1412.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "y",
+    "startMs": 1700.0,
+    "durationMs": 37.5
+  },
+  {
+    "text": "mar",
+    "startMs": 1750.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "Lapras",
+    "startMs": 2337.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "nada",
+    "startMs": 2712.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "libre",
+    "startMs": 3000.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "y",
+    "startMs": 3350.0,
+    "durationMs": 50.0
+  },
+  {
+    "text": "feliz",
+    "startMs": 3412.5,
+    "durationMs": 550.0
+  }
+]

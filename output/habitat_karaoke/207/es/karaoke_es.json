@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Un",
+    "startMs": 100.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "sándwich",
+    "startMs": 287.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "de",
+    "startMs": 775.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "verduras",
+    "startMs": 875.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "fresco",
+    "startMs": 1350.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "y",
+    "startMs": 1725.0,
+    "durationMs": 37.5
+  },
+  {
+    "text": "saludable",
+    "startMs": 1775.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "Leafeon",
+    "startMs": 2675.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "mastica",
+    "startMs": 3075.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "un",
+    "startMs": 3562.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "sándwich",
+    "startMs": 3712.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "vegetal",
+    "startMs": 4187.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "felizmente",
+    "startMs": 4675.0,
+    "durationMs": 737.5
+  }
+]

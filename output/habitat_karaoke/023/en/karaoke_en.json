@@ -1,0 +1,67 @@
+[
+  {
+    "text": "An",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "illuminated",
+    "startMs": 262.5,
+    "durationMs": 750.0
+  },
+  {
+    "text": "bench",
+    "startMs": 1025.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "with",
+    "startMs": 1437.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "soft",
+    "startMs": 1650.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "light",
+    "startMs": 2075.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "Venomoth",
+    "startMs": 2700.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "rests",
+    "startMs": 3350.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "quietly",
+    "startMs": 3800.0,
+    "durationMs": 725.0
+  },
+  {
+    "text": "in",
+    "startMs": 4537.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "the",
+    "startMs": 4700.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "warm",
+    "startMs": 4825.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "glow",
+    "startMs": 5187.5,
+    "durationMs": 462.5
+  }
+]

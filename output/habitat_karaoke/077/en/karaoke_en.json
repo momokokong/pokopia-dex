@@ -1,0 +1,62 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "knitting",
+    "startMs": 200.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "station",
+    "startMs": 625.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "with",
+    "startMs": 1175.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "yarn",
+    "startMs": 1375.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "rolling",
+    "startMs": 1812.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "Mareep",
+    "startMs": 2537.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "and",
+    "startMs": 3000.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "Flaaffy",
+    "startMs": 3175.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "knit",
+    "startMs": 3700.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "cozy",
+    "startMs": 4012.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "creations",
+    "startMs": 4450.0,
+    "durationMs": 925.0
+  }
+]

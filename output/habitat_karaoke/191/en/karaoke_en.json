@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "malicious",
+    "startMs": 187.5,
+    "durationMs": 625.0
+  },
+  {
+    "text": "knight's",
+    "startMs": 825.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "shrine",
+    "startMs": 1200.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "solemn",
+    "startMs": 1687.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "and",
+    "startMs": 2175.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "dark",
+    "startMs": 2375.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "Ceruledge",
+    "startMs": 3075.0,
+    "durationMs": 625.0
+  },
+  {
+    "text": "guards",
+    "startMs": 3712.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "its",
+    "startMs": 4175.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "oath",
+    "startMs": 4387.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "in",
+    "startMs": 4687.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "the",
+    "startMs": 4837.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "temple",
+    "startMs": 4937.5,
+    "durationMs": 537.5
+  }
+]

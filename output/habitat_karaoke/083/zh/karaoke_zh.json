@@ -1,0 +1,72 @@
+[
+  {
+    "text": "販賣機",
+    "startMs": 100.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "休息",
+    "startMs": 662.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "區",
+    "startMs": 1062.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "是",
+    "startMs": 1437.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "蟲寶",
+    "startMs": 1637.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "可",
+    "startMs": 2087.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "夢的",
+    "startMs": 2212.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "最愛",
+    "startMs": 2512.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "蟲",
+    "startMs": 3312.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "電寶",
+    "startMs": 3550.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "在",
+    "startMs": 3912.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "旁邊",
+    "startMs": 4062.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "休息",
+    "startMs": 4425.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "充電",
+    "startMs": 4787.5,
+    "durationMs": 512.5
+  }
+]

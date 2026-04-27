@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Un",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "escritorio",
+    "startMs": 262.5,
+    "durationMs": 575.0
+  },
+  {
+    "text": "de",
+    "startMs": 850.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "trabajo",
+    "startMs": 975.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "para",
+    "startMs": 1425.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "tareas",
+    "startMs": 1662.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "enfocadas",
+    "startMs": 2087.5,
+    "durationMs": 637.5
+  },
+  {
+    "text": "Porygon2",
+    "startMs": 2987.5,
+    "durationMs": 700.0
+  },
+  {
+    "text": "procesa",
+    "startMs": 3700.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "datos",
+    "startMs": 4137.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "diligentemente",
+    "startMs": 4500.0,
+    "durationMs": 837.5
+  },
+  {
+    "text": "en",
+    "startMs": 5350.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "la",
+    "startMs": 5437.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "computadora",
+    "startMs": 5525.0,
+    "durationMs": 750.0
+  }
+]

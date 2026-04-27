@@ -1,0 +1,67 @@
+[
+  {
+    "text": "樹蔭",
+    "startMs": 100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "下的",
+    "startMs": 562.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "花圃",
+    "startMs": 912.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "涼爽",
+    "startMs": 1312.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "宜人",
+    "startMs": 1700.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "仙人掌",
+    "startMs": 2512.5,
+    "durationMs": 625.0
+  },
+  {
+    "text": "和",
+    "startMs": 3212.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "蟲寶",
+    "startMs": 3412.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "可",
+    "startMs": 3812.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "夢",
+    "startMs": 3962.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "在",
+    "startMs": 4162.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "這",
+    "startMs": 4300.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "歇腳",
+    "startMs": 4437.5,
+    "durationMs": 512.5
+  }
+]

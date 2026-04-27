@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "mossy",
+    "startMs": 200.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "boulder",
+    "startMs": 687.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "ancient",
+    "startMs": 1237.5,
+    "durationMs": 550.0
+  },
+  {
+    "text": "and",
+    "startMs": 1800.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "steady",
+    "startMs": 1987.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "Golem",
+    "startMs": 2750.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "and",
+    "startMs": 3250.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "Graveler",
+    "startMs": 3412.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "bask",
+    "startMs": 3962.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "on",
+    "startMs": 4437.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "the",
+    "startMs": 4575.0,
+    "durationMs": 62.5
+  },
+  {
+    "text": "mossy",
+    "startMs": 4650.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "rock",
+    "startMs": 5112.5,
+    "durationMs": 437.5
+  }
+]

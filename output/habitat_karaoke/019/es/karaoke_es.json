@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Un",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "comedor",
+    "startMs": 262.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "tentador",
+    "startMs": 700.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "con",
+    "startMs": 1212.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "ricos",
+    "startMs": 1412.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "aromas",
+    "startMs": 1787.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "Gulpin",
+    "startMs": 2525.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "espera",
+    "startMs": 2900.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "para",
+    "startMs": 3312.5,
+    "durationMs": 225.0
+  },
+  {
+    "text": "probar",
+    "startMs": 3550.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "el",
+    "startMs": 3912.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "banquete",
+    "startMs": 4025.0,
+    "durationMs": 575.0
+  }
+]

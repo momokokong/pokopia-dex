@@ -1,0 +1,77 @@
+[
+  {
+    "text": "公共",
+    "startMs": 100.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "閱讀",
+    "startMs": 487.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "區",
+    "startMs": 825.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "舒適",
+    "startMs": 1062.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "寬敞",
+    "startMs": 1462.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "君主蛇",
+    "startMs": 2287.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "和",
+    "startMs": 2937.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "魔",
+    "startMs": 3125.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "牆",
+    "startMs": 3312.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "人",
+    "startMs": 3537.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "偶",
+    "startMs": 3675.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "靜",
+    "startMs": 3875.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "靜",
+    "startMs": 4050.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "看",
+    "startMs": 4225.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "書",
+    "startMs": 4412.5,
+    "durationMs": 337.5
+  }
+]

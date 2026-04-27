@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Flower",
+    "startMs": 100.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "garden",
+    "startMs": 650.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "stump",
+    "startMs": 1112.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "stage",
+    "startMs": 1525.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "alive",
+    "startMs": 1975.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "with",
+    "startMs": 2462.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "song",
+    "startMs": 2650.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "Politoed",
+    "startMs": 3337.5,
+    "durationMs": 587.5
+  },
+  {
+    "text": "and",
+    "startMs": 3937.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "Jigglypuff",
+    "startMs": 4212.5,
+    "durationMs": 687.5
+  },
+  {
+    "text": "hold",
+    "startMs": 4912.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "a",
+    "startMs": 5225.0,
+    "durationMs": 62.5
+  },
+  {
+    "text": "concert",
+    "startMs": 5300.0,
+    "durationMs": 687.5
+  }
+]

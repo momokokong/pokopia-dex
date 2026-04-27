@@ -1,0 +1,52 @@
+[
+  {
+    "text": "獨奏",
+    "startMs": 100.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "舞台",
+    "startMs": 425.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "燈光",
+    "startMs": 800.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "閃耀",
+    "startMs": 1137.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "胖",
+    "startMs": 1962.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "可",
+    "startMs": 2187.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "丁和",
+    "startMs": 2325.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "胖",
+    "startMs": 2687.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "丁唱出美妙",
+    "startMs": 2912.5,
+    "durationMs": 900.0
+  },
+  {
+    "text": "旋律",
+    "startMs": 3825.0,
+    "durationMs": 462.5
+  }
+]

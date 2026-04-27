@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Elevated",
+    "startMs": 100.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "flower",
+    "startMs": 762.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "bed",
+    "startMs": 1262.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "with",
+    "startMs": 1600.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "wide",
+    "startMs": 1825.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "views",
+    "startMs": 2212.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "Paras",
+    "startMs": 2950.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "happily",
+    "startMs": 3387.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "forages",
+    "startMs": 3912.5,
+    "durationMs": 650.0
+  },
+  {
+    "text": "among",
+    "startMs": 4575.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "blooms",
+    "startMs": 4975.0,
+    "durationMs": 612.5
+  }
+]

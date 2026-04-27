@@ -1,0 +1,62 @@
+[
+  {
+    "text": "花園",
+    "startMs": 100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "露",
+    "startMs": 500.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "台",
+    "startMs": 687.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "綠意",
+    "startMs": 900.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "盎然",
+    "startMs": 1137.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "妙",
+    "startMs": 1962.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "蛙",
+    "startMs": 2162.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "花在",
+    "startMs": 2312.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "花叢",
+    "startMs": 2650.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "間",
+    "startMs": 3075.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "優雅",
+    "startMs": 3287.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "散步",
+    "startMs": 3637.5,
+    "durationMs": 512.5
+  }
+]

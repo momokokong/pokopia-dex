@@ -1,0 +1,57 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "factory",
+    "startMs": 225.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "storage",
+    "startMs": 825.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "buzzing",
+    "startMs": 1387.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "with",
+    "startMs": 1837.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "machines",
+    "startMs": 2025.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "Magnemite",
+    "startMs": 2962.5,
+    "durationMs": 675.0
+  },
+  {
+    "text": "explores",
+    "startMs": 3650.0,
+    "durationMs": 662.5
+  },
+  {
+    "text": "among",
+    "startMs": 4325.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "the",
+    "startMs": 4675.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "parts",
+    "startMs": 4787.5,
+    "durationMs": 600.0
+  }
+]

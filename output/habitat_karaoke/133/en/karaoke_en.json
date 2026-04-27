@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Chef's",
+    "startMs": 100.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "kitchen",
+    "startMs": 600.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "smells",
+    "startMs": 1075.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "delicious",
+    "startMs": 1550.0,
+    "durationMs": 712.5
+  },
+  {
+    "text": "Greedent",
+    "startMs": 2550.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "shows",
+    "startMs": 3150.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "off",
+    "startMs": 3537.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "its",
+    "startMs": 3787.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "cooking",
+    "startMs": 3975.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "skills",
+    "startMs": 4400.0,
+    "durationMs": 625.0
+  }
+]

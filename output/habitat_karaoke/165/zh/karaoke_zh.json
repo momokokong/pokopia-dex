@@ -1,0 +1,67 @@
+[
+  {
+    "text": "遊樂園",
+    "startMs": 100.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "裡",
+    "startMs": 625.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "歡笑",
+    "startMs": 850.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "不斷",
+    "startMs": 1237.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "藤",
+    "startMs": 1975.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "藤",
+    "startMs": 2137.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "蛇",
+    "startMs": 2325.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "在",
+    "startMs": 2537.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "遊樂",
+    "startMs": 2700.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "設施",
+    "startMs": 3025.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "間",
+    "startMs": 3362.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "跑來",
+    "startMs": 3587.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "跑去",
+    "startMs": 3912.5,
+    "durationMs": 525.0
+  }
+]

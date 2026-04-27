@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Hierba",
+    "startMs": 100.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "alta",
+    "startMs": 525.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "roja",
+    "startMs": 775.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "bajo",
+    "startMs": 1100.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "los",
+    "startMs": 1362.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "árboles",
+    "startMs": 1562.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "fresca",
+    "startMs": 1987.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "y",
+    "startMs": 2387.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "agradable",
+    "startMs": 2487.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "Diglett",
+    "startMs": 3300.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "y",
+    "startMs": 3712.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "Bonsly",
+    "startMs": 3787.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "descansan",
+    "startMs": 4287.5,
+    "durationMs": 625.0
+  },
+  {
+    "text": "a",
+    "startMs": 4925.0,
+    "durationMs": 37.5
+  },
+  {
+    "text": "la",
+    "startMs": 4975.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "sombra",
+    "startMs": 5087.5,
+    "durationMs": 462.5
+  }
+]

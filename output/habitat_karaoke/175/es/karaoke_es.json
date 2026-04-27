@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Un",
+    "startMs": 100.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "parque",
+    "startMs": 287.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "de",
+    "startMs": 612.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "llantas",
+    "startMs": 725.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "con",
+    "startMs": 1175.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "montones",
+    "startMs": 1337.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "de",
+    "startMs": 1862.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "ruedas",
+    "startMs": 1950.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "Dedenne",
+    "startMs": 2650.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "salta",
+    "startMs": 3050.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "alegremente",
+    "startMs": 3462.5,
+    "durationMs": 687.5
+  },
+  {
+    "text": "sobre",
+    "startMs": 4162.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "el",
+    "startMs": 4462.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "caucho",
+    "startMs": 4575.0,
+    "durationMs": 475.0
+  }
+]

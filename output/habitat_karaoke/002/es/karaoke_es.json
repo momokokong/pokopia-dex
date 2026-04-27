@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Hierba",
+    "startMs": 100.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "alta",
+    "startMs": 525.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "fresca",
+    "startMs": 775.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "bajo",
+    "startMs": 1150.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "los",
+    "startMs": 1400.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "árboles",
+    "startMs": 1600.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "donde",
+    "startMs": 2037.5,
+    "durationMs": 212.5
+  },
+  {
+    "text": "los",
+    "startMs": 2262.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "Pokémon",
+    "startMs": 2437.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "bicho",
+    "startMs": 2900.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "adoran",
+    "startMs": 3212.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "relajarse",
+    "startMs": 3575.0,
+    "durationMs": 650.0
+  }
+]

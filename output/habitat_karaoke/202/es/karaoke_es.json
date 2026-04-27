@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Una",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "bebida",
+    "startMs": 312.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "azul",
+    "startMs": 675.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "infinita",
+    "startMs": 937.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "fresca",
+    "startMs": 1450.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "y",
+    "startMs": 1812.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "refrescante",
+    "startMs": 1887.5,
+    "durationMs": 712.5
+  },
+  {
+    "text": "Vaporeon",
+    "startMs": 2925.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "bebe",
+    "startMs": 3437.5,
+    "durationMs": 250.0
+  },
+  {
+    "text": "felizmente",
+    "startMs": 3700.0,
+    "durationMs": 662.5
+  },
+  {
+    "text": "una",
+    "startMs": 4375.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "bebida",
+    "startMs": 4575.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "azul",
+    "startMs": 4962.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "helada",
+    "startMs": 5275.0,
+    "durationMs": 437.5
+  }
+]

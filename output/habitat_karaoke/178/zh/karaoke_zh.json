@@ -1,0 +1,67 @@
+[
+  {
+    "text": "道場",
+    "startMs": 100.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "訓練",
+    "startMs": 512.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "汗流浹背",
+    "startMs": 887.5,
+    "durationMs": 875.0
+  },
+  {
+    "text": "艾",
+    "startMs": 2075.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "路",
+    "startMs": 2237.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "雷朵",
+    "startMs": 2375.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "和",
+    "startMs": 2850.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "蚊香",
+    "startMs": 3037.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "泳",
+    "startMs": 3462.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "士",
+    "startMs": 3662.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "一起",
+    "startMs": 3787.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "鍛鍊",
+    "startMs": 4100.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "武藝",
+    "startMs": 4437.5,
+    "durationMs": 487.5
+  }
+]

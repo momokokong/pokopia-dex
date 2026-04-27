@@ -1,0 +1,62 @@
+[
+  {
+    "text": "咖啡廳",
+    "startMs": 100.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "空間",
+    "startMs": 700.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "溫馨",
+    "startMs": 1087.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "悠閒",
+    "startMs": 1462.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "帕",
+    "startMs": 2250.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "底",
+    "startMs": 2487.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "亞",
+    "startMs": 2650.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "三",
+    "startMs": 2800.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "兄妹",
+    "startMs": 3000.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "一起",
+    "startMs": 3425.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "享受",
+    "startMs": 3725.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "下午茶",
+    "startMs": 4112.5,
+    "durationMs": 750.0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "tire",
+    "startMs": 225.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "park",
+    "startMs": 687.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "with",
+    "startMs": 1037.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "piles",
+    "startMs": 1237.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "of",
+    "startMs": 1725.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "tires",
+    "startMs": 1875.0,
+    "durationMs": 600.0
+  },
+  {
+    "text": "Dedenne",
+    "startMs": 2750.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "bounces",
+    "startMs": 3212.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "joyfully",
+    "startMs": 3762.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "on",
+    "startMs": 4375.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "the",
+    "startMs": 4550.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "rubber",
+    "startMs": 4650.0,
+    "durationMs": 450.0
+  }
+]

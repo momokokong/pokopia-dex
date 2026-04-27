@@ -1,0 +1,77 @@
+[
+  {
+    "text": "祥",
+    "startMs": 100.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "瑞",
+    "startMs": 350.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "騎士",
+    "startMs": 500.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "神殿",
+    "startMs": 900.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "光芒",
+    "startMs": 1337.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "四射",
+    "startMs": 1687.5,
+    "durationMs": 562.5
+  },
+  {
+    "text": "紅",
+    "startMs": 2537.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "鎧",
+    "startMs": 2750.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "甲",
+    "startMs": 2950.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "在",
+    "startMs": 3125.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "神聖",
+    "startMs": 3262.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "光芒",
+    "startMs": 3725.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "中",
+    "startMs": 4087.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "守護",
+    "startMs": 4300.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "和平",
+    "startMs": 4675.0,
+    "durationMs": 450.0
+  }
+]

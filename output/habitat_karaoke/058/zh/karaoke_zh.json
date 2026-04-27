@@ -1,0 +1,57 @@
+[
+  {
+    "text": "風",
+    "startMs": 100.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "中的",
+    "startMs": 325.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "花圃",
+    "startMs": 650.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "花瓣",
+    "startMs": 1037.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "飛舞",
+    "startMs": 1425.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "鵜鶘",
+    "startMs": 2212.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "乘",
+    "startMs": 2562.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "著",
+    "startMs": 2762.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "微風",
+    "startMs": 2900.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "翱翔",
+    "startMs": 3287.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "天際",
+    "startMs": 3687.5,
+    "durationMs": 487.5
+  }
+]

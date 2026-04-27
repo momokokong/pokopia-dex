@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Chirping",
+    "startMs": 100.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "recital",
+    "startMs": 587.5,
+    "durationMs": 562.5
+  },
+  {
+    "text": "with",
+    "startMs": 1162.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "lovely",
+    "startMs": 1362.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "songs",
+    "startMs": 1875.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "Chatot",
+    "startMs": 2675.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "and",
+    "startMs": 3300.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "Honchkrow",
+    "startMs": 3425.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "sing",
+    "startMs": 4087.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "their",
+    "startMs": 4462.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "hearts",
+    "startMs": 4650.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "out",
+    "startMs": 5037.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "on",
+    "startMs": 5287.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "stage",
+    "startMs": 5487.5,
+    "durationMs": 575.0
+  }
+]

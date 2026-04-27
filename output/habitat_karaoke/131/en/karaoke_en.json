@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "bronze",
+    "startMs": 225.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "landmark",
+    "startMs": 725.0,
+    "durationMs": 625.0
+  },
+  {
+    "text": "stately",
+    "startMs": 1362.5,
+    "durationMs": 562.5
+  },
+  {
+    "text": "and",
+    "startMs": 1937.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "grand",
+    "startMs": 2125.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "Clefable",
+    "startMs": 2937.5,
+    "durationMs": 700.0
+  },
+  {
+    "text": "and",
+    "startMs": 3737.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "Clefairy",
+    "startMs": 3875.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "make",
+    "startMs": 4462.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "wishes",
+    "startMs": 4750.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "by",
+    "startMs": 5250.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "the",
+    "startMs": 5450.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "statue",
+    "startMs": 5575.0,
+    "durationMs": 662.5
+  }
+]

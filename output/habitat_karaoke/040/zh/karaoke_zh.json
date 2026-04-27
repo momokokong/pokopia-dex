@@ -1,0 +1,57 @@
+[
+  {
+    "text": "漿",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "果",
+    "startMs": 350.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "盛宴",
+    "startMs": 512.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "營",
+    "startMs": 862.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "地",
+    "startMs": 1050.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "香氣",
+    "startMs": 1187.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "撲鼻",
+    "startMs": 1575.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "噴火",
+    "startMs": 2387.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "龍大口",
+    "startMs": 2762.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "享用",
+    "startMs": 3287.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "美味",
+    "startMs": 3625.0,
+    "durationMs": 475.0
+  }
+]

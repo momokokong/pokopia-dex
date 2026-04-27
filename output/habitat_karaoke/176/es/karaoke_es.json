@@ -1,0 +1,87 @@
+[
+  {
+    "text": "El",
+    "startMs": 100.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "mercado",
+    "startMs": 287.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "de",
+    "startMs": 725.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "la",
+    "startMs": 850.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "naturaleza",
+    "startMs": 937.5,
+    "durationMs": 612.5
+  },
+  {
+    "text": "bullicioso",
+    "startMs": 1562.5,
+    "durationMs": 587.5
+  },
+  {
+    "text": "y",
+    "startMs": 2162.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "cálido",
+    "startMs": 2237.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "Raichu",
+    "startMs": 3000.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "escoge",
+    "startMs": 3325.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "frutas",
+    "startMs": 3750.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "y",
+    "startMs": 4212.5,
+    "durationMs": 50.0
+  },
+  {
+    "text": "verduras",
+    "startMs": 4275.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "frescas",
+    "startMs": 4787.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "en",
+    "startMs": 5275.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "los",
+    "startMs": 5362.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "puestos",
+    "startMs": 5537.5,
+    "durationMs": 562.5
+  }
+]

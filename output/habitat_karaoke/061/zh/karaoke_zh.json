@@ -1,0 +1,52 @@
+[
+  {
+    "text": "休息",
+    "startMs": 100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "角落",
+    "startMs": 537.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "安靜",
+    "startMs": 875.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "舒適",
+    "startMs": 1237.5,
+    "durationMs": 550.0
+  },
+  {
+    "text": "喵",
+    "startMs": 2062.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "喵",
+    "startMs": 2250.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "在",
+    "startMs": 2425.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "這裡",
+    "startMs": 2587.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "偷閒",
+    "startMs": 2912.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "小憩",
+    "startMs": 3287.5,
+    "durationMs": 550.0
+  }
+]

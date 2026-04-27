@@ -1,0 +1,77 @@
+[
+  {
+    "text": "Un",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "espacio",
+    "startMs": 262.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "lleno",
+    "startMs": 737.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "de",
+    "startMs": 1025.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "bayas",
+    "startMs": 1125.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "rebosante",
+    "startMs": 1475.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "de",
+    "startMs": 2000.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "frutas",
+    "startMs": 2112.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "Goodra",
+    "startMs": 2837.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "está",
+    "startMs": 3187.5,
+    "durationMs": 250.0
+  },
+  {
+    "text": "en",
+    "startMs": 3450.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "el",
+    "startMs": 3550.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "paraíso",
+    "startMs": 3687.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "de",
+    "startMs": 4200.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "bayas",
+    "startMs": 4300.0,
+    "durationMs": 525.0
+  }
+]

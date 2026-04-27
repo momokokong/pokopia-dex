@@ -1,0 +1,57 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "gamer's",
+    "startMs": 237.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "paradise",
+    "startMs": 775.0,
+    "durationMs": 687.5
+  },
+  {
+    "text": "with",
+    "startMs": 1475.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "endless",
+    "startMs": 1700.0,
+    "durationMs": 475.0
+  },
+  {
+    "text": "games",
+    "startMs": 2187.5,
+    "durationMs": 500.0
+  },
+  {
+    "text": "Metagross",
+    "startMs": 3000.0,
+    "durationMs": 700.0
+  },
+  {
+    "text": "dominates",
+    "startMs": 3712.5,
+    "durationMs": 625.0
+  },
+  {
+    "text": "the",
+    "startMs": 4350.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "gaming",
+    "startMs": 4487.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "world",
+    "startMs": 4937.5,
+    "durationMs": 537.5
+  }
+]

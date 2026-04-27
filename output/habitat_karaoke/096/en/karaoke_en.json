@@ -1,0 +1,62 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "welcoming",
+    "startMs": 225.0,
+    "durationMs": 600.0
+  },
+  {
+    "text": "resort",
+    "startMs": 837.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "for",
+    "startMs": 1337.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "every",
+    "startMs": 1625.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "traveler",
+    "startMs": 1950.0,
+    "durationMs": 625.0
+  },
+  {
+    "text": "Absol",
+    "startMs": 2862.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "quietly",
+    "startMs": 3412.5,
+    "durationMs": 575.0
+  },
+  {
+    "text": "watches",
+    "startMs": 4000.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "over",
+    "startMs": 4575.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "everyone's",
+    "startMs": 4925.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "safety",
+    "startMs": 5512.5,
+    "durationMs": 562.5
+  }
+]

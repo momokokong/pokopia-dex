@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "picturesque",
+    "startMs": 212.5,
+    "durationMs": 762.5
+  },
+  {
+    "text": "photo",
+    "startMs": 987.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "cutout",
+    "startMs": 1362.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "board",
+    "startMs": 1837.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "for",
+    "startMs": 2200.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "silly",
+    "startMs": 2400.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "poses",
+    "startMs": 2775.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "Plusle",
+    "startMs": 3700.0,
+    "durationMs": 600.0
+  },
+  {
+    "text": "and",
+    "startMs": 4312.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "Minun",
+    "startMs": 4475.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "strike",
+    "startMs": 4862.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "a",
+    "startMs": 5237.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "pose",
+    "startMs": 5325.0,
+    "durationMs": 525.0
+  }
+]

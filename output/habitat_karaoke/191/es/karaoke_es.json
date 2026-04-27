@@ -1,0 +1,77 @@
+[
+  {
+    "text": "Un",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "santuario",
+    "startMs": 262.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "de",
+    "startMs": 787.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "caballero",
+    "startMs": 900.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "malévolo",
+    "startMs": 1400.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "solemne",
+    "startMs": 1875.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "y",
+    "startMs": 2325.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "oscuro",
+    "startMs": 2412.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "Ceruledge",
+    "startMs": 3125.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "guarda",
+    "startMs": 3700.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "su",
+    "startMs": 4062.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "juramento",
+    "startMs": 4225.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "en",
+    "startMs": 4787.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "el",
+    "startMs": 4875.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "templo",
+    "startMs": 5012.5,
+    "durationMs": 437.5
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Hielo",
+    "startMs": 100.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "raspado",
+    "startMs": 412.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "helado",
+    "startMs": 875.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "para",
+    "startMs": 1212.5,
+    "durationMs": 200.0
+  },
+  {
+    "text": "vencer",
+    "startMs": 1425.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "el",
+    "startMs": 1812.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "calor",
+    "startMs": 1912.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "Glaceon",
+    "startMs": 2587.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "devora",
+    "startMs": 3025.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "helados",
+    "startMs": 3400.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "en",
+    "startMs": 3837.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "un",
+    "startMs": 4000.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "día",
+    "startMs": 4150.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "caluroso",
+    "startMs": 4400.0,
+    "durationMs": 625.0
+  }
+]

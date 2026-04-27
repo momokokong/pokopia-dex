@@ -1,0 +1,67 @@
+[
+  {
+    "text": "啾啾",
+    "startMs": 100.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "演唱會",
+    "startMs": 487.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "歌聲",
+    "startMs": 1087.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "繚繞",
+    "startMs": 1412.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "聒噪",
+    "startMs": 2200.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "鳥",
+    "startMs": 2525.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "和",
+    "startMs": 2737.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "烏鴉",
+    "startMs": 2912.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "頭頭",
+    "startMs": 3237.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "在",
+    "startMs": 3650.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "台上",
+    "startMs": 3787.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "高",
+    "startMs": 4200.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "歌",
+    "startMs": 4425.0,
+    "durationMs": 262.5
+  }
+]

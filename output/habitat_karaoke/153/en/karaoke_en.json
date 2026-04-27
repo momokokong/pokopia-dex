@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Trash",
+    "startMs": 100.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "site",
+    "startMs": 562.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "TV",
+    "startMs": 900.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "playing",
+    "startMs": 1350.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "shows",
+    "startMs": 1775.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "Dusclops",
+    "startMs": 2537.5,
+    "durationMs": 712.5
+  },
+  {
+    "text": "and",
+    "startMs": 3362.5,
+    "durationMs": 212.5
+  },
+  {
+    "text": "Dusknoir",
+    "startMs": 3587.5,
+    "durationMs": 737.5
+  },
+  {
+    "text": "watch",
+    "startMs": 4337.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "late-night",
+    "startMs": 4687.5,
+    "durationMs": 625.0
+  },
+  {
+    "text": "TV",
+    "startMs": 5325.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "together",
+    "startMs": 5800.0,
+    "durationMs": 587.5
+  }
+]

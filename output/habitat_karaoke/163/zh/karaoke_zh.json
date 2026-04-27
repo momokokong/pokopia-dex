@@ -1,0 +1,77 @@
+[
+  {
+    "text": "迷你",
+    "startMs": 100.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "圖書館",
+    "startMs": 475.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "書香",
+    "startMs": 1037.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "四",
+    "startMs": 1412.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "溢",
+    "startMs": 1625.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "沙",
+    "startMs": 2200.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "奈",
+    "startMs": 2425.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "朵",
+    "startMs": 2612.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "在",
+    "startMs": 2762.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "書",
+    "startMs": 2912.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "堆",
+    "startMs": 3162.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "中",
+    "startMs": 3312.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "靜",
+    "startMs": 3550.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "靜",
+    "startMs": 3750.0,
+    "durationMs": 62.5
+  },
+  {
+    "text": "閱讀",
+    "startMs": 3900.0,
+    "durationMs": 500.0
+  }
+]

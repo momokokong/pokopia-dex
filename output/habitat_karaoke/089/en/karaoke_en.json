@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Spooky",
+    "startMs": 100.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "study",
+    "startMs": 662.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "with",
+    "startMs": 1150.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "flickering",
+    "startMs": 1350.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "candles",
+    "startMs": 1937.5,
+    "durationMs": 675.0
+  },
+  {
+    "text": "Gastly",
+    "startMs": 2862.5,
+    "durationMs": 575.0
+  },
+  {
+    "text": "and",
+    "startMs": 3450.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "Haunter",
+    "startMs": 3637.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "read",
+    "startMs": 4175.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "in",
+    "startMs": 4462.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "the",
+    "startMs": 4612.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "dark",
+    "startMs": 4737.5,
+    "durationMs": 475.0
+  }
+]

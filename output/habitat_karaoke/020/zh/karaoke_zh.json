@@ -1,0 +1,62 @@
+[
+  {
+    "text": "野餐",
+    "startMs": 100.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "墊上",
+    "startMs": 487.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "擺",
+    "startMs": 887.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "滿",
+    "startMs": 1075.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "點心",
+    "startMs": 1275.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "皮",
+    "startMs": 2087.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "卡丘",
+    "startMs": 2250.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "和",
+    "startMs": 2650.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "皮",
+    "startMs": 2825.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "丘",
+    "startMs": 2987.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "開心",
+    "startMs": 3200.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "享用",
+    "startMs": 3550.0,
+    "durationMs": 500.0
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "text": "主",
+    "startMs": 100.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "廚",
+    "startMs": 325.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "廚房",
+    "startMs": 550.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "香味",
+    "startMs": 937.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "四",
+    "startMs": 1300.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "溢",
+    "startMs": 1537.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "貪心",
+    "startMs": 2162.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "栗鼠",
+    "startMs": 2512.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "大",
+    "startMs": 2887.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "顯",
+    "startMs": 3050.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "廚藝",
+    "startMs": 3250.0,
+    "durationMs": 500.0
+  }
+]

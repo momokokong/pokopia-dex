@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Una",
+    "startMs": 100.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "señal",
+    "startMs": 325.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "de",
+    "startMs": 712.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "camino",
+    "startMs": 812.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "que",
+    "startMs": 1250.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "indica",
+    "startMs": 1375.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "la",
+    "startMs": 1800.0,
+    "durationMs": 62.5
+  },
+  {
+    "text": "dirección",
+    "startMs": 1875.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "Shellos",
+    "startMs": 2737.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "pasea",
+    "startMs": 3137.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "tranquilamente",
+    "startMs": 3512.5,
+    "durationMs": 825.0
+  },
+  {
+    "text": "por",
+    "startMs": 4350.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "el",
+    "startMs": 4537.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "sendero",
+    "startMs": 4637.5,
+    "durationMs": 525.0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "text": "運動",
+    "startMs": 100.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "休息",
+    "startMs": 462.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "區",
+    "startMs": 825.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "讓",
+    "startMs": 1112.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "寶",
+    "startMs": 1262.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "可夢",
+    "startMs": 1475.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "喘",
+    "startMs": 1812.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "口氣",
+    "startMs": 2025.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "快",
+    "startMs": 2900.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "拳郎",
+    "startMs": 3050.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "在",
+    "startMs": 3462.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "這裡",
+    "startMs": 3625.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "歇腳",
+    "startMs": 3937.5,
+    "durationMs": 512.5
+  }
+]

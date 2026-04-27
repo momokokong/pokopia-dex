@@ -1,0 +1,52 @@
+[
+  {
+    "text": "頂級",
+    "startMs": 100.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "汽水",
+    "startMs": 412.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "暢快",
+    "startMs": 812.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "消暑",
+    "startMs": 1200.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "火暴",
+    "startMs": 2012.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "獸",
+    "startMs": 2362.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "大口",
+    "startMs": 2525.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "灌下",
+    "startMs": 2900.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "冰涼",
+    "startMs": 3337.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "汽水",
+    "startMs": 3662.5,
+    "durationMs": 500.0
+  }
+]

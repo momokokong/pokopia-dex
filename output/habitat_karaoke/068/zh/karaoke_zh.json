@@ -1,0 +1,67 @@
+[
+  {
+    "text": "餐桌",
+    "startMs": 100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "旁的",
+    "startMs": 525.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "送",
+    "startMs": 862.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "餐車",
+    "startMs": 1100.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "來回",
+    "startMs": 1525.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "穿梭",
+    "startMs": 1850.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "帝王",
+    "startMs": 2737.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "拿",
+    "startMs": 3037.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "波",
+    "startMs": 3250.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "優雅",
+    "startMs": 3387.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "地",
+    "startMs": 3725.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "端上",
+    "startMs": 3862.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "美食",
+    "startMs": 4200.0,
+    "durationMs": 600.0
+  }
+]

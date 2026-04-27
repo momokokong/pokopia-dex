@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Una",
+    "startMs": 100.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "terraza",
+    "startMs": 337.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "de",
+    "startMs": 775.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "jardín",
+    "startMs": 900.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "verde",
+    "startMs": 1312.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "y",
+    "startMs": 1662.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "exuberante",
+    "startMs": 1762.5,
+    "durationMs": 700.0
+  },
+  {
+    "text": "Venusaur",
+    "startMs": 2775.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "pasea",
+    "startMs": 3300.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "elegantemente",
+    "startMs": 3737.5,
+    "durationMs": 787.5
+  },
+  {
+    "text": "entre",
+    "startMs": 4537.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "las",
+    "startMs": 4825.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "flores",
+    "startMs": 4975.0,
+    "durationMs": 525.0
+  }
+]

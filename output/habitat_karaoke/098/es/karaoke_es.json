@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Hierba",
+    "startMs": 100.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "alta",
+    "startMs": 525.0,
+    "durationMs": 237.5
+  },
+  {
+    "text": "roja",
+    "startMs": 775.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "vibrante",
+    "startMs": 1100.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "y",
+    "startMs": 1575.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "enérgica",
+    "startMs": 1687.5,
+    "durationMs": 587.5
+  },
+  {
+    "text": "Cinderace",
+    "startMs": 2525.0,
+    "durationMs": 600.0
+  },
+  {
+    "text": "y",
+    "startMs": 3137.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "Riolu",
+    "startMs": 3262.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "corren",
+    "startMs": 3637.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "por",
+    "startMs": 4037.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "la",
+    "startMs": 4237.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "hierba",
+    "startMs": 4337.5,
+    "durationMs": 437.5
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Fresh",
+    "startMs": 100.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "veggie",
+    "startMs": 550.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "field",
+    "startMs": 962.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "full",
+    "startMs": 1350.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "of",
+    "startMs": 1637.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "green",
+    "startMs": 1812.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "Drilbur",
+    "startMs": 2512.5,
+    "durationMs": 612.5
+  },
+  {
+    "text": "and",
+    "startMs": 3237.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "Rowlet",
+    "startMs": 3412.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "happily",
+    "startMs": 3875.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "harvest",
+    "startMs": 4412.5,
+    "durationMs": 725.0
+  }
+]

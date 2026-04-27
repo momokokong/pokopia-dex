@@ -1,0 +1,62 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "road",
+    "startMs": 225.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "sign",
+    "startMs": 587.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "pointing",
+    "startMs": 987.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "the",
+    "startMs": 1450.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "way",
+    "startMs": 1575.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "Shellos",
+    "startMs": 2137.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "strolls",
+    "startMs": 2675.0,
+    "durationMs": 537.5
+  },
+  {
+    "text": "leisurely",
+    "startMs": 3225.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "along",
+    "startMs": 3825.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "the",
+    "startMs": 4212.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "path",
+    "startMs": 4325.0,
+    "durationMs": 475.0
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "text": "啾啾",
+    "startMs": 100.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "餐",
+    "startMs": 450.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "香噴噴",
+    "startMs": 650.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "火焰",
+    "startMs": 1562.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "雞",
+    "startMs": 1962.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "和",
+    "startMs": 2150.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "小",
+    "startMs": 2325.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "火雞",
+    "startMs": 2537.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "大口",
+    "startMs": 2887.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "享用",
+    "startMs": 3275.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "美味",
+    "startMs": 3625.0,
+    "durationMs": 475.0
+  }
+]

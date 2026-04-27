@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Un",
+    "startMs": 100.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "jardín",
+    "startMs": 262.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "de",
+    "startMs": 650.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "flores",
+    "startMs": 762.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "en",
+    "startMs": 1175.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "plena",
+    "startMs": 1325.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "floración",
+    "startMs": 1625.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "Paras",
+    "startMs": 2462.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "pasea",
+    "startMs": 2787.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "tranquilamente",
+    "startMs": 3175.0,
+    "durationMs": 825.0
+  },
+  {
+    "text": "bajo",
+    "startMs": 4012.5,
+    "durationMs": 237.5
+  },
+  {
+    "text": "las",
+    "startMs": 4262.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "flores",
+    "startMs": 4412.5,
+    "durationMs": 525.0
+  }
+]

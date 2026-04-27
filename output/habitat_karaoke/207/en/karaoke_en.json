@@ -1,0 +1,67 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "leafy",
+    "startMs": 225.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "greens",
+    "startMs": 650.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "sandwich",
+    "startMs": 1125.0,
+    "durationMs": 575.0
+  },
+  {
+    "text": "fresh",
+    "startMs": 1712.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "and",
+    "startMs": 2162.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "healthy",
+    "startMs": 2300.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "Leafeon",
+    "startMs": 3087.5,
+    "durationMs": 637.5
+  },
+  {
+    "text": "munches",
+    "startMs": 3737.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "a",
+    "startMs": 4200.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "veggie",
+    "startMs": 4300.0,
+    "durationMs": 425.0
+  },
+  {
+    "text": "sandwich",
+    "startMs": 4737.5,
+    "durationMs": 612.5
+  },
+  {
+    "text": "happily",
+    "startMs": 5362.5,
+    "durationMs": 612.5
+  }
+]

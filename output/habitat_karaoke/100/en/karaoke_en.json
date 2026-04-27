@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Pointy",
+    "startMs": 100.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "tree-shaded",
+    "startMs": 525.0,
+    "durationMs": 725.0
+  },
+  {
+    "text": "rocky",
+    "startMs": 1262.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "tall",
+    "startMs": 1700.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "grass",
+    "startMs": 2050.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "Decidueye",
+    "startMs": 2825.0,
+    "durationMs": 612.5
+  },
+  {
+    "text": "watches",
+    "startMs": 3450.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "quietly",
+    "startMs": 3962.5,
+    "durationMs": 650.0
+  },
+  {
+    "text": "from",
+    "startMs": 4625.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "above",
+    "startMs": 4862.5,
+    "durationMs": 487.5
+  }
+]

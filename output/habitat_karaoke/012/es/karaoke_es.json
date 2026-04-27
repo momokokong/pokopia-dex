@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Lecho",
+    "startMs": 100.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "de",
+    "startMs": 487.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "flores",
+    "startMs": 600.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "en",
+    "startMs": 1000.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "las",
+    "startMs": 1087.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "alturas",
+    "startMs": 1250.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "con",
+    "startMs": 1725.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "vista",
+    "startMs": 1912.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "amplia",
+    "startMs": 2287.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "Paras",
+    "startMs": 2950.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "busca",
+    "startMs": 3262.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "comida",
+    "startMs": 3575.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "feliz",
+    "startMs": 3975.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "entre",
+    "startMs": 4350.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "las",
+    "startMs": 4637.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "flores",
+    "startMs": 4787.5,
+    "durationMs": 525.0
+  }
+]

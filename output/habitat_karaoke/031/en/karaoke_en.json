@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "gently",
+    "startMs": 237.5,
+    "durationMs": 487.5
+  },
+  {
+    "text": "lit",
+    "startMs": 737.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "bed",
+    "startMs": 1062.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "with",
+    "startMs": 1400.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "soft",
+    "startMs": 1625.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "light",
+    "startMs": 2050.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "Hoothoot",
+    "startMs": 2712.5,
+    "durationMs": 562.5
+  },
+  {
+    "text": "sleeps",
+    "startMs": 3287.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "peacefully",
+    "startMs": 3750.0,
+    "durationMs": 687.5
+  },
+  {
+    "text": "in",
+    "startMs": 4450.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "the",
+    "startMs": 4600.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "warm",
+    "startMs": 4712.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "glow",
+    "startMs": 5087.5,
+    "durationMs": 462.5
+  }
+]

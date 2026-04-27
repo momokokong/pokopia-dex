@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Tree-shaded",
+    "startMs": 100.0,
+    "durationMs": 737.5
+  },
+  {
+    "text": "red",
+    "startMs": 850.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "tall",
+    "startMs": 1175.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "grass",
+    "startMs": 1525.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "cool",
+    "startMs": 1950.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "and",
+    "startMs": 2350.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "pleasant",
+    "startMs": 2512.5,
+    "durationMs": 562.5
+  },
+  {
+    "text": "Diglett",
+    "startMs": 3350.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "and",
+    "startMs": 3925.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "Bonsly",
+    "startMs": 4100.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "rest",
+    "startMs": 4700.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "in",
+    "startMs": 5100.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "the",
+    "startMs": 5250.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "shade",
+    "startMs": 5337.5,
+    "durationMs": 450.0
+  }
+]

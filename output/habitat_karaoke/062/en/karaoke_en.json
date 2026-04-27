@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "perpetual",
+    "startMs": 212.5,
+    "durationMs": 700.0
+  },
+  {
+    "text": "mess",
+    "startMs": 925.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "full",
+    "startMs": 1250.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "of",
+    "startMs": 1525.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "fun",
+    "startMs": 1662.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "Growlithe",
+    "startMs": 2350.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "and",
+    "startMs": 3112.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "Azurill",
+    "startMs": 3312.5,
+    "durationMs": 512.5
+  },
+  {
+    "text": "play",
+    "startMs": 3837.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "in",
+    "startMs": 4225.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "the",
+    "startMs": 4387.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "cheerful",
+    "startMs": 4487.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "chaos",
+    "startMs": 5025.0,
+    "durationMs": 637.5
+  }
+]

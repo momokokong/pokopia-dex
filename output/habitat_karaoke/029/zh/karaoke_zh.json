@@ -1,0 +1,52 @@
+[
+  {
+    "text": "伐木",
+    "startMs": 100.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "工場",
+    "startMs": 487.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "裡",
+    "startMs": 887.5,
+    "durationMs": 112.5
+  },
+  {
+    "text": "鋸木",
+    "startMs": 1087.5,
+    "durationMs": 300.0
+  },
+  {
+    "text": "聲",
+    "startMs": 1400.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "響起",
+    "startMs": 1600.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "斧牙龍",
+    "startMs": 2450.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "展現",
+    "startMs": 3012.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "好",
+    "startMs": 3400.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "身手",
+    "startMs": 3575.0,
+    "durationMs": 537.5
+  }
+]

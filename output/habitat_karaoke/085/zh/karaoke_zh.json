@@ -1,0 +1,72 @@
+[
+  {
+    "text": "迷你",
+    "startMs": 100.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "遊戲角",
+    "startMs": 450.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "熱鬧",
+    "startMs": 1012.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "有趣",
+    "startMs": 1300.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "自",
+    "startMs": 2150.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "爆",
+    "startMs": 2312.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "磁",
+    "startMs": 2500.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "怪",
+    "startMs": 2737.5,
+    "durationMs": 212.5
+  },
+  {
+    "text": "和",
+    "startMs": 3000.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "三合",
+    "startMs": 3200.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "一磁",
+    "startMs": 3612.5,
+    "durationMs": 262.5
+  },
+  {
+    "text": "怪",
+    "startMs": 3937.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "玩",
+    "startMs": 4100.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "遊戲",
+    "startMs": 4287.5,
+    "durationMs": 487.5
+  }
+]

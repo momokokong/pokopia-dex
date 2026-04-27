@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Sitio",
+    "startMs": 100.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "de",
+    "startMs": 550.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "danza",
+    "startMs": 650.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "lluviosa",
+    "startMs": 1000.0,
+    "durationMs": 462.5
+  },
+  {
+    "text": "con",
+    "startMs": 1475.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "niebla",
+    "startMs": 1662.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "Goomy",
+    "startMs": 2325.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "juega",
+    "startMs": 2612.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "feliz",
+    "startMs": 2962.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "bajo",
+    "startMs": 3350.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "la",
+    "startMs": 3587.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "lluvia",
+    "startMs": 3700.0,
+    "durationMs": 450.0
+  }
+]

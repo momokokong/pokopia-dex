@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Trash",
+    "startMs": 100.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "disposal",
+    "startMs": 550.0,
+    "durationMs": 662.5
+  },
+  {
+    "text": "site",
+    "startMs": 1225.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "hides",
+    "startMs": 1575.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "surprises",
+    "startMs": 1987.5,
+    "durationMs": 787.5
+  },
+  {
+    "text": "Crobat",
+    "startMs": 3050.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "patrols",
+    "startMs": 3575.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "quietly",
+    "startMs": 4150.0,
+    "durationMs": 637.5
+  },
+  {
+    "text": "at",
+    "startMs": 4800.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "night",
+    "startMs": 4950.0,
+    "durationMs": 387.5
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "text": "派對",
+    "startMs": 100.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "熱鬧",
+    "startMs": 487.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "滾滾",
+    "startMs": 862.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "三地鼠",
+    "startMs": 1650.0,
+    "durationMs": 550.0
+  },
+  {
+    "text": "和",
+    "startMs": 2237.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "盆",
+    "startMs": 2437.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "才",
+    "startMs": 2662.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "怪",
+    "startMs": 2887.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "一起",
+    "startMs": 3012.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "狂歡",
+    "startMs": 3337.5,
+    "durationMs": 462.5
+  }
+]

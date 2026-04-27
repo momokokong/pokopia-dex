@@ -1,0 +1,62 @@
+[
+  {
+    "text": "洗",
+    "startMs": 100.0,
+    "durationMs": 225.0
+  },
+  {
+    "text": "得",
+    "startMs": 350.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "晶",
+    "startMs": 525.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "晶亮",
+    "startMs": 700.0,
+    "durationMs": 312.5
+  },
+  {
+    "text": "亮一塵不染",
+    "startMs": 1025.0,
+    "durationMs": 950.0
+  },
+  {
+    "text": "蚊香",
+    "startMs": 2287.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "蝌蚪",
+    "startMs": 2687.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "在",
+    "startMs": 3050.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "泡泡",
+    "startMs": 3200.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "中",
+    "startMs": 3600.0,
+    "durationMs": 87.5
+  },
+  {
+    "text": "快樂",
+    "startMs": 3762.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "洗澡",
+    "startMs": 4050.0,
+    "durationMs": 500.0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "graceful",
+    "startMs": 237.5,
+    "durationMs": 600.0
+  },
+  {
+    "text": "flower",
+    "startMs": 850.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "bed",
+    "startMs": 1362.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "simply",
+    "startMs": 1662.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "beautiful",
+    "startMs": 2125.0,
+    "durationMs": 712.5
+  },
+  {
+    "text": "Clefairy",
+    "startMs": 3137.5,
+    "durationMs": 675.0
+  },
+  {
+    "text": "and",
+    "startMs": 3825.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "Fidough",
+    "startMs": 4012.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "play",
+    "startMs": 4412.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "among",
+    "startMs": 4775.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "the",
+    "startMs": 5125.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "blooms",
+    "startMs": 5237.5,
+    "durationMs": 612.5
+  }
+]

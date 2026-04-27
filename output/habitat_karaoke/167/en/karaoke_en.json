@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Office",
+    "startMs": 100.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "storeroom",
+    "startMs": 525.0,
+    "durationMs": 600.0
+  },
+  {
+    "text": "full",
+    "startMs": 1137.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "of",
+    "startMs": 1437.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "surprises",
+    "startMs": 1587.5,
+    "durationMs": 825.0
+  },
+  {
+    "text": "Mismagius",
+    "startMs": 2687.5,
+    "durationMs": 837.5
+  },
+  {
+    "text": "and",
+    "startMs": 3537.5,
+    "durationMs": 212.5
+  },
+  {
+    "text": "Dragapult",
+    "startMs": 3762.5,
+    "durationMs": 712.5
+  },
+  {
+    "text": "explore",
+    "startMs": 4487.5,
+    "durationMs": 575.0
+  },
+  {
+    "text": "the",
+    "startMs": 5075.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "file",
+    "startMs": 5200.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "piles",
+    "startMs": 5575.0,
+    "durationMs": 637.5
+  }
+]

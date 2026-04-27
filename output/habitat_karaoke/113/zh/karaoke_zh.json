@@ -1,0 +1,62 @@
+[
+  {
+    "text": "露天",
+    "startMs": 100.0,
+    "durationMs": 375.0
+  },
+  {
+    "text": "浴池",
+    "startMs": 487.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "清爽",
+    "startMs": 825.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "舒暢",
+    "startMs": 1250.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "騰",
+    "startMs": 2075.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "蹴",
+    "startMs": 2262.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "小將",
+    "startMs": 2450.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "在",
+    "startMs": 2862.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "水",
+    "startMs": 3025.0,
+    "durationMs": 175.0
+  },
+  {
+    "text": "中",
+    "startMs": 3250.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "愉快",
+    "startMs": 3450.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "撲騰",
+    "startMs": 3812.5,
+    "durationMs": 450.0
+  }
+]

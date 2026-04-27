@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Almacén",
+    "startMs": 100.0,
+    "durationMs": 525.0
+  },
+  {
+    "text": "de",
+    "startMs": 637.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "oficina",
+    "startMs": 712.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "lleno",
+    "startMs": 1187.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "de",
+    "startMs": 1487.5,
+    "durationMs": 100.0
+  },
+  {
+    "text": "sorpresas",
+    "startMs": 1600.0,
+    "durationMs": 662.5
+  },
+  {
+    "text": "Mismagius",
+    "startMs": 2500.0,
+    "durationMs": 675.0
+  },
+  {
+    "text": "y",
+    "startMs": 3187.5,
+    "durationMs": 62.5
+  },
+  {
+    "text": "Dragapult",
+    "startMs": 3262.5,
+    "durationMs": 537.5
+  },
+  {
+    "text": "exploran",
+    "startMs": 3812.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "entre",
+    "startMs": 4350.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "los",
+    "startMs": 4637.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "archivos",
+    "startMs": 4812.5,
+    "durationMs": 650.0
+  }
+]

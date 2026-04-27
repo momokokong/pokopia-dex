@@ -1,0 +1,67 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 75.0
+  },
+  {
+    "text": "mini",
+    "startMs": 187.5,
+    "durationMs": 387.5
+  },
+  {
+    "text": "game",
+    "startMs": 587.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "corner",
+    "startMs": 937.5,
+    "durationMs": 450.0
+  },
+  {
+    "text": "full",
+    "startMs": 1400.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "of",
+    "startMs": 1687.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "fun",
+    "startMs": 1837.5,
+    "durationMs": 375.0
+  },
+  {
+    "text": "Magnezone",
+    "startMs": 2500.0,
+    "durationMs": 750.0
+  },
+  {
+    "text": "and",
+    "startMs": 3362.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "Magneton",
+    "startMs": 3550.0,
+    "durationMs": 750.0
+  },
+  {
+    "text": "play",
+    "startMs": 4312.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "games",
+    "startMs": 4600.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "together",
+    "startMs": 5012.5,
+    "durationMs": 587.5
+  }
+]

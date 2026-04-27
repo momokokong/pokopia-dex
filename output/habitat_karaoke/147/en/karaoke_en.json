@@ -1,0 +1,62 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "birdsong",
+    "startMs": 225.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "garden",
+    "startMs": 887.5,
+    "durationMs": 437.5
+  },
+  {
+    "text": "with",
+    "startMs": 1337.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "lovely",
+    "startMs": 1525.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "melodies",
+    "startMs": 2025.0,
+    "durationMs": 662.5
+  },
+  {
+    "text": "Altaria",
+    "startMs": 3000.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "sings",
+    "startMs": 3662.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "cheerfully",
+    "startMs": 4100.0,
+    "durationMs": 650.0
+  },
+  {
+    "text": "among",
+    "startMs": 4762.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "the",
+    "startMs": 5112.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "flowers",
+    "startMs": 5212.5,
+    "durationMs": 750.0
+  }
+]

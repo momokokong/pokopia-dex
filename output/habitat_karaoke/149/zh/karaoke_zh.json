@@ -1,0 +1,67 @@
+[
+  {
+    "text": "騎車",
+    "startMs": 100.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "休息",
+    "startMs": 525.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "站",
+    "startMs": 925.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "補充",
+    "startMs": 1125.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "能量",
+    "startMs": 1475.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "鐵",
+    "startMs": 2250.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "啞鈴",
+    "startMs": 2425.0,
+    "durationMs": 275.0
+  },
+  {
+    "text": "在",
+    "startMs": 2800.0,
+    "durationMs": 125.0
+  },
+  {
+    "text": "路邊",
+    "startMs": 2950.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "小憩",
+    "startMs": 3275.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "準備",
+    "startMs": 3662.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "再",
+    "startMs": 4000.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "出發",
+    "startMs": 4150.0,
+    "durationMs": 550.0
+  }
+]

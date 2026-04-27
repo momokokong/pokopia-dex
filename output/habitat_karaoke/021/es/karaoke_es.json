@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Una",
+    "startMs": 100.0,
+    "durationMs": 212.5
+  },
+  {
+    "text": "mesa",
+    "startMs": 325.0,
+    "durationMs": 300.0
+  },
+  {
+    "text": "floral",
+    "startMs": 637.5,
+    "durationMs": 350.0
+  },
+  {
+    "text": "fragante",
+    "startMs": 1000.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "y",
+    "startMs": 1462.5,
+    "durationMs": 50.0
+  },
+  {
+    "text": "dulce",
+    "startMs": 1525.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "Weepinbell",
+    "startMs": 2212.5,
+    "durationMs": 612.5
+  },
+  {
+    "text": "duerme",
+    "startMs": 2837.5,
+    "durationMs": 325.0
+  },
+  {
+    "text": "entre",
+    "startMs": 3175.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "las",
+    "startMs": 3437.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "flores",
+    "startMs": 3587.5,
+    "durationMs": 537.5
+  }
+]

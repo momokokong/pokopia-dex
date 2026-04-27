@@ -1,0 +1,67 @@
+[
+  {
+    "text": "A",
+    "startMs": 100.0,
+    "durationMs": 100.0
+  },
+  {
+    "text": "magma",
+    "startMs": 212.5,
+    "durationMs": 525.0
+  },
+  {
+    "text": "fishing",
+    "startMs": 750.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "spot",
+    "startMs": 1212.5,
+    "durationMs": 400.0
+  },
+  {
+    "text": "blazing",
+    "startMs": 1625.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "hot",
+    "startMs": 2125.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "Arcanine",
+    "startMs": 2800.0,
+    "durationMs": 612.5
+  },
+  {
+    "text": "shows",
+    "startMs": 3425.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "its",
+    "startMs": 3800.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "skills",
+    "startMs": 4012.5,
+    "durationMs": 462.5
+  },
+  {
+    "text": "by",
+    "startMs": 4487.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "the",
+    "startMs": 4675.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "lava",
+    "startMs": 4825.0,
+    "durationMs": 512.5
+  }
+]

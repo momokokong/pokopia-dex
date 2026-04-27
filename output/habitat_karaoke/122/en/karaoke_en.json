@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Mini",
+    "startMs": 100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "kitchen",
+    "startMs": 512.5,
+    "durationMs": 425.0
+  },
+  {
+    "text": "with",
+    "startMs": 950.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "pots",
+    "startMs": 1162.5,
+    "durationMs": 412.5
+  },
+  {
+    "text": "and",
+    "startMs": 1587.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "pans",
+    "startMs": 1775.0,
+    "durationMs": 437.5
+  },
+  {
+    "text": "flying",
+    "startMs": 2225.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "Magmortar",
+    "startMs": 3012.5,
+    "durationMs": 737.5
+  },
+  {
+    "text": "shows",
+    "startMs": 3762.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "off",
+    "startMs": 4137.5,
+    "durationMs": 275.0
+  },
+  {
+    "text": "cooking",
+    "startMs": 4425.0,
+    "durationMs": 412.5
+  },
+  {
+    "text": "skills",
+    "startMs": 4850.0,
+    "durationMs": 637.5
+  }
+]

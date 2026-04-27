@@ -1,0 +1,72 @@
+[
+  {
+    "text": "巧克力",
+    "startMs": 100.0,
+    "durationMs": 587.5
+  },
+  {
+    "text": "餅乾",
+    "startMs": 700.0,
+    "durationMs": 337.5
+  },
+  {
+    "text": "香",
+    "startMs": 1062.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "濃",
+    "startMs": 1262.5,
+    "durationMs": 150.0
+  },
+  {
+    "text": "好吃",
+    "startMs": 1450.0,
+    "durationMs": 562.5
+  },
+  {
+    "text": "月",
+    "startMs": 2312.5,
+    "durationMs": 137.5
+  },
+  {
+    "text": "伊",
+    "startMs": 2462.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "布配",
+    "startMs": 2625.0,
+    "durationMs": 287.5
+  },
+  {
+    "text": "著",
+    "startMs": 2950.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "牛奶",
+    "startMs": 3112.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "享用",
+    "startMs": 3450.0,
+    "durationMs": 325.0
+  },
+  {
+    "text": "暗",
+    "startMs": 3800.0,
+    "durationMs": 162.5
+  },
+  {
+    "text": "黑",
+    "startMs": 3987.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "餅乾",
+    "startMs": 4175.0,
+    "durationMs": 425.0
+  }
+]

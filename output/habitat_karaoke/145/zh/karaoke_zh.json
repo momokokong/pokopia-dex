@@ -1,0 +1,72 @@
+[
+  {
+    "text": "水",
+    "startMs": 100.0,
+    "durationMs": 262.5
+  },
+  {
+    "text": "邊",
+    "startMs": 375.0,
+    "durationMs": 150.0
+  },
+  {
+    "text": "小艇",
+    "startMs": 550.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "隨",
+    "startMs": 962.5,
+    "durationMs": 187.5
+  },
+  {
+    "text": "波",
+    "startMs": 1175.0,
+    "durationMs": 137.5
+  },
+  {
+    "text": "搖曳",
+    "startMs": 1325.0,
+    "durationMs": 500.0
+  },
+  {
+    "text": "快龍",
+    "startMs": 2137.5,
+    "durationMs": 287.5
+  },
+  {
+    "text": "划",
+    "startMs": 2475.0,
+    "durationMs": 187.5
+  },
+  {
+    "text": "著",
+    "startMs": 2687.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "小",
+    "startMs": 2825.0,
+    "durationMs": 200.0
+  },
+  {
+    "text": "船",
+    "startMs": 3062.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "在",
+    "startMs": 3287.5,
+    "durationMs": 125.0
+  },
+  {
+    "text": "湖上",
+    "startMs": 3437.5,
+    "durationMs": 362.5
+  },
+  {
+    "text": "兜風",
+    "startMs": 3850.0,
+    "durationMs": 412.5
+  }
+]
