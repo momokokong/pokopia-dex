@@ -260,9 +260,9 @@
           <div class="detail-hero__names">
             <div class="detail-hero__name-main">${habitatName}
               <span class="desc-voice-btns" style="margin-left:8px">
-                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.zh || h.name.en}', 'zh')" title="中文">🇹🇼 🔊</button>
-                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.en}', 'en')" title="English">🇺🇸 🔊</button>
-                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.es || h.name.en}', 'es')" title="Español">🇪🇸 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('es')" title="Español">🇪🇸 🔊</button>
               </span>
             </div>
             <div class="detail-hero__name-sub">${h.name.zh || ''} / ${h.name.en} / ${h.name.es || ''}</div>
@@ -274,9 +274,9 @@
           <div class="detail-section__title" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
             <span>${lang === 'zh' ? '棲息地簡介' : lang === 'es' ? 'Descripción del hábitat' : 'Habitat Description'}</span>
             <span class="desc-voice-btns">
-              <button class="voice-btn voice-btn--sm" onclick="playHabitatDescVoice('zh')" title="中文">🇹🇼 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playHabitatDescVoice('en')" title="English">🇺🇸 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playHabitatDescVoice('es')" title="Español">🇪🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('es')" title="Español">🇪🇸 🔊</button>
             </span>
           </div>
           <div class="detail-desc" id="descText">${h.description[lang] || h.description.en}</div>
@@ -365,6 +365,87 @@
       for (var i = 0; i < spans.length; i++) {
         spans[i].classList.remove('karaoke-active');
       }
+    }
+
+    // ── Pre-generated edge-tts Karaoke (Habitat) ───────────
+    var _habitatKaraokeAudio = null;
+    var _habitatKaraokeWords = null;
+    var _habitatKaraokeTick = null;
+    var _habitatKaraokeSpans = null;
+
+    function stopHabitatKaraokeTick() {
+      if (_habitatKaraokeTick) { clearInterval(_habitatKaraokeTick); _habitatKaraokeTick = null; }
+    }
+    function clearHabitatKaraokeHighlights() {
+      if (_habitatKaraokeSpans) {
+        _habitatKaraokeSpans.forEach(function(s) { s.classList.remove('karaoke-active'); });
+      }
+    }
+
+    function renderHabitatKaraokeWords(text, el) {
+      var words = text.split(/([\s，。！？、；：])/);
+      var html = '';
+      var idx = 0;
+      words.forEach(function(w) {
+        if (!w) return;
+        html += '<span class="karaoke-word" data-word-idx="' + idx + '">' + w + '</span>';
+        idx++;
+      });
+      el.innerHTML = html;
+      _habitatKaraokeSpans = el.querySelectorAll('.karaoke-word');
+    }
+
+    function startHabitatKaraokeTick() {
+      stopHabitatKaraokeTick();
+      _habitatKaraokeTick = setInterval(function() {
+        if (!_habitatKaraokeAudio || !_habitatKaraokeWords || !_habitatKaraokeSpans) return;
+        var ct = _habitatKaraokeAudio.currentTime * 1000;
+        _habitatKaraokeWords.forEach(function(w, i) {
+          if (_habitatKaraokeSpans[i]) {
+            _habitatKaraokeSpans[i].classList.toggle('karaoke-active', ct >= w.startMs);
+          }
+        });
+      }, 50);
+    }
+
+    async function playHabitatKaraokeAudio(voiceLang) {
+      if (!currentHabitat) return;
+      var hId = String(currentHabitat.id).padStart(3, '0');
+      var jsonPath = 'output/habitat_karaoke/' + hId + '/' + voiceLang + '/karaoke_' + voiceLang + '.json';
+      var mp3Path = 'output/habitat_karaoke/' + hId + '/' + voiceLang + '/audio_' + voiceLang + '.mp3';
+
+      // Stop any previous playback
+      stopHabitatKaraokeTick();
+      if (_habitatKaraokeAudio) { _habitatKaraokeAudio.pause(); _habitatKaraokeAudio.currentTime = 0; _habitatKaraokeAudio = null; }
+      clearHabitatKaraokeHighlights();
+
+      var descEl = document.getElementById('descText');
+      var text = currentHabitat.description[voiceLang] || currentHabitat.description.en;
+
+      try {
+        var resp = await fetch(jsonPath);
+        if (!resp.ok) throw new Error('JSON not found');
+        _habitatKaraokeWords = await resp.json();
+      } catch {
+        // No pre-generated audio — fall back to Web Speech API
+        _habitatKaraokeWords = null;
+        playHabitatDescVoice(voiceLang);
+        return;
+      }
+
+      renderHabitatKaraokeWords(text, descEl);
+
+      _habitatKaraokeAudio = new Audio(mp3Path);
+      _habitatKaraokeAudio.play().catch(function() {});
+      startHabitatKaraokeTick();
+
+      _habitatKaraokeAudio.addEventListener('ended', function() {
+        stopHabitatKaraokeTick();
+        clearHabitatKaraokeHighlights();
+        _habitatKaraokeWords = null;
+        _habitatKaraokeSpans = null;
+        descEl.textContent = text;
+      }, { once: true });
     }
 
     function playHabitatDescVoice(voiceLang) {
