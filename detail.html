@@ -14,16 +14,25 @@
   <!-- Top Nav -->
   <nav class="top-nav">
     <div class="top-nav__left">
-      <button class="top-nav__back" onclick="goPrevPokemon()">←</button>
+      <button class="top-nav__back" onclick="location.href='index.html'">←</button>
       <span class="top-nav__title" id="navTitle">Pokédex</span>
     </div>
     <div class="top-nav__right">
       <button class="lang-btn" data-lang="zh">🇹🇼</button>
       <button class="lang-btn" data-lang="en">🇺🇸</button>
       <button class="lang-btn" data-lang="es">🇸🇻</button>
-      <button class="top-nav__next" onclick="goNextPokemon()">→</button>
     </div>
   </nav>
+
+  <!-- Floating Prev/Next Nav -->
+  <a class="float-nav float-nav--prev" id="floatPrev" href="#" style="display:none">
+    <img class="float-nav__sprite" id="floatPrevSprite" src="" alt="">
+    <span class="float-nav__label" id="floatPrevLabel"></span>
+  </a>
+  <a class="float-nav float-nav--next" id="floatNext" href="#" style="display:none">
+    <img class="float-nav__sprite" id="floatNextSprite" src="" alt="">
+    <span class="float-nav__label" id="floatNextLabel"></span>
+  </a>
 
   <div class="detail-container" id="detailContainer">
     <!-- Dynamically rendered -->
@@ -200,6 +209,36 @@
       _currentIndex++;
       const next = _allPokemon[_currentIndex];
       window.location.href = 'detail.html?id=' + next.id;
+    }
+
+    function updateFloatingNav() {
+      const lang = POKOPIA_DEX.getLang();
+      const prevBtn = document.getElementById('floatPrev');
+      const nextBtn = document.getElementById('floatNext');
+      const prevSprite = document.getElementById('floatPrevSprite');
+      const nextSprite = document.getElementById('floatNextSprite');
+      const prevLabel = document.getElementById('floatPrevLabel');
+      const nextLabel = document.getElementById('floatNextLabel');
+
+      if (_currentIndex > 0) {
+        const prev = _allPokemon[_currentIndex - 1];
+        prevBtn.style.display = '';
+        prevBtn.href = 'detail.html?id=' + prev.id;
+        prevSprite.src = prev.sprite_url || ('sprites/' + (prev.pokedex_number || prev.id) + '.png');
+        prevLabel.textContent = POKOPIA_DEX.getName(prev, lang);
+      } else {
+        prevBtn.style.display = 'none';
+      }
+
+      if (_currentIndex >= 0 && _currentIndex < _allPokemon.length - 1) {
+        const next = _allPokemon[_currentIndex + 1];
+        nextBtn.style.display = '';
+        nextBtn.href = 'detail.html?id=' + next.id;
+        nextSprite.src = next.sprite_url || ('sprites/' + (next.pokedex_number || next.id) + '.png');
+        nextLabel.textContent = POKOPIA_DEX.getName(next, lang);
+      } else {
+        nextBtn.style.display = 'none';
+      }
     }
 
     function updateI18N() {
@@ -400,6 +439,7 @@
       const pokedexDisplay = pokemon.pokedex_number != null ? String(pokemon.pokedex_number).padStart(3, '0') : String(pokemon.id).padStart(3, '0');
       document.getElementById('navTitle').textContent = `#${pokedexDisplay} ${mainName}`;
       document.title = `${mainName} | Pokopia Pokédex`;
+      updateFloatingNav();
     }
 
     function toggleLovedCategory(id) {

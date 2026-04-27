@@ -1471,6 +1471,76 @@ body {
   color: white !important;
 }
 
+/* ── Floating Prev/Next Navigation ────────────────── */
+.float-nav {
+  position: fixed;
+  top: 50%;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease, opacity 0.2s ease;
+  opacity: 0.82;
+  color: var(--text-primary);
+}
+
+.float-nav:hover,
+.float-nav:active {
+  opacity: 1;
+  transform: translateY(calc(-50% + -2px)) scale(1.06);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+}
+
+.float-nav--prev {
+  left: 6px;
+  transform: translateY(-50%);
+}
+
+.float-nav--next {
+  right: 6px;
+  transform: translateY(-50%);
+}
+
+.float-nav--prev:hover,
+.float-nav--prev:active {
+  transform: translateY(calc(-50% + -2px)) scale(1.06);
+}
+
+.float-nav--next:hover,
+.float-nav--next:active {
+  transform: translateY(calc(-50% + -2px)) scale(1.06);
+}
+
+.float-nav__sprite {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 4px;
+}
+
+.float-nav__label {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  max-width: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 1.2;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   .pokemon-card {
