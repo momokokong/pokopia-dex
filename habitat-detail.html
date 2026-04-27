@@ -197,8 +197,11 @@
       const habitatName = h.name[lang] || h.name.en;
       document.title = `${habitatName} | Pokopia`;
 
-      // Nav title
-      document.getElementById('navTitle').textContent = `#${String(h.id).padStart(3, '0')} ${habitatName}`;
+      // Hero subtitle — show the two languages NOT currently selected
+      const otherLangs = ['zh','en','es'].filter(l => l !== lang);
+      const subParts = otherLangs.map(l => h.name[l]).filter(Boolean);
+      const subEl = document.getElementById('heroNameSub');
+      if (subEl) subEl.textContent = subParts.join(' / ');
 
       // Requirements
       let reqHTML = '';
@@ -265,7 +268,7 @@
                 <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.es || h.name.en}', 'es')" title="Español">🇪🇸 🔊</button>
               </span>
             </div>
-            <div class="detail-hero__name-sub">${h.name.zh || ''} / ${h.name.en} / ${h.name.es || ''}</div>
+            <div class="detail-hero__name-sub" id="heroNameSub"></div>
           </div>
         </div>
 
