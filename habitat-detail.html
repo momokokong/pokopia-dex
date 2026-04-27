@@ -382,14 +382,10 @@
       }
     }
 
-    function renderHabitatKaraokeWords(text, el) {
-      var words = text.split(/([\s，。！？、；：])/);
+    function renderHabitatKaraokeWords(words, el) {
       var html = '';
-      var idx = 0;
-      words.forEach(function(w) {
-        if (!w) return;
-        html += '<span class="karaoke-word" data-word-idx="' + idx + '">' + w + '</span>';
-        idx++;
+      words.forEach(function(w, i) {
+        html += '<span class="karaoke-word" data-word-idx="' + i + '">' + w.text + '</span>';
       });
       el.innerHTML = html;
       _habitatKaraokeSpans = el.querySelectorAll('.karaoke-word');
@@ -433,7 +429,7 @@
         return;
       }
 
-      renderHabitatKaraokeWords(text, descEl);
+      renderHabitatKaraokeWords(_habitatKaraokeWords, descEl);
 
       _habitatKaraokeAudio = new Audio(mp3Path);
       _habitatKaraokeAudio.play().catch(function() {});
