@@ -71,7 +71,7 @@ body {
 }
 
 .top-nav__title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--text-primary);
   white-space: nowrap;
@@ -87,14 +87,19 @@ body {
   min-width: 0;
 }
 
-.top-nav__back {
+.top-nav__back, .top-nav__next {
   background: none;
   border: none;
-  font-size: 22px;
+  font-size: 26px;
   cursor: pointer;
   color: var(--text-primary);
-  padding: 4px;
+  padding: 8px;
   flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .top-nav__right {
@@ -165,11 +170,11 @@ body {
   opacity: 0.5;
 }
 
-/* Type Filter Buttons */
+/* Type Filter Buttons - Kid-friendly sizing */
 .type-filters {
   display: flex;
-  gap: 8px;
-  padding: 8px 16px;
+  gap: 10px;
+  padding: 10px 16px;
   overflow-x: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -181,16 +186,17 @@ body {
 
 .type-filter-btn {
   flex-shrink: 0;
-  padding: 6px 16px;
-  border-radius: 20px;
+  padding: 10px 20px;
+  border-radius: 24px;
   border: none;
   font-family: 'Fredoka', sans-serif;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
   color: #FFF;
   transition: all 0.2s ease;
   box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  min-height: 48px;
 }
 
 .type-filter-btn:hover {
@@ -220,12 +226,12 @@ body {
 .pokemon-card {
   background: var(--bg-card);
   border-radius: var(--radius-lg);
-  padding: 16px;
-  margin: 8px 16px;
+  padding: 20px;
+  margin: 10px 16px;
   box-shadow: var(--shadow-soft);
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   cursor: pointer;
   transition: all 0.25s ease;
   position: relative;
@@ -245,8 +251,8 @@ body {
 }
 
 .pokemon-card__sprite-wrap {
-  width: 72px;
-  height: 72px;
+  width: 88px;
+  height: 88px;
   flex-shrink: 0;
   border-radius: 50%;
   display: flex;
@@ -257,8 +263,8 @@ body {
 }
 
 .pokemon-card__sprite {
-  width: 64px;
-  height: 64px;
+  width: 76px;
+  height: 76px;
   object-fit: contain;
   transition: filter 0.3s ease;
 }
@@ -273,24 +279,24 @@ body {
 }
 
 .pokemon-card__name {
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   line-height: 1.2;
   color: var(--text-primary);
 }
 
 .pokemon-card__name-sub {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   font-weight: 400;
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
 .pokemon-card__meta {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin-top: 6px;
+  gap: 8px;
+  margin-top: 8px;
   flex-wrap: wrap;
 }
 
@@ -300,10 +306,10 @@ body {
 }
 
 .type-tag {
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 11px;
-  font-weight: 500;
+  padding: 4px 14px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 600;
   color: #FFF;
   white-space: nowrap;
 }
@@ -328,14 +334,19 @@ body {
 
 .pokemon-card__collect-icon {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  font-size: 16px;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
   cursor: pointer;
   z-index: 2;
-  padding: 6px;
+  padding: 10px;
   border-radius: 50%;
   transition: transform 0.15s ease, background 0.15s ease;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pokemon-card__collect-icon:hover {
@@ -347,7 +358,7 @@ body {
   transform: scale(0.95);
 }
 
-/* Bottom Tab Bar */
+/* Bottom Tab Bar - Kid-friendly sizing */
 .tab-bar {
   position: fixed;
   bottom: 0;
@@ -360,7 +371,7 @@ body {
   box-shadow: 0 -2px 12px rgba(0,0,0,0.06);
   display: flex;
   justify-content: space-around;
-  padding: 8px 0 calc(8px + env(safe-area-inset-bottom, 0px));
+  padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
   z-index: 100;
 }
 
@@ -368,15 +379,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 6px 12px;
+  padding: 8px 16px;
   font-family: 'Fredoka', sans-serif;
   color: var(--text-secondary);
   transition: color 0.2s ease;
   text-decoration: none;
+  min-width: 64px;
 }
 
 .tab-bar__item.active {
@@ -384,12 +396,12 @@ body {
 }
 
 .tab-bar__icon {
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .tab-bar__label {
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 /* ============================================
@@ -426,7 +438,7 @@ body {
 .detail-hero__pokedex-num {
   text-align: center;
   color: rgba(255,255,255,0.7);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   margin-bottom: 4px;
 }
@@ -452,13 +464,13 @@ body {
 }
 
 .detail-hero__name-main {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
   text-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .detail-hero__name-sub {
-  font-size: 15px;
+  font-size: 17px;
   opacity: 0.85;
   margin-top: 2px;
 }
@@ -470,15 +482,15 @@ body {
   margin-top: 14px;
 }
 
-/* Voice button with sound wave animation */
+/* Voice button with sound wave animation - Kid-friendly sizing */
 .voice-btn {
-  width: 40px;
-  height: 40px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   border: none;
   background: rgba(255,255,255,0.3);
   color: #FFF;
-  font-size: 16px;
+  font-size: 22px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -507,18 +519,18 @@ body {
   background: rgba(255,255,255,0.5);
 }
 
-/* Small voice buttons for description section */
+/* Small voice buttons for description section - Kid-friendly sizing */
 .desc-voice-btns {
   display: inline-flex;
-  gap: 4px;
+  gap: 6px;
   margin-left: 8px;
   vertical-align: middle;
 }
 
 .voice-btn--sm {
-  width: 28px;
-  height: 28px;
-  font-size: 12px;
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
   background: rgba(0,0,0,0.06);
   color: var(--text-secondary);
 }
@@ -542,9 +554,9 @@ body {
 }
 
 .detail-types-row .type-tag {
-  padding: 4px 14px;
-  font-size: 13px;
-  border-radius: 14px;
+  padding: 6px 18px;
+  font-size: 15px;
+  border-radius: 16px;
 }
 
 .detail-rarity {
@@ -574,7 +586,7 @@ body {
 }
 
 .detail-section__title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-secondary);
   text-transform: uppercase;
@@ -583,8 +595,8 @@ body {
 }
 
 .detail-desc {
-  font-size: 22px;
-  line-height: 1.8;
+  font-size: 20px;
+  line-height: 1.7;
   color: var(--text-primary);
 }
 
@@ -594,8 +606,8 @@ body {
   flex-direction: column;
   background: var(--bg-secondary);
   border-radius: var(--radius-md);
-  padding: 14px;
-  margin-bottom: 10px;
+  padding: 18px;
+  margin-bottom: 12px;
   border: 1px solid rgba(0,0,0,0.04);
   cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -622,7 +634,7 @@ body {
 }
 
 .biome-card__name {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--text-primary);
 }
@@ -637,30 +649,30 @@ body {
   display: flex;
   gap: 14px;
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
 }
 
 .biome-card__zone {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 4px 12px;
-  border-radius: 14px;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 16px;
   background: rgba(107,203,119,0.12);
   color: #4a9e56;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .biome-card__rarity {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 3px 10px;
-  border-radius: 10px;
-  font-size: 12px;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 14px;
   font-weight: 500;
   margin-top: 4px;
 }
@@ -702,14 +714,14 @@ body {
 .tags-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 6px;
+  gap: 8px;
+  margin-top: 8px;
 }
 
 .tag {
-  padding: 4px 12px;
-  border-radius: 14px;
-  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 14px;
   font-weight: 500;
   background: rgba(255,140,66,0.12);
   color: var(--accent-orange);
@@ -737,13 +749,13 @@ body {
 
 /* Favorite tags with emoji colors */
 .fav-tag {
-  padding: 4px 12px;
-  border-radius: 14px;
-  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 14px;
   font-weight: 500;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
 }
 
 .fav-tag--nature { background: rgba(123,201,80,0.12); color: #4a9e56; }
@@ -757,26 +769,26 @@ body {
 
 /* Ideal Habitat tag */
 .ideal-habitat-tag {
-  padding: 6px 14px;
-  border-radius: 16px;
-  font-size: 13px;
+  padding: 8px 16px;
+  border-radius: 18px;
+  font-size: 15px;
   font-weight: 500;
   background: rgba(123,201,80,0.12);
   color: #4a9e56;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .ideal-habitat-tag__emoji {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* Specialty tag */
 .specialty-tag {
-  padding: 5px 14px;
-  border-radius: 14px;
-  font-size: 13px;
+  padding: 7px 16px;
+  border-radius: 16px;
+  font-size: 15px;
   font-weight: 600;
   background: rgba(255,140,66,0.15);
   color: var(--accent-orange);
@@ -799,12 +811,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 14px;
+  padding: 14px 16px;
   background: var(--bg-secondary);
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: background 0.2s ease;
   user-select: none;
+  min-height: 48px;
 }
 
 .loved-items-category__header:hover {
@@ -812,12 +825,12 @@ body {
 }
 
 .loved-items-category__title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .loved-items-category__count {
@@ -847,16 +860,16 @@ body {
 }
 
 .loved-items-category__inner {
-  padding: 10px 14px 4px;
+  padding: 14px 16px 6px;
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
 }
 
 .loved-item {
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 14px;
+  font-size: 14px;
   background: rgba(255,255,255,0.9);
   color: var(--text-primary);
   border: 1px solid rgba(0,0,0,0.06);
@@ -882,24 +895,25 @@ body {
 .collect-btn {
   display: block;
   width: 100%;
-  padding: 16px;
+  padding: 20px 24px;
   border-radius: var(--radius-xl);
   border: none;
   font-family: 'Fredoka', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
   transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
+  min-height: 64px;
 }
 
 .collect-btn--hero {
   display: inline-block;
   width: auto;
-  min-width: 140px;
-  padding: 10px 28px;
-  font-size: 16px;
+  min-width: 160px;
+  padding: 14px 32px;
+  font-size: 18px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 

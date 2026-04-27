@@ -5,6 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Habitat Detail | Pokopia</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .top-nav__prev, .top-nav__next {
+      background: none;
+      border: none;
+      font-size: 26px;
+      line-height: 1;
+      color: var(--text-primary, #333);
+      cursor: pointer;
+      padding: 8px;
+      border-radius: 8px;
+      transition: background 0.15s;
+      min-width: 44px;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .top-nav__prev:hover, .top-nav__next:hover {
+      background: var(--bg-hover, rgba(0,0,0,0.06));
+    }
+    .top-nav__prev:disabled, .top-nav__next:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+  </style>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#FF8C42">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -15,9 +40,11 @@
   <nav class="top-nav">
     <div class="top-nav__left">
       <button class="top-nav__back" onclick="location.href='habitats.html'">←</button>
+      <button class="top-nav__prev" id="navPrev" onclick="goToHabitat(currentHabitatId - 1)" style="display:none;" title="Previous Habitat">‹</button>
       <span class="top-nav__title" id="navTitle">🏝️ 棲息地</span>
     </div>
     <div class="top-nav__right">
+      <button class="top-nav__next" id="navNext" onclick="goToHabitat(currentHabitatId + 1)" style="display:none;" title="Next Habitat">›</button>
       <button class="lang-btn" data-lang="zh">🇹🇼</button>
       <button class="lang-btn" data-lang="en">🇺🇸</button>
       <button class="lang-btn" data-lang="es">🇪🇸</button>
@@ -97,7 +124,23 @@
     }
 
     let currentHabitat = null;
+    let currentHabitatId = null;
+    let allHabitatIds = [];
     let allPokemon = [];
+
+    function goToHabitat(id) {
+      if (HABITAT_DATA[id]) {
+        window.location.href = 'habitat-detail.html?id=' + id;
+      }
+    }
+
+    function updateNavButtons() {
+      const idx = allHabitatIds.indexOf(currentHabitatId);
+      const prevBtn = document.getElementById('navPrev');
+      const nextBtn = document.getElementById('navNext');
+      if (prevBtn) prevBtn.style.display = idx > 0 ? '' : 'none';
+      if (nextBtn) nextBtn.style.display = idx < allHabitatIds.length - 1 ? '' : 'none';
+    }
 
     async function init() {
       const params = new URLSearchParams(window.location.search);
@@ -115,6 +158,10 @@
       allPokemon = await POKOPIA_DEX.loadData();
       
       // Load habitat data from HABITAT_DATA
+      // Build sorted habitat ID list for navigation
+      allHabitatIds = Object.keys(HABITAT_DATA).map(Number).sort((a, b) => a - b);
+      currentHabitatId = habitatId;
+
       if (typeof HABITAT_DATA !== 'undefined' && HABITAT_DATA[habitatId]) {
         currentHabitat = HABITAT_DATA[habitatId];
       } else {
@@ -125,6 +172,7 @@
 
       POKOPIA_DEX.renderLangButtons();
       renderHabitatDetail();
+      updateNavButtons();
       document.addEventListener('langchange', () => {
         updateI18N();
         renderHabitatDetail();
