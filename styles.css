@@ -967,6 +967,12 @@ body {
   color: var(--text-light);
 }
 
+/* Karaoke punctuation (not highlighted) */
+.karaoke-punct {
+  color: var(--text-primary);
+  white-space: pre;
+}
+
 .collect-btn--uncollected {
   background: var(--accent-blue);
   color: #FFF;

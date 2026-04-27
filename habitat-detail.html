@@ -382,19 +382,32 @@
       }
     }
 
-    function renderHabitatKaraokeWords(words, el) {
-      // Reconstruct text - add spaces for non-CJK languages only
+    function renderHabitatKaraokeWords(words, fullText, el) {
+      // Match edge-tts words with original text to preserve punctuation
       var html = '';
+      var textIdx = 0;
       words.forEach(function(w, i) {
-        var txt = w.text;
-        // Only add space for non-Chinese text (Latin/script languages)
-        // Chinese/Japanese/Korean don't use spaces between words
-        var isCJK = /[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef]/.test(txt);
-        if (!isCJK && i < words.length - 1 && !/[，。！？、；：\s]$/.test(txt)) {
-          txt += ' ';
+        var wordText = w.text;
+        // Find this word in the original text starting from textIdx
+        var wordStart = fullText.indexOf(wordText, textIdx);
+        if (wordStart === -1) {
+          // Fallback: just use the word text
+          html += '<span class="karaoke-word" data-word-idx="' + i + '">' + wordText + '</span>';
+          return;
         }
-        html += '<span class="karaoke-word" data-word-idx="' + i + '">' + txt + '</span>';
+        // Extract any punctuation between previous position and this word
+        var punct = fullText.substring(textIdx, wordStart);
+        if (punct) {
+          html += '<span class="karaoke-punct">' + punct + '</span>';
+        }
+        // Add the word itself
+        html += '<span class="karaoke-word" data-word-idx="' + i + '">' + wordText + '</span>';
+        textIdx = wordStart + wordText.length;
       });
+      // Add any remaining punctuation at the end
+      if (textIdx < fullText.length) {
+        html += '<span class="karaoke-punct">' + fullText.substring(textIdx) + '</span>';
+      }
       el.innerHTML = html;
       _habitatKaraokeSpans = el.querySelectorAll('.karaoke-word');
     }
@@ -437,7 +450,7 @@
         return;
       }
 
-      renderHabitatKaraokeWords(_habitatKaraokeWords, descEl);
+      renderHabitatKaraokeWords(_habitatKaraokeWords, text, descEl);
 
       _habitatKaraokeAudio = new Audio(mp3Path);
       _habitatKaraokeAudio.play().catch(function() {});
