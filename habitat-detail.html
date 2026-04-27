@@ -419,7 +419,15 @@
         var ct = _habitatKaraokeAudio.currentTime * 1000;
         _habitatKaraokeWords.forEach(function(w, i) {
           if (_habitatKaraokeSpans[i]) {
-            _habitatKaraokeSpans[i].classList.toggle('karaoke-active', ct >= w.startMs);
+            var span = _habitatKaraokeSpans[i];
+            if (ct >= w.startMs + w.durationMs) {
+              // Word finished — mark as done
+              span.classList.remove('karaoke-active');
+              span.classList.add('karaoke-done');
+            } else if (ct >= w.startMs) {
+              // Word currently playing
+              span.classList.add('karaoke-active');
+            }
           }
         });
       }, 50);
