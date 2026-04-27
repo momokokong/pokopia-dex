@@ -383,12 +383,14 @@
     }
 
     function renderHabitatKaraokeWords(words, el) {
-      // Reconstruct text with spaces between words for readability
+      // Reconstruct text - add spaces for non-CJK languages only
       var html = '';
       words.forEach(function(w, i) {
         var txt = w.text;
-        // Add space after word if it doesn't end with punctuation
-        if (i < words.length - 1 && !/[，。！？、；：\s]$/.test(txt)) {
+        // Only add space for non-Chinese text (Latin/script languages)
+        // Chinese/Japanese/Korean don't use spaces between words
+        var isCJK = /[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef]/.test(txt);
+        if (!isCJK && i < words.length - 1 && !/[，。！？、；：\s]$/.test(txt)) {
           txt += ' ';
         }
         html += '<span class="karaoke-word" data-word-idx="' + i + '">' + txt + '</span>';
