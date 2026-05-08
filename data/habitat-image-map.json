@@ -1,838 +1,838 @@
 {
   "tall-grass-001": {
     "gwId": 1,
-    "img": "habitats/habitat_001.png"
+    "img": "assets/habitats/habitat_001.png"
   },
   "tree-shaded-tall-grass-002": {
     "gwId": 2,
-    "img": "habitats/habitat_002.png"
+    "img": "assets/habitats/habitat_002.png"
   },
   "boulder-shaded-tall-grass-003": {
     "gwId": 3,
-    "img": "habitats/habitat_003.png"
+    "img": "assets/habitats/habitat_003.png"
   },
   "hydrated-tall-grass-004": {
     "gwId": 4,
-    "img": "habitats/habitat_004.png"
+    "img": "assets/habitats/habitat_004.png"
   },
   "seaside-tall-grass-005": {
     "gwId": 5,
-    "img": "habitats/habitat_005.png"
+    "img": "assets/habitats/habitat_005.png"
   },
   "elevated-tall-grass-006": {
     "gwId": 6,
-    "img": "habitats/habitat_006.png"
+    "img": "assets/habitats/habitat_006.png"
   },
   "illuminated-tall-grass-007": {
     "gwId": 7,
-    "img": "habitats/habitat_007.png"
+    "img": "assets/habitats/habitat_007.png"
   },
   "pretty-flower-bed-008": {
     "gwId": 8,
-    "img": "habitats/habitat_008.png"
+    "img": "assets/habitats/habitat_008.png"
   },
   "tree-shaded-flower-bed-009": {
     "gwId": 9,
-    "img": "habitats/habitat_009.png"
+    "img": "assets/habitats/habitat_009.png"
   },
   "hydrated-flower-bed-010": {
     "gwId": 10,
-    "img": "habitats/habitat_010.png"
+    "img": "assets/habitats/habitat_010.png"
   },
   "field-of-flowers-011": {
     "gwId": 11,
-    "img": "habitats/habitat_011.png"
+    "img": "assets/habitats/habitat_011.png"
   },
   "elevated-flower-bed-012": {
     "gwId": 12,
-    "img": "habitats/habitat_012.png"
+    "img": "assets/habitats/habitat_012.png"
   },
   "grave-with-flowers-013": {
     "gwId": 13,
-    "img": "habitats/habitat_013.png"
+    "img": "assets/habitats/habitat_013.png"
   },
   "flower-garden-014": {
     "gwId": 14,
-    "img": "habitats/habitat_014.png"
+    "img": "assets/habitats/habitat_014.png"
   },
   "fresh-veggie-field-015": {
     "gwId": 15,
-    "img": "habitats/habitat_015.png"
+    "img": "assets/habitats/habitat_015.png"
   },
   "riding-warm-updrafts-016": {
     "gwId": 16,
-    "img": "habitats/habitat_016.png"
+    "img": "assets/habitats/habitat_016.png"
   },
   "campsite-017": {
     "gwId": 17,
-    "img": "habitats/habitat_017.png"
+    "img": "assets/habitats/habitat_017.png"
   },
   "training-waterfall-018": {
     "gwId": 18,
-    "img": "habitats/habitat_018.png"
+    "img": "assets/habitats/habitat_018.png"
   },
   "tantalizing-dining-set-019": {
     "gwId": 19,
-    "img": "habitats/habitat_019.png"
+    "img": "assets/habitats/habitat_019.png"
   },
   "picnic-set-020": {
     "gwId": 20,
-    "img": "habitats/habitat_020.png"
+    "img": "assets/habitats/habitat_020.png"
   },
   "flowery-table-021": {
     "gwId": 21,
-    "img": "habitats/habitat_021.png"
+    "img": "assets/habitats/habitat_021.png"
   },
   "bench-with-greenery-022": {
     "gwId": 22,
-    "img": "habitats/habitat_022.png"
+    "img": "assets/habitats/habitat_022.png"
   },
   "illuminated-bench-023": {
     "gwId": 23,
-    "img": "habitats/habitat_023.png"
+    "img": "assets/habitats/habitat_023.png"
   },
   "exercise-resting-spot-024": {
     "gwId": 24,
-    "img": "habitats/habitat_024.png"
+    "img": "assets/habitats/habitat_024.png"
   },
   "urgent-care-025": {
     "gwId": 25,
-    "img": "habitats/habitat_025.png"
+    "img": "assets/habitats/habitat_025.png"
   },
   "gym-first-aid-026": {
     "gwId": 26,
-    "img": "habitats/habitat_026.png"
+    "img": "assets/habitats/habitat_026.png"
   },
   "road-sign-027": {
     "gwId": 27,
-    "img": "habitats/habitat_027.png"
+    "img": "assets/habitats/habitat_027.png"
   },
   "large-luggage-carrier-028": {
     "gwId": 28,
-    "img": "habitats/habitat_028.png"
+    "img": "assets/habitats/habitat_028.png"
   },
   "lumberjacks-workplace-029": {
     "gwId": 29,
-    "img": "habitats/habitat_029.png"
+    "img": "assets/habitats/habitat_029.png"
   },
   "bed-with-a-plush-030": {
     "gwId": 30,
-    "img": "habitats/habitat_030.png"
+    "img": "assets/habitats/habitat_030.png"
   },
   "gently-lit-bed-031": {
     "gwId": 31,
-    "img": "habitats/habitat_031.png"
+    "img": "assets/habitats/habitat_031.png"
   },
   "grave-offering-032": {
     "gwId": 32,
-    "img": "habitats/habitat_032.png"
+    "img": "assets/habitats/habitat_032.png"
   },
   "creepy-grave-offering-033": {
     "gwId": 33,
-    "img": "habitats/habitat_033.png"
+    "img": "assets/habitats/habitat_033.png"
   },
   "chansey-resting-area-034": {
     "gwId": 34,
-    "img": "habitats/habitat_034.png"
+    "img": "assets/habitats/habitat_034.png"
   },
   "irresistible-scent-and-glow-035": {
     "gwId": 35,
-    "img": "habitats/habitat_035.png"
+    "img": "assets/habitats/habitat_035.png"
   },
   "floating-in-the-shade-036": {
     "gwId": 36,
-    "img": "habitats/habitat_036.png"
+    "img": "assets/habitats/habitat_036.png"
   },
   "smooth-tall-grass-037": {
     "gwId": 37,
-    "img": "habitats/habitat_037.png"
+    "img": "assets/habitats/habitat_037.png"
   },
   "factory-storage-038": {
     "gwId": 38,
-    "img": "habitats/habitat_038.png"
+    "img": "assets/habitats/habitat_038.png"
   },
   "luxury-chirp-chirp-meal-039": {
     "gwId": 39,
-    "img": "habitats/habitat_039.png"
+    "img": "assets/habitats/habitat_039.png"
   },
   "berry-feast-campsite-040": {
     "gwId": 40,
-    "img": "habitats/habitat_040.png"
+    "img": "assets/habitats/habitat_040.png"
   },
   "rain-dance-site-041": {
     "gwId": 41,
-    "img": "habitats/habitat_041.png"
+    "img": "assets/habitats/habitat_041.png"
   },
   "sunny-day-site-042": {
     "gwId": 42,
-    "img": "habitats/habitat_042.png"
+    "img": "assets/habitats/habitat_042.png"
   },
   "professors-treasure-trove-043": {
     "gwId": 43,
-    "img": "habitats/habitat_043.png"
+    "img": "assets/habitats/habitat_043.png"
   },
   "crazy-log-handicrafts-044": {
     "gwId": 44,
-    "img": "habitats/habitat_044.png"
+    "img": "assets/habitats/habitat_044.png"
   },
   "very-berry-space-045": {
     "gwId": 45,
-    "img": "habitats/habitat_045.png"
+    "img": "assets/habitats/habitat_045.png"
   },
   "garden-terrace-046": {
     "gwId": 46,
-    "img": "habitats/habitat_046.png"
+    "img": "assets/habitats/habitat_046.png"
   },
   "tree-shaded-snoozing-snorlax-047": {
     "gwId": 47,
-    "img": "habitats/habitat_047.png"
+    "img": "assets/habitats/habitat_047.png"
   },
   "good-old-fashioned-antiques-048": {
     "gwId": 48,
-    "img": "habitats/habitat_048.png"
+    "img": "assets/habitats/habitat_048.png"
   },
   "nothin-but-poke-balls-049": {
     "gwId": 49,
-    "img": "habitats/habitat_049.png"
+    "img": "assets/habitats/habitat_049.png"
   },
   "yellow-tall-grass-050": {
     "gwId": 50,
-    "img": "habitats/habitat_050.png"
+    "img": "assets/habitats/habitat_050.png"
   },
   "tree-shaded-yellow-tall-grass-051": {
     "gwId": 51,
-    "img": "habitats/habitat_051.png"
+    "img": "assets/habitats/habitat_051.png"
   },
   "elevated-yellow-tall-grass-052": {
     "gwId": 52,
-    "img": "habitats/habitat_052.png"
+    "img": "assets/habitats/habitat_052.png"
   },
   "hydrated-yellow-tall-grass-053": {
     "gwId": 53,
-    "img": "habitats/habitat_053.png"
+    "img": "assets/habitats/habitat_053.png"
   },
   "marshy-tall-grass-054": {
     "gwId": 54,
-    "img": "habitats/habitat_054.png"
+    "img": "assets/habitats/habitat_054.png"
   },
   "overgrowth-vending-machine-055": {
     "gwId": 55,
-    "img": "habitats/habitat_055.png"
+    "img": "assets/habitats/habitat_055.png"
   },
   "breezy-flower-bed-056": {
     "gwId": 56,
-    "img": "habitats/habitat_056.png"
+    "img": "assets/habitats/habitat_056.png"
   },
   "tropical-vibes-057": {
     "gwId": 57,
-    "img": "habitats/habitat_057.png"
+    "img": "assets/habitats/habitat_057.png"
   },
   "windy-flower-bed-058": {
     "gwId": 58,
-    "img": "habitats/habitat_058.png"
+    "img": "assets/habitats/habitat_058.png"
   },
   "shaded-beach-059": {
     "gwId": 59,
-    "img": "habitats/habitat_059.png"
+    "img": "assets/habitats/habitat_059.png"
   },
   "tropical-seaside-060": {
     "gwId": 60,
-    "img": "habitats/habitat_060.png"
+    "img": "assets/habitats/habitat_060.png"
   },
   "resting-spot-061": {
     "gwId": 61,
-    "img": "habitats/habitat_061.png"
+    "img": "assets/habitats/habitat_061.png"
   },
   "perpetual-mess-062": {
     "gwId": 62,
-    "img": "habitats/habitat_062.png"
+    "img": "assets/habitats/habitat_062.png"
   },
   "trash-collection-site-063": {
     "gwId": 63,
-    "img": "habitats/habitat_063.png"
+    "img": "assets/habitats/habitat_063.png"
   },
   "trash-can-central-064": {
     "gwId": 64,
-    "img": "habitats/habitat_064.png"
+    "img": "assets/habitats/habitat_064.png"
   },
   "trash-disposal-site-065": {
     "gwId": 65,
-    "img": "habitats/habitat_065.png"
+    "img": "assets/habitats/habitat_065.png"
   },
   "park-bench-066": {
     "gwId": 66,
-    "img": "habitats/habitat_066.png"
+    "img": "assets/habitats/habitat_066.png"
   },
   "tantalizing-restaurant-067": {
     "gwId": 67,
-    "img": "habitats/habitat_067.png"
+    "img": "assets/habitats/habitat_067.png"
   },
   "tableside-delivery-cart-068": {
     "gwId": 68,
-    "img": "habitats/habitat_068.png"
+    "img": "assets/habitats/habitat_068.png"
   },
   "chirp-chirp-meal-069": {
     "gwId": 69,
-    "img": "habitats/habitat_069.png"
+    "img": "assets/habitats/habitat_069.png"
   },
   "cafe-space-070": {
     "gwId": 70,
-    "img": "habitats/habitat_070.png"
+    "img": "assets/habitats/habitat_070.png"
   },
   "beach-set-071": {
     "gwId": 71,
-    "img": "habitats/habitat_071.png"
+    "img": "assets/habitats/habitat_071.png"
   },
   "light-up-stage-072": {
     "gwId": 72,
-    "img": "habitats/habitat_072.png"
+    "img": "assets/habitats/habitat_072.png"
   },
   "surprise-in-store-073": {
     "gwId": 73,
-    "img": "habitats/habitat_073.png"
+    "img": "assets/habitats/habitat_073.png"
   },
   "night-festival-venue-074": {
     "gwId": 74,
-    "img": "habitats/habitat_074.png"
+    "img": "assets/habitats/habitat_074.png"
   },
   "changing-area-075": {
     "gwId": 75,
-    "img": "habitats/habitat_075.png"
+    "img": "assets/habitats/habitat_075.png"
   },
   "private-makeup-stand-076": {
     "gwId": 76,
-    "img": "habitats/habitat_076.png"
+    "img": "assets/habitats/habitat_076.png"
   },
   "knitting-station-077": {
     "gwId": 77,
-    "img": "habitats/habitat_077.png"
+    "img": "assets/habitats/habitat_077.png"
   },
   "hot-spring-shower-078": {
     "gwId": 78,
-    "img": "habitats/habitat_078.png"
+    "img": "assets/habitats/habitat_078.png"
   },
   "resort-meal-prep-079": {
     "gwId": 79,
-    "img": "habitats/habitat_079.png"
+    "img": "assets/habitats/habitat_079.png"
   },
   "all-packed-up-080": {
     "gwId": 80,
-    "img": "habitats/habitat_080.png"
+    "img": "assets/habitats/habitat_080.png"
   },
   "full-recovery-081": {
     "gwId": 81,
-    "img": "habitats/habitat_081.png"
+    "img": "assets/habitats/habitat_081.png"
   },
   "alarm-clock-sleep-zone-082": {
     "gwId": 82,
-    "img": "habitats/habitat_082.png"
+    "img": "assets/habitats/habitat_082.png"
   },
   "vending-machine-break-area-083": {
     "gwId": 83,
-    "img": "habitats/habitat_083.png"
+    "img": "assets/habitats/habitat_083.png"
   },
   "vending-machine-set-084": {
     "gwId": 84,
-    "img": "habitats/habitat_084.png"
+    "img": "assets/habitats/habitat_084.png"
   },
   "mini-game-corner-085": {
     "gwId": 85,
-    "img": "habitats/habitat_085.png"
+    "img": "assets/habitats/habitat_085.png"
   },
   "waterwheel-spot-086": {
     "gwId": 86,
-    "img": "habitats/habitat_086.png"
+    "img": "assets/habitats/habitat_086.png"
   },
   "furnace-spot-087": {
     "gwId": 87,
-    "img": "habitats/habitat_087.png"
+    "img": "assets/habitats/habitat_087.png"
   },
   "dock-088": {
     "gwId": 88,
-    "img": "habitats/habitat_088.png"
+    "img": "assets/habitats/habitat_088.png"
   },
   "spooky-study-089": {
     "gwId": 89,
-    "img": "habitats/habitat_089.png"
+    "img": "assets/habitats/habitat_089.png"
   },
   "playing-pirate-090": {
     "gwId": 90,
-    "img": "habitats/habitat_090.png"
+    "img": "assets/habitats/habitat_090.png"
   },
   "working-the-register-091": {
     "gwId": 91,
-    "img": "habitats/habitat_091.png"
+    "img": "assets/habitats/habitat_091.png"
   },
   "tiny-atelier-092": {
     "gwId": 92,
-    "img": "habitats/habitat_092.png"
+    "img": "assets/habitats/habitat_092.png"
   },
   "gourmets-altar-093": {
     "gwId": 93,
-    "img": "habitats/habitat_093.png"
+    "img": "assets/habitats/habitat_093.png"
   },
   "pikachu-space-094": {
     "gwId": 94,
-    "img": "habitats/habitat_094.png"
+    "img": "assets/habitats/habitat_094.png"
   },
   "cuteness-overload-095": {
     "gwId": 95,
-    "img": "habitats/habitat_095.png"
+    "img": "assets/habitats/habitat_095.png"
   },
   "welcoming-resort-096": {
     "gwId": 96,
-    "img": "habitats/habitat_096.png"
+    "img": "assets/habitats/habitat_096.png"
   },
   "plain-life-097": {
     "gwId": 97,
-    "img": "habitats/habitat_097.png"
+    "img": "assets/habitats/habitat_097.png"
   },
   "red-tall-grass-098": {
     "gwId": 98,
-    "img": "habitats/habitat_098.png"
+    "img": "assets/habitats/habitat_098.png"
   },
   "tree-shaded-red-tall-grass-099": {
     "gwId": 99,
-    "img": "habitats/habitat_099.png"
+    "img": "assets/habitats/habitat_099.png"
   },
   "pointy-tree-shaded-rocky-tall-grass-100": {
     "gwId": 100,
-    "img": "habitats/habitat_100.png"
+    "img": "assets/habitats/habitat_100.png"
   },
   "hydrated-red-tall-grass-101": {
     "gwId": 101,
-    "img": "habitats/habitat_101.png"
+    "img": "assets/habitats/habitat_101.png"
   },
   "elevated-red-tall-grass-102": {
     "gwId": 102,
-    "img": "habitats/habitat_102.png"
+    "img": "assets/habitats/habitat_102.png"
   },
   "grassy-training-field-103": {
     "gwId": 103,
-    "img": "habitats/habitat_103.png"
+    "img": "assets/habitats/habitat_103.png"
   },
   "graceful-flower-bed-104": {
     "gwId": 104,
-    "img": "habitats/habitat_104.png"
+    "img": "assets/habitats/habitat_104.png"
   },
   "tree-shaded-graceful-flower-bed-105": {
     "gwId": 105,
-    "img": "habitats/habitat_105.png"
+    "img": "assets/habitats/habitat_105.png"
   },
   "hydrated-graceful-flower-bed-106": {
     "gwId": 106,
-    "img": "habitats/habitat_106.png"
+    "img": "assets/habitats/habitat_106.png"
   },
   "flower-garden-stump-stage-107": {
     "gwId": 107,
-    "img": "habitats/habitat_107.png"
+    "img": "assets/habitats/habitat_107.png"
   },
   "toil-in-the-soil-108": {
     "gwId": 108,
-    "img": "habitats/habitat_108.png"
+    "img": "assets/habitats/habitat_108.png"
   },
   "uplifting-duckweed-109": {
     "gwId": 109,
-    "img": "habitats/habitat_109.png"
+    "img": "assets/habitats/habitat_109.png"
   },
   "mossy-rest-spot-110": {
     "gwId": 110,
-    "img": "habitats/habitat_110.png"
+    "img": "assets/habitats/habitat_110.png"
   },
   "mossy-boulder-111": {
     "gwId": 111,
-    "img": "habitats/habitat_111.png"
+    "img": "assets/habitats/habitat_111.png"
   },
   "mossy-hot-spring-112": {
     "gwId": 112,
-    "img": "habitats/habitat_112.png"
+    "img": "assets/habitats/habitat_112.png"
   },
   "open-air-bath-113": {
     "gwId": 113,
-    "img": "habitats/habitat_113.png"
+    "img": "assets/habitats/habitat_113.png"
   },
   "harmonious-hot-spring-114": {
     "gwId": 114,
-    "img": "habitats/habitat_114.png"
+    "img": "assets/habitats/habitat_114.png"
   },
   "piping-hot-lava-115": {
     "gwId": 115,
-    "img": "habitats/habitat_115.png"
+    "img": "assets/habitats/habitat_115.png"
   },
   "digging-and-burning-116": {
     "gwId": 116,
-    "img": "habitats/habitat_116.png"
+    "img": "assets/habitats/habitat_116.png"
   },
   "clink-clang-iron-construction-117": {
     "gwId": 117,
-    "img": "habitats/habitat_117.png"
+    "img": "assets/habitats/habitat_117.png"
   },
   "creepy-white-rocks-118": {
     "gwId": 118,
-    "img": "habitats/habitat_118.png"
+    "img": "assets/habitats/habitat_118.png"
   },
   "container-snacking-119": {
     "gwId": 119,
-    "img": "habitats/habitat_119.png"
+    "img": "assets/habitats/habitat_119.png"
   },
   "dinner-table-surprise-120": {
     "gwId": 120,
-    "img": "habitats/habitat_120.png"
+    "img": "assets/habitats/habitat_120.png"
   },
   "best-bread-bakery-121": {
     "gwId": 121,
-    "img": "habitats/habitat_121.png"
+    "img": "assets/habitats/habitat_121.png"
   },
   "mini-kitchen-122": {
     "gwId": 122,
-    "img": "habitats/habitat_122.png"
+    "img": "assets/habitats/habitat_122.png"
   },
   "house-party-123": {
     "gwId": 123,
-    "img": "habitats/habitat_123.png"
+    "img": "assets/habitats/habitat_123.png"
   },
   "lazy-photo-album-scrolling-124": {
     "gwId": 124,
-    "img": "habitats/habitat_124.png"
+    "img": "assets/habitats/habitat_124.png"
   },
   "chirping-recital-125": {
     "gwId": 125,
-    "img": "habitats/habitat_125.png"
+    "img": "assets/habitats/habitat_125.png"
   },
   "recital-stage-126": {
     "gwId": 126,
-    "img": "habitats/habitat_126.png"
+    "img": "assets/habitats/habitat_126.png"
   },
   "box-to-the-rhythm-127": {
     "gwId": 127,
-    "img": "habitats/habitat_127.png"
+    "img": "assets/habitats/habitat_127.png"
   },
   "music-and-magazines-128": {
     "gwId": 128,
-    "img": "habitats/habitat_128.png"
+    "img": "assets/habitats/habitat_128.png"
   },
   "mini-museum-129": {
     "gwId": 129,
-    "img": "habitats/habitat_129.png"
+    "img": "assets/habitats/habitat_129.png"
   },
   "refreshing-locker-room-130": {
     "gwId": 130,
-    "img": "habitats/habitat_130.png"
+    "img": "assets/habitats/habitat_130.png"
   },
   "bronze-landmark-131": {
     "gwId": 131,
-    "img": "habitats/habitat_131.png"
+    "img": "assets/habitats/habitat_131.png"
   },
   "railroad-crossing-132": {
     "gwId": 132,
-    "img": "habitats/habitat_132.png"
+    "img": "assets/habitats/habitat_132.png"
   },
   "chefs-kitchen-133": {
     "gwId": 133,
-    "img": "habitats/habitat_133.png"
+    "img": "assets/habitats/habitat_133.png"
   },
   "absolute-luxury-134": {
     "gwId": 134,
-    "img": "habitats/habitat_134.png"
+    "img": "assets/habitats/habitat_134.png"
   },
   "heavy-iron-135": {
     "gwId": 135,
-    "img": "habitats/habitat_135.png"
+    "img": "assets/habitats/habitat_135.png"
   },
   "modern-living-136": {
     "gwId": 136,
-    "img": "habitats/habitat_136.png"
+    "img": "assets/habitats/habitat_136.png"
   },
   "pink-tall-grass-137": {
     "gwId": 137,
-    "img": "habitats/habitat_137.png"
+    "img": "assets/habitats/habitat_137.png"
   },
   "tree-shaded-pink-tall-grass-138": {
     "gwId": 138,
-    "img": "habitats/habitat_138.png"
+    "img": "assets/habitats/habitat_138.png"
   },
   "hydrated-pink-tall-grass-139": {
     "gwId": 139,
-    "img": "habitats/habitat_139.png"
+    "img": "assets/habitats/habitat_139.png"
   },
   "elevated-pink-tall-grass-140": {
     "gwId": 140,
-    "img": "habitats/habitat_140.png"
+    "img": "assets/habitats/habitat_140.png"
   },
   "concrete-pipe-secret-base-141": {
     "gwId": 141,
-    "img": "habitats/habitat_141.png"
+    "img": "assets/habitats/habitat_141.png"
   },
   "fluffy-flower-bed-142": {
     "gwId": 142,
-    "img": "habitats/habitat_142.png"
+    "img": "assets/habitats/habitat_142.png"
   },
   "tree-shaded-fluffy-flower-bed-143": {
     "gwId": 143,
-    "img": "habitats/habitat_143.png"
+    "img": "assets/habitats/habitat_143.png"
   },
   "hydrated-fluffy-flower-bed-144": {
     "gwId": 144,
-    "img": "habitats/habitat_144.png"
+    "img": "assets/habitats/habitat_144.png"
   },
   "waterside-dinghy-145": {
     "gwId": 145,
-    "img": "habitats/habitat_145.png"
+    "img": "assets/habitats/habitat_145.png"
   },
   "illuminated-waterfall-146": {
     "gwId": 146,
-    "img": "habitats/habitat_146.png"
+    "img": "assets/habitats/habitat_146.png"
   },
   "birdsong-garden-147": {
     "gwId": 147,
-    "img": "habitats/habitat_147.png"
+    "img": "assets/habitats/habitat_147.png"
   },
   "simple-bathroom-148": {
     "gwId": 148,
-    "img": "habitats/habitat_148.png"
+    "img": "assets/habitats/habitat_148.png"
   },
   "cycling-rest-stop-149": {
     "gwId": 149,
-    "img": "habitats/habitat_149.png"
+    "img": "assets/habitats/habitat_149.png"
   },
   "fireplace-nap-spot-150": {
     "gwId": 150,
-    "img": "habitats/habitat_150.png"
+    "img": "assets/habitats/habitat_150.png"
   },
   "surging-psychic-power-151": {
     "gwId": 151,
-    "img": "habitats/habitat_151.png"
+    "img": "assets/habitats/habitat_151.png"
   },
   "fortune-tellers-table-152": {
     "gwId": 152,
-    "img": "habitats/habitat_152.png"
+    "img": "assets/habitats/habitat_152.png"
   },
   "trash-site-tv-153": {
     "gwId": 153,
-    "img": "habitats/habitat_153.png"
+    "img": "assets/habitats/habitat_153.png"
   },
   "oversized-dumping-ground-154": {
     "gwId": 154,
-    "img": "habitats/habitat_154.png"
+    "img": "assets/habitats/habitat_154.png"
   },
   "interrogation-desk-155": {
     "gwId": 155,
-    "img": "habitats/habitat_155.png"
+    "img": "assets/habitats/habitat_155.png"
   },
   "sewer-hole-inspection-156": {
     "gwId": 156,
-    "img": "habitats/habitat_156.png"
+    "img": "assets/habitats/habitat_156.png"
   },
   "spotless-washing-station-157": {
     "gwId": 157,
-    "img": "habitats/habitat_157.png"
+    "img": "assets/habitats/habitat_157.png"
   },
   "home-theater-158": {
     "gwId": 158,
-    "img": "habitats/habitat_158.png"
+    "img": "assets/habitats/habitat_158.png"
   },
   "study-area-159": {
     "gwId": 159,
-    "img": "habitats/habitat_159.png"
+    "img": "assets/habitats/habitat_159.png"
   },
   "rhythmic-living-room-160": {
     "gwId": 160,
-    "img": "habitats/habitat_160.png"
+    "img": "assets/habitats/habitat_160.png"
   },
   "squeaky-clean-161": {
     "gwId": 161,
-    "img": "habitats/habitat_161.png"
+    "img": "assets/habitats/habitat_161.png"
   },
   "moisturizing-makeup-stand-162": {
     "gwId": 162,
-    "img": "habitats/habitat_162.png"
+    "img": "assets/habitats/habitat_162.png"
   },
   "mini-library-163": {
     "gwId": 163,
-    "img": "habitats/habitat_163.png"
+    "img": "assets/habitats/habitat_163.png"
   },
   "game-corner-battle-zone-164": {
     "gwId": 164,
-    "img": "habitats/habitat_164.png"
+    "img": "assets/habitats/habitat_164.png"
   },
   "playland-165": {
     "gwId": 165,
-    "img": "habitats/habitat_165.png"
+    "img": "assets/habitats/habitat_165.png"
   },
   "work-desk-166": {
     "gwId": 166,
-    "img": "habitats/habitat_166.png"
+    "img": "assets/habitats/habitat_166.png"
   },
   "office-storeroom-167": {
     "gwId": 167,
-    "img": "habitats/habitat_167.png"
+    "img": "assets/habitats/habitat_167.png"
   },
   "experiment-space-168": {
     "gwId": 168,
-    "img": "habitats/habitat_168.png"
+    "img": "assets/habitats/habitat_168.png"
   },
   "professors-apprentice-program-169": {
     "gwId": 169,
-    "img": "habitats/habitat_169.png"
+    "img": "assets/habitats/habitat_169.png"
   },
   "researchers-desk-170": {
     "gwId": 170,
-    "img": "habitats/habitat_170.png"
+    "img": "assets/habitats/habitat_170.png"
   },
   "public-reading-material-171": {
     "gwId": 171,
-    "img": "habitats/habitat_171.png"
+    "img": "assets/habitats/habitat_171.png"
   },
   "heart-pounding-surprise-box-172": {
     "gwId": 172,
-    "img": "habitats/habitat_172.png"
+    "img": "assets/habitats/habitat_172.png"
   },
   "prank-button-173": {
     "gwId": 173,
-    "img": "habitats/habitat_173.png"
+    "img": "assets/habitats/habitat_173.png"
   },
   "picturesque-photo-cutout-board-174": {
     "gwId": 174,
-    "img": "habitats/habitat_174.png"
+    "img": "assets/habitats/habitat_174.png"
   },
   "tire-park-175": {
     "gwId": 175,
-    "img": "habitats/habitat_175.png"
+    "img": "assets/habitats/habitat_175.png"
   },
   "natures-market-176": {
     "gwId": 176,
-    "img": "habitats/habitat_176.png"
+    "img": "assets/habitats/habitat_176.png"
   },
   "construction-site-generator-177": {
     "gwId": 177,
-    "img": "habitats/habitat_177.png"
+    "img": "assets/habitats/habitat_177.png"
   },
   "dojo-training-178": {
     "gwId": 178,
-    "img": "habitats/habitat_178.png"
+    "img": "assets/habitats/habitat_178.png"
   },
   "evil-organization-hq-179": {
     "gwId": 179,
-    "img": "habitats/habitat_179.png"
+    "img": "assets/habitats/habitat_179.png"
   },
   "nine-flames-180": {
     "gwId": 180,
-    "img": "habitats/habitat_180.png"
+    "img": "assets/habitats/habitat_180.png"
   },
   "plush-central-181": {
     "gwId": 181,
-    "img": "habitats/habitat_181.png"
+    "img": "assets/habitats/habitat_181.png"
   },
   "gamers-paradise-182": {
     "gwId": 182,
-    "img": "habitats/habitat_182.png"
+    "img": "assets/habitats/habitat_182.png"
   },
   "top-pop-183": {
     "gwId": 183,
-    "img": "habitats/habitat_183.png"
+    "img": "assets/habitats/habitat_183.png"
   },
   "fishing-pond-184": {
     "gwId": 184,
-    "img": "habitats/habitat_184.png"
+    "img": "assets/habitats/habitat_184.png"
   },
   "ocean-fishing-spot-185": {
     "gwId": 185,
-    "img": "habitats/habitat_185.png"
+    "img": "assets/habitats/habitat_185.png"
   },
   "marsh-fishing-spot-186": {
     "gwId": 186,
-    "img": "habitats/habitat_186.png"
+    "img": "assets/habitats/habitat_186.png"
   },
   "hot-spring-fishing-spot-187": {
     "gwId": 187,
-    "img": "habitats/habitat_187.png"
+    "img": "assets/habitats/habitat_187.png"
   },
   "magma-fishing-spot-188": {
     "gwId": 188,
-    "img": "habitats/habitat_188.png"
+    "img": "assets/habitats/habitat_188.png"
   },
   "amped-rock-stage-189": {
     "gwId": 189,
-    "img": "habitats/habitat_189.png"
+    "img": "assets/habitats/habitat_189.png"
   },
   "low-key-rock-stage-190": {
     "gwId": 190,
-    "img": "habitats/habitat_190.png"
+    "img": "assets/habitats/habitat_190.png"
   },
   "malicious-knights-shrine-191": {
     "gwId": 191,
-    "img": "habitats/habitat_191.png"
+    "img": "assets/habitats/habitat_191.png"
   },
   "auspicious-knights-shrine-192": {
     "gwId": 192,
-    "img": "habitats/habitat_192.png"
+    "img": "assets/habitats/habitat_192.png"
   },
   "wing-fossil-display-193": {
     "gwId": 193,
-    "img": "habitats/habitat_193.png"
+    "img": "assets/habitats/habitat_193.png"
   },
   "skull-fossil-display-194": {
     "gwId": 194,
-    "img": "habitats/habitat_194.png"
+    "img": "assets/habitats/habitat_194.png"
   },
   "headbutt-fossil-display-195": {
     "gwId": 195,
-    "img": "habitats/habitat_195.png"
+    "img": "assets/habitats/habitat_195.png"
   },
   "armor-fossil-display-196": {
     "gwId": 196,
-    "img": "habitats/habitat_196.png"
+    "img": "assets/habitats/habitat_196.png"
   },
   "shield-fossil-display-197": {
     "gwId": 197,
-    "img": "habitats/habitat_197.png"
+    "img": "assets/habitats/habitat_197.png"
   },
   "jaw-fossil-display-198": {
     "gwId": 198,
-    "img": "habitats/habitat_198.png"
+    "img": "assets/habitats/habitat_198.png"
   },
   "despot-fossil-display-199": {
     "gwId": 199,
-    "img": "habitats/habitat_199.png"
+    "img": "assets/habitats/habitat_199.png"
   },
   "sail-fossil-display-200": {
     "gwId": 200,
-    "img": "habitats/habitat_200.png"
+    "img": "assets/habitats/habitat_200.png"
   },
   "tundra-fossil-display-201": {
     "gwId": 201,
-    "img": "habitats/habitat_201.png"
+    "img": "assets/habitats/habitat_201.png"
   },
   "boundless-blue-beverage-202": {
     "gwId": 202,
-    "img": "habitats/habitat_202.png"
+    "img": "assets/habitats/habitat_202.png"
   },
   "electrifying-potatoes-203": {
     "gwId": 203,
-    "img": "habitats/habitat_203.png"
+    "img": "assets/habitats/habitat_203.png"
   },
   "burning-hot-spice-204": {
     "gwId": 204,
-    "img": "habitats/habitat_204.png"
+    "img": "assets/habitats/habitat_204.png"
   },
   "elegant-daytime-treats-205": {
     "gwId": 205,
-    "img": "habitats/habitat_205.png"
+    "img": "assets/habitats/habitat_205.png"
   },
   "dark-chocolate-cookies-206": {
     "gwId": 206,
-    "img": "habitats/habitat_206.png"
+    "img": "assets/habitats/habitat_206.png"
   },
   "leafy-greens-sandwich-207": {
     "gwId": 207,
-    "img": "habitats/habitat_207.png"
+    "img": "assets/habitats/habitat_207.png"
   },
   "chilly-shaved-ice-208": {
     "gwId": 208,
-    "img": "habitats/habitat_208.png"
+    "img": "assets/habitats/habitat_208.png"
   },
   "lovely-ribbon-cake-209": {
     "gwId": 209,
-    "img": "habitats/habitat_209.png"
+    "img": "assets/habitats/habitat_209.png"
   }
 }

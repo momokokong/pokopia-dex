@@ -22,7 +22,7 @@ console.log('Rarity:', rarityMatch ? rarityMatch[1] : 'not found');
 
 // Extract biomes from habitat image filenames
 const biomeMatches = d.match(/habitats\/habitat_ui\/(.*?)-\d+\.png/g);
-const biomes = biomeMatches ? [...new Set(biomeMatches.map(m => m.replace('habitats/habitat_ui/','').replace(/-\d+\.png/,'').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())))] : [];
+const biomes = biomeMatches ? [...new Set(biomeMatches.map(m => m.replace('assets/habitats/habitat_ui/','').replace(/-\d+\.png/,'').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())))] : [];
 console.log('Biomes:', biomes);
 
 // Extract ideal habitat

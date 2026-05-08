@@ -65,7 +65,7 @@ async function main() {
     var slug = (slugPatterns[i] || 'habitat') + '-' + num;
     mapping[slug] = {
       gwId: parseInt(gw.id),
-      gwImg: 'habitats/habitat_' + String(parseInt(gw.id)).padStart(3, '0') + '.png',
+      gwImg: 'assets/habitats/habitat_' + String(parseInt(gw.id)).padStart(3, '0') + '.png',
       jaName: gw.n,
       enName: gw.en
     };

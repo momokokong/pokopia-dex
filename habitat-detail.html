@@ -32,7 +32,7 @@
   </style>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#FF8C42">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 </head>
 <body>
 
@@ -105,7 +105,7 @@
       }
     };
 
-    const SPRITE_BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/';
+    const SPRITE_BASE = 'https://raw.githubusercontent.com/PokeAPI/assets/sprites/master/assets/sprites/pokemon/other/official-artwork/';
 
     function getRarityLabel(rarity, lang) {
       const t = I18N[lang] || I18N.en;
@@ -208,7 +208,7 @@
       if (h.requirements && h.requirements.length > 0) {
         reqHTML = h.requirements.map(r => {
           const itemName = r.item[lang] || r.item.en;
-          const iconHTML = h.image && h.image.startsWith('habitats/') ? 
+          const iconHTML = h.image && h.image.startsWith('assets/habitats/') ? 
             `<img src="${h.image}" style="width:24px;height:24px;object-fit:contain;border-radius:4px;">` : 
             `<span>${h.image || '🌿'}</span>`;
           return `<div class="habitat-req-item">
@@ -256,7 +256,7 @@
         <div class="detail-hero" style="background: linear-gradient(135deg, #a8e6cf 0%, #7bc97b 100%);">
           <div class="detail-hero__pokedex-num">#${String(h.id).padStart(3, '0')}</div>
           <div class="habitat-hero__icon" style="text-align:center;padding:20px 0;max-height:200px;overflow:hidden;">
-            ${h.image && h.image.startsWith('habitats/') ? 
+            ${h.image && h.image.startsWith('assets/habitats/') ? 
               `<img src="${h.image}" alt="${habitatName}" style="max-height:180px;width:auto;object-fit:contain;border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,0.15);">` : 
               `<div style="font-size:100px;line-height:1;">${h.image || '🌿'}</div>`}
           </div>

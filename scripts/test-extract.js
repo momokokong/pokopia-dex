@@ -46,7 +46,7 @@ console.log('\n=== BIOMES ===');
 const biomeMatches = combined.match(/habitats\/habitat_ui\/(.*?)-\d+\.png/g);
 if (biomeMatches) {
     const biomes = [...new Set(biomeMatches.map(b => 
-        b.replace('habitats/habitat_ui/', '').replace(/-\d+\.png/, '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+        b.replace('assets/habitats/habitat_ui/', '').replace(/-\d+\.png/, '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
     ))];
     console.log(biomes);
 }

@@ -146,7 +146,7 @@ async function scrapePokemon(slug, pokopiaId, pokedexNum, nameEn, nameZh, nameEs
     specialties: specialties,
     rarity: rarityStars >= 3 ? 'Rare' : rarityStars === 2 ? 'Uncommon' : 'Common',
     rarity_stars: rarityStars,
-    sprite_url: pokedexNum ? 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/' + pokedexNum + '.png' : ''
+    sprite_url: pokedexNum ? 'https://raw.githubusercontent.com/PokeAPI/assets/sprites/master/assets/sprites/pokemon/other/official-artwork/' + pokedexNum + '.png' : ''
   };
 }
 

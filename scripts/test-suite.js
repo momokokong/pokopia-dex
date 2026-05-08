@@ -52,7 +52,7 @@ async function runTests() {
     test(`File exists: ${f}`, fs.existsSync(path.join(DIR, f)));
   });
 
-  const iconFiles = ['icons/icon-192.png','icons/icon-512.png','icons/icon-maskable-192.png','icons/icon-maskable-512.png'];
+  const iconFiles = ['assets/icons/icon-192.png','assets/icons/icon-512.png','assets/icons/icon-maskable-192.png','assets/icons/icon-maskable-512.png'];
   iconFiles.forEach(f => {
     test(`File exists: ${f}`, fs.existsSync(path.join(DIR, f)));
   });

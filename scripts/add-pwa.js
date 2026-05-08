@@ -5,7 +5,7 @@ const files = ['index.html', 'detail.html', 'habitats.html', 'habitat-detail.htm
 
 const manifestLink = '  <link rel="manifest" href="manifest.json">';
 const metaTheme = '  <meta name="theme-color" content="#FF8C42">';
-const appleTouch = '  <link rel="apple-touch-icon" href="icons/icon-192.png">';
+const appleTouch = '  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">';
 
 const swScript = `
   <script>

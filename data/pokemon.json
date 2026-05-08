@@ -29,7 +29,7 @@
             "zh": "高草叢",
             "es": "Hierba alta"
           },
-          "image": "habitats/habitat_001.png"
+          "image": "assets/habitats/habitat_001.png"
         },
         {
           "id": 22,
@@ -38,7 +38,7 @@
             "zh": "綠意環繞的長椅",
             "es": "Banco con vegetación"
           },
-          "image": "habitats/habitat_022.png"
+          "image": "assets/habitats/habitat_022.png"
         }
       ],
       "time": "All day",
@@ -249,7 +249,7 @@
             "zh": "花田",
             "es": "Campo de flores"
           },
-          "image": "habitats/habitat_011.png"
+          "image": "assets/habitats/habitat_011.png"
         },
         {
           "id": 22,
@@ -258,7 +258,7 @@
             "zh": "綠意環繞的長椅",
             "es": "Banco con vegetación"
           },
-          "image": "habitats/habitat_022.png"
+          "image": "assets/habitats/habitat_022.png"
         }
       ],
       "time": "All day",
@@ -464,7 +464,7 @@
             "zh": "花田",
             "es": "Campo de flores"
           },
-          "image": "habitats/habitat_011.png"
+          "image": "assets/habitats/habitat_011.png"
         },
         {
           "id": 46,
@@ -473,7 +473,7 @@
             "zh": "花園露台",
             "es": "Terraza del jardín"
           },
-          "image": "habitats/habitat_046.png"
+          "image": "assets/habitats/habitat_046.png"
         }
       ],
       "time": "All day",
@@ -680,7 +680,7 @@
             "zh": "高草叢",
             "es": "Hierba alta"
           },
-          "image": "habitats/habitat_001.png"
+          "image": "assets/habitats/habitat_001.png"
         }
       ],
       "time": "All day",
@@ -863,7 +863,7 @@
             "zh": "露營地",
             "es": "Campamento"
           },
-          "image": "habitats/habitat_017.png"
+          "image": "assets/habitats/habitat_017.png"
         }
       ],
       "time": "All day",
@@ -1026,7 +1026,7 @@
             "zh": "高草叢",
             "es": "Hierba alta"
           },
-          "image": "habitats/habitat_001.png"
+          "image": "assets/habitats/habitat_001.png"
         },
         {
           "id": 40,
@@ -1035,7 +1035,7 @@
             "zh": "莓果大餐營地",
             "es": "Campamento de banquete de bayas"
           },
-          "image": "habitats/habitat_040.png"
+          "image": "assets/habitats/habitat_040.png"
         }
       ],
       "time": "All day",
@@ -1209,7 +1209,7 @@
             "zh": "高草叢",
             "es": "Hierba alta"
           },
-          "image": "habitats/habitat_001.png"
+          "image": "assets/habitats/habitat_001.png"
         },
         {
           "id": 4,
@@ -1218,7 +1218,7 @@
             "zh": "潮濕的高草叢",
             "es": "Hierba alta húmeda"
           },
-          "image": "habitats/habitat_004.png"
+          "image": "assets/habitats/habitat_004.png"
         }
       ],
       "time": "All day",
@@ -1403,7 +1403,7 @@
             "zh": "潮濕的高草叢",
             "es": "Hierba alta húmeda"
           },
-          "image": "habitats/habitat_004.png"
+          "image": "assets/habitats/habitat_004.png"
         }
       ],
       "time": "All day",
@@ -1545,7 +1545,7 @@
             "zh": "潮濕的高草叢",
             "es": "Hierba alta húmeda"
           },
-          "image": "habitats/habitat_004.png"
+          "image": "assets/habitats/habitat_004.png"
         },
         {
           "id": 36,
@@ -1554,7 +1554,7 @@
             "zh": "蔭下漂流",
             "es": "Flotando a la sombra"
           },
-          "image": "habitats/habitat_036.png"
+          "image": "assets/habitats/habitat_036.png"
         }
       ],
       "time": "All day",
@@ -1706,7 +1706,7 @@
             "zh": "高地的高草叢",
             "es": "Hierba alta elevada"
           },
-          "image": "habitats/habitat_006.png"
+          "image": "assets/habitats/habitat_006.png"
         },
         {
           "id": 8,
@@ -1715,7 +1715,7 @@
             "zh": "漂亮的花圃",
             "es": "Macizo de flores bonito"
           },
-          "image": "habitats/habitat_008.png"
+          "image": "assets/habitats/habitat_008.png"
         }
       ],
       "time": "All day",
@@ -1916,7 +1916,7 @@
             "zh": "高地的高草叢",
             "es": "Hierba alta elevada"
           },
-          "image": "habitats/habitat_006.png"
+          "image": "assets/habitats/habitat_006.png"
         },
         {
           "id": 8,
@@ -1925,7 +1925,7 @@
             "zh": "漂亮的花圃",
             "es": "Macizo de flores bonito"
           },
-          "image": "habitats/habitat_008.png"
+          "image": "assets/habitats/habitat_008.png"
         }
       ],
       "time": "All day",
@@ -2127,7 +2127,7 @@
             "zh": "奢華啾啾餐",
             "es": "Comida pío pío de lujo"
           },
-          "image": "habitats/habitat_039.png"
+          "image": "assets/habitats/habitat_039.png"
         }
       ],
       "time": "All day",
@@ -2312,7 +2312,7 @@
             "zh": "高草叢",
             "es": "Hierba alta"
           },
-          "image": "habitats/habitat_001.png"
+          "image": "assets/habitats/habitat_001.png"
         }
       ],
       "time": "All day",
@@ -2512,7 +2512,7 @@
             "zh": "熱帶風情",
             "es": "Vibras tropicales"
           },
-          "image": "habitats/habitat_057.png"
+          "image": "assets/habitats/habitat_057.png"
         }
       ],
       "time": "All day",
@@ -2712,7 +2712,7 @@
             "zh": "吉利吉休息區",
             "es": "Área de descanso de Chansey"
           },
-          "image": "habitats/habitat_034.png"
+          "image": "assets/habitats/habitat_034.png"
         }
       ],
       "time": "All day",
@@ -2914,7 +2914,7 @@
             "zh": "吉利吉休息區",
             "es": "Área de descanso de Chansey"
           },
-          "image": "habitats/habitat_034.png"
+          "image": "assets/habitats/habitat_034.png"
         }
       ],
       "time": "All day",
@@ -3089,7 +3089,7 @@
             "zh": "高地的花圃",
             "es": "Macizo de flores elevado"
           },
-          "image": "habitats/habitat_012.png"
+          "image": "assets/habitats/habitat_012.png"
         },
         {
           "id": 14,
@@ -3098,7 +3098,7 @@
             "zh": "花園",
             "es": "Jardín de flores"
           },
-          "image": "habitats/habitat_014.png"
+          "image": "assets/habitats/habitat_014.png"
         }
       ],
       "time": "All day",
@@ -3268,7 +3268,7 @@
             "zh": "高地的花圃",
             "es": "Macizo de flores elevado"
           },
-          "image": "habitats/habitat_012.png"
+          "image": "assets/habitats/habitat_012.png"
         },
         {
           "id": 14,
@@ -3277,7 +3277,7 @@
             "zh": "花園",
             "es": "Jardín de flores"
           },
-          "image": "habitats/habitat_014.png"
+          "image": "assets/habitats/habitat_014.png"
         }
       ],
       "time": "All day",
@@ -3450,7 +3450,7 @@
             "zh": "明亮的高草叢",
             "es": "Hierba alta iluminada"
           },
-          "image": "habitats/habitat_007.png"
+          "image": "assets/habitats/habitat_007.png"
         },
         {
           "id": 23,
@@ -3459,7 +3459,7 @@
             "zh": "明亮的長椅",
             "es": "Banco iluminado"
           },
-          "image": "habitats/habitat_023.png"
+          "image": "assets/habitats/habitat_023.png"
         }
       ],
       "time": "All day",
@@ -3629,7 +3629,7 @@
             "zh": "明亮的高草叢",
             "es": "Hierba alta iluminada"
           },
-          "image": "habitats/habitat_007.png"
+          "image": "assets/habitats/habitat_007.png"
         },
         {
           "id": 23,
@@ -3638,7 +3638,7 @@
             "zh": "明亮的長椅",
             "es": "Banco iluminado"
           },
-          "image": "habitats/habitat_023.png"
+          "image": "assets/habitats/habitat_023.png"
         }
       ],
       "time": "All day",
@@ -3808,7 +3808,7 @@
             "zh": "樹蔭下的高草叢",
             "es": "Hierba alta a la sombra de los árboles"
           },
-          "image": "habitats/habitat_002.png"
+          "image": "assets/habitats/habitat_002.png"
         }
       ],
       "time": "All day",
@@ -3978,7 +3978,7 @@
             "zh": "花桌",
             "es": "Mesa con flores"
           },
-          "image": "habitats/habitat_021.png"
+          "image": "assets/habitats/habitat_021.png"
         },
         {
           "id": 35,
@@ -3987,7 +3987,7 @@
             "zh": "無法抗拒的香氣與光芒",
             "es": "Aroma y brillo irresistibles"
           },
-          "image": "habitats/habitat_035.png"
+          "image": "assets/habitats/habitat_035.png"
         }
       ],
       "time": "All day",
@@ -4164,7 +4164,7 @@
             "zh": "花桌",
             "es": "Mesa con flores"
           },
-          "image": "habitats/habitat_021.png"
+          "image": "assets/habitats/habitat_021.png"
         },
         {
           "id": 35,
@@ -4173,7 +4173,7 @@
             "zh": "無法抗拒的香氣與光芒",
             "es": "Aroma y brillo irresistibles"
           },
-          "image": "habitats/habitat_035.png"
+          "image": "assets/habitats/habitat_035.png"
         }
       ],
       "time": "All day",
@@ -4350,7 +4350,7 @@
             "zh": "海邊的高草叢",
             "es": "Hierba alta junto al mar"
           },
-          "image": "habitats/habitat_005.png"
+          "image": "assets/habitats/habitat_005.png"
         }
       ],
       "time": "All day",
@@ -4548,7 +4548,7 @@
             "zh": "海邊的高草叢",
             "es": "Hierba alta junto al mar"
           },
-          "image": "habitats/habitat_005.png"
+          "image": "assets/habitats/habitat_005.png"
         },
         {
           "id": 30,
@@ -4557,7 +4557,7 @@
             "zh": "有布偶的床",
             "es": "Cama con peluche"
           },
-          "image": "habitats/habitat_030.png"
+          "image": "assets/habitats/habitat_030.png"
         },
         {
           "id": 184,
@@ -4566,7 +4566,7 @@
             "zh": "釣魚池",
             "es": "Estanque de pesca"
           },
-          "image": "habitats/habitat_184.png"
+          "image": "assets/habitats/habitat_184.png"
         }
       ],
       "time": "All day",
@@ -4743,7 +4743,7 @@
             "zh": "海邊的高草叢",
             "es": "Hierba alta junto al mar"
           },
-          "image": "habitats/habitat_005.png"
+          "image": "assets/habitats/habitat_005.png"
         },
         {
           "id": 30,
@@ -4752,7 +4752,7 @@
             "zh": "有布偶的床",
             "es": "Cama con peluche"
           },
-          "image": "habitats/habitat_030.png"
+          "image": "assets/habitats/habitat_030.png"
         },
         {
           "id": 184,
@@ -4761,7 +4761,7 @@
             "zh": "釣魚池",
             "es": "Estanque de pesca"
           },
-          "image": "habitats/habitat_184.png"
+          "image": "assets/habitats/habitat_184.png"
         }
       ],
       "time": "All day",
@@ -4937,7 +4937,7 @@
             "zh": "工廠倉庫",
             "es": "Almacén de la fábrica"
           },
-          "image": "habitats/habitat_038.png"
+          "image": "assets/habitats/habitat_038.png"
         }
       ],
       "time": "All day",
@@ -5127,7 +5127,7 @@
             "zh": "垃圾桶中心",
             "es": "Centro de botes de basura"
           },
-          "image": "habitats/habitat_064.png"
+          "image": "assets/habitats/habitat_064.png"
         },
         {
           "id": 85,
@@ -5136,7 +5136,7 @@
             "zh": "迷你遊戲角落",
             "es": "Rincón de mini juegos"
           },
-          "image": "habitats/habitat_085.png"
+          "image": "assets/habitats/habitat_085.png"
         }
       ],
       "time": "All day",
@@ -5324,7 +5324,7 @@
             "zh": "垃圾桶中心",
             "es": "Centro de botes de basura"
           },
-          "image": "habitats/habitat_064.png"
+          "image": "assets/habitats/habitat_064.png"
         },
         {
           "id": 85,
@@ -5333,7 +5333,7 @@
             "zh": "迷你遊戲角落",
             "es": "Rincón de mini juegos"
           },
-          "image": "habitats/habitat_085.png"
+          "image": "assets/habitats/habitat_085.png"
         }
       ],
       "time": "All day",
@@ -5527,7 +5527,7 @@
             "zh": "柔順的高草叢",
             "es": "Hierba alta suave"
           },
-          "image": "habitats/habitat_037.png"
+          "image": "assets/habitats/habitat_037.png"
         }
       ],
       "time": "All day",
@@ -5697,7 +5697,7 @@
             "zh": "鏗鏘鐵匠工地",
             "es": "Construcción de hierro: ¡clín clán!"
           },
-          "image": "habitats/habitat_117.png"
+          "image": "assets/habitats/habitat_117.png"
         }
       ],
       "time": "All day",
@@ -5871,7 +5871,7 @@
             "zh": "花語墓園",
             "es": "Tumba con flores"
           },
-          "image": "habitats/habitat_013.png"
+          "image": "assets/habitats/habitat_013.png"
         }
       ],
       "time": "All day",
@@ -6040,7 +6040,7 @@
             "zh": "花語墓園",
             "es": "Tumba con flores"
           },
-          "image": "habitats/habitat_013.png"
+          "image": "assets/habitats/habitat_013.png"
         }
       ],
       "time": "All day",
@@ -6208,7 +6208,7 @@
             "zh": "訓練瀑布",
             "es": "Cascada de entrenamiento"
           },
-          "image": "habitats/habitat_018.png"
+          "image": "assets/habitats/habitat_018.png"
         }
       ],
       "time": "All day",
@@ -6406,7 +6406,7 @@
             "zh": "緊急救護",
             "es": "Atención urgente"
           },
-          "image": "habitats/habitat_025.png"
+          "image": "assets/habitats/habitat_025.png"
         }
       ],
       "time": "All day",
@@ -6604,7 +6604,7 @@
             "zh": "運動休息處",
             "es": "Lugar de descanso post-ejercicio"
           },
-          "image": "habitats/habitat_024.png"
+          "image": "assets/habitats/habitat_024.png"
         }
       ],
       "time": "All day",
@@ -6802,7 +6802,7 @@
             "zh": "道館急救站",
             "es": "Primeros auxilios del gimnasio"
           },
-          "image": "habitats/habitat_026.png"
+          "image": "assets/habitats/habitat_026.png"
         }
       ],
       "time": "All day",
@@ -7000,7 +7000,7 @@
             "zh": "垃圾收集場",
             "es": "Lugar de recolección de basura"
           },
-          "image": "habitats/habitat_063.png"
+          "image": "assets/habitats/habitat_063.png"
         }
       ],
       "time": "All day",
@@ -7194,7 +7194,7 @@
             "zh": "古色古香的古董",
             "es": "Lindas antigüedades de antes"
           },
-          "image": "habitats/habitat_048.png"
+          "image": "assets/habitats/habitat_048.png"
         },
         {
           "id": 63,
@@ -7203,7 +7203,7 @@
             "zh": "垃圾收集場",
             "es": "Lugar de recolección de basura"
           },
-          "image": "habitats/habitat_063.png"
+          "image": "assets/habitats/habitat_063.png"
         }
       ],
       "time": "All day",
@@ -7397,7 +7397,7 @@
             "zh": "只有寶貝球",
             "es": "Nada más que Poké Balls"
           },
-          "image": "habitats/habitat_049.png"
+          "image": "assets/habitats/habitat_049.png"
         }
       ],
       "time": "All day",
@@ -7560,7 +7560,7 @@
             "zh": "綠意環繞的長椅",
             "es": "Banco con vegetación"
           },
-          "image": "habitats/habitat_022.png"
+          "image": "assets/habitats/habitat_022.png"
         }
       ],
       "time": "All day",
@@ -7728,7 +7728,7 @@
             "zh": "樹蔭下的高草叢",
             "es": "Hierba alta a la sombra de los árboles"
           },
-          "image": "habitats/habitat_002.png"
+          "image": "assets/habitats/habitat_002.png"
         }
       ],
       "time": "All day",
@@ -7874,7 +7874,7 @@
             "zh": "樹蔭下的高草叢",
             "es": "Hierba alta a la sombra de los árboles"
           },
-          "image": "habitats/habitat_002.png"
+          "image": "assets/habitats/habitat_002.png"
         }
       ],
       "time": "All day",
@@ -8065,7 +8065,7 @@
             "zh": "樹蔭下的高草叢",
             "es": "Hierba alta a la sombra de los árboles"
           },
-          "image": "habitats/habitat_002.png"
+          "image": "assets/habitats/habitat_002.png"
         }
       ],
       "time": "All day",
@@ -8219,7 +8219,7 @@
             "zh": "海釣場",
             "es": "Lugar de pesca en el mar"
           },
-          "image": "habitats/habitat_185.png"
+          "image": "assets/habitats/habitat_185.png"
         }
       ],
       "time": "All day",
@@ -8383,7 +8383,7 @@
             "zh": "明亮的瀑布",
             "es": "Cascada iluminada"
           },
-          "image": "habitats/habitat_146.png"
+          "image": "assets/habitats/habitat_146.png"
         }
       ],
       "time": "All day",
@@ -8570,7 +8570,7 @@
             "zh": "高地的高草叢",
             "es": "Hierba alta elevada"
           },
-          "image": "habitats/habitat_006.png"
+          "image": "assets/habitats/habitat_006.png"
         },
         {
           "id": 8,
@@ -8579,7 +8579,7 @@
             "zh": "漂亮的花圃",
             "es": "Macizo de flores bonito"
           },
-          "image": "habitats/habitat_008.png"
+          "image": "assets/habitats/habitat_008.png"
         },
         {
           "id": 31,
@@ -8588,7 +8588,7 @@
             "zh": "柔和燈光的床",
             "es": "Cama con luz suave"
           },
-          "image": "habitats/habitat_031.png"
+          "image": "assets/habitats/habitat_031.png"
         }
       ],
       "time": "All day",
@@ -8787,7 +8787,7 @@
             "zh": "高地的高草叢",
             "es": "Hierba alta elevada"
           },
-          "image": "habitats/habitat_006.png"
+          "image": "assets/habitats/habitat_006.png"
         },
         {
           "id": 31,
@@ -8796,7 +8796,7 @@
             "zh": "柔和燈光的床",
             "es": "Cama con luz suave"
           },
-          "image": "habitats/habitat_031.png"
+          "image": "assets/habitats/habitat_031.png"
         }
       ],
       "time": "All day",
@@ -9004,7 +9004,7 @@
             "zh": "樹蔭下的高草叢",
             "es": "Hierba alta a la sombra de los árboles"
           },
-          "image": "habitats/habitat_002.png"
+          "image": "assets/habitats/habitat_002.png"
         }
       ],
       "time": "All day",
@@ -9166,7 +9166,7 @@
             "zh": "潮濕的花圃",
             "es": "Macizo de flores húmedo"
           },
-          "image": "habitats/habitat_010.png"
+          "image": "assets/habitats/habitat_010.png"
         }
       ],
       "time": "All day",
@@ -9352,7 +9352,7 @@
             "zh": "潮濕的花圃",
             "es": "Macizo de flores húmedo"
           },
-          "image": "habitats/habitat_010.png"
+          "image": "assets/habitats/habitat_010.png"
         }
       ],
       "time": "All day",
@@ -9538,7 +9538,7 @@
             "zh": "誘人的餐桌組",
             "es": "Juego de comedor tentador"
           },
-          "image": "habitats/habitat_019.png"
+          "image": "assets/habitats/habitat_019.png"
         }
       ],
       "time": "All day",
@@ -9721,7 +9721,7 @@
             "zh": "餐桌上的驚喜",
             "es": "Sorpresa en la mesa"
           },
-          "image": "habitats/habitat_120.png"
+          "image": "assets/habitats/habitat_120.png"
         }
       ],
       "time": "All day",
@@ -9896,7 +9896,7 @@
             "zh": "晴天場所",
             "es": "Lugar de día soleado"
           },
-          "image": "habitats/habitat_042.png"
+          "image": "assets/habitats/habitat_042.png"
         }
       ],
       "time": "All day",
@@ -10071,7 +10071,7 @@
             "zh": "樹蔭下的花圃",
             "es": "Macizo de flores a la sombra de los árboles"
           },
-          "image": "habitats/habitat_009.png"
+          "image": "assets/habitats/habitat_009.png"
         }
       ],
       "time": "All day",
@@ -10255,7 +10255,7 @@
             "zh": "漂亮的花圃",
             "es": "Macizo de flores bonito"
           },
-          "image": "habitats/habitat_008.png"
+          "image": "assets/habitats/habitat_008.png"
         }
       ],
       "time": "All day",
@@ -10439,7 +10439,7 @@
             "zh": "花田",
             "es": "Campo de flores"
           },
-          "image": "habitats/habitat_011.png"
+          "image": "assets/habitats/habitat_011.png"
         }
       ],
       "time": "All day",
@@ -10608,7 +10608,7 @@
             "zh": "路標",
             "es": "Señal de camino"
           },
-          "image": "habitats/habitat_027.png"
+          "image": "assets/habitats/habitat_027.png"
         }
       ],
       "time": "All day",
@@ -10755,7 +10755,7 @@
             "zh": "海釣場",
             "es": "Lugar de pesca en el mar"
           },
-          "image": "habitats/habitat_185.png"
+          "image": "assets/habitats/habitat_185.png"
         }
       ],
       "time": "All day",
@@ -10903,7 +10903,7 @@
             "zh": "乘著暖暖上升氣流",
             "es": "Surcando corrientes cálidas"
           },
-          "image": "habitats/habitat_016.png"
+          "image": "assets/habitats/habitat_016.png"
         },
         {
           "id": 30,
@@ -10912,7 +10912,7 @@
             "zh": "有布偶的床",
             "es": "Cama con peluche"
           },
-          "image": "habitats/habitat_030.png"
+          "image": "assets/habitats/habitat_030.png"
         },
         {
           "id": 181,
@@ -10921,7 +10921,7 @@
             "zh": "布偶中心",
             "es": "Centro de peluches"
           },
-          "image": "habitats/habitat_181.png"
+          "image": "assets/habitats/habitat_181.png"
         }
       ],
       "time": "All day",
@@ -11090,7 +11090,7 @@
             "zh": "布偶中心",
             "es": "Centro de peluches"
           },
-          "image": "habitats/habitat_181.png"
+          "image": "assets/habitats/habitat_181.png"
         }
       ],
       "time": "All day",
@@ -11250,7 +11250,7 @@
             "zh": "新鮮蔬菜田",
             "es": "Campo de verduras frescas"
           },
-          "image": "habitats/habitat_015.png"
+          "image": "assets/habitats/habitat_015.png"
         }
       ],
       "time": "All day",
@@ -11413,7 +11413,7 @@
             "zh": "新鮮蔬菜田",
             "es": "Campo de verduras frescas"
           },
-          "image": "habitats/habitat_015.png"
+          "image": "assets/habitats/habitat_015.png"
         }
       ],
       "time": "All day",
@@ -11585,7 +11585,7 @@
             "zh": "巨岩遮蔭的高草叢",
             "es": "Hierba alta a la sombra de la roca"
           },
-          "image": "habitats/habitat_003.png"
+          "image": "assets/habitats/habitat_003.png"
         }
       ],
       "time": "All day",
@@ -11753,7 +11753,7 @@
             "zh": "巨岩遮蔭的高草叢",
             "es": "Hierba alta a la sombra de la roca"
           },
-          "image": "habitats/habitat_003.png"
+          "image": "assets/habitats/habitat_003.png"
         },
         {
           "id": 28,
@@ -11762,7 +11762,7 @@
             "zh": "大型行李搬運車",
             "es": "Portaequipajes grande"
           },
-          "image": "habitats/habitat_028.png"
+          "image": "assets/habitats/habitat_028.png"
         }
       ],
       "time": "All day",
@@ -11950,7 +11950,7 @@
             "zh": "工地發電機",
             "es": "Generador de la obra"
           },
-          "image": "habitats/habitat_177.png"
+          "image": "assets/habitats/habitat_177.png"
         }
       ],
       "time": "All day",
@@ -12121,7 +12121,7 @@
             "zh": "墓前供品",
             "es": "Ofrenda en la tumba"
           },
-          "image": "habitats/habitat_032.png"
+          "image": "assets/habitats/habitat_032.png"
         },
         {
           "id": 33,
@@ -12130,7 +12130,7 @@
             "zh": "詭異的墓前供品",
             "es": "Ofrenda espeluznante en la tumba"
           },
-          "image": "habitats/habitat_033.png"
+          "image": "assets/habitats/habitat_033.png"
         }
       ],
       "time": "All day",
@@ -12304,7 +12304,7 @@
             "zh": "墓前供品",
             "es": "Ofrenda en la tumba"
           },
-          "image": "habitats/habitat_032.png"
+          "image": "assets/habitats/habitat_032.png"
         },
         {
           "id": 33,
@@ -12313,7 +12313,7 @@
             "zh": "詭異的墓前供品",
             "es": "Ofrenda espeluznante en la tumba"
           },
-          "image": "habitats/habitat_033.png"
+          "image": "assets/habitats/habitat_033.png"
         }
       ],
       "time": "All day",
@@ -12483,7 +12483,7 @@
             "zh": "詭異的墓前供品",
             "es": "Ofrenda espeluznante en la tumba"
           },
-          "image": "habitats/habitat_033.png"
+          "image": "assets/habitats/habitat_033.png"
         }
       ],
       "time": "All day",
@@ -12640,7 +12640,7 @@
             "zh": "伐木工的工作場",
             "es": "Lugar de trabajo del leñador"
           },
-          "image": "habitats/habitat_029.png"
+          "image": "assets/habitats/habitat_029.png"
         },
         {
           "id": 44,
@@ -12649,7 +12649,7 @@
             "zh": "瘋狂木頭手作",
             "es": "Manualidades locas de troncos"
           },
-          "image": "habitats/habitat_044.png"
+          "image": "assets/habitats/habitat_044.png"
         }
       ],
       "time": "All day",
@@ -12823,7 +12823,7 @@
             "zh": "伐木工的工作場",
             "es": "Lugar de trabajo del leñador"
           },
-          "image": "habitats/habitat_029.png"
+          "image": "assets/habitats/habitat_029.png"
         },
         {
           "id": 44,
@@ -12832,7 +12832,7 @@
             "zh": "瘋狂木頭手作",
             "es": "Manualidades locas de troncos"
           },
-          "image": "habitats/habitat_044.png"
+          "image": "assets/habitats/habitat_044.png"
         }
       ],
       "time": "All day",
@@ -12986,7 +12986,7 @@
             "zh": "伐木工的工作場",
             "es": "Lugar de trabajo del leñador"
           },
-          "image": "habitats/habitat_029.png"
+          "image": "assets/habitats/habitat_029.png"
         },
         {
           "id": 44,
@@ -12995,7 +12995,7 @@
             "zh": "瘋狂木頭手作",
             "es": "Manualidades locas de troncos"
           },
-          "image": "habitats/habitat_044.png"
+          "image": "assets/habitats/habitat_044.png"
         }
       ],
       "time": "All day",
@@ -13148,7 +13148,7 @@
             "zh": "樹蔭下的花圃",
             "es": "Macizo de flores a la sombra de los árboles"
           },
-          "image": "habitats/habitat_009.png"
+          "image": "assets/habitats/habitat_009.png"
         },
         {
           "id": 41,
@@ -13157,7 +13157,7 @@
             "zh": "祈雨舞場所",
             "es": "Lugar de danza de lluvia"
           },
-          "image": "habitats/habitat_041.png"
+          "image": "assets/habitats/habitat_041.png"
         }
       ],
       "time": "All day",
@@ -13334,7 +13334,7 @@
             "zh": "潮濕的高草叢",
             "es": "Hierba alta húmeda"
           },
-          "image": "habitats/habitat_004.png"
+          "image": "assets/habitats/habitat_004.png"
         }
       ],
       "time": "All day",
@@ -13529,7 +13529,7 @@
             "zh": "滿滿莓果空間",
             "es": "Espacio lleno de bayas"
           },
-          "image": "habitats/habitat_045.png"
+          "image": "assets/habitats/habitat_045.png"
         }
       ],
       "time": "All day",
@@ -13681,7 +13681,7 @@
             "zh": "潮濕的高草叢",
             "es": "Hierba alta húmeda"
           },
-          "image": "habitats/habitat_004.png"
+          "image": "assets/habitats/habitat_004.png"
         }
       ],
       "time": "All day",
@@ -13839,7 +13839,7 @@
             "zh": "野餐組",
             "es": "Set de pic-nic"
           },
-          "image": "habitats/habitat_020.png"
+          "image": "assets/habitats/habitat_020.png"
         }
       ],
       "time": "All day",
@@ -14043,7 +14043,7 @@
             "zh": "野餐組",
             "es": "Set de pic-nic"
           },
-          "image": "habitats/habitat_020.png"
+          "image": "assets/habitats/habitat_020.png"
         }
       ],
       "time": "All day",
@@ -14222,7 +14222,7 @@
             "zh": "大自然市集",
             "es": "Mercado de la naturaleza"
           },
-          "image": "habitats/habitat_176.png"
+          "image": "assets/habitats/habitat_176.png"
         }
       ],
       "time": "All day",
@@ -14402,7 +14402,7 @@
             "zh": "樹蔭下的黃色高草叢",
             "es": "Hierba alta amarilla a la sombra de los árboles"
           },
-          "image": "habitats/habitat_051.png"
+          "image": "assets/habitats/habitat_051.png"
         },
         {
           "id": 66,
@@ -14411,7 +14411,7 @@
             "zh": "公園長椅",
             "es": "Banco del parque"
           },
-          "image": "habitats/habitat_066.png"
+          "image": "assets/habitats/habitat_066.png"
         }
       ],
       "time": "All day",
@@ -14570,7 +14570,7 @@
             "zh": "樹蔭下的黃色高草叢",
             "es": "Hierba alta amarilla a la sombra de los árboles"
           },
-          "image": "habitats/habitat_051.png"
+          "image": "assets/habitats/habitat_051.png"
         }
       ],
       "time": "All day",
@@ -14729,7 +14729,7 @@
             "zh": "高地的黃色高草叢",
             "es": "Hierba alta amarilla elevada"
           },
-          "image": "habitats/habitat_052.png"
+          "image": "assets/habitats/habitat_052.png"
         },
         {
           "id": 65,
@@ -14738,7 +14738,7 @@
             "zh": "垃圾處理場",
             "es": "Lugar de eliminación de basura"
           },
-          "image": "habitats/habitat_065.png"
+          "image": "assets/habitats/habitat_065.png"
         }
       ],
       "time": "All day",
@@ -14900,7 +14900,7 @@
             "zh": "休息處",
             "es": "Lugar de descanso"
           },
-          "image": "habitats/habitat_061.png"
+          "image": "assets/habitats/habitat_061.png"
         },
         {
           "id": 91,
@@ -14909,7 +14909,7 @@
             "zh": "收銀台工作",
             "es": "Trabajando en la caja"
           },
-          "image": "habitats/habitat_091.png"
+          "image": "assets/habitats/habitat_091.png"
         }
       ],
       "time": "All day",
@@ -15108,7 +15108,7 @@
             "zh": "邪惡組織總部",
             "es": "Cuartel general de la organización maligna"
           },
-          "image": "habitats/habitat_179.png"
+          "image": "assets/habitats/habitat_179.png"
         }
       ],
       "time": "All day",
@@ -15305,7 +15305,7 @@
             "zh": "溫泉淋浴",
             "es": "Ducha de aguas termales"
           },
-          "image": "habitats/habitat_078.png"
+          "image": "assets/habitats/habitat_078.png"
         }
       ],
       "time": "All day",
@@ -15466,7 +15466,7 @@
             "zh": "溫泉淋浴",
             "es": "Ducha de aguas termales"
           },
-          "image": "habitats/habitat_078.png"
+          "image": "assets/habitats/habitat_078.png"
         }
       ],
       "time": "All day",
@@ -15626,7 +15626,7 @@
             "zh": "永遠的混亂",
             "es": "Desorden eterno"
           },
-          "image": "habitats/habitat_062.png"
+          "image": "assets/habitats/habitat_062.png"
         },
         {
           "id": 79,
@@ -15635,7 +15635,7 @@
             "zh": "度假村餐點準備",
             "es": "Preparación de comida del resort"
           },
-          "image": "habitats/habitat_079.png"
+          "image": "assets/habitats/habitat_079.png"
         }
       ],
       "time": "All day",
@@ -15787,7 +15787,7 @@
             "zh": "迷你博物館",
             "es": "Museíto"
           },
-          "image": "habitats/habitat_129.png"
+          "image": "assets/habitats/habitat_129.png"
         },
         {
           "id": 188,
@@ -15796,7 +15796,7 @@
             "zh": "岩漿釣場",
             "es": "Lugar de pesca en magma"
           },
-          "image": "habitats/habitat_188.png"
+          "image": "assets/habitats/habitat_188.png"
         }
       ],
       "time": "All day",
@@ -15949,7 +15949,7 @@
             "zh": "全部打包好",
             "es": "Todo empacado"
           },
-          "image": "habitats/habitat_080.png"
+          "image": "assets/habitats/habitat_080.png"
         }
       ],
       "time": "All day",
@@ -16131,7 +16131,7 @@
             "zh": "沼澤釣場",
             "es": "Lugar de pesca en el pantano"
           },
-          "image": "habitats/habitat_186.png"
+          "image": "assets/habitats/habitat_186.png"
         }
       ],
       "time": "All day",
@@ -16298,7 +16298,7 @@
             "zh": "沼澤釣場",
             "es": "Lugar de pesca en el pantano"
           },
-          "image": "habitats/habitat_186.png"
+          "image": "assets/habitats/habitat_186.png"
         }
       ],
       "time": "All day",
@@ -16460,7 +16460,7 @@
             "zh": "陰森書房",
             "es": "Estudio espeluznante"
           },
-          "image": "habitats/habitat_089.png"
+          "image": "assets/habitats/habitat_089.png"
         }
       ],
       "time": "All day",
@@ -16652,7 +16652,7 @@
             "zh": "店裡有驚喜",
             "es": "Sorpresa en la tienda"
           },
-          "image": "habitats/habitat_073.png"
+          "image": "assets/habitats/habitat_073.png"
         },
         {
           "id": 89,
@@ -16661,7 +16661,7 @@
             "zh": "陰森書房",
             "es": "Estudio espeluznante"
           },
-          "image": "habitats/habitat_089.png"
+          "image": "assets/habitats/habitat_089.png"
         }
       ],
       "time": "All day",
@@ -16842,7 +16842,7 @@
             "zh": "店裡有驚喜",
             "es": "Sorpresa en la tienda"
           },
-          "image": "habitats/habitat_073.png"
+          "image": "assets/habitats/habitat_073.png"
         }
       ],
       "time": "All day",
@@ -17020,7 +17020,7 @@
             "zh": "公園長椅",
             "es": "Banco del parque"
           },
-          "image": "habitats/habitat_066.png"
+          "image": "assets/habitats/habitat_066.png"
         },
         {
           "id": 90,
@@ -17029,7 +17029,7 @@
             "zh": "玩海盜遊戲",
             "es": "Jugando a los piratas"
           },
-          "image": "habitats/habitat_090.png"
+          "image": "assets/habitats/habitat_090.png"
         }
       ],
       "time": "All day",
@@ -17191,7 +17191,7 @@
             "zh": "公園長椅",
             "es": "Banco del parque"
           },
-          "image": "habitats/habitat_066.png"
+          "image": "assets/habitats/habitat_066.png"
         },
         {
           "id": 90,
@@ -17200,7 +17200,7 @@
             "zh": "玩海盜遊戲",
             "es": "Jugando a los piratas"
           },
-          "image": "habitats/habitat_090.png"
+          "image": "assets/habitats/habitat_090.png"
         }
       ],
       "time": "All day",
@@ -17354,7 +17354,7 @@
             "zh": "熱帶風情",
             "es": "Vibras tropicales"
           },
-          "image": "habitats/habitat_057.png"
+          "image": "assets/habitats/habitat_057.png"
         },
         {
           "id": 59,
@@ -17363,7 +17363,7 @@
             "zh": "遮蔭海灘",
             "es": "Playa con sombra"
           },
-          "image": "habitats/habitat_059.png"
+          "image": "assets/habitats/habitat_059.png"
         }
       ],
       "time": "All day",
@@ -17552,7 +17552,7 @@
             "zh": "熱帶風情",
             "es": "Vibras tropicales"
           },
-          "image": "habitats/habitat_057.png"
+          "image": "assets/habitats/habitat_057.png"
         },
         {
           "id": 59,
@@ -17561,7 +17561,7 @@
             "zh": "遮蔭海灘",
             "es": "Playa con sombra"
           },
-          "image": "habitats/habitat_059.png"
+          "image": "assets/habitats/habitat_059.png"
         }
       ],
       "time": "All day",
@@ -17736,7 +17736,7 @@
             "zh": "鬧鐘睡眠區",
             "es": "Zona de dormir con alarma"
           },
-          "image": "habitats/habitat_082.png"
+          "image": "assets/habitats/habitat_082.png"
         },
         {
           "id": 91,
@@ -17745,7 +17745,7 @@
             "zh": "收銀台工作",
             "es": "Trabajando en la caja"
           },
-          "image": "habitats/habitat_091.png"
+          "image": "assets/habitats/habitat_091.png"
         }
       ],
       "time": "All day",
@@ -17953,7 +17953,7 @@
             "zh": "完全恢復",
             "es": "Recuperación total"
           },
-          "image": "habitats/habitat_081.png"
+          "image": "assets/habitats/habitat_081.png"
         }
       ],
       "time": "All day",
@@ -18156,7 +18156,7 @@
             "zh": "可愛大爆發",
             "es": "Sobredosis de ternura"
           },
-          "image": "habitats/habitat_095.png"
+          "image": "assets/habitats/habitat_095.png"
         }
       ],
       "time": "All day",
@@ -18358,7 +18358,7 @@
             "zh": "自動販賣機組",
             "es": "Set de máquinas expendedoras"
           },
-          "image": "habitats/habitat_084.png"
+          "image": "assets/habitats/habitat_084.png"
         }
       ],
       "time": "All day",
@@ -18533,7 +18533,7 @@
             "zh": "垃圾桶中心",
             "es": "Centro de botes de basura"
           },
-          "image": "habitats/habitat_064.png"
+          "image": "assets/habitats/habitat_064.png"
         },
         {
           "id": 72,
@@ -18542,7 +18542,7 @@
             "zh": "亮燈舞台",
             "es": "Escenario iluminado"
           },
-          "image": "habitats/habitat_072.png"
+          "image": "assets/habitats/habitat_072.png"
         }
       ],
       "time": "All day",
@@ -18700,7 +18700,7 @@
             "zh": "亮燈舞台",
             "es": "Escenario iluminado"
           },
-          "image": "habitats/habitat_072.png"
+          "image": "assets/habitats/habitat_072.png"
         },
         {
           "id": 84,
@@ -18709,7 +18709,7 @@
             "zh": "自動販賣機組",
             "es": "Set de máquinas expendedoras"
           },
-          "image": "habitats/habitat_084.png"
+          "image": "assets/habitats/habitat_084.png"
         }
       ],
       "time": "All day",
@@ -18871,7 +18871,7 @@
             "zh": "熱帶海邊",
             "es": "Orilla del mar tropical"
           },
-          "image": "habitats/habitat_060.png"
+          "image": "assets/habitats/habitat_060.png"
         }
       ],
       "time": "All day",
@@ -19011,7 +19011,7 @@
             "zh": "有布偶的床",
             "es": "Cama con peluche"
           },
-          "image": "habitats/habitat_030.png"
+          "image": "assets/habitats/habitat_030.png"
         },
         {
           "id": 47,
@@ -19020,7 +19020,7 @@
             "zh": "樹蔭下打盹的卡比獸",
             "es": "Snorlax dormitando a la sombra de los árboles"
           },
-          "image": "habitats/habitat_047.png"
+          "image": "assets/habitats/habitat_047.png"
         }
       ],
       "time": "All day",
@@ -19220,7 +19220,7 @@
             "zh": "樹蔭下打盹的卡比獸",
             "es": "Snorlax dormitando a la sombra de los árboles"
           },
-          "image": "habitats/habitat_047.png"
+          "image": "assets/habitats/habitat_047.png"
         },
         {
           "id": 48,
@@ -19229,7 +19229,7 @@
             "zh": "古色古香的古董",
             "es": "Lindas antigüedades de antes"
           },
-          "image": "habitats/habitat_048.png"
+          "image": "assets/habitats/habitat_048.png"
         }
       ],
       "time": "All day",
@@ -19412,7 +19412,7 @@
             "zh": "黃色高草叢",
             "es": "Hierba alta amarilla"
           },
-          "image": "habitats/habitat_050.png"
+          "image": "assets/habitats/habitat_050.png"
         }
       ],
       "time": "All day",
@@ -19588,7 +19588,7 @@
             "zh": "黃色高草叢",
             "es": "Hierba alta amarilla"
           },
-          "image": "habitats/habitat_050.png"
+          "image": "assets/habitats/habitat_050.png"
         }
       ],
       "time": "All day",
@@ -19765,7 +19765,7 @@
             "zh": "雜草叢生的販賣機",
             "es": "Máquina expendedora cubierta de maleza"
           },
-          "image": "habitats/habitat_055.png"
+          "image": "assets/habitats/habitat_055.png"
         },
         {
           "id": 77,
@@ -19774,7 +19774,7 @@
             "zh": "編織站",
             "es": "Estación de tejido"
           },
-          "image": "habitats/habitat_077.png"
+          "image": "assets/habitats/habitat_077.png"
         }
       ],
       "time": "All day",
@@ -19980,7 +19980,7 @@
             "zh": "夜晚祭典會場",
             "es": "Recinto del festival nocturno"
           },
-          "image": "habitats/habitat_074.png"
+          "image": "assets/habitats/habitat_074.png"
         },
         {
           "id": 77,
@@ -19989,7 +19989,7 @@
             "zh": "編織站",
             "es": "Estación de tejido"
           },
-          "image": "habitats/habitat_077.png"
+          "image": "assets/habitats/habitat_077.png"
         }
       ],
       "time": "All day",
@@ -20163,7 +20163,7 @@
             "zh": "平凡生活",
             "es": "Vida sencilla"
           },
-          "image": "habitats/habitat_097.png"
+          "image": "assets/habitats/habitat_097.png"
         }
       ],
       "time": "All day",
@@ -20336,7 +20336,7 @@
             "zh": "潮濕的黃色高草叢",
             "es": "Hierba alta amarilla húmeda"
           },
-          "image": "habitats/habitat_053.png"
+          "image": "assets/habitats/habitat_053.png"
         },
         {
           "id": 62,
@@ -20345,7 +20345,7 @@
             "zh": "永遠的混亂",
             "es": "Desorden eterno"
           },
-          "image": "habitats/habitat_062.png"
+          "image": "assets/habitats/habitat_062.png"
         }
       ],
       "time": "All day",
@@ -20492,7 +20492,7 @@
             "zh": "潮濕的黃色高草叢",
             "es": "Hierba alta amarilla húmeda"
           },
-          "image": "habitats/habitat_053.png"
+          "image": "assets/habitats/habitat_053.png"
         },
         {
           "id": 88,
@@ -20501,7 +20501,7 @@
             "zh": "碼頭",
             "es": "Muelle"
           },
-          "image": "habitats/habitat_088.png"
+          "image": "assets/habitats/habitat_088.png"
         }
       ],
       "time": "All day",
@@ -20668,7 +20668,7 @@
             "zh": "碼頭",
             "es": "Muelle"
           },
-          "image": "habitats/habitat_088.png"
+          "image": "assets/habitats/habitat_088.png"
         }
       ],
       "time": "All day",
@@ -20833,7 +20833,7 @@
             "zh": "沼澤高草叢",
             "es": "Hierba alta del pantano"
           },
-          "image": "habitats/habitat_054.png"
+          "image": "assets/habitats/habitat_054.png"
         }
       ],
       "time": "All day",
@@ -21002,7 +21002,7 @@
             "zh": "沼澤高草叢",
             "es": "Hierba alta del pantano"
           },
-          "image": "habitats/habitat_054.png"
+          "image": "assets/habitats/habitat_054.png"
         },
         {
           "id": 186,
@@ -21011,7 +21011,7 @@
             "zh": "沼澤釣場",
             "es": "Lugar de pesca en el pantano"
           },
-          "image": "habitats/habitat_186.png"
+          "image": "assets/habitats/habitat_186.png"
         }
       ],
       "time": "All day",
@@ -21162,7 +21162,7 @@
             "zh": "小工作室",
             "es": "Tallercito"
           },
-          "image": "habitats/habitat_092.png"
+          "image": "assets/habitats/habitat_092.png"
         }
       ],
       "time": "All day",
@@ -21365,7 +21365,7 @@
             "zh": "啾啾餐",
             "es": "Comida pío pío"
           },
-          "image": "habitats/habitat_069.png"
+          "image": "assets/habitats/habitat_069.png"
         },
         {
           "id": 79,
@@ -21374,7 +21374,7 @@
             "zh": "度假村餐點準備",
             "es": "Preparación de comida del resort"
           },
-          "image": "habitats/habitat_079.png"
+          "image": "assets/habitats/habitat_079.png"
         }
       ],
       "time": "All day",
@@ -21554,7 +21554,7 @@
             "zh": "度假村餐點準備",
             "es": "Preparación de comida del resort"
           },
-          "image": "habitats/habitat_079.png"
+          "image": "assets/habitats/habitat_079.png"
         },
         {
           "id": 87,
@@ -21563,7 +21563,7 @@
             "zh": "熔爐地點",
             "es": "Lugar del horno"
           },
-          "image": "habitats/habitat_087.png"
+          "image": "assets/habitats/habitat_087.png"
         }
       ],
       "time": "All day",
@@ -21731,7 +21731,7 @@
             "zh": "啾啾餐",
             "es": "Comida pío pío"
           },
-          "image": "habitats/habitat_069.png"
+          "image": "assets/habitats/habitat_069.png"
         },
         {
           "id": 87,
@@ -21740,7 +21740,7 @@
             "zh": "熔爐地點",
             "es": "Lugar del horno"
           },
-          "image": "habitats/habitat_087.png"
+          "image": "assets/habitats/habitat_087.png"
         }
       ],
       "time": "All day",
@@ -21923,7 +21923,7 @@
             "zh": "高地的黃色高草叢",
             "es": "Hierba alta amarilla elevada"
           },
-          "image": "habitats/habitat_052.png"
+          "image": "assets/habitats/habitat_052.png"
         },
         {
           "id": 58,
@@ -21932,7 +21932,7 @@
             "zh": "風中的花圃",
             "es": "Macizo de flores con viento"
           },
-          "image": "habitats/habitat_058.png"
+          "image": "assets/habitats/habitat_058.png"
         }
       ],
       "time": "All day",
@@ -22082,7 +22082,7 @@
             "zh": "高地的黃色高草叢",
             "es": "Hierba alta amarilla elevada"
           },
-          "image": "habitats/habitat_052.png"
+          "image": "assets/habitats/habitat_052.png"
         },
         {
           "id": 58,
@@ -22091,7 +22091,7 @@
             "zh": "風中的花圃",
             "es": "Macizo de flores con viento"
           },
-          "image": "habitats/habitat_058.png"
+          "image": "assets/habitats/habitat_058.png"
         }
       ],
       "time": "All day",
@@ -22240,7 +22240,7 @@
             "zh": "樹蔭下的黃色高草叢",
             "es": "Hierba alta amarilla a la sombra de los árboles"
           },
-          "image": "habitats/habitat_051.png"
+          "image": "assets/habitats/habitat_051.png"
         },
         {
           "id": 80,
@@ -22249,7 +22249,7 @@
             "zh": "全部打包好",
             "es": "Todo empacado"
           },
-          "image": "habitats/habitat_080.png"
+          "image": "assets/habitats/habitat_080.png"
         }
       ],
       "time": "All day",
@@ -22431,7 +22431,7 @@
             "zh": "樹蔭下的黃色高草叢",
             "es": "Hierba alta amarilla a la sombra de los árboles"
           },
-          "image": "habitats/habitat_051.png"
+          "image": "assets/habitats/habitat_051.png"
         },
         {
           "id": 80,
@@ -22440,7 +22440,7 @@
             "zh": "全部打包好",
             "es": "Todo empacado"
           },
-          "image": "habitats/habitat_080.png"
+          "image": "assets/habitats/habitat_080.png"
         }
       ],
       "time": "All day",
@@ -22630,7 +22630,7 @@
             "zh": "溫馨度假村",
             "es": "Resort acogedor"
           },
-          "image": "habitats/habitat_096.png"
+          "image": "assets/habitats/habitat_096.png"
         }
       ],
       "time": "All day",
@@ -22805,7 +22805,7 @@
             "zh": "潮濕的黃色高草叢",
             "es": "Hierba alta amarilla húmeda"
           },
-          "image": "habitats/habitat_053.png"
+          "image": "assets/habitats/habitat_053.png"
         }
       ],
       "time": "All day",
@@ -22969,7 +22969,7 @@
             "zh": "潮濕的黃色高草叢",
             "es": "Hierba alta amarilla húmeda"
           },
-          "image": "habitats/habitat_053.png"
+          "image": "assets/habitats/habitat_053.png"
         },
         {
           "id": 86,
@@ -22978,7 +22978,7 @@
             "zh": "水車場所",
             "es": "Lugar de la noria"
           },
-          "image": "habitats/habitat_086.png"
+          "image": "assets/habitats/habitat_086.png"
         }
       ],
       "time": "All day",
@@ -23144,7 +23144,7 @@
             "zh": "桌邊送餐車",
             "es": "Carrito de entrega a la mesa"
           },
-          "image": "habitats/habitat_068.png"
+          "image": "assets/habitats/habitat_068.png"
         },
         {
           "id": 86,
@@ -23153,7 +23153,7 @@
             "zh": "水車場所",
             "es": "Lugar de la noria"
           },
-          "image": "habitats/habitat_086.png"
+          "image": "assets/habitats/habitat_086.png"
         }
       ],
       "time": "All day",
@@ -23332,7 +23332,7 @@
             "zh": "收銀台工作",
             "es": "Trabajando en la caja"
           },
-          "image": "habitats/habitat_091.png"
+          "image": "assets/habitats/habitat_091.png"
         }
       ],
       "time": "All day",
@@ -23533,7 +23533,7 @@
             "zh": "垃圾收集場",
             "es": "Lugar de recolección de basura"
           },
-          "image": "habitats/habitat_063.png"
+          "image": "assets/habitats/habitat_063.png"
         }
       ],
       "time": "All day",
@@ -23698,7 +23698,7 @@
             "zh": "垃圾收集場",
             "es": "Lugar de recolección de basura"
           },
-          "image": "habitats/habitat_063.png"
+          "image": "assets/habitats/habitat_063.png"
         }
       ],
       "time": "All day",
@@ -23863,7 +23863,7 @@
             "zh": "微風吹拂的花圃",
             "es": "Macizo de flores con brisa"
           },
-          "image": "habitats/habitat_056.png"
+          "image": "assets/habitats/habitat_056.png"
         }
       ],
       "time": "All day",
@@ -24061,7 +24061,7 @@
             "zh": "微風吹拂的花圃",
             "es": "Macizo de flores con brisa"
           },
-          "image": "habitats/habitat_056.png"
+          "image": "assets/habitats/habitat_056.png"
         },
         {
           "id": 73,
@@ -24070,7 +24070,7 @@
             "zh": "店裡有驚喜",
             "es": "Sorpresa en la tienda"
           },
-          "image": "habitats/habitat_073.png"
+          "image": "assets/habitats/habitat_073.png"
         }
       ],
       "time": "All day",
@@ -24262,7 +24262,7 @@
             "zh": "更衣區",
             "es": "Área de cambio"
           },
-          "image": "habitats/habitat_075.png"
+          "image": "assets/habitats/habitat_075.png"
         },
         {
           "id": 76,
@@ -24271,7 +24271,7 @@
             "zh": "私人化妝台",
             "es": "Tocador de maquillaje privado"
           },
-          "image": "habitats/habitat_076.png"
+          "image": "assets/habitats/habitat_076.png"
         }
       ],
       "time": "All day",
@@ -24463,7 +24463,7 @@
             "zh": "私人化妝台",
             "es": "Tocador de maquillaje privado"
           },
-          "image": "habitats/habitat_076.png"
+          "image": "assets/habitats/habitat_076.png"
         }
       ],
       "time": "All day",
@@ -24655,7 +24655,7 @@
             "zh": "黃色高草叢",
             "es": "Hierba alta amarilla"
           },
-          "image": "habitats/habitat_050.png"
+          "image": "assets/habitats/habitat_050.png"
         },
         {
           "id": 83,
@@ -24664,7 +24664,7 @@
             "zh": "販賣機休息區",
             "es": "Área de descanso junto a la máquina expendedora"
           },
-          "image": "habitats/habitat_083.png"
+          "image": "assets/habitats/habitat_083.png"
         }
       ],
       "time": "All day",
@@ -24844,7 +24844,7 @@
             "zh": "販賣機休息區",
             "es": "Área de descanso junto a la máquina expendedora"
           },
-          "image": "habitats/habitat_083.png"
+          "image": "assets/habitats/habitat_083.png"
         }
       ],
       "time": "All day",
@@ -25031,7 +25031,7 @@
             "zh": "樹蔭下的花圃",
             "es": "Macizo de flores a la sombra de los árboles"
           },
-          "image": "habitats/habitat_009.png"
+          "image": "assets/habitats/habitat_009.png"
         }
       ],
       "time": "All day",
@@ -25203,7 +25203,7 @@
             "zh": "皮卡丘空間",
             "es": "Espacio de Pikachu"
           },
-          "image": "habitats/habitat_094.png"
+          "image": "assets/habitats/habitat_094.png"
         }
       ],
       "time": "All day",
@@ -25409,7 +25409,7 @@
             "zh": "微風吹拂的花圃",
             "es": "Macizo de flores con brisa"
           },
-          "image": "habitats/habitat_056.png"
+          "image": "assets/habitats/habitat_056.png"
         },
         {
           "id": 67,
@@ -25418,7 +25418,7 @@
             "zh": "誘人的餐廳",
             "es": "Restaurante tentador"
           },
-          "image": "habitats/habitat_067.png"
+          "image": "assets/habitats/habitat_067.png"
         },
         {
           "id": 70,
@@ -25427,7 +25427,7 @@
             "zh": "咖啡空間",
             "es": "Espacio de café"
           },
-          "image": "habitats/habitat_070.png"
+          "image": "assets/habitats/habitat_070.png"
         }
       ],
       "time": "All day",
@@ -25618,7 +25618,7 @@
             "zh": "誘人的餐廳",
             "es": "Restaurante tentador"
           },
-          "image": "habitats/habitat_067.png"
+          "image": "assets/habitats/habitat_067.png"
         },
         {
           "id": 70,
@@ -25627,7 +25627,7 @@
             "zh": "咖啡空間",
             "es": "Espacio de café"
           },
-          "image": "habitats/habitat_070.png"
+          "image": "assets/habitats/habitat_070.png"
         }
       ],
       "time": "All day",
@@ -25810,7 +25810,7 @@
             "zh": "咖啡空間",
             "es": "Espacio de café"
           },
-          "image": "habitats/habitat_070.png"
+          "image": "assets/habitats/habitat_070.png"
         }
       ],
       "time": "All day",
@@ -25984,7 +25984,7 @@
             "zh": "海灘組",
             "es": "Set de playa"
           },
-          "image": "habitats/habitat_071.png"
+          "image": "assets/habitats/habitat_071.png"
         }
       ],
       "time": "All day",
@@ -26133,7 +26133,7 @@
             "zh": "潮濕的優雅花圃",
             "es": "Macizo de flores elegante húmedo"
           },
-          "image": "habitats/habitat_106.png"
+          "image": "assets/habitats/habitat_106.png"
         }
       ],
       "time": "All day",
@@ -26299,7 +26299,7 @@
             "zh": "潮濕的優雅花圃",
             "es": "Macizo de flores elegante húmedo"
           },
-          "image": "habitats/habitat_106.png"
+          "image": "assets/habitats/habitat_106.png"
         }
       ],
       "time": "All day",
@@ -26465,7 +26465,7 @@
             "zh": "優雅的花圃",
             "es": "Macizo de flores elegante"
           },
-          "image": "habitats/habitat_104.png"
+          "image": "assets/habitats/habitat_104.png"
         }
       ],
       "time": "All day",
@@ -26637,7 +26637,7 @@
             "zh": "優雅的花圃",
             "es": "Macizo de flores elegante"
           },
-          "image": "habitats/habitat_104.png"
+          "image": "assets/habitats/habitat_104.png"
         },
         {
           "id": 131,
@@ -26646,7 +26646,7 @@
             "zh": "青銅地標",
             "es": "Monumento de bronce"
           },
-          "image": "habitats/habitat_131.png"
+          "image": "assets/habitats/habitat_131.png"
         }
       ],
       "time": "All day",
@@ -26829,7 +26829,7 @@
             "zh": "優雅的花圃",
             "es": "Macizo de flores elegante"
           },
-          "image": "habitats/habitat_104.png"
+          "image": "assets/habitats/habitat_104.png"
         },
         {
           "id": 131,
@@ -26838,7 +26838,7 @@
             "zh": "青銅地標",
             "es": "Monumento de bronce"
           },
-          "image": "habitats/habitat_131.png"
+          "image": "assets/habitats/habitat_131.png"
         }
       ],
       "time": "All day",
@@ -27020,7 +27020,7 @@
             "zh": "花園樹樁舞台",
             "es": "Escenario de tronco en el jardín de flores"
           },
-          "image": "habitats/habitat_107.png"
+          "image": "assets/habitats/habitat_107.png"
         }
       ],
       "time": "All day",
@@ -27207,7 +27207,7 @@
             "zh": "花園樹樁舞台",
             "es": "Escenario de tronco en el jardín de flores"
           },
-          "image": "habitats/habitat_107.png"
+          "image": "assets/habitats/habitat_107.png"
         },
         {
           "id": 126,
@@ -27216,7 +27216,7 @@
             "zh": "演奏舞台",
             "es": "Escenario de recital"
           },
-          "image": "habitats/habitat_126.png"
+          "image": "assets/habitats/habitat_126.png"
         }
       ],
       "time": "All day",
@@ -27410,7 +27410,7 @@
             "zh": "演奏舞台",
             "es": "Escenario de recital"
           },
-          "image": "habitats/habitat_126.png"
+          "image": "assets/habitats/habitat_126.png"
         }
       ],
       "time": "All day",
@@ -27614,7 +27614,7 @@
             "zh": "樹蔭下的紅色高草叢",
             "es": "Hierba alta roja a la sombra de los árboles"
           },
-          "image": "habitats/habitat_099.png"
+          "image": "assets/habitats/habitat_099.png"
         },
         {
           "id": 119,
@@ -27623,7 +27623,7 @@
             "zh": "容器零食時間",
             "es": "Merienda del contenedor"
           },
-          "image": "habitats/habitat_119.png"
+          "image": "assets/habitats/habitat_119.png"
         }
       ],
       "time": "All day",
@@ -27805,7 +27805,7 @@
             "zh": "樹蔭下的紅色高草叢",
             "es": "Hierba alta roja a la sombra de los árboles"
           },
-          "image": "habitats/habitat_099.png"
+          "image": "assets/habitats/habitat_099.png"
         },
         {
           "id": 123,
@@ -27814,7 +27814,7 @@
             "zh": "家庭派對",
             "es": "Fiesta en casa"
           },
-          "image": "habitats/habitat_123.png"
+          "image": "assets/habitats/habitat_123.png"
         }
       ],
       "time": "All day",
@@ -27986,7 +27986,7 @@
             "zh": "巨岩遮蔭的高草叢",
             "es": "Hierba alta a la sombra de la roca"
           },
-          "image": "habitats/habitat_003.png"
+          "image": "assets/habitats/habitat_003.png"
         }
       ],
       "time": "All day",
@@ -28161,7 +28161,7 @@
             "zh": "草地訓練場",
             "es": "Campo de entrenamiento con hierba"
           },
-          "image": "habitats/habitat_103.png"
+          "image": "assets/habitats/habitat_103.png"
         },
         {
           "id": 127,
@@ -28170,7 +28170,7 @@
             "zh": "跟著節奏的箱子",
             "es": "Caja al ritmo"
           },
-          "image": "habitats/habitat_127.png"
+          "image": "assets/habitats/habitat_127.png"
         }
       ],
       "time": "All day",
@@ -28343,7 +28343,7 @@
             "zh": "草地訓練場",
             "es": "Campo de entrenamiento con hierba"
           },
-          "image": "habitats/habitat_103.png"
+          "image": "assets/habitats/habitat_103.png"
         },
         {
           "id": 117,
@@ -28352,7 +28352,7 @@
             "zh": "鏗鏘鐵匠工地",
             "es": "Construcción de hierro: ¡clín clán!"
           },
-          "image": "habitats/habitat_117.png"
+          "image": "assets/habitats/habitat_117.png"
         }
       ],
       "time": "All day",
@@ -28527,7 +28527,7 @@
             "zh": "高草叢",
             "es": "Hierba alta"
           },
-          "image": "habitats/habitat_001.png"
+          "image": "assets/habitats/habitat_001.png"
         }
       ],
       "time": "All day",
@@ -28684,7 +28684,7 @@
             "zh": "長苔的巨岩",
             "es": "Roca con musgo"
           },
-          "image": "habitats/habitat_111.png"
+          "image": "assets/habitats/habitat_111.png"
         }
       ],
       "time": "All day",
@@ -28841,7 +28841,7 @@
             "zh": "長苔的巨岩",
             "es": "Roca con musgo"
           },
-          "image": "habitats/habitat_111.png"
+          "image": "assets/habitats/habitat_111.png"
         }
       ],
       "time": "All day",
@@ -28998,7 +28998,7 @@
             "zh": "漂亮的花圃",
             "es": "Macizo de flores bonito"
           },
-          "image": "habitats/habitat_008.png"
+          "image": "assets/habitats/habitat_008.png"
         }
       ],
       "time": "All day",
@@ -29169,7 +29169,7 @@
             "zh": "挖掘與燃燒",
             "es": "Cavando y quemando"
           },
-          "image": "habitats/habitat_116.png"
+          "image": "assets/habitats/habitat_116.png"
         }
       ],
       "time": "All day",
@@ -29327,7 +29327,7 @@
             "zh": "迷你廚房",
             "es": "Cocinita"
           },
-          "image": "habitats/habitat_122.png"
+          "image": "assets/habitats/habitat_122.png"
         }
       ],
       "time": "All day",
@@ -29485,7 +29485,7 @@
             "zh": "樹蔭下的紅色高草叢",
             "es": "Hierba alta roja a la sombra de los árboles"
           },
-          "image": "habitats/habitat_099.png"
+          "image": "assets/habitats/habitat_099.png"
         }
       ],
       "time": "All day",
@@ -29660,7 +29660,7 @@
             "zh": "樹蔭下的紅色高草叢",
             "es": "Hierba alta roja a la sombra de los árboles"
           },
-          "image": "habitats/habitat_099.png"
+          "image": "assets/habitats/habitat_099.png"
         },
         {
           "id": 123,
@@ -29669,7 +29669,7 @@
             "zh": "家庭派對",
             "es": "Fiesta en casa"
           },
-          "image": "habitats/habitat_123.png"
+          "image": "assets/habitats/habitat_123.png"
         }
       ],
       "time": "All day",
@@ -29845,7 +29845,7 @@
             "zh": "高地的紅色高草叢",
             "es": "Hierba alta roja elevada"
           },
-          "image": "habitats/habitat_102.png"
+          "image": "assets/habitats/habitat_102.png"
         },
         {
           "id": 105,
@@ -29854,7 +29854,7 @@
             "zh": "樹蔭下的優雅花圃",
             "es": "Macizo de flores elegante a la sombra de los árboles"
           },
-          "image": "habitats/habitat_105.png"
+          "image": "assets/habitats/habitat_105.png"
         }
       ],
       "time": "All day",
@@ -30063,7 +30063,7 @@
             "zh": "高地的紅色高草叢",
             "es": "Hierba alta roja elevada"
           },
-          "image": "habitats/habitat_102.png"
+          "image": "assets/habitats/habitat_102.png"
         },
         {
           "id": 125,
@@ -30072,7 +30072,7 @@
             "zh": "啾啾演奏會",
             "es": "Recital de pío pío"
           },
-          "image": "habitats/habitat_125.png"
+          "image": "assets/habitats/habitat_125.png"
         }
       ],
       "time": "All day",
@@ -30234,7 +30234,7 @@
             "zh": "長苔的休息處",
             "es": "Lugar de descanso con musgo"
           },
-          "image": "habitats/habitat_110.png"
+          "image": "assets/habitats/habitat_110.png"
         }
       ],
       "time": "All day",
@@ -30412,7 +30412,7 @@
             "zh": "樹蔭下的粉色高草叢",
             "es": "Hierba alta rosa a la sombra de los árboles"
           },
-          "image": "habitats/habitat_138.png"
+          "image": "assets/habitats/habitat_138.png"
         }
       ],
       "time": "All day",
@@ -30589,7 +30589,7 @@
             "zh": "土裡辛勞",
             "es": "Trabajando la tierra"
           },
-          "image": "habitats/habitat_108.png"
+          "image": "assets/habitats/habitat_108.png"
         },
         {
           "id": 110,
@@ -30598,7 +30598,7 @@
             "zh": "長苔的休息處",
             "es": "Lugar de descanso con musgo"
           },
-          "image": "habitats/habitat_110.png"
+          "image": "assets/habitats/habitat_110.png"
         }
       ],
       "time": "All day",
@@ -30774,7 +30774,7 @@
             "zh": "潮濕的紅色高草叢",
             "es": "Hierba alta roja húmeda"
           },
-          "image": "habitats/habitat_101.png"
+          "image": "assets/habitats/habitat_101.png"
         },
         {
           "id": 109,
@@ -30783,7 +30783,7 @@
             "zh": "令人振奮的浮萍",
             "es": "Lenteja de agua inspiradora"
           },
-          "image": "habitats/habitat_109.png"
+          "image": "assets/habitats/habitat_109.png"
         },
         {
           "id": 187,
@@ -30792,7 +30792,7 @@
             "zh": "溫泉釣場",
             "es": "Lugar de pesca en aguas termales"
           },
-          "image": "habitats/habitat_187.png"
+          "image": "assets/habitats/habitat_187.png"
         }
       ],
       "time": "All day",
@@ -30967,7 +30967,7 @@
             "zh": "潮濕的紅色高草叢",
             "es": "Hierba alta roja húmeda"
           },
-          "image": "habitats/habitat_101.png"
+          "image": "assets/habitats/habitat_101.png"
         },
         {
           "id": 187,
@@ -30976,7 +30976,7 @@
             "zh": "溫泉釣場",
             "es": "Lugar de pesca en aguas termales"
           },
-          "image": "habitats/habitat_187.png"
+          "image": "assets/habitats/habitat_187.png"
         }
       ],
       "time": "All day",
@@ -31152,7 +31152,7 @@
             "zh": "令人振奮的浮萍",
             "es": "Lenteja de agua inspiradora"
           },
-          "image": "habitats/habitat_109.png"
+          "image": "assets/habitats/habitat_109.png"
         }
       ],
       "time": "All day",
@@ -31328,7 +31328,7 @@
             "zh": "收銀台工作",
             "es": "Trabajando en la caja"
           },
-          "image": "habitats/habitat_091.png"
+          "image": "assets/habitats/habitat_091.png"
         }
       ],
       "time": "All day",
@@ -31533,7 +31533,7 @@
             "zh": "長苔的溫泉",
             "es": "Aguas termales con musgo"
           },
-          "image": "habitats/habitat_112.png"
+          "image": "assets/habitats/habitat_112.png"
         }
       ],
       "time": "All day",
@@ -31710,7 +31710,7 @@
             "zh": "紅色高草叢",
             "es": "Hierba alta roja"
           },
-          "image": "habitats/habitat_098.png"
+          "image": "assets/habitats/habitat_098.png"
         },
         {
           "id": 128,
@@ -31719,7 +31719,7 @@
             "zh": "音樂與雜誌",
             "es": "Música y revistas"
           },
-          "image": "habitats/habitat_128.png"
+          "image": "assets/habitats/habitat_128.png"
         }
       ],
       "time": "All day",
@@ -31898,7 +31898,7 @@
             "zh": "紅色高草叢",
             "es": "Hierba alta roja"
           },
-          "image": "habitats/habitat_098.png"
+          "image": "assets/habitats/habitat_098.png"
         },
         {
           "id": 128,
@@ -31907,7 +31907,7 @@
             "zh": "音樂與雜誌",
             "es": "Música y revistas"
           },
-          "image": "habitats/habitat_128.png"
+          "image": "assets/habitats/habitat_128.png"
         }
       ],
       "time": "All day",
@@ -32085,7 +32085,7 @@
             "zh": "高地的紅色高草叢",
             "es": "Hierba alta roja elevada"
           },
-          "image": "habitats/habitat_102.png"
+          "image": "assets/habitats/habitat_102.png"
         },
         {
           "id": 125,
@@ -32094,7 +32094,7 @@
             "zh": "啾啾演奏會",
             "es": "Recital de pío pío"
           },
-          "image": "habitats/habitat_125.png"
+          "image": "assets/habitats/habitat_125.png"
         }
       ],
       "time": "All day",
@@ -32283,7 +32283,7 @@
             "zh": "紅色高草叢",
             "es": "Hierba alta roja"
           },
-          "image": "habitats/habitat_098.png"
+          "image": "assets/habitats/habitat_098.png"
         },
         {
           "id": 127,
@@ -32292,7 +32292,7 @@
             "zh": "跟著節奏的箱子",
             "es": "Caja al ritmo"
           },
-          "image": "habitats/habitat_127.png"
+          "image": "assets/habitats/habitat_127.png"
         }
       ],
       "time": "All day",
@@ -32483,7 +32483,7 @@
             "zh": "跟著節奏的箱子",
             "es": "Caja al ritmo"
           },
-          "image": "habitats/habitat_127.png"
+          "image": "assets/habitats/habitat_127.png"
         }
       ],
       "time": "All day",
@@ -32653,7 +32653,7 @@
             "zh": "音樂與雜誌",
             "es": "Música y revistas"
           },
-          "image": "habitats/habitat_128.png"
+          "image": "assets/habitats/habitat_128.png"
         }
       ],
       "time": "All day",
@@ -32849,7 +32849,7 @@
             "zh": "樹蔭下的優雅花圃",
             "es": "Macizo de flores elegante a la sombra de los árboles"
           },
-          "image": "habitats/habitat_105.png"
+          "image": "assets/habitats/habitat_105.png"
         }
       ],
       "time": "All day",
@@ -33000,7 +33000,7 @@
             "zh": "樹蔭下的優雅花圃",
             "es": "Macizo de flores elegante a la sombra de los árboles"
           },
-          "image": "habitats/habitat_105.png"
+          "image": "assets/habitats/habitat_105.png"
         },
         {
           "id": 115,
@@ -33009,7 +33009,7 @@
             "zh": "滾燙熔岩",
             "es": "Lava hirviente"
           },
-          "image": "habitats/habitat_115.png"
+          "image": "assets/habitats/habitat_115.png"
         }
       ],
       "time": "All day",
@@ -33178,7 +33178,7 @@
             "zh": "新鮮蔬菜田",
             "es": "Campo de verduras frescas"
           },
-          "image": "habitats/habitat_015.png"
+          "image": "assets/habitats/habitat_015.png"
         }
       ],
       "time": "All day",
@@ -33356,7 +33356,7 @@
             "zh": "尖樹蔭下的岩石高草叢",
             "es": "Hierba alta rocosa a la sombra del árbol puntiagudo"
           },
-          "image": "habitats/habitat_100.png"
+          "image": "assets/habitats/habitat_100.png"
         }
       ],
       "time": "All day",
@@ -33526,7 +33526,7 @@
             "zh": "尖樹蔭下的岩石高草叢",
             "es": "Hierba alta rocosa a la sombra del árbol puntiagudo"
           },
-          "image": "habitats/habitat_100.png"
+          "image": "assets/habitats/habitat_100.png"
         },
         {
           "id": 136,
@@ -33535,7 +33535,7 @@
             "zh": "現代生活",
             "es": "Vida moderna"
           },
-          "image": "habitats/habitat_136.png"
+          "image": "assets/habitats/habitat_136.png"
         }
       ],
       "time": "All day",
@@ -33706,7 +33706,7 @@
             "zh": "紅色高草叢",
             "es": "Hierba alta roja"
           },
-          "image": "habitats/habitat_098.png"
+          "image": "assets/habitats/habitat_098.png"
         }
       ],
       "time": "All day",
@@ -33904,7 +33904,7 @@
             "zh": "露天浴池",
             "es": "Baño al aire libre"
           },
-          "image": "habitats/habitat_113.png"
+          "image": "assets/habitats/habitat_113.png"
         },
         {
           "id": 130,
@@ -33913,7 +33913,7 @@
             "zh": "清爽更衣室",
             "es": "Vestidor refrescante"
           },
-          "image": "habitats/habitat_130.png"
+          "image": "assets/habitats/habitat_130.png"
         }
       ],
       "time": "All day",
@@ -34098,7 +34098,7 @@
             "zh": "紅色高草叢",
             "es": "Hierba alta roja"
           },
-          "image": "habitats/habitat_098.png"
+          "image": "assets/habitats/habitat_098.png"
         },
         {
           "id": 130,
@@ -34107,7 +34107,7 @@
             "zh": "清爽更衣室",
             "es": "Vestidor refrescante"
           },
-          "image": "habitats/habitat_130.png"
+          "image": "assets/habitats/habitat_130.png"
         }
       ],
       "time": "All day",
@@ -34279,7 +34279,7 @@
             "zh": "樹蔭下的高草叢",
             "es": "Hierba alta a la sombra de los árboles"
           },
-          "image": "habitats/habitat_002.png"
+          "image": "assets/habitats/habitat_002.png"
         }
       ],
       "time": "All day",
@@ -34462,7 +34462,7 @@
             "zh": "主廚廚房",
             "es": "Cocina del chef"
           },
-          "image": "habitats/habitat_133.png"
+          "image": "assets/habitats/habitat_133.png"
         }
       ],
       "time": "All day",
@@ -34671,7 +34671,7 @@
             "zh": "鐵路平交道",
             "es": "Cruce ferroviario"
           },
-          "image": "habitats/habitat_132.png"
+          "image": "assets/habitats/habitat_132.png"
         }
       ],
       "time": "All day",
@@ -34846,7 +34846,7 @@
             "zh": "鐵路平交道",
             "es": "Cruce ferroviario"
           },
-          "image": "habitats/habitat_132.png"
+          "image": "assets/habitats/habitat_132.png"
         }
       ],
       "time": "All day",
@@ -35023,7 +35023,7 @@
             "zh": "鐵路平交道",
             "es": "Cruce ferroviario"
           },
-          "image": "habitats/habitat_132.png"
+          "image": "assets/habitats/habitat_132.png"
         },
         {
           "id": 135,
@@ -35032,7 +35032,7 @@
             "zh": "沉重的鐵",
             "es": "Hierro pesado"
           },
-          "image": "habitats/habitat_135.png"
+          "image": "assets/habitats/habitat_135.png"
         }
       ],
       "time": "All day",
@@ -35208,7 +35208,7 @@
             "zh": "懶洋洋翻相簿",
             "es": "Ojeando el álbum de fotos con pereza"
           },
-          "image": "habitats/habitat_124.png"
+          "image": "assets/habitats/habitat_124.png"
         }
       ],
       "time": "All day",
@@ -35369,7 +35369,7 @@
             "zh": "優雅的花圃",
             "es": "Macizo de flores elegante"
           },
-          "image": "habitats/habitat_104.png"
+          "image": "assets/habitats/habitat_104.png"
         },
         {
           "id": 121,
@@ -35378,7 +35378,7 @@
             "zh": "最佳麵包烘焙坊",
             "es": "La mejor panadería"
           },
-          "image": "habitats/habitat_121.png"
+          "image": "assets/habitats/habitat_121.png"
         }
       ],
       "time": "All day",
@@ -35580,7 +35580,7 @@
             "zh": "優雅的花圃",
             "es": "Macizo de flores elegante"
           },
-          "image": "habitats/habitat_104.png"
+          "image": "assets/habitats/habitat_104.png"
         },
         {
           "id": 121,
@@ -35589,7 +35589,7 @@
             "zh": "最佳麵包烘焙坊",
             "es": "La mejor panadería"
           },
-          "image": "habitats/habitat_121.png"
+          "image": "assets/habitats/habitat_121.png"
         }
       ],
       "time": "All day",
@@ -35773,7 +35773,7 @@
             "zh": "滾燙熔岩",
             "es": "Lava hirviente"
           },
-          "image": "habitats/habitat_115.png"
+          "image": "assets/habitats/habitat_115.png"
         }
       ],
       "time": "All day",
@@ -35945,7 +35945,7 @@
             "zh": "吉祥騎士神殿",
             "es": "Santuario del caballero auspicioso"
           },
-          "image": "habitats/habitat_192.png"
+          "image": "assets/habitats/habitat_192.png"
         }
       ],
       "time": "All day",
@@ -36118,7 +36118,7 @@
             "zh": "邪惡騎士神殿",
             "es": "Santuario del caballero malvado"
           },
-          "image": "habitats/habitat_191.png"
+          "image": "assets/habitats/habitat_191.png"
         }
       ],
       "time": "All day",
@@ -36291,7 +36291,7 @@
             "zh": "詭異白色岩石",
             "es": "Rocas blancas espeluznantes"
           },
-          "image": "habitats/habitat_118.png"
+          "image": "assets/habitats/habitat_118.png"
         },
         {
           "id": 119,
@@ -36300,7 +36300,7 @@
             "zh": "容器零食時間",
             "es": "Merienda del contenedor"
           },
-          "image": "habitats/habitat_119.png"
+          "image": "assets/habitats/habitat_119.png"
         }
       ],
       "time": "All day",
@@ -36456,7 +36456,7 @@
             "zh": "詭異白色岩石",
             "es": "Rocas blancas espeluznantes"
           },
-          "image": "habitats/habitat_118.png"
+          "image": "assets/habitats/habitat_118.png"
         },
         {
           "id": 119,
@@ -36465,7 +36465,7 @@
             "zh": "容器零食時間",
             "es": "Merienda del contenedor"
           },
-          "image": "habitats/habitat_119.png"
+          "image": "assets/habitats/habitat_119.png"
         }
       ],
       "time": "All day",
@@ -36622,7 +36622,7 @@
             "zh": "迷你博物館",
             "es": "Museíto"
           },
-          "image": "habitats/habitat_129.png"
+          "image": "assets/habitats/habitat_129.png"
         }
       ],
       "time": "All day",
@@ -36800,7 +36800,7 @@
             "zh": "絕對奢華",
             "es": "Lujo absoluto"
           },
-          "image": "habitats/habitat_134.png"
+          "image": "assets/habitats/habitat_134.png"
         }
       ],
       "time": "All day",
@@ -36979,7 +36979,7 @@
             "zh": "毛茸茸的花圃",
             "es": "Macizo de flores esponjoso"
           },
-          "image": "habitats/habitat_142.png"
+          "image": "assets/habitats/habitat_142.png"
         }
       ],
       "time": "All day",
@@ -37178,7 +37178,7 @@
             "zh": "毛茸茸的花圃",
             "es": "Macizo de flores esponjoso"
           },
-          "image": "habitats/habitat_142.png"
+          "image": "assets/habitats/habitat_142.png"
         },
         {
           "id": 180,
@@ -37187,7 +37187,7 @@
             "zh": "九道烈焰",
             "es": "Nueve llamas"
           },
-          "image": "habitats/habitat_180.png"
+          "image": "assets/habitats/habitat_180.png"
         }
       ],
       "time": "All day",
@@ -37389,7 +37389,7 @@
             "zh": "乾乾淨淨",
             "es": "Limpio como una patena"
           },
-          "image": "habitats/habitat_161.png"
+          "image": "assets/habitats/habitat_161.png"
         }
       ],
       "time": "All day",
@@ -37541,7 +37541,7 @@
             "zh": "潮濕的毛茸茸花圃",
             "es": "Macizo de flores esponjoso húmedo"
           },
-          "image": "habitats/habitat_144.png"
+          "image": "assets/habitats/habitat_144.png"
         }
       ],
       "time": "All day",
@@ -37675,7 +37675,7 @@
             "zh": "下水道口檢查",
             "es": "Inspección de alcantarilla"
           },
-          "image": "habitats/habitat_156.png"
+          "image": "assets/habitats/habitat_156.png"
         },
         {
           "id": 178,
@@ -37684,7 +37684,7 @@
             "zh": "道場訓練",
             "es": "Entrenamiento en el dojo"
           },
-          "image": "habitats/habitat_178.png"
+          "image": "assets/habitats/habitat_178.png"
         }
       ],
       "time": "All day",
@@ -37836,7 +37836,7 @@
             "zh": "潮濕的優雅花圃",
             "es": "Macizo de flores elegante húmedo"
           },
-          "image": "habitats/habitat_106.png"
+          "image": "assets/habitats/habitat_106.png"
         },
         {
           "id": 107,
@@ -37845,7 +37845,7 @@
             "zh": "花園樹樁舞台",
             "es": "Escenario de tronco en el jardín de flores"
           },
-          "image": "habitats/habitat_107.png"
+          "image": "assets/habitats/habitat_107.png"
         },
         {
           "id": 114,
@@ -37854,7 +37854,7 @@
             "zh": "和諧溫泉",
             "es": "Aguas termales armoniosas"
           },
-          "image": "habitats/habitat_114.png"
+          "image": "assets/habitats/habitat_114.png"
         }
       ],
       "time": "All day",
@@ -38025,7 +38025,7 @@
             "zh": "洶湧的超能力",
             "es": "Poder psíquico arrollador"
           },
-          "image": "habitats/habitat_151.png"
+          "image": "assets/habitats/habitat_151.png"
         },
         {
           "id": 152,
@@ -38034,7 +38034,7 @@
             "zh": "占卜師的桌子",
             "es": "Mesa de la quiromántica"
           },
-          "image": "habitats/habitat_152.png"
+          "image": "assets/habitats/habitat_152.png"
         }
       ],
       "time": "All day",
@@ -38242,7 +38242,7 @@
             "zh": "占卜師的桌子",
             "es": "Mesa de la quiromántica"
           },
-          "image": "habitats/habitat_152.png"
+          "image": "assets/habitats/habitat_152.png"
         }
       ],
       "time": "All day",
@@ -38427,7 +38427,7 @@
             "zh": "洶湧的超能力",
             "es": "Poder psíquico arrollador"
           },
-          "image": "habitats/habitat_151.png"
+          "image": "assets/habitats/habitat_151.png"
         },
         {
           "id": 168,
@@ -38436,7 +38436,7 @@
             "zh": "實驗空間",
             "es": "Espacio de experimentos"
           },
-          "image": "habitats/habitat_168.png"
+          "image": "assets/habitats/habitat_168.png"
         }
       ],
       "time": "All day",
@@ -38614,7 +38614,7 @@
             "zh": "一塵不染的清洗站",
             "es": "Estación de lavado impecable"
           },
-          "image": "habitats/habitat_157.png"
+          "image": "assets/habitats/habitat_157.png"
         },
         {
           "id": 171,
@@ -38623,7 +38623,7 @@
             "zh": "公共閱讀資料",
             "es": "Material de lectura público"
           },
-          "image": "habitats/habitat_171.png"
+          "image": "assets/habitats/habitat_171.png"
         }
       ],
       "time": "All day",
@@ -38797,7 +38797,7 @@
             "zh": "一塵不染的清洗站",
             "es": "Estación de lavado impecable"
           },
-          "image": "habitats/habitat_157.png"
+          "image": "assets/habitats/habitat_157.png"
         }
       ],
       "time": "All day",
@@ -38967,7 +38967,7 @@
             "zh": "研究員的桌子",
             "es": "Escritorio del investigador"
           },
-          "image": "habitats/habitat_170.png"
+          "image": "assets/habitats/habitat_170.png"
         }
       ],
       "time": "All day",
@@ -39175,7 +39175,7 @@
             "zh": "辦公桌",
             "es": "Escritorio de trabajo"
           },
-          "image": "habitats/habitat_166.png"
+          "image": "assets/habitats/habitat_166.png"
         }
       ],
       "time": "All day",
@@ -39374,7 +39374,7 @@
             "zh": "遊戲角落對戰區",
             "es": "Zona de batalla del casino"
           },
-          "image": "habitats/habitat_164.png"
+          "image": "assets/habitats/habitat_164.png"
         }
       ],
       "time": "All day",
@@ -39576,7 +39576,7 @@
             "zh": "潮濕的毛茸茸花圃",
             "es": "Macizo de flores esponjoso húmedo"
           },
-          "image": "habitats/habitat_144.png"
+          "image": "assets/habitats/habitat_144.png"
         },
         {
           "id": 148,
@@ -39585,7 +39585,7 @@
             "zh": "簡約浴室",
             "es": "Baño sencillo"
           },
-          "image": "habitats/habitat_148.png"
+          "image": "assets/habitats/habitat_148.png"
         }
       ],
       "time": "All day",
@@ -39751,7 +39751,7 @@
             "zh": "潮濕的毛茸茸花圃",
             "es": "Macizo de flores esponjoso húmedo"
           },
-          "image": "habitats/habitat_144.png"
+          "image": "assets/habitats/habitat_144.png"
         },
         {
           "id": 148,
@@ -39760,7 +39760,7 @@
             "zh": "簡約浴室",
             "es": "Baño sencillo"
           },
-          "image": "habitats/habitat_148.png"
+          "image": "assets/habitats/habitat_148.png"
         }
       ],
       "time": "All day",
@@ -39916,7 +39916,7 @@
             "zh": "水邊小船",
             "es": "Bote junto al agua"
           },
-          "image": "habitats/habitat_145.png"
+          "image": "assets/habitats/habitat_145.png"
         }
       ],
       "time": "All day",
@@ -40039,7 +40039,7 @@
             "zh": "水泥管祕密基地",
             "es": "Base secreta del tubo de concreto"
           },
-          "image": "habitats/habitat_141.png"
+          "image": "assets/habitats/habitat_141.png"
         }
       ],
       "time": "All day",
@@ -40248,7 +40248,7 @@
             "zh": "水泥管祕密基地",
             "es": "Base secreta del tubo de concreto"
           },
-          "image": "habitats/habitat_141.png"
+          "image": "assets/habitats/habitat_141.png"
         },
         {
           "id": 150,
@@ -40257,7 +40257,7 @@
             "zh": "壁爐旁小睡處",
             "es": "Lugar para dormir junto a la chimenea"
           },
-          "image": "habitats/habitat_150.png"
+          "image": "assets/habitats/habitat_150.png"
         }
       ],
       "time": "All day",
@@ -40466,7 +40466,7 @@
             "zh": "壁爐旁小睡處",
             "es": "Lugar para dormir junto a la chimenea"
           },
-          "image": "habitats/habitat_150.png"
+          "image": "assets/habitats/habitat_150.png"
         },
         {
           "id": 183,
@@ -40475,7 +40475,7 @@
             "zh": "頂級汽水",
             "es": "Refresco top"
           },
-          "image": "habitats/habitat_183.png"
+          "image": "assets/habitats/habitat_183.png"
         }
       ],
       "time": "All day",
@@ -40684,7 +40684,7 @@
             "zh": "毛茸茸的花圃",
             "es": "Macizo de flores esponjoso"
           },
-          "image": "habitats/habitat_142.png"
+          "image": "assets/habitats/habitat_142.png"
         },
         {
           "id": 167,
@@ -40693,7 +40693,7 @@
             "zh": "辦公室儲藏室",
             "es": "Almacén de la oficina"
           },
-          "image": "habitats/habitat_167.png"
+          "image": "assets/habitats/habitat_167.png"
         }
       ],
       "time": "All day",
@@ -40860,7 +40860,7 @@
             "zh": "毛茸茸的花圃",
             "es": "Macizo de flores esponjoso"
           },
-          "image": "habitats/habitat_142.png"
+          "image": "assets/habitats/habitat_142.png"
         },
         {
           "id": 158,
@@ -40869,7 +40869,7 @@
             "zh": "家庭劇院",
             "es": "Casa con cine"
           },
-          "image": "habitats/habitat_158.png"
+          "image": "assets/habitats/habitat_158.png"
         },
         {
           "id": 167,
@@ -40878,7 +40878,7 @@
             "zh": "辦公室儲藏室",
             "es": "Almacén de la oficina"
           },
-          "image": "habitats/habitat_167.png"
+          "image": "assets/habitats/habitat_167.png"
         }
       ],
       "time": "All day",
@@ -41058,7 +41058,7 @@
             "zh": "樹蔭下的毛茸茸花圃",
             "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
-          "image": "habitats/habitat_143.png"
+          "image": "assets/habitats/habitat_143.png"
         }
       ],
       "time": "All day",
@@ -41255,7 +41255,7 @@
             "zh": "樹蔭下的毛茸茸花圃",
             "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
-          "image": "habitats/habitat_143.png"
+          "image": "assets/habitats/habitat_143.png"
         }
       ],
       "time": "All day",
@@ -41452,7 +41452,7 @@
             "zh": "讀書區",
             "es": "Área de estudio"
           },
-          "image": "habitats/habitat_159.png"
+          "image": "assets/habitats/habitat_159.png"
         }
       ],
       "time": "All day",
@@ -41620,7 +41620,7 @@
             "zh": "讀書區",
             "es": "Área de estudio"
           },
-          "image": "habitats/habitat_159.png"
+          "image": "assets/habitats/habitat_159.png"
         },
         {
           "id": 162,
@@ -41629,7 +41629,7 @@
             "zh": "保濕化妝台",
             "es": "Tocador de maquillaje hidratante"
           },
-          "image": "habitats/habitat_162.png"
+          "image": "assets/habitats/habitat_162.png"
         }
       ],
       "time": "All day",
@@ -41798,7 +41798,7 @@
             "zh": "保濕化妝台",
             "es": "Tocador de maquillaje hidratante"
           },
-          "image": "habitats/habitat_162.png"
+          "image": "assets/habitats/habitat_162.png"
         },
         {
           "id": 163,
@@ -41807,7 +41807,7 @@
             "zh": "迷你圖書館",
             "es": "Bibliotecita"
           },
-          "image": "habitats/habitat_163.png"
+          "image": "assets/habitats/habitat_163.png"
         }
       ],
       "time": "All day",
@@ -41977,7 +41977,7 @@
             "zh": "道場訓練",
             "es": "Entrenamiento en el dojo"
           },
-          "image": "habitats/habitat_178.png"
+          "image": "assets/habitats/habitat_178.png"
         }
       ],
       "time": "All day",
@@ -42172,7 +42172,7 @@
             "zh": "風景人像立牌",
             "es": "Recorte fotográfico pintoresco"
           },
-          "image": "habitats/habitat_174.png"
+          "image": "assets/habitats/habitat_174.png"
         }
       ],
       "time": "All day",
@@ -42380,7 +42380,7 @@
             "zh": "風景人像立牌",
             "es": "Recorte fotográfico pintoresco"
           },
-          "image": "habitats/habitat_174.png"
+          "image": "assets/habitats/habitat_174.png"
         }
       ],
       "time": "All day",
@@ -42588,7 +42588,7 @@
             "zh": "粉色高草叢",
             "es": "Hierba alta rosa"
           },
-          "image": "habitats/habitat_137.png"
+          "image": "assets/habitats/habitat_137.png"
         }
       ],
       "time": "All day",
@@ -42749,7 +42749,7 @@
             "zh": "粉色高草叢",
             "es": "Hierba alta rosa"
           },
-          "image": "habitats/habitat_137.png"
+          "image": "assets/habitats/habitat_137.png"
         }
       ],
       "time": "All day",
@@ -42930,7 +42930,7 @@
             "zh": "粉色高草叢",
             "es": "Hierba alta rosa"
           },
-          "image": "habitats/habitat_137.png"
+          "image": "assets/habitats/habitat_137.png"
         }
       ],
       "time": "All day",
@@ -43100,7 +43100,7 @@
             "zh": "粉色高草叢",
             "es": "Hierba alta rosa"
           },
-          "image": "habitats/habitat_137.png"
+          "image": "assets/habitats/habitat_137.png"
         }
       ],
       "time": "All day",
@@ -43301,7 +43301,7 @@
             "zh": "鳥鳴花園",
             "es": "Jardín del canto de los pájaros"
           },
-          "image": "habitats/habitat_147.png"
+          "image": "assets/habitats/habitat_147.png"
         }
       ],
       "time": "All day",
@@ -43500,7 +43500,7 @@
             "zh": "粉色高草叢",
             "es": "Hierba alta rosa"
           },
-          "image": "habitats/habitat_137.png"
+          "image": "assets/habitats/habitat_137.png"
         }
       ],
       "time": "All day",
@@ -43697,7 +43697,7 @@
             "zh": "垃圾場電視",
             "es": "Televisión del basurero"
           },
-          "image": "habitats/habitat_153.png"
+          "image": "assets/habitats/habitat_153.png"
         }
       ],
       "time": "All day",
@@ -43903,7 +43903,7 @@
             "zh": "垃圾場電視",
             "es": "Televisión del basurero"
           },
-          "image": "habitats/habitat_153.png"
+          "image": "assets/habitats/habitat_153.png"
         }
       ],
       "time": "All day",
@@ -44093,7 +44093,7 @@
             "zh": "單車休息站",
             "es": "Área de descanso para ciclistas"
           },
-          "image": "habitats/habitat_149.png"
+          "image": "assets/habitats/habitat_149.png"
         }
       ],
       "time": "All day",
@@ -44273,7 +44273,7 @@
             "zh": "博士的學徒計畫",
             "es": "Programa de aprendiz del profesor"
           },
-          "image": "habitats/habitat_169.png"
+          "image": "assets/habitats/habitat_169.png"
         }
       ],
       "time": "All day",
@@ -44454,7 +44454,7 @@
             "zh": "玩家天堂",
             "es": "Paraíso de los jugadores"
           },
-          "image": "habitats/habitat_182.png"
+          "image": "assets/habitats/habitat_182.png"
         }
       ],
       "time": "All day",
@@ -44651,7 +44651,7 @@
             "zh": "遊樂園",
             "es": "Tierra de juegos"
           },
-          "image": "habitats/habitat_165.png"
+          "image": "assets/habitats/habitat_165.png"
         }
       ],
       "time": "All day",
@@ -44826,7 +44826,7 @@
             "zh": "樹蔭下的毛茸茸花圃",
             "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
-          "image": "habitats/habitat_143.png"
+          "image": "assets/habitats/habitat_143.png"
         }
       ],
       "time": "All day",
@@ -45001,7 +45001,7 @@
             "zh": "樹蔭下的毛茸茸花圃",
             "es": "Macizo de flores esponjoso a la sombra de los árboles"
           },
-          "image": "habitats/habitat_143.png"
+          "image": "assets/habitats/habitat_143.png"
         },
         {
           "id": 171,
@@ -45010,7 +45010,7 @@
             "zh": "公共閱讀資料",
             "es": "Material de lectura público"
           },
-          "image": "habitats/habitat_171.png"
+          "image": "assets/habitats/habitat_171.png"
         }
       ],
       "time": "All day",
@@ -45188,7 +45188,7 @@
             "zh": "潮濕的粉色高草叢",
             "es": "Hierba alta rosa húmeda"
           },
-          "image": "habitats/habitat_139.png"
+          "image": "assets/habitats/habitat_139.png"
         }
       ],
       "time": "All day",
@@ -45360,7 +45360,7 @@
             "zh": "潮濕的粉色高草叢",
             "es": "Hierba alta rosa húmeda"
           },
-          "image": "habitats/habitat_139.png"
+          "image": "assets/habitats/habitat_139.png"
         },
         {
           "id": 173,
@@ -45369,7 +45369,7 @@
             "zh": "惡作劇按鈕",
             "es": "Botón de broma"
           },
-          "image": "habitats/habitat_173.png"
+          "image": "assets/habitats/habitat_173.png"
         }
       ],
       "time": "All day",
@@ -45514,7 +45514,7 @@
             "zh": "潮濕的粉色高草叢",
             "es": "Hierba alta rosa húmeda"
           },
-          "image": "habitats/habitat_139.png"
+          "image": "assets/habitats/habitat_139.png"
         },
         {
           "id": 173,
@@ -45523,7 +45523,7 @@
             "zh": "惡作劇按鈕",
             "es": "Botón de broma"
           },
-          "image": "habitats/habitat_173.png"
+          "image": "assets/habitats/habitat_173.png"
         }
       ],
       "time": "All day",
@@ -45682,7 +45682,7 @@
             "zh": "輪胎公園",
             "es": "Parque de llantas"
           },
-          "image": "habitats/habitat_175.png"
+          "image": "assets/habitats/habitat_175.png"
         }
       ],
       "time": "All day",
@@ -45869,7 +45869,7 @@
             "zh": "有節奏的客廳",
             "es": "Sala de estar rítmica"
           },
-          "image": "habitats/habitat_160.png"
+          "image": "assets/habitats/habitat_160.png"
         }
       ],
       "time": "All day",
@@ -46073,7 +46073,7 @@
             "zh": "有節奏的客廳",
             "es": "Sala de estar rítmica"
           },
-          "image": "habitats/habitat_160.png"
+          "image": "assets/habitats/habitat_160.png"
         }
       ],
       "time": "All day",
@@ -46228,7 +46228,7 @@
             "zh": "毛茸茸的花圃",
             "es": "Macizo de flores esponjoso"
           },
-          "image": "habitats/habitat_142.png"
+          "image": "assets/habitats/habitat_142.png"
         }
       ],
       "time": "All day",
@@ -46396,7 +46396,7 @@
             "zh": "高地的粉色高草叢",
             "es": "Hierba alta rosa elevada"
           },
-          "image": "habitats/habitat_140.png"
+          "image": "assets/habitats/habitat_140.png"
         }
       ],
       "time": "All day",
@@ -46565,7 +46565,7 @@
             "zh": "高地的粉色高草叢",
             "es": "Hierba alta rosa elevada"
           },
-          "image": "habitats/habitat_140.png"
+          "image": "assets/habitats/habitat_140.png"
         },
         {
           "id": 156,
@@ -46574,7 +46574,7 @@
             "zh": "下水道口檢查",
             "es": "Inspección de alcantarilla"
           },
-          "image": "habitats/habitat_156.png"
+          "image": "assets/habitats/habitat_156.png"
         }
       ],
       "time": "All day",
@@ -46761,7 +46761,7 @@
             "zh": "樹蔭下的粉色高草叢",
             "es": "Hierba alta rosa a la sombra de los árboles"
           },
-          "image": "habitats/habitat_138.png"
+          "image": "assets/habitats/habitat_138.png"
         }
       ],
       "time": "All day",
@@ -46939,7 +46939,7 @@
             "zh": "樹蔭下的粉色高草叢",
             "es": "Hierba alta rosa a la sombra de los árboles"
           },
-          "image": "habitats/habitat_138.png"
+          "image": "assets/habitats/habitat_138.png"
         },
         {
           "id": 167,
@@ -46948,7 +46948,7 @@
             "zh": "辦公室儲藏室",
             "es": "Almacén de la oficina"
           },
-          "image": "habitats/habitat_167.png"
+          "image": "assets/habitats/habitat_167.png"
         }
       ],
       "time": "All day",
@@ -47126,7 +47126,7 @@
             "zh": "辦公室儲藏室",
             "es": "Almacén de la oficina"
           },
-          "image": "habitats/habitat_167.png"
+          "image": "assets/habitats/habitat_167.png"
         }
       ],
       "time": "All day",
@@ -47304,7 +47304,7 @@
             "zh": "樹蔭下的粉色高草叢",
             "es": "Hierba alta rosa a la sombra de los árboles"
           },
-          "image": "habitats/habitat_138.png"
+          "image": "assets/habitats/habitat_138.png"
         },
         {
           "id": 155,
@@ -47313,7 +47313,7 @@
             "zh": "審問桌",
             "es": "Escritorio de interrogatorio"
           },
-          "image": "habitats/habitat_155.png"
+          "image": "assets/habitats/habitat_155.png"
         }
       ],
       "time": "All day",
@@ -47504,7 +47504,7 @@
             "zh": "審問桌",
             "es": "Escritorio de interrogatorio"
           },
-          "image": "habitats/habitat_155.png"
+          "image": "assets/habitats/habitat_155.png"
         }
       ],
       "time": "All day",
@@ -47682,7 +47682,7 @@
             "zh": "心跳加速驚喜箱",
             "es": "Caja sorpresa que hace latir el corazón"
           },
-          "image": "habitats/habitat_172.png"
+          "image": "assets/habitats/habitat_172.png"
         }
       ],
       "time": "All day",
@@ -47879,7 +47879,7 @@
             "zh": "高地的粉色高草叢",
             "es": "Hierba alta rosa elevada"
           },
-          "image": "habitats/habitat_140.png"
+          "image": "assets/habitats/habitat_140.png"
         }
       ],
       "time": "All day",
@@ -48039,7 +48039,7 @@
             "zh": "高地的粉色高草叢",
             "es": "Hierba alta rosa elevada"
           },
-          "image": "habitats/habitat_140.png"
+          "image": "assets/habitats/habitat_140.png"
         }
       ],
       "time": "All day",
@@ -48198,7 +48198,7 @@
             "zh": "大型行李搬運車",
             "es": "Portaequipajes grande"
           },
-          "image": "habitats/habitat_028.png"
+          "image": "assets/habitats/habitat_028.png"
         },
         {
           "id": 154,
@@ -48207,7 +48207,7 @@
             "zh": "超大傾倒場",
             "es": "Vertedero gigante"
           },
-          "image": "habitats/habitat_154.png"
+          "image": "assets/habitats/habitat_154.png"
         },
         {
           "id": 156,
@@ -48216,7 +48216,7 @@
             "zh": "下水道口檢查",
             "es": "Inspección de alcantarilla"
           },
-          "image": "habitats/habitat_156.png"
+          "image": "assets/habitats/habitat_156.png"
         }
       ],
       "time": "All day",
@@ -48405,7 +48405,7 @@
             "zh": "大型行李搬運車",
             "es": "Portaequipajes grande"
           },
-          "image": "habitats/habitat_028.png"
+          "image": "assets/habitats/habitat_028.png"
         },
         {
           "id": 156,
@@ -48414,7 +48414,7 @@
             "zh": "下水道口檢查",
             "es": "Inspección de alcantarilla"
           },
-          "image": "habitats/habitat_156.png"
+          "image": "assets/habitats/habitat_156.png"
         }
       ],
       "time": "All day",
@@ -48613,7 +48613,7 @@
             "zh": "超大傾倒場",
             "es": "Vertedero gigante"
           },
-          "image": "habitats/habitat_154.png"
+          "image": "assets/habitats/habitat_154.png"
         }
       ],
       "time": "All day",
@@ -48814,7 +48814,7 @@
             "zh": "翅膀化石展示",
             "es": "Exhibición de fósil ala"
           },
-          "image": "habitats/habitat_193.png"
+          "image": "assets/habitats/habitat_193.png"
         }
       ],
       "time": "All day",
@@ -48972,7 +48972,7 @@
             "zh": "頭蓋骨化石展示",
             "es": "Exhibición de fósil cráneo"
           },
-          "image": "habitats/habitat_194.png"
+          "image": "assets/habitats/habitat_194.png"
         }
       ],
       "time": "All day",
@@ -49148,7 +49148,7 @@
             "zh": "頭錘化石展示",
             "es": "Exhibición de fósil cabezazo"
           },
-          "image": "habitats/habitat_195.png"
+          "image": "assets/habitats/habitat_195.png"
         }
       ],
       "time": "All day",
@@ -49342,7 +49342,7 @@
             "zh": "鎧甲化石展示",
             "es": "Exhibición de fósil coraza"
           },
-          "image": "habitats/habitat_196.png"
+          "image": "assets/habitats/habitat_196.png"
         }
       ],
       "time": "All day",
@@ -49536,7 +49536,7 @@
             "zh": "盾化石展示",
             "es": "Exhibición de fósil escudo"
           },
-          "image": "habitats/habitat_197.png"
+          "image": "assets/habitats/habitat_197.png"
         }
       ],
       "time": "All day",
@@ -49730,7 +49730,7 @@
             "zh": "下顎化石展示",
             "es": "Exhibición de fósil mandíbula"
           },
-          "image": "habitats/habitat_198.png"
+          "image": "assets/habitats/habitat_198.png"
         }
       ],
       "time": "All day",
@@ -49904,7 +49904,7 @@
             "zh": "暴君化石展示",
             "es": "Exhibición de fósil déspota"
           },
-          "image": "habitats/habitat_199.png"
+          "image": "assets/habitats/habitat_199.png"
         }
       ],
       "time": "All day",
@@ -50077,7 +50077,7 @@
             "zh": "帆化石展示",
             "es": "Exhibición de fósil vela"
           },
-          "image": "habitats/habitat_200.png"
+          "image": "assets/habitats/habitat_200.png"
         }
       ],
       "time": "All day",
@@ -50267,7 +50267,7 @@
             "zh": "凍原化石展示",
             "es": "Exhibición de fósiles de la tundra"
           },
-          "image": "habitats/habitat_201.png"
+          "image": "assets/habitats/habitat_201.png"
         }
       ],
       "time": "All day",
@@ -50424,7 +50424,7 @@
             "zh": "漂亮的花圃",
             "es": "Macizo de flores bonito"
           },
-          "image": "habitats/habitat_008.png"
+          "image": "assets/habitats/habitat_008.png"
         }
       ],
       "time": "All day",
@@ -50633,7 +50633,7 @@
             "zh": "無限藍色飲品",
             "es": "Bebida azul sin fin"
           },
-          "image": "habitats/habitat_202.png"
+          "image": "assets/habitats/habitat_202.png"
         }
       ],
       "time": "All day",
@@ -50800,7 +50800,7 @@
             "zh": "帶電的馬鈴薯",
             "es": "Papas electrificantes"
           },
-          "image": "habitats/habitat_203.png"
+          "image": "assets/habitats/habitat_203.png"
         }
       ],
       "time": "All day",
@@ -50975,7 +50975,7 @@
             "zh": "超辣辛香料",
             "es": "Especias súper picantes"
           },
-          "image": "habitats/habitat_204.png"
+          "image": "assets/habitats/habitat_204.png"
         }
       ],
       "time": "All day",
@@ -51163,7 +51163,7 @@
             "zh": "優雅的午茶甜點",
             "es": "Delicias elegantes de día"
           },
-          "image": "habitats/habitat_205.png"
+          "image": "assets/habitats/habitat_205.png"
         }
       ],
       "time": "All day",
@@ -51331,7 +51331,7 @@
             "zh": "黑巧克力餅乾",
             "es": "Galletas de chocolate oscuro"
           },
-          "image": "habitats/habitat_206.png"
+          "image": "assets/habitats/habitat_206.png"
         }
       ],
       "time": "All day",
@@ -51519,7 +51519,7 @@
             "zh": "鮮綠蔬菜三明治",
             "es": "Sándwich de verduras frescas"
           },
-          "image": "habitats/habitat_207.png"
+          "image": "assets/habitats/habitat_207.png"
         }
       ],
       "time": "All day",
@@ -51722,7 +51722,7 @@
             "zh": "冰涼刨冰",
             "es": "Raspado helado"
           },
-          "image": "habitats/habitat_208.png"
+          "image": "assets/habitats/habitat_208.png"
         }
       ],
       "time": "All day",
@@ -51914,7 +51914,7 @@
             "zh": "可愛緞帶蛋糕",
             "es": "Pastel con linda cinta"
           },
-          "image": "habitats/habitat_209.png"
+          "image": "assets/habitats/habitat_209.png"
         }
       ],
       "time": "All day",

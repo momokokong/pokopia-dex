@@ -143,7 +143,7 @@ async function scrapeToxtricity() {
     specialties: specialties,
     rarity: rarityStars >= 3 ? 'Rare' : rarityStars === 2 ? 'Uncommon' : 'Common',
     rarity_stars: rarityStars,
-    sprite_url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png'
+    sprite_url: 'https://raw.githubusercontent.com/PokeAPI/assets/sprites/master/assets/sprites/pokemon/other/official-artwork/849.png'
   };
   
   pokemon.push(newEntry);

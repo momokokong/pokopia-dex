@@ -81,7 +81,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Sprite/habitat images — cache-first
-  if (url.pathname.includes('/sprites/') || url.pathname.includes('/habitats/')) {
+  if (url.pathname.includes('/sprites/') || url.pathname.includes('/habitats/') || url.pathname.includes('/assets/sprites/') || url.pathname.includes('/assets/habitats/')) {
     event.respondWith(
       caches.open(IMG_CACHE).then((cache) => {
         return cache.match(event.request).then((cached) => {
@@ -101,7 +101,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Icons — cache-first
-  if (url.pathname.includes('/icons/')) {
+  if (url.pathname.includes('/icons/') || url.pathname.includes('/assets/icons/')) {
     event.respondWith(
       caches.open(CACHE_NAME).then((cache) => {
         return cache.match(event.request).then((cached) => {

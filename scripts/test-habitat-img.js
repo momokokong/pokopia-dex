@@ -10,7 +10,7 @@ var habitatSlugs = [
 async function checkHabitatImage(slug) {
   return new Promise(function(resolve) {
     // PokopiaDex habitat page might contain the actual image URL
-    var url = 'https://pokopiadex.com/habitats/' + slug;
+    var url = 'https://pokopiadex.com/assets/habitats/' + slug;
     https.get(url, {headers:{'User-Agent':'Mozilla/5.0'}}, function(res) {
       var d=''; res.on('data',function(c){d+=c;}); res.on('end',function(){
         // Look for the habitat_ui image for THIS habitat
@@ -20,7 +20,7 @@ async function checkHabitatImage(slug) {
           // Find the full image path
           var start = Math.max(0, idx - 100);
           var context = d.substring(start, idx + slug.length + 10);
-          // Extract the /images/habitats/habitat_ui/... path
+          // Extract the /images/assets/habitats/habitat_ui/... path
           var imgMatch = context.match(/\/images\/habitats\/habitat_ui\/[^"'\s?&]+/);
           if (imgMatch) {
             resolve(slug + ' => ' + imgMatch[0]);
@@ -28,7 +28,7 @@ async function checkHabitatImage(slug) {
           }
         }
         // Try direct URL pattern
-        var directUrl = '/images/habitats/habitat_ui/' + slug + '.png';
+        var directUrl = '/images/assets/habitats/habitat_ui/' + slug + '.png';
         if (d.indexOf(directUrl) > -1) {
           resolve(slug + ' => ' + directUrl);
           return;

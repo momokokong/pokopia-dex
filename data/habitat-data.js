@@ -11,7 +11,7 @@ const HABITAT_DATA = {
       "en": "Sunlit tall grass where Charmander and Bulbasaur play hide-and-seek!",
       "es": "¡Hierba alta iluminada por el sol donde Charmander y Bulbasaur juegan al escondite!"
     },
-    "image": "habitats/habitat_001.png",
+    "image": "assets/habitats/habitat_001.png",
     "requirements": [
       {
         "item": {
@@ -101,7 +101,7 @@ const HABITAT_DATA = {
       "en": "Cool tree-shaded tall grass where bug Pokémon love to relax.",
       "es": "Hierba alta fresca bajo los árboles donde los Pokémon bicho adoran relajarse."
     },
-    "image": "habitats/habitat_002.png",
+    "image": "assets/habitats/habitat_002.png",
     "requirements": [
       {
         "item": {
@@ -191,7 +191,7 @@ const HABITAT_DATA = {
       "en": "Boulder-shaded tall grass, a great spot for Machop to train!",
       "es": "¡Hierba alta a la sombra de rocas, un gran lugar para que Machop entrene!"
     },
-    "image": "habitats/habitat_003.png",
+    "image": "assets/habitats/habitat_003.png",
     "requirements": [
       {
         "item": {
@@ -250,7 +250,7 @@ const HABITAT_DATA = {
       "en": "Damp hydrated tall grass where water Pokémon splash and play happily!",
       "es": "¡Hierba alta húmeda donde los Pokémon de agua salpican y juegan felices!"
     },
-    "image": "habitats/habitat_004.png",
+    "image": "assets/habitats/habitat_004.png",
     "requirements": [
       {
         "item": {
@@ -329,7 +329,7 @@ const HABITAT_DATA = {
       "en": "Seaside tall grass with ocean breezes, where Slowpoke lounges lazily.",
       "es": "Hierba alta junto al mar con brisa oceánica, donde Slowpoke descansa perezosamente."
     },
-    "image": "habitats/habitat_005.png",
+    "image": "assets/habitats/habitat_005.png",
     "requirements": [
       {
         "item": {
@@ -386,7 +386,7 @@ const HABITAT_DATA = {
       "en": "Elevated tall grass with wide views, Pidgey and Hoothoot look out from here!",
       "es": "¡Hierba alta en las alturas con vista amplia, Pidgey y Hoothoot miran desde aquí!"
     },
-    "image": "habitats/habitat_006.png",
+    "image": "assets/habitats/habitat_006.png",
     "requirements": [
       {
         "item": {
@@ -454,7 +454,7 @@ const HABITAT_DATA = {
       "en": "Bright illuminated tall grass where Venomoth dances in the glow.",
       "es": "Hierba alta iluminada y brillante donde Venomoth baila en el resplandor."
     },
-    "image": "habitats/habitat_007.png",
+    "image": "assets/habitats/habitat_007.png",
     "requirements": [
       {
         "item": {
@@ -500,7 +500,7 @@ const HABITAT_DATA = {
       "en": "A pretty flower bed full of colors where birds and Combee play!",
       "es": "¡Un lecho de flores bonito y colorido donde pájaros y Combee juegan!"
     },
-    "image": "habitats/habitat_008.png",
+    "image": "assets/habitats/habitat_008.png",
     "requirements": [
       {
         "item": {
@@ -590,7 +590,7 @@ const HABITAT_DATA = {
       "en": "Cool tree-shaded flower bed where Cacturne and bug Pokémon rest.",
       "es": "Lecho de flores fresco bajo los árboles donde Cacturne y Pokémon bicho descansan."
     },
-    "image": "habitats/habitat_009.png",
+    "image": "assets/habitats/habitat_009.png",
     "requirements": [
       {
         "item": {
@@ -647,7 +647,7 @@ const HABITAT_DATA = {
       "en": "Hydrated flower bed glistening with dew, where firefly Pokémon flutter and glow.",
       "es": "Lecho de flores húmedo brillando con rocío, donde los Pokémon luciérnaga revolotean."
     },
-    "image": "habitats/habitat_010.png",
+    "image": "assets/habitats/habitat_010.png",
     "requirements": [
       {
         "item": {
@@ -693,7 +693,7 @@ const HABITAT_DATA = {
       "en": "Endless field of flowers where Ivysaur and Vespiquen wander among the blooms.",
       "es": "Campo infinito de flores donde Ivysaur y Vespiquen pasean entre las flores."
     },
-    "image": "habitats/habitat_011.png",
+    "image": "assets/habitats/habitat_011.png",
     "requirements": [
       {
         "item": {
@@ -750,7 +750,7 @@ const HABITAT_DATA = {
       "en": "Elevated flower bed with wide views, Paras happily forages among blooms.",
       "es": "Lecho de flores en las alturas con vista amplia, Paras busca comida feliz entre las flores."
     },
-    "image": "habitats/habitat_012.png",
+    "image": "assets/habitats/habitat_012.png",
     "requirements": [
       {
         "item": {
@@ -796,7 +796,7 @@ const HABITAT_DATA = {
       "en": "A quiet grave with flowers where Cubone gently watches over loved ones.",
       "es": "Una tumba tranquila con flores donde Cubone vigila cariñosamente a sus seres queridos."
     },
-    "image": "habitats/habitat_013.png",
+    "image": "assets/habitats/habitat_013.png",
     "requirements": [
       {
         "item": {
@@ -842,7 +842,7 @@ const HABITAT_DATA = {
       "en": "A flower garden in full bloom, Paras strolls leisurely under the blossoms.",
       "es": "Un jardín de flores en plena floración, Paras pasea tranquilamente bajo las flores."
     },
-    "image": "habitats/habitat_014.png",
+    "image": "assets/habitats/habitat_014.png",
     "requirements": [
       {
         "item": {
@@ -888,7 +888,7 @@ const HABITAT_DATA = {
       "en": "Fresh veggie field full of green, Drilbur and Rowlet happily harvest!",
       "es": "¡Campo de verduras frescas lleno de verde, Drilbur y Rowlet cosechan felices!"
     },
-    "image": "habitats/habitat_015.png",
+    "image": "assets/habitats/habitat_015.png",
     "requirements": [
       {
         "item": {
@@ -945,7 +945,7 @@ const HABITAT_DATA = {
       "en": "Riding warm updrafts, Drifloon floats joyfully through the sky!",
       "es": "¡Cabalgando corrientes cálidas, Drifloon flota feliz por el cielo!"
     },
-    "image": "habitats/habitat_016.png",
+    "image": "assets/habitats/habitat_016.png",
     "requirements": [
       {
         "item": {
@@ -980,7 +980,7 @@ const HABITAT_DATA = {
       "en": "A cozy campsite with a warm fire, Charmeleon guards everyone by the flames.",
       "es": "Un campamento acogedor con fogata cálida, Charmeleon cuida a todos junto a las llamas."
     },
-    "image": "habitats/habitat_017.png",
+    "image": "assets/habitats/habitat_017.png",
     "requirements": [
       {
         "item": {
@@ -1015,7 +1015,7 @@ const HABITAT_DATA = {
       "en": "Training waterfall with rushing water, Tyrogue builds strength and spirit!",
       "es": "¡Cascada de entrenamiento con agua impetuosa, Tyrogue fortalece su cuerpo y espíritu!"
     },
-    "image": "habitats/habitat_018.png",
+    "image": "assets/habitats/habitat_018.png",
     "requirements": [
       {
         "item": {
@@ -1050,7 +1050,7 @@ const HABITAT_DATA = {
       "en": "A tantalizing dining set with yummy aromas, Gulpin waits to taste the feast!",
       "es": "¡Un comedor tentador con ricos aromas, Gulpin espera para probar el banquete!"
     },
-    "image": "habitats/habitat_019.png",
+    "image": "assets/habitats/habitat_019.png",
     "requirements": [
       {
         "item": {
@@ -1085,7 +1085,7 @@ const HABITAT_DATA = {
       "en": "A picnic set with snacks spread out, Pikachu and Pichu happily munch away!",
       "es": "¡Un set de picnic con meriendas, Pikachu y Pichu comen felices!"
     },
-    "image": "habitats/habitat_020.png",
+    "image": "assets/habitats/habitat_020.png",
     "requirements": [
       {
         "item": {
@@ -1131,7 +1131,7 @@ const HABITAT_DATA = {
       "en": "A flowery table fragrant and sweet, Weepinbell naps among the blossoms.",
       "es": "Una mesa floral fragante y dulce, Weepinbell duerme entre las flores."
     },
-    "image": "habitats/habitat_021.png",
+    "image": "assets/habitats/habitat_021.png",
     "requirements": [
       {
         "item": {
@@ -1179,7 +1179,7 @@ const HABITAT_DATA = {
       "en": "A bench surrounded by greenery, Ivysaur and Tangrowth relax in the shade.",
       "es": "Un banco rodeado de vegetación, Ivysaur y Tangrowth se relajan a la sombra."
     },
-    "image": "habitats/habitat_022.png",
+    "image": "assets/habitats/habitat_022.png",
     "requirements": [
       {
         "item": {
@@ -1236,7 +1236,7 @@ const HABITAT_DATA = {
       "en": "An illuminated bench with soft light, Venomoth rests quietly in the warm glow.",
       "es": "Un banco iluminado con luz suave, Venomoth descansa tranquilamente en el resplandor cálido."
     },
-    "image": "habitats/habitat_023.png",
+    "image": "assets/habitats/habitat_023.png",
     "requirements": [
       {
         "item": {
@@ -1282,7 +1282,7 @@ const HABITAT_DATA = {
       "en": "An exercise resting spot to catch your breath, Hitmonchan takes a well-earned break.",
       "es": "Un descanso deportivo para recuperar el aliento, Hitmonchan toma un merecido descanso."
     },
-    "image": "habitats/habitat_024.png",
+    "image": "assets/habitats/habitat_024.png",
     "requirements": [
       {
         "item": {
@@ -1317,7 +1317,7 @@ const HABITAT_DATA = {
       "en": "Urgent care always ready, Hitmonlee heals up and gets back in action!",
       "es": "¡Urgencias siempre listas, Hitmonlee se recupera y vuelve a la acción!"
     },
-    "image": "habitats/habitat_025.png",
+    "image": "assets/habitats/habitat_025.png",
     "requirements": [
       {
         "item": {
@@ -1352,7 +1352,7 @@ const HABITAT_DATA = {
       "en": "Gym first aid watches over fighting Pokémon, Hitmontop rests with peace of mind.",
       "es": "Primeros auxilios del gimnasio cuida a los Pokémon luchadores, Hitmontop descansa tranquilo."
     },
-    "image": "habitats/habitat_026.png",
+    "image": "assets/habitats/habitat_026.png",
     "requirements": [
       {
         "item": {
@@ -1387,7 +1387,7 @@ const HABITAT_DATA = {
       "en": "A road sign pointing the way, Shellos strolls leisurely along the path.",
       "es": "Una señal de camino que indica la dirección, Shellos pasea tranquilamente por el sendero."
     },
-    "image": "habitats/habitat_027.png",
+    "image": "assets/habitats/habitat_027.png",
     "requirements": [
       {
         "item": {
@@ -1422,7 +1422,7 @@ const HABITAT_DATA = {
       "en": "Busy luggage area where Gurdurr helps carry heavy loads!",
       "es": "¡Área de equipaje ocupada donde Gurdurr ayuda a cargar cosas pesadas!"
     },
-    "image": "habitats/habitat_028.png",
+    "image": "assets/habitats/habitat_028.png",
     "requirements": [
       {
         "item": {
@@ -1479,7 +1479,7 @@ const HABITAT_DATA = {
       "en": "A lumberjack's workplace with sawing sounds, Haxorus shows off lumber skills!",
       "es": "¡El taller del leñador con sonidos de sierra, Haxorus demuestra sus habilidades madereras!"
     },
-    "image": "habitats/habitat_029.png",
+    "image": "assets/habitats/habitat_029.png",
     "requirements": [
       {
         "item": {
@@ -1536,7 +1536,7 @@ const HABITAT_DATA = {
       "en": "A cozy bed with a plush toy, Snorlax and Munchlax snooze sweetly!",
       "es": "¡Una cama acogedora con peluche, Snorlax y Munchlax duermen dulcemente!"
     },
-    "image": "habitats/habitat_030.png",
+    "image": "assets/habitats/habitat_030.png",
     "requirements": [
       {
         "item": {
@@ -1604,7 +1604,7 @@ const HABITAT_DATA = {
       "en": "A gently lit bed with soft light, Hoothoot sleeps peacefully in the warm glow.",
       "es": "Una cama suavemente iluminada, Hoothoot duerme plácidamente en el resplandor cálido."
     },
-    "image": "habitats/habitat_031.png",
+    "image": "assets/habitats/habitat_031.png",
     "requirements": [
       {
         "item": {
@@ -1650,7 +1650,7 @@ const HABITAT_DATA = {
       "en": "Grave offerings solemn and quiet, Lampent watches over peacefully.",
       "es": "Ofrendas de tumba solemnes y silenciosas, Lampent vigila plácidamente."
     },
-    "image": "habitats/habitat_032.png",
+    "image": "assets/habitats/habitat_032.png",
     "requirements": [
       {
         "item": {
@@ -1696,7 +1696,7 @@ const HABITAT_DATA = {
       "en": "Creepy grave offerings glowing faintly, Chandelure flickers eerily.",
       "es": "Ofrendas de tumba espeluznantes con luz tenue, Chandelure parpadea misteriosamente."
     },
-    "image": "habitats/habitat_033.png",
+    "image": "assets/habitats/habitat_033.png",
     "requirements": [
       {
         "item": {
@@ -1753,7 +1753,7 @@ const HABITAT_DATA = {
       "en": "Chansey's cozy resting area, Vileplume and Bellossom relax here.",
       "es": "Zona de descanso acogedora de Chansey, Vileplume y Bellossom se relajan aquí."
     },
-    "image": "habitats/habitat_034.png",
+    "image": "assets/habitats/habitat_034.png",
     "requirements": [
       {
         "item": {
@@ -1799,7 +1799,7 @@ const HABITAT_DATA = {
       "en": "Irresistible scent and glow, Weepinbell is drawn by the fragrance!",
       "es": "¡Aroma y brillo irresistibles, Weepinbell es atraído por la fragancia!"
     },
-    "image": "habitats/habitat_035.png",
+    "image": "assets/habitats/habitat_035.png",
     "requirements": [
       {
         "item": {
@@ -1845,7 +1845,7 @@ const HABITAT_DATA = {
       "en": "Floating gently in the shade, Blastoise enjoys the cool breeze.",
       "es": "Flotando suavemente a la sombra, Blastoise disfruta la brisa fresca."
     },
-    "image": "habitats/habitat_036.png",
+    "image": "assets/habitats/habitat_036.png",
     "requirements": [
       {
         "item": {
@@ -1880,7 +1880,7 @@ const HABITAT_DATA = {
       "en": "Smooth tall grass with a soft touch, Onix glides slowly through the blades.",
       "es": "Hierba alta suave al tacto, Onix se desliza lentamente entre las hojas."
     },
-    "image": "habitats/habitat_037.png",
+    "image": "assets/habitats/habitat_037.png",
     "requirements": [
       {
         "item": {
@@ -1915,7 +1915,7 @@ const HABITAT_DATA = {
       "en": "A factory storage buzzing with machines, Magnemite explores among the parts!",
       "es": "¡Almacén de fábrica con máquinas zumbando, Magnemite explora entre las piezas!"
     },
-    "image": "habitats/habitat_038.png",
+    "image": "assets/habitats/habitat_038.png",
     "requirements": [
       {
         "item": {
@@ -1950,7 +1950,7 @@ const HABITAT_DATA = {
       "en": "A luxury chirp chirp meal, Pidgeot dines elegantly on gourmet treats!",
       "es": "¡Un lujoso festín pío-pío, Pidgeot come elegantemente manjares gourmet!"
     },
-    "image": "habitats/habitat_039.png",
+    "image": "assets/habitats/habitat_039.png",
     "requirements": [
       {
         "item": {
@@ -1985,7 +1985,7 @@ const HABITAT_DATA = {
       "en": "A berry feast campsite smells amazing, Charizard devours delicious berries!",
       "es": "¡Un campamento de festín de bayas huele increíble, Charizard devora bayas deliciosas!"
     },
-    "image": "habitats/habitat_040.png",
+    "image": "assets/habitats/habitat_040.png",
     "requirements": [
       {
         "item": {
@@ -2020,7 +2020,7 @@ const HABITAT_DATA = {
       "en": "Rain dance site with misty air, Goomy plays happily in the rain!",
       "es": "¡Sitio de danza lluviosa con niebla, Goomy juega feliz bajo la lluvia!"
     },
-    "image": "habitats/habitat_041.png",
+    "image": "assets/habitats/habitat_041.png",
     "requirements": [
       {
         "item": {
@@ -2055,7 +2055,7 @@ const HABITAT_DATA = {
       "en": "Sunny day site with bright sunshine, Cacnea stretches happily in the warmth!",
       "es": "¡Sitio de día soleado con sol brillante, Cacnea se estira feliz bajo el calor!"
     },
-    "image": "habitats/habitat_042.png",
+    "image": "assets/habitats/habitat_042.png",
     "requirements": [
       {
         "item": {
@@ -2090,7 +2090,7 @@ const HABITAT_DATA = {
       "en": "Crazy log handicrafts full of creativity, Haxorus crafts amazing works!",
       "es": "¡Artesanías locas de troncos llenas de creatividad, Haxorus crea obras increíbles!"
     },
-    "image": "habitats/habitat_044.png",
+    "image": "assets/habitats/habitat_044.png",
     "requirements": [
       {
         "item": {
@@ -2147,7 +2147,7 @@ const HABITAT_DATA = {
       "en": "A berry-filled space bursting with fruit, Goodra is in berry paradise!",
       "es": "¡Un espacio lleno de bayas rebosante de frutas, Goodra está en el paraíso de bayas!"
     },
-    "image": "habitats/habitat_045.png",
+    "image": "assets/habitats/habitat_045.png",
     "requirements": [
       {
         "item": {
@@ -2182,7 +2182,7 @@ const HABITAT_DATA = {
       "en": "A garden terrace lush and green, Venusaur strolls gracefully among the flowers.",
       "es": "Una terraza de jardín verde y exuberante, Venusaur pasea elegantemente entre las flores."
     },
-    "image": "habitats/habitat_046.png",
+    "image": "assets/habitats/habitat_046.png",
     "requirements": [
       {
         "item": {
@@ -2217,7 +2217,7 @@ const HABITAT_DATA = {
       "en": "Snorlax snoozes under the tree shade, Munchlax naps sweetly nearby.",
       "es": "Snorlax duerme bajo la sombra del árbol, Munchlax duerme dulcemente cerca."
     },
-    "image": "habitats/habitat_047.png",
+    "image": "assets/habitats/habitat_047.png",
     "requirements": [
       {
         "item": {
@@ -2263,7 +2263,7 @@ const HABITAT_DATA = {
       "en": "Cozy antiques with a warm vibe, Weezing and Snorlax lounge in nostalgia.",
       "es": "Antigüedades acogedoras con ambiente cálido, Weezing y Snorlax descansan con nostalgia."
     },
-    "image": "habitats/habitat_048.png",
+    "image": "assets/habitats/habitat_048.png",
     "requirements": [
       {
         "item": {
@@ -2309,7 +2309,7 @@ const HABITAT_DATA = {
       "en": "Nothing but Poké Balls everywhere, Tangela plays hide-and-seek in the pile!",
       "es": "¡Solo Poké Balls por todas partes, Tangela juega al escondite en el montón!"
     },
-    "image": "habitats/habitat_049.png",
+    "image": "assets/habitats/habitat_049.png",
     "requirements": [
       {
         "item": {
@@ -2344,7 +2344,7 @@ const HABITAT_DATA = {
       "en": "Yellow tall grass swaying in the wind, Spinarak and Grubbin play in the grass.",
       "es": "Hierba alta amarilla meciéndose con el viento, Spinarak y Grubbin juegan en la hierba."
     },
-    "image": "habitats/habitat_050.png",
+    "image": "assets/habitats/habitat_050.png",
     "requirements": [
       {
         "item": {
@@ -2401,7 +2401,7 @@ const HABITAT_DATA = {
       "en": "Tree-shaded yellow tall grass cool and comfy, Zubat and Makuhita relax in the shade.",
       "es": "Hierba alta amarilla bajo los árboles fresca y cómoda, Zubat y Makuhita se relajan a la sombra."
     },
-    "image": "habitats/habitat_051.png",
+    "image": "assets/habitats/habitat_051.png",
     "requirements": [
       {
         "item": {
@@ -2469,7 +2469,7 @@ const HABITAT_DATA = {
       "en": "Elevated yellow tall grass with amazing views, Crobat and Pelipper soar in the wind!",
       "es": "¡Hierba alta amarilla en las alturas con vistas increíbles, Crobat y Pelipper vuelan en el viento!"
     },
-    "image": "habitats/habitat_052.png",
+    "image": "assets/habitats/habitat_052.png",
     "requirements": [
       {
         "item": {
@@ -2526,7 +2526,7 @@ const HABITAT_DATA = {
       "en": "Hydrated yellow tall grass rich with moisture, Marill and Piplup splash and play!",
       "es": "¡Hierba alta amarilla húmeda llena de agua, Marill y Piplup salpican y juegan!"
     },
-    "image": "habitats/habitat_053.png",
+    "image": "assets/habitats/habitat_053.png",
     "requirements": [
       {
         "item": {
@@ -2594,7 +2594,7 @@ const HABITAT_DATA = {
       "en": "Marshy tall grass muddy and fun, Wooper rolls happily in the mud!",
       "es": "¡Hierba alta pantanosa fangosa y divertida, Wooper rueda feliz en el lodo!"
     },
-    "image": "habitats/habitat_054.png",
+    "image": "assets/habitats/habitat_054.png",
     "requirements": [
       {
         "item": {
@@ -2640,7 +2640,7 @@ const HABITAT_DATA = {
       "en": "A vending machine overgrown with vines, Mareep rests nearby in the greenery.",
       "es": "Una máquina expendedora cubierta de enredaderas, Mareep descansa cerca entre la vegetación."
     },
-    "image": "habitats/habitat_055.png",
+    "image": "assets/habitats/habitat_055.png",
     "requirements": [
       {
         "item": {
@@ -2675,7 +2675,7 @@ const HABITAT_DATA = {
       "en": "A breezy flower bed with drifting scents, Zoroark and Pawmi play among the blooms!",
       "es": "¡Lecho de flores con brisa y aromas flotantes, Zoroark y Pawmi juegan entre las flores!"
     },
-    "image": "habitats/habitat_056.png",
+    "image": "assets/habitats/habitat_056.png",
     "requirements": [
       {
         "item": {
@@ -2732,7 +2732,7 @@ const HABITAT_DATA = {
       "en": "Tropical vibes with swaying palms, Exeggutor and Gloom enjoy the sunny leisure.",
       "es": "Vibras tropicales con palmeras meciéndose, Exeggutor y Gloom disfrutan el ocio soleado."
     },
-    "image": "habitats/habitat_057.png",
+    "image": "assets/habitats/habitat_057.png",
     "requirements": [
       {
         "item": {
@@ -2789,7 +2789,7 @@ const HABITAT_DATA = {
       "en": "Windy flower bed with petals dancing, Pelipper soars on the gentle breeze!",
       "es": "¡Lecho de flores ventoso con pétalos danzantes, Pelipper vuela en la brisa suave!"
     },
-    "image": "habitats/habitat_058.png",
+    "image": "assets/habitats/habitat_058.png",
     "requirements": [
       {
         "item": {
@@ -2835,7 +2835,7 @@ const HABITAT_DATA = {
       "en": "Shaded beach for cooling off, Exeggutor relaxes on the sand in the shade.",
       "es": "Playa sombreada para refrescarse, Exeggutor se relaja en la arena a la sombra."
     },
-    "image": "habitats/habitat_059.png",
+    "image": "assets/habitats/habitat_059.png",
     "requirements": [
       {
         "item": {
@@ -2881,7 +2881,7 @@ const HABITAT_DATA = {
       "en": "Tropical seaside with blue skies and sea, Lapras swims freely and happily!",
       "es": "¡Costa tropical con cielo azul y mar, Lapras nada libre y feliz!"
     },
-    "image": "habitats/habitat_060.png",
+    "image": "assets/habitats/habitat_060.png",
     "requirements": [
       {
         "item": {
@@ -2916,7 +2916,7 @@ const HABITAT_DATA = {
       "en": "A cozy resting spot, Meowth sneaks in a little catnap.",
       "es": "Un rincón de descanso acogedor, Meowth se toma una siestita."
     },
-    "image": "habitats/habitat_061.png",
+    "image": "assets/habitats/habitat_061.png",
     "requirements": [
       {
         "item": {
@@ -2951,7 +2951,7 @@ const HABITAT_DATA = {
       "en": "A perpetual mess full of fun, Growlithe and Azurill play in the cheerful chaos!",
       "es": "¡Un desastre perpetuo lleno de diversión, Growlithe y Azurill juegan en el caos alegre!"
     },
-    "image": "habitats/habitat_062.png",
+    "image": "assets/habitats/habitat_062.png",
     "requirements": [
       {
         "item": {
@@ -2997,7 +2997,7 @@ const HABITAT_DATA = {
       "en": "Trash collection site is Garbodor's favorite, Koffing happily digs through the pile!",
       "es": "¡El sitio de recolección de basura es el favorito de Garbodor, Koffing escarba feliz en el montón!"
     },
-    "image": "habitats/habitat_063.png",
+    "image": "assets/habitats/habitat_063.png",
     "requirements": [
       {
         "item": {
@@ -3065,7 +3065,7 @@ const HABITAT_DATA = {
       "en": "Trash can central is an electric hub, Magnezone and Electabuzz recharge here!",
       "es": "¡Centro de botes de basura es un hub eléctrico, Magnezone y Electabuzz se recargan aquí!"
     },
-    "image": "habitats/habitat_064.png",
+    "image": "assets/habitats/habitat_064.png",
     "requirements": [
       {
         "item": {
@@ -3122,7 +3122,7 @@ const HABITAT_DATA = {
       "en": "Trash disposal site hides surprises, Crobat patrols quietly at night.",
       "es": "El sitio de eliminación de basura esconde sorpresas, Crobat patrulla silenciosamente de noche."
     },
-    "image": "habitats/habitat_065.png",
+    "image": "assets/habitats/habitat_065.png",
     "requirements": [
       {
         "item": {
@@ -3157,7 +3157,7 @@ const HABITAT_DATA = {
       "en": "A park bench nice and relaxing, Electrode and Voltorb sunbathe nearby.",
       "es": "Un banco del parque relajante, Electrode y Voltorb toman el sol cerca."
     },
-    "image": "habitats/habitat_066.png",
+    "image": "assets/habitats/habitat_066.png",
     "requirements": [
       {
         "item": {
@@ -3214,7 +3214,7 @@ const HABITAT_DATA = {
       "en": "A tantalizing restaurant with delicious aromas, Pawmi can't wait at the door!",
       "es": "¡Un restaurante tentador con deliciosos aromas, Pawmi no puede esperar en la puerta!"
     },
-    "image": "habitats/habitat_067.png",
+    "image": "assets/habitats/habitat_067.png",
     "requirements": [
       {
         "item": {
@@ -3260,7 +3260,7 @@ const HABITAT_DATA = {
       "en": "A tableside delivery cart zipping around, Empoleon serves dishes with style!",
       "es": "¡Un carrito de entrega junto a la mesa va y viene, Empoleon sirve platos con elegancia!"
     },
-    "image": "habitats/habitat_068.png",
+    "image": "assets/habitats/habitat_068.png",
     "requirements": [
       {
         "item": {
@@ -3295,7 +3295,7 @@ const HABITAT_DATA = {
       "en": "Chirp chirp meal smells amazing, Blaziken and Torchic enjoy the tasty feast!",
       "es": "¡El festín pío-pío huele increíble, Blaziken y Torchic disfrutan la comida sabrosa!"
     },
-    "image": "habitats/habitat_069.png",
+    "image": "assets/habitats/habitat_069.png",
     "requirements": [
       {
         "item": {
@@ -3341,7 +3341,7 @@ const HABITAT_DATA = {
       "en": "A cozy cafe space, Pawmi and Pawmot enjoy afternoon tea together!",
       "es": "¡Un espacio de café acogedor, Pawmi y Pawmot disfrutan el té de la tarde juntos!"
     },
-    "image": "habitats/habitat_070.png",
+    "image": "assets/habitats/habitat_070.png",
     "requirements": [
       {
         "item": {
@@ -3398,7 +3398,7 @@ const HABITAT_DATA = {
       "en": "A beach set for summer fun, Tatsugiri rolls happily on the sand!",
       "es": "¡Un set de playa para diversión veraniega, Tatsugiri rueda feliz en la arena!"
     },
-    "image": "habitats/habitat_071.png",
+    "image": "assets/habitats/habitat_071.png",
     "requirements": [
       {
         "item": {
@@ -3433,7 +3433,7 @@ const HABITAT_DATA = {
       "en": "A light-up stage blazing with lights, Electabuzz and Electivire rock the show!",
       "es": "¡Un escenario iluminado con luces deslumbrantes, Electabuzz y Electivire arrasan en el show!"
     },
-    "image": "habitats/habitat_072.png",
+    "image": "assets/habitats/habitat_072.png",
     "requirements": [
       {
         "item": {
@@ -3479,7 +3479,7 @@ const HABITAT_DATA = {
       "en": "Surprise in store! Gengar and Zoroark conjure magical tricks!",
       "es": "¡Sorpresa en la tienda! ¡Gengar y Zoroark hacen trucos mágicos!"
     },
-    "image": "habitats/habitat_073.png",
+    "image": "assets/habitats/habitat_073.png",
     "requirements": [
       {
         "item": {
@@ -3536,7 +3536,7 @@ const HABITAT_DATA = {
       "en": "Night festival venue glowing with lights, Flaaffy explores the lively stalls!",
       "es": "¡Recinto de festival nocturno iluminado, Flaaffy explora los puestos animados!"
     },
-    "image": "habitats/habitat_074.png",
+    "image": "assets/habitats/habitat_074.png",
     "requirements": [
       {
         "item": {
@@ -3571,7 +3571,7 @@ const HABITAT_DATA = {
       "en": "A neat changing area, Minccino grooms its fur here!",
       "es": "¡Un área de vestir limpia y brillante, Minccino acicala su pelaje aquí!"
     },
-    "image": "habitats/habitat_075.png",
+    "image": "assets/habitats/habitat_075.png",
     "requirements": [
       {
         "item": {
@@ -3606,7 +3606,7 @@ const HABITAT_DATA = {
       "en": "A cute private makeup stand, Cinccino and Minccino get dolled up together!",
       "es": "¡Un tocador privado y lindo, Cinccino y Minccino se arreglan juntas!"
     },
-    "image": "habitats/habitat_076.png",
+    "image": "assets/habitats/habitat_076.png",
     "requirements": [
       {
         "item": {
@@ -3652,7 +3652,7 @@ const HABITAT_DATA = {
       "en": "A knitting station with yarn rolling, Mareep and Flaaffy knit cozy creations!",
       "es": "¡Una estación de tejido con ovillos rodando, Mareep y Flaaffy tejen creaciones acogedoras!"
     },
-    "image": "habitats/habitat_077.png",
+    "image": "assets/habitats/habitat_077.png",
     "requirements": [
       {
         "item": {
@@ -3698,7 +3698,7 @@ const HABITAT_DATA = {
       "en": "Hot spring shower with steam rising, Golduck and Psyduck soak in comfort!",
       "es": "¡Ducha termal con vapor subiendo, Golduck y Psyduck se remojan cómodamente!"
     },
-    "image": "habitats/habitat_078.png",
+    "image": "assets/habitats/habitat_078.png",
     "requirements": [
       {
         "item": {
@@ -3744,7 +3744,7 @@ const HABITAT_DATA = {
       "en": "Resort meal prep smells delicious, Combusken and Growlithe help in the kitchen!",
       "es": "¡La preparación de comida del resort huele delicioso, Combusken y Growlithe ayudan en la cocina!"
     },
-    "image": "habitats/habitat_079.png",
+    "image": "assets/habitats/habitat_079.png",
     "requirements": [
       {
         "item": {
@@ -3801,7 +3801,7 @@ const HABITAT_DATA = {
       "en": "All packed up and ready to go, Hariyama and Farfetch'd are set for adventure!",
       "es": "¡Todo empacado y listo, Hariyama y Farfetch'd están listos para la aventura!"
     },
-    "image": "habitats/habitat_080.png",
+    "image": "assets/habitats/habitat_080.png",
     "requirements": [
       {
         "item": {
@@ -3858,7 +3858,7 @@ const HABITAT_DATA = {
       "en": "Full recovery station refreshes everyone, Chansey cares for each Pokémon tenderly!",
       "es": "¡Estación de recuperación total revitaliza a todos, Chansey cuida tiernamente a cada Pokémon!"
     },
-    "image": "habitats/habitat_081.png",
+    "image": "assets/habitats/habitat_081.png",
     "requirements": [
       {
         "item": {
@@ -3893,7 +3893,7 @@ const HABITAT_DATA = {
       "en": "An alarm clock sleep zone calm and quiet, Happiny snoozes sweetly with its clock.",
       "es": "Una zona de sueño con despertador tranquila y silenciosa, Happiny duerme dulcemente con su reloj."
     },
-    "image": "habitats/habitat_082.png",
+    "image": "assets/habitats/habitat_082.png",
     "requirements": [
       {
         "item": {
@@ -3928,7 +3928,7 @@ const HABITAT_DATA = {
       "en": "Vending machine break area is a bug's favorite, Charjabug recharges nearby!",
       "es": "¡El área de descanso con máquina expendedora es la favorita de los bichos, Charjabug se recarga cerca!"
     },
-    "image": "habitats/habitat_083.png",
+    "image": "assets/habitats/habitat_083.png",
     "requirements": [
       {
         "item": {
@@ -3974,7 +3974,7 @@ const HABITAT_DATA = {
       "en": "Vending machine set for energy boosts, Electivire and Elekid chug down drinks!",
       "es": "¡Set de máquinas expendedoras para energía, Electivire y Elekid beben con gusto!"
     },
-    "image": "habitats/habitat_084.png",
+    "image": "assets/habitats/habitat_084.png",
     "requirements": [
       {
         "item": {
@@ -4020,7 +4020,7 @@ const HABITAT_DATA = {
       "en": "A mini game corner full of fun, Magnezone and Magneton play games together!",
       "es": "¡Un rincón de mini juegos lleno de diversión, Magnezone y Magneton juegan juntos!"
     },
-    "image": "habitats/habitat_085.png",
+    "image": "assets/habitats/habitat_085.png",
     "requirements": [
       {
         "item": {
@@ -4066,7 +4066,7 @@ const HABITAT_DATA = {
       "en": "The waterwheel spins round and round, Prinplup and Empoleon listen to the water peacefully.",
       "es": "La rueda de agua gira y gira, Prinplup y Empoleon escuchan el agua plácidamente."
     },
-    "image": "habitats/habitat_086.png",
+    "image": "assets/habitats/habitat_086.png",
     "requirements": [
       {
         "item": {
@@ -4112,7 +4112,7 @@ const HABITAT_DATA = {
       "en": "The furnace glows bright, Blaziken and Combusken forge strong spirits!",
       "es": "¡El horno brilla intensamente, Blaziken y Combusken forjan espíritus fuertes!"
     },
-    "image": "habitats/habitat_087.png",
+    "image": "assets/habitats/habitat_087.png",
     "requirements": [
       {
         "item": {
@@ -4160,7 +4160,7 @@ const HABITAT_DATA = {
       "en": "Dockside with gentle sea breezes, Marill and Azumarill splash in the water!",
       "es": "¡En el muelle con brisa marina suave, Marill y Azumarill salpican en el agua!"
     },
-    "image": "habitats/habitat_088.png",
+    "image": "assets/habitats/habitat_088.png",
     "requirements": [
       {
         "item": {
@@ -4206,7 +4206,7 @@ const HABITAT_DATA = {
       "en": "Spooky study with flickering candles, Gastly and Haunter read in the dark!",
       "es": "¡Estudio espeluznante con velas parpadeantes, Gastly y Haunter leen en la oscuridad!"
     },
-    "image": "habitats/habitat_089.png",
+    "image": "assets/habitats/habitat_089.png",
     "requirements": [
       {
         "item": {
@@ -4252,7 +4252,7 @@ const HABITAT_DATA = {
       "en": "Playing pirate is so fun, Electrode and Voltorb search for treasure on deck!",
       "es": "¡Jugar a piratas es muy divertido, Electrode y Voltorb buscan tesoro en el barco!"
     },
-    "image": "habitats/habitat_090.png",
+    "image": "assets/habitats/habitat_090.png",
     "requirements": [
       {
         "item": {
@@ -4298,7 +4298,7 @@ const HABITAT_DATA = {
       "en": "Working the register is busy and fun, Meowth and Chansey help customers check out!",
       "es": "¡Trabajar en la caja es ocupado y divertido, Meowth y Chansey ayudan a los clientes!"
     },
-    "image": "habitats/habitat_091.png",
+    "image": "assets/habitats/habitat_091.png",
     "requirements": [
       {
         "item": {
@@ -4366,7 +4366,7 @@ const HABITAT_DATA = {
       "en": "Tiny atelier with paintbrushes flying, Smeargle happily creates beautiful art!",
       "es": "¡Pequeño taller con pinceles volando, Smeargle crea felizmente arte hermoso!"
     },
-    "image": "habitats/habitat_092.png",
+    "image": "assets/habitats/habitat_092.png",
     "requirements": [
       {
         "item": {
@@ -4401,7 +4401,7 @@ const HABITAT_DATA = {
       "en": "An adorable Pikachu space, Mimikyu secretly imitates Pikachu here!",
       "es": "¡Un adorable espacio Pikachu, Mimikyu secretamente imita a Pikachu aquí!"
     },
-    "image": "habitats/habitat_094.png",
+    "image": "assets/habitats/habitat_094.png",
     "requirements": [
       {
         "item": {
@@ -4436,7 +4436,7 @@ const HABITAT_DATA = {
       "en": "Cuteness overload! Blissey radiates pure happiness and love!",
       "es": "¡Demasiada ternura! ¡Blissey irradia pura felicidad y amor!"
     },
-    "image": "habitats/habitat_095.png",
+    "image": "assets/habitats/habitat_095.png",
     "requirements": [
       {
         "item": {
@@ -4471,7 +4471,7 @@ const HABITAT_DATA = {
       "en": "A welcoming resort for every traveler, Absol quietly watches over everyone's safety.",
       "es": "Un resort acogedor para cada viajero, Absol vigila silenciosamente la seguridad de todos."
     },
-    "image": "habitats/habitat_096.png",
+    "image": "assets/habitats/habitat_096.png",
     "requirements": [
       {
         "item": {
@@ -4506,7 +4506,7 @@ const HABITAT_DATA = {
       "en": "Simple life with little joys, Ampharos enjoys simple happiness under warm light.",
       "es": "Vida simple con pequeñas alegrías, Ampharos disfruta la felicidad simple bajo luz cálida."
     },
-    "image": "habitats/habitat_097.png",
+    "image": "assets/habitats/habitat_097.png",
     "requirements": [
       {
         "item": {
@@ -4541,7 +4541,7 @@ const HABITAT_DATA = {
       "en": "Red tall grass vibrant and energetic, Cinderace and Riolu race through the grass!",
       "es": "¡Hierba alta roja vibrante y enérgica, Cinderace y Riolu corren por la hierba!"
     },
-    "image": "habitats/habitat_098.png",
+    "image": "assets/habitats/habitat_098.png",
     "requirements": [
       {
         "item": {
@@ -4620,7 +4620,7 @@ const HABITAT_DATA = {
       "en": "Tree-shaded red tall grass cool and pleasant, Diglett and Bonsly rest in the shade.",
       "es": "Hierba alta roja bajo los árboles fresca y agradable, Diglett y Bonsly descansan a la sombra."
     },
-    "image": "habitats/habitat_099.png",
+    "image": "assets/habitats/habitat_099.png",
     "requirements": [
       {
         "item": {
@@ -4688,7 +4688,7 @@ const HABITAT_DATA = {
       "en": "Pointy tree-shaded rocky tall grass, Decidueye watches quietly from above.",
       "es": "Hierba alta rocosa bajo árboles puntiagudos, Decidueye vigila silenciosamente desde lo alto."
     },
-    "image": "habitats/habitat_100.png",
+    "image": "assets/habitats/habitat_100.png",
     "requirements": [
       {
         "item": {
@@ -4734,7 +4734,7 @@ const HABITAT_DATA = {
       "en": "Hydrated red tall grass glistening with dew, Lotad plays in the puddles!",
       "es": "¡Hierba alta roja húmeda brillando con rocío, Lotad juega en los charcos!"
     },
-    "image": "habitats/habitat_101.png",
+    "image": "assets/habitats/habitat_101.png",
     "requirements": [
       {
         "item": {
@@ -4780,7 +4780,7 @@ const HABITAT_DATA = {
       "en": "Elevated red tall grass with sweeping views, Chatot and Murkrow soar in the wind!",
       "es": "¡Hierba alta roja en las alturas con vistas amplias, Chatot y Murkrow vuelan en el viento!"
     },
-    "image": "habitats/habitat_102.png",
+    "image": "assets/habitats/habitat_102.png",
     "requirements": [
       {
         "item": {
@@ -4837,7 +4837,7 @@ const HABITAT_DATA = {
       "en": "A grassy training field full of energy, Machamp and Machoke work out hard!",
       "es": "¡Un campo de entrenamiento herboso lleno de energía, Machamp y Machoke entrenan con fuerza!"
     },
-    "image": "habitats/habitat_103.png",
+    "image": "assets/habitats/habitat_103.png",
     "requirements": [
       {
         "item": {
@@ -4883,7 +4883,7 @@ const HABITAT_DATA = {
       "en": "A graceful flower bed simply beautiful, Clefairy and Fidough play among the blooms!",
       "es": "¡Un lecho de flores elegante y hermoso, Clefairy y Fidough juegan entre las flores!"
     },
-    "image": "habitats/habitat_104.png",
+    "image": "assets/habitats/habitat_104.png",
     "requirements": [
       {
         "item": {
@@ -4962,7 +4962,7 @@ const HABITAT_DATA = {
       "en": "Tree-shaded graceful flower bed quiet and lovely, Volcarona and Murkrow rest among blooms.",
       "es": "Lecho de flores elegante bajo los árboles tranquilo y encantador, Volcarona y Murkrow descansan entre flores."
     },
-    "image": "habitats/habitat_105.png",
+    "image": "assets/habitats/habitat_105.png",
     "requirements": [
       {
         "item": {
@@ -5019,7 +5019,7 @@ const HABITAT_DATA = {
       "en": "Hydrated graceful flower bed rich with moisture, Arbok and Politoed play in the wetland!",
       "es": "¡Lecho de flores elegante y húmedo lleno de agua, Arbok y Politoed juegan en el humedal!"
     },
-    "image": "habitats/habitat_106.png",
+    "image": "assets/habitats/habitat_106.png",
     "requirements": [
       {
         "item": {
@@ -5076,7 +5076,7 @@ const HABITAT_DATA = {
       "en": "Flower garden stump stage alive with song, Politoed and Jigglypuff hold a concert!",
       "es": "¡Escenario de tocón en jardín de flores lleno de música, Politoed y Jigglypuff dan un concierto!"
     },
-    "image": "habitats/habitat_107.png",
+    "image": "assets/habitats/habitat_107.png",
     "requirements": [
       {
         "item": {
@@ -5133,7 +5133,7 @@ const HABITAT_DATA = {
       "en": "Toiling in the soil with strong arms, Tyranitar digs energetically!",
       "es": "¡Trabajando la tierra con brazos fuertes, Tyranitar cava con energía!"
     },
-    "image": "habitats/habitat_108.png",
+    "image": "assets/habitats/habitat_108.png",
     "requirements": [
       {
         "item": {
@@ -5168,7 +5168,7 @@ const HABITAT_DATA = {
       "en": "Uplifting duckweed gently holds Pokémon, Ludicolo and Lotad play on the water!",
       "es": "¡Lentejas de agua sostienen suavemente a los Pokémon, Ludicolo y Lotad juegan en el agua!"
     },
-    "image": "habitats/habitat_109.png",
+    "image": "assets/habitats/habitat_109.png",
     "requirements": [
       {
         "item": {
@@ -5214,7 +5214,7 @@ const HABITAT_DATA = {
       "en": "A mossy rest spot lush and green, Tyranitar and Larvitar rest on mossy stones.",
       "es": "Un descanso musgoso verde y exuberante, Tyranitar y Larvitar descansan sobre piedras musgosas."
     },
-    "image": "habitats/habitat_110.png",
+    "image": "assets/habitats/habitat_110.png",
     "requirements": [
       {
         "item": {
@@ -5260,7 +5260,7 @@ const HABITAT_DATA = {
       "en": "A mossy boulder ancient and steady, Golem and Graveler bask on the mossy rock.",
       "es": "Una roca musgosa antigua y firme, Golem y Graveler toman el sol sobre la piedra musgosa."
     },
-    "image": "habitats/habitat_111.png",
+    "image": "assets/habitats/habitat_111.png",
     "requirements": [
       {
         "item": {
@@ -5306,7 +5306,7 @@ const HABITAT_DATA = {
       "en": "A mossy hot spring with steam rising, Torkoal soaks comfortably in warm water!",
       "es": "¡Una fuente termal musgosa con vapor subiendo, Torkoal se remoja cómodamente en agua tibia!"
     },
-    "image": "habitats/habitat_112.png",
+    "image": "assets/habitats/habitat_112.png",
     "requirements": [
       {
         "item": {
@@ -5341,7 +5341,7 @@ const HABITAT_DATA = {
       "en": "An open air bath refreshing and fun, Raboot splashes happily in the water!",
       "es": "¡Un baño al aire libre refrescante y divertido, Raboot salpica feliz en el agua!"
     },
-    "image": "habitats/habitat_113.png",
+    "image": "assets/habitats/habitat_113.png",
     "requirements": [
       {
         "item": {
@@ -5376,7 +5376,7 @@ const HABITAT_DATA = {
       "en": "A harmonious hot spring to relax body and mind, Politoed hums a little tune in the water.",
       "es": "Una fuente termal armoniosa para relajar cuerpo y mente, Politoed tarulla una melodía en el agua."
     },
-    "image": "habitats/habitat_114.png",
+    "image": "assets/habitats/habitat_114.png",
     "requirements": [
       {
         "item": {
@@ -5411,7 +5411,7 @@ const HABITAT_DATA = {
       "en": "Piping hot lava glowing red, Volcarona and Charcadet train in the blazing flames!",
       "es": "¡Lava hirviente brillando en rojo, Volcarona y Charcadet entrenan entre las llamas ardientes!"
     },
-    "image": "habitats/habitat_115.png",
+    "image": "assets/habitats/habitat_115.png",
     "requirements": [
       {
         "item": {
@@ -5457,7 +5457,7 @@ const HABITAT_DATA = {
       "en": "Digging and burning by the magma, Magmar digs and roasts at the same time!",
       "es": "¡Cavando y quemando junto a la lava, Magmar cava y asa al mismo tiempo!"
     },
-    "image": "habitats/habitat_116.png",
+    "image": "assets/habitats/habitat_116.png",
     "requirements": [
       {
         "item": {
@@ -5492,7 +5492,7 @@ const HABITAT_DATA = {
       "en": "Clink clang iron construction site, Machamp and Steelix build sturdy structures together!",
       "es": "¡Sitio de construcción de hierro con ruido metálico, Machamp y Steelix construyen estructuras resistentes!"
     },
-    "image": "habitats/habitat_117.png",
+    "image": "assets/habitats/habitat_117.png",
     "requirements": [
       {
         "item": {
@@ -5538,7 +5538,7 @@ const HABITAT_DATA = {
       "en": "Creepy white rocks glowing faintly, Glimmora and Glimmet explore between the crevices!",
       "es": "¡Rocas blancas espeluznantes brillando débilmente, Glimmora y Glimmet exploran entre las grietas!"
     },
-    "image": "habitats/habitat_118.png",
+    "image": "assets/habitats/habitat_118.png",
     "requirements": [
       {
         "item": {
@@ -5584,7 +5584,7 @@ const HABITAT_DATA = {
       "en": "Container snacking with treats inside, Glimmora and Diglett enjoy snacks by the boxes!",
       "es": "¡Snacks en contenedores con delicias adentro, Glimmora y Diglett disfrutan meriendas junto a las cajas!"
     },
-    "image": "habitats/habitat_119.png",
+    "image": "assets/habitats/habitat_119.png",
     "requirements": [
       {
         "item": {
@@ -5641,7 +5641,7 @@ const HABITAT_DATA = {
       "en": "Dinner table full of surprises, Swalot waits to gobble up the mystery feast!",
       "es": "¡Mesa de cena llena de sorpresas, Swalot espera devorar el banquete misterioso!"
     },
-    "image": "habitats/habitat_120.png",
+    "image": "assets/habitats/habitat_120.png",
     "requirements": [
       {
         "item": {
@@ -5676,7 +5676,7 @@ const HABITAT_DATA = {
       "en": "Best bread bakery smells amazing, Fidough and Dachsbun bake yummy bread!",
       "es": "¡La mejor panadería huele increíble, Fidough y Dachsbun hornean pan delicioso!"
     },
-    "image": "habitats/habitat_121.png",
+    "image": "assets/habitats/habitat_121.png",
     "requirements": [
       {
         "item": {
@@ -5722,7 +5722,7 @@ const HABITAT_DATA = {
       "en": "Mini kitchen with pots and pans flying, Magmortar shows off cooking skills!",
       "es": "¡Mini cocina con ollas y sartenes volando, Magmortar demuestra sus habilidades culinarias!"
     },
-    "image": "habitats/habitat_122.png",
+    "image": "assets/habitats/habitat_122.png",
     "requirements": [
       {
         "item": {
@@ -5757,7 +5757,7 @@ const HABITAT_DATA = {
       "en": "A house party in full swing, Diglett and Sudowoodo celebrate together!",
       "es": "¡Una fiesta en pleno auge, Diglett y Sudowoodo celebran juntos!"
     },
-    "image": "habitats/habitat_123.png",
+    "image": "assets/habitats/habitat_123.png",
     "requirements": [
       {
         "item": {
@@ -5803,7 +5803,7 @@ const HABITAT_DATA = {
       "en": "Lazy photo album scrolling on the couch, Toxel flips through pics to pass the time.",
       "es": "Navegando perezosamente el álbum de fotos en el sofá, Toxel hojea fotos para pasar el rato."
     },
-    "image": "habitats/habitat_124.png",
+    "image": "assets/habitats/habitat_124.png",
     "requirements": [
       {
         "item": {
@@ -5838,7 +5838,7 @@ const HABITAT_DATA = {
       "en": "Chirping recital with lovely songs, Chatot and Honchkrow sing their hearts out on stage!",
       "es": "¡Recital de canto con lindas melodías, Chatot y Honchkrow cantan con el corazón en el escenario!"
     },
-    "image": "habitats/habitat_125.png",
+    "image": "assets/habitats/habitat_125.png",
     "requirements": [
       {
         "item": {
@@ -5886,7 +5886,7 @@ const HABITAT_DATA = {
       "en": "A recital stage shining with lights, Wigglytuff and Jigglypuff sing beautiful melodies!",
       "es": "¡Un escenario de recital brillando con luces, Wigglytuff y Jigglypuff cantan melodías hermosas!"
     },
-    "image": "habitats/habitat_126.png",
+    "image": "assets/habitats/habitat_126.png",
     "requirements": [
       {
         "item": {
@@ -5932,7 +5932,7 @@ const HABITAT_DATA = {
       "en": "Box to the rhythm and move, Machoke and Riolu exercise to the beat!",
       "es": "¡Boxea al ritmo y muévete, Machoke y Riolu hacen ejercicio al compás!"
     },
-    "image": "habitats/habitat_127.png",
+    "image": "assets/habitats/habitat_127.png",
     "requirements": [
       {
         "item": {
@@ -5989,7 +5989,7 @@ const HABITAT_DATA = {
       "en": "Music and magazines for a chill time, Kricketune and Rotom relax with tunes!",
       "es": "¡Música y revistas para un rato relajante, Kricketune y Rotom descansan con melodías!"
     },
-    "image": "habitats/habitat_128.png",
+    "image": "assets/habitats/habitat_128.png",
     "requirements": [
       {
         "item": {
@@ -6046,7 +6046,7 @@ const HABITAT_DATA = {
       "en": "A mini museum full of treasures, Arcanine and Gimmighoul explore the exhibits!",
       "es": "¡Un mini museo lleno de tesoros, Arcanine y Gimmighoul exploran las exhibiciones!"
     },
-    "image": "habitats/habitat_129.png",
+    "image": "assets/habitats/habitat_129.png",
     "requirements": [
       {
         "item": {
@@ -6092,7 +6092,7 @@ const HABITAT_DATA = {
       "en": "Refreshing locker room to feel renewed, Cinderace and Raboot gear up for action!",
       "es": "¡Vestuario refrescante para sentirse renovado, Cinderace y Raboot se preparan para la acción!"
     },
-    "image": "habitats/habitat_130.png",
+    "image": "assets/habitats/habitat_130.png",
     "requirements": [
       {
         "item": {
@@ -6138,7 +6138,7 @@ const HABITAT_DATA = {
       "en": "A bronze landmark stately and grand, Clefable and Clefairy make wishes by the statue!",
       "es": "¡Un hito de bronce majestuoso y grandioso, Clefable y Clefairy piden deseos junto a la estatua!"
     },
-    "image": "habitats/habitat_131.png",
+    "image": "assets/habitats/habitat_131.png",
     "requirements": [
       {
         "item": {
@@ -6184,7 +6184,7 @@ const HABITAT_DATA = {
       "en": "Railroad crossing ding-ding, Coalossal and Rolycoly wait by the tracks!",
       "es": "¡Paso a nivel ding-ding, Coalossal y Rolycoly esperan junto a las vías!"
     },
-    "image": "habitats/habitat_132.png",
+    "image": "assets/habitats/habitat_132.png",
     "requirements": [
       {
         "item": {
@@ -6241,7 +6241,7 @@ const HABITAT_DATA = {
       "en": "Chef's kitchen smells delicious, Greedent shows off its cooking skills!",
       "es": "¡La cocina del chef huele delicioso, Greedent muestra sus habilidades culinarias!"
     },
-    "image": "habitats/habitat_133.png",
+    "image": "assets/habitats/habitat_133.png",
     "requirements": [
       {
         "item": {
@@ -6276,7 +6276,7 @@ const HABITAT_DATA = {
       "en": "Absolute luxury in gleaming gold, Gholdengo lives the high life!",
       "es": "¡Lujo absoluto en oro reluciente, Gholdengo vive la gran vida!"
     },
-    "image": "habitats/habitat_134.png",
+    "image": "assets/habitats/habitat_134.png",
     "requirements": [
       {
         "item": {
@@ -6311,7 +6311,7 @@ const HABITAT_DATA = {
       "en": "Heavy iron with metallic shine, Coalossal forges sturdy goods with a hammer!",
       "es": "¡Hierro pesado con brillo metálico, Coalossal forja objetos resistentes con un martillo!"
     },
-    "image": "habitats/habitat_135.png",
+    "image": "assets/habitats/habitat_135.png",
     "requirements": [
       {
         "item": {
@@ -6346,7 +6346,7 @@ const HABITAT_DATA = {
       "en": "Modern living space sleek and stylish, Decidueye rests elegantly at home.",
       "es": "Espacio de vida moderno elegante y estilizado, Decidueye descansa elegantemente en casa."
     },
-    "image": "habitats/habitat_136.png",
+    "image": "assets/habitats/habitat_136.png",
     "requirements": [
       {
         "item": {
@@ -6381,7 +6381,7 @@ const HABITAT_DATA = {
       "en": "Pink tall grass dreamy and romantic, Flygon and Swablu dance among the pink blades!",
       "es": "¡Hierba alta rosa soñadora y romántica, Flygon y Swablu danzan entre las hojas rosadas!"
     },
-    "image": "habitats/habitat_137.png",
+    "image": "assets/habitats/habitat_137.png",
     "requirements": [
       {
         "item": {
@@ -6460,7 +6460,7 @@ const HABITAT_DATA = {
       "en": "Tree-shaded pink tall grass quiet and mysterious, Drakloak and Dreepy train in the shade.",
       "es": "Hierba alta rosa bajo los árboles tranquila y misteriosa, Drakloak y Dreepy entrenan a la sombra."
     },
-    "image": "habitats/habitat_138.png",
+    "image": "assets/habitats/habitat_138.png",
     "requirements": [
       {
         "item": {
@@ -6528,7 +6528,7 @@ const HABITAT_DATA = {
       "en": "Hydrated pink tall grass with splashing water, Froakie and Frogadier play in the puddles!",
       "es": "¡Hierba alta rosa húmeda con salpicaduras, Froakie y Frogadier juegan en los charcos!"
     },
-    "image": "habitats/habitat_139.png",
+    "image": "assets/habitats/habitat_139.png",
     "requirements": [
       {
         "item": {
@@ -6585,7 +6585,7 @@ const HABITAT_DATA = {
       "en": "Elevated pink tall grass with wide views, Corviknight and Kilowattrel soar on the wind!",
       "es": "¡Hierba alta rosa en las alturas con vista amplia, Corviknight y Kilowattrel vuelan en el viento!"
     },
-    "image": "habitats/habitat_140.png",
+    "image": "assets/habitats/habitat_140.png",
     "requirements": [
       {
         "item": {
@@ -6653,7 +6653,7 @@ const HABITAT_DATA = {
       "en": "A concrete pipe secret base so cool, Cyndaquil and Quilava explore inside the pipes!",
       "es": "¡Una base secreta en tubos de concreto genial, Cyndaquil y Quilava exploran dentro de los tubos!"
     },
-    "image": "habitats/habitat_141.png",
+    "image": "assets/habitats/habitat_141.png",
     "requirements": [
       {
         "item": {
@@ -6699,7 +6699,7 @@ const HABITAT_DATA = {
       "en": "A fluffy flower bed soft to touch, Ninetales and Vulpix nap among the fuzzy blooms.",
       "es": "Un lecho de flores suave y peludo, Ninetales y Vulpix duermen entre las flores suaves."
     },
-    "image": "habitats/habitat_142.png",
+    "image": "assets/habitats/habitat_142.png",
     "requirements": [
       {
         "item": {
@@ -6778,7 +6778,7 @@ const HABITAT_DATA = {
       "en": "Tree-shaded fluffy flower bed cool and pleasant, Serperior and Girafarig stroll leisurely in shade.",
       "es": "Lecho de flores peludo bajo los árboles fresco y agradable, Serperior y Girafarig pasean tranquilamente a la sombra."
     },
-    "image": "habitats/habitat_143.png",
+    "image": "assets/habitats/habitat_143.png",
     "requirements": [
       {
         "item": {
@@ -6846,7 +6846,7 @@ const HABITAT_DATA = {
       "en": "Hydrated fluffy flower bed glistening with dew, Dragonair and Poliwhirl play happily in the water!",
       "es": "¡Lecho de flores peludo húmedo brillando con rocío, Dragonair y Poliwhirl juegan felices en el agua!"
     },
-    "image": "habitats/habitat_144.png",
+    "image": "assets/habitats/habitat_144.png",
     "requirements": [
       {
         "item": {
@@ -6903,7 +6903,7 @@ const HABITAT_DATA = {
       "en": "A waterside dinghy bobbing on waves, Dragonite rows around the lake for a ride!",
       "es": "¡Un bote en la orilla meciéndose en las olas, Dragonite rema por el lago para dar un paseo!"
     },
-    "image": "habitats/habitat_145.png",
+    "image": "assets/habitats/habitat_145.png",
     "requirements": [
       {
         "item": {
@@ -6938,7 +6938,7 @@ const HABITAT_DATA = {
       "en": "An illuminated waterfall stunning and grand, Gyarados leaps powerfully through the falls!",
       "es": "¡Una cascada iluminada impresionante y grandiosa, Gyarados salta con fuerza entre las cataratas!"
     },
-    "image": "habitats/habitat_146.png",
+    "image": "assets/habitats/habitat_146.png",
     "requirements": [
       {
         "item": {
@@ -6973,7 +6973,7 @@ const HABITAT_DATA = {
       "en": "A birdsong garden with lovely melodies, Altaria sings cheerfully among the flowers!",
       "es": "¡Un jardín de canto de aves con melodías lindas, Altaria canta alegremente entre las flores!"
     },
-    "image": "habitats/habitat_147.png",
+    "image": "assets/habitats/habitat_147.png",
     "requirements": [
       {
         "item": {
@@ -7008,7 +7008,7 @@ const HABITAT_DATA = {
       "en": "A simple bathroom clean and fresh, Dragonair and Dratini relax in the tub.",
       "es": "Un baño simple limpio y fresco, Dragonair y Dratini se relajan en la tina."
     },
-    "image": "habitats/habitat_148.png",
+    "image": "assets/habitats/habitat_148.png",
     "requirements": [
       {
         "item": {
@@ -7054,7 +7054,7 @@ const HABITAT_DATA = {
       "en": "A cycling rest stop to recharge, Beldum takes a roadside break before heading out!",
       "es": "¡Una parada de descanso para ciclistas y recargar, Beldum toma un descanso antes de continuar!"
     },
-    "image": "habitats/habitat_149.png",
+    "image": "assets/habitats/habitat_149.png",
     "requirements": [
       {
         "item": {
@@ -7089,7 +7089,7 @@ const HABITAT_DATA = {
       "en": "A fireplace nap spot warm and cozy, Typhlosion and Quilava snooze sweetly by the fire!",
       "es": "¡Un lugar para dormir junto a la chimenea cálido y acogedor, Typhlosion y Quilava duermen dulcemente junto al fuego!"
     },
-    "image": "habitats/habitat_150.png",
+    "image": "assets/habitats/habitat_150.png",
     "requirements": [
       {
         "item": {
@@ -7135,7 +7135,7 @@ const HABITAT_DATA = {
       "en": "Surging psychic power amazing to feel, Alakazam and Abra resonate with telepathy!",
       "es": "¡Poder psíquico surgente increíble de sentir, Alakazam y Abra resuenan con telepatía!"
     },
-    "image": "habitats/habitat_151.png",
+    "image": "assets/habitats/habitat_151.png",
     "requirements": [
       {
         "item": {
@@ -7181,7 +7181,7 @@ const HABITAT_DATA = {
       "en": "Fortune teller's table with a glowing crystal ball, Kadabra and Abra predict the future!",
       "es": "¡Mesa de adivino con bola de cristal brillante, Kadabra y Abra predicen el futuro!"
     },
-    "image": "habitats/habitat_152.png",
+    "image": "assets/habitats/habitat_152.png",
     "requirements": [
       {
         "item": {
@@ -7227,7 +7227,7 @@ const HABITAT_DATA = {
       "en": "Trash site TV playing shows, Dusclops and Dusknoir watch late-night TV together!",
       "es": "¡TV en el basurero transmitiendo programas, Dusclops y Dusknoir ven televisión nocturna juntos!"
     },
-    "image": "habitats/habitat_153.png",
+    "image": "assets/habitats/habitat_153.png",
     "requirements": [
       {
         "item": {
@@ -7273,7 +7273,7 @@ const HABITAT_DATA = {
       "en": "Oversized dumping ground full of scrap, Tinkatink and Tinkaton search for treasure in the junk!",
       "es": "¡Vertedero gigante lleno de chatarra, Tinkatink y Tinkaton buscan tesoro entre los desechos!"
     },
-    "image": "habitats/habitat_154.png",
+    "image": "assets/habitats/habitat_154.png",
     "requirements": [
       {
         "item": {
@@ -7319,7 +7319,7 @@ const HABITAT_DATA = {
       "en": "Interrogation desk tense but fun, Sprigatito and Floragato play detective!",
       "es": "¡Escritorio de interrogación tenso pero divertido, Sprigatito y Floragato juegan a detectives!"
     },
-    "image": "habitats/habitat_155.png",
+    "image": "assets/habitats/habitat_155.png",
     "requirements": [
       {
         "item": {
@@ -7365,7 +7365,7 @@ const HABITAT_DATA = {
       "en": "Sewer hole inspection dark and damp, Corviknight and Tinkatuff bravely patrol!",
       "es": "¡Inspección de alcantarilla oscura y húmeda, Corviknight y Tinkatuff patrullan con valentía!"
     },
-    "image": "habitats/habitat_156.png",
+    "image": "assets/habitats/habitat_156.png",
     "requirements": [
       {
         "item": {
@@ -7433,7 +7433,7 @@ const HABITAT_DATA = {
       "en": "Spotless washing station gleaming clean, Mr. Mime polishes everything until it shines!",
       "es": "¡Estación de lavado impecable brillando de limpia, Mr. Mime pule todo hasta que brille!"
     },
-    "image": "habitats/habitat_157.png",
+    "image": "assets/habitats/habitat_157.png",
     "requirements": [
       {
         "item": {
@@ -7479,7 +7479,7 @@ const HABITAT_DATA = {
       "en": "A home theater with a big screen, Mismagius snuggles on the couch for movie night!",
       "es": "¡Un cine en casa con pantalla grande, Mismagius se acurruga en el sofá para noche de películas!"
     },
-    "image": "habitats/habitat_158.png",
+    "image": "assets/habitats/habitat_158.png",
     "requirements": [
       {
         "item": {
@@ -7514,7 +7514,7 @@ const HABITAT_DATA = {
       "en": "A study area quiet and cozy, Kirlia and Ralts read with full concentration!",
       "es": "¡Área de estudio tranquila y acogedora, Kirlia y Ralts leen con total concentración!"
     },
-    "image": "habitats/habitat_159.png",
+    "image": "assets/habitats/habitat_159.png",
     "requirements": [
       {
         "item": {
@@ -7560,7 +7560,7 @@ const HABITAT_DATA = {
       "en": "A rhythmic living room with music playing, Noivern and Noibat groove to the beat!",
       "es": "¡Una sala rítmica con música sonando, Noivern y Noibat se mueven al compás!"
     },
-    "image": "habitats/habitat_160.png",
+    "image": "assets/habitats/habitat_160.png",
     "requirements": [
       {
         "item": {
@@ -7606,7 +7606,7 @@ const HABITAT_DATA = {
       "en": "Squeaky clean and sparkling, Poliwag takes a bubbly bath happily!",
       "es": "¡Limpio y reluciente, Poliwag toma un baño de burbujas felizmente!"
     },
-    "image": "habitats/habitat_161.png",
+    "image": "assets/habitats/habitat_161.png",
     "requirements": [
       {
         "item": {
@@ -7641,7 +7641,7 @@ const HABITAT_DATA = {
       "en": "A moisturizing makeup stand so hydrating, Kirlia and Gardevoir get ready together!",
       "es": "¡Un tocador hidratante y hermoso, Kirlia y Gardevoir se arreglan juntas!"
     },
-    "image": "habitats/habitat_162.png",
+    "image": "assets/habitats/habitat_162.png",
     "requirements": [
       {
         "item": {
@@ -7687,7 +7687,7 @@ const HABITAT_DATA = {
       "en": "A mini library full of books, Gardevoir reads quietly among the shelves.",
       "es": "Una mini biblioteca llena de libros, Gardevoir lee tranquilamente entre los estantes."
     },
-    "image": "habitats/habitat_163.png",
+    "image": "assets/habitats/habitat_163.png",
     "requirements": [
       {
         "item": {
@@ -7722,7 +7722,7 @@ const HABITAT_DATA = {
       "en": "Game corner battle zone fierce and competitive, Porygon-Z dominates virtual battles!",
       "es": "¡Zona de batalla del rincón de juegos feroz y competitiva, Porygon-Z domina las batallas virtuales!"
     },
-    "image": "habitats/habitat_164.png",
+    "image": "assets/habitats/habitat_164.png",
     "requirements": [
       {
         "item": {
@@ -7757,7 +7757,7 @@ const HABITAT_DATA = {
       "en": "Playland full of laughter, Snivy runs between the fun rides!",
       "es": "¡Parque de diversiones lleno de risas, Snivy corre entre los juegos divertidos!"
     },
-    "image": "habitats/habitat_165.png",
+    "image": "assets/habitats/habitat_165.png",
     "requirements": [
       {
         "item": {
@@ -7792,7 +7792,7 @@ const HABITAT_DATA = {
       "en": "A work desk for focused tasks, Porygon2 processes data diligently at the computer!",
       "es": "¡Un escritorio de trabajo para tareas enfocadas, Porygon2 procesa datos diligentemente en la computadora!"
     },
-    "image": "habitats/habitat_166.png",
+    "image": "assets/habitats/habitat_166.png",
     "requirements": [
       {
         "item": {
@@ -7827,7 +7827,7 @@ const HABITAT_DATA = {
       "en": "Office storeroom full of surprises, Mismagius and Dragapult explore the file piles!",
       "es": "¡Almacén de oficina lleno de sorpresas, Mismagius y Dragapult exploran entre los archivos!"
     },
-    "image": "habitats/habitat_167.png",
+    "image": "assets/habitats/habitat_167.png",
     "requirements": [
       {
         "item": {
@@ -7895,7 +7895,7 @@ const HABITAT_DATA = {
       "en": "An experiment space full of science, Alakazam researches psychic powers at the lab bench!",
       "es": "¡Un espacio experimental lleno de ciencia, Alakazam investiga poderes psíquicos en el laboratorio!"
     },
-    "image": "habitats/habitat_168.png",
+    "image": "assets/habitats/habitat_168.png",
     "requirements": [
       {
         "item": {
@@ -7930,7 +7930,7 @@ const HABITAT_DATA = {
       "en": "Professor's apprentice program is on, Metang learns research under the mentor's guidance!",
       "es": "¡El programa de aprendiz del profesor ha comenzado, Metang aprende investigación bajo la guía del mentor!"
     },
-    "image": "habitats/habitat_169.png",
+    "image": "assets/habitats/habitat_169.png",
     "requirements": [
       {
         "item": {
@@ -7965,7 +7965,7 @@ const HABITAT_DATA = {
       "en": "A researcher's desk with all the data, Porygon analyzes info on the screen!",
       "es": "¡Escritorio del investigador con todos los datos, Porygon analiza información en la pantalla!"
     },
-    "image": "habitats/habitat_170.png",
+    "image": "assets/habitats/habitat_170.png",
     "requirements": [
       {
         "item": {
@@ -8000,7 +8000,7 @@ const HABITAT_DATA = {
       "en": "Public reading area spacious and comfortable, Serperior and Mime Jr. read quietly.",
       "es": "Área de lectura pública amplia y cómoda, Serperior y Mime Jr. leen en silencio."
     },
-    "image": "habitats/habitat_171.png",
+    "image": "assets/habitats/habitat_171.png",
     "requirements": [
       {
         "item": {
@@ -8046,7 +8046,7 @@ const HABITAT_DATA = {
       "en": "A heart-pounding surprise box hides secrets, Meowscarada opens it with nervous excitement!",
       "es": "¡Una caja sorpresa que acelera el corazón esconde secretos, Meowscarada la abre con emoción nerviosa!"
     },
-    "image": "habitats/habitat_172.png",
+    "image": "assets/habitats/habitat_172.png",
     "requirements": [
       {
         "item": {
@@ -8081,7 +8081,7 @@ const HABITAT_DATA = {
       "en": "A prank button that gives a jump, Greninja and Frogadier sneak a press!",
       "es": "¡Un botón de broma que asusta, Greninja y Frogadier se escurren para presionarlo!"
     },
-    "image": "habitats/habitat_173.png",
+    "image": "assets/habitats/habitat_173.png",
     "requirements": [
       {
         "item": {
@@ -8127,7 +8127,7 @@ const HABITAT_DATA = {
       "en": "A picturesque photo cutout board for silly poses, Plusle and Minun strike a pose!",
       "es": "¡Un recorte de fotos para poses divertidas, Plusle y Minun se ponen en pose!"
     },
-    "image": "habitats/habitat_174.png",
+    "image": "assets/habitats/habitat_174.png",
     "requirements": [
       {
         "item": {
@@ -8173,7 +8173,7 @@ const HABITAT_DATA = {
       "en": "A tire park with piles of tires, Dedenne bounces joyfully on the rubber!",
       "es": "¡Un parque de llantas con montones de ruedas, Dedenne salta alegremente sobre el caucho!"
     },
-    "image": "habitats/habitat_175.png",
+    "image": "assets/habitats/habitat_175.png",
     "requirements": [
       {
         "item": {
@@ -8208,7 +8208,7 @@ const HABITAT_DATA = {
       "en": "Nature's market bustling and warm, Raichu picks fresh fruits and veggies at the stalls!",
       "es": "¡El mercado de la naturaleza bullicioso y cálido, Raichu escoge frutas y verduras frescas en los puestos!"
     },
-    "image": "habitats/habitat_176.png",
+    "image": "assets/habitats/habitat_176.png",
     "requirements": [
       {
         "item": {
@@ -8243,7 +8243,7 @@ const HABITAT_DATA = {
       "en": "Construction site generator roaring loud, Conkeldurr powers up heavy machinery!",
       "es": "¡Generador del sitio de construcción rugiendo, Conkeldurr energiza maquinaria pesada!"
     },
-    "image": "habitats/habitat_177.png",
+    "image": "assets/habitats/habitat_177.png",
     "requirements": [
       {
         "item": {
@@ -8278,7 +8278,7 @@ const HABITAT_DATA = {
       "en": "Dojo training hard and sweaty, Gallade and Poliwrath practice martial arts together!",
       "es": "¡Entrenamiento de dōjō duro y sudoroso, Gallade y Poliwrath practican artes marciales juntos!"
     },
-    "image": "habitats/habitat_178.png",
+    "image": "assets/habitats/habitat_178.png",
     "requirements": [
       {
         "item": {
@@ -8324,7 +8324,7 @@ const HABITAT_DATA = {
       "en": "Evil organization HQ dark and mysterious, Persian patrols the secret base in the shadows!",
       "es": "¡Cuartel general de organización maligna oscuro y misterioso, Persian patrulla la base secreta en las sombras!"
     },
-    "image": "habitats/habitat_179.png",
+    "image": "assets/habitats/habitat_179.png",
     "requirements": [
       {
         "item": {
@@ -8359,7 +8359,7 @@ const HABITAT_DATA = {
       "en": "Nine flames blazing bright, Ninetales shows its majesty in the sacred fire!",
       "es": "¡Nueve llamas ardiendo brillantes, Ninetales muestra su majestad en el fuego sagrado!"
     },
-    "image": "habitats/habitat_180.png",
+    "image": "assets/habitats/habitat_180.png",
     "requirements": [
       {
         "item": {
@@ -8394,7 +8394,7 @@ const HABITAT_DATA = {
       "en": "Plush central soft and cuddly, Drifloon and Drifblim roll around in stuffed toys!",
       "es": "¡Centro de peluches suave y abrazable, Drifloon y Drifblim se revuelcan entre peluches!"
     },
-    "image": "habitats/habitat_181.png",
+    "image": "assets/habitats/habitat_181.png",
     "requirements": [
       {
         "item": {
@@ -8440,7 +8440,7 @@ const HABITAT_DATA = {
       "en": "A gamer's paradise with endless games, Metagross dominates the gaming world!",
       "es": "¡Un paraíso de gamers con juegos infinitos, Metagross domina el mundo de los videojuegos!"
     },
-    "image": "habitats/habitat_182.png",
+    "image": "assets/habitats/habitat_182.png",
     "requirements": [
       {
         "item": {
@@ -8475,7 +8475,7 @@ const HABITAT_DATA = {
       "en": "Top pop soda refreshing and cool, Typhlosion chugs down icy soda!",
       "es": "¡Refresco top refrescante y frío, Typhlosion se bebe un soda helada!"
     },
-    "image": "habitats/habitat_183.png",
+    "image": "assets/habitats/habitat_183.png",
     "requirements": [
       {
         "item": {
@@ -8510,7 +8510,7 @@ const HABITAT_DATA = {
       "en": "Fishing pond waiting for a bite, Slowpoke sits calmly by the water with a fishing rod.",
       "es": "Estanque de pesca esperando una mordida, Slowpoke se sienta tranquilamente junto al agua con caña."
     },
-    "image": "habitats/habitat_184.png",
+    "image": "assets/habitats/habitat_184.png",
     "requirements": [
       {
         "item": {
@@ -8556,7 +8556,7 @@ const HABITAT_DATA = {
       "en": "Ocean fishing spot sparkling with waves, Gastrodon and Magikarp swim freely in the sea!",
       "es": "¡Punto de pesca oceánico brillando con olas, Gastrodon y Magikarp nadan libremente en el mar!"
     },
-    "image": "habitats/habitat_185.png",
+    "image": "assets/habitats/habitat_185.png",
     "requirements": [
       {
         "item": {
@@ -8602,7 +8602,7 @@ const HABITAT_DATA = {
       "en": "Marsh fishing spot muddy and fun, Muk and Wooper fish and play in the mud!",
       "es": "¡Punto de pesca pantanoso fangoso y divertido, Muk y Wooper pescan y juegan en el lodo!"
     },
-    "image": "habitats/habitat_186.png",
+    "image": "assets/habitats/habitat_186.png",
     "requirements": [
       {
         "item": {
@@ -8659,7 +8659,7 @@ const HABITAT_DATA = {
       "en": "Hot spring fishing spot warm and toasty, Lombre and Lotad fish in the warm water!",
       "es": "¡Punto de pesca termal cálido y agradable, Lombre y Lotad pescan en el agua caliente!"
     },
-    "image": "habitats/habitat_187.png",
+    "image": "assets/habitats/habitat_187.png",
     "requirements": [
       {
         "item": {
@@ -8705,7 +8705,7 @@ const HABITAT_DATA = {
       "en": "A magma fishing spot blazing hot, Arcanine shows its skills by the lava!",
       "es": "¡Un punto de pesca en magma ardiente, Arcanine demuestra sus habilidades junto a la lava!"
     },
-    "image": "habitats/habitat_188.png",
+    "image": "assets/habitats/habitat_188.png",
     "requirements": [
       {
         "item": {
@@ -8740,7 +8740,7 @@ const HABITAT_DATA = {
       "en": "A malicious knight's shrine solemn and dark, Ceruledge guards its oath in the temple.",
       "es": "Un santuario de caballero malévolo solemne y oscuro, Ceruledge guarda su juramento en el templo."
     },
-    "image": "habitats/habitat_191.png",
+    "image": "assets/habitats/habitat_191.png",
     "requirements": [
       {
         "item": {
@@ -8775,7 +8775,7 @@ const HABITAT_DATA = {
       "en": "An auspicious knight's shrine glowing bright, Armarouge guards peace in holy light!",
       "es": "¡Un santuario de caballero auspicioso brillando, Armarouge protege la paz en luz sagrada!"
     },
-    "image": "habitats/habitat_192.png",
+    "image": "assets/habitats/habitat_192.png",
     "requirements": [
       {
         "item": {
@@ -8810,7 +8810,7 @@ const HABITAT_DATA = {
       "en": "A wing fossil display so amazing, Aerodactyl visits from ancient times!",
       "es": "¡Una exhibición de fósil de ala increíble, Aerodactyl nos visita desde tiempos antiguos!"
     },
-    "image": "habitats/habitat_193.png",
+    "image": "assets/habitats/habitat_193.png",
     "requirements": [
       {
         "item": {
@@ -8845,7 +8845,7 @@ const HABITAT_DATA = {
       "en": "A skull fossil display mysterious and fun, Cranidos awakens from its fossil!",
       "es": "¡Una exhibición de fósil de cráneo misteriosa y divertida, Cranidos despierta de su fósil!"
     },
-    "image": "habitats/habitat_194.png",
+    "image": "assets/habitats/habitat_194.png",
     "requirements": [
       {
         "item": {
@@ -8880,7 +8880,7 @@ const HABITAT_DATA = {
       "en": "A headbutt fossil display so impressive, Rampardos shows off its powerful headbutt!",
       "es": "¡Una exhibición de fósil de cabezazo impresionante, Rampardos muestra su poderoso cabezazo!"
     },
-    "image": "habitats/habitat_195.png",
+    "image": "assets/habitats/habitat_195.png",
     "requirements": [
       {
         "item": {
@@ -8915,7 +8915,7 @@ const HABITAT_DATA = {
       "en": "An armor fossil display strong and reliable, Shieldon guards safely in its shell!",
       "es": "¡Una exhibición de fósil de armadura fuerte y confiable, Shieldon protege seguro en su caparazón!"
     },
-    "image": "habitats/habitat_196.png",
+    "image": "assets/habitats/habitat_196.png",
     "requirements": [
       {
         "item": {
@@ -8950,7 +8950,7 @@ const HABITAT_DATA = {
       "en": "A shield fossil display unbreakable, Bastiodon protects everyone with its massive shield!",
       "es": "¡Una exhibición de fósil de escudo irrompible, Bastiodon protege a todos con su escudo gigante!"
     },
-    "image": "habitats/habitat_197.png",
+    "image": "assets/habitats/habitat_197.png",
     "requirements": [
       {
         "item": {
@@ -8985,7 +8985,7 @@ const HABITAT_DATA = {
       "en": "A jaw fossil display full of wildness, Tyrunt bares its sharp teeth from the fossil!",
       "es": "¡Una exhibición de fósil de mandíbula llena de salvajismo, Tyrunt muestra sus dientes afilados del fósil!"
     },
-    "image": "habitats/habitat_198.png",
+    "image": "assets/habitats/habitat_198.png",
     "requirements": [
       {
         "item": {
@@ -9020,7 +9020,7 @@ const HABITAT_DATA = {
       "en": "A despot fossil display mighty and grand, Tyrantrum shows its ancient ruler's power!",
       "es": "¡Una exhibición de fósil de déspota poderosa y grandiosa, Tyrantrum muestra su poder de gobernante antiguo!"
     },
-    "image": "habitats/habitat_199.png",
+    "image": "assets/habitats/habitat_199.png",
     "requirements": [
       {
         "item": {
@@ -9055,7 +9055,7 @@ const HABITAT_DATA = {
       "en": "A sail fossil display elegant and lovely, Amaura shows its beautiful form from the fossil!",
       "es": "¡Una exhibición de fósil de vela elegante y hermosa, Amaura muestra su forma bonita del fósil!"
     },
-    "image": "habitats/habitat_200.png",
+    "image": "assets/habitats/habitat_200.png",
     "requirements": [
       {
         "item": {
@@ -9090,7 +9090,7 @@ const HABITAT_DATA = {
       "en": "A tundra fossil display sparkling with ice, Aurorus shines with icy blue light in the cold!",
       "es": "¡Una exhibición de fósil de tundra brillando con hielo, Aurorus resplandece con luz azul helada!"
     },
-    "image": "habitats/habitat_201.png",
+    "image": "assets/habitats/habitat_201.png",
     "requirements": [
       {
         "item": {
@@ -9125,7 +9125,7 @@ const HABITAT_DATA = {
       "en": "A boundless blue beverage cool and refreshing, Vaporeon sips a frosty blue drink happily!",
       "es": "¡Una bebida azul infinita fresca y refrescante, Vaporeon bebe felizmente una bebida azul helada!"
     },
-    "image": "habitats/habitat_202.png",
+    "image": "assets/habitats/habitat_202.png",
     "requirements": [
       {
         "item": {
@@ -9160,7 +9160,7 @@ const HABITAT_DATA = {
       "en": "Electrifying potatoes crispy and tasty, Jolteon munches on shockingly good fries!",
       "es": "¡Papas electrificantes crujientes y sabrosas, Jolteon mastica papas sorprendentemente buenas!"
     },
-    "image": "habitats/habitat_203.png",
+    "image": "assets/habitats/habitat_203.png",
     "requirements": [
       {
         "item": {
@@ -9195,7 +9195,7 @@ const HABITAT_DATA = {
       "en": "Burning hot spice that makes you sweat, Flareon loves super spicy dishes!",
       "es": "¡Especias ardientes que te hacen sudar, Flareon adora los platos súper picantes!"
     },
-    "image": "habitats/habitat_204.png",
+    "image": "assets/habitats/habitat_204.png",
     "requirements": [
       {
         "item": {
@@ -9230,7 +9230,7 @@ const HABITAT_DATA = {
       "en": "Elegant daytime treats dainty and sweet, Espeon enjoys tea time in the afternoon sun!",
       "es": "¡Dulces diurnos elegantes y refinados, Espeon disfruta la hora del té bajo el sol de la tarde!"
     },
-    "image": "habitats/habitat_205.png",
+    "image": "assets/habitats/habitat_205.png",
     "requirements": [
       {
         "item": {
@@ -9265,7 +9265,7 @@ const HABITAT_DATA = {
       "en": "Dark chocolate cookies rich and yummy, Umbreon enjoys dark cookies with milk!",
       "es": "¡Galletas de chocolate oscuro ricas y sabrosas, Umbreon disfruta galletas oscuras con leche!"
     },
-    "image": "habitats/habitat_206.png",
+    "image": "assets/habitats/habitat_206.png",
     "requirements": [
       {
         "item": {
@@ -9300,7 +9300,7 @@ const HABITAT_DATA = {
       "en": "A leafy greens sandwich fresh and healthy, Leafeon munches a veggie sandwich happily!",
       "es": "¡Un sándwich de verduras fresco y saludable, Leafeon mastica un sándwich vegetal felizmente!"
     },
-    "image": "habitats/habitat_207.png",
+    "image": "assets/habitats/habitat_207.png",
     "requirements": [
       {
         "item": {
@@ -9335,7 +9335,7 @@ const HABITAT_DATA = {
       "en": "Chilly shaved ice to beat the heat, Glaceon devours icy treats on a hot day!",
       "es": "¡Hielo raspado helado para vencer el calor, Glaceon devora helados en un día caluroso!"
     },
-    "image": "habitats/habitat_208.png",
+    "image": "assets/habitats/habitat_208.png",
     "requirements": [
       {
         "item": {
@@ -9370,7 +9370,7 @@ const HABITAT_DATA = {
       "en": "A lovely ribbon cake sweet and cute, Sylveon makes a wish before the bow-topped cake!",
       "es": "¡Un pastel de listón dulce y lindo, Sylveon pide un deseo ante el pastel con moños!"
     },
-    "image": "habitats/habitat_209.png",
+    "image": "assets/habitats/habitat_209.png",
     "requirements": [
       {
         "item": {

@@ -31,7 +31,7 @@ async function main() {
     var num = String(i).padStart(3, '0');
     var slug = 'tall-grass-' + num;
     try {
-      var html = await fetchUrl('https://pokopiadex.com/habitats/' + slug);
+      var html = await fetchUrl('https://pokopiadex.com/assets/habitats/' + slug);
       // Look for image references
       var imgRegex = /img[^>]*src="([^"]*(?:habitat|hab)[^"]*)"[^>]*>/gi;
       var bgRegex = /background-image:\s*url\(["']?([^"')]+)/gi;

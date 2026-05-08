@@ -71,7 +71,7 @@ for (var i = 0; i < pdexSlugs.length; i++) {
   var imgNum = String(gwId).padStart(3, '0');
   mapping[slug] = {
     gwId: gwId,
-    img: 'habitats/habitat_' + imgNum + '.png'
+    img: 'assets/habitats/habitat_' + imgNum + '.png'
   };
 }
 

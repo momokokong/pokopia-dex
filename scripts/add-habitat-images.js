@@ -37,7 +37,7 @@ Object.keys(habitatMap).forEach(function(slug) {
 });
 
 var jsContent = '// Auto-generated habitat image mapping\\n' +
-  '// Usage: HABITAT_IMAGES[biomeId] = \"habitats/habitat_XXX.png\"\\n' +
+  '// Usage: HABITAT_IMAGES[biomeId] = \"assets/habitats/habitat_XXX.png\"\\n' +
   'const HABITAT_IMAGES = ' + JSON.stringify(jsMap, null, 2) + ';\\n';
 
 fs.writeFileSync('../data/habitat-images.js', jsContent, 'utf8');

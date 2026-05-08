@@ -38,7 +38,7 @@ async function main() {
     var spritePath = spriteDir + '/' + pokedexNum + '.png';
     if (fs.existsSync(spritePath)) { existing++; continue; }
 
-    var url = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/' + pokedexNum + '.png';
+    var url = 'https://raw.githubusercontent.com/PokeAPI/assets/sprites/master/assets/sprites/pokemon/other/official-artwork/' + pokedexNum + '.png';
     try {
       await downloadSprite(url, spritePath);
       downloaded++;
