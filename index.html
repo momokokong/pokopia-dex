@@ -35,17 +35,33 @@
     <input class="search-bar__input" type="text" id="searchInput" placeholder="搜尋寶可夢...">
   </div>
 
-  <!-- Type Filters -->
+  <!-- Type Filters - Quick Bar -->
   <div class="type-filters" id="typeFilters">
     <button class="type-filter-btn active" data-type="all" data-i18n-type="all">全部</button>
     <button class="type-filter-btn" data-type="Fire" data-i18n-type="Fire">🔥 火</button>
     <button class="type-filter-btn" data-type="Water" data-i18n-type="Water">💧 水</button>
     <button class="type-filter-btn" data-type="Grass" data-i18n-type="Grass">🌿 草</button>
-    <button class="type-filter-btn" data-type="Rock" data-i18n-type="Rock">🪨 岩石</button>
-    <button class="type-filter-btn" data-type="Fairy" data-i18n-type="Fairy">✨ 妖精</button>
+    <button class="type-filter-btn" data-type="Electric" data-i18n-type="Electric">⚡ 電</button>
     <button class="type-filter-btn" data-type="Normal" data-i18n-type="Normal">⭐ 一般</button>
-    <button class="type-filter-btn" data-type="Poison" data-i18n-type="Poison">☠️ 毒</button>
-    <button class="type-filter-btn" data-type="Ground" data-i18n-type="Ground">⛰️ 地面</button>
+    <button class="type-filter-btn type-filter-btn--more" id="moreTypesBtn">+ 更多</button>
+  </div>
+
+  <!-- Type Filter Drawer Overlay -->
+  <div class="type-drawer-overlay" id="drawerOverlay"></div>
+
+  <!-- Type Filter Drawer -->
+  <div class="type-drawer" id="typeDrawer">
+    <div class="type-drawer__header">
+      <span class="type-drawer__title" id="drawerTitle">選擇屬性</span>
+      <button class="type-drawer__close" id="drawerClose">✕</button>
+    </div>
+    <div class="type-drawer__grid" id="drawerGrid">
+      <!-- Dynamically filled by JS -->
+    </div>
+    <div class="type-drawer__actions">
+      <button class="type-drawer__btn type-drawer__btn--clear" id="drawerClear">清除全部</button>
+      <button class="type-drawer__btn type-drawer__btn--apply" id="drawerApply">確定</button>
+    </div>
   </div>
 
   <!-- Pokemon List -->
@@ -75,14 +91,58 @@
 
   <script src="app.js"></script>
   <script>
+    // --- Type configuration (18 types) ---
+    const POKEMON_TYPES = [
+      { key: 'Normal',   emoji: '⭐',  zh: '一般',  en: 'Normal',   es: 'Normal'      },
+      { key: 'Fire',     emoji: '🔥',  zh: '火',    en: 'Fire',     es: 'Fuego'       },
+      { key: 'Water',    emoji: '💧',  zh: '水',    en: 'Water',    es: 'Agua'        },
+      { key: 'Grass',    emoji: '🌿',  zh: '草',    en: 'Grass',    es: 'Planta'      },
+      { key: 'Electric', emoji: '⚡',  zh: '電',    en: 'Electric', es: 'Eléctrico'   },
+      { key: 'Ice',      emoji: '❄️',  zh: '冰',    en: 'Ice',      es: 'Hielo'       },
+      { key: 'Fighting', emoji: '🥊',  zh: '格鬥',  en: 'Fighting', es: 'Lucha'       },
+      { key: 'Poison',   emoji: '☠️',  zh: '毒',    en: 'Poison',   es: 'Veneno'      },
+      { key: 'Ground',   emoji: '🏜️',  zh: '地面',  en: 'Ground',   es: 'Tierra'      },
+      { key: 'Flying',   emoji: '🕊️',  zh: '飛行',  en: 'Flying',   es: 'Volador'     },
+      { key: 'Psychic',  emoji: '🔮',  zh: '超能力',en: 'Psychic',  es: 'Psíquico'    },
+      { key: 'Bug',      emoji: '🐛',  zh: '蟲',    en: 'Bug',      es: 'Bicho'       },
+      { key: 'Rock',     emoji: '🪨',  zh: '岩石',  en: 'Rock',     es: 'Roca'        },
+      { key: 'Ghost',    emoji: '👻',  zh: '幽靈',  en: 'Ghost',    es: 'Fantasma'    },
+      { key: 'Dragon',   emoji: '🐉',  zh: '龍',    en: 'Dragon',   es: 'Dragón'      },
+      { key: 'Steel',    emoji: '🛡️',  zh: '鋼',    en: 'Steel',    es: 'Acero'       },
+      { key: 'Fairy',    emoji: '🧚',  zh: '妖精',  en: 'Fairy',    es: 'Hada'        },
+      { key: 'Dark',     emoji: '🌑',  zh: '惡',    en: 'Dark',     es: 'Siniestro'   }
+    ];
+
+    const QUICK_TYPES = ['all', 'Fire', 'Water', 'Grass', 'Electric', 'Normal'];
+
+    // --- I18N with all 18 types ---
     const I18N = {
-      zh: { search_placeholder: '搜尋寶可夢...', tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定', filter_all: '全部', collected: '✅', uncollected: '❓', type_Fire: '🔥 火', type_Water: '💧 水', type_Grass: '🌿 草', type_Rock: '🪨 岩石', type_Fairy: '✨ 妖精', type_Normal: '⭐ 一般', type_Poison: '☠️ 毒', type_Ground: '⛰️ 地面' },
-      en: { search_placeholder: 'Search Pokémon...', tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings', filter_all: 'All', collected: '✅', uncollected: '❓', type_Fire: '🔥 Fire', type_Water: '💧 Water', type_Grass: '🌿 Grass', type_Rock: '🪨 Rock', type_Fairy: '✨ Fairy', type_Normal: '⭐ Normal', type_Poison: '☠️ Poison', type_Ground: '⛰️ Ground' },
-      es: { search_placeholder: 'Buscar Pokémon...', tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes', filter_all: 'Todos', collected: '✅', uncollected: '❓', type_Fire: '🔥 Fuego', type_Water: '💧 Agua', type_Grass: '🌿 Planta', type_Rock: '🪨 Roca', type_Fairy: '✨ Hada', type_Normal: '⭐ Normal', type_Poison: '☠️ Veneno', type_Ground: '⛰️ Tierra' }
+      zh: {
+        search_placeholder: '搜尋寶可夢...',
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        filter_all: '全部', collected: '✅', uncollected: '❓',
+        more_types: '+ 更多', drawer_title: '選擇屬性', drawer_clear: '清除全部', drawer_apply: '確定',
+        ...Object.fromEntries(POKEMON_TYPES.map(t => ['type_' + t.key, t.emoji + ' ' + t.zh]))
+      },
+      en: {
+        search_placeholder: 'Search Pokémon...',
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        filter_all: 'All', collected: '✅', uncollected: '❓',
+        more_types: '+ More', drawer_title: 'Select Types', drawer_clear: 'Clear All', drawer_apply: 'Apply',
+        ...Object.fromEntries(POKEMON_TYPES.map(t => ['type_' + t.key, t.emoji + ' ' + t.en]))
+      },
+      es: {
+        search_placeholder: 'Buscar Pokémon...',
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        filter_all: 'Todos', collected: '✅', uncollected: '❓',
+        more_types: '+ Más', drawer_title: 'Seleccionar tipos', drawer_clear: 'Limpiar', drawer_apply: 'Aplicar',
+        ...Object.fromEntries(POKEMON_TYPES.map(t => ['type_' + t.key, t.emoji + ' ' + t.es]))
+      }
     };
 
+    // --- State: multi-select (OR logic) ---
     let allPokemon = [];
-    let activeTypeFilter = 'all';
+    let selectedTypes = ['all'];  // array of type keys; ['all'] means show all
     let searchQuery = '';
 
     async function init() {
@@ -96,19 +156,20 @@
         return;
       }
       document.getElementById('loadingState')?.remove();
-      // Demo: pre-collect Bulbasaur and Eevee for showcase
       if (!localStorage.getItem('pokopia-collected')) {
         localStorage.setItem('pokopia-collected', JSON.stringify([1, 133]));
       }
       POKOPIA_DEX.renderLangButtons();
       POKOPIA_DEX.renderTabBar('dex');
       setupTypeFilters();
+      setupDrawer();
       setupSearch();
       renderList();
       document.addEventListener('langchange', () => {
         updateI18N();
         renderList();
         updateFilterLabels();
+        rebuildDrawerGrid();
       });
       updateI18N();
     }
@@ -124,30 +185,155 @@
     }
 
     function updateFilterLabels() {
-      const lang = POKOPIA_DEX.getLang();
-      const t = I18N[lang] || I18N.en;
-      document.querySelectorAll('.type-filter-btn[data-i18n-type]').forEach(btn => {
-        const typeKey = btn.dataset.i18nType;
-        const key = 'type_' + typeKey;
-        if (typeKey === 'all') {
-          btn.textContent = t.filter_all;
-        } else if (t[key]) {
-          btn.textContent = t[key];
-        }
-      });
+      // Re-sync the entire filter UI (labels + active states + checkmarks)
+      syncFilterUI();
     }
 
+    // --- Quick filter bar (multi-select toggle) ---
     function setupTypeFilters() {
       document.querySelectorAll('.type-filter-btn').forEach(btn => {
+        if (btn.id === 'moreTypesBtn') return; // More button handled separately
         btn.addEventListener('click', () => {
-          document.querySelectorAll('.type-filter-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          activeTypeFilter = btn.dataset.type;
+          const type = btn.dataset.type;
+          if (type === 'all') {
+            selectedTypes = ['all'];
+          } else {
+            selectedTypes = selectedTypes.filter(t => t !== 'all');
+            if (selectedTypes.includes(type)) {
+              selectedTypes = selectedTypes.filter(t => t !== type);
+              if (selectedTypes.length === 0) selectedTypes = ['all'];
+            } else {
+              selectedTypes.push(type);
+            }
+          }
+          // Close drawer if open when clicking quick bar
+          closeDrawer();
+          syncFilterUI();
           renderList();
         });
       });
     }
 
+    // --- Drawer (bottom sheet for all 18 types) ---
+    let drawerSelectedTypes = []; // temp selection while drawer is open
+
+    function setupDrawer() {
+      const overlay = document.getElementById('drawerOverlay');
+      const closeBtn = document.getElementById('drawerClose');
+      const clearBtn = document.getElementById('drawerClear');
+      const applyBtn = document.getElementById('drawerApply');
+      const moreBtn = document.getElementById('moreTypesBtn');
+
+      moreBtn.addEventListener('click', openDrawer);
+      overlay.addEventListener('click', closeDrawer);
+      closeBtn.addEventListener('click', closeDrawer);
+      clearBtn.addEventListener('click', () => {
+        drawerSelectedTypes = ['all'];
+        syncDrawerGridUI();
+      });
+      applyBtn.addEventListener('click', () => {
+        selectedTypes = [...drawerSelectedTypes];
+        syncFilterUI();
+        renderList();
+        closeDrawer();
+      });
+    }
+
+    function openDrawer() {
+      drawerSelectedTypes = [...selectedTypes];
+      rebuildDrawerGrid();
+      document.getElementById('drawerOverlay').classList.add('open');
+      document.getElementById('typeDrawer').classList.add('open');
+    }
+
+    function closeDrawer() {
+      document.getElementById('drawerOverlay').classList.remove('open');
+      document.getElementById('typeDrawer').classList.remove('open');
+    }
+
+    function rebuildDrawerGrid() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      const grid = document.getElementById('drawerGrid');
+      const titleEl = document.getElementById('drawerTitle');
+      const clearEl = document.getElementById('drawerClear');
+      const applyEl = document.getElementById('drawerApply');
+
+      titleEl.textContent = t.drawer_title;
+      clearEl.textContent = t.drawer_clear;
+      applyEl.textContent = t.drawer_apply;
+
+      // All button first
+      let html = `<div class="type-drawer__item" data-type="all">
+        <span class="type-name">${t.filter_all}</span>
+      </div>`;
+
+      POKEMON_TYPES.forEach(tp => {
+        const label = t['type_' + tp.key] || tp.en;
+        html += `<div class="type-drawer__item" data-type="${tp.key}">
+          <span class="type-name">${label}</span>
+        </div>`;
+      });
+
+      grid.innerHTML = html;
+
+      // Bind click events
+      grid.querySelectorAll('.type-drawer__item').forEach(item => {
+        item.addEventListener('click', () => {
+          const type = item.dataset.type;
+          if (type === 'all') {
+            drawerSelectedTypes = ['all'];
+          } else {
+            drawerSelectedTypes = drawerSelectedTypes.filter(t => t !== 'all');
+            if (drawerSelectedTypes.includes(type)) {
+              drawerSelectedTypes = drawerSelectedTypes.filter(t => t !== type);
+              if (drawerSelectedTypes.length === 0) drawerSelectedTypes = ['all'];
+            } else {
+              drawerSelectedTypes.push(type);
+            }
+          }
+          syncDrawerGridUI();
+        });
+      });
+
+      syncDrawerGridUI();
+    }
+
+    function syncDrawerGridUI() {
+      document.querySelectorAll('.type-drawer__item').forEach(item => {
+        const type = item.dataset.type;
+        item.classList.toggle('selected', drawerSelectedTypes.includes(type));
+      });
+    }
+
+    // --- Sync filter UI across quick bar + drawer ---
+    function syncFilterUI() {
+      const lang = POKOPIA_DEX.getLang();
+      const t = I18N[lang] || I18N.en;
+      // Update quick bar buttons
+      document.querySelectorAll('.type-filter-btn').forEach(btn => {
+        if (btn.id === 'moreTypesBtn') return;
+        const type = btn.dataset.type;
+        const isActive = selectedTypes.includes(type);
+        btn.classList.toggle('active', isActive);
+        // Update button label text (CSS ::after handles the ✓ checkmark)
+        const labelKey = type === 'all' ? 'filter_all' : ('type_' + type);
+        btn.textContent = t[labelKey] || labelKey;
+      });
+      // Update more button text to show count if types selected beyond quick bar
+      const moreBtn = document.getElementById('moreTypesBtn');
+      const quickBarTypes = QUICK_TYPES;
+      const extraTypes = selectedTypes.filter(t => !quickBarTypes.includes(t));
+      if (selectedTypes.includes('all')) {
+        moreBtn.textContent = t.more_types;
+      } else if (extraTypes.length > 0) {
+        moreBtn.textContent = t.more_types + ' (' + extraTypes.length + ')';
+      } else {
+        moreBtn.textContent = t.more_types;
+      }
+    }
+
+    // --- Search ---
     function setupSearch() {
       const input = document.getElementById('searchInput');
       input.addEventListener('input', () => {
@@ -156,10 +342,14 @@
       });
     }
 
+    // --- Filter (OR logic) ---
     function filterPokemon() {
       return allPokemon.filter(p => {
-        // Type filter
-        if (activeTypeFilter !== 'all' && !p.types.includes(activeTypeFilter)) return false;
+        // Type filter: OR logic - show if pokemon has ANY of the selected types
+        if (!selectedTypes.includes('all')) {
+          const hasMatch = p.types.some(t => selectedTypes.includes(t));
+          if (!hasMatch) return false;
+        }
         // Search filter
         if (searchQuery) {
           const nameMatch = Object.values(p.name).some(n => n.toLowerCase().includes(searchQuery));
@@ -169,6 +359,7 @@
       });
     }
 
+    // --- Render ---
     function renderList() {
       const lang = POKOPIA_DEX.getLang();
       const t = I18N[lang] || I18N.en;
@@ -196,7 +387,7 @@
           <a class="pokemon-card ${collected ? '' : 'uncollected'}" href="detail.html?id=${p.id}">
             <div class="pokemon-card__sprite-wrap">
               <img class="pokemon-card__sprite ${collected ? '' : 'breathe'}"
-                   src="${p.sprite_url}" alt="${mainName}" loading="lazy">
+                   src="assets/sprites/${p.pokedex_number || p.id}.png" alt="${mainName}" loading="lazy">
             </div>
             <div class="pokemon-card__info">
               <div class="pokemon-card__name">${mainName}</div>

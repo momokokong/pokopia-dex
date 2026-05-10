@@ -6,29 +6,7 @@
   <title>Habitat Detail | Pokopia</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    .top-nav__prev, .top-nav__next {
-      background: none;
-      border: none;
-      font-size: 26px;
-      line-height: 1;
-      color: var(--text-primary, #333);
-      cursor: pointer;
-      padding: 8px;
-      border-radius: 8px;
-      transition: background 0.15s;
-      min-width: 44px;
-      min-height: 44px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .top-nav__prev:hover, .top-nav__next:hover {
-      background: var(--bg-hover, rgba(0,0,0,0.06));
-    }
-    .top-nav__prev:disabled, .top-nav__next:disabled {
-      opacity: 0.3;
-      cursor: default;
-    }
+
   </style>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#FF8C42">
@@ -40,16 +18,24 @@
   <nav class="top-nav">
     <div class="top-nav__left">
       <button class="top-nav__back" onclick="location.href='habitats.html'">←</button>
-      <button class="top-nav__prev" id="navPrev" onclick="goToHabitat(currentHabitatId - 1)" style="display:none;" title="Previous Habitat">‹</button>
       <span class="top-nav__title" id="navTitle">🏝️ 棲息地</span>
     </div>
     <div class="top-nav__right">
-      <button class="top-nav__next" id="navNext" onclick="goToHabitat(currentHabitatId + 1)" style="display:none;" title="Next Habitat">›</button>
       <button class="lang-btn" data-lang="zh">🇹🇼</button>
       <button class="lang-btn" data-lang="en">🇺🇸</button>
       <button class="lang-btn" data-lang="es">🇪🇸</button>
     </div>
   </nav>
+
+  <!-- Floating Prev/Next Nav -->
+  <a class="float-nav float-nav--prev" id="floatPrev" href="#" style="display:none">
+    <img class="float-nav__sprite" id="floatPrevSprite" src="" alt="">
+    <span class="float-nav__label" id="floatPrevLabel"></span>
+  </a>
+  <a class="float-nav float-nav--next" id="floatNext" href="#" style="display:none">
+    <img class="float-nav__sprite" id="floatNextSprite" src="" alt="">
+    <span class="float-nav__label" id="floatNextLabel"></span>
+  </a>
 
   <div class="detail-container" id="habitatDetailContainer">
     <!-- Dynamically rendered -->
@@ -85,7 +71,8 @@
         time: '時間', weather: '天氣', all_day: '全天候', all_weather: '全天氣',
         common: '常見', uncommon: '較稀有', rare: '稀有', very_rare: '非常稀有',
         back: '← 返回棲息地', rarity: '稀有度',
-        no_data: '尚無資料'
+        no_data: '尚無資料',
+        nav_title: '🏝️ 棲息地'
       },
       en: {
         tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
@@ -93,7 +80,8 @@
         time: 'Time', weather: 'Weather', all_day: 'All day', all_weather: 'All weather',
         common: 'Common', uncommon: 'Uncommon', rare: 'Rare', very_rare: 'Very Rare',
         back: '← Back to Habitats', rarity: 'Rarity',
-        no_data: 'No data'
+        no_data: 'No data',
+        nav_title: '🏝️ Habitat'
       },
       es: {
         tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
@@ -101,11 +89,12 @@
         time: 'Hora', weather: 'Clima', all_day: 'Todo el día', all_weather: 'Todo clima',
         common: 'Común', uncommon: 'Poco común', rare: 'Raro', very_rare: 'Muy raro',
         back: '← Volver a Hábitats', rarity: 'Rareza',
-        no_data: 'Sin datos'
+        no_data: 'Sin datos',
+        nav_title: '🏝️ Hábitat'
       }
     };
 
-    const SPRITE_BASE = 'https://raw.githubusercontent.com/PokeAPI/assets/sprites/master/assets/sprites/pokemon/other/official-artwork/';
+    const SPRITE_BASE = 'assets/sprites/';
 
     function getRarityLabel(rarity, lang) {
       const t = I18N[lang] || I18N.en;
@@ -134,12 +123,42 @@
       }
     }
 
-    function updateNavButtons() {
+    function updateFloatingNav() {
+      const lang = POKOPIA_DEX.getLang();
+      const prevBtn = document.getElementById('floatPrev');
+      const nextBtn = document.getElementById('floatNext');
+      const prevSprite = document.getElementById('floatPrevSprite');
+      const nextSprite = document.getElementById('floatNextSprite');
+      const prevLabel = document.getElementById('floatPrevLabel');
+      const nextLabel = document.getElementById('floatNextLabel');
+
       const idx = allHabitatIds.indexOf(currentHabitatId);
-      const prevBtn = document.getElementById('navPrev');
-      const nextBtn = document.getElementById('navNext');
-      if (prevBtn) prevBtn.style.display = idx > 0 ? '' : 'none';
-      if (nextBtn) nextBtn.style.display = idx < allHabitatIds.length - 1 ? '' : 'none';
+
+      if (idx > 0) {
+        const prevId = allHabitatIds[idx - 1];
+        const prevHabitat = HABITAT_DATA[prevId];
+        prevBtn.style.display = '';
+        prevBtn.href = 'habitat-detail.html?id=' + prevId;
+        prevSprite.src = prevHabitat.image || '';
+        prevLabel.textContent = prevHabitat.name[lang] || prevHabitat.name.en;
+      } else {
+        prevBtn.style.display = 'none';
+      }
+
+      if (idx >= 0 && idx < allHabitatIds.length - 1) {
+        const nextId = allHabitatIds[idx + 1];
+        const nextHabitat = HABITAT_DATA[nextId];
+        nextBtn.style.display = '';
+        nextBtn.href = 'habitat-detail.html?id=' + nextId;
+        nextSprite.src = nextHabitat.image || '';
+        nextLabel.textContent = nextHabitat.name[lang] || nextHabitat.name.en;
+      } else {
+        nextBtn.style.display = 'none';
+      }
+    }
+
+    function updateNavButtons() {
+      updateFloatingNav();
     }
 
     async function init() {
@@ -187,6 +206,11 @@
         const key = el.dataset.i18n;
         if (t[key]) el.textContent = t[key];
       });
+      // Update nav title with i18n
+      const navTitle = document.getElementById('navTitle');
+      if (navTitle) navTitle.textContent = t.nav_title;
+      // Update floating nav labels
+      updateFloatingNav();
     }
 
     function renderHabitatDetail() {
@@ -239,7 +263,7 @@
             </div>
             <div class="habitat-pokemon-card__info">
               <div class="habitat-pokemon-card__num">#${String(p.pokedex_number).padStart(3, '0')}</div>
-              <div class="habitat-pokemon-card__name">${isCollected ? pokemonName : '???'}</div>
+              <div class="habitat-pokemon-card__name">${pokemonName}</div>
               <div class="habitat-pokemon-card__rarity">
                 <span class="biome-card__rarity biome-card__rarity--${rarityClass}">${rarityLabel}</span>
                 <span class="habitat-pokemon-card__stars">${rarityStars}</span>

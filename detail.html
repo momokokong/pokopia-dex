@@ -224,7 +224,7 @@
         const prev = _allPokemon[_currentIndex - 1];
         prevBtn.style.display = '';
         prevBtn.href = 'detail.html?id=' + prev.id;
-        prevSprite.src = prev.sprite_url || ('assets/sprites/' + (prev.pokedex_number || prev.id) + '.png');
+        prevSprite.src = 'assets/sprites/' + (prev.pokedex_number || prev.id) + '.png';
         prevLabel.textContent = POKOPIA_DEX.getName(prev, lang);
       } else {
         prevBtn.style.display = 'none';
@@ -234,7 +234,7 @@
         const next = _allPokemon[_currentIndex + 1];
         nextBtn.style.display = '';
         nextBtn.href = 'detail.html?id=' + next.id;
-        nextSprite.src = next.sprite_url || ('assets/sprites/' + (next.pokedex_number || next.id) + '.png');
+        nextSprite.src = 'assets/sprites/' + (next.pokedex_number || next.id) + '.png';
         nextLabel.textContent = POKOPIA_DEX.getName(next, lang);
       } else {
         nextBtn.style.display = 'none';
@@ -373,7 +373,7 @@
         <div class="detail-hero detail-hero--${primaryType}">
           <div class="detail-hero__pokedex-num">#${pokemon.pokedex_number != null ? String(pokemon.pokedex_number).padStart(3, '0') : String(pokemon.id).padStart(3, '0')}</div>
           <img class="detail-hero__sprite ${collected ? 'flip-in' : 'silhouette breathe'}"
-               src="${pokemon.sprite_url || 'https://raw.githubusercontent.com/PokeAPI/assets/sprites/master/assets/sprites/pokemon/other/official-artwork/' + (pokemon.pokedex_number || pokemon.id) + '.png'}" alt="${mainName}">
+               src="assets/sprites/${(pokemon.pokedex_number || pokemon.id)}.png" alt="${mainName}">
           <div class="detail-hero__names">
             <div class="detail-hero__name-main">${mainName}</div>
             <div class="detail-hero__name-sub">${subNames.join(' / ')}</div>
