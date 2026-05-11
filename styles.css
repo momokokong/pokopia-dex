@@ -399,6 +399,8 @@ body {
 .type-drawer__item[data-type="Psychic"].selected { background: var(--type-psychic); border-color: var(--type-psychic); color: #FFF; }
 .type-drawer__item[data-type="Ghost"].selected { background: var(--type-ghost); border-color: var(--type-ghost); color: #FFF; }
 .type-drawer__item[data-type="Dark"].selected { background: var(--type-dark); border-color: var(--type-dark); color: #FFF; }
+.type-drawer__item[data-type="all"].selected { background: var(--text-secondary); border-color: var(--text-secondary); color: #FFF; }
+.type-drawer__item[data-type="all"]:not(.selected) { border-color: var(--text-secondary); color: var(--text-secondary); }
 
 /* Drawer item unselected colored borders */
 .type-drawer__item[data-type="Fire"]:not(.selected) { border-color: var(--type-fire); color: var(--type-fire); }
