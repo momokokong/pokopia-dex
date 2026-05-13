@@ -94,7 +94,9 @@ const HABITAT_DATA = {
   "2": {
     "id": 2,
     "name": {
-      "en": "Tree Shaded Tall Grass"
+      "en": "Tree Shaded Tall Grass",
+      "zh": "樹蔭深草地",
+      "es": "Hierba alta bajo la sombra"
     },
     "description": {
       "zh": "樹蔭下的高草叢涼爽舒適，甲蟲寶可夢最愛在這裡乘涼。",
@@ -184,7 +186,9 @@ const HABITAT_DATA = {
   "3": {
     "id": 3,
     "name": {
-      "en": "Boulder Shaded Tall Grass"
+      "en": "Boulder Shaded Tall Grass",
+      "zh": "巨岩深草地",
+      "es": "Hierba alta junto a la roca"
     },
     "description": {
       "zh": "巨石遮蔭的高草叢，是力壯蛋鍛鍊身體的好地方！",
@@ -322,7 +326,9 @@ const HABITAT_DATA = {
   "5": {
     "id": 5,
     "name": {
-      "en": "Seaside Tall Grass"
+      "en": "Seaside Tall Grass",
+      "zh": "海濱深草地",
+      "es": "Hierba alta junto al mar"
     },
     "description": {
       "zh": "海邊的高草叢伴著海風，呆呆獸懶洋洋地曬太陽。",
@@ -379,7 +385,9 @@ const HABITAT_DATA = {
   "6": {
     "id": 6,
     "name": {
-      "en": "Elevated Tall Grass"
+      "en": "Elevated Tall Grass",
+      "zh": "高地深草地",
+      "es": "Hierba alta en la colina"
     },
     "description": {
       "zh": "高地上的高草叢視野開闊，比比鳥和咕咕在這裡俯瞰大地！",
@@ -447,7 +455,9 @@ const HABITAT_DATA = {
   "7": {
     "id": 7,
     "name": {
-      "en": "Illuminated Tall Grass"
+      "en": "Illuminated Tall Grass",
+      "zh": "陽光深草地",
+      "es": "Hierba alta soleada"
     },
     "description": {
       "zh": "明亮的高草叢閃閃發光，摩魯蛾在光芒中翩翩飛舞。",
@@ -493,7 +503,9 @@ const HABITAT_DATA = {
   "8": {
     "id": 8,
     "name": {
-      "en": "Pretty Flower Bed"
+      "en": "Pretty Flower Bed",
+      "zh": "漂亮花壇",
+      "es": "Cantero de flores lindo"
     },
     "description": {
       "zh": "漂亮的花圃五彩繽紛，小鳥和蜜蜂在花間嬉戲！",
@@ -583,7 +595,9 @@ const HABITAT_DATA = {
   "9": {
     "id": 9,
     "name": {
-      "en": "Tree Shaded Flower Bed"
+      "en": "Tree Shaded Flower Bed",
+      "zh": "樹蔭花壇",
+      "es": "Cantero de flores bajo la sombra"
     },
     "description": {
       "zh": "樹蔭下的花圃涼爽宜人，仙人掌和蟲寶可夢在這歇腳。",
@@ -640,7 +654,9 @@ const HABITAT_DATA = {
   "10": {
     "id": 10,
     "name": {
-      "en": "Hydrated Flower Bed"
+      "en": "Hydrated Flower Bed",
+      "zh": "滋潤花壇",
+      "es": "Cantero de flores húmedo"
     },
     "description": {
       "zh": "濕潤的花圃露珠閃閃，螢火蟲寶可夢在這裡閃爍飛舞。",
@@ -686,7 +702,9 @@ const HABITAT_DATA = {
   "11": {
     "id": 11,
     "name": {
-      "en": "Field Of Flowers"
+      "en": "Field Of Flowers",
+      "zh": "花海原野",
+      "es": "Campo de flores"
     },
     "description": {
       "zh": "花海一望無際，妙花草和蜂后在花叢間悠遊漫步。",
@@ -743,7 +761,9 @@ const HABITAT_DATA = {
   "12": {
     "id": 12,
     "name": {
-      "en": "Elevated Flower Bed"
+      "en": "Elevated Flower Bed",
+      "zh": "高地花壇",
+      "es": "Cantero de flores en la colina"
     },
     "description": {
       "zh": "高地上的花圃視野遼闊，派拉斯在花間愉快覓食。",
@@ -789,7 +809,9 @@ const HABITAT_DATA = {
   "13": {
     "id": 13,
     "name": {
-      "en": "Grave With Flowers"
+      "en": "Grave With Flowers",
+      "zh": "繁花墳場",
+      "es": "Tumba con flores"
     },
     "description": {
       "zh": "鮮花點綴的墓園靜謐溫馨，卡拉卡拉在此守護故人。",
@@ -835,7 +857,9 @@ const HABITAT_DATA = {
   "14": {
     "id": 14,
     "name": {
-      "en": "Flower Garden"
+      "en": "Flower Garden",
+      "zh": "花園",
+      "es": "Jardín de flores"
     },
     "description": {
       "zh": "花園裡百花齊放，派拉斯在花叢下悠閒散步。",
@@ -881,7 +905,9 @@ const HABITAT_DATA = {
   "15": {
     "id": 15,
     "name": {
-      "en": "Fresh Veggie Field"
+      "en": "Fresh Veggie Field",
+      "zh": "新鮮蔬菜地",
+      "es": "Huerto de verduras frescas"
     },
     "description": {
       "zh": "新鮮蔬菜田綠意盎然，螺釘鼠和木木梟開心採收！",
@@ -938,7 +964,9 @@ const HABITAT_DATA = {
   "16": {
     "id": 16,
     "name": {
-      "en": "Riding Warm Updrafts"
+      "en": "Riding Warm Updrafts",
+      "zh": "乘著溫暖上升氣流",
+      "es": "Volando en corrientes cálidas"
     },
     "description": {
       "zh": "乘著暖暖的上升氣流，飄飄球在空中快樂飄蕩！",
@@ -973,7 +1001,9 @@ const HABITAT_DATA = {
   "17": {
     "id": 17,
     "name": {
-      "en": "Campsite"
+      "en": "Campsite",
+      "zh": "露營地",
+      "es": "Campamento"
     },
     "description": {
       "zh": "營地裡營火溫暖，火恐龍在火堆旁守護大家。",
@@ -1008,7 +1038,9 @@ const HABITAT_DATA = {
   "18": {
     "id": 18,
     "name": {
-      "en": "Training Waterfall"
+      "en": "Training Waterfall",
+      "zh": "訓練瀑布",
+      "es": "Cascada de entrenamiento"
     },
     "description": {
       "zh": "修練瀑布水流強勁，巴爾郎在這裡鍛鍊意志和體力！",
@@ -1043,7 +1075,9 @@ const HABITAT_DATA = {
   "19": {
     "id": 19,
     "name": {
-      "en": "Tantalizing Dining Set"
+      "en": "Tantalizing Dining Set",
+      "zh": "誘人的餐桌",
+      "es": "Mesa de comedor deliciosa"
     },
     "description": {
       "zh": "誘人的餐桌香氣四溢，溶食獸等著品嚐美味大餐！",
@@ -1078,7 +1112,9 @@ const HABITAT_DATA = {
   "20": {
     "id": 20,
     "name": {
-      "en": "Picnic Set"
+      "en": "Picnic Set",
+      "zh": "野餐組",
+      "es": "Set de picnic"
     },
     "description": {
       "zh": "野餐墊上擺滿點心，皮卡丘和皮丘開心享用！",
@@ -1124,7 +1160,9 @@ const HABITAT_DATA = {
   "21": {
     "id": 21,
     "name": {
-      "en": "Flowery Table"
+      "en": "Flowery Table",
+      "zh": "繁花餐桌",
+      "es": "Mesa con flores"
     },
     "description": {
       "zh": "花桌芬芳迷人，喇叭芽和怪味花在花香中打盹。",
@@ -1229,7 +1267,9 @@ const HABITAT_DATA = {
   "23": {
     "id": 23,
     "name": {
-      "en": "Illuminated Bench"
+      "en": "Illuminated Bench",
+      "zh": "發光長椅",
+      "es": "Banca iluminada"
     },
     "description": {
       "zh": "明亮的長椅燈光柔和，摩魯蛾在暖光中靜靜休息。",
@@ -1275,7 +1315,9 @@ const HABITAT_DATA = {
   "24": {
     "id": 24,
     "name": {
-      "en": "Exercise Resting Spot"
+      "en": "Exercise Resting Spot",
+      "zh": "運動休息區",
+      "es": "Lugar de descanso deportivo"
     },
     "description": {
       "zh": "運動休息區讓寶可夢喘口氣，快拳郎在這裡歇腳。",
@@ -1310,7 +1352,9 @@ const HABITAT_DATA = {
   "25": {
     "id": 25,
     "name": {
-      "en": "Urgent Care"
+      "en": "Urgent Care",
+      "zh": "急診中心",
+      "es": "Centro de urgencias"
     },
     "description": {
       "zh": "緊急醫護站隨時待命，沙瓦郎在這裡治療再出發！",
@@ -1345,7 +1389,9 @@ const HABITAT_DATA = {
   "26": {
     "id": 26,
     "name": {
-      "en": "Gym First Aid"
+      "en": "Gym First Aid",
+      "zh": "道館救護站",
+      "es": "Primeros auxilios del Gimnasio"
     },
     "description": {
       "zh": "道館急救站守護著格鬥寶可夢，卡波耶拉安心休息。",
@@ -1380,7 +1426,9 @@ const HABITAT_DATA = {
   "27": {
     "id": 27,
     "name": {
-      "en": "Road Sign"
+      "en": "Road Sign",
+      "zh": "路標",
+      "es": "Señal de camino"
     },
     "description": {
       "zh": "路標指引方向，海牛在路邊悠閒散步。",
@@ -1415,7 +1463,9 @@ const HABITAT_DATA = {
   "28": {
     "id": 28,
     "name": {
-      "en": "Large Luggage Carrier"
+      "en": "Large Luggage Carrier",
+      "zh": "大型行李箱",
+      "es": "Maleta grande"
     },
     "description": {
       "zh": "大型行李搬運區忙碌又熱鬧，鐵骨土人幫忙搬重物！",
@@ -1472,7 +1522,9 @@ const HABITAT_DATA = {
   "29": {
     "id": 29,
     "name": {
-      "en": "Lumberjacks Workplace"
+      "en": "Lumberjacks Workplace",
+      "zh": "伐木工的工作坊",
+      "es": "Taller de Leñadores"
     },
     "description": {
       "zh": "伐木工場裡鋸木聲響起，斧牙龍展現好身手！",
@@ -1529,7 +1581,9 @@ const HABITAT_DATA = {
   "30": {
     "id": 30,
     "name": {
-      "en": "Bed With A Plush"
+      "en": "Bed With A Plush",
+      "zh": "有娃娃的床",
+      "es": "Cama con Peluche"
     },
     "description": {
       "zh": "抱著玩偶的床鋪軟綿綿，卡比獸抱著娃娃甜甜入睡！",
@@ -1597,7 +1651,9 @@ const HABITAT_DATA = {
   "31": {
     "id": 31,
     "name": {
-      "en": "Gently Lit Bed"
+      "en": "Gently Lit Bed",
+      "zh": "光線溫柔的床",
+      "es": "Cama de Luz Suave"
     },
     "description": {
       "zh": "柔和燈光照著小床，咕咕在暖光中安心入眠。",
@@ -1643,7 +1699,9 @@ const HABITAT_DATA = {
   "32": {
     "id": 32,
     "name": {
-      "en": "Grave Offering"
+      "en": "Grave Offering",
+      "zh": "墓地供品",
+      "es": "Ofrenda de Tumba"
     },
     "description": {
       "zh": "墓前供品莊嚴肅穆，燈火幽靜守護著安寧。",
@@ -1689,7 +1747,9 @@ const HABITAT_DATA = {
   "33": {
     "id": 33,
     "name": {
-      "en": "Creepy Grave Offering"
+      "en": "Creepy Grave Offering",
+      "zh": "詭異的墓地供品",
+      "es": "Ofrenda Misteriosa"
     },
     "description": {
       "zh": "陰森的墓前供品散發微光，水晶燈火幽幽閃爍。",
@@ -1746,7 +1806,9 @@ const HABITAT_DATA = {
   "34": {
     "id": 34,
     "name": {
-      "en": "Chansey Resting Area"
+      "en": "Chansey Resting Area",
+      "zh": "吉利蛋休息區",
+      "es": "Zona de Descanso de Chansey"
     },
     "description": {
       "zh": "吉利蛋休息區溫馨舒適，霸王花和美麗花在這裡放鬆。",
@@ -1792,7 +1854,9 @@ const HABITAT_DATA = {
   "35": {
     "id": 35,
     "name": {
-      "en": "Irresistible Scent And Glow"
+      "en": "Irresistible Scent And Glow",
+      "zh": "無法抗拒的香氣與光芒",
+      "es": "Aroma y Brillo Irresistible"
     },
     "description": {
       "zh": "迷人的香氣和光芒交織，喇叭芽被芬芳深深吸引！",
@@ -1838,7 +1902,9 @@ const HABITAT_DATA = {
   "36": {
     "id": 36,
     "name": {
-      "en": "Floating In The Shade"
+      "en": "Floating In The Shade",
+      "zh": "在陰影中漂浮",
+      "es": "Flotando en la Sombra"
     },
     "description": {
       "zh": "在樹蔭下輕輕飄浮，水箭龜悠閒地享受清涼。",
@@ -1873,7 +1939,9 @@ const HABITAT_DATA = {
   "37": {
     "id": 37,
     "name": {
-      "en": "Smooth Tall Grass"
+      "en": "Smooth Tall Grass",
+      "zh": "平滑的高草叢",
+      "es": "Hierba Alta Suave"
     },
     "description": {
       "zh": "平整的高草叢觸感柔滑，大岩蛇在草間緩緩穿行。",
@@ -1908,7 +1976,9 @@ const HABITAT_DATA = {
   "38": {
     "id": 38,
     "name": {
-      "en": "Factory Storage"
+      "en": "Factory Storage",
+      "zh": "工廠倉庫",
+      "es": "Almacén de la Fábrica"
     },
     "description": {
       "zh": "工廠倉庫裡機器轟鳴，小磁怪在零件堆中探險！",
@@ -1943,7 +2013,9 @@ const HABITAT_DATA = {
   "39": {
     "id": 39,
     "name": {
-      "en": "Luxury Chirp Chirp Meal"
+      "en": "Luxury Chirp Chirp Meal",
+      "zh": "豪華啾啾大餐",
+      "es": "Banquete de Lujo Pío-Pío"
     },
     "description": {
       "zh": "豪華的啾啾大餐精緻美味，比雕優雅地品嚐佳餚！",
@@ -1978,7 +2050,9 @@ const HABITAT_DATA = {
   "40": {
     "id": 40,
     "name": {
-      "en": "Berry Feast Campsite"
+      "en": "Berry Feast Campsite",
+      "zh": "樹果大餐營地",
+      "es": "Campamento de Banquete de Bayas"
     },
     "description": {
       "zh": "漿果盛宴營地香氣撲鼻，噴火龍大口享用美味！",
@@ -2013,7 +2087,9 @@ const HABITAT_DATA = {
   "41": {
     "id": 41,
     "name": {
-      "en": "Rain Dance Site"
+      "en": "Rain Dance Site",
+      "zh": "雨之舞場地",
+      "es": "Lugar de la Danza de la Lluvia"
     },
     "description": {
       "zh": "求雨場地水霧繚繞，黏黏寶在雨中開心玩耍！",
@@ -2048,7 +2124,9 @@ const HABITAT_DATA = {
   "42": {
     "id": 42,
     "name": {
-      "en": "Sunny Day Site"
+      "en": "Sunny Day Site",
+      "zh": "晴天場地",
+      "es": "Lugar del Día Soleado"
     },
     "description": {
       "zh": "晴天場地陽光燦爛，刺球仙人掌在陽光下伸懶腰！",
@@ -2083,7 +2161,9 @@ const HABITAT_DATA = {
   "44": {
     "id": 44,
     "name": {
-      "en": "Crazy Log Handicrafts"
+      "en": "Crazy Log Handicrafts",
+      "zh": "瘋狂原木手工藝",
+      "es": "Manualidades Locas de Troncos"
     },
     "description": {
       "zh": "瘋狂原木手作坊創意無限，斧牙龍打造出精巧作品！",
@@ -2140,7 +2220,9 @@ const HABITAT_DATA = {
   "45": {
     "id": 45,
     "name": {
-      "en": "Very Berry Space"
+      "en": "Very Berry Space",
+      "zh": "超級樹果空間",
+      "es": "Espacio Súper Baya"
     },
     "description": {
       "zh": "漿果空間果香四溢，黏美露龍沉浸在漿果天堂！",
@@ -2175,7 +2257,9 @@ const HABITAT_DATA = {
   "46": {
     "id": 46,
     "name": {
-      "en": "Garden Terrace"
+      "en": "Garden Terrace",
+      "zh": "花園露台",
+      "es": "Terraza del Jardín"
     },
     "description": {
       "zh": "花園露台綠意盎然，妙蛙花在花叢間優雅散步。",
@@ -2210,7 +2294,9 @@ const HABITAT_DATA = {
   "47": {
     "id": 47,
     "name": {
-      "en": "Tree Shaded Snoozing Snorlax"
+      "en": "Tree Shaded Snoozing Snorlax",
+      "zh": "樹蔭下打盹的卡比獸",
+      "es": "Snorlax Durmiendo bajo la Sombra"
     },
     "description": {
       "zh": "樹蔭下卡比獸呼呼大睡，小卡比獸在旁甜甜打盹。",
@@ -2256,7 +2342,9 @@ const HABITAT_DATA = {
   "48": {
     "id": 48,
     "name": {
-      "en": "Good Old Fashioned Antiques"
+      "en": "Good Old Fashioned Antiques",
+      "zh": "古色古香的古董店",
+      "es": "Antigüedades Clásicas"
     },
     "description": {
       "zh": "懷舊古董散發溫馨氣息，臭臭泥和卡比獸在此悠閒歇息。",
@@ -2302,7 +2390,9 @@ const HABITAT_DATA = {
   "49": {
     "id": 49,
     "name": {
-      "en": "Nothin But Poke Balls"
+      "en": "Nothin But Poke Balls",
+      "zh": "全是精靈球",
+      "es": "Solo Poké Balls"
     },
     "description": {
       "zh": "到處都是精靈球，蔓藤怪在球堆裡玩捉迷藏！",
@@ -2337,7 +2427,9 @@ const HABITAT_DATA = {
   "50": {
     "id": 50,
     "name": {
-      "en": "Yellow Tall Grass"
+      "en": "Yellow Tall Grass",
+      "zh": "黃色高草叢",
+      "es": "Hierba Alta Amarilla"
     },
     "description": {
       "zh": "金黃高草叢隨風搖曳，圓絲蛛和幼蟲在草叢裡玩耍。",
@@ -2394,7 +2486,9 @@ const HABITAT_DATA = {
   "51": {
     "id": 51,
     "name": {
-      "en": "Tree Shaded Yellow Tall Grass"
+      "en": "Tree Shaded Yellow Tall Grass",
+      "zh": "樹蔭下的黃色高草叢",
+      "es": "Hierba Amarilla bajo la Sombra"
     },
     "description": {
       "zh": "樹蔭下的金黃高草叢陰涼舒服，超音蝠和幕下力士乘涼休息。",
@@ -2462,7 +2556,9 @@ const HABITAT_DATA = {
   "52": {
     "id": 52,
     "name": {
-      "en": "Elevated Yellow Tall Grass"
+      "en": "Elevated Yellow Tall Grass",
+      "zh": "高地黃色高草叢",
+      "es": "Hierba Amarilla Elevada"
     },
     "description": {
       "zh": "高地上的金黃高草叢視野絕佳，叉字蝠和鵜鶘在風中翱翔！",
@@ -2519,7 +2615,9 @@ const HABITAT_DATA = {
   "53": {
     "id": 53,
     "name": {
-      "en": "Hydrated Yellow Tall Grass"
+      "en": "Hydrated Yellow Tall Grass",
+      "zh": "水潤的黃色高草叢",
+      "es": "Hierba Amarilla Hidratada"
     },
     "description": {
       "zh": "潮濕的金黃高草叢水氣豐沛，瑪力露和圓企在水中嬉戲！",
@@ -2587,7 +2685,9 @@ const HABITAT_DATA = {
   "54": {
     "id": 54,
     "name": {
-      "en": "Marshy Tall Grass"
+      "en": "Marshy Tall Grass",
+      "zh": "沼澤高草叢",
+      "es": "Hierba Alta Pantanosa"
     },
     "description": {
       "zh": "沼澤高草叢泥濘好玩，泥泥巴在泥地裡開心打滾！",
@@ -2633,7 +2733,9 @@ const HABITAT_DATA = {
   "55": {
     "id": 55,
     "name": {
-      "en": "Overgrowth Vending Machine"
+      "en": "Overgrowth Vending Machine",
+      "zh": "雜草叢生的自動販賣機",
+      "es": "Máquina Expendedora Entre Hierbas"
     },
     "description": {
       "zh": "藤蔓環繞的自動販賣機充滿綠意，咩咩羊毛在旁歇腳。",
@@ -2668,7 +2770,9 @@ const HABITAT_DATA = {
   "56": {
     "id": 56,
     "name": {
-      "en": "Breezy Flower Bed"
+      "en": "Breezy Flower Bed",
+      "zh": "微風花圃",
+      "es": "Macizo de flores con brisa"
     },
     "description": {
       "zh": "微風輕拂的花圃花香飄散，索羅亞和帕底亞在花間玩耍！",
@@ -2725,7 +2829,9 @@ const HABITAT_DATA = {
   "57": {
     "id": 57,
     "name": {
-      "en": "Tropical Vibes"
+      "en": "Tropical Vibes",
+      "zh": "熱帶風情",
+      "es": "Vibras tropicales"
     },
     "description": {
       "zh": "熱帶風情椰影搖曳，椰蛋樹和臭花在陽光下悠閒度日。",
@@ -2782,7 +2888,9 @@ const HABITAT_DATA = {
   "58": {
     "id": 58,
     "name": {
-      "en": "Windy Flower Bed"
+      "en": "Windy Flower Bed",
+      "zh": "強風花圃",
+      "es": "Macizo de flores ventoso"
     },
     "description": {
       "zh": "風中的花圃花瓣飛舞，鵜鶘乘著微風翱翔天際！",
@@ -2828,7 +2936,9 @@ const HABITAT_DATA = {
   "59": {
     "id": 59,
     "name": {
-      "en": "Shaded Beach"
+      "en": "Shaded Beach",
+      "zh": "陰涼海灘",
+      "es": "Playa sombreada"
     },
     "description": {
       "zh": "樹蔭海灘清涼消暑，椰蛋樹在沙灘上享受陰涼。",
@@ -2874,7 +2984,9 @@ const HABITAT_DATA = {
   "60": {
     "id": 60,
     "name": {
-      "en": "Tropical Seaside"
+      "en": "Tropical Seaside",
+      "zh": "熱帶海濱",
+      "es": "Costa tropical"
     },
     "description": {
       "zh": "熱帶海邊碧海藍天，乘龍在海面上悠遊自在！",
@@ -2909,7 +3021,9 @@ const HABITAT_DATA = {
   "61": {
     "id": 61,
     "name": {
-      "en": "Resting Spot"
+      "en": "Resting Spot",
+      "zh": "休息小角落",
+      "es": "Rincón de descanso"
     },
     "description": {
       "zh": "休息角落安靜舒適，喵喵在這裡偷閒小憩。",
@@ -2944,7 +3058,9 @@ const HABITAT_DATA = {
   "62": {
     "id": 62,
     "name": {
-      "en": "Perpetual Mess"
+      "en": "Perpetual Mess",
+      "zh": "永遠的亂糟糟",
+      "es": "Desorden eterno"
     },
     "description": {
       "zh": "亂糟糟的空間充滿歡樂，卡蒂狗和小露珠在混亂中玩耍！",
@@ -2990,7 +3106,9 @@ const HABITAT_DATA = {
   "63": {
     "id": 63,
     "name": {
-      "en": "Trash Collection Site"
+      "en": "Trash Collection Site",
+      "zh": "垃圾收集站",
+      "es": "Sitio de recogida de basura"
     },
     "description": {
       "zh": "垃圾收集場是臭臭泥的最愛，灰塵山和瓦斯彈在這裡開心翻找！",
@@ -3058,7 +3176,9 @@ const HABITAT_DATA = {
   "64": {
     "id": 64,
     "name": {
-      "en": "Trash Can Central"
+      "en": "Trash Can Central",
+      "zh": "垃圾桶中心",
+      "es": "Central de basureros"
     },
     "description": {
       "zh": "垃圾桶中心是電氣寶可夢的據點，自爆磁怪和電擊獸在這充電！",
@@ -3115,7 +3235,9 @@ const HABITAT_DATA = {
   "65": {
     "id": 65,
     "name": {
-      "en": "Trash Disposal Site"
+      "en": "Trash Disposal Site",
+      "zh": "垃圾處理場",
+      "es": "Sitio de desecho de basura"
     },
     "description": {
       "zh": "垃圾處理場暗藏玄機，叉字蝠在夜間悄悄巡邏。",
@@ -3150,7 +3272,9 @@ const HABITAT_DATA = {
   "66": {
     "id": 66,
     "name": {
-      "en": "Park Bench"
+      "en": "Park Bench",
+      "zh": "公園長椅",
+      "es": "Banca del parque"
     },
     "description": {
       "zh": "公園長椅悠閒愜意，頑皮彈和超音蝠在旁邊曬太陽。",
@@ -3207,7 +3331,9 @@ const HABITAT_DATA = {
   "67": {
     "id": 67,
     "name": {
-      "en": "Tantalizing Restaurant"
+      "en": "Tantalizing Restaurant",
+      "zh": "誘人餐廳",
+      "es": "Restaurante delicioso"
     },
     "description": {
       "zh": "誘人的餐廳飄出陣陣香氣，帕底亞在門口迫不及待！",
@@ -3253,7 +3379,9 @@ const HABITAT_DATA = {
   "68": {
     "id": 68,
     "name": {
-      "en": "Tableside Delivery Cart"
+      "en": "Tableside Delivery Cart",
+      "zh": "桌邊送餐車",
+      "es": "Carrito de servicio"
     },
     "description": {
       "zh": "餐桌旁的送餐車來回穿梭，帝王拿波優雅地端上美食！",
@@ -3288,7 +3416,9 @@ const HABITAT_DATA = {
   "69": {
     "id": 69,
     "name": {
-      "en": "Chirp Chirp Meal"
+      "en": "Chirp Chirp Meal",
+      "zh": "啾啾大餐",
+      "es": "Comida pio pio"
     },
     "description": {
       "zh": "啾啾餐香噴噴，火焰雞和小火雞大口享用美味！",
@@ -3334,7 +3464,9 @@ const HABITAT_DATA = {
   "70": {
     "id": 70,
     "name": {
-      "en": "Cafe Space"
+      "en": "Cafe Space",
+      "zh": "咖啡空間",
+      "es": "Espacio café"
     },
     "description": {
       "zh": "咖啡廳空間溫馨悠閒，帕底亞三兄妹一起享受下午茶！",
@@ -3391,7 +3523,9 @@ const HABITAT_DATA = {
   "71": {
     "id": 71,
     "name": {
-      "en": "Beach Set"
+      "en": "Beach Set",
+      "zh": "海邊組合",
+      "es": "Set de playa"
     },
     "description": {
       "zh": "海灘組合清涼消暑，扭扭小魚在沙灘上快樂翻滾！",
@@ -3426,7 +3560,9 @@ const HABITAT_DATA = {
   "72": {
     "id": 72,
     "name": {
-      "en": "Light Up Stage"
+      "en": "Light Up Stage",
+      "zh": "發光舞台",
+      "es": "Escenario brillante"
     },
     "description": {
       "zh": "閃亮舞台上燈光四射，電擊獸和電擊魔人嗨翻全場！",
@@ -3472,7 +3608,9 @@ const HABITAT_DATA = {
   "73": {
     "id": 73,
     "name": {
-      "en": "Surprise In Store"
+      "en": "Surprise In Store",
+      "zh": "店內驚喜",
+      "es": "Sorpresa en la tienda"
     },
     "description": {
       "zh": "店裡充滿驚喜，耿鬼和索羅亞克變出奇幻把戲！",
@@ -3529,7 +3667,9 @@ const HABITAT_DATA = {
   "74": {
     "id": 74,
     "name": {
-      "en": "Night Festival Venue"
+      "en": "Night Festival Venue",
+      "zh": "夜祭會場",
+      "es": "Lugar del festival nocturno"
     },
     "description": {
       "zh": "夜晚祭典燈火通明，茸茸羊在熱鬧的攤位間逛逛！",
@@ -3564,7 +3704,9 @@ const HABITAT_DATA = {
   "75": {
     "id": 75,
     "name": {
-      "en": "Changing Area"
+      "en": "Changing Area",
+      "zh": "更衣區",
+      "es": "Área de vestidores"
     },
     "description": {
       "zh": "更衣區整潔明亮，泡沫栗鼠在這裡打理毛皮！",
@@ -3599,7 +3741,9 @@ const HABITAT_DATA = {
   "76": {
     "id": 76,
     "name": {
-      "en": "Private Makeup Stand"
+      "en": "Private Makeup Stand",
+      "zh": "私人化妝台",
+      "es": "Tocador privado"
     },
     "description": {
       "zh": "私人化妝台精緻可愛，奇諾栗鼠和泡沫栗鼠一起打扮！",
@@ -3645,7 +3789,9 @@ const HABITAT_DATA = {
   "77": {
     "id": 77,
     "name": {
-      "en": "Knitting Station"
+      "en": "Knitting Station",
+      "zh": "編織站",
+      "es": "Estación de tejido"
     },
     "description": {
       "zh": "編織站裡毛線滾線滾滾，咩咩羊毛和茸茸羊織出溫暖作品！",
@@ -3691,7 +3837,9 @@ const HABITAT_DATA = {
   "78": {
     "id": 78,
     "name": {
-      "en": "Hot Spring Shower"
+      "en": "Hot Spring Shower",
+      "zh": "溫泉淋浴間",
+      "es": "Ducha de aguas termales"
     },
     "description": {
       "zh": "溫泉淋浴熱氣蒸騰，哥達鴨和呆呆獸舒服地泡湯！",
@@ -3737,7 +3885,9 @@ const HABITAT_DATA = {
   "79": {
     "id": 79,
     "name": {
-      "en": "Resort Meal Prep"
+      "en": "Resort Meal Prep",
+      "zh": "渡假村餐點準備區",
+      "es": "Prep de comidas del resort"
     },
     "description": {
       "zh": "渡假村廚房飄來料理香，力壯雞和卡蒂狗一起幫廚！",
@@ -3794,7 +3944,9 @@ const HABITAT_DATA = {
   "80": {
     "id": 80,
     "name": {
-      "en": "All Packed Up"
+      "en": "All Packed Up",
+      "zh": "全部打包好",
+      "es": "Todo empacado"
     },
     "description": {
       "zh": "行李通通打包好，幕下力士和蔥鴨準備出發冒險！",
@@ -3851,7 +4003,9 @@ const HABITAT_DATA = {
   "81": {
     "id": 81,
     "name": {
-      "en": "Full Recovery"
+      "en": "Full Recovery",
+      "zh": "完全回復",
+      "es": "Curación Total"
     },
     "description": {
       "zh": "完全恢復站讓寶可夢煥然一新，吉利蛋細心照顧每個人！",
@@ -3886,7 +4040,9 @@ const HABITAT_DATA = {
   "82": {
     "id": 82,
     "name": {
-      "en": "Alarm Clock Sleep Zone"
+      "en": "Alarm Clock Sleep Zone",
+      "zh": "鬧鐘睡眠區",
+      "es": "Zona de Sueño con Alarma"
     },
     "description": {
       "zh": "鬧鐘睡眠區安穩寧靜，小福蛋抱著鬧鐘甜甜入睡。",
@@ -3921,7 +4077,9 @@ const HABITAT_DATA = {
   "83": {
     "id": 83,
     "name": {
-      "en": "Vending Machine Break Area"
+      "en": "Vending Machine Break Area",
+      "zh": "販賣機休息區",
+      "es": "Área de Descanso de Máquinas"
     },
     "description": {
       "zh": "販賣機休息區是蟲寶可夢的最愛，蟲電寶在旁邊休息充電！",
@@ -3967,7 +4125,9 @@ const HABITAT_DATA = {
   "84": {
     "id": 84,
     "name": {
-      "en": "Vending Machine Set"
+      "en": "Vending Machine Set",
+      "zh": "販賣機組",
+      "es": "Set de Máquinas"
     },
     "description": {
       "zh": "販賣機組合提供能量補給，電擊魔人和電擊怪痛快暢飲！",
@@ -4013,7 +4173,9 @@ const HABITAT_DATA = {
   "85": {
     "id": 85,
     "name": {
-      "en": "Mini Game Corner"
+      "en": "Mini Game Corner",
+      "zh": "小遊戲角落",
+      "es": "Rincón de Minijuegos"
     },
     "description": {
       "zh": "迷你遊戲角熱鬧有趣，自爆磁怪和三合一磁怪玩遊戲！",
@@ -4059,7 +4221,9 @@ const HABITAT_DATA = {
   "86": {
     "id": 86,
     "name": {
-      "en": "Waterwheel Spot"
+      "en": "Waterwheel Spot",
+      "zh": "水車景點",
+      "es": "Lugar de noria"
     },
     "description": {
       "zh": "水車轉呀轉，波皇子和帝王拿波在河邊聽水聲發呆。",
@@ -4105,7 +4269,9 @@ const HABITAT_DATA = {
   "87": {
     "id": 87,
     "name": {
-      "en": "Furnace Spot"
+      "en": "Furnace Spot",
+      "zh": "熔爐區",
+      "es": "Lugar del Horno"
     },
     "description": {
       "zh": "熔爐旁火光閃閃，火焰雞和力壯雞鍛鍊出堅強意志！",
@@ -4199,7 +4365,9 @@ const HABITAT_DATA = {
   "89": {
     "id": 89,
     "name": {
-      "en": "Spooky Study"
+      "en": "Spooky Study",
+      "zh": "陰森書房",
+      "es": "Estudio Misterioso"
     },
     "description": {
       "zh": "陰森書房裡燭光搖曳，鬼斯和鬼斯通在暗處偷偷閱讀！",
@@ -4245,7 +4413,9 @@ const HABITAT_DATA = {
   "90": {
     "id": 90,
     "name": {
-      "en": "Playing Pirate"
+      "en": "Playing Pirate",
+      "zh": "海盜扮演中",
+      "es": "Jugando a los Piratas"
     },
     "description": {
       "zh": "扮海盜真有趣，頑皮彈和霹靂電球在船上尋寶冒險！",
@@ -4291,7 +4461,9 @@ const HABITAT_DATA = {
   "91": {
     "id": 91,
     "name": {
-      "en": "Working The Register"
+      "en": "Working The Register",
+      "zh": "收銀台工作中",
+      "es": "Trabajando en la Caja"
     },
     "description": {
       "zh": "收銀台前忙碌又有趣，喵喵和吉利蛋一起幫客人結帳！",
@@ -4359,7 +4531,9 @@ const HABITAT_DATA = {
   "92": {
     "id": 92,
     "name": {
-      "en": "Tiny Atelier"
+      "en": "Tiny Atelier",
+      "zh": "小畫室",
+      "es": "Taller Pequeñito"
     },
     "description": {
       "zh": "小小工作室裡畫筆飛舞，圖圖犬開心創作美麗畫作！",
@@ -4394,7 +4568,9 @@ const HABITAT_DATA = {
   "94": {
     "id": 94,
     "name": {
-      "en": "Pikachu Space"
+      "en": "Pikachu Space",
+      "zh": "皮卡丘空間",
+      "es": "Espacio de Pikachu"
     },
     "description": {
       "zh": "皮卡丘專屬空間好可愛，謬誤怪在這裡偷偷模仿皮卡丘！",
@@ -4429,7 +4605,9 @@ const HABITAT_DATA = {
   "95": {
     "id": 95,
     "name": {
-      "en": "Cuteness Overload"
+      "en": "Cuteness Overload",
+      "zh": "可愛大爆發",
+      "es": "Súper Ternura"
     },
     "description": {
       "zh": "可愛到受不了！幸福蛋散發滿滿的幸福光芒！",
@@ -4464,7 +4642,9 @@ const HABITAT_DATA = {
   "96": {
     "id": 96,
     "name": {
-      "en": "Welcoming Resort"
+      "en": "Welcoming Resort",
+      "zh": "歡迎渡假村",
+      "es": "Resort Bienvenida"
     },
     "description": {
       "zh": "溫馨渡假村歡迎每位旅客，阿勃梭魯靜靜守護大家平安。",
@@ -4499,7 +4679,9 @@ const HABITAT_DATA = {
   "97": {
     "id": 97,
     "name": {
-      "en": "Plain Life"
+      "en": "Plain Life",
+      "zh": "平凡生活",
+      "es": "Vida Sencilla"
     },
     "description": {
       "zh": "平凡生活也有小確幸，電龍在暖光下享受簡單快樂。",
@@ -4534,7 +4716,9 @@ const HABITAT_DATA = {
   "98": {
     "id": 98,
     "name": {
-      "en": "Red Tall Grass"
+      "en": "Red Tall Grass",
+      "zh": "紅色高草叢",
+      "es": "Hierba Alta Roja"
     },
     "description": {
       "zh": "紅色高草叢熱情奔放，閃焰王牌和利歐路在草叢中奔跑！",
@@ -4613,7 +4797,9 @@ const HABITAT_DATA = {
   "99": {
     "id": 99,
     "name": {
-      "en": "Tree Shaded Red Tall Grass"
+      "en": "Tree Shaded Red Tall Grass",
+      "zh": "樹蔭紅色高草叢",
+      "es": "Hierba Roja bajo Sombra"
     },
     "description": {
       "zh": "樹蔭下的紅色高草叢清涼宜人，三地鼠和盆才怪在陰涼中休息。",
@@ -4681,7 +4867,9 @@ const HABITAT_DATA = {
   "100": {
     "id": 100,
     "name": {
-      "en": "Pointy Tree Shaded Rocky Tall Grass"
+      "en": "Pointy Tree Shaded Rocky Tall Grass",
+      "zh": "尖頂樹蔭岩石高草叢",
+      "es": "Hierba Roca bajo Árboles"
     },
     "description": {
       "zh": "尖樹遮蔭的岩石高草叢別有洞天，狙射樟梟在高處靜靜守望。",
@@ -4727,7 +4915,9 @@ const HABITAT_DATA = {
   "101": {
     "id": 101,
     "name": {
-      "en": "Hydrated Red Tall Grass"
+      "en": "Hydrated Red Tall Grass",
+      "zh": "濕潤紅色高草叢",
+      "es": "Hierba Roja Húmeda"
     },
     "description": {
       "zh": "潮濕的紅色高草叢水珠閃閃，蓮葉童子在水窪中嬉戲！",
@@ -4773,7 +4963,9 @@ const HABITAT_DATA = {
   "102": {
     "id": 102,
     "name": {
-      "en": "Elevated Red Tall Grass"
+      "en": "Elevated Red Tall Grass",
+      "zh": "高地紅色高草叢",
+      "es": "Hierba Roja Elevada"
     },
     "description": {
       "zh": "高地上的紅色高草叢視野遼闊，聒噪鳥和烏鴉在風中飛翔！",
@@ -4830,7 +5022,9 @@ const HABITAT_DATA = {
   "103": {
     "id": 103,
     "name": {
-      "en": "Grassy Training Field"
+      "en": "Grassy Training Field",
+      "zh": "草地訓練場",
+      "es": "Campo de Entrenamiento"
     },
     "description": {
       "zh": "草地訓練場充滿活力，怪力和豪力在這裡揮汗鍛鍊！",
@@ -4876,7 +5070,9 @@ const HABITAT_DATA = {
   "104": {
     "id": 104,
     "name": {
-      "en": "Graceful Flower Bed"
+      "en": "Graceful Flower Bed",
+      "zh": "優雅花壇",
+      "es": "Cantero Elegante"
     },
     "description": {
       "zh": "優雅花圃美不勝收，皮皮和小狗寶可夢在花叢中嬉戲！",
@@ -4955,7 +5151,9 @@ const HABITAT_DATA = {
   "105": {
     "id": 105,
     "name": {
-      "en": "Tree Shaded Graceful Flower Bed"
+      "en": "Tree Shaded Graceful Flower Bed",
+      "zh": "樹蔭優雅花壇",
+      "es": "Cantero bajo la Sombra"
     },
     "description": {
       "zh": "樹蔭下的優雅花圃幽靜迷人，火神蛾和暗烏鴉在花間休憩。",
@@ -5012,7 +5210,9 @@ const HABITAT_DATA = {
   "106": {
     "id": 106,
     "name": {
-      "en": "Hydrated Graceful Flower Bed"
+      "en": "Hydrated Graceful Flower Bed",
+      "zh": "濕潤優雅花壇",
+      "es": "Cantero Húmedo"
     },
     "description": {
       "zh": "潮濕的優雅花圃水氣豐沛，阿柏蛇和蚊香蛙在濕地中玩耍！",
@@ -5069,7 +5269,9 @@ const HABITAT_DATA = {
   "107": {
     "id": 107,
     "name": {
-      "en": "Flower Garden Stump Stage"
+      "en": "Flower Garden Stump Stage",
+      "zh": "花園樹樁舞台",
+      "es": "Escenario de Troncos"
     },
     "description": {
       "zh": "花園樹樁舞台熱鬧歡唱，蚊香蛙和胖丁在台上開演唱會！",
@@ -5126,7 +5328,9 @@ const HABITAT_DATA = {
   "108": {
     "id": 108,
     "name": {
-      "en": "Toil In The Soil"
+      "en": "Toil In The Soil",
+      "zh": "土壤耕作",
+      "es": "Trabajando la Tierra"
     },
     "description": {
       "zh": "在泥土裡辛勤翻掘，班基拉斯用強壯的手臂鬆土！",
@@ -5161,7 +5365,9 @@ const HABITAT_DATA = {
   "109": {
     "id": 109,
     "name": {
-      "en": "Uplifting Duckweed"
+      "en": "Uplifting Duckweed",
+      "zh": "開心水草",
+      "es": "Lentejuela Alegre"
     },
     "description": {
       "zh": "浮萍輕輕托起寶可夢，樂天河童和蓮葉童子在水面嬉戲！",
@@ -5207,7 +5413,9 @@ const HABITAT_DATA = {
   "110": {
     "id": 110,
     "name": {
-      "en": "Mossy Rest Spot"
+      "en": "Mossy Rest Spot",
+      "zh": "青苔休息區",
+      "es": "Rincón de Musgo"
     },
     "description": {
       "zh": "青苔休息點綠意盎然，班基拉斯和幼基拉斯在苔石上歇息。",
@@ -5253,7 +5461,9 @@ const HABITAT_DATA = {
   "111": {
     "id": 111,
     "name": {
-      "en": "Mossy Boulder"
+      "en": "Mossy Boulder",
+      "zh": "青苔大石頭",
+      "es": "Roca Musgosa"
     },
     "description": {
       "zh": "青苔巨石古老沉穩，隆隆岩和隆隆石在苔石上曬太陽。",
@@ -5299,7 +5509,9 @@ const HABITAT_DATA = {
   "112": {
     "id": 112,
     "name": {
-      "en": "Mossy Hot Spring"
+      "en": "Mossy Hot Spring",
+      "zh": "青苔溫泉",
+      "es": "Aguas Termales Musgosas"
     },
     "description": {
       "zh": "青苔溫泉熱氣蒸熱氣蒸騰，龜足甲在溫泉裡舒服泡湯！",
@@ -5334,7 +5546,9 @@ const HABITAT_DATA = {
   "113": {
     "id": 113,
     "name": {
-      "en": "Open Air Bath"
+      "en": "Open Air Bath",
+      "zh": "露天浴池",
+      "es": "Baño al Aire Libre"
     },
     "description": {
       "zh": "露天浴池清爽舒暢，騰蹴小將在水中愉快撲騰！",
@@ -5369,7 +5583,9 @@ const HABITAT_DATA = {
   "114": {
     "id": 114,
     "name": {
-      "en": "Harmonious Hot Spring"
+      "en": "Harmonious Hot Spring",
+      "zh": "和諧溫泉",
+      "es": "Aguas Termales Armónicas"
     },
     "description": {
       "zh": "和諧溫泉讓身心放鬆，蚊香蛙王在溫泉中哼著小曲。",
@@ -5404,7 +5620,9 @@ const HABITAT_DATA = {
   "115": {
     "id": 115,
     "name": {
-      "en": "Piping Hot Lava"
+      "en": "Piping Hot Lava",
+      "zh": "滾燙岩漿",
+      "es": "Lava Muy Caliente"
     },
     "description": {
       "zh": "滾燙的岩漿火紅耀眼，火神蛾和炭小侍在烈焰中鍛鍊！",
@@ -5450,7 +5668,9 @@ const HABITAT_DATA = {
   "116": {
     "id": 116,
     "name": {
-      "en": "Digging And Burning"
+      "en": "Digging And Burning",
+      "zh": "挖掘與燃燒",
+      "es": "Excavar y Quemar"
     },
     "description": {
       "zh": "挖呀挖又烤呀烤，鴨嘴火獸在熔岩邊又挖又烤！",
@@ -5485,7 +5705,9 @@ const HABITAT_DATA = {
   "117": {
     "id": 117,
     "name": {
-      "en": "Clink Clang Iron Construction"
+      "en": "Clink Clang Iron Construction",
+      "zh": "叮噹鐵工廠",
+      "es": "Construcción de Hierro"
     },
     "description": {
       "zh": "鏗鏘作響的鋼鐵工地，怪力和鋼鐵大蛇一起建造堅固建築！",
@@ -5531,7 +5753,9 @@ const HABITAT_DATA = {
   "118": {
     "id": 118,
     "name": {
-      "en": "Creepy White Rocks"
+      "en": "Creepy White Rocks",
+      "zh": "怪怪白石頭",
+      "es": "Rocas Blancas Misteriosas"
     },
     "description": {
       "zh": "詭異白色岩石散發微光，賽富利和礦石蟲在石縫間探險！",
@@ -5577,7 +5801,9 @@ const HABITAT_DATA = {
   "119": {
     "id": 119,
     "name": {
-      "en": "Container Snacking"
+      "en": "Container Snacking",
+      "zh": "零食容器",
+      "es": "Contenedor de Bocadillos"
     },
     "description": {
       "zh": "便當盒裡裝滿點心，賽富利和地鼠在容器旁邊享用零食！",
@@ -5634,7 +5860,9 @@ const HABITAT_DATA = {
   "120": {
     "id": 120,
     "name": {
-      "en": "Dinner Table Surprise"
+      "en": "Dinner Table Surprise",
+      "zh": "餐桌驚喜",
+      "es": "Sorpresa en la Mesa"
     },
     "description": {
       "zh": "餐桌上驚喜連連，吞食獸等著大口享用神秘大餐！",
@@ -5669,7 +5897,9 @@ const HABITAT_DATA = {
   "121": {
     "id": 121,
     "name": {
-      "en": "Best Bread Bakery"
+      "en": "Best Bread Bakery",
+      "zh": "最棒麵包店",
+      "es": "La Mejor Panadería"
     },
     "description": {
       "zh": "最佳麵包烘焙坊香氣撲鼻，小狗寶可夢在烤香噴噴的麵包！",
@@ -5715,7 +5945,9 @@ const HABITAT_DATA = {
   "122": {
     "id": 122,
     "name": {
-      "en": "Mini Kitchen"
+      "en": "Mini Kitchen",
+      "zh": "迷你小廚房",
+      "es": "Cocina Miniatura"
     },
     "description": {
       "zh": "迷你廚房裡鍋鏟鏟齊飛，鴨嘴炎魔大展廚藝！",
@@ -5750,7 +5982,9 @@ const HABITAT_DATA = {
   "123": {
     "id": 123,
     "name": {
-      "en": "House Party"
+      "en": "House Party",
+      "zh": "居家派對",
+      "es": "Fiesta en Casa"
     },
     "description": {
       "zh": "派對熱鬧滾滾，三地鼠和盆才怪一起狂歡！",
@@ -5796,7 +6030,9 @@ const HABITAT_DATA = {
   "124": {
     "id": 124,
     "name": {
-      "en": "Lazy Photo Album Scrolling"
+      "en": "Lazy Photo Album Scrolling",
+      "zh": "懶洋洋相簿",
+      "es": "Álbum de Fotos Perezoso"
     },
     "description": {
       "zh": "賴在沙發上滑相簿，電毒蛙悠閒地翻著照片打發時間。",
@@ -5831,7 +6067,9 @@ const HABITAT_DATA = {
   "125": {
     "id": 125,
     "name": {
-      "en": "Chirping Recital"
+      "en": "Chirping Recital",
+      "zh": "啁啾音樂會",
+      "es": "Recital de Pajaritos"
     },
     "description": {
       "zh": "啾啾演唱會歌聲繚繞，聒噪鳥和烏鴉頭頭在台上高歌！",
@@ -5925,7 +6163,9 @@ const HABITAT_DATA = {
   "127": {
     "id": 127,
     "name": {
-      "en": "Box To The Rhythm"
+      "en": "Box To The Rhythm",
+      "zh": "節奏小盒子",
+      "es": "Caja al Ritmo"
     },
     "description": {
       "zh": "跟著節拍動起來，豪力和利歐路一起節奏運動！",
@@ -5982,7 +6222,9 @@ const HABITAT_DATA = {
   "128": {
     "id": 128,
     "name": {
-      "en": "Music And Magazines"
+      "en": "Music And Magazines",
+      "zh": "音樂與雜誌",
+      "es": "Música y Revistas"
     },
     "description": {
       "zh": "音樂和雜誌相伴，音箱蟲和洛托姆一起放鬆聽歌！",
@@ -6039,7 +6281,9 @@ const HABITAT_DATA = {
   "129": {
     "id": 129,
     "name": {
-      "en": "Mini Museum"
+      "en": "Mini Museum",
+      "zh": "迷你博物館",
+      "es": "Museo Miniatura"
     },
     "description": {
       "zh": "迷你博物館珍藏豐富，風速狗和硬幣靈在展品間探索！",
@@ -6085,7 +6329,9 @@ const HABITAT_DATA = {
   "130": {
     "id": 130,
     "name": {
-      "en": "Refreshing Locker Room"
+      "en": "Refreshing Locker Room",
+      "zh": "清爽更衣室",
+      "es": "Vestidor Refrescante"
     },
     "description": {
       "zh": "清爽的更衣室煥然一新，閃焰王牌和騰蹴小將換裝上場！",
@@ -6131,7 +6377,9 @@ const HABITAT_DATA = {
   "131": {
     "id": 131,
     "name": {
-      "en": "Bronze Landmark"
+      "en": "Bronze Landmark",
+      "zh": "青銅地標",
+      "es": "Monumento de Bronce"
     },
     "description": {
       "zh": "青銅地標莊嚴雄偉，皮皮和皮可西在銅像旁祈願！",
@@ -6177,7 +6425,9 @@ const HABITAT_DATA = {
   "132": {
     "id": 132,
     "name": {
-      "en": "Railroad Crossing"
+      "en": "Railroad Crossing",
+      "zh": "鐵路平交道",
+      "es": "Cruce de Ferrocarril"
     },
     "description": {
       "zh": "鐵路平交道噹噹作響，巨炭山和小炭車在鐵軌旁等火車！",
@@ -6234,7 +6484,9 @@ const HABITAT_DATA = {
   "133": {
     "id": 133,
     "name": {
-      "en": "Chefs Kitchen"
+      "en": "Chefs Kitchen",
+      "zh": "大廚廚房",
+      "es": "Cocina del Chef"
     },
     "description": {
       "zh": "主廚廚房香味四溢，貪心栗鼠大顯廚藝！",
@@ -6269,7 +6521,9 @@ const HABITAT_DATA = {
   "134": {
     "id": 134,
     "name": {
-      "en": "Absolute Luxury"
+      "en": "Absolute Luxury",
+      "zh": "超級豪華區",
+      "es": "Lujo Absoluto"
     },
     "description": {
       "zh": "極致奢華空間金碧輝煌，賽富豪在黃金中享受頂級生活！",
@@ -6304,7 +6558,9 @@ const HABITAT_DATA = {
   "135": {
     "id": 135,
     "name": {
-      "en": "Heavy Iron"
+      "en": "Heavy Iron",
+      "zh": "沉重之鐵",
+      "es": "Hierro Pesado"
     },
     "description": {
       "zh": "沉重的鐵塊閃著金屬光澤，巨炭山用鐵鎚鍛造出堅固物品！",
@@ -6339,7 +6595,9 @@ const HABITAT_DATA = {
   "136": {
     "id": 136,
     "name": {
-      "en": "Modern Living"
+      "en": "Modern Living",
+      "zh": "現代起居室",
+      "es": "Sala Moderna"
     },
     "description": {
       "zh": "現代生活空間時尚簡約，狙射樟梟在居家空間裡優雅歇息。",
@@ -6374,7 +6632,9 @@ const HABITAT_DATA = {
   "137": {
     "id": 137,
     "name": {
-      "en": "Pink Tall Grass"
+      "en": "Pink Tall Grass",
+      "zh": "粉紅高草叢",
+      "es": "Hierba Rosa Alta"
     },
     "description": {
       "zh": "粉紅高草叢夢幻浪漫，沙漠蜻蜓和青棉鳥在粉色草間飛舞！",
@@ -6453,7 +6713,9 @@ const HABITAT_DATA = {
   "138": {
     "id": 138,
     "name": {
-      "en": "Tree Shaded Pink Tall Grass"
+      "en": "Tree Shaded Pink Tall Grass",
+      "zh": "樹蔭粉紅高草叢",
+      "es": "Hierba Rosa bajo la Sombra"
     },
     "description": {
       "zh": "樹蔭下的粉紅高草叢幽靜神秘，多龍和幼基拉斯在陰涼中修練。",
@@ -6521,7 +6783,9 @@ const HABITAT_DATA = {
   "139": {
     "id": 139,
     "name": {
-      "en": "Hydrated Pink Tall Grass"
+      "en": "Hydrated Pink Tall Grass",
+      "zh": "濕潤粉紅高草叢",
+      "es": "Hierba Rosa Húmeda"
     },
     "description": {
       "zh": "潮濕的粉紅高草叢水花四濺，呱呱泡蛙和呱頭蛙在水中嬉戲！",
@@ -6578,7 +6842,9 @@ const HABITAT_DATA = {
   "140": {
     "id": 140,
     "name": {
-      "en": "Elevated Pink Tall Grass"
+      "en": "Elevated Pink Tall Grass",
+      "zh": "高地粉紅高草叢",
+      "es": "Hierba Rosa Elevada"
     },
     "description": {
       "zh": "高地上的粉紅高草叢視野遼闊，鋼鎧鴉和電電球在風中翱翔！",
@@ -6646,7 +6912,9 @@ const HABITAT_DATA = {
   "141": {
     "id": 141,
     "name": {
-      "en": "Concrete Pipe Secret Base"
+      "en": "Concrete Pipe Secret Base",
+      "zh": "水泥管秘密基地",
+      "es": "Base Secreta del Tubo"
     },
     "description": {
       "zh": "水泥管秘密基地超酷的，火球鼠和火岩鼠在管子裡探險！",
@@ -6692,7 +6960,9 @@ const HABITAT_DATA = {
   "142": {
     "id": 142,
     "name": {
-      "en": "Fluffy Flower Bed"
+      "en": "Fluffy Flower Bed",
+      "zh": "蓬鬆花壇",
+      "es": "Cantero Esponjoso"
     },
     "description": {
       "zh": "毛茸茸的花圃柔軟好摸，九尾和小小火焰在絨毛花間打盹。",
@@ -6771,7 +7041,9 @@ const HABITAT_DATA = {
   "143": {
     "id": 143,
     "name": {
-      "en": "Tree Shaded Fluffy Flower Bed"
+      "en": "Tree Shaded Fluffy Flower Bed",
+      "zh": "樹蔭蓬鬆花壇",
+      "es": "Cantero bajo la Sombra"
     },
     "description": {
       "zh": "樹蔭下的毛茸茸花圃涼爽宜人，君主蛇和麒麟奇在樹蔭下悠閒散步。",
@@ -6839,7 +7111,9 @@ const HABITAT_DATA = {
   "144": {
     "id": 144,
     "name": {
-      "en": "Hydrated Fluffy Flower Bed"
+      "en": "Hydrated Fluffy Flower Bed",
+      "zh": "濕潤蓬鬆花壇",
+      "es": "Cantero Húmedo"
     },
     "description": {
       "zh": "潮濕的毛茸茸花圃露珠閃閃，哈克龍和蚊香君在水中愉快嬉戲！",
@@ -6896,7 +7170,9 @@ const HABITAT_DATA = {
   "145": {
     "id": 145,
     "name": {
-      "en": "Waterside Dinghy"
+      "en": "Waterside Dinghy",
+      "zh": "水邊小船",
+      "es": "Bote junto al Agua"
     },
     "description": {
       "zh": "水邊小艇隨波搖曳，快龍划著小船在湖上兜風！",
@@ -6931,7 +7207,9 @@ const HABITAT_DATA = {
   "146": {
     "id": 146,
     "name": {
-      "en": "Illuminated Waterfall"
+      "en": "Illuminated Waterfall",
+      "zh": "發光瀑布",
+      "es": "Cascada Brillante"
     },
     "description": {
       "zh": "明亮瀑布壯觀又美麗，暴鯉龍在飛瀑中威風凜凜地躍起！",
@@ -6966,7 +7244,9 @@ const HABITAT_DATA = {
   "147": {
     "id": 147,
     "name": {
-      "en": "Birdsong Garden"
+      "en": "Birdsong Garden",
+      "zh": "鳥鳴花園",
+      "es": "Jardín de Pajaritos"
     },
     "description": {
       "zh": "鳥語花香的花園裡歌聲悅耳，七夕青鳥在花叢中歡唱！",
@@ -7001,7 +7281,9 @@ const HABITAT_DATA = {
   "148": {
     "id": 148,
     "name": {
-      "en": "Simple Bathroom"
+      "en": "Simple Bathroom",
+      "zh": "簡單浴室",
+      "es": "Baño Sencillo"
     },
     "description": {
       "zh": "簡單浴室乾淨清爽，哈克龍和迷你龍在浴缸裡泡澡放鬆。",
@@ -7047,7 +7329,9 @@ const HABITAT_DATA = {
   "149": {
     "id": 149,
     "name": {
-      "en": "Cycling Rest Stop"
+      "en": "Cycling Rest Stop",
+      "zh": "單車休息站",
+      "es": "Parada de Bicicletas"
     },
     "description": {
       "zh": "騎車休息站補充能量，鐵啞鈴在路邊小憩準備再出發！",
@@ -7082,7 +7366,9 @@ const HABITAT_DATA = {
   "150": {
     "id": 150,
     "name": {
-      "en": "Fireplace Nap Spot"
+      "en": "Fireplace Nap Spot",
+      "zh": "壁爐小睡處",
+      "es": "Siesta junto a la Chimenea"
     },
     "description": {
       "zh": "壁爐旁小睡暖呼呼的，火暴獸和火岩鼠在火光中甜甜入睡！",
@@ -7128,7 +7414,9 @@ const HABITAT_DATA = {
   "151": {
     "id": 151,
     "name": {
-      "en": "Surging Psychic Power"
+      "en": "Surging Psychic Power",
+      "zh": "湧動的精神之力",
+      "es": "Poder Psíquico Fuerte"
     },
     "description": {
       "zh": "超能力湧動令人驚奇，胡地和小凱斯在念力中共鳴！",
@@ -7174,7 +7462,9 @@ const HABITAT_DATA = {
   "152": {
     "id": 152,
     "name": {
-      "en": "Fortune Tellers Table"
+      "en": "Fortune Tellers Table",
+      "zh": "占卜師的桌子",
+      "es": "Mesa del Adivino"
     },
     "description": {
       "zh": "算命桌上水晶球閃閃發光，勇基拉和凱西一起預測未來！",
@@ -7220,7 +7510,9 @@ const HABITAT_DATA = {
   "153": {
     "id": 153,
     "name": {
-      "en": "Trash Site Tv"
+      "en": "Trash Site Tv",
+      "zh": "垃圾場電視",
+      "es": "Tele del Basurero"
     },
     "description": {
       "zh": "垃圾場電視播放著節目，夜巨人跟 dusknoir 一起看深夜秀！",
@@ -7266,7 +7558,9 @@ const HABITAT_DATA = {
   "154": {
     "id": 154,
     "name": {
-      "en": "Oversized Dumping Ground"
+      "en": "Oversized Dumping Ground",
+      "zh": "巨大垃圾堆場",
+      "es": "Gran Montón de Basura"
     },
     "description": {
       "zh": "超大垃圾場堆滿廢料，小鍛匠和巨鍛匠在廢鐵中尋寶！",
@@ -7312,7 +7606,9 @@ const HABITAT_DATA = {
   "155": {
     "id": 155,
     "name": {
-      "en": "Interrogation Desk"
+      "en": "Interrogation Desk",
+      "zh": "審問桌",
+      "es": "Mesa de Interrogatorio"
     },
     "description": {
       "zh": "審訊桌氣氛緊張又有趣，新葉喵和葉狸貓扮演偵探！",
@@ -7358,7 +7654,9 @@ const HABITAT_DATA = {
   "156": {
     "id": 156,
     "name": {
-      "en": "Sewer Hole Inspection"
+      "en": "Sewer Hole Inspection",
+      "zh": "下水道孔檢查",
+      "es": "Inspección de Alcantarilla"
     },
     "description": {
       "zh": "下水道檢查通道陰暗潮濕，鋼鎧鴉和鐵鍛匠勇敢巡邏！",
@@ -7426,7 +7724,9 @@ const HABITAT_DATA = {
   "157": {
     "id": 157,
     "name": {
-      "en": "Spotless Washing Station"
+      "en": "Spotless Washing Station",
+      "zh": "潔淨洗滌站",
+      "es": "Estación de Lavado"
     },
     "description": {
       "zh": "一塵不染的清洗站乾淨到發亮，魔牆人偶把每樣東西擦得晶晶亮！",
@@ -7472,7 +7772,9 @@ const HABITAT_DATA = {
   "158": {
     "id": 158,
     "name": {
-      "en": "Home Theater"
+      "en": "Home Theater",
+      "zh": "家庭劇院",
+      "es": "Cine en Casa"
     },
     "description": {
       "zh": "家庭劇院大螢幕超過癮，夢妖魔窩在沙發上看電影！",
@@ -7507,7 +7809,9 @@ const HABITAT_DATA = {
   "159": {
     "id": 159,
     "name": {
-      "en": "Study Area"
+      "en": "Study Area",
+      "zh": "學習區",
+      "es": "Área de Estudio"
     },
     "description": {
       "zh": "讀書角安靜又溫馨，奇魯莉歐和拉魯拉絲專心閱讀！",
@@ -7553,7 +7857,9 @@ const HABITAT_DATA = {
   "160": {
     "id": 160,
     "name": {
-      "en": "Rhythmic Living Room"
+      "en": "Rhythmic Living Room",
+      "zh": "律動客廳",
+      "es": "Sala Rítmica"
     },
     "description": {
       "zh": "節奏客廳音樂繚繞，音波龍和 Noibat 跟著節拍搖擺！",
@@ -7599,7 +7905,9 @@ const HABITAT_DATA = {
   "161": {
     "id": 161,
     "name": {
-      "en": "Squeaky Clean"
+      "en": "Squeaky Clean",
+      "zh": "乾乾淨淨",
+      "es": "Súper Limpio"
     },
     "description": {
       "zh": "洗得晶晶亮亮一塵不染，蚊香蝌蚪在泡泡中快樂洗澡！",
@@ -7634,7 +7942,9 @@ const HABITAT_DATA = {
   "162": {
     "id": 162,
     "name": {
-      "en": "Moisturizing Makeup Stand"
+      "en": "Moisturizing Makeup Stand",
+      "zh": "保濕化妝台",
+      "es": "Mesa de Maquillaje"
     },
     "description": {
       "zh": "保濕化妝台滋潤又美麗，奇魯莉歐和沙奈朵一起打扮！",
@@ -7680,7 +7990,9 @@ const HABITAT_DATA = {
   "163": {
     "id": 163,
     "name": {
-      "en": "Mini Library"
+      "en": "Mini Library",
+      "zh": "迷你圖書館",
+      "es": "Mini Biblioteca"
     },
     "description": {
       "zh": "迷你圖書館書香四溢，沙奈朵在書堆中靜靜閱讀。",
@@ -7715,7 +8027,9 @@ const HABITAT_DATA = {
   "164": {
     "id": 164,
     "name": {
-      "en": "Game Corner Battle Zone"
+      "en": "Game Corner Battle Zone",
+      "zh": "遊戲區對戰場",
+      "es": "Zona de Batalla de Juegos"
     },
     "description": {
       "zh": "遊戲角戰鬥區競爭激烈，3D龍Z在虛擬對戰中稱霸！",
@@ -7750,7 +8064,9 @@ const HABITAT_DATA = {
   "165": {
     "id": 165,
     "name": {
-      "en": "Playland"
+      "en": "Playland",
+      "zh": "遊樂園",
+      "es": "Parque de Diversiones"
     },
     "description": {
       "zh": "遊樂園裡歡笑不斷，藤藤蛇在遊樂設施間跑來跑去！",
@@ -7785,7 +8101,9 @@ const HABITAT_DATA = {
   "166": {
     "id": 166,
     "name": {
-      "en": "Work Desk"
+      "en": "Work Desk",
+      "zh": "工作書桌",
+      "es": "Escritorio de Trabajo"
     },
     "description": {
       "zh": "辦公桌上工作專注，3D龍2在電腦前認真處理資料！",
@@ -7820,7 +8138,9 @@ const HABITAT_DATA = {
   "167": {
     "id": 167,
     "name": {
-      "en": "Office Storeroom"
+      "en": "Office Storeroom",
+      "zh": "辦公室儲藏室",
+      "es": "Bodega de la Oficina"
     },
     "description": {
       "zh": "辦公室儲藏室暗藏玄機，夢妖和多龍在文件堆裡探險！",
@@ -7888,7 +8208,9 @@ const HABITAT_DATA = {
   "168": {
     "id": 168,
     "name": {
-      "en": "Experiment Space"
+      "en": "Experiment Space",
+      "zh": "實驗空間",
+      "es": "Espacio de Experimentos"
     },
     "description": {
       "zh": "實驗空間充滿科學氣息，胡地在實驗台前研究超能力！",
@@ -7923,7 +8245,9 @@ const HABITAT_DATA = {
   "169": {
     "id": 169,
     "name": {
-      "en": "Professors Apprentice Program"
+      "en": "Professors Apprentice Program",
+      "zh": "教授實習計畫",
+      "es": "Programa de Aprendices"
     },
     "description": {
       "zh": "教授學徒計畫啟動，金屬怪在導師指導下學習研究！",
@@ -7958,7 +8282,9 @@ const HABITAT_DATA = {
   "170": {
     "id": 170,
     "name": {
-      "en": "Researchers Desk"
+      "en": "Researchers Desk",
+      "zh": "研究員書桌",
+      "es": "Escritorio del Investigador"
     },
     "description": {
       "zh": "研究員桌上資料齊全，3D龍在電腦螢幕前分析數據！",
@@ -7993,7 +8319,9 @@ const HABITAT_DATA = {
   "171": {
     "id": 171,
     "name": {
-      "en": "Public Reading Material"
+      "en": "Public Reading Material",
+      "zh": "公共閱讀區",
+      "es": "Lectura Pública"
     },
     "description": {
       "zh": "公共閱讀區舒適寬敞，君主蛇和魔牆人偶靜靜看書。",
@@ -8039,7 +8367,9 @@ const HABITAT_DATA = {
   "172": {
     "id": 172,
     "name": {
-      "en": "Heart Pounding Surprise Box"
+      "en": "Heart Pounding Surprise Box",
+      "zh": "心跳加速驚喜盒",
+      "es": "Caja de Sorpresas"
     },
     "description": {
       "zh": "心跳加速驚喜盒藏著祕密，魔幻假面喵緊張又興奮地打開！",
@@ -8074,7 +8404,9 @@ const HABITAT_DATA = {
   "173": {
     "id": 173,
     "name": {
-      "en": "Prank Button"
+      "en": "Prank Button",
+      "zh": "惡作劇按鈕",
+      "es": "Botón de Bromas"
     },
     "description": {
       "zh": "惡作劇按鈕一按就嚇人，呱呱泡蛙和呱頭蛙偷按按鈕！",
@@ -8120,7 +8452,9 @@ const HABITAT_DATA = {
   "174": {
     "id": 174,
     "name": {
-      "en": "Picturesque Photo Cutout Board"
+      "en": "Picturesque Photo Cutout Board",
+      "zh": "風景優美拍照板",
+      "es": "Tablero de Fotos Lindas"
     },
     "description": {
       "zh": "繽紛拍照立牌趣味十足，正電拍拍和負電拍拍擺pose拍照！",
@@ -8166,7 +8500,9 @@ const HABITAT_DATA = {
   "175": {
     "id": 175,
     "name": {
-      "en": "Tire Park"
+      "en": "Tire Park",
+      "zh": "輪胎公園",
+      "es": "Parque de Llantas"
     },
     "description": {
       "zh": "輪胎公園裡輪胎堆成山，咚咚鼠在輪胎上蹦蹦跳跳！",
@@ -8201,7 +8537,9 @@ const HABITAT_DATA = {
   "176": {
     "id": 176,
     "name": {
-      "en": "Natures Market"
+      "en": "Natures Market",
+      "zh": "自然市集",
+      "es": "Mercado Natural"
     },
     "description": {
       "zh": "自然市集熱鬧又溫馨，雷丘在攤位間挑選新鮮蔬果！",
@@ -8236,7 +8574,9 @@ const HABITAT_DATA = {
   "177": {
     "id": 177,
     "name": {
-      "en": "Construction Site Generator"
+      "en": "Construction Site Generator",
+      "zh": "工地發電機",
+      "es": "Generador de Construcción"
     },
     "description": {
       "zh": "工地發電機轟隆作響，修建老匠用電力驅動大型機具！",
@@ -8271,7 +8611,9 @@ const HABITAT_DATA = {
   "178": {
     "id": 178,
     "name": {
-      "en": "Dojo Training"
+      "en": "Dojo Training",
+      "zh": "道場訓練",
+      "es": "Entrenamiento de Dojo"
     },
     "description": {
       "zh": "道場訓練汗流浹背，艾路雷朵和蚊香泳士一起鍛鍊武藝！",
@@ -8317,7 +8659,9 @@ const HABITAT_DATA = {
   "179": {
     "id": 179,
     "name": {
-      "en": "Evil Organization Hq"
+      "en": "Evil Organization Hq",
+      "zh": "反派組織總部",
+      "es": "Sede de los Villanos"
     },
     "description": {
       "zh": "邪惡組織總部陰森神秘，波斯貓在暗中巡視基地！",
@@ -8352,7 +8696,9 @@ const HABITAT_DATA = {
   "180": {
     "id": 180,
     "name": {
-      "en": "Nine Flames"
+      "en": "Nine Flames",
+      "zh": "九道之火",
+      "es": "Nueve Llamas"
     },
     "description": {
       "zh": "九道烈焰熊熊燃燒，九尾在聖火中展現威嚴！",
@@ -8387,7 +8733,9 @@ const HABITAT_DATA = {
   "181": {
     "id": 181,
     "name": {
-      "en": "Plush Central"
+      "en": "Plush Central",
+      "zh": "絨毛玩具中心",
+      "es": "Centro de Peluches"
     },
     "description": {
       "zh": "玩偶中央軟綿綿好舒服，飄飄球和隨風球在玩偶堆裡打滾！",
@@ -8433,7 +8781,9 @@ const HABITAT_DATA = {
   "182": {
     "id": 182,
     "name": {
-      "en": "Gamers Paradise"
+      "en": "Gamers Paradise",
+      "zh": "玩家天堂",
+      "es": "Paraíso de los Gamers"
     },
     "description": {
       "zh": "玩家天堂遊戲不斷，巨金怪在遊戲世界裡稱霸全場！",
@@ -8468,7 +8818,9 @@ const HABITAT_DATA = {
   "183": {
     "id": 183,
     "name": {
-      "en": "Top Pop"
+      "en": "Top Pop",
+      "zh": "頂級流行",
+      "es": "Súper Popular"
     },
     "description": {
       "zh": "頂級汽水暢快消暑，火暴獸大口灌下冰涼汽水！",
@@ -8503,7 +8855,9 @@ const HABITAT_DATA = {
   "184": {
     "id": 184,
     "name": {
-      "en": "Fishing Pond"
+      "en": "Fishing Pond",
+      "zh": "釣魚池",
+      "es": "Estanque de Pesca"
     },
     "description": {
       "zh": "釣魚池畔靜待魚兒上鉤，呆呆獸悠閒地坐在池邊釣魚。",
@@ -8549,7 +8903,9 @@ const HABITAT_DATA = {
   "185": {
     "id": 185,
     "name": {
-      "en": "Ocean Fishing Spot"
+      "en": "Ocean Fishing Spot",
+      "zh": "海洋釣魚點",
+      "es": "Lugar de Pesca en el Mar"
     },
     "description": {
       "zh": "海上釣魚點波光粼粼，海兔獸和鯉魚王在海面上悠遊！",
@@ -8595,7 +8951,9 @@ const HABITAT_DATA = {
   "186": {
     "id": 186,
     "name": {
-      "en": "Marsh Fishing Spot"
+      "en": "Marsh Fishing Spot",
+      "zh": "沼澤釣魚點",
+      "es": "Lugar de pesca en el pantano"
     },
     "description": {
       "zh": "沼澤釣魚點泥濘有趣，臭泥和泥泥巴在泥巴裡釣魚玩耍！",
@@ -8652,7 +9010,9 @@ const HABITAT_DATA = {
   "187": {
     "id": 187,
     "name": {
-      "en": "Hot Spring Fishing Spot"
+      "en": "Hot Spring Fishing Spot",
+      "zh": "溫泉釣魚點",
+      "es": "Lugar de pesca en aguas termales"
     },
     "description": {
       "zh": "溫泉釣魚點暖呼呼的，蓮帽小童和蓮葉童子在溫泉裡釣魚！",
@@ -8698,7 +9058,9 @@ const HABITAT_DATA = {
   "188": {
     "id": 188,
     "name": {
-      "en": "Magma Fishing Spot"
+      "en": "Magma Fishing Spot",
+      "zh": "岩漿釣魚點",
+      "es": "Lugar de pesca en magma"
     },
     "description": {
       "zh": "岩漿釣魚點火熱刺激，風速狗在熔岩邊大展身手！",
@@ -8733,7 +9095,9 @@ const HABITAT_DATA = {
   "191": {
     "id": 191,
     "name": {
-      "en": "Malicious Knights Shrine"
+      "en": "Malicious Knights Shrine",
+      "zh": "邪惡騎士神殿",
+      "es": "Santuario de los Caballeros Malvados"
     },
     "description": {
       "zh": "暗黑騎士神殿莊嚴肅穆，蒼炎刃鬼在神殿中守護誓約。",
@@ -8768,7 +9132,9 @@ const HABITAT_DATA = {
   "192": {
     "id": 192,
     "name": {
-      "en": "Auspicious Knights Shrine"
+      "en": "Auspicious Knights Shrine",
+      "zh": "吉祥騎士神殿",
+      "es": "Santuario de los Caballeros Afortunados"
     },
     "description": {
       "zh": "祥瑞騎士神殿光芒四射，紅鎧甲在神聖光芒中守護和平！",
@@ -8803,7 +9169,9 @@ const HABITAT_DATA = {
   "193": {
     "id": 193,
     "name": {
-      "en": "Wing Fossil Display"
+      "en": "Wing Fossil Display",
+      "zh": "翼龍化石展示區",
+      "es": "Exhibición de fósiles de ala"
     },
     "description": {
       "zh": "翼化石展覽令人驚嘆，化石翼龍從遠古飛來和我們見面！",
@@ -8838,7 +9206,9 @@ const HABITAT_DATA = {
   "194": {
     "id": 194,
     "name": {
-      "en": "Skull Fossil Display"
+      "en": "Skull Fossil Display",
+      "zh": "骷髏化石展示區",
+      "es": "Exhibición de fósiles de cráneo"
     },
     "description": {
       "zh": "頭骨化石展覽神秘有趣，頭蓋龍從化石中重新甦醒！",
@@ -8873,7 +9243,9 @@ const HABITAT_DATA = {
   "195": {
     "id": 195,
     "name": {
-      "en": "Headbutt Fossil Display"
+      "en": "Headbutt Fossil Display",
+      "zh": "頭槌化石展示區",
+      "es": "Exhibición de fósiles de cabezazo"
     },
     "description": {
       "zh": "鐵頭化石展覽威風凜凜，戰槌龍用強壯的頭槌展示力量！",
@@ -8908,7 +9280,9 @@ const HABITAT_DATA = {
   "196": {
     "id": 196,
     "name": {
-      "en": "Armor Fossil Display"
+      "en": "Armor Fossil Display",
+      "zh": "盔甲化石展示區",
+      "es": "Exhibición de fósiles de armadura"
     },
     "description": {
       "zh": "盔甲化石展覽堅固可靠，盾面龍在甲殼中安穩守護！",
@@ -8943,7 +9317,9 @@ const HABITAT_DATA = {
   "197": {
     "id": 197,
     "name": {
-      "en": "Shield Fossil Display"
+      "en": "Shield Fossil Display",
+      "zh": "盾牌化石展示區",
+      "es": "Exhibición de fósiles de escudo"
     },
     "description": {
       "zh": "盾化石展覽堅不可摧，護城龍用厚重的盾牌守護大家！",
@@ -8978,7 +9354,9 @@ const HABITAT_DATA = {
   "198": {
     "id": 198,
     "name": {
-      "en": "Jaw Fossil Display"
+      "en": "Jaw Fossil Display",
+      "zh": "下顎化石展示區",
+      "es": "Exhibición de fósiles de mandíbula"
     },
     "description": {
       "zh": "顎化石展覽充滿野性，牙牙龍從化石中露出銳利牙齒！",
@@ -9013,7 +9391,9 @@ const HABITAT_DATA = {
   "199": {
     "id": 199,
     "name": {
-      "en": "Despot Fossil Display"
+      "en": "Despot Fossil Display",
+      "zh": "暴君化石展示區",
+      "es": "Exhibición de fósiles del déspota"
     },
     "description": {
       "zh": "暴君化石展覽威震四方，暴飛龍展現遠古霸主的威風！",
@@ -9048,7 +9428,9 @@ const HABITAT_DATA = {
   "200": {
     "id": 200,
     "name": {
-      "en": "Sail Fossil Display"
+      "en": "Sail Fossil Display",
+      "zh": "帆鰭化石展示區",
+      "es": "Exhibición de fósiles de vela"
     },
     "description": {
       "zh": "帆化石展覽優雅動人，阿穆斯龍從化石中展現美麗身姿！",
@@ -9083,7 +9465,9 @@ const HABITAT_DATA = {
   "201": {
     "id": 201,
     "name": {
-      "en": "Tundra Fossil Display"
+      "en": "Tundra Fossil Display",
+      "zh": "凍原化石展示區",
+      "es": "Exhibición de fósiles de tundra"
     },
     "description": {
       "zh": "凍原化石展覽冰晶閃耀，冰封龍在極寒中散發冰藍光芒！",
@@ -9118,7 +9502,9 @@ const HABITAT_DATA = {
   "202": {
     "id": 202,
     "name": {
-      "en": "Boundless Blue Beverage"
+      "en": "Boundless Blue Beverage",
+      "zh": "無邊藍色飲料",
+      "es": "Bebida azul infinita"
     },
     "description": {
       "zh": "湛藍飲品清涼消暑，水伊布在冰涼飲料中暢快暢飲！",
@@ -9153,7 +9539,9 @@ const HABITAT_DATA = {
   "203": {
     "id": 203,
     "name": {
-      "en": "Electrifying Potatoes"
+      "en": "Electrifying Potatoes",
+      "zh": "電擊馬鈴薯",
+      "es": "Papas eléctricas"
     },
     "description": {
       "zh": "電氣馬鈴薯酥脆好吃，雷伊布啃著帶電的薯條超過癮！",
@@ -9188,7 +9576,9 @@ const HABITAT_DATA = {
   "204": {
     "id": 204,
     "name": {
-      "en": "Burning Hot Spice"
+      "en": "Burning Hot Spice",
+      "zh": "火辣辛香料",
+      "es": "Especias muy picantes"
     },
     "description": {
       "zh": "火辣香料讓人冒汗，火伊布最愛超辣料理！",
@@ -9223,7 +9613,9 @@ const HABITAT_DATA = {
   "205": {
     "id": 205,
     "name": {
-      "en": "Elegant Daytime Treats"
+      "en": "Elegant Daytime Treats",
+      "zh": "優雅午後點心",
+      "es": "Dulces elegantes de día"
     },
     "description": {
       "zh": "優雅的日間甜點精緻可口，太陽伊布在午後陽光中享用茶點！",
@@ -9258,7 +9650,9 @@ const HABITAT_DATA = {
   "206": {
     "id": 206,
     "name": {
-      "en": "Dark Chocolate Cookies"
+      "en": "Dark Chocolate Cookies",
+      "zh": "黑巧克力餅乾",
+      "es": "Galletas de chocolate amargo"
     },
     "description": {
       "zh": "巧克力餅乾香濃好吃，月伊布配著牛奶享用暗黑餅乾！",
@@ -9293,7 +9687,9 @@ const HABITAT_DATA = {
   "207": {
     "id": 207,
     "name": {
-      "en": "Leafy Greens Sandwich"
+      "en": "Leafy Greens Sandwich",
+      "zh": "綠葉蔬菜三明治",
+      "es": "Sándwich de hojas verdes"
     },
     "description": {
       "zh": "翠綠三明治清爽健康，葉伊布大口享用蔬菜三明治！",
@@ -9328,7 +9724,9 @@ const HABITAT_DATA = {
   "208": {
     "id": 208,
     "name": {
-      "en": "Chilly Shaved Ice"
+      "en": "Chilly Shaved Ice",
+      "zh": "冰涼刨冰",
+      "es": "Hielo raspado muy frío"
     },
     "description": {
       "zh": "冰涼刨冰消暑解熱，冰伊布在炎夏中大口吃刨冰！",
@@ -9363,7 +9761,9 @@ const HABITAT_DATA = {
   "209": {
     "id": 209,
     "name": {
-      "en": "Lovely Ribbon Cake"
+      "en": "Lovely Ribbon Cake",
+      "zh": "可愛緞帶蛋糕",
+      "es": "Pastel de listón lindo"
     },
     "description": {
       "zh": "緞帶蛋糕甜蜜可愛，仙子伊布在蝴蝶結裝飾的蛋糕前許願！",
