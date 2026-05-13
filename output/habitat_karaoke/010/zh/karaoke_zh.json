@@ -1,62 +1,7 @@
 [
   {
-    "text": "濕潤的",
+    "text": "滋潤花壇",
     "startMs": 100.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "花圃",
-    "startMs": 675.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "露",
-    "startMs": 1112.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "珠",
-    "startMs": 1287.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "閃閃",
-    "startMs": 1425.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "螢火蟲",
-    "startMs": 2275.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "寶可",
-    "startMs": 2812.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "夢",
-    "startMs": 3187.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "在",
-    "startMs": 3400.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "這裡",
-    "startMs": 3562.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "閃爍",
-    "startMs": 3862.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "飛舞",
-    "startMs": 4250.0,
-    "durationMs": 525.0
+    "durationMs": 912.5
   }
 ]

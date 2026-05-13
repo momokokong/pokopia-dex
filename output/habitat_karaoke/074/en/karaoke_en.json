@@ -5,53 +5,13 @@
     "durationMs": 350.0
   },
   {
-    "text": "festival",
+    "text": "Festival",
     "startMs": 462.5,
     "durationMs": 587.5
   },
   {
-    "text": "venue",
+    "text": "Venue",
     "startMs": 1062.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "glowing",
-    "startMs": 1487.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "with",
-    "startMs": 1975.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "lights",
-    "startMs": 2150.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "Flaaffy",
-    "startMs": 2900.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "explores",
-    "startMs": 3437.5,
-    "durationMs": 662.5
-  },
-  {
-    "text": "the",
-    "startMs": 4112.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "lively",
-    "startMs": 4262.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "stalls",
-    "startMs": 4775.0,
-    "durationMs": 662.5
+    "durationMs": 537.5
   }
 ]

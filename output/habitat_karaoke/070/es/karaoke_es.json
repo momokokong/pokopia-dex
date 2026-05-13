@@ -1,77 +1,12 @@
 [
   {
-    "text": "Un",
+    "text": "Espacio",
     "startMs": 100.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "espacio",
-    "startMs": 250.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "de",
-    "startMs": 725.0,
-    "durationMs": 87.5
+    "durationMs": 525.0
   },
   {
     "text": "café",
-    "startMs": 825.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "acogedor",
-    "startMs": 1125.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "Pawmi",
-    "startMs": 1975.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "y",
-    "startMs": 2350.0,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Pawmot",
-    "startMs": 2425.0,
+    "startMs": 637.5,
     "durationMs": 425.0
-  },
-  {
-    "text": "disfrutan",
-    "startMs": 2862.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "el",
-    "startMs": 3425.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "té",
-    "startMs": 3575.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "de",
-    "startMs": 3725.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "la",
-    "startMs": 3862.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "tarde",
-    "startMs": 3975.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "juntos",
-    "startMs": 4300.0,
-    "durationMs": 587.5
   }
 ]

@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[133] Chefs Kitchen
+[134] Absolute Luxury
+[135] Heavy Iron
+[136] Modern Living
+[137] Pink Tall Grass
+[138] Tree Shaded Pink Tall Grass
+[139] Hydrated Pink Tall Grass
+[140] Elevated Pink Tall Grass
+[141] Concrete Pipe Secret Base
+[142] Fluffy Flower Bed
+[143] Tree Shaded Fluffy Flower Bed
+[144] Hydrated Fluffy Flower Bed
+[145] Waterside Dinghy
+[146] Illuminated Waterfall
+[147] Birdsong Garden
+[148] Simple Bathroom
+[149] Cycling Rest Stop
+[150] Fireplace Nap Spot
+[151] Surging Psychic Power
+[152] Fortune Tellers Table
+[153] Trash Site Tv
+[154] Oversized Dumping Ground
+[155] Interrogation Desk
+[156] Sewer Hole Inspection
+[157] Spotless Washing Station
+
+{
+  "133": {"zh": "...", "es": "..."},
+  "134": {"zh": "...", "es": "..."},
+  "135": {"zh": "...", "es": "..."},
+  "136": {"zh": "...", "es": "..."},
+  "137": {"zh": "...", "es": "..."},
+  "138": {"zh": "...", "es": "..."},
+  "139": {"zh": "...", "es": "..."},
+  "140": {"zh": "...", "es": "..."},
+  "141": {"zh": "...", "es": "..."},
+  "142": {"zh": "...", "es": "..."},
+  "143": {"zh": "...", "es": "..."},
+  "144": {"zh": "...", "es": "..."},
+  "145": {"zh": "...", "es": "..."},
+  "146": {"zh": "...", "es": "..."},
+  "147": {"zh": "...", "es": "..."},
+  "148": {"zh": "...", "es": "..."},
+  "149": {"zh": "...", "es": "..."},
+  "150": {"zh": "...", "es": "..."},
+  "151": {"zh": "...", "es": "..."},
+  "152": {"zh": "...", "es": "..."},
+  "153": {"zh": "...", "es": "..."},
+  "154": {"zh": "...", "es": "..."},
+  "155": {"zh": "...", "es": "..."},
+  "156": {"zh": "...", "es": "..."},
+  "157": {"zh": "...", "es": "..."}
+}

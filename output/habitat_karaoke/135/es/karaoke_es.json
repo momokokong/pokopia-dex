@@ -2,61 +2,11 @@
   {
     "text": "Hierro",
     "startMs": 100.0,
-    "durationMs": 325.0
+    "durationMs": 350.0
   },
   {
-    "text": "pesado",
-    "startMs": 437.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "con",
-    "startMs": 862.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "brillo",
-    "startMs": 1037.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "metálico",
-    "startMs": 1337.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "Coalossal",
-    "startMs": 2150.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "forja",
-    "startMs": 2675.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "objetos",
-    "startMs": 3012.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "resistentes",
-    "startMs": 3500.0,
-    "durationMs": 687.5
-  },
-  {
-    "text": "con",
-    "startMs": 4200.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "un",
-    "startMs": 4387.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "martillo",
-    "startMs": 4512.5,
-    "durationMs": 575.0
+    "text": "Pesado",
+    "startMs": 462.5,
+    "durationMs": 537.5
   }
 ]

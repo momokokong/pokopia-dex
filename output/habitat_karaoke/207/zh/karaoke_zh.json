@@ -1,47 +1,17 @@
 [
   {
-    "text": "翠綠",
+    "text": "綠葉",
     "startMs": 100.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "三明治",
-    "startMs": 525.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "清爽",
-    "startMs": 1062.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "健康",
-    "startMs": 1512.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "葉伊布",
-    "startMs": 2312.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "大口",
-    "startMs": 2737.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "享用",
-    "startMs": 3100.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "蔬菜",
-    "startMs": 3475.0,
     "durationMs": 362.5
   },
   {
+    "text": "蔬菜",
+    "startMs": 475.0,
+    "durationMs": 387.5
+  },
+  {
     "text": "三明治",
-    "startMs": 3862.5,
-    "durationMs": 700.0
+    "startMs": 887.5,
+    "durationMs": 687.5
   }
 ]

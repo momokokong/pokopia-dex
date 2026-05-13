@@ -1,67 +1,32 @@
 [
   {
-    "text": "Lecho",
+    "text": "Cantero",
     "startMs": 100.0,
-    "durationMs": 375.0
+    "durationMs": 450.0
   },
   {
     "text": "de",
-    "startMs": 487.5,
+    "startMs": 562.5,
     "durationMs": 100.0
   },
   {
     "text": "flores",
-    "startMs": 600.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "fresco",
-    "startMs": 987.5,
-    "durationMs": 387.5
+    "startMs": 675.0,
+    "durationMs": 400.0
   },
   {
     "text": "bajo",
-    "startMs": 1387.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "los",
-    "startMs": 1637.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "árboles",
-    "startMs": 1837.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "donde",
-    "startMs": 2262.5,
+    "startMs": 1087.5,
     "durationMs": 225.0
   },
   {
-    "text": "Cacturne",
-    "startMs": 2500.0,
-    "durationMs": 550.0
+    "text": "la",
+    "startMs": 1325.0,
+    "durationMs": 75.0
   },
   {
-    "text": "y",
-    "startMs": 3062.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 3162.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "bicho",
-    "startMs": 3687.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "descansan",
-    "startMs": 4012.5,
-    "durationMs": 675.0
+    "text": "sombra",
+    "startMs": 1412.5,
+    "durationMs": 462.5
   }
 ]

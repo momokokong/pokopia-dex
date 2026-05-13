@@ -1,62 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Private",
     "startMs": 100.0,
-    "durationMs": 125.0
+    "durationMs": 500.0
   },
   {
-    "text": "cute",
-    "startMs": 237.5,
-    "durationMs": 400.0
+    "text": "Makeup",
+    "startMs": 612.5,
+    "durationMs": 462.5
   },
   {
-    "text": "private",
-    "startMs": 650.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "makeup",
-    "startMs": 1112.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "stand",
-    "startMs": 1575.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "Cinccino",
-    "startMs": 2362.5,
-    "durationMs": 750.0
-  },
-  {
-    "text": "and",
-    "startMs": 3212.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "Minccino",
-    "startMs": 3312.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "get",
-    "startMs": 3937.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "dolled",
-    "startMs": 4212.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "up",
-    "startMs": 4562.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "together",
-    "startMs": 4750.0,
+    "text": "Stand",
+    "startMs": 1087.5,
     "durationMs": 600.0
   }
 ]

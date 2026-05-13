@@ -1,87 +1,27 @@
 [
   {
-    "text": "El",
+    "text": "Sitio",
     "startMs": 100.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "sitio",
-    "startMs": 312.5,
-    "durationMs": 325.0
+    "durationMs": 437.5
   },
   {
     "text": "de",
-    "startMs": 650.0,
+    "startMs": 550.0,
     "durationMs": 100.0
   },
   {
-    "text": "recolección",
-    "startMs": 762.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "de",
-    "startMs": 1362.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "basura",
-    "startMs": 1450.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "es",
-    "startMs": 1912.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "el",
-    "startMs": 2062.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "favorito",
-    "startMs": 2162.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "de",
-    "startMs": 2662.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "Garbodor",
-    "startMs": 2762.5,
+    "text": "recogida",
+    "startMs": 662.5,
     "durationMs": 512.5
   },
   {
-    "text": "Koffing",
-    "startMs": 3537.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "escarba",
-    "startMs": 3900.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "feliz",
-    "startMs": 4375.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "en",
-    "startMs": 4762.5,
+    "text": "de",
+    "startMs": 1187.5,
     "durationMs": 100.0
   },
   {
-    "text": "el",
-    "startMs": 4875.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "montón",
-    "startMs": 5000.0,
-    "durationMs": 525.0
+    "text": "basura",
+    "startMs": 1300.0,
+    "durationMs": 487.5
   }
 ]

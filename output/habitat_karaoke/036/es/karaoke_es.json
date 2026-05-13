@@ -5,48 +5,18 @@
     "durationMs": 487.5
   },
   {
-    "text": "suavemente",
+    "text": "en",
     "startMs": 600.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "a",
-    "startMs": 1200.0,
-    "durationMs": 25.0
+    "durationMs": 62.5
   },
   {
     "text": "la",
-    "startMs": 1237.5,
+    "startMs": 675.0,
     "durationMs": 75.0
   },
   {
-    "text": "sombra",
-    "startMs": 1325.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Blastoise",
-    "startMs": 2037.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "disfruta",
-    "startMs": 2550.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "la",
-    "startMs": 3075.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "brisa",
-    "startMs": 3187.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "fresca",
-    "startMs": 3562.5,
-    "durationMs": 475.0
+    "text": "Sombra",
+    "startMs": 762.5,
+    "durationMs": 450.0
   }
 ]

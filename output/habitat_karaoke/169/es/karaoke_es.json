@@ -1,82 +1,17 @@
 [
   {
-    "text": "El",
+    "text": "Programa",
     "startMs": 100.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "programa",
-    "startMs": 300.0,
-    "durationMs": 425.0
+    "durationMs": 462.5
   },
   {
     "text": "de",
-    "startMs": 737.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "aprendiz",
-    "startMs": 837.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "del",
-    "startMs": 1300.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "profesor",
-    "startMs": 1437.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "ha",
-    "startMs": 1900.0,
-    "durationMs": 37.5
-  },
-  {
-    "text": "comenzado",
-    "startMs": 1950.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "Metang",
-    "startMs": 2900.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "aprende",
-    "startMs": 3300.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "investigación",
-    "startMs": 3675.0,
-    "durationMs": 737.5
-  },
-  {
-    "text": "bajo",
-    "startMs": 4425.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "la",
-    "startMs": 4675.0,
+    "startMs": 575.0,
     "durationMs": 100.0
   },
   {
-    "text": "guía",
-    "startMs": 4787.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "del",
-    "startMs": 5062.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "mentor",
-    "startMs": 5237.5,
-    "durationMs": 525.0
+    "text": "Aprendices",
+    "startMs": 687.5,
+    "durationMs": 762.5
   }
 ]

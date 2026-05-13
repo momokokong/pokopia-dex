@@ -5,63 +5,18 @@
     "durationMs": 425.0
   },
   {
-    "text": "to",
+    "text": "To",
     "startMs": 537.5,
-    "durationMs": 125.0
+    "durationMs": 112.5
   },
   {
-    "text": "the",
-    "startMs": 675.0,
-    "durationMs": 137.5
+    "text": "The",
+    "startMs": 662.5,
+    "durationMs": 150.0
   },
   {
-    "text": "rhythm",
+    "text": "Rhythm",
     "startMs": 825.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "and",
-    "startMs": 1237.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "move",
-    "startMs": 1437.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "Machoke",
-    "startMs": 2062.5,
-    "durationMs": 712.5
-  },
-  {
-    "text": "and",
-    "startMs": 2787.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Riolu",
-    "startMs": 2987.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "exercise",
-    "startMs": 3500.0,
-    "durationMs": 775.0
-  },
-  {
-    "text": "to",
-    "startMs": 4287.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "the",
-    "startMs": 4425.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "beat",
-    "startMs": 4562.5,
-    "durationMs": 362.5
+    "durationMs": 475.0
   }
 ]

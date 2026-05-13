@@ -2,51 +2,21 @@
   {
     "text": "Sorpresa",
     "startMs": 100.0,
-    "durationMs": 587.5
+    "durationMs": 600.0
   },
   {
     "text": "en",
-    "startMs": 700.0,
+    "startMs": 712.5,
     "durationMs": 50.0
   },
   {
     "text": "la",
-    "startMs": 762.5,
+    "startMs": 775.0,
     "durationMs": 87.5
   },
   {
     "text": "tienda",
-    "startMs": 862.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Gengar",
-    "startMs": 2175.0,
+    "startMs": 875.0,
     "durationMs": 437.5
-  },
-  {
-    "text": "y",
-    "startMs": 2625.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Zoroark",
-    "startMs": 2687.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "hacen",
-    "startMs": 3212.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "trucos",
-    "startMs": 3537.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "mágicos",
-    "startMs": 3950.0,
-    "durationMs": 662.5
   }
 ]

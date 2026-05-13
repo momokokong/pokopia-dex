@@ -2,71 +2,16 @@
   {
     "text": "Pink",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 375.0
   },
   {
-    "text": "tall",
-    "startMs": 475.0,
+    "text": "Tall",
+    "startMs": 487.5,
     "durationMs": 350.0
   },
   {
-    "text": "grass",
-    "startMs": 837.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "dreamy",
-    "startMs": 1250.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "and",
-    "startMs": 1812.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "romantic",
-    "startMs": 2012.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "Flygon",
-    "startMs": 3012.5,
-    "durationMs": 637.5
-  },
-  {
-    "text": "and",
-    "startMs": 3662.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Swablu",
-    "startMs": 3850.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "dance",
-    "startMs": 4487.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "among",
-    "startMs": 4900.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "the",
-    "startMs": 5250.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "pink",
-    "startMs": 5362.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "blades",
-    "startMs": 5725.0,
-    "durationMs": 600.0
+    "text": "Grass",
+    "startMs": 850.0,
+    "durationMs": 575.0
   }
 ]

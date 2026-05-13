@@ -2,66 +2,16 @@
   {
     "text": "音樂",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 375.0
   },
   {
-    "text": "和",
+    "text": "與",
     "startMs": 500.0,
-    "durationMs": 175.0
+    "durationMs": 75.0
   },
   {
     "text": "雜誌",
-    "startMs": 687.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "相伴",
-    "startMs": 1025.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "音箱",
-    "startMs": 1850.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "蟲",
-    "startMs": 2187.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "和",
-    "startMs": 2425.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "洛",
-    "startMs": 2650.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "托",
-    "startMs": 2812.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "姆",
-    "startMs": 2987.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "一起",
-    "startMs": 3162.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "放鬆",
-    "startMs": 3487.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "聽歌",
-    "startMs": 3875.0,
-    "durationMs": 462.5
+    "startMs": 637.5,
+    "durationMs": 525.0
   }
 ]

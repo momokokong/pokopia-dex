@@ -1,62 +1,22 @@
 [
   {
-    "text": "Un",
+    "text": "Lugar",
     "startMs": 100.0,
-    "durationMs": 137.5
+    "durationMs": 362.5
+  },
+  {
+    "text": "de",
+    "startMs": 475.0,
+    "durationMs": 87.5
   },
   {
     "text": "descanso",
-    "startMs": 250.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "deportivo",
-    "startMs": 750.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "para",
-    "startMs": 1362.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "recuperar",
-    "startMs": 1587.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "el",
-    "startMs": 2125.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "aliento",
-    "startMs": 2250.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Hitmonchan",
-    "startMs": 3012.5,
-    "durationMs": 637.5
-  },
-  {
-    "text": "toma",
-    "startMs": 3662.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "un",
-    "startMs": 3950.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "merecido",
-    "startMs": 4125.0,
+    "startMs": 575.0,
     "durationMs": 500.0
   },
   {
-    "text": "descanso",
-    "startMs": 4637.5,
-    "durationMs": 625.0
+    "text": "deportivo",
+    "startMs": 1087.5,
+    "durationMs": 662.5
   }
 ]

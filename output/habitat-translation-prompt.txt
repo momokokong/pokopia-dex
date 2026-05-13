@@ -1,0 +1,220 @@
+Translate these 200 habitat/location names from English to Chinese (Traditional, zh-TW) and Spanish (es-MX).
+
+Each name is a short descriptive location phrase from a Pokemon game. Keep translations natural and kid-friendly (target audience: 5-7 year old children).
+
+Input format: [ID] English name
+Output format: JSON object with IDs as keys, each containing {zh, es}
+
+Example:
+Input:
+[1] Tall Grass
+[4] Rocky Tall Grass
+
+Output:
+{
+  "1": {"zh": "高草叢", "es": "Hierba alta"},
+  "4": {"zh": "岩石高草叢", "es": "Hierba alta rocosa"}
+}
+
+Now translate all 200 names. Output ONLY the JSON object, no other text:
+
+[2] Tree Shaded Tall Grass
+[3] Boulder Shaded Tall Grass
+[5] Seaside Tall Grass
+[6] Elevated Tall Grass
+[7] Illuminated Tall Grass
+[8] Pretty Flower Bed
+[9] Tree Shaded Flower Bed
+[10] Hydrated Flower Bed
+[11] Field Of Flowers
+[12] Elevated Flower Bed
+[13] Grave With Flowers
+[14] Flower Garden
+[15] Fresh Veggie Field
+[16] Riding Warm Updrafts
+[17] Campsite
+[18] Training Waterfall
+[19] Tantalizing Dining Set
+[20] Picnic Set
+[21] Flowery Table
+[23] Illuminated Bench
+[24] Exercise Resting Spot
+[25] Urgent Care
+[26] Gym First Aid
+[27] Road Sign
+[28] Large Luggage Carrier
+[29] Lumberjacks Workplace
+[30] Bed With A Plush
+[31] Gently Lit Bed
+[32] Grave Offering
+[33] Creepy Grave Offering
+[34] Chansey Resting Area
+[35] Irresistible Scent And Glow
+[36] Floating In The Shade
+[37] Smooth Tall Grass
+[38] Factory Storage
+[39] Luxury Chirp Chirp Meal
+[40] Berry Feast Campsite
+[41] Rain Dance Site
+[42] Sunny Day Site
+[44] Crazy Log Handicrafts
+[45] Very Berry Space
+[46] Garden Terrace
+[47] Tree Shaded Snoozing Snorlax
+[48] Good Old Fashioned Antiques
+[49] Nothin But Poke Balls
+[50] Yellow Tall Grass
+[51] Tree Shaded Yellow Tall Grass
+[52] Elevated Yellow Tall Grass
+[53] Hydrated Yellow Tall Grass
+[54] Marshy Tall Grass
+[55] Overgrowth Vending Machine
+[56] Breezy Flower Bed
+[57] Tropical Vibes
+[58] Windy Flower Bed
+[59] Shaded Beach
+[60] Tropical Seaside
+[61] Resting Spot
+[62] Perpetual Mess
+[63] Trash Collection Site
+[64] Trash Can Central
+[65] Trash Disposal Site
+[66] Park Bench
+[67] Tantalizing Restaurant
+[68] Tableside Delivery Cart
+[69] Chirp Chirp Meal
+[70] Cafe Space
+[71] Beach Set
+[72] Light Up Stage
+[73] Surprise In Store
+[74] Night Festival Venue
+[75] Changing Area
+[76] Private Makeup Stand
+[77] Knitting Station
+[78] Hot Spring Shower
+[79] Resort Meal Prep
+[80] All Packed Up
+[81] Full Recovery
+[82] Alarm Clock Sleep Zone
+[83] Vending Machine Break Area
+[84] Vending Machine Set
+[85] Mini Game Corner
+[86] Waterwheel Spot
+[87] Furnace Spot
+[89] Spooky Study
+[90] Playing Pirate
+[91] Working The Register
+[92] Tiny Atelier
+[94] Pikachu Space
+[95] Cuteness Overload
+[96] Welcoming Resort
+[97] Plain Life
+[98] Red Tall Grass
+[99] Tree Shaded Red Tall Grass
+[100] Pointy Tree Shaded Rocky Tall Grass
+[101] Hydrated Red Tall Grass
+[102] Elevated Red Tall Grass
+[103] Grassy Training Field
+[104] Graceful Flower Bed
+[105] Tree Shaded Graceful Flower Bed
+[106] Hydrated Graceful Flower Bed
+[107] Flower Garden Stump Stage
+[108] Toil In The Soil
+[109] Uplifting Duckweed
+[110] Mossy Rest Spot
+[111] Mossy Boulder
+[112] Mossy Hot Spring
+[113] Open Air Bath
+[114] Harmonious Hot Spring
+[115] Piping Hot Lava
+[116] Digging And Burning
+[117] Clink Clang Iron Construction
+[118] Creepy White Rocks
+[119] Container Snacking
+[120] Dinner Table Surprise
+[121] Best Bread Bakery
+[122] Mini Kitchen
+[123] House Party
+[124] Lazy Photo Album Scrolling
+[125] Chirping Recital
+[127] Box To The Rhythm
+[128] Music And Magazines
+[129] Mini Museum
+[130] Refreshing Locker Room
+[131] Bronze Landmark
+[132] Railroad Crossing
+[133] Chefs Kitchen
+[134] Absolute Luxury
+[135] Heavy Iron
+[136] Modern Living
+[137] Pink Tall Grass
+[138] Tree Shaded Pink Tall Grass
+[139] Hydrated Pink Tall Grass
+[140] Elevated Pink Tall Grass
+[141] Concrete Pipe Secret Base
+[142] Fluffy Flower Bed
+[143] Tree Shaded Fluffy Flower Bed
+[144] Hydrated Fluffy Flower Bed
+[145] Waterside Dinghy
+[146] Illuminated Waterfall
+[147] Birdsong Garden
+[148] Simple Bathroom
+[149] Cycling Rest Stop
+[150] Fireplace Nap Spot
+[151] Surging Psychic Power
+[152] Fortune Tellers Table
+[153] Trash Site Tv
+[154] Oversized Dumping Ground
+[155] Interrogation Desk
+[156] Sewer Hole Inspection
+[157] Spotless Washing Station
+[158] Home Theater
+[159] Study Area
+[160] Rhythmic Living Room
+[161] Squeaky Clean
+[162] Moisturizing Makeup Stand
+[163] Mini Library
+[164] Game Corner Battle Zone
+[165] Playland
+[166] Work Desk
+[167] Office Storeroom
+[168] Experiment Space
+[169] Professors Apprentice Program
+[170] Researchers Desk
+[171] Public Reading Material
+[172] Heart Pounding Surprise Box
+[173] Prank Button
+[174] Picturesque Photo Cutout Board
+[175] Tire Park
+[176] Natures Market
+[177] Construction Site Generator
+[178] Dojo Training
+[179] Evil Organization Hq
+[180] Nine Flames
+[181] Plush Central
+[182] Gamers Paradise
+[183] Top Pop
+[184] Fishing Pond
+[185] Ocean Fishing Spot
+[186] Marsh Fishing Spot
+[187] Hot Spring Fishing Spot
+[188] Magma Fishing Spot
+[191] Malicious Knights Shrine
+[192] Auspicious Knights Shrine
+[193] Wing Fossil Display
+[194] Skull Fossil Display
+[195] Headbutt Fossil Display
+[196] Armor Fossil Display
+[197] Shield Fossil Display
+[198] Jaw Fossil Display
+[199] Despot Fossil Display
+[200] Sail Fossil Display
+[201] Tundra Fossil Display
+[202] Boundless Blue Beverage
+[203] Electrifying Potatoes
+[204] Burning Hot Spice
+[205] Elegant Daytime Treats
+[206] Dark Chocolate Cookies
+[207] Leafy Greens Sandwich
+[208] Chilly Shaved Ice
+[209] Lovely Ribbon Cake

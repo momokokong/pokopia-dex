@@ -1,57 +1,17 @@
 [
   {
-    "text": "豪華的",
+    "text": "豪華",
     "startMs": 100.0,
-    "durationMs": 587.5
+    "durationMs": 412.5
   },
   {
     "text": "啾啾",
-    "startMs": 725.0,
+    "startMs": 525.0,
     "durationMs": 300.0
   },
   {
     "text": "大餐",
-    "startMs": 1037.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "精緻",
-    "startMs": 1475.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "美味",
-    "startMs": 1800.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "比",
-    "startMs": 2625.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "雕",
-    "startMs": 2750.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "優雅",
-    "startMs": 2937.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "地",
-    "startMs": 3250.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "品嚐",
-    "startMs": 3375.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "佳餚",
-    "startMs": 3775.0,
-    "durationMs": 500.0
+    "startMs": 837.5,
+    "durationMs": 462.5
   }
 ]

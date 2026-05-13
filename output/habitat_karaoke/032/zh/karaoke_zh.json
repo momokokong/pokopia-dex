@@ -1,52 +1,12 @@
 [
   {
-    "text": "墓",
+    "text": "墓地",
     "startMs": 100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "前",
-    "startMs": 300.0,
-    "durationMs": 150.0
+    "durationMs": 337.5
   },
   {
     "text": "供品",
-    "startMs": 525.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "莊嚴",
-    "startMs": 900.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "肅穆",
-    "startMs": 1262.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "燈火",
-    "startMs": 2037.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "幽靜",
-    "startMs": 2387.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "守護",
-    "startMs": 2725.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "著",
-    "startMs": 3137.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "安寧",
-    "startMs": 3250.0,
-    "durationMs": 487.5
+    "startMs": 487.5,
+    "durationMs": 437.5
   }
 ]

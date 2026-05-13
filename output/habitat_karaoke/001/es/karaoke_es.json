@@ -2,66 +2,11 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 425.0
+    "durationMs": 450.0
   },
   {
     "text": "alta",
-    "startMs": 537.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "iluminada",
-    "startMs": 762.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "por",
-    "startMs": 1325.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "el",
-    "startMs": 1512.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "sol",
-    "startMs": 1625.0,
-    "durationMs": 250.0
-  },
-  {
-    "text": "donde",
-    "startMs": 1887.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "Charmander",
-    "startMs": 2162.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "y",
-    "startMs": 2750.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Bulbasaur",
-    "startMs": 2812.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "juegan",
-    "startMs": 3412.5,
+    "startMs": 562.5,
     "durationMs": 387.5
-  },
-  {
-    "text": "al",
-    "startMs": 3812.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "escondite",
-    "startMs": 3937.5,
-    "durationMs": 650.0
   }
 ]

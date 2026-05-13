@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[107] Flower Garden Stump Stage
+[108] Toil In The Soil
+[109] Uplifting Duckweed
+[110] Mossy Rest Spot
+[111] Mossy Boulder
+[112] Mossy Hot Spring
+[113] Open Air Bath
+[114] Harmonious Hot Spring
+[115] Piping Hot Lava
+[116] Digging And Burning
+[117] Clink Clang Iron Construction
+[118] Creepy White Rocks
+[119] Container Snacking
+[120] Dinner Table Surprise
+[121] Best Bread Bakery
+[122] Mini Kitchen
+[123] House Party
+[124] Lazy Photo Album Scrolling
+[125] Chirping Recital
+[127] Box To The Rhythm
+[128] Music And Magazines
+[129] Mini Museum
+[130] Refreshing Locker Room
+[131] Bronze Landmark
+[132] Railroad Crossing
+
+{
+  "107": {"zh": "...", "es": "..."},
+  "108": {"zh": "...", "es": "..."},
+  "109": {"zh": "...", "es": "..."},
+  "110": {"zh": "...", "es": "..."},
+  "111": {"zh": "...", "es": "..."},
+  "112": {"zh": "...", "es": "..."},
+  "113": {"zh": "...", "es": "..."},
+  "114": {"zh": "...", "es": "..."},
+  "115": {"zh": "...", "es": "..."},
+  "116": {"zh": "...", "es": "..."},
+  "117": {"zh": "...", "es": "..."},
+  "118": {"zh": "...", "es": "..."},
+  "119": {"zh": "...", "es": "..."},
+  "120": {"zh": "...", "es": "..."},
+  "121": {"zh": "...", "es": "..."},
+  "122": {"zh": "...", "es": "..."},
+  "123": {"zh": "...", "es": "..."},
+  "124": {"zh": "...", "es": "..."},
+  "125": {"zh": "...", "es": "..."},
+  "127": {"zh": "...", "es": "..."},
+  "128": {"zh": "...", "es": "..."},
+  "129": {"zh": "...", "es": "..."},
+  "130": {"zh": "...", "es": "..."},
+  "131": {"zh": "...", "es": "..."},
+  "132": {"zh": "...", "es": "..."}
+}

@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[80] All Packed Up
+[81] Full Recovery
+[82] Alarm Clock Sleep Zone
+[83] Vending Machine Break Area
+[84] Vending Machine Set
+[85] Mini Game Corner
+[86] Waterwheel Spot
+[87] Furnace Spot
+[89] Spooky Study
+[90] Playing Pirate
+[91] Working The Register
+[92] Tiny Atelier
+[94] Pikachu Space
+[95] Cuteness Overload
+[96] Welcoming Resort
+[97] Plain Life
+[98] Red Tall Grass
+[99] Tree Shaded Red Tall Grass
+[100] Pointy Tree Shaded Rocky Tall Grass
+[101] Hydrated Red Tall Grass
+[102] Elevated Red Tall Grass
+[103] Grassy Training Field
+[104] Graceful Flower Bed
+[105] Tree Shaded Graceful Flower Bed
+[106] Hydrated Graceful Flower Bed
+
+{
+  "80": {"zh": "...", "es": "..."},
+  "81": {"zh": "...", "es": "..."},
+  "82": {"zh": "...", "es": "..."},
+  "83": {"zh": "...", "es": "..."},
+  "84": {"zh": "...", "es": "..."},
+  "85": {"zh": "...", "es": "..."},
+  "86": {"zh": "...", "es": "..."},
+  "87": {"zh": "...", "es": "..."},
+  "89": {"zh": "...", "es": "..."},
+  "90": {"zh": "...", "es": "..."},
+  "91": {"zh": "...", "es": "..."},
+  "92": {"zh": "...", "es": "..."},
+  "94": {"zh": "...", "es": "..."},
+  "95": {"zh": "...", "es": "..."},
+  "96": {"zh": "...", "es": "..."},
+  "97": {"zh": "...", "es": "..."},
+  "98": {"zh": "...", "es": "..."},
+  "99": {"zh": "...", "es": "..."},
+  "100": {"zh": "...", "es": "..."},
+  "101": {"zh": "...", "es": "..."},
+  "102": {"zh": "...", "es": "..."},
+  "103": {"zh": "...", "es": "..."},
+  "104": {"zh": "...", "es": "..."},
+  "105": {"zh": "...", "es": "..."},
+  "106": {"zh": "...", "es": "..."}
+}

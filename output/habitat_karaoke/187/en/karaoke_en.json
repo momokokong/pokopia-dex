@@ -2,76 +2,21 @@
   {
     "text": "Hot",
     "startMs": 100.0,
-    "durationMs": 325.0
+    "durationMs": 337.5
   },
   {
-    "text": "spring",
-    "startMs": 437.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "fishing",
-    "startMs": 875.0,
+    "text": "Spring",
+    "startMs": 450.0,
     "durationMs": 450.0
   },
   {
-    "text": "spot",
-    "startMs": 1337.5,
-    "durationMs": 412.5
+    "text": "Fishing",
+    "startMs": 912.5,
+    "durationMs": 450.0
   },
   {
-    "text": "warm",
-    "startMs": 1762.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "and",
-    "startMs": 2137.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "toasty",
-    "startMs": 2300.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "Lombre",
-    "startMs": 3175.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "and",
-    "startMs": 3850.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Lotad",
-    "startMs": 4037.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "fish",
-    "startMs": 4550.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "in",
-    "startMs": 4962.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "the",
-    "startMs": 5112.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "warm",
-    "startMs": 5225.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "water",
-    "startMs": 5587.5,
+    "text": "Spot",
+    "startMs": 1375.0,
     "durationMs": 475.0
   }
 ]

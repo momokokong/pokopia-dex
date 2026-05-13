@@ -1,72 +1,17 @@
 [
   {
-    "text": "明亮的",
+    "text": "發光",
     "startMs": 100.0,
-    "durationMs": 512.5
+    "durationMs": 362.5
   },
   {
     "text": "長",
-    "startMs": 625.0,
-    "durationMs": 250.0
-  },
-  {
-    "text": "椅",
-    "startMs": 912.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "燈光",
-    "startMs": 1062.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "柔和",
-    "startMs": 1425.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "摩",
-    "startMs": 2200.0,
+    "startMs": 500.0,
     "durationMs": 175.0
   },
   {
-    "text": "魯",
-    "startMs": 2437.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "蛾",
-    "startMs": 2525.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 2700.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "暖",
-    "startMs": 2862.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "光中",
-    "startMs": 3050.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "靜",
-    "startMs": 3450.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "靜",
-    "startMs": 3637.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "休息",
-    "startMs": 3787.5,
-    "durationMs": 575.0
+    "text": "椅",
+    "startMs": 737.5,
+    "durationMs": 175.0
   }
 ]

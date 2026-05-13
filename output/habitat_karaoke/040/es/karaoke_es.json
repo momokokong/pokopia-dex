@@ -1,62 +1,27 @@
 [
   {
-    "text": "Un",
+    "text": "Campamento",
     "startMs": 100.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "campamento",
-    "startMs": 262.5,
-    "durationMs": 587.5
+    "durationMs": 625.0
   },
   {
     "text": "de",
-    "startMs": 862.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "festín",
-    "startMs": 975.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "de",
-    "startMs": 1362.5,
+    "startMs": 737.5,
     "durationMs": 87.5
   },
   {
-    "text": "bayas",
-    "startMs": 1462.5,
-    "durationMs": 350.0
+    "text": "Banquete",
+    "startMs": 837.5,
+    "durationMs": 450.0
   },
   {
-    "text": "huele",
-    "startMs": 1825.0,
-    "durationMs": 212.5
+    "text": "de",
+    "startMs": 1300.0,
+    "durationMs": 100.0
   },
   {
-    "text": "increíble",
-    "startMs": 2050.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "Charizard",
-    "startMs": 2900.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "devora",
-    "startMs": 3412.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "bayas",
-    "startMs": 3775.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "deliciosas",
-    "startMs": 4125.0,
-    "durationMs": 800.0
+    "text": "Bayas",
+    "startMs": 1412.5,
+    "durationMs": 537.5
   }
 ]

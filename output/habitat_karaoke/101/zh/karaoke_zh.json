@@ -1,67 +1,22 @@
 [
   {
-    "text": "潮濕的",
+    "text": "濕潤",
     "startMs": 100.0,
-    "durationMs": 575.0
+    "durationMs": 437.5
   },
   {
     "text": "紅色",
-    "startMs": 700.0,
-    "durationMs": 412.5
+    "startMs": 575.0,
+    "durationMs": 400.0
   },
   {
-    "text": "高草",
-    "startMs": 1162.5,
-    "durationMs": 375.0
+    "text": "高",
+    "startMs": 1012.5,
+    "durationMs": 175.0
   },
   {
-    "text": "叢水",
-    "startMs": 1550.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "珠",
-    "startMs": 1962.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "閃閃",
-    "startMs": 2137.5,
+    "text": "草叢",
+    "startMs": 1200.0,
     "durationMs": 525.0
-  },
-  {
-    "text": "蓮葉",
-    "startMs": 3025.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "童子",
-    "startMs": 3337.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "在",
-    "startMs": 3712.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "水",
-    "startMs": 3900.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "窪",
-    "startMs": 4100.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "中",
-    "startMs": 4300.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "嬉戲",
-    "startMs": 4462.5,
-    "durationMs": 550.0
   }
 ]

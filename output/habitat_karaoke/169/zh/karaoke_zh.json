@@ -2,56 +2,16 @@
   {
     "text": "教授",
     "startMs": 100.0,
-    "durationMs": 387.5
+    "durationMs": 375.0
   },
   {
-    "text": "學徒",
+    "text": "實習",
     "startMs": 500.0,
-    "durationMs": 350.0
+    "durationMs": 312.5
   },
   {
     "text": "計畫",
-    "startMs": 900.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "啟動",
-    "startMs": 1275.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "金屬",
-    "startMs": 2037.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "怪",
-    "startMs": 2437.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "在",
-    "startMs": 2600.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "導師",
-    "startMs": 2737.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "指導",
-    "startMs": 3162.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "下學習",
-    "startMs": 3525.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "研究",
-    "startMs": 4075.0,
-    "durationMs": 500.0
+    "startMs": 862.5,
+    "durationMs": 550.0
   }
 ]

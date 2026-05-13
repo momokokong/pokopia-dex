@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[158] Home Theater
+[159] Study Area
+[160] Rhythmic Living Room
+[161] Squeaky Clean
+[162] Moisturizing Makeup Stand
+[163] Mini Library
+[164] Game Corner Battle Zone
+[165] Playland
+[166] Work Desk
+[167] Office Storeroom
+[168] Experiment Space
+[169] Professors Apprentice Program
+[170] Researchers Desk
+[171] Public Reading Material
+[172] Heart Pounding Surprise Box
+[173] Prank Button
+[174] Picturesque Photo Cutout Board
+[175] Tire Park
+[176] Natures Market
+[177] Construction Site Generator
+[178] Dojo Training
+[179] Evil Organization Hq
+[180] Nine Flames
+[181] Plush Central
+[182] Gamers Paradise
+
+{
+  "158": {"zh": "...", "es": "..."},
+  "159": {"zh": "...", "es": "..."},
+  "160": {"zh": "...", "es": "..."},
+  "161": {"zh": "...", "es": "..."},
+  "162": {"zh": "...", "es": "..."},
+  "163": {"zh": "...", "es": "..."},
+  "164": {"zh": "...", "es": "..."},
+  "165": {"zh": "...", "es": "..."},
+  "166": {"zh": "...", "es": "..."},
+  "167": {"zh": "...", "es": "..."},
+  "168": {"zh": "...", "es": "..."},
+  "169": {"zh": "...", "es": "..."},
+  "170": {"zh": "...", "es": "..."},
+  "171": {"zh": "...", "es": "..."},
+  "172": {"zh": "...", "es": "..."},
+  "173": {"zh": "...", "es": "..."},
+  "174": {"zh": "...", "es": "..."},
+  "175": {"zh": "...", "es": "..."},
+  "176": {"zh": "...", "es": "..."},
+  "177": {"zh": "...", "es": "..."},
+  "178": {"zh": "...", "es": "..."},
+  "179": {"zh": "...", "es": "..."},
+  "180": {"zh": "...", "es": "..."},
+  "181": {"zh": "...", "es": "..."},
+  "182": {"zh": "...", "es": "..."}
+}

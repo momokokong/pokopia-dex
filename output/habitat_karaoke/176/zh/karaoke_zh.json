@@ -2,66 +2,11 @@
   {
     "text": "自然",
     "startMs": 100.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "市集",
-    "startMs": 487.5,
     "durationMs": 350.0
   },
   {
-    "text": "熱鬧",
-    "startMs": 900.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "又",
-    "startMs": 1237.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "溫馨",
-    "startMs": 1387.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "雷",
-    "startMs": 2200.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "丘",
-    "startMs": 2362.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "在",
-    "startMs": 2575.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "攤位",
-    "startMs": 2712.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "間",
-    "startMs": 3062.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "挑選",
-    "startMs": 3250.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "新鮮",
-    "startMs": 3612.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "蔬果",
-    "startMs": 3975.0,
-    "durationMs": 500.0
+    "text": "市集",
+    "startMs": 475.0,
+    "durationMs": 537.5
   }
 ]

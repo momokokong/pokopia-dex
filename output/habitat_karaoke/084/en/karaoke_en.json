@@ -5,58 +5,13 @@
     "durationMs": 487.5
   },
   {
-    "text": "machine",
+    "text": "Machine",
     "startMs": 600.0,
-    "durationMs": 487.5
+    "durationMs": 475.0
   },
   {
-    "text": "set",
-    "startMs": 1100.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "for",
-    "startMs": 1425.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "energy",
-    "startMs": 1712.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "boosts",
-    "startMs": 2175.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "Electivire",
-    "startMs": 3062.5,
-    "durationMs": 750.0
-  },
-  {
-    "text": "and",
-    "startMs": 3912.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Elekid",
-    "startMs": 4087.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "chug",
-    "startMs": 4562.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "down",
-    "startMs": 4950.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "drinks",
-    "startMs": 5287.5,
-    "durationMs": 600.0
+    "text": "Set",
+    "startMs": 1087.5,
+    "durationMs": 387.5
   }
 ]

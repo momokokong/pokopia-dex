@@ -1,77 +1,22 @@
 [
   {
-    "text": "詭異",
+    "text": "怪",
     "startMs": 100.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "白色",
-    "startMs": 412.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "岩石",
-    "startMs": 800.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "散發",
-    "startMs": 1162.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "微光",
-    "startMs": 1575.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "賽",
-    "startMs": 2362.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "富利",
-    "startMs": 2587.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "和",
-    "startMs": 3000.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "礦石",
-    "startMs": 3225.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "蟲",
-    "startMs": 3612.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "在",
-    "startMs": 3875.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "石",
-    "startMs": 4012.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "縫",
-    "startMs": 4237.5,
     "durationMs": 162.5
   },
   {
-    "text": "間",
-    "startMs": 4450.0,
-    "durationMs": 137.5
+    "text": "怪",
+    "startMs": 300.0,
+    "durationMs": 150.0
   },
   {
-    "text": "探險",
-    "startMs": 4637.5,
-    "durationMs": 512.5
+    "text": "白",
+    "startMs": 462.5,
+    "durationMs": 162.5
+  },
+  {
+    "text": "石頭",
+    "startMs": 650.0,
+    "durationMs": 500.0
   }
 ]

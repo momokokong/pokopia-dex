@@ -1,67 +1,17 @@
 [
   {
-    "text": "算命",
+    "text": "占卜",
     "startMs": 100.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "桌上",
-    "startMs": 575.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "水晶球",
-    "startMs": 950.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "閃閃",
-    "startMs": 1525.0,
     "durationMs": 350.0
   },
   {
-    "text": "發光",
-    "startMs": 1925.0,
-    "durationMs": 487.5
+    "text": "師的",
+    "startMs": 462.5,
+    "durationMs": 325.0
   },
   {
-    "text": "勇",
-    "startMs": 2712.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "基拉",
-    "startMs": 2900.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "和",
-    "startMs": 3287.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "凱",
-    "startMs": 3500.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "西",
-    "startMs": 3675.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "一起",
-    "startMs": 3925.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "預測",
-    "startMs": 4212.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "未來",
-    "startMs": 4562.5,
-    "durationMs": 450.0
+    "text": "桌子",
+    "startMs": 825.0,
+    "durationMs": 462.5
   }
 ]

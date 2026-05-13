@@ -1,62 +1,12 @@
 [
   {
-    "text": "緊急",
+    "text": "急診",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 362.5
   },
   {
-    "text": "醫護",
-    "startMs": 500.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "站",
-    "startMs": 862.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "隨時",
-    "startMs": 1062.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "待命",
-    "startMs": 1437.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "沙瓦",
-    "startMs": 2212.5,
+    "text": "中心",
+    "startMs": 525.0,
     "durationMs": 412.5
-  },
-  {
-    "text": "郎",
-    "startMs": 2637.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "在",
-    "startMs": 2837.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "這裡",
-    "startMs": 3000.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "治療",
-    "startMs": 3325.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "再",
-    "startMs": 3675.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "出發",
-    "startMs": 3825.0,
-    "durationMs": 550.0
   }
 ]

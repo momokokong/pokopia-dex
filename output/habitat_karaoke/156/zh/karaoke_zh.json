@@ -2,61 +2,16 @@
   {
     "text": "下水道",
     "startMs": 100.0,
-    "durationMs": 612.5
+    "durationMs": 600.0
   },
   {
-    "text": "檢查",
-    "startMs": 762.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "通道",
-    "startMs": 1212.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "陰暗",
-    "startMs": 1525.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "潮濕",
-    "startMs": 1862.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "鋼",
-    "startMs": 2775.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "鎧鴉",
-    "startMs": 2937.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "和",
-    "startMs": 3312.5,
+    "text": "孔",
+    "startMs": 750.0,
     "durationMs": 162.5
   },
   {
-    "text": "鐵",
-    "startMs": 3512.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "鍛匠",
-    "startMs": 3700.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "勇敢",
-    "startMs": 4037.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "巡邏",
-    "startMs": 4375.0,
+    "text": "檢查",
+    "startMs": 962.5,
     "durationMs": 550.0
   }
 ]

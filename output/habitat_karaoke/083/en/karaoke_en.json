@@ -2,56 +2,21 @@
   {
     "text": "Vending",
     "startMs": 100.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "machine",
-    "startMs": 575.0,
     "durationMs": 487.5
   },
   {
-    "text": "break",
-    "startMs": 1075.0,
+    "text": "Machine",
+    "startMs": 600.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "Break",
+    "startMs": 1125.0,
     "durationMs": 350.0
   },
   {
-    "text": "area",
-    "startMs": 1437.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "is",
-    "startMs": 1950.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "a",
-    "startMs": 2125.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "bug's",
-    "startMs": 2212.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "favorite",
-    "startMs": 2662.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "Charjabug",
-    "startMs": 3487.5,
-    "durationMs": 712.5
-  },
-  {
-    "text": "recharges",
-    "startMs": 4212.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "nearby",
-    "startMs": 4950.0,
-    "durationMs": 612.5
+    "text": "Area",
+    "startMs": 1487.5,
+    "durationMs": 487.5
   }
 ]

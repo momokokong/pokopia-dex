@@ -5,58 +5,13 @@
     "durationMs": 362.5
   },
   {
+    "text": "小",
+    "startMs": 475.0,
+    "durationMs": 187.5
+  },
+  {
     "text": "廚房",
-    "startMs": 487.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "裡",
-    "startMs": 900.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "鍋鏟",
-    "startMs": 1062.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "鏟",
-    "startMs": 1437.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "齊",
-    "startMs": 1637.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "飛",
-    "startMs": 1850.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "鴨",
-    "startMs": 2462.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "嘴炎",
-    "startMs": 2650.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "魔",
-    "startMs": 2962.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "大展",
-    "startMs": 3162.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "廚藝",
-    "startMs": 3525.0,
-    "durationMs": 487.5
+    "startMs": 700.0,
+    "durationMs": 462.5
   }
 ]

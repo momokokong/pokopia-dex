@@ -1,47 +1,17 @@
 [
   {
-    "text": "Busy",
+    "text": "Large",
     "startMs": 100.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "luggage",
-    "startMs": 487.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "area",
-    "startMs": 987.5,
     "durationMs": 450.0
   },
   {
-    "text": "where",
-    "startMs": 1450.0,
-    "durationMs": 225.0
+    "text": "Luggage",
+    "startMs": 562.5,
+    "durationMs": 487.5
   },
   {
-    "text": "Gurdurr",
-    "startMs": 1687.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "helps",
-    "startMs": 2087.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "carry",
-    "startMs": 2475.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "heavy",
-    "startMs": 2887.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "loads",
-    "startMs": 3237.5,
-    "durationMs": 600.0
+    "text": "Carrier",
+    "startMs": 1062.5,
+    "durationMs": 662.5
   }
 ]

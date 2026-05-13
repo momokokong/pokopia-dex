@@ -2,81 +2,16 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 425.0
+    "durationMs": 400.0
   },
   {
-    "text": "alta",
-    "startMs": 537.5,
-    "durationMs": 250.0
-  },
-  {
-    "text": "rosa",
-    "startMs": 800.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "en",
-    "startMs": 1125.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "las",
-    "startMs": 1187.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "alturas",
-    "startMs": 1350.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "con",
-    "startMs": 1837.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "vista",
-    "startMs": 2025.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "amplia",
-    "startMs": 2387.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "Corviknight",
-    "startMs": 3000.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "y",
-    "startMs": 3662.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Kilowattrel",
-    "startMs": 3737.5,
-    "durationMs": 662.5
-  },
-  {
-    "text": "vuelan",
-    "startMs": 4412.5,
+    "text": "Rosa",
+    "startMs": 512.5,
     "durationMs": 337.5
   },
   {
-    "text": "en",
-    "startMs": 4762.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "el",
-    "startMs": 4887.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "viento",
-    "startMs": 5025.0,
-    "durationMs": 425.0
+    "text": "Elevada",
+    "startMs": 862.5,
+    "durationMs": 512.5
   }
 ]

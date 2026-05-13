@@ -2,61 +2,16 @@
   {
     "text": "店",
     "startMs": 100.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "裡",
-    "startMs": 275.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "充滿",
-    "startMs": 450.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "驚喜",
-    "startMs": 875.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "耿鬼",
-    "startMs": 1662.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "和",
-    "startMs": 2012.5,
     "durationMs": 187.5
   },
   {
-    "text": "索羅",
-    "startMs": 2212.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "亞",
-    "startMs": 2575.0,
+    "text": "內",
+    "startMs": 300.0,
     "durationMs": 162.5
   },
   {
-    "text": "克",
-    "startMs": 2787.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "變出",
-    "startMs": 2937.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "奇幻",
-    "startMs": 3312.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "把戲",
-    "startMs": 3712.5,
-    "durationMs": 537.5
+    "text": "驚喜",
+    "startMs": 512.5,
+    "durationMs": 450.0
   }
 ]

@@ -1,62 +1,12 @@
 [
   {
-    "text": "誘人的",
+    "text": "誘人",
     "startMs": 100.0,
-    "durationMs": 450.0
+    "durationMs": 350.0
   },
   {
     "text": "餐廳",
-    "startMs": 562.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "飄",
-    "startMs": 962.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "出",
-    "startMs": 1200.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "陣陣",
-    "startMs": 1412.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "香氣",
-    "startMs": 1737.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "帕",
-    "startMs": 2575.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "底",
-    "startMs": 2800.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "亞",
-    "startMs": 2950.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "在",
-    "startMs": 3112.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "門",
-    "startMs": 3250.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "口迫不及待",
-    "startMs": 3425.0,
-    "durationMs": 962.5
+    "startMs": 500.0,
+    "durationMs": 412.5
   }
 ]

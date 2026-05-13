@@ -1,62 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Grave",
     "startMs": 100.0,
-    "durationMs": 112.5
+    "durationMs": 450.0
   },
   {
-    "text": "quiet",
-    "startMs": 225.0,
-    "durationMs": 500.0
+    "text": "With",
+    "startMs": 562.5,
+    "durationMs": 175.0
   },
   {
-    "text": "grave",
-    "startMs": 737.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "with",
-    "startMs": 1187.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "flowers",
-    "startMs": 1362.5,
-    "durationMs": 662.5
-  },
-  {
-    "text": "where",
-    "startMs": 2037.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Cubone",
-    "startMs": 2237.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "gently",
-    "startMs": 2787.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "watches",
-    "startMs": 3225.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "over",
-    "startMs": 3825.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "loved",
-    "startMs": 4112.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "ones",
-    "startMs": 4512.5,
-    "durationMs": 487.5
+    "text": "Flowers",
+    "startMs": 750.0,
+    "durationMs": 775.0
   }
 ]

@@ -1,67 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Work",
     "startMs": 100.0,
-    "durationMs": 112.5
+    "durationMs": 375.0
   },
   {
-    "text": "work",
-    "startMs": 225.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "desk",
-    "startMs": 600.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "for",
-    "startMs": 1000.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "focused",
-    "startMs": 1200.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "tasks",
-    "startMs": 1737.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "Porygon2",
-    "startMs": 2625.0,
-    "durationMs": 850.0
-  },
-  {
-    "text": "processes",
-    "startMs": 3487.5,
-    "durationMs": 737.5
-  },
-  {
-    "text": "data",
-    "startMs": 4237.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "diligently",
-    "startMs": 4637.5,
-    "durationMs": 762.5
-  },
-  {
-    "text": "at",
-    "startMs": 5412.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "the",
-    "startMs": 5575.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "computer",
-    "startMs": 5675.0,
-    "durationMs": 650.0
+    "text": "Desk",
+    "startMs": 487.5,
+    "durationMs": 512.5
   }
 ]

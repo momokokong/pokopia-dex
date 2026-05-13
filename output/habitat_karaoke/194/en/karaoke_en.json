@@ -1,62 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Skull",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 437.5
   },
   {
-    "text": "skull",
-    "startMs": 212.5,
-    "durationMs": 400.0
+    "text": "Fossil",
+    "startMs": 550.0,
+    "durationMs": 525.0
   },
   {
-    "text": "fossil",
-    "startMs": 625.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "display",
-    "startMs": 1137.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "mysterious",
-    "startMs": 1637.5,
-    "durationMs": 762.5
-  },
-  {
-    "text": "and",
-    "startMs": 2412.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "fun",
-    "startMs": 2625.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Cranidos",
-    "startMs": 3350.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "awakens",
-    "startMs": 3937.5,
-    "durationMs": 625.0
-  },
-  {
-    "text": "from",
-    "startMs": 4575.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "its",
-    "startMs": 4775.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "fossil",
-    "startMs": 4975.0,
-    "durationMs": 600.0
+    "text": "Display",
+    "startMs": 1087.5,
+    "durationMs": 612.5
   }
 ]

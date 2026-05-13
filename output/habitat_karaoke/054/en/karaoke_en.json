@@ -2,61 +2,16 @@
   {
     "text": "Marshy",
     "startMs": 100.0,
-    "durationMs": 500.0
+    "durationMs": 512.5
   },
   {
-    "text": "tall",
-    "startMs": 612.5,
+    "text": "Tall",
+    "startMs": 625.0,
     "durationMs": 350.0
   },
   {
-    "text": "grass",
-    "startMs": 975.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "muddy",
-    "startMs": 1375.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "and",
-    "startMs": 1762.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "fun",
-    "startMs": 1962.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "Wooper",
-    "startMs": 2612.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "rolls",
-    "startMs": 2975.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "happily",
-    "startMs": 3387.5,
+    "text": "Grass",
+    "startMs": 987.5,
     "durationMs": 575.0
-  },
-  {
-    "text": "in",
-    "startMs": 3975.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "the",
-    "startMs": 4112.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "mud",
-    "startMs": 4200.0,
-    "durationMs": 400.0
   }
 ]

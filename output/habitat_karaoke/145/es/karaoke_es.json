@@ -1,92 +1,22 @@
 [
   {
-    "text": "Un",
+    "text": "Bote",
     "startMs": 100.0,
-    "durationMs": 175.0
+    "durationMs": 337.5
   },
   {
-    "text": "bote",
-    "startMs": 287.5,
-    "durationMs": 262.5
+    "text": "junto",
+    "startMs": 450.0,
+    "durationMs": 287.5
   },
   {
-    "text": "en",
-    "startMs": 562.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "la",
-    "startMs": 650.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "orilla",
-    "startMs": 737.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "meciéndose",
-    "startMs": 1062.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "en",
-    "startMs": 1662.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "las",
-    "startMs": 1737.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "olas",
-    "startMs": 1900.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "Dragonite",
-    "startMs": 2525.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "rema",
-    "startMs": 3087.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "por",
-    "startMs": 3400.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "el",
-    "startMs": 3587.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "lago",
-    "startMs": 3687.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "para",
-    "startMs": 3975.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "dar",
-    "startMs": 4200.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "un",
-    "startMs": 4412.5,
+    "text": "al",
+    "startMs": 750.0,
     "durationMs": 100.0
   },
   {
-    "text": "paseo",
-    "startMs": 4525.0,
-    "durationMs": 487.5
+    "text": "Agua",
+    "startMs": 862.5,
+    "durationMs": 337.5
   }
 ]

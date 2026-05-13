@@ -1,67 +1,12 @@
 [
   {
-    "text": "Un",
+    "text": "Resort",
     "startMs": 100.0,
-    "durationMs": 162.5
+    "durationMs": 500.0
   },
   {
-    "text": "resort",
-    "startMs": 275.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "acogedor",
-    "startMs": 675.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "para",
-    "startMs": 1225.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "cada",
-    "startMs": 1437.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "viajero",
-    "startMs": 1712.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "Absol",
-    "startMs": 2512.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "vigila",
-    "startMs": 2912.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "silenciosamente",
-    "startMs": 3312.5,
-    "durationMs": 950.0
-  },
-  {
-    "text": "la",
-    "startMs": 4275.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "seguridad",
-    "startMs": 4375.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "de",
-    "startMs": 4950.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "todos",
-    "startMs": 5075.0,
-    "durationMs": 512.5
+    "text": "Bienvenida",
+    "startMs": 612.5,
+    "durationMs": 675.0
   }
 ]

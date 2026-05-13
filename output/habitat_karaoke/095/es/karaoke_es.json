@@ -1,42 +1,12 @@
 [
   {
-    "text": "Demasiada",
+    "text": "Súper",
     "startMs": 100.0,
-    "durationMs": 600.0
+    "durationMs": 487.5
   },
   {
-    "text": "ternura",
-    "startMs": 712.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "Blissey",
-    "startMs": 2112.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "irradia",
-    "startMs": 2575.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "pura",
-    "startMs": 3000.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "felicidad",
-    "startMs": 3287.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "y",
-    "startMs": 3887.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "amor",
-    "startMs": 3975.0,
-    "durationMs": 387.5
+    "text": "Ternura",
+    "startMs": 600.0,
+    "durationMs": 525.0
   }
 ]

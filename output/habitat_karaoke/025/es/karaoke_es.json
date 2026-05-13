@@ -1,57 +1,17 @@
 [
   {
-    "text": "Urgencias",
+    "text": "Centro",
     "startMs": 100.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "siempre",
-    "startMs": 675.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "listas",
-    "startMs": 1037.5,
     "durationMs": 487.5
   },
   {
-    "text": "Hitmonlee",
-    "startMs": 1737.5,
-    "durationMs": 612.5
+    "text": "de",
+    "startMs": 600.0,
+    "durationMs": 100.0
   },
   {
-    "text": "se",
-    "startMs": 2362.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "recupera",
-    "startMs": 2525.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "y",
-    "startMs": 3087.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "vuelve",
-    "startMs": 3175.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "a",
-    "startMs": 3487.5,
-    "durationMs": 37.5
-  },
-  {
-    "text": "la",
-    "startMs": 3537.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "acción",
-    "startMs": 3625.0,
-    "durationMs": 462.5
+    "text": "urgencias",
+    "startMs": 712.5,
+    "durationMs": 737.5
   }
 ]

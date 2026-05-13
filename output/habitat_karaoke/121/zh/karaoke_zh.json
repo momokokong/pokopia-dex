@@ -1,72 +1,17 @@
 [
   {
-    "text": "最佳",
+    "text": "最",
     "startMs": 100.0,
-    "durationMs": 387.5
+    "durationMs": 200.0
   },
   {
-    "text": "麵包",
+    "text": "棒",
+    "startMs": 312.5,
+    "durationMs": 175.0
+  },
+  {
+    "text": "麵包店",
     "startMs": 487.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "烘焙",
-    "startMs": 875.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "坊",
-    "startMs": 1250.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "香氣",
-    "startMs": 1462.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "撲鼻",
-    "startMs": 1825.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "小狗",
-    "startMs": 2662.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "寶",
-    "startMs": 3037.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "可",
-    "startMs": 3250.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "夢",
-    "startMs": 3400.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 3600.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "烤",
-    "startMs": 3762.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "香噴噴的",
-    "startMs": 3925.0,
     "durationMs": 637.5
-  },
-  {
-    "text": "麵包",
-    "startMs": 4575.0,
-    "durationMs": 500.0
   }
 ]

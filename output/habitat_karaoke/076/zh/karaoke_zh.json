@@ -2,61 +2,11 @@
   {
     "text": "私人",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 387.5
   },
   {
     "text": "化妝台",
-    "startMs": 550.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "精緻",
-    "startMs": 1212.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "可愛",
-    "startMs": 1550.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "奇",
-    "startMs": 2375.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "諾",
-    "startMs": 2562.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "栗鼠",
-    "startMs": 2750.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "和",
-    "startMs": 3125.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "泡沫",
-    "startMs": 3312.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "栗鼠",
-    "startMs": 3687.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "一起",
-    "startMs": 4075.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "打扮",
-    "startMs": 4362.5,
-    "durationMs": 487.5
+    "startMs": 537.5,
+    "durationMs": 737.5
   }
 ]

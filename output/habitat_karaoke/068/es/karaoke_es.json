@@ -1,82 +1,17 @@
 [
   {
-    "text": "Un",
+    "text": "Carrito",
     "startMs": 100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "carrito",
-    "startMs": 275.0,
-    "durationMs": 437.5
+    "durationMs": 450.0
   },
   {
     "text": "de",
-    "startMs": 725.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "entrega",
-    "startMs": 825.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "junto",
-    "startMs": 1250.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "a",
-    "startMs": 1550.0,
-    "durationMs": 12.5
-  },
-  {
-    "text": "la",
-    "startMs": 1575.0,
+    "startMs": 562.5,
     "durationMs": 100.0
   },
   {
-    "text": "mesa",
-    "startMs": 1687.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "va",
-    "startMs": 2012.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "y",
-    "startMs": 2187.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "viene",
-    "startMs": 2275.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "Empoleon",
-    "startMs": 2912.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "sirve",
-    "startMs": 3462.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "platos",
-    "startMs": 3837.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "con",
-    "startMs": 4250.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "elegancia",
-    "startMs": 4425.0,
-    "durationMs": 625.0
+    "text": "servicio",
+    "startMs": 675.0,
+    "durationMs": 612.5
   }
 ]

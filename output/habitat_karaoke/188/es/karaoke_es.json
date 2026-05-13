@@ -1,77 +1,27 @@
 [
   {
-    "text": "Un",
+    "text": "Lugar",
     "startMs": 100.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "punto",
-    "startMs": 287.5,
-    "durationMs": 300.0
+    "durationMs": 375.0
   },
   {
     "text": "de",
-    "startMs": 600.0,
+    "startMs": 487.5,
     "durationMs": 112.5
   },
   {
     "text": "pesca",
-    "startMs": 725.0,
-    "durationMs": 325.0
+    "startMs": 612.5,
+    "durationMs": 337.5
   },
   {
     "text": "en",
-    "startMs": 1062.5,
-    "durationMs": 87.5
+    "startMs": 962.5,
+    "durationMs": 75.0
   },
   {
     "text": "magma",
-    "startMs": 1162.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "ardiente",
-    "startMs": 1500.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "Arcanine",
-    "startMs": 2300.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "demuestra",
-    "startMs": 2850.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "sus",
-    "startMs": 3362.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "habilidades",
-    "startMs": 3575.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "junto",
-    "startMs": 4200.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "a",
-    "startMs": 4487.5,
-    "durationMs": 12.5
-  },
-  {
-    "text": "la",
-    "startMs": 4512.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "lava",
-    "startMs": 4637.5,
-    "durationMs": 387.5
+    "startMs": 1050.0,
+    "durationMs": 450.0
   }
 ]

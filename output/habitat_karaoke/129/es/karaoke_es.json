@@ -1,62 +1,12 @@
 [
   {
-    "text": "Un",
+    "text": "Museo",
     "startMs": 100.0,
-    "durationMs": 162.5
+    "durationMs": 412.5
   },
   {
-    "text": "mini",
-    "startMs": 275.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "museo",
-    "startMs": 562.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "lleno",
-    "startMs": 950.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "de",
-    "startMs": 1237.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "tesoros",
-    "startMs": 1362.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "Arcanine",
-    "startMs": 2187.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "y",
-    "startMs": 2750.0,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Gimmighoul",
-    "startMs": 2825.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "exploran",
-    "startMs": 3450.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "las",
-    "startMs": 3975.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "exhibiciones",
-    "startMs": 4150.0,
-    "durationMs": 900.0
+    "text": "Miniatura",
+    "startMs": 525.0,
+    "durationMs": 662.5
   }
 ]

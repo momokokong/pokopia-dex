@@ -1,57 +1,17 @@
 [
   {
-    "text": "Un",
+    "text": "Set",
     "startMs": 100.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "set",
-    "startMs": 287.5,
-    "durationMs": 237.5
+    "durationMs": 337.5
   },
   {
     "text": "de",
-    "startMs": 537.5,
+    "startMs": 450.0,
     "durationMs": 100.0
   },
   {
     "text": "picnic",
-    "startMs": 650.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "con",
-    "startMs": 1100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "meriendas",
-    "startMs": 1275.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "Pikachu",
-    "startMs": 2112.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "y",
-    "startMs": 2600.0,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Pichu",
-    "startMs": 2675.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "comen",
-    "startMs": 3050.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "felices",
-    "startMs": 3425.0,
-    "durationMs": 637.5
+    "startMs": 562.5,
+    "durationMs": 562.5
   }
 ]

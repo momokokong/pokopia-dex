@@ -1,72 +1,12 @@
 [
   {
-    "text": "An",
+    "text": "Experiment",
     "startMs": 100.0,
-    "durationMs": 150.0
+    "durationMs": 787.5
   },
   {
-    "text": "experiment",
-    "startMs": 262.5,
-    "durationMs": 750.0
-  },
-  {
-    "text": "space",
-    "startMs": 1025.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "full",
-    "startMs": 1462.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "of",
-    "startMs": 1750.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "science",
-    "startMs": 1887.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "Alakazam",
-    "startMs": 2750.0,
-    "durationMs": 750.0
-  },
-  {
-    "text": "researches",
-    "startMs": 3512.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "psychic",
-    "startMs": 4137.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "powers",
-    "startMs": 4625.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "at",
-    "startMs": 5187.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "the",
-    "startMs": 5362.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "lab",
-    "startMs": 5500.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "bench",
-    "startMs": 5862.5,
-    "durationMs": 525.0
+    "text": "Space",
+    "startMs": 900.0,
+    "durationMs": 587.5
   }
 ]

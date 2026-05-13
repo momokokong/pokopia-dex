@@ -2,76 +2,11 @@
   {
     "text": "冰涼",
     "startMs": 100.0,
-    "durationMs": 337.5
+    "durationMs": 300.0
   },
   {
-    "text": "刨",
-    "startMs": 475.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "冰",
-    "startMs": 712.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "消暑",
-    "startMs": 875.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "解",
-    "startMs": 1275.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "熱",
-    "startMs": 1462.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "冰",
-    "startMs": 2087.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "伊",
-    "startMs": 2237.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "布",
-    "startMs": 2400.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "在",
-    "startMs": 2537.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "炎夏",
-    "startMs": 2675.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "中大口",
-    "startMs": 3075.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "吃",
-    "startMs": 3625.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "刨",
-    "startMs": 3812.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "冰",
-    "startMs": 4050.0,
-    "durationMs": 187.5
+    "text": "刨冰",
+    "startMs": 450.0,
+    "durationMs": 400.0
   }
 ]

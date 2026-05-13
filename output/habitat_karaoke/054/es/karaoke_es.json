@@ -2,61 +2,16 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 412.5
+    "durationMs": 437.5
   },
   {
-    "text": "alta",
-    "startMs": 525.0,
-    "durationMs": 225.0
+    "text": "Alta",
+    "startMs": 550.0,
+    "durationMs": 237.5
   },
   {
-    "text": "pantanosa",
-    "startMs": 762.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "fangosa",
-    "startMs": 1375.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "y",
-    "startMs": 1862.5,
-    "durationMs": 37.5
-  },
-  {
-    "text": "divertida",
-    "startMs": 1912.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "Wooper",
-    "startMs": 2800.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "rueda",
-    "startMs": 3150.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "feliz",
-    "startMs": 3462.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "en",
-    "startMs": 3837.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "el",
-    "startMs": 3950.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "lodo",
-    "startMs": 4050.0,
-    "durationMs": 350.0
+    "text": "Pantanosa",
+    "startMs": 800.0,
+    "durationMs": 700.0
   }
 ]

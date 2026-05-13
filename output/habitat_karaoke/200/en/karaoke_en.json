@@ -1,77 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Sail",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 412.5
   },
   {
-    "text": "sail",
-    "startMs": 212.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "fossil",
-    "startMs": 600.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "display",
-    "startMs": 1100.0,
+    "text": "Fossil",
+    "startMs": 525.0,
     "durationMs": 512.5
   },
   {
-    "text": "elegant",
-    "startMs": 1625.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "and",
-    "startMs": 2237.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "lovely",
-    "startMs": 2450.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "Amaura",
-    "startMs": 3262.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "shows",
-    "startMs": 3775.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "its",
-    "startMs": 4175.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "beautiful",
-    "startMs": 4375.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "form",
-    "startMs": 4962.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "from",
-    "startMs": 5400.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "the",
-    "startMs": 5625.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "fossil",
-    "startMs": 5712.5,
-    "durationMs": 625.0
+    "text": "Display",
+    "startMs": 1050.0,
+    "durationMs": 612.5
   }
 ]

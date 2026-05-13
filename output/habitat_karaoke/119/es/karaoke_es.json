@@ -1,77 +1,17 @@
 [
   {
-    "text": "Snacks",
+    "text": "Contenedor",
     "startMs": 100.0,
-    "durationMs": 475.0
+    "durationMs": 587.5
   },
   {
-    "text": "en",
-    "startMs": 587.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "contenedores",
+    "text": "de",
     "startMs": 700.0,
-    "durationMs": 687.5
+    "durationMs": 75.0
   },
   {
-    "text": "con",
-    "startMs": 1400.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "delicias",
-    "startMs": 1575.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "adentro",
-    "startMs": 2062.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Glimmora",
-    "startMs": 2812.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "y",
-    "startMs": 3275.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Diglett",
-    "startMs": 3337.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "disfrutan",
-    "startMs": 3737.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "meriendas",
-    "startMs": 4287.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "junto",
-    "startMs": 4812.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "a",
-    "startMs": 5100.0,
-    "durationMs": 25.0
-  },
-  {
-    "text": "las",
-    "startMs": 5137.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "cajas",
-    "startMs": 5325.0,
-    "durationMs": 525.0
+    "text": "Bocadillos",
+    "startMs": 787.5,
+    "durationMs": 775.0
   }
 ]

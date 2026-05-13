@@ -1,92 +1,22 @@
 [
   {
-    "text": "Lecho",
+    "text": "Cantero",
     "startMs": 100.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "de",
-    "startMs": 500.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "flores",
-    "startMs": 612.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "peludo",
-    "startMs": 1012.5,
-    "durationMs": 375.0
+    "durationMs": 462.5
   },
   {
     "text": "bajo",
-    "startMs": 1400.0,
+    "startMs": 575.0,
     "durationMs": 237.5
   },
   {
-    "text": "los",
-    "startMs": 1650.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "árboles",
-    "startMs": 1850.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "fresco",
-    "startMs": 2275.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "y",
-    "startMs": 2675.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "agradable",
-    "startMs": 2762.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "Serperior",
-    "startMs": 3575.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "y",
-    "startMs": 4100.0,
-    "durationMs": 37.5
-  },
-  {
-    "text": "Girafarig",
-    "startMs": 4150.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "pasean",
-    "startMs": 4775.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "tranquilamente",
-    "startMs": 5225.0,
-    "durationMs": 800.0
-  },
-  {
-    "text": "a",
-    "startMs": 6037.5,
-    "durationMs": 25.0
-  },
-  {
     "text": "la",
-    "startMs": 6075.0,
-    "durationMs": 100.0
+    "startMs": 825.0,
+    "durationMs": 87.5
   },
   {
-    "text": "sombra",
-    "startMs": 6187.5,
-    "durationMs": 475.0
+    "text": "Sombra",
+    "startMs": 925.0,
+    "durationMs": 462.5
   }
 ]

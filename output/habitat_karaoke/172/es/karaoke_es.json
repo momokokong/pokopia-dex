@@ -1,77 +1,17 @@
 [
   {
-    "text": "Una",
+    "text": "Caja",
     "startMs": 100.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "caja",
-    "startMs": 337.5,
     "durationMs": 300.0
   },
   {
-    "text": "sorpresa",
-    "startMs": 650.0,
-    "durationMs": 525.0
+    "text": "de",
+    "startMs": 412.5,
+    "durationMs": 112.5
   },
   {
-    "text": "que",
-    "startMs": 1187.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "acelera",
-    "startMs": 1325.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "el",
-    "startMs": 1750.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "corazón",
-    "startMs": 1837.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "esconde",
-    "startMs": 2275.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "secretos",
-    "startMs": 2675.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "Meowscarada",
-    "startMs": 3537.5,
-    "durationMs": 637.5
-  },
-  {
-    "text": "la",
-    "startMs": 4187.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "abre",
-    "startMs": 4387.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "con",
-    "startMs": 4637.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "emoción",
-    "startMs": 4825.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "nerviosa",
-    "startMs": 5250.0,
-    "durationMs": 587.5
+    "text": "Sorpresas",
+    "startMs": 537.5,
+    "durationMs": 775.0
   }
 ]

@@ -2,66 +2,11 @@
   {
     "text": "現代",
     "startMs": 100.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "生活",
-    "startMs": 512.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "空間",
-    "startMs": 912.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "時尚",
-    "startMs": 1287.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "簡約",
-    "startMs": 1712.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "狙射",
-    "startMs": 2537.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "樟梟",
-    "startMs": 2850.0,
     "durationMs": 412.5
   },
   {
-    "text": "在",
-    "startMs": 3287.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "居家",
-    "startMs": 3475.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "空間",
-    "startMs": 3825.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "裡",
-    "startMs": 4200.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "優雅",
-    "startMs": 4400.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "歇息",
-    "startMs": 4762.5,
-    "durationMs": 587.5
+    "text": "起居室",
+    "startMs": 525.0,
+    "durationMs": 700.0
   }
 ]

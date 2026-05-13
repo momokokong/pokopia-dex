@@ -1,67 +1,17 @@
 [
   {
-    "text": "行李",
+    "text": "全部",
     "startMs": 100.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "通通",
-    "startMs": 575.0,
-    "durationMs": 337.5
+    "durationMs": 362.5
   },
   {
     "text": "打包",
-    "startMs": 937.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "好",
-    "startMs": 1325.0,
+    "startMs": 500.0,
     "durationMs": 312.5
   },
   {
-    "text": "幕",
-    "startMs": 1862.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "下",
-    "startMs": 2050.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "力士",
-    "startMs": 2237.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "和",
-    "startMs": 2637.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "蔥",
-    "startMs": 2825.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "鴨",
-    "startMs": 3050.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "準備",
-    "startMs": 3250.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "出發",
-    "startMs": 3550.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "冒險",
-    "startMs": 3937.5,
-    "durationMs": 475.0
+    "text": "好",
+    "startMs": 850.0,
+    "durationMs": 287.5
   }
 ]

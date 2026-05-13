@@ -6,77 +6,17 @@
   },
   {
     "text": "管",
-    "startMs": 562.5,
-    "durationMs": 162.5
+    "startMs": 550.0,
+    "durationMs": 175.0
   },
   {
     "text": "秘密",
-    "startMs": 725.0,
+    "startMs": 737.5,
     "durationMs": 312.5
   },
   {
     "text": "基地",
-    "startMs": 1100.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "超",
-    "startMs": 1362.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "酷的",
-    "startMs": 1600.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "火球",
-    "startMs": 2350.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "鼠",
-    "startMs": 2725.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "和",
-    "startMs": 2962.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "火",
-    "startMs": 3162.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "岩",
-    "startMs": 3350.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "鼠",
-    "startMs": 3537.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "在",
-    "startMs": 3775.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "管子",
-    "startMs": 3962.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "裡",
-    "startMs": 4262.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "探險",
-    "startMs": 4450.0,
-    "durationMs": 525.0
+    "startMs": 1112.5,
+    "durationMs": 462.5
   }
 ]

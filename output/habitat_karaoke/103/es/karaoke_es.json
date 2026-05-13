@@ -1,72 +1,17 @@
 [
   {
-    "text": "Un",
+    "text": "Campo",
     "startMs": 100.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "campo",
-    "startMs": 287.5,
-    "durationMs": 325.0
+    "durationMs": 337.5
   },
   {
     "text": "de",
-    "startMs": 625.0,
+    "startMs": 450.0,
     "durationMs": 87.5
   },
   {
-    "text": "entrenamiento",
-    "startMs": 725.0,
-    "durationMs": 662.5
-  },
-  {
-    "text": "herboso",
-    "startMs": 1400.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "lleno",
-    "startMs": 1800.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "de",
-    "startMs": 2087.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "energía",
-    "startMs": 2212.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "Machamp",
-    "startMs": 3100.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "y",
-    "startMs": 3550.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Machoke",
-    "startMs": 3612.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "entrenan",
-    "startMs": 4100.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "con",
-    "startMs": 4625.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "fuerza",
-    "startMs": 4837.5,
-    "durationMs": 487.5
+    "text": "Entrenamiento",
+    "startMs": 550.0,
+    "durationMs": 775.0
   }
 ]

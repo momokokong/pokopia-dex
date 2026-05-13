@@ -2,61 +2,16 @@
   {
     "text": "草地",
     "startMs": 100.0,
-    "durationMs": 375.0
+    "durationMs": 362.5
   },
   {
     "text": "訓練",
-    "startMs": 500.0,
+    "startMs": 487.5,
     "durationMs": 337.5
   },
   {
     "text": "場",
     "startMs": 875.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "充滿",
-    "startMs": 1125.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "活力",
-    "startMs": 1500.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "怪力",
-    "startMs": 2325.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "和",
-    "startMs": 2675.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "豪力",
-    "startMs": 2875.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "在",
-    "startMs": 3312.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "這裡",
-    "startMs": 3487.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "揮汗",
-    "startMs": 3800.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "鍛鍊",
-    "startMs": 4200.0,
-    "durationMs": 475.0
+    "durationMs": 275.0
   }
 ]

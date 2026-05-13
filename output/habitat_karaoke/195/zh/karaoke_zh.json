@@ -1,67 +1,17 @@
 [
   {
-    "text": "鐵頭",
-    "startMs": 100.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "化石",
-    "startMs": 462.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "展覽",
-    "startMs": 887.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "威風",
-    "startMs": 1275.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "凜凜",
-    "startMs": 1650.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "戰",
-    "startMs": 2450.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "槌",
-    "startMs": 2625.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "龍用",
-    "startMs": 2837.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "強壯的",
-    "startMs": 3162.5,
-    "durationMs": 512.5
-  },
-  {
     "text": "頭",
-    "startMs": 3725.0,
-    "durationMs": 162.5
+    "startMs": 100.0,
+    "durationMs": 187.5
   },
   {
-    "text": "槌",
-    "startMs": 3937.5,
-    "durationMs": 150.0
+    "text": "槌化石",
+    "startMs": 325.0,
+    "durationMs": 600.0
   },
   {
-    "text": "展示",
-    "startMs": 4125.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "力量",
-    "startMs": 4462.5,
-    "durationMs": 512.5
+    "text": "展示區",
+    "startMs": 937.5,
+    "durationMs": 725.0
   }
 ]

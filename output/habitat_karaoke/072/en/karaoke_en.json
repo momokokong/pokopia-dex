@@ -1,62 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Light",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 312.5
   },
   {
-    "text": "light-up",
-    "startMs": 212.5,
-    "durationMs": 487.5
+    "text": "Up",
+    "startMs": 425.0,
+    "durationMs": 187.5
   },
   {
-    "text": "stage",
-    "startMs": 712.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "blazing",
-    "startMs": 1200.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "with",
-    "startMs": 1737.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "lights",
-    "startMs": 1912.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Electabuzz",
-    "startMs": 2712.5,
-    "durationMs": 825.0
-  },
-  {
-    "text": "and",
-    "startMs": 3637.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "Electivire",
-    "startMs": 3787.5,
-    "durationMs": 712.5
-  },
-  {
-    "text": "rock",
-    "startMs": 4512.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "the",
-    "startMs": 4850.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "show",
-    "startMs": 4950.0,
-    "durationMs": 425.0
+    "text": "Stage",
+    "startMs": 625.0,
+    "durationMs": 587.5
   }
 ]

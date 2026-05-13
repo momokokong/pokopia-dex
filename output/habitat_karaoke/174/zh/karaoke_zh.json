@@ -1,67 +1,22 @@
 [
   {
-    "text": "繽紛",
+    "text": "風景",
     "startMs": 100.0,
     "durationMs": 312.5
   },
   {
+    "text": "優美",
+    "startMs": 512.5,
+    "durationMs": 312.5
+  },
+  {
     "text": "拍照",
-    "startMs": 437.5,
+    "startMs": 850.0,
     "durationMs": 375.0
   },
   {
-    "text": "立牌",
-    "startMs": 825.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "趣味",
-    "startMs": 1250.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "十足",
-    "startMs": 1612.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "正電",
-    "startMs": 2475.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "拍拍",
-    "startMs": 2800.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "和",
-    "startMs": 3275.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "負電",
-    "startMs": 3462.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "拍拍",
-    "startMs": 3825.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "擺",
-    "startMs": 4200.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "pose",
-    "startMs": 4387.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "拍照",
-    "startMs": 4600.0,
-    "durationMs": 512.5
+    "text": "板",
+    "startMs": 1262.5,
+    "durationMs": 212.5
   }
 ]

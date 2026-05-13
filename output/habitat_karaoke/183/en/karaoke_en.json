@@ -5,53 +5,8 @@
     "durationMs": 350.0
   },
   {
-    "text": "pop",
+    "text": "Pop",
     "startMs": 462.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "soda",
-    "startMs": 787.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "refreshing",
-    "startMs": 1187.5,
-    "durationMs": 675.0
-  },
-  {
-    "text": "and",
-    "startMs": 1875.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "cool",
-    "startMs": 2050.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Typhlosion",
-    "startMs": 2775.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "chugs",
-    "startMs": 3462.5,
     "durationMs": 412.5
-  },
-  {
-    "text": "down",
-    "startMs": 3887.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "icy",
-    "startMs": 4250.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "soda",
-    "startMs": 4625.0,
-    "durationMs": 525.0
   }
 ]

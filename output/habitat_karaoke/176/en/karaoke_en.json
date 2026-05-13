@@ -1,72 +1,12 @@
 [
   {
-    "text": "Nature's",
+    "text": "Natures",
     "startMs": 100.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "market",
-    "startMs": 650.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "bustling",
-    "startMs": 1112.5,
     "durationMs": 562.5
   },
   {
-    "text": "and",
-    "startMs": 1687.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "warm",
-    "startMs": 1862.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Raichu",
-    "startMs": 2575.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "picks",
-    "startMs": 3012.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "fresh",
-    "startMs": 3400.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "fruits",
-    "startMs": 3750.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "and",
-    "startMs": 4212.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "veggies",
-    "startMs": 4437.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "at",
-    "startMs": 5025.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "the",
-    "startMs": 5200.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "stalls",
-    "startMs": 5312.5,
-    "durationMs": 650.0
+    "text": "Market",
+    "startMs": 675.0,
+    "durationMs": 550.0
   }
 ]

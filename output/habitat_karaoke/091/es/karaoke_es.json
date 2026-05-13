@@ -1,77 +1,22 @@
 [
   {
-    "text": "Trabajar",
+    "text": "Trabajando",
     "startMs": 100.0,
-    "durationMs": 487.5
+    "durationMs": 562.5
   },
   {
     "text": "en",
-    "startMs": 600.0,
-    "durationMs": 75.0
+    "startMs": 675.0,
+    "durationMs": 50.0
   },
   {
     "text": "la",
-    "startMs": 687.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "caja",
-    "startMs": 787.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "es",
-    "startMs": 1100.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "ocupado",
-    "startMs": 1237.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "y",
-    "startMs": 1675.0,
-    "durationMs": 25.0
-  },
-  {
-    "text": "divertido",
-    "startMs": 1712.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "Meowth",
-    "startMs": 2600.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "y",
-    "startMs": 2937.5,
+    "startMs": 737.5,
     "durationMs": 75.0
   },
   {
-    "text": "Chansey",
-    "startMs": 3025.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "ayudan",
-    "startMs": 3462.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "a",
-    "startMs": 3900.0,
-    "durationMs": 37.5
-  },
-  {
-    "text": "los",
-    "startMs": 3950.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "clientes",
-    "startMs": 4137.5,
-    "durationMs": 650.0
+    "text": "Caja",
+    "startMs": 825.0,
+    "durationMs": 412.5
   }
 ]

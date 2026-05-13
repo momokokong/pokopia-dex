@@ -2,61 +2,16 @@
   {
     "text": "Burning",
     "startMs": 100.0,
-    "durationMs": 437.5
+    "durationMs": 450.0
   },
   {
-    "text": "hot",
-    "startMs": 550.0,
-    "durationMs": 337.5
+    "text": "Hot",
+    "startMs": 562.5,
+    "durationMs": 350.0
   },
   {
-    "text": "spice",
-    "startMs": 900.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "that",
-    "startMs": 1437.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "makes",
-    "startMs": 1662.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "you",
-    "startMs": 1975.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "sweat",
-    "startMs": 2112.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "Flareon",
-    "startMs": 2825.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "loves",
-    "startMs": 3462.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "super",
-    "startMs": 3800.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "spicy",
-    "startMs": 4212.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "dishes",
-    "startMs": 4762.5,
+    "text": "Spice",
+    "startMs": 925.0,
     "durationMs": 612.5
   }
 ]

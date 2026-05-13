@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[2] Tree Shaded Tall Grass
+[3] Boulder Shaded Tall Grass
+[5] Seaside Tall Grass
+[6] Elevated Tall Grass
+[7] Illuminated Tall Grass
+[8] Pretty Flower Bed
+[9] Tree Shaded Flower Bed
+[10] Hydrated Flower Bed
+[11] Field Of Flowers
+[12] Elevated Flower Bed
+[13] Grave With Flowers
+[14] Flower Garden
+[15] Fresh Veggie Field
+[16] Riding Warm Updrafts
+[17] Campsite
+[18] Training Waterfall
+[19] Tantalizing Dining Set
+[20] Picnic Set
+[21] Flowery Table
+[23] Illuminated Bench
+[24] Exercise Resting Spot
+[25] Urgent Care
+[26] Gym First Aid
+[27] Road Sign
+[28] Large Luggage Carrier
+
+{
+  "2": {"zh": "...", "es": "..."},
+  "3": {"zh": "...", "es": "..."},
+  "5": {"zh": "...", "es": "..."},
+  "6": {"zh": "...", "es": "..."},
+  "7": {"zh": "...", "es": "..."},
+  "8": {"zh": "...", "es": "..."},
+  "9": {"zh": "...", "es": "..."},
+  "10": {"zh": "...", "es": "..."},
+  "11": {"zh": "...", "es": "..."},
+  "12": {"zh": "...", "es": "..."},
+  "13": {"zh": "...", "es": "..."},
+  "14": {"zh": "...", "es": "..."},
+  "15": {"zh": "...", "es": "..."},
+  "16": {"zh": "...", "es": "..."},
+  "17": {"zh": "...", "es": "..."},
+  "18": {"zh": "...", "es": "..."},
+  "19": {"zh": "...", "es": "..."},
+  "20": {"zh": "...", "es": "..."},
+  "21": {"zh": "...", "es": "..."},
+  "23": {"zh": "...", "es": "..."},
+  "24": {"zh": "...", "es": "..."},
+  "25": {"zh": "...", "es": "..."},
+  "26": {"zh": "...", "es": "..."},
+  "27": {"zh": "...", "es": "..."},
+  "28": {"zh": "...", "es": "..."}
+}

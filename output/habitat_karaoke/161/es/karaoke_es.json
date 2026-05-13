@@ -1,52 +1,12 @@
 [
   {
-    "text": "Limpio",
+    "text": "Súper",
     "startMs": 100.0,
-    "durationMs": 450.0
+    "durationMs": 487.5
   },
   {
-    "text": "y",
-    "startMs": 562.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "reluciente",
-    "startMs": 637.5,
-    "durationMs": 687.5
-  },
-  {
-    "text": "Poliwag",
-    "startMs": 1587.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "toma",
-    "startMs": 2112.5,
-    "durationMs": 250.0
-  },
-  {
-    "text": "un",
-    "startMs": 2375.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "baño",
-    "startMs": 2525.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "de",
-    "startMs": 2837.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "burbujas",
-    "startMs": 2937.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "felizmente",
-    "startMs": 3525.0,
-    "durationMs": 762.5
+    "text": "Limpio",
+    "startMs": 600.0,
+    "durationMs": 462.5
   }
 ]

@@ -2,81 +2,11 @@
   {
     "text": "青苔",
     "startMs": 100.0,
-    "durationMs": 425.0
+    "durationMs": 400.0
   },
   {
     "text": "溫泉",
-    "startMs": 537.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "熱氣",
-    "startMs": 912.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "蒸",
-    "startMs": 1350.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "熱",
-    "startMs": 1550.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "氣",
-    "startMs": 1687.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "蒸",
-    "startMs": 1887.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "騰",
-    "startMs": 2100.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "龜",
-    "startMs": 2687.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "足",
-    "startMs": 2862.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "甲",
-    "startMs": 3050.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "在",
-    "startMs": 3250.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "溫泉",
-    "startMs": 3387.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "裡",
-    "startMs": 3737.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "舒服",
-    "startMs": 3912.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "泡湯",
-    "startMs": 4287.5,
-    "durationMs": 487.5
+    "startMs": 512.5,
+    "durationMs": 475.0
   }
 ]

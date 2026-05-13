@@ -1,72 +1,7 @@
 [
   {
-    "text": "辦公",
+    "text": "工作書桌",
     "startMs": 100.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "桌上",
-    "startMs": 487.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "工作",
-    "startMs": 912.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "專注",
-    "startMs": 1237.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "3",
-    "startMs": 2037.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "D",
-    "startMs": 2300.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "龍",
-    "startMs": 2437.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "2",
-    "startMs": 2600.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 2800.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "電腦",
-    "startMs": 2987.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "前",
-    "startMs": 3325.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "認真",
-    "startMs": 3525.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "處理",
-    "startMs": 3950.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "資料",
-    "startMs": 4350.0,
-    "durationMs": 462.5
+    "durationMs": 887.5
   }
 ]

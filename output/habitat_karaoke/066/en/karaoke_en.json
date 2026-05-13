@@ -1,57 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Park",
     "startMs": 100.0,
-    "durationMs": 112.5
+    "durationMs": 387.5
   },
   {
-    "text": "park",
-    "startMs": 225.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "bench",
-    "startMs": 637.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "nice",
-    "startMs": 1000.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "and",
-    "startMs": 1412.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "relaxing",
-    "startMs": 1637.5,
-    "durationMs": 737.5
-  },
-  {
-    "text": "Electrode",
-    "startMs": 2687.5,
-    "durationMs": 675.0
-  },
-  {
-    "text": "and",
-    "startMs": 3375.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "Voltorb",
-    "startMs": 3600.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "sunbathe",
-    "startMs": 4212.5,
-    "durationMs": 625.0
-  },
-  {
-    "text": "nearby",
-    "startMs": 4850.0,
-    "durationMs": 587.5
+    "text": "Bench",
+    "startMs": 500.0,
+    "durationMs": 525.0
   }
 ]

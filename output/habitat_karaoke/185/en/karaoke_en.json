@@ -5,68 +5,13 @@
     "durationMs": 450.0
   },
   {
-    "text": "fishing",
+    "text": "Fishing",
     "startMs": 562.5,
     "durationMs": 462.5
   },
   {
-    "text": "spot",
+    "text": "Spot",
     "startMs": 1037.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "sparkling",
-    "startMs": 1462.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "with",
-    "startMs": 2125.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "waves",
-    "startMs": 2325.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "Gastrodon",
-    "startMs": 3137.5,
-    "durationMs": 750.0
-  },
-  {
-    "text": "and",
-    "startMs": 3987.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "Magikarp",
-    "startMs": 4137.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "swim",
-    "startMs": 4875.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "freely",
-    "startMs": 5300.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "in",
-    "startMs": 5875.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "the",
-    "startMs": 6025.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "sea",
-    "startMs": 6125.0,
-    "durationMs": 400.0
+    "durationMs": 475.0
   }
 ]

@@ -2,66 +2,16 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
+    "durationMs": 400.0
+  },
+  {
+    "text": "Amarilla",
+    "startMs": 512.5,
     "durationMs": 425.0
   },
   {
-    "text": "alta",
-    "startMs": 537.5,
-    "durationMs": 250.0
-  },
-  {
-    "text": "amarilla",
-    "startMs": 800.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "húmeda",
-    "startMs": 1250.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "llena",
-    "startMs": 1600.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "de",
-    "startMs": 1887.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "agua",
-    "startMs": 2037.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "Marill",
-    "startMs": 2650.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "y",
-    "startMs": 2975.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Piplup",
-    "startMs": 3037.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "salpican",
-    "startMs": 3462.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "y",
-    "startMs": 4050.0,
-    "durationMs": 37.5
-  },
-  {
-    "text": "juegan",
-    "startMs": 4100.0,
-    "durationMs": 462.5
+    "text": "Hidratada",
+    "startMs": 950.0,
+    "durationMs": 625.0
   }
 ]

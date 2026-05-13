@@ -1,72 +1,22 @@
 [
   {
-    "text": "Jugar",
+    "text": "Jugando",
     "startMs": 100.0,
-    "durationMs": 350.0
+    "durationMs": 475.0
   },
   {
     "text": "a",
-    "startMs": 462.5,
-    "durationMs": 50.0
+    "startMs": 587.5,
+    "durationMs": 25.0
   },
   {
-    "text": "piratas",
-    "startMs": 525.0,
-    "durationMs": 512.5
+    "text": "los",
+    "startMs": 625.0,
+    "durationMs": 187.5
   },
   {
-    "text": "es",
-    "startMs": 1050.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "muy",
-    "startMs": 1212.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "divertido",
-    "startMs": 1387.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "Electrode",
-    "startMs": 2225.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "y",
-    "startMs": 2837.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "Voltorb",
-    "startMs": 2937.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "buscan",
-    "startMs": 3450.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "tesoro",
-    "startMs": 3887.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "en",
-    "startMs": 4300.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "el",
-    "startMs": 4387.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "barco",
-    "startMs": 4512.5,
-    "durationMs": 412.5
+    "text": "Piratas",
+    "startMs": 825.0,
+    "durationMs": 637.5
   }
 ]

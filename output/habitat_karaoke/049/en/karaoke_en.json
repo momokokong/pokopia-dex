@@ -1,57 +1,22 @@
 [
   {
-    "text": "Nothing",
+    "text": "Nothin",
     "startMs": 100.0,
-    "durationMs": 500.0
+    "durationMs": 562.5
   },
   {
-    "text": "but",
-    "startMs": 612.5,
-    "durationMs": 237.5
+    "text": "But",
+    "startMs": 675.0,
+    "durationMs": 250.0
   },
   {
-    "text": "Poké",
-    "startMs": 862.5,
+    "text": "Poke",
+    "startMs": 937.5,
     "durationMs": 337.5
   },
   {
     "text": "Balls",
-    "startMs": 1212.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "everywhere",
-    "startMs": 1650.0,
-    "durationMs": 662.5
-  },
-  {
-    "text": "Tangela",
-    "startMs": 2575.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "plays",
-    "startMs": 3150.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "hide-and-seek",
-    "startMs": 3525.0,
-    "durationMs": 875.0
-  },
-  {
-    "text": "in",
-    "startMs": 4412.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "the",
-    "startMs": 4562.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "pile",
-    "startMs": 4662.5,
-    "durationMs": 500.0
+    "startMs": 1287.5,
+    "durationMs": 575.0
   }
 ]

@@ -1,72 +1,27 @@
 [
   {
-    "text": "Una",
+    "text": "Exhibición",
     "startMs": 100.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "exhibición",
-    "startMs": 300.0,
-    "durationMs": 525.0
+    "durationMs": 650.0
   },
   {
     "text": "de",
-    "startMs": 837.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "fósil",
-    "startMs": 937.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "de",
-    "startMs": 1325.0,
+    "startMs": 762.5,
     "durationMs": 100.0
   },
   {
-    "text": "cráneo",
-    "startMs": 1437.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "misteriosa",
-    "startMs": 1812.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "y",
-    "startMs": 2437.5,
-    "durationMs": 37.5
-  },
-  {
-    "text": "divertida",
-    "startMs": 2487.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "Cranidos",
-    "startMs": 3350.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "despierta",
-    "startMs": 3837.5,
+    "text": "fósiles",
+    "startMs": 875.0,
     "durationMs": 512.5
   },
   {
     "text": "de",
-    "startMs": 4362.5,
-    "durationMs": 112.5
+    "startMs": 1400.0,
+    "durationMs": 87.5
   },
   {
-    "text": "su",
-    "startMs": 4487.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "fósil",
-    "startMs": 4650.0,
-    "durationMs": 437.5
+    "text": "cráneo",
+    "startMs": 1500.0,
+    "durationMs": 450.0
   }
 ]

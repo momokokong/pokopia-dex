@@ -1,67 +1,17 @@
 [
   {
-    "text": "An",
+    "text": "Armor",
     "startMs": 100.0,
-    "durationMs": 212.5
+    "durationMs": 400.0
   },
   {
-    "text": "armor",
-    "startMs": 325.0,
-    "durationMs": 362.5
+    "text": "Fossil",
+    "startMs": 512.5,
+    "durationMs": 512.5
   },
   {
-    "text": "fossil",
-    "startMs": 700.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "display",
-    "startMs": 1212.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "strong",
-    "startMs": 1725.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "and",
-    "startMs": 2275.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "reliable",
-    "startMs": 2437.5,
-    "durationMs": 687.5
-  },
-  {
-    "text": "Shieldon",
-    "startMs": 3425.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "guards",
-    "startMs": 3987.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "safely",
-    "startMs": 4425.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "in",
-    "startMs": 4987.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "its",
-    "startMs": 5150.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "shell",
-    "startMs": 5325.0,
-    "durationMs": 475.0
+    "text": "Display",
+    "startMs": 1037.5,
+    "durationMs": 625.0
   }
 ]

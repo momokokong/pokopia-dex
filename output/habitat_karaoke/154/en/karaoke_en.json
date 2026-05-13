@@ -2,76 +2,16 @@
   {
     "text": "Oversized",
     "startMs": 100.0,
-    "durationMs": 825.0
+    "durationMs": 862.5
   },
   {
-    "text": "dumping",
-    "startMs": 937.5,
+    "text": "Dumping",
+    "startMs": 975.0,
     "durationMs": 437.5
   },
   {
-    "text": "ground",
-    "startMs": 1387.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "full",
-    "startMs": 1825.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "of",
-    "startMs": 2100.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "scrap",
-    "startMs": 2250.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "Tinkatink",
-    "startMs": 3037.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "and",
-    "startMs": 3800.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "Tinkaton",
-    "startMs": 3925.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "search",
-    "startMs": 4500.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "for",
-    "startMs": 4900.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "treasure",
-    "startMs": 5075.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "in",
-    "startMs": 5575.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "the",
-    "startMs": 5762.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "junk",
-    "startMs": 5875.0,
-    "durationMs": 475.0
+    "text": "Ground",
+    "startMs": 1425.0,
+    "durationMs": 575.0
   }
 ]

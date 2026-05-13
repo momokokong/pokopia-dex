@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[55] Overgrowth Vending Machine
+[56] Breezy Flower Bed
+[57] Tropical Vibes
+[58] Windy Flower Bed
+[59] Shaded Beach
+[60] Tropical Seaside
+[61] Resting Spot
+[62] Perpetual Mess
+[63] Trash Collection Site
+[64] Trash Can Central
+[65] Trash Disposal Site
+[66] Park Bench
+[67] Tantalizing Restaurant
+[68] Tableside Delivery Cart
+[69] Chirp Chirp Meal
+[70] Cafe Space
+[71] Beach Set
+[72] Light Up Stage
+[73] Surprise In Store
+[74] Night Festival Venue
+[75] Changing Area
+[76] Private Makeup Stand
+[77] Knitting Station
+[78] Hot Spring Shower
+[79] Resort Meal Prep
+
+{
+  "55": {"zh": "...", "es": "..."},
+  "56": {"zh": "...", "es": "..."},
+  "57": {"zh": "...", "es": "..."},
+  "58": {"zh": "...", "es": "..."},
+  "59": {"zh": "...", "es": "..."},
+  "60": {"zh": "...", "es": "..."},
+  "61": {"zh": "...", "es": "..."},
+  "62": {"zh": "...", "es": "..."},
+  "63": {"zh": "...", "es": "..."},
+  "64": {"zh": "...", "es": "..."},
+  "65": {"zh": "...", "es": "..."},
+  "66": {"zh": "...", "es": "..."},
+  "67": {"zh": "...", "es": "..."},
+  "68": {"zh": "...", "es": "..."},
+  "69": {"zh": "...", "es": "..."},
+  "70": {"zh": "...", "es": "..."},
+  "71": {"zh": "...", "es": "..."},
+  "72": {"zh": "...", "es": "..."},
+  "73": {"zh": "...", "es": "..."},
+  "74": {"zh": "...", "es": "..."},
+  "75": {"zh": "...", "es": "..."},
+  "76": {"zh": "...", "es": "..."},
+  "77": {"zh": "...", "es": "..."},
+  "78": {"zh": "...", "es": "..."},
+  "79": {"zh": "...", "es": "..."}
+}

@@ -2,76 +2,16 @@
   {
     "text": "Marsh",
     "startMs": 100.0,
-    "durationMs": 450.0
+    "durationMs": 437.5
   },
   {
-    "text": "fishing",
-    "startMs": 562.5,
-    "durationMs": 450.0
+    "text": "Fishing",
+    "startMs": 550.0,
+    "durationMs": 437.5
   },
   {
-    "text": "spot",
-    "startMs": 1025.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "muddy",
-    "startMs": 1437.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "and",
-    "startMs": 1837.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "fun",
-    "startMs": 2037.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "Muk",
-    "startMs": 2675.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "and",
-    "startMs": 3075.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Wooper",
-    "startMs": 3250.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "fish",
-    "startMs": 3662.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "and",
-    "startMs": 4075.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "play",
-    "startMs": 4262.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "in",
-    "startMs": 4625.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "the",
-    "startMs": 4775.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "mud",
-    "startMs": 4862.5,
-    "durationMs": 400.0
+    "text": "Spot",
+    "startMs": 1000.0,
+    "durationMs": 475.0
   }
 ]

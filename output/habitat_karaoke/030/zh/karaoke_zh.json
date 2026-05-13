@@ -1,77 +1,17 @@
 [
   {
-    "text": "抱",
+    "text": "有",
     "startMs": 100.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "著",
-    "startMs": 312.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "玩偶的",
-    "startMs": 450.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "床",
-    "startMs": 912.5,
     "durationMs": 162.5
   },
   {
-    "text": "鋪",
-    "startMs": 1125.0,
-    "durationMs": 175.0
+    "text": "娃娃的",
+    "startMs": 300.0,
+    "durationMs": 450.0
   },
   {
-    "text": "軟",
-    "startMs": 1312.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "綿綿",
-    "startMs": 1475.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "卡",
-    "startMs": 2337.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "比",
-    "startMs": 2525.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "獸",
-    "startMs": 2662.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "抱",
-    "startMs": 2837.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "著",
-    "startMs": 3050.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "娃娃",
-    "startMs": 3187.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "甜甜",
-    "startMs": 3550.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "入睡",
-    "startMs": 3900.0,
-    "durationMs": 512.5
+    "text": "床",
+    "startMs": 775.0,
+    "durationMs": 275.0
   }
 ]

@@ -2,66 +2,11 @@
   {
     "text": "Vida",
     "startMs": 100.0,
-    "durationMs": 275.0
+    "durationMs": 325.0
   },
   {
-    "text": "simple",
-    "startMs": 387.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "con",
-    "startMs": 800.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "pequeñas",
-    "startMs": 987.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "alegrías",
-    "startMs": 1487.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "Ampharos",
-    "startMs": 2312.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "disfruta",
-    "startMs": 2787.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "la",
-    "startMs": 3237.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "felicidad",
-    "startMs": 3350.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "simple",
-    "startMs": 3937.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "bajo",
-    "startMs": 4350.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "luz",
-    "startMs": 4600.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "cálida",
-    "startMs": 4837.5,
-    "durationMs": 525.0
+    "text": "Sencilla",
+    "startMs": 437.5,
+    "durationMs": 612.5
   }
 ]

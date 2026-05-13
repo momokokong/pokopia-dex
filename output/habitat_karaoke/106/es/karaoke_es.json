@@ -1,82 +1,12 @@
 [
   {
-    "text": "Lecho",
+    "text": "Cantero",
     "startMs": 100.0,
-    "durationMs": 387.5
+    "durationMs": 500.0
   },
   {
-    "text": "de",
-    "startMs": 500.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "flores",
+    "text": "Húmedo",
     "startMs": 612.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "elegante",
-    "startMs": 1025.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "y",
-    "startMs": 1525.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "húmedo",
-    "startMs": 1662.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "lleno",
-    "startMs": 1975.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "de",
-    "startMs": 2262.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "agua",
-    "startMs": 2400.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "Arbok",
-    "startMs": 2962.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "y",
-    "startMs": 3400.0,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Politoed",
-    "startMs": 3475.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "juegan",
-    "startMs": 4025.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "en",
-    "startMs": 4425.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "el",
-    "startMs": 4550.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "humedal",
-    "startMs": 4687.5,
-    "durationMs": 462.5
+    "durationMs": 500.0
   }
 ]

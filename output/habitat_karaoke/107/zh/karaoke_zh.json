@@ -2,76 +2,21 @@
   {
     "text": "花園",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 387.5
   },
   {
     "text": "樹",
     "startMs": 512.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "樁",
-    "startMs": 762.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "舞台",
-    "startMs": 937.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "熱鬧",
-    "startMs": 1325.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "歡唱",
-    "startMs": 1637.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "蚊香",
-    "startMs": 2475.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "蛙",
-    "startMs": 2800.0,
     "durationMs": 187.5
   },
   {
-    "text": "和",
-    "startMs": 3000.0,
-    "durationMs": 175.0
+    "text": "樁",
+    "startMs": 750.0,
+    "durationMs": 137.5
   },
   {
-    "text": "胖",
-    "startMs": 3200.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "丁",
-    "startMs": 3437.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "在",
-    "startMs": 3637.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "台上",
-    "startMs": 3775.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "開",
-    "startMs": 4187.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "演唱會",
-    "startMs": 4362.5,
-    "durationMs": 650.0
+    "text": "舞台",
+    "startMs": 900.0,
+    "durationMs": 537.5
   }
 ]

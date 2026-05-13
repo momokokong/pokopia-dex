@@ -5,73 +5,8 @@
     "durationMs": 562.5
   },
   {
-    "text": "儲藏",
+    "text": "儲藏室",
     "startMs": 687.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "室",
-    "startMs": 1175.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "暗藏",
-    "startMs": 1325.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "玄機",
-    "startMs": 1725.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "夢",
-    "startMs": 2537.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "妖",
-    "startMs": 2750.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "和",
-    "startMs": 2925.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "多",
-    "startMs": 3137.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "龍",
-    "startMs": 3312.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "在",
-    "startMs": 3487.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "文件",
-    "startMs": 3650.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "堆",
-    "startMs": 4050.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "裡",
-    "startMs": 4212.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "探險",
-    "startMs": 4400.0,
-    "durationMs": 500.0
+    "durationMs": 787.5
   }
 ]

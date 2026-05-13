@@ -2,76 +2,21 @@
   {
     "text": "Hydrated",
     "startMs": 100.0,
-    "durationMs": 650.0
+    "durationMs": 662.5
   },
   {
-    "text": "fluffy",
-    "startMs": 762.5,
+    "text": "Fluffy",
+    "startMs": 775.0,
     "durationMs": 450.0
   },
   {
-    "text": "flower",
-    "startMs": 1225.0,
-    "durationMs": 475.0
+    "text": "Flower",
+    "startMs": 1237.5,
+    "durationMs": 487.5
   },
   {
-    "text": "bed",
-    "startMs": 1712.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "glistening",
-    "startMs": 2012.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "with",
-    "startMs": 2600.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "dew",
-    "startMs": 2825.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "Dragonair",
-    "startMs": 3400.0,
-    "durationMs": 737.5
-  },
-  {
-    "text": "and",
-    "startMs": 4250.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "Poliwhirl",
-    "startMs": 4375.0,
-    "durationMs": 700.0
-  },
-  {
-    "text": "play",
-    "startMs": 5087.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "happily",
-    "startMs": 5425.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "in",
-    "startMs": 6050.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "the",
-    "startMs": 6200.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "water",
-    "startMs": 6300.0,
-    "durationMs": 500.0
+    "text": "Bed",
+    "startMs": 1737.5,
+    "durationMs": 362.5
   }
 ]

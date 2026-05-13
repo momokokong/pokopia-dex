@@ -2,76 +2,16 @@
   {
     "text": "Chilly",
     "startMs": 100.0,
-    "durationMs": 412.5
+    "durationMs": 450.0
   },
   {
-    "text": "shaved",
-    "startMs": 525.0,
-    "durationMs": 425.0
+    "text": "Shaved",
+    "startMs": 562.5,
+    "durationMs": 462.5
   },
   {
-    "text": "ice",
-    "startMs": 962.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "to",
-    "startMs": 1250.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "beat",
-    "startMs": 1387.5,
-    "durationMs": 250.0
-  },
-  {
-    "text": "the",
-    "startMs": 1650.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "heat",
-    "startMs": 1750.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Glaceon",
-    "startMs": 2462.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "devours",
-    "startMs": 2975.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "icy",
-    "startMs": 3637.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "treats",
-    "startMs": 4025.0,
+    "text": "Ice",
+    "startMs": 1037.5,
     "durationMs": 437.5
-  },
-  {
-    "text": "on",
-    "startMs": 4475.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "a",
-    "startMs": 4637.5,
-    "durationMs": 37.5
-  },
-  {
-    "text": "hot",
-    "startMs": 4687.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "day",
-    "startMs": 5025.0,
-    "durationMs": 337.5
   }
 ]

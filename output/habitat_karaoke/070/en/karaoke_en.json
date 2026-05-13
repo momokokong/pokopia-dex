@@ -1,57 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Cafe",
     "startMs": 100.0,
-    "durationMs": 112.5
+    "durationMs": 512.5
   },
   {
-    "text": "cozy",
-    "startMs": 225.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "cafe",
-    "startMs": 712.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "space",
-    "startMs": 1200.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "Pawmi",
-    "startMs": 2037.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "and",
-    "startMs": 2612.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Pawmot",
-    "startMs": 2812.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "enjoy",
-    "startMs": 3362.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "afternoon",
-    "startMs": 3812.5,
-    "durationMs": 675.0
-  },
-  {
-    "text": "tea",
-    "startMs": 4500.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "together",
-    "startMs": 4800.0,
+    "text": "Space",
+    "startMs": 625.0,
     "durationMs": 625.0
   }
 ]

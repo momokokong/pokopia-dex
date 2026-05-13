@@ -2,81 +2,16 @@
   {
     "text": "Recital",
     "startMs": 100.0,
-    "durationMs": 487.5
+    "durationMs": 525.0
   },
   {
     "text": "de",
-    "startMs": 600.0,
+    "startMs": 637.5,
     "durationMs": 87.5
   },
   {
-    "text": "canto",
-    "startMs": 700.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "con",
-    "startMs": 1075.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "lindas",
-    "startMs": 1262.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "melodías",
-    "startMs": 1650.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "Chatot",
-    "startMs": 2437.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "y",
-    "startMs": 2862.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "Honchkrow",
-    "startMs": 2950.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "cantan",
-    "startMs": 3350.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "con",
-    "startMs": 3762.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "el",
-    "startMs": 3950.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "corazón",
-    "startMs": 4062.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "en",
-    "startMs": 4537.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "el",
-    "startMs": 4662.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "escenario",
-    "startMs": 4787.5,
-    "durationMs": 612.5
+    "text": "Pajaritos",
+    "startMs": 737.5,
+    "durationMs": 762.5
   }
 ]

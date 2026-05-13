@@ -2,61 +2,16 @@
   {
     "text": "溫泉",
     "startMs": 100.0,
-    "durationMs": 387.5
+    "durationMs": 400.0
   },
   {
     "text": "淋浴",
-    "startMs": 487.5,
-    "durationMs": 300.0
+    "startMs": 500.0,
+    "durationMs": 325.0
   },
   {
-    "text": "熱氣",
-    "startMs": 850.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "蒸騰",
-    "startMs": 1175.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "哥",
-    "startMs": 2025.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "達",
-    "startMs": 2150.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "鴨和",
-    "startMs": 2350.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "呆",
-    "startMs": 2712.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "呆獸",
-    "startMs": 2875.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "舒服",
-    "startMs": 3200.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "地",
-    "startMs": 3575.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "泡湯",
-    "startMs": 3725.0,
-    "durationMs": 462.5
+    "text": "間",
+    "startMs": 925.0,
+    "durationMs": 237.5
   }
 ]

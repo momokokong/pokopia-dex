@@ -2,61 +2,16 @@
   {
     "text": "Hot",
     "startMs": 100.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "spring",
-    "startMs": 437.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "shower",
-    "startMs": 862.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "with",
-    "startMs": 1362.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "steam",
-    "startMs": 1562.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "rising",
-    "startMs": 2000.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "Golduck",
-    "startMs": 2825.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "and",
-    "startMs": 3412.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "Psyduck",
-    "startMs": 3575.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "soak",
-    "startMs": 4137.5,
     "durationMs": 337.5
   },
   {
-    "text": "in",
-    "startMs": 4487.5,
-    "durationMs": 175.0
+    "text": "Spring",
+    "startMs": 450.0,
+    "durationMs": 412.5
   },
   {
-    "text": "comfort",
-    "startMs": 4675.0,
-    "durationMs": 612.5
+    "text": "Shower",
+    "startMs": 875.0,
+    "durationMs": 587.5
   }
 ]

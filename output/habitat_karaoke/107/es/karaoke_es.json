@@ -2,81 +2,16 @@
   {
     "text": "Escenario",
     "startMs": 100.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "de",
-    "startMs": 725.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "tocón",
-    "startMs": 850.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "en",
-    "startMs": 1162.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "jardín",
-    "startMs": 1275.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "de",
-    "startMs": 1650.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "flores",
-    "startMs": 1762.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "lleno",
-    "startMs": 2175.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "de",
-    "startMs": 2412.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "música",
-    "startMs": 2512.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "Politoed",
-    "startMs": 3300.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "y",
-    "startMs": 3812.5,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Jigglypuff",
-    "startMs": 3875.0,
     "durationMs": 637.5
   },
   {
-    "text": "dan",
-    "startMs": 4525.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "un",
-    "startMs": 4725.0,
+    "text": "de",
+    "startMs": 750.0,
     "durationMs": 112.5
   },
   {
-    "text": "concierto",
-    "startMs": 4850.0,
-    "durationMs": 650.0
+    "text": "Troncos",
+    "startMs": 875.0,
+    "durationMs": 600.0
   }
 ]

@@ -2,66 +2,11 @@
   {
     "text": "Playing",
     "startMs": 100.0,
-    "durationMs": 425.0
+    "durationMs": 437.5
   },
   {
-    "text": "pirate",
-    "startMs": 537.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "is",
-    "startMs": 1062.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "so",
-    "startMs": 1250.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "fun",
-    "startMs": 1562.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "Electrode",
-    "startMs": 2250.0,
-    "durationMs": 700.0
-  },
-  {
-    "text": "and",
-    "startMs": 3050.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Voltorb",
-    "startMs": 3225.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "search",
-    "startMs": 3850.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "for",
-    "startMs": 4250.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "treasure",
-    "startMs": 4437.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "on",
-    "startMs": 4987.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "deck",
-    "startMs": 5212.5,
-    "durationMs": 412.5
+    "text": "Pirate",
+    "startMs": 550.0,
+    "durationMs": 575.0
   }
 ]

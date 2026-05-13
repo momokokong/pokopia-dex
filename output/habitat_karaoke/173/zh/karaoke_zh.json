@@ -2,66 +2,11 @@
   {
     "text": "惡作劇",
     "startMs": 100.0,
-    "durationMs": 450.0
+    "durationMs": 500.0
   },
   {
     "text": "按鈕",
-    "startMs": 562.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "一按",
-    "startMs": 975.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "就",
-    "startMs": 1300.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "嚇人",
-    "startMs": 1437.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "呱呱泡",
-    "startMs": 2275.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "蛙",
-    "startMs": 2875.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "和",
-    "startMs": 3075.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "呱頭",
-    "startMs": 3287.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "蛙",
-    "startMs": 3637.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "偷",
-    "startMs": 3825.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "按",
-    "startMs": 3962.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "按鈕",
-    "startMs": 4125.0,
-    "durationMs": 450.0
+    "startMs": 625.0,
+    "durationMs": 487.5
   }
 ]

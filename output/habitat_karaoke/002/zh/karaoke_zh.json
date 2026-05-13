@@ -5,63 +5,18 @@
     "durationMs": 400.0
   },
   {
-    "text": "下的",
+    "text": "深",
     "startMs": 562.5,
-    "durationMs": 300.0
+    "durationMs": 150.0
   },
   {
-    "text": "高",
-    "startMs": 925.0,
-    "durationMs": 162.5
+    "text": "草",
+    "startMs": 762.5,
+    "durationMs": 225.0
   },
   {
-    "text": "草叢",
-    "startMs": 1100.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "涼爽",
-    "startMs": 1525.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "舒適",
-    "startMs": 1875.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "甲蟲",
-    "startMs": 2712.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "寶可",
-    "startMs": 3087.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "夢",
-    "startMs": 3437.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "最愛",
-    "startMs": 3675.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "在",
-    "startMs": 4037.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "這裡",
-    "startMs": 4200.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "乘涼",
-    "startMs": 4512.5,
-    "durationMs": 500.0
+    "text": "地",
+    "startMs": 1037.5,
+    "durationMs": 225.0
   }
 ]

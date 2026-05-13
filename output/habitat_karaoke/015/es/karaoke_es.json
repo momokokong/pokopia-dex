@@ -1,62 +1,22 @@
 [
   {
-    "text": "Campo",
+    "text": "Huerto",
     "startMs": 100.0,
-    "durationMs": 325.0
+    "durationMs": 350.0
   },
   {
     "text": "de",
-    "startMs": 437.5,
+    "startMs": 462.5,
     "durationMs": 87.5
   },
   {
     "text": "verduras",
-    "startMs": 537.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "frescas",
-    "startMs": 1025.0,
+    "startMs": 562.5,
     "durationMs": 487.5
   },
   {
-    "text": "lleno",
-    "startMs": 1525.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "de",
-    "startMs": 1775.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "verde",
-    "startMs": 1875.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "Drilbur",
-    "startMs": 2475.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "y",
-    "startMs": 2900.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "Rowlet",
-    "startMs": 2987.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "cosechan",
-    "startMs": 3400.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "felices",
-    "startMs": 3950.0,
-    "durationMs": 625.0
+    "text": "frescas",
+    "startMs": 1062.5,
+    "durationMs": 612.5
   }
 ]

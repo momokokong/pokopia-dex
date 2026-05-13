@@ -1,67 +1,27 @@
 [
   {
-    "text": "Tree-shaded",
+    "text": "Tree",
     "startMs": 100.0,
-    "durationMs": 725.0
+    "durationMs": 337.5
   },
   {
-    "text": "graceful",
-    "startMs": 837.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "flower",
-    "startMs": 1412.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "bed",
-    "startMs": 1900.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "quiet",
-    "startMs": 2225.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "and",
-    "startMs": 2775.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "lovely",
-    "startMs": 3000.0,
+    "text": "Shaded",
+    "startMs": 450.0,
     "durationMs": 487.5
   },
   {
-    "text": "Volcarona",
-    "startMs": 3775.0,
-    "durationMs": 850.0
+    "text": "Graceful",
+    "startMs": 950.0,
+    "durationMs": 575.0
   },
   {
-    "text": "and",
-    "startMs": 4637.5,
-    "durationMs": 212.5
+    "text": "Flower",
+    "startMs": 1537.5,
+    "durationMs": 487.5
   },
   {
-    "text": "Murkrow",
-    "startMs": 4862.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "rest",
-    "startMs": 5400.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "among",
-    "startMs": 5787.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "blooms",
-    "startMs": 6125.0,
-    "durationMs": 600.0
+    "text": "Bed",
+    "startMs": 2037.5,
+    "durationMs": 362.5
   }
 ]

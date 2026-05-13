@@ -2,56 +2,6 @@
   {
     "text": "花園",
     "startMs": 100.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "裡",
-    "startMs": 487.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "百花齊放",
-    "startMs": 687.5,
-    "durationMs": 875.0
-  },
-  {
-    "text": "派",
-    "startMs": 1812.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "拉",
-    "startMs": 2012.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "斯",
-    "startMs": 2162.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "在",
-    "startMs": 2350.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "花叢",
-    "startMs": 2537.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "下",
-    "startMs": 2950.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "悠閒",
-    "startMs": 3175.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "散步",
-    "startMs": 3550.0,
-    "durationMs": 512.5
+    "durationMs": 525.0
   }
 ]

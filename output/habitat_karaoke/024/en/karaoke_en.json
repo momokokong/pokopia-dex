@@ -1,67 +1,17 @@
 [
   {
-    "text": "An",
+    "text": "Exercise",
     "startMs": 100.0,
-    "durationMs": 225.0
+    "durationMs": 787.5
   },
   {
-    "text": "exercise",
-    "startMs": 337.5,
-    "durationMs": 712.5
+    "text": "Resting",
+    "startMs": 900.0,
+    "durationMs": 487.5
   },
   {
-    "text": "resting",
-    "startMs": 1062.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "spot",
-    "startMs": 1537.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "to",
-    "startMs": 1962.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "catch",
-    "startMs": 2100.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "your",
-    "startMs": 2450.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "breath",
-    "startMs": 2625.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Hitmonchan",
-    "startMs": 3325.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "takes",
-    "startMs": 3987.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "a",
-    "startMs": 4325.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "well-earned",
-    "startMs": 4437.5,
-    "durationMs": 625.0
-  },
-  {
-    "text": "break",
-    "startMs": 5075.0,
-    "durationMs": 462.5
+    "text": "Spot",
+    "startMs": 1400.0,
+    "durationMs": 475.0
   }
 ]

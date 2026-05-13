@@ -1,57 +1,22 @@
 [
   {
-    "text": "Artesanías",
+    "text": "Manualidades",
     "startMs": 100.0,
-    "durationMs": 775.0
+    "durationMs": 812.5
   },
   {
-    "text": "locas",
-    "startMs": 887.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "de",
-    "startMs": 1225.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "troncos",
-    "startMs": 1337.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "llenas",
-    "startMs": 1762.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "de",
-    "startMs": 2087.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "creatividad",
-    "startMs": 2187.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "Haxorus",
-    "startMs": 3075.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "crea",
-    "startMs": 3612.5,
+    "text": "Locas",
+    "startMs": 925.0,
     "durationMs": 337.5
   },
   {
-    "text": "obras",
-    "startMs": 3962.5,
-    "durationMs": 325.0
+    "text": "de",
+    "startMs": 1275.0,
+    "durationMs": 100.0
   },
   {
-    "text": "increíbles",
-    "startMs": 4300.0,
-    "durationMs": 787.5
+    "text": "Troncos",
+    "startMs": 1387.5,
+    "durationMs": 600.0
   }
 ]

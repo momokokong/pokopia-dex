@@ -1,82 +1,27 @@
 [
   {
-    "text": "Una",
+    "text": "Exhibición",
     "startMs": 100.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "exhibición",
-    "startMs": 300.0,
-    "durationMs": 525.0
+    "durationMs": 650.0
   },
   {
     "text": "de",
-    "startMs": 837.5,
+    "startMs": 762.5,
     "durationMs": 87.5
   },
   {
-    "text": "fósil",
-    "startMs": 937.5,
-    "durationMs": 362.5
+    "text": "fósiles",
+    "startMs": 862.5,
+    "durationMs": 500.0
   },
   {
     "text": "de",
-    "startMs": 1312.5,
+    "startMs": 1375.0,
     "durationMs": 75.0
   },
   {
     "text": "mandíbula",
-    "startMs": 1400.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "llena",
-    "startMs": 1950.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "de",
-    "startMs": 2237.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "salvajismo",
-    "startMs": 2362.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "Tyrunt",
-    "startMs": 3375.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "muestra",
-    "startMs": 3712.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "sus",
-    "startMs": 4100.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "dientes",
-    "startMs": 4325.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "afilados",
-    "startMs": 4737.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "del",
-    "startMs": 5250.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "fósil",
-    "startMs": 5400.0,
-    "durationMs": 450.0
+    "startMs": 1462.5,
+    "durationMs": 625.0
   }
 ]

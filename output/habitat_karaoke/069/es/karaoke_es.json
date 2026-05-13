@@ -1,62 +1,17 @@
 [
   {
-    "text": "El",
+    "text": "Comida",
     "startMs": 100.0,
-    "durationMs": 175.0
+    "durationMs": 412.5
   },
   {
-    "text": "festín",
-    "startMs": 287.5,
-    "durationMs": 387.5
+    "text": "pio",
+    "startMs": 525.0,
+    "durationMs": 225.0
   },
   {
-    "text": "pío-pío",
-    "startMs": 687.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "huele",
-    "startMs": 1225.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "increíble",
-    "startMs": 1475.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "Blaziken",
-    "startMs": 2362.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "y",
-    "startMs": 2875.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "Torchic",
-    "startMs": 2962.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "disfrutan",
-    "startMs": 3450.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "la",
-    "startMs": 4000.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "comida",
-    "startMs": 4100.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "sabrosa",
-    "startMs": 4500.0,
-    "durationMs": 575.0
+    "text": "pio",
+    "startMs": 762.5,
+    "durationMs": 325.0
   }
 ]

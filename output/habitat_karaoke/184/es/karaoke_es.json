@@ -2,76 +2,16 @@
   {
     "text": "Estanque",
     "startMs": 100.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "de",
-    "startMs": 587.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "pesca",
-    "startMs": 712.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "esperando",
-    "startMs": 1037.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "una",
-    "startMs": 1525.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "mordida",
-    "startMs": 1737.5,
     "durationMs": 500.0
   },
   {
-    "text": "Slowpoke",
-    "startMs": 2500.0,
-    "durationMs": 637.5
-  },
-  {
-    "text": "se",
-    "startMs": 3150.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "sienta",
-    "startMs": 3300.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "tranquilamente",
-    "startMs": 3675.0,
-    "durationMs": 800.0
-  },
-  {
-    "text": "junto",
-    "startMs": 4487.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "al",
-    "startMs": 4800.0,
+    "text": "de",
+    "startMs": 612.5,
     "durationMs": 112.5
   },
   {
-    "text": "agua",
-    "startMs": 4925.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "con",
-    "startMs": 5150.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "caña",
-    "startMs": 5337.5,
-    "durationMs": 425.0
+    "text": "Pesca",
+    "startMs": 737.5,
+    "durationMs": 462.5
   }
 ]

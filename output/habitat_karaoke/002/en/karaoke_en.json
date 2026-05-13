@@ -1,52 +1,22 @@
 [
   {
-    "text": "Cool",
+    "text": "Tree",
     "startMs": 100.0,
     "durationMs": 337.5
   },
   {
-    "text": "tree-shaded",
+    "text": "Shaded",
     "startMs": 450.0,
-    "durationMs": 712.5
+    "durationMs": 512.5
   },
   {
-    "text": "tall",
-    "startMs": 1175.0,
-    "durationMs": 325.0
+    "text": "Tall",
+    "startMs": 975.0,
+    "durationMs": 350.0
   },
   {
-    "text": "grass",
-    "startMs": 1512.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "where",
-    "startMs": 1962.5,
-    "durationMs": 225.0
-  },
-  {
-    "text": "bug",
-    "startMs": 2200.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 2550.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "love",
-    "startMs": 3237.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "to",
-    "startMs": 3575.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "relax",
-    "startMs": 3750.0,
-    "durationMs": 675.0
+    "text": "Grass",
+    "startMs": 1337.5,
+    "durationMs": 587.5
   }
 ]

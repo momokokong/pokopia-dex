@@ -2,66 +2,16 @@
   {
     "text": "Refreshing",
     "startMs": 100.0,
-    "durationMs": 675.0
+    "durationMs": 687.5
   },
   {
-    "text": "locker",
-    "startMs": 787.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "room",
-    "startMs": 1225.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "to",
-    "startMs": 1537.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "feel",
-    "startMs": 1687.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "renewed",
-    "startMs": 2025.0,
+    "text": "Locker",
+    "startMs": 800.0,
     "durationMs": 462.5
   },
   {
-    "text": "Cinderace",
-    "startMs": 2775.0,
-    "durationMs": 725.0
-  },
-  {
-    "text": "and",
-    "startMs": 3512.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "Raboot",
-    "startMs": 3762.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "gear",
-    "startMs": 4250.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "up",
-    "startMs": 4562.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "for",
-    "startMs": 4750.0,
-    "durationMs": 250.0
-  },
-  {
-    "text": "action",
-    "startMs": 5012.5,
-    "durationMs": 600.0
+    "text": "Room",
+    "startMs": 1275.0,
+    "durationMs": 387.5
   }
 ]

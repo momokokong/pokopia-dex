@@ -2,66 +2,11 @@
   {
     "text": "鐵路",
     "startMs": 100.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "平交道噹噹",
-    "startMs": 500.0,
-    "durationMs": 862.5
-  },
-  {
-    "text": "作響",
-    "startMs": 1425.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "巨炭",
-    "startMs": 2212.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "山和",
-    "startMs": 2550.0,
     "durationMs": 375.0
   },
   {
-    "text": "小",
-    "startMs": 2937.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "炭",
-    "startMs": 3150.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "車",
-    "startMs": 3337.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "在",
-    "startMs": 3537.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "鐵軌",
-    "startMs": 3712.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "旁",
-    "startMs": 4050.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "等",
-    "startMs": 4262.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "火車",
-    "startMs": 4412.5,
-    "durationMs": 575.0
+    "text": "平交道",
+    "startMs": 487.5,
+    "durationMs": 675.0
   }
 ]

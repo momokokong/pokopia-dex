@@ -2,46 +2,16 @@
   {
     "text": "Surprise",
     "startMs": 100.0,
-    "durationMs": 687.5
+    "durationMs": 675.0
   },
   {
-    "text": "in",
-    "startMs": 800.0,
+    "text": "In",
+    "startMs": 787.5,
     "durationMs": 187.5
   },
   {
-    "text": "store",
-    "startMs": 1000.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "Gengar",
-    "startMs": 2400.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "and",
-    "startMs": 3125.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Zoroark",
-    "startMs": 3312.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "conjure",
-    "startMs": 3975.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "magical",
-    "startMs": 4425.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "tricks",
-    "startMs": 4987.5,
-    "durationMs": 600.0
+    "text": "Store",
+    "startMs": 987.5,
+    "durationMs": 512.5
   }
 ]

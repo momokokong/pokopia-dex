@@ -2,61 +2,16 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 412.5
+    "durationMs": 450.0
   },
   {
-    "text": "alta",
-    "startMs": 525.0,
+    "text": "Alta",
+    "startMs": 562.5,
     "durationMs": 237.5
   },
   {
-    "text": "suave",
-    "startMs": 775.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "al",
-    "startMs": 1087.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "tacto",
-    "startMs": 1212.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "Onix",
-    "startMs": 1912.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "se",
-    "startMs": 2250.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "desliza",
-    "startMs": 2362.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "lentamente",
-    "startMs": 2875.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "entre",
-    "startMs": 3500.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "las",
-    "startMs": 3775.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "hojas",
-    "startMs": 3962.5,
-    "durationMs": 462.5
+    "text": "Suave",
+    "startMs": 812.5,
+    "durationMs": 412.5
   }
 ]

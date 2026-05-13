@@ -1,62 +1,17 @@
 [
   {
-    "text": "Paso",
+    "text": "Cruce",
     "startMs": 100.0,
-    "durationMs": 300.0
+    "durationMs": 337.5
   },
   {
-    "text": "a",
-    "startMs": 412.5,
-    "durationMs": 25.0
-  },
-  {
-    "text": "nivel",
+    "text": "de",
     "startMs": 450.0,
-    "durationMs": 325.0
+    "durationMs": 100.0
   },
   {
-    "text": "ding-ding",
-    "startMs": 787.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "Coalossal",
-    "startMs": 1437.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "y",
-    "startMs": 1962.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Rolycoly",
-    "startMs": 2037.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "esperan",
-    "startMs": 2612.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "junto",
-    "startMs": 3062.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "a",
-    "startMs": 3362.5,
-    "durationMs": 12.5
-  },
-  {
-    "text": "las",
-    "startMs": 3387.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "vías",
-    "startMs": 3587.5,
-    "durationMs": 462.5
+    "text": "Ferrocarril",
+    "startMs": 562.5,
+    "durationMs": 662.5
   }
 ]

@@ -5,48 +5,13 @@
     "durationMs": 350.0
   },
   {
-    "text": "到",
-    "startMs": 475.0,
+    "text": "大",
+    "startMs": 487.5,
     "durationMs": 137.5
   },
   {
-    "text": "受不了",
+    "text": "爆發",
     "startMs": 637.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "幸福",
-    "startMs": 2112.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "蛋",
-    "startMs": 2575.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "散發",
-    "startMs": 2762.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "滿",
-    "startMs": 3175.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "滿的",
-    "startMs": 3350.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "幸福",
-    "startMs": 3650.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "光芒",
-    "startMs": 4062.5,
-    "durationMs": 412.5
+    "durationMs": 500.0
   }
 ]

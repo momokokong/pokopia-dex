@@ -1,67 +1,17 @@
 [
   {
-    "text": "Una",
+    "text": "Estación",
     "startMs": 100.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "estación",
-    "startMs": 287.5,
-    "durationMs": 425.0
+    "durationMs": 550.0
   },
   {
     "text": "de",
-    "startMs": 725.0,
+    "startMs": 662.5,
     "durationMs": 100.0
   },
   {
     "text": "tejido",
-    "startMs": 837.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "con",
-    "startMs": 1250.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "ovillos",
-    "startMs": 1425.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "rodando",
-    "startMs": 1850.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Mareep",
-    "startMs": 2612.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "y",
-    "startMs": 2962.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Flaaffy",
-    "startMs": 3037.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "tejen",
-    "startMs": 3487.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "creaciones",
-    "startMs": 3850.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "acogedoras",
-    "startMs": 4462.5,
-    "durationMs": 812.5
+    "startMs": 775.0,
+    "durationMs": 512.5
   }
 ]

@@ -2,56 +2,21 @@
   {
     "text": "Ducha",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 375.0
   },
   {
-    "text": "termal",
-    "startMs": 475.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "con",
-    "startMs": 875.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "vapor",
-    "startMs": 1050.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "subiendo",
-    "startMs": 1362.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "Golduck",
-    "startMs": 2137.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "y",
-    "startMs": 2512.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Psyduck",
-    "startMs": 2587.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "se",
-    "startMs": 2962.5,
+    "text": "de",
+    "startMs": 487.5,
     "durationMs": 137.5
   },
   {
-    "text": "remojan",
-    "startMs": 3112.5,
-    "durationMs": 487.5
+    "text": "aguas",
+    "startMs": 637.5,
+    "durationMs": 312.5
   },
   {
-    "text": "cómodamente",
-    "startMs": 3612.5,
-    "durationMs": 775.0
+    "text": "termales",
+    "startMs": 962.5,
+    "durationMs": 662.5
   }
 ]

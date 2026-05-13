@@ -1,67 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Mossy",
     "startMs": 100.0,
-    "durationMs": 87.5
+    "durationMs": 500.0
   },
   {
-    "text": "mossy",
-    "startMs": 200.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "hot",
-    "startMs": 725.0,
+    "text": "Hot",
+    "startMs": 612.5,
     "durationMs": 312.5
   },
   {
-    "text": "spring",
-    "startMs": 1050.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "with",
-    "startMs": 1475.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "steam",
-    "startMs": 1687.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "rising",
-    "startMs": 2125.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "Torkoal",
-    "startMs": 3000.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "soaks",
-    "startMs": 3575.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "comfortably",
-    "startMs": 4000.0,
-    "durationMs": 762.5
-  },
-  {
-    "text": "in",
-    "startMs": 4775.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "warm",
-    "startMs": 4975.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "water",
-    "startMs": 5350.0,
-    "durationMs": 475.0
+    "text": "Spring",
+    "startMs": 937.5,
+    "durationMs": 550.0
   }
 ]

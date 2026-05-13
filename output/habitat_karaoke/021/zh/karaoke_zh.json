@@ -1,57 +1,12 @@
 [
   {
-    "text": "花桌",
+    "text": "繁花",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 412.5
   },
   {
-    "text": "芬芳",
-    "startMs": 512.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "迷人",
-    "startMs": 862.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "喇叭",
-    "startMs": 1662.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "芽",
-    "startMs": 2037.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "和",
-    "startMs": 2287.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "怪味",
-    "startMs": 2500.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "花在",
-    "startMs": 2837.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "花香",
-    "startMs": 3200.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "中",
-    "startMs": 3600.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "打盹",
-    "startMs": 3775.0,
-    "durationMs": 462.5
+    "text": "餐桌",
+    "startMs": 525.0,
+    "durationMs": 475.0
   }
 ]

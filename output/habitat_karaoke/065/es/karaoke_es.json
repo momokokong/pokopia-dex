@@ -1,67 +1,27 @@
 [
   {
-    "text": "El",
+    "text": "Sitio",
     "startMs": 100.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "sitio",
-    "startMs": 312.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "de",
-    "startMs": 662.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "eliminación",
-    "startMs": 775.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "de",
-    "startMs": 1400.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "basura",
-    "startMs": 1487.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "esconde",
-    "startMs": 1887.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "sorpresas",
-    "startMs": 2275.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "Crobat",
-    "startMs": 3187.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "patrulla",
-    "startMs": 3587.5,
     "durationMs": 450.0
   },
   {
-    "text": "silenciosamente",
-    "startMs": 4050.0,
-    "durationMs": 950.0
+    "text": "de",
+    "startMs": 562.5,
+    "durationMs": 87.5
+  },
+  {
+    "text": "desecho",
+    "startMs": 662.5,
+    "durationMs": 462.5
   },
   {
     "text": "de",
-    "startMs": 5012.5,
-    "durationMs": 112.5
+    "startMs": 1137.5,
+    "durationMs": 87.5
   },
   {
-    "text": "noche",
-    "startMs": 5137.5,
-    "durationMs": 437.5
+    "text": "basura",
+    "startMs": 1237.5,
+    "durationMs": 487.5
   }
 ]

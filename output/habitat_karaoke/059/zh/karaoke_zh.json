@@ -1,57 +1,12 @@
 [
   {
-    "text": "樹蔭",
+    "text": "陰涼",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 350.0
   },
   {
     "text": "海灘",
-    "startMs": 525.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "清涼",
-    "startMs": 900.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "消暑",
-    "startMs": 1275.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "椰",
-    "startMs": 2087.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "蛋樹",
-    "startMs": 2225.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "在",
-    "startMs": 2625.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "沙灘",
-    "startMs": 2762.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "上",
-    "startMs": 3150.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "享受",
-    "startMs": 3350.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "陰涼",
-    "startMs": 3737.5,
-    "durationMs": 475.0
+    "startMs": 487.5,
+    "durationMs": 437.5
   }
 ]

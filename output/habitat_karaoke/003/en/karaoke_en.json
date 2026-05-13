@@ -1,52 +1,22 @@
 [
   {
-    "text": "Boulder-shaded",
+    "text": "Boulder",
     "startMs": 100.0,
-    "durationMs": 900.0
+    "durationMs": 487.5
   },
   {
-    "text": "tall",
-    "startMs": 1012.5,
+    "text": "Shaded",
+    "startMs": 600.0,
+    "durationMs": 512.5
+  },
+  {
+    "text": "Tall",
+    "startMs": 1125.0,
     "durationMs": 325.0
   },
   {
-    "text": "grass",
-    "startMs": 1350.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "a",
-    "startMs": 2100.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "great",
-    "startMs": 2187.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "spot",
-    "startMs": 2575.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "for",
-    "startMs": 3000.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "Machop",
-    "startMs": 3212.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "to",
-    "startMs": 3875.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "train",
-    "startMs": 4000.0,
-    "durationMs": 512.5
+    "text": "Grass",
+    "startMs": 1462.5,
+    "durationMs": 575.0
   }
 ]

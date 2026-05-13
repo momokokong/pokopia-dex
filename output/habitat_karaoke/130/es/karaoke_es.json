@@ -1,67 +1,12 @@
 [
   {
-    "text": "Vestuario",
+    "text": "Vestidor",
     "startMs": 100.0,
-    "durationMs": 512.5
+    "durationMs": 537.5
   },
   {
-    "text": "refrescante",
-    "startMs": 625.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "para",
-    "startMs": 1312.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "sentirse",
-    "startMs": 1537.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "renovado",
-    "startMs": 2100.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "Cinderace",
-    "startMs": 2937.5,
-    "durationMs": 625.0
-  },
-  {
-    "text": "y",
-    "startMs": 3575.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "Raboot",
-    "startMs": 3700.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "se",
-    "startMs": 4162.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "preparan",
-    "startMs": 4325.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "para",
-    "startMs": 4812.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "la",
-    "startMs": 5037.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "acción",
-    "startMs": 5125.0,
-    "durationMs": 462.5
+    "text": "Refrescante",
+    "startMs": 650.0,
+    "durationMs": 712.5
   }
 ]

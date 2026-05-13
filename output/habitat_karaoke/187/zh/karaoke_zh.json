@@ -6,77 +6,12 @@
   },
   {
     "text": "釣魚",
-    "startMs": 500.0,
-    "durationMs": 287.5
+    "startMs": 512.5,
+    "durationMs": 300.0
   },
   {
     "text": "點",
-    "startMs": 862.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "暖",
-    "startMs": 1025.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "呼呼的",
-    "startMs": 1225.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "蓮",
-    "startMs": 2237.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "帽",
-    "startMs": 2400.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "小",
-    "startMs": 2587.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "童",
-    "startMs": 2812.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "和",
-    "startMs": 3062.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "蓮葉",
-    "startMs": 3262.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "童子",
-    "startMs": 3612.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "在",
-    "startMs": 4000.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "溫泉",
-    "startMs": 4187.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "裡",
-    "startMs": 4525.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "釣魚",
-    "startMs": 4700.0,
-    "durationMs": 487.5
+    "startMs": 900.0,
+    "durationMs": 237.5
   }
 ]

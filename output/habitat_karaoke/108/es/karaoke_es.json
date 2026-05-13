@@ -2,51 +2,16 @@
   {
     "text": "Trabajando",
     "startMs": 100.0,
-    "durationMs": 550.0
+    "durationMs": 575.0
   },
   {
     "text": "la",
-    "startMs": 662.5,
+    "startMs": 687.5,
     "durationMs": 100.0
   },
   {
-    "text": "tierra",
-    "startMs": 775.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "con",
-    "startMs": 1100.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "brazos",
-    "startMs": 1300.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "fuertes",
-    "startMs": 1662.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "Tyranitar",
-    "startMs": 2387.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "cava",
-    "startMs": 2962.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "con",
-    "startMs": 3262.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "energía",
-    "startMs": 3450.0,
-    "durationMs": 600.0
+    "text": "Tierra",
+    "startMs": 800.0,
+    "durationMs": 437.5
   }
 ]

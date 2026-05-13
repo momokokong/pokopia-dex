@@ -1,62 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Recital",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 612.5
   },
   {
-    "text": "recital",
-    "startMs": 212.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "stage",
-    "startMs": 812.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "shining",
-    "startMs": 1262.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "with",
-    "startMs": 1800.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "lights",
-    "startMs": 1987.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "Wigglytuff",
-    "startMs": 2775.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "and",
-    "startMs": 3600.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Jigglypuff",
-    "startMs": 3775.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "sing",
-    "startMs": 4500.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "beautiful",
-    "startMs": 4875.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "melodies",
-    "startMs": 5450.0,
-    "durationMs": 700.0
+    "text": "Stage",
+    "startMs": 725.0,
+    "durationMs": 600.0
   }
 ]

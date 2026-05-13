@@ -2,61 +2,16 @@
   {
     "text": "Chirp",
     "startMs": 100.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "chirp",
-    "startMs": 462.5,
     "durationMs": 362.5
   },
   {
-    "text": "meal",
+    "text": "Chirp",
+    "startMs": 475.0,
+    "durationMs": 350.0
+  },
+  {
+    "text": "Meal",
     "startMs": 837.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "smells",
-    "startMs": 1162.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "amazing",
-    "startMs": 1650.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "Blaziken",
-    "startMs": 2587.5,
-    "durationMs": 775.0
-  },
-  {
-    "text": "and",
-    "startMs": 3375.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Torchic",
-    "startMs": 3575.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "enjoy",
-    "startMs": 4175.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "the",
-    "startMs": 4637.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "tasty",
-    "startMs": 4787.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "feast",
-    "startMs": 5262.5,
-    "durationMs": 525.0
+    "durationMs": 425.0
   }
 ]

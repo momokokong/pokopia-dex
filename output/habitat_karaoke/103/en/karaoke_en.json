@@ -1,67 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Grassy",
     "startMs": 100.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "grassy",
-    "startMs": 225.0,
     "durationMs": 512.5
   },
   {
-    "text": "training",
-    "startMs": 750.0,
+    "text": "Training",
+    "startMs": 625.0,
     "durationMs": 525.0
   },
   {
-    "text": "field",
-    "startMs": 1287.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "full",
-    "startMs": 1687.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "of",
-    "startMs": 1975.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "energy",
-    "startMs": 2125.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "Machamp",
-    "startMs": 2925.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "and",
-    "startMs": 3562.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Machoke",
-    "startMs": 3762.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "work",
-    "startMs": 4387.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "out",
-    "startMs": 4675.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "hard",
-    "startMs": 4875.0,
-    "durationMs": 462.5
+    "text": "Field",
+    "startMs": 1162.5,
+    "durationMs": 550.0
   }
 ]

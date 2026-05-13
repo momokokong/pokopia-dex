@@ -1,62 +1,12 @@
 [
   {
-    "text": "夜晚",
+    "text": "夜祭",
     "startMs": 100.0,
-    "durationMs": 325.0
+    "durationMs": 337.5
   },
   {
-    "text": "祭典",
-    "startMs": 475.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "燈火",
-    "startMs": 812.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "通明",
-    "startMs": 1212.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "茸",
-    "startMs": 1962.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "茸",
-    "startMs": 2175.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "羊",
-    "startMs": 2337.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "在",
-    "startMs": 2537.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "熱鬧的",
-    "startMs": 2687.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "攤位",
-    "startMs": 3137.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "間",
-    "startMs": 3450.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "逛逛",
-    "startMs": 3662.5,
-    "durationMs": 462.5
+    "text": "會場",
+    "startMs": 487.5,
+    "durationMs": 500.0
   }
 ]

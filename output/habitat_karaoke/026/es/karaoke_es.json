@@ -2,61 +2,21 @@
   {
     "text": "Primeros",
     "startMs": 100.0,
-    "durationMs": 450.0
+    "durationMs": 462.5
   },
   {
     "text": "auxilios",
-    "startMs": 562.5,
-    "durationMs": 550.0
+    "startMs": 575.0,
+    "durationMs": 575.0
   },
   {
     "text": "del",
-    "startMs": 1125.0,
+    "startMs": 1162.5,
     "durationMs": 125.0
   },
   {
-    "text": "gimnasio",
-    "startMs": 1262.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "cuida",
-    "startMs": 1812.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "a",
-    "startMs": 2175.0,
-    "durationMs": 25.0
-  },
-  {
-    "text": "los",
-    "startMs": 2212.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 2412.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "luchadores",
-    "startMs": 2837.5,
-    "durationMs": 637.5
-  },
-  {
-    "text": "Hitmontop",
-    "startMs": 3687.5,
-    "durationMs": 712.5
-  },
-  {
-    "text": "descansa",
-    "startMs": 4412.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "tranquilo",
-    "startMs": 4975.0,
-    "durationMs": 562.5
+    "text": "Gimnasio",
+    "startMs": 1300.0,
+    "durationMs": 600.0
   }
 ]

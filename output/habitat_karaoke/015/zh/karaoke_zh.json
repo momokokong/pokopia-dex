@@ -2,56 +2,16 @@
   {
     "text": "新鮮",
     "startMs": 100.0,
-    "durationMs": 437.5
+    "durationMs": 400.0
   },
   {
     "text": "蔬菜",
-    "startMs": 575.0,
-    "durationMs": 375.0
+    "startMs": 537.5,
+    "durationMs": 400.0
   },
   {
-    "text": "田綠意",
-    "startMs": 1000.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "盎然",
-    "startMs": 1400.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "螺釘",
-    "startMs": 2275.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "鼠",
-    "startMs": 2625.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "和",
-    "startMs": 2850.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "木",
-    "startMs": 3037.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "木梟",
-    "startMs": 3200.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "開心",
-    "startMs": 3587.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "採收",
-    "startMs": 3962.5,
-    "durationMs": 550.0
+    "text": "地",
+    "startMs": 975.0,
+    "durationMs": 237.5
   }
 ]

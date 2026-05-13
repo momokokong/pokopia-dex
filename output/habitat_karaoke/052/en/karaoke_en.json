@@ -2,71 +2,21 @@
   {
     "text": "Elevated",
     "startMs": 100.0,
-    "durationMs": 675.0
+    "durationMs": 662.5
   },
   {
-    "text": "yellow",
-    "startMs": 787.5,
+    "text": "Yellow",
+    "startMs": 775.0,
+    "durationMs": 387.5
+  },
+  {
+    "text": "Tall",
+    "startMs": 1175.0,
     "durationMs": 375.0
   },
   {
-    "text": "tall",
-    "startMs": 1175.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "grass",
-    "startMs": 1550.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "with",
-    "startMs": 2000.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "amazing",
-    "startMs": 2187.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "views",
-    "startMs": 2762.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Crobat",
-    "startMs": 3525.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "and",
-    "startMs": 4225.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "Pelipper",
-    "startMs": 4375.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "soar",
-    "startMs": 4887.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "in",
-    "startMs": 5250.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "the",
-    "startMs": 5437.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "wind",
-    "startMs": 5562.5,
-    "durationMs": 462.5
+    "text": "Grass",
+    "startMs": 1562.5,
+    "durationMs": 575.0
   }
 ]

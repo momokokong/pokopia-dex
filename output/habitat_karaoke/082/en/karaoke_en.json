@@ -1,72 +1,22 @@
 [
   {
-    "text": "An",
+    "text": "Alarm",
     "startMs": 100.0,
-    "durationMs": 150.0
+    "durationMs": 537.5
   },
   {
-    "text": "alarm",
-    "startMs": 262.5,
-    "durationMs": 462.5
+    "text": "Clock",
+    "startMs": 650.0,
+    "durationMs": 437.5
   },
   {
-    "text": "clock",
-    "startMs": 737.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "sleep",
-    "startMs": 1162.5,
+    "text": "Sleep",
+    "startMs": 1100.0,
     "durationMs": 387.5
   },
   {
-    "text": "zone",
-    "startMs": 1562.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "calm",
-    "startMs": 1950.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "and",
-    "startMs": 2325.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "quiet",
-    "startMs": 2487.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "Happiny",
-    "startMs": 3350.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "snoozes",
-    "startMs": 3812.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "sweetly",
-    "startMs": 4387.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "with",
-    "startMs": 4950.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "its",
-    "startMs": 5162.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "clock",
-    "startMs": 5362.5,
-    "durationMs": 512.5
+    "text": "Zone",
+    "startMs": 1500.0,
+    "durationMs": 437.5
   }
 ]

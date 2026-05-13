@@ -2,46 +2,11 @@
   {
     "text": "Grave",
     "startMs": 100.0,
-    "durationMs": 387.5
+    "durationMs": 412.5
   },
   {
-    "text": "offerings",
-    "startMs": 500.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "solemn",
-    "startMs": 1087.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "and",
-    "startMs": 1537.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "quiet",
-    "startMs": 1725.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "Lampent",
-    "startMs": 2562.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "watches",
-    "startMs": 3075.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "over",
-    "startMs": 3637.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "peacefully",
-    "startMs": 3937.5,
-    "durationMs": 737.5
+    "text": "Offering",
+    "startMs": 525.0,
+    "durationMs": 637.5
   }
 ]

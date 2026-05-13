@@ -1,57 +1,12 @@
 [
   {
-    "text": "Refresco",
+    "text": "Súper",
     "startMs": 100.0,
-    "durationMs": 550.0
+    "durationMs": 450.0
   },
   {
-    "text": "top",
-    "startMs": 662.5,
-    "durationMs": 250.0
-  },
-  {
-    "text": "refrescante",
-    "startMs": 925.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "y",
-    "startMs": 1587.5,
-    "durationMs": 50.0
-  },
-  {
-    "text": "frío",
-    "startMs": 1650.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "Typhlosion",
-    "startMs": 2325.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "se",
-    "startMs": 2875.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "bebe",
-    "startMs": 3025.0,
-    "durationMs": 250.0
-  },
-  {
-    "text": "un",
-    "startMs": 3287.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "soda",
-    "startMs": 3450.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "helada",
-    "startMs": 3787.5,
-    "durationMs": 425.0
+    "text": "Popular",
+    "startMs": 562.5,
+    "durationMs": 600.0
   }
 ]

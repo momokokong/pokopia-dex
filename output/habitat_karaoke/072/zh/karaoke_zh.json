@@ -1,57 +1,12 @@
 [
   {
-    "text": "閃亮",
+    "text": "發光",
     "startMs": 100.0,
-    "durationMs": 437.5
+    "durationMs": 350.0
   },
   {
     "text": "舞台",
-    "startMs": 562.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "上",
-    "startMs": 887.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "燈光",
-    "startMs": 1112.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "四射",
-    "startMs": 1450.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "電擊",
-    "startMs": 2350.0,
-    "durationMs": 250.0
-  },
-  {
-    "text": "獸和",
-    "startMs": 2650.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "電擊",
-    "startMs": 3037.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "魔人",
-    "startMs": 3412.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "嗨",
-    "startMs": 3837.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "翻全場",
-    "startMs": 4025.0,
-    "durationMs": 675.0
+    "startMs": 462.5,
+    "durationMs": 500.0
   }
 ]

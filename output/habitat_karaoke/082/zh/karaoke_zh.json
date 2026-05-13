@@ -2,66 +2,16 @@
   {
     "text": "鬧鐘",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 375.0
   },
   {
     "text": "睡眠",
-    "startMs": 487.5,
+    "startMs": 512.5,
     "durationMs": 350.0
   },
   {
     "text": "區",
-    "startMs": 887.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "安穩",
-    "startMs": 1075.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "寧靜",
-    "startMs": 1412.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "小",
-    "startMs": 2212.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "福蛋",
-    "startMs": 2425.0,
+    "startMs": 925.0,
     "durationMs": 312.5
-  },
-  {
-    "text": "抱",
-    "startMs": 2762.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "著",
-    "startMs": 2950.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "鬧鐘",
-    "startMs": 3087.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "甜甜",
-    "startMs": 3500.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "入",
-    "startMs": 3850.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "睡",
-    "startMs": 4050.0,
-    "durationMs": 325.0
   }
 ]

@@ -2,86 +2,26 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 425.0
+    "durationMs": 362.5
   },
   {
-    "text": "alta",
-    "startMs": 537.5,
-    "durationMs": 250.0
-  },
-  {
-    "text": "amarilla",
-    "startMs": 800.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "bajo",
-    "startMs": 1200.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "los",
-    "startMs": 1450.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "árboles",
-    "startMs": 1650.0,
+    "text": "Amarilla",
+    "startMs": 475.0,
     "durationMs": 412.5
   },
   {
-    "text": "fresca",
-    "startMs": 2075.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "y",
-    "startMs": 2450.0,
-    "durationMs": 62.5
-  },
-  {
-    "text": "cómoda",
-    "startMs": 2525.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Zubat",
-    "startMs": 3275.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "y",
-    "startMs": 3650.0,
-    "durationMs": 37.5
-  },
-  {
-    "text": "Makuhita",
-    "startMs": 3700.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "se",
-    "startMs": 4162.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "relajan",
-    "startMs": 4325.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "a",
-    "startMs": 4825.0,
-    "durationMs": 37.5
+    "text": "bajo",
+    "startMs": 900.0,
+    "durationMs": 250.0
   },
   {
     "text": "la",
-    "startMs": 4875.0,
-    "durationMs": 100.0
+    "startMs": 1162.5,
+    "durationMs": 87.5
   },
   {
-    "text": "sombra",
-    "startMs": 4987.5,
-    "durationMs": 475.0
+    "text": "Sombra",
+    "startMs": 1262.5,
+    "durationMs": 450.0
   }
 ]

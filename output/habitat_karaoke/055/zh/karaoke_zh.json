@@ -1,62 +1,22 @@
 [
   {
-    "text": "藤蔓",
+    "text": "雜草",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 412.5
   },
   {
-    "text": "環繞的",
-    "startMs": 500.0,
-    "durationMs": 462.5
+    "text": "叢生的",
+    "startMs": 525.0,
+    "durationMs": 550.0
   },
   {
     "text": "自動",
-    "startMs": 1000.0,
-    "durationMs": 250.0
+    "startMs": 1100.0,
+    "durationMs": 275.0
   },
   {
     "text": "販賣機",
-    "startMs": 1325.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "充滿",
-    "startMs": 1850.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "綠意",
-    "startMs": 2225.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "咩",
-    "startMs": 3025.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "咩",
-    "startMs": 3200.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "羊毛",
-    "startMs": 3362.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "在",
-    "startMs": 3725.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "旁",
-    "startMs": 3875.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "歇腳",
-    "startMs": 4075.0,
-    "durationMs": 487.5
+    "startMs": 1437.5,
+    "durationMs": 687.5
   }
 ]

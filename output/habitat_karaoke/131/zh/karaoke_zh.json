@@ -2,61 +2,11 @@
   {
     "text": "青銅",
     "startMs": 100.0,
-    "durationMs": 412.5
+    "durationMs": 400.0
   },
   {
     "text": "地標",
     "startMs": 550.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "莊嚴",
-    "startMs": 925.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "雄偉",
-    "startMs": 1287.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "皮皮",
-    "startMs": 2150.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "和皮",
-    "startMs": 2487.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "可",
-    "startMs": 2875.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "西",
-    "startMs": 3050.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "在",
-    "startMs": 3275.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "銅像",
-    "startMs": 3425.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "旁",
-    "startMs": 3812.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "祈願",
-    "startMs": 4012.5,
-    "durationMs": 500.0
+    "durationMs": 475.0
   }
 ]

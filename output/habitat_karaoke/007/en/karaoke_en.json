@@ -1,52 +1,17 @@
 [
   {
-    "text": "Bright",
+    "text": "Illuminated",
     "startMs": 100.0,
-    "durationMs": 325.0
+    "durationMs": 850.0
   },
   {
-    "text": "illuminated",
-    "startMs": 437.5,
-    "durationMs": 725.0
+    "text": "Tall",
+    "startMs": 962.5,
+    "durationMs": 350.0
   },
   {
-    "text": "tall",
-    "startMs": 1175.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "grass",
-    "startMs": 1525.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "where",
-    "startMs": 1987.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Venomoth",
-    "startMs": 2175.0,
-    "durationMs": 637.5
-  },
-  {
-    "text": "dances",
-    "startMs": 2825.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "in",
-    "startMs": 3425.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "the",
-    "startMs": 3612.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "glow",
-    "startMs": 3712.5,
-    "durationMs": 437.5
+    "text": "Grass",
+    "startMs": 1325.0,
+    "durationMs": 575.0
   }
 ]

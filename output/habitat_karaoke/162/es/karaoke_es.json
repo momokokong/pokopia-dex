@@ -1,57 +1,17 @@
 [
   {
-    "text": "Un",
+    "text": "Mesa",
     "startMs": 100.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "tocador",
-    "startMs": 262.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "hidratante",
-    "startMs": 700.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "y",
-    "startMs": 1262.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "hermoso",
-    "startMs": 1375.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "Kirlia",
-    "startMs": 2137.5,
     "durationMs": 387.5
   },
   {
-    "text": "y",
-    "startMs": 2537.5,
-    "durationMs": 50.0
+    "text": "de",
+    "startMs": 500.0,
+    "durationMs": 100.0
   },
   {
-    "text": "Gardevoir",
-    "startMs": 2600.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "se",
-    "startMs": 3175.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "arreglan",
-    "startMs": 3325.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "juntas",
-    "startMs": 3775.0,
-    "durationMs": 587.5
+    "text": "Maquillaje",
+    "startMs": 612.5,
+    "durationMs": 662.5
   }
 ]

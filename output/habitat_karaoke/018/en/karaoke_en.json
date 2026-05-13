@@ -2,51 +2,11 @@
   {
     "text": "Training",
     "startMs": 100.0,
-    "durationMs": 500.0
+    "durationMs": 512.5
   },
   {
-    "text": "waterfall",
-    "startMs": 612.5,
-    "durationMs": 700.0
-  },
-  {
-    "text": "with",
-    "startMs": 1325.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "rushing",
-    "startMs": 1550.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "water",
-    "startMs": 2000.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Tyrogue",
-    "startMs": 2787.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "builds",
-    "startMs": 3362.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "strength",
-    "startMs": 3750.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "and",
-    "startMs": 4312.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "spirit",
-    "startMs": 4562.5,
-    "durationMs": 600.0
+    "text": "Waterfall",
+    "startMs": 625.0,
+    "durationMs": 775.0
   }
 ]

@@ -1,72 +1,27 @@
 [
   {
-    "text": "Tree-shaded",
+    "text": "Tree",
     "startMs": 100.0,
-    "durationMs": 750.0
-  },
-  {
-    "text": "pink",
-    "startMs": 862.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "tall",
-    "startMs": 1225.0,
     "durationMs": 337.5
   },
   {
-    "text": "grass",
-    "startMs": 1575.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "quiet",
-    "startMs": 1987.5,
+    "text": "Shaded",
+    "startMs": 450.0,
     "durationMs": 512.5
   },
   {
-    "text": "and",
-    "startMs": 2512.5,
-    "durationMs": 162.5
+    "text": "Pink",
+    "startMs": 975.0,
+    "durationMs": 375.0
   },
   {
-    "text": "mysterious",
-    "startMs": 2687.5,
-    "durationMs": 825.0
+    "text": "Tall",
+    "startMs": 1362.5,
+    "durationMs": 337.5
   },
   {
-    "text": "Drakloak",
-    "startMs": 3787.5,
-    "durationMs": 662.5
-  },
-  {
-    "text": "and",
-    "startMs": 4462.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "Dreepy",
-    "startMs": 4625.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "train",
-    "startMs": 5062.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "in",
-    "startMs": 5525.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "the",
-    "startMs": 5700.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "shade",
-    "startMs": 5787.5,
-    "durationMs": 450.0
+    "text": "Grass",
+    "startMs": 1712.5,
+    "durationMs": 575.0
   }
 ]

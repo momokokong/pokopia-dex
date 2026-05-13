@@ -1,67 +1,22 @@
 [
   {
-    "text": "求",
-    "startMs": 100.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "雨場",
-    "startMs": 375.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "地",
-    "startMs": 725.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "水",
-    "startMs": 850.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "霧",
-    "startMs": 1062.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "繚繞",
-    "startMs": 1212.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "黏",
-    "startMs": 2012.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "黏寶",
-    "startMs": 2162.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "在",
-    "startMs": 2575.0,
-    "durationMs": 125.0
-  },
-  {
     "text": "雨",
-    "startMs": 2725.0,
-    "durationMs": 50.0
+    "startMs": 100.0,
+    "durationMs": 125.0
   },
   {
-    "text": "中",
-    "startMs": 2862.5,
+    "text": "之",
+    "startMs": 312.5,
     "durationMs": 137.5
   },
   {
-    "text": "開心",
-    "startMs": 3075.0,
-    "durationMs": 300.0
+    "text": "舞",
+    "startMs": 500.0,
+    "durationMs": 125.0
   },
   {
-    "text": "玩耍",
-    "startMs": 3412.5,
-    "durationMs": 537.5
+    "text": "場地",
+    "startMs": 650.0,
+    "durationMs": 487.5
   }
 ]

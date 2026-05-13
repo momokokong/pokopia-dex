@@ -1,62 +1,17 @@
 [
   {
-    "text": "Escritorio",
+    "text": "Mesa",
     "startMs": 100.0,
-    "durationMs": 637.5
-  },
-  {
-    "text": "de",
-    "startMs": 750.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "interrogación",
-    "startMs": 850.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "tenso",
-    "startMs": 1575.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "pero",
-    "startMs": 1950.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "divertido",
-    "startMs": 2162.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "Sprigatito",
-    "startMs": 3000.0,
-    "durationMs": 737.5
-  },
-  {
-    "text": "y",
-    "startMs": 3750.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Floragato",
-    "startMs": 3812.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "juegan",
-    "startMs": 4425.0,
     "durationMs": 375.0
   },
   {
-    "text": "a",
-    "startMs": 4812.5,
-    "durationMs": 25.0
+    "text": "de",
+    "startMs": 487.5,
+    "durationMs": 87.5
   },
   {
-    "text": "detectives",
-    "startMs": 4850.0,
-    "durationMs": 812.5
+    "text": "Interrogatorio",
+    "startMs": 587.5,
+    "durationMs": 900.0
   }
 ]

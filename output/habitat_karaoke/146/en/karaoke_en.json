@@ -1,62 +1,12 @@
 [
   {
-    "text": "An",
+    "text": "Illuminated",
     "startMs": 100.0,
-    "durationMs": 150.0
+    "durationMs": 825.0
   },
   {
-    "text": "illuminated",
-    "startMs": 262.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "waterfall",
-    "startMs": 1000.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "stunning",
-    "startMs": 1662.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "and",
-    "startMs": 2200.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "grand",
-    "startMs": 2350.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "Gyarados",
-    "startMs": 3125.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "leaps",
-    "startMs": 3737.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "powerfully",
-    "startMs": 4100.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "through",
-    "startMs": 4825.0,
-    "durationMs": 250.0
-  },
-  {
-    "text": "the",
-    "startMs": 5087.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "falls",
-    "startMs": 5212.5,
-    "durationMs": 587.5
+    "text": "Waterfall",
+    "startMs": 937.5,
+    "durationMs": 787.5
   }
 ]

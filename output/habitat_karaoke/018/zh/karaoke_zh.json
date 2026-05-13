@@ -1,57 +1,12 @@
 [
   {
-    "text": "修練",
+    "text": "訓練",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 437.5
   },
   {
     "text": "瀑布",
-    "startMs": 537.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "水流",
-    "startMs": 862.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "強勁",
-    "startMs": 1250.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "巴爾郎",
-    "startMs": 2000.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "在",
-    "startMs": 2550.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "這裡",
-    "startMs": 2712.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "鍛鍊",
-    "startMs": 3050.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "意志",
-    "startMs": 3375.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "和",
-    "startMs": 3750.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "體力",
-    "startMs": 3925.0,
-    "durationMs": 512.5
+    "startMs": 587.5,
+    "durationMs": 450.0
   }
 ]

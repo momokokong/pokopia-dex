@@ -1,57 +1,17 @@
 [
   {
-    "text": "La",
+    "text": "Cocina",
     "startMs": 100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "cocina",
-    "startMs": 275.0,
-    "durationMs": 412.5
+    "durationMs": 437.5
   },
   {
     "text": "del",
-    "startMs": 700.0,
+    "startMs": 550.0,
     "durationMs": 175.0
   },
   {
-    "text": "chef",
-    "startMs": 887.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "huele",
-    "startMs": 1162.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "delicioso",
-    "startMs": 1437.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "Greedent",
-    "startMs": 2400.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "muestra",
-    "startMs": 2862.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "sus",
-    "startMs": 3262.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "habilidades",
-    "startMs": 3475.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "culinarias",
-    "startMs": 4112.5,
-    "durationMs": 800.0
+    "text": "Chef",
+    "startMs": 737.5,
+    "durationMs": 312.5
   }
 ]

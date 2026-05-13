@@ -1,77 +1,17 @@
 [
   {
-    "text": "金黃",
+    "text": "黃色",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 412.5
   },
   {
-    "text": "高草",
-    "startMs": 562.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "叢",
-    "startMs": 987.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "隨",
-    "startMs": 1212.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "風",
-    "startMs": 1425.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "搖曳",
-    "startMs": 1625.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "圓",
-    "startMs": 2437.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "絲",
-    "startMs": 2600.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "蛛",
-    "startMs": 2812.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "和",
-    "startMs": 3037.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "幼蟲",
-    "startMs": 3237.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "在",
-    "startMs": 3662.5,
-    "durationMs": 125.0
+    "text": "高",
+    "startMs": 550.0,
+    "durationMs": 150.0
   },
   {
     "text": "草叢",
-    "startMs": 3800.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "裡",
-    "startMs": 4250.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "玩耍",
-    "startMs": 4387.5,
-    "durationMs": 562.5
+    "startMs": 712.5,
+    "durationMs": 512.5
   }
 ]

@@ -1,82 +1,17 @@
 [
   {
-    "text": "高",
+    "text": "高地",
     "startMs": 100.0,
-    "durationMs": 187.5
+    "durationMs": 337.5
+  },
+  {
+    "text": "深草",
+    "startMs": 462.5,
+    "durationMs": 425.0
   },
   {
     "text": "地",
-    "startMs": 287.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "上的",
-    "startMs": 425.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "高",
-    "startMs": 787.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "草叢",
-    "startMs": 950.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "視野",
-    "startMs": 1362.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "開闊",
-    "startMs": 1737.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "比比",
-    "startMs": 2600.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "鳥",
-    "startMs": 2887.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "和",
-    "startMs": 3112.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "咕",
-    "startMs": 3350.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "咕",
-    "startMs": 3500.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "在",
-    "startMs": 3662.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "這裡",
-    "startMs": 3825.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "俯瞰",
-    "startMs": 4125.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "大地",
-    "startMs": 4475.0,
-    "durationMs": 462.5
+    "startMs": 937.5,
+    "durationMs": 212.5
   }
 ]

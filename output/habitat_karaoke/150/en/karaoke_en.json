@@ -1,77 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Fireplace",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 800.0
   },
   {
-    "text": "fireplace",
-    "startMs": 212.5,
-    "durationMs": 775.0
+    "text": "Nap",
+    "startMs": 912.5,
+    "durationMs": 337.5
   },
   {
-    "text": "nap",
-    "startMs": 1000.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "spot",
-    "startMs": 1337.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "warm",
-    "startMs": 1775.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "and",
-    "startMs": 2162.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "cozy",
-    "startMs": 2337.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "Typhlosion",
-    "startMs": 3137.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "and",
-    "startMs": 3875.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Quilava",
-    "startMs": 4050.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "snooze",
-    "startMs": 4587.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "sweetly",
-    "startMs": 5050.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "by",
-    "startMs": 5600.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "the",
-    "startMs": 5800.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "fire",
-    "startMs": 5925.0,
-    "durationMs": 525.0
+    "text": "Spot",
+    "startMs": 1262.5,
+    "durationMs": 500.0
   }
 ]

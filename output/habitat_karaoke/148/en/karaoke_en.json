@@ -1,67 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Simple",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 512.5
   },
   {
-    "text": "simple",
-    "startMs": 212.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "bathroom",
-    "startMs": 687.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "clean",
-    "startMs": 1287.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "and",
-    "startMs": 1725.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "fresh",
-    "startMs": 1887.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "Dragonair",
-    "startMs": 2675.0,
-    "durationMs": 750.0
-  },
-  {
-    "text": "and",
-    "startMs": 3437.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "Dratini",
-    "startMs": 3587.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "relax",
-    "startMs": 4150.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "in",
-    "startMs": 4687.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "the",
-    "startMs": 4850.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "tub",
-    "startMs": 4962.5,
-    "durationMs": 387.5
+    "text": "Bathroom",
+    "startMs": 625.0,
+    "durationMs": 700.0
   }
 ]

@@ -1,57 +1,17 @@
 [
   {
-    "text": "沉重的",
+    "text": "沉重",
     "startMs": 100.0,
-    "durationMs": 525.0
+    "durationMs": 425.0
   },
   {
-    "text": "鐵塊",
-    "startMs": 675.0,
-    "durationMs": 325.0
+    "text": "之",
+    "startMs": 587.5,
+    "durationMs": 137.5
   },
   {
-    "text": "閃著",
-    "startMs": 1012.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "金屬",
-    "startMs": 1362.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "光澤",
-    "startMs": 1750.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "巨炭",
-    "startMs": 2587.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "山用",
-    "startMs": 2925.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "鐵鎚",
-    "startMs": 3325.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "鍛造出",
-    "startMs": 3712.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "堅固",
-    "startMs": 4287.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "物品",
-    "startMs": 4625.0,
-    "durationMs": 412.5
+    "text": "鐵",
+    "startMs": 762.5,
+    "durationMs": 287.5
   }
 ]

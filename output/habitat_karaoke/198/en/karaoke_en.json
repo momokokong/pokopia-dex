@@ -1,77 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Jaw",
     "startMs": 100.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "jaw",
-    "startMs": 237.5,
     "durationMs": 312.5
   },
   {
-    "text": "fossil",
-    "startMs": 562.5,
-    "durationMs": 500.0
+    "text": "Fossil",
+    "startMs": 425.0,
+    "durationMs": 537.5
   },
   {
-    "text": "display",
-    "startMs": 1075.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "full",
-    "startMs": 1587.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "of",
-    "startMs": 1875.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "wildness",
-    "startMs": 2037.5,
-    "durationMs": 762.5
-  },
-  {
-    "text": "Tyrunt",
-    "startMs": 3087.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "bares",
-    "startMs": 3587.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "its",
-    "startMs": 3975.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "sharp",
-    "startMs": 4162.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "teeth",
-    "startMs": 4612.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "from",
-    "startMs": 5000.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "the",
-    "startMs": 5237.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "fossil",
-    "startMs": 5325.0,
-    "durationMs": 625.0
+    "text": "Display",
+    "startMs": 975.0,
+    "durationMs": 612.5
   }
 ]

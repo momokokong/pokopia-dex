@@ -1,77 +1,12 @@
 [
   {
-    "text": "Un",
+    "text": "Cantero",
     "startMs": 100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "lecho",
-    "startMs": 275.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "de",
-    "startMs": 575.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "flores",
-    "startMs": 687.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "suave",
-    "startMs": 1037.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "y",
-    "startMs": 1337.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "peludo",
-    "startMs": 1412.5,
     "durationMs": 450.0
   },
   {
-    "text": "Ninetales",
-    "startMs": 2187.5,
-    "durationMs": 625.0
-  },
-  {
-    "text": "y",
-    "startMs": 2825.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Vulpix",
-    "startMs": 2887.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "duermen",
-    "startMs": 3462.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "entre",
-    "startMs": 3862.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "las",
-    "startMs": 4175.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "flores",
-    "startMs": 4337.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "suaves",
-    "startMs": 4687.5,
-    "durationMs": 525.0
+    "text": "Esponjoso",
+    "startMs": 562.5,
+    "durationMs": 700.0
   }
 ]

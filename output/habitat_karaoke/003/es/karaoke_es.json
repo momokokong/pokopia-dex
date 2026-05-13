@@ -2,71 +2,31 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 425.0
+    "durationMs": 437.5
   },
   {
     "text": "alta",
-    "startMs": 537.5,
-    "durationMs": 275.0
+    "startMs": 550.0,
+    "durationMs": 250.0
+  },
+  {
+    "text": "junto",
+    "startMs": 812.5,
+    "durationMs": 287.5
   },
   {
     "text": "a",
-    "startMs": 825.0,
-    "durationMs": 25.0
+    "startMs": 1112.5,
+    "durationMs": 12.5
   },
   {
     "text": "la",
-    "startMs": 862.5,
+    "startMs": 1137.5,
     "durationMs": 100.0
   },
   {
-    "text": "sombra",
-    "startMs": 975.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "de",
-    "startMs": 1325.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "rocas",
-    "startMs": 1450.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "un",
-    "startMs": 2225.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "gran",
-    "startMs": 2312.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "lugar",
-    "startMs": 2525.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "para",
-    "startMs": 2887.5,
-    "durationMs": 225.0
-  },
-  {
-    "text": "que",
-    "startMs": 3125.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "Machop",
-    "startMs": 3250.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "entrene",
-    "startMs": 3637.5,
-    "durationMs": 512.5
+    "text": "roca",
+    "startMs": 1250.0,
+    "durationMs": 412.5
   }
 ]

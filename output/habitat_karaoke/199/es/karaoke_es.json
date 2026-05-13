@@ -1,82 +1,27 @@
 [
   {
-    "text": "Una",
+    "text": "Exhibición",
     "startMs": 100.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "exhibición",
-    "startMs": 300.0,
-    "durationMs": 525.0
+    "durationMs": 650.0
   },
   {
     "text": "de",
-    "startMs": 837.5,
-    "durationMs": 87.5
+    "startMs": 762.5,
+    "durationMs": 100.0
   },
   {
-    "text": "fósil",
-    "startMs": 937.5,
-    "durationMs": 375.0
+    "text": "fósiles",
+    "startMs": 875.0,
+    "durationMs": 512.5
   },
   {
-    "text": "de",
-    "startMs": 1325.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "déspota",
-    "startMs": 1412.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "poderosa",
-    "startMs": 1887.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "y",
-    "startMs": 2400.0,
-    "durationMs": 37.5
-  },
-  {
-    "text": "grandiosa",
-    "startMs": 2450.0,
-    "durationMs": 637.5
-  },
-  {
-    "text": "Tyrantrum",
-    "startMs": 3387.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "muestra",
-    "startMs": 3887.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "su",
-    "startMs": 4275.0,
+    "text": "del",
+    "startMs": 1400.0,
     "durationMs": 137.5
   },
   {
-    "text": "poder",
-    "startMs": 4425.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "de",
-    "startMs": 4750.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "gobernante",
-    "startMs": 4850.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "antiguo",
-    "startMs": 5450.0,
-    "durationMs": 512.5
+    "text": "déspota",
+    "startMs": 1550.0,
+    "durationMs": 550.0
   }
 ]

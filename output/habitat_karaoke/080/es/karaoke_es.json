@@ -2,61 +2,11 @@
   {
     "text": "Todo",
     "startMs": 100.0,
-    "durationMs": 200.0
+    "durationMs": 225.0
   },
   {
     "text": "empacado",
-    "startMs": 312.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "y",
-    "startMs": 787.5,
-    "durationMs": 37.5
-  },
-  {
-    "text": "listo",
-    "startMs": 837.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Hariyama",
-    "startMs": 1487.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "y",
-    "startMs": 2037.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Farfetch'd",
-    "startMs": 2112.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "están",
-    "startMs": 2650.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "listos",
-    "startMs": 2975.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "para",
-    "startMs": 3412.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "la",
-    "startMs": 3637.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "aventura",
-    "startMs": 3750.0,
-    "durationMs": 575.0
+    "startMs": 337.5,
+    "durationMs": 587.5
   }
 ]

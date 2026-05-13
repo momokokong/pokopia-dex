@@ -1,77 +1,32 @@
 [
   {
-    "text": "Punto",
+    "text": "Lugar",
     "startMs": 100.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "de",
-    "startMs": 400.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "pesca",
-    "startMs": 525.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "oceánico",
-    "startMs": 875.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "brillando",
-    "startMs": 1400.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "con",
-    "startMs": 1862.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "olas",
-    "startMs": 2050.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "Gastrodon",
-    "startMs": 2637.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "y",
-    "startMs": 3187.5,
-    "durationMs": 37.5
-  },
-  {
-    "text": "Magikarp",
-    "startMs": 3237.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "nadan",
-    "startMs": 3837.5,
     "durationMs": 375.0
   },
   {
-    "text": "libremente",
-    "startMs": 4225.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "en",
-    "startMs": 4862.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "el",
-    "startMs": 4962.5,
+    "text": "de",
+    "startMs": 487.5,
     "durationMs": 112.5
   },
   {
-    "text": "mar",
-    "startMs": 5087.5,
+    "text": "Pesca",
+    "startMs": 612.5,
+    "durationMs": 337.5
+  },
+  {
+    "text": "en",
+    "startMs": 962.5,
+    "durationMs": 75.0
+  },
+  {
+    "text": "el",
+    "startMs": 1050.0,
+    "durationMs": 112.5
+  },
+  {
+    "text": "Mar",
+    "startMs": 1175.0,
     "durationMs": 350.0
   }
 ]

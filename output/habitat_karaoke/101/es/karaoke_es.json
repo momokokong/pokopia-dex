@@ -2,61 +2,16 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 425.0
+    "durationMs": 387.5
   },
   {
-    "text": "alta",
-    "startMs": 537.5,
-    "durationMs": 237.5
+    "text": "Roja",
+    "startMs": 500.0,
+    "durationMs": 362.5
   },
   {
-    "text": "roja",
-    "startMs": 787.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "húmeda",
-    "startMs": 1125.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "brillando",
-    "startMs": 1462.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "con",
-    "startMs": 1962.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "rocío",
-    "startMs": 2137.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Lotad",
-    "startMs": 2912.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "juega",
-    "startMs": 3250.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "en",
-    "startMs": 3562.5,
-    "durationMs": 50.0
-  },
-  {
-    "text": "los",
-    "startMs": 3625.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "charcos",
-    "startMs": 3775.0,
-    "durationMs": 600.0
+    "text": "Húmeda",
+    "startMs": 875.0,
+    "durationMs": 462.5
   }
 ]

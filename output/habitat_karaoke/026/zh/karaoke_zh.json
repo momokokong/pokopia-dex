@@ -7,66 +7,11 @@
   {
     "text": "館",
     "startMs": 312.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "急救",
-    "startMs": 487.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "站",
-    "startMs": 825.0,
     "durationMs": 137.5
   },
   {
-    "text": "守護",
-    "startMs": 987.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "著格",
-    "startMs": 1375.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "鬥寶",
-    "startMs": 1775.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "可",
-    "startMs": 2100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "夢",
-    "startMs": 2275.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "卡波",
-    "startMs": 2887.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "耶拉",
-    "startMs": 3225.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "安",
-    "startMs": 3550.0,
-    "durationMs": 62.5
-  },
-  {
-    "text": "心",
-    "startMs": 3650.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "休息",
-    "startMs": 3862.5,
-    "durationMs": 587.5
+    "text": "救護站",
+    "startMs": 500.0,
+    "durationMs": 637.5
   }
 ]

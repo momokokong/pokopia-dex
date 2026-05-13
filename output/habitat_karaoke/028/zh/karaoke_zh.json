@@ -5,63 +5,8 @@
     "durationMs": 325.0
   },
   {
-    "text": "行李",
-    "startMs": 487.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "搬運",
-    "startMs": 875.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "區",
-    "startMs": 1250.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "忙碌",
-    "startMs": 1462.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "又",
-    "startMs": 1825.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "熱鬧",
-    "startMs": 2012.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "鐵",
-    "startMs": 2762.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "骨",
-    "startMs": 2937.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "土人",
-    "startMs": 3087.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "幫忙",
-    "startMs": 3437.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "搬",
-    "startMs": 3800.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "重物",
-    "startMs": 4000.0,
-    "durationMs": 487.5
+    "text": "行李箱",
+    "startMs": 475.0,
+    "durationMs": 662.5
   }
 ]

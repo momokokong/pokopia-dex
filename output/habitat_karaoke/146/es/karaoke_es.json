@@ -1,67 +1,12 @@
 [
   {
-    "text": "Una",
+    "text": "Cascada",
     "startMs": 100.0,
-    "durationMs": 212.5
+    "durationMs": 475.0
   },
   {
-    "text": "cascada",
-    "startMs": 325.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "iluminada",
-    "startMs": 800.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "impresionante",
-    "startMs": 1325.0,
-    "durationMs": 662.5
-  },
-  {
-    "text": "y",
-    "startMs": 2000.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "grandiosa",
-    "startMs": 2062.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "Gyarados",
-    "startMs": 3000.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "salta",
-    "startMs": 3437.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "con",
-    "startMs": 3762.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "fuerza",
-    "startMs": 3987.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "entre",
-    "startMs": 4350.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "las",
-    "startMs": 4637.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "cataratas",
-    "startMs": 4800.0,
-    "durationMs": 750.0
+    "text": "Brillante",
+    "startMs": 587.5,
+    "durationMs": 587.5
   }
 ]

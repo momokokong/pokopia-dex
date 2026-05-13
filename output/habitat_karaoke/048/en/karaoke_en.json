@@ -1,62 +1,22 @@
 [
   {
-    "text": "Cozy",
+    "text": "Good",
     "startMs": 100.0,
-    "durationMs": 462.5
+    "durationMs": 237.5
   },
   {
-    "text": "antiques",
-    "startMs": 575.0,
-    "durationMs": 612.5
+    "text": "Old",
+    "startMs": 350.0,
+    "durationMs": 300.0
   },
   {
-    "text": "with",
-    "startMs": 1200.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "a",
-    "startMs": 1387.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "warm",
-    "startMs": 1487.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "vibe",
-    "startMs": 1875.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Weezing",
-    "startMs": 2587.5,
+    "text": "Fashioned",
+    "startMs": 662.5,
     "durationMs": 575.0
   },
   {
-    "text": "and",
-    "startMs": 3275.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "Snorlax",
-    "startMs": 3412.5,
-    "durationMs": 712.5
-  },
-  {
-    "text": "lounge",
-    "startMs": 4137.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "in",
-    "startMs": 4587.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "nostalgia",
-    "startMs": 4737.5,
+    "text": "Antiques",
+    "startMs": 1250.0,
     "durationMs": 787.5
   }
 ]

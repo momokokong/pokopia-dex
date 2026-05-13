@@ -2,51 +2,21 @@
   {
     "text": "Floating",
     "startMs": 100.0,
-    "durationMs": 550.0
+    "durationMs": 600.0
   },
   {
-    "text": "gently",
-    "startMs": 662.5,
-    "durationMs": 500.0
+    "text": "In",
+    "startMs": 712.5,
+    "durationMs": 125.0
   },
   {
-    "text": "in",
-    "startMs": 1175.0,
-    "durationMs": 137.5
+    "text": "The",
+    "startMs": 850.0,
+    "durationMs": 87.5
   },
   {
-    "text": "the",
-    "startMs": 1325.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "shade",
-    "startMs": 1412.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "Blastoise",
-    "startMs": 2112.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "enjoys",
-    "startMs": 2850.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "the",
-    "startMs": 3400.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "cool",
-    "startMs": 3525.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "breeze",
-    "startMs": 3887.5,
-    "durationMs": 537.5
+    "text": "Shade",
+    "startMs": 950.0,
+    "durationMs": 475.0
   }
 ]

@@ -1,77 +1,17 @@
 [
   {
-    "text": "Un",
+    "text": "Jardín",
     "startMs": 100.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "jardín",
-    "startMs": 262.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "de",
-    "startMs": 637.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "canto",
-    "startMs": 737.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "de",
-    "startMs": 1075.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "aves",
-    "startMs": 1212.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "con",
-    "startMs": 1512.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "melodías",
-    "startMs": 1687.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "lindas",
-    "startMs": 2250.0,
     "durationMs": 437.5
   },
   {
-    "text": "Altaria",
-    "startMs": 2937.5,
-    "durationMs": 487.5
+    "text": "de",
+    "startMs": 550.0,
+    "durationMs": 100.0
   },
   {
-    "text": "canta",
-    "startMs": 3437.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "alegremente",
-    "startMs": 3812.5,
-    "durationMs": 700.0
-  },
-  {
-    "text": "entre",
-    "startMs": 4525.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "las",
-    "startMs": 4800.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "flores",
-    "startMs": 4962.5,
-    "durationMs": 525.0
+    "text": "Pajaritos",
+    "startMs": 662.5,
+    "durationMs": 750.0
   }
 ]

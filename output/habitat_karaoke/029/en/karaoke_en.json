@@ -1,57 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Lumberjacks",
     "startMs": 100.0,
-    "durationMs": 87.5
+    "durationMs": 825.0
   },
   {
-    "text": "lumberjack's",
-    "startMs": 200.0,
-    "durationMs": 787.5
-  },
-  {
-    "text": "workplace",
-    "startMs": 1000.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "with",
-    "startMs": 1725.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "sawing",
-    "startMs": 1925.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "sounds",
-    "startMs": 2362.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "Haxorus",
-    "startMs": 3200.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "shows",
-    "startMs": 3825.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "off",
-    "startMs": 4212.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "lumber",
-    "startMs": 4487.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "skills",
-    "startMs": 4900.0,
-    "durationMs": 625.0
+    "text": "Workplace",
+    "startMs": 937.5,
+    "durationMs": 850.0
   }
 ]

@@ -2,71 +2,16 @@
   {
     "text": "沼澤",
     "startMs": 100.0,
-    "durationMs": 387.5
+    "durationMs": 362.5
   },
   {
     "text": "釣魚",
-    "startMs": 525.0,
-    "durationMs": 262.5
+    "startMs": 487.5,
+    "durationMs": 287.5
   },
   {
     "text": "點",
     "startMs": 862.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "泥濘",
-    "startMs": 1000.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "有趣",
-    "startMs": 1312.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "臭泥",
-    "startMs": 2150.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "和",
-    "startMs": 2525.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "泥",
-    "startMs": 2725.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "泥巴",
-    "startMs": 2875.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "在",
-    "startMs": 3225.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "泥巴",
-    "startMs": 3400.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "裡",
-    "startMs": 3775.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "釣魚",
-    "startMs": 3950.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "玩耍",
-    "startMs": 4262.5,
-    "durationMs": 550.0
+    "durationMs": 237.5
   }
 ]

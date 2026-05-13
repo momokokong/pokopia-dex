@@ -2,61 +2,11 @@
   {
     "text": "Nine",
     "startMs": 100.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "flames",
-    "startMs": 512.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "blazing",
-    "startMs": 1025.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "bright",
-    "startMs": 1575.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "Ninetales",
-    "startMs": 2275.0,
-    "durationMs": 737.5
-  },
-  {
-    "text": "shows",
-    "startMs": 3025.0,
     "durationMs": 387.5
   },
   {
-    "text": "its",
-    "startMs": 3425.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "majesty",
-    "startMs": 3612.5,
-    "durationMs": 750.0
-  },
-  {
-    "text": "in",
-    "startMs": 4375.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "the",
-    "startMs": 4525.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "sacred",
-    "startMs": 4625.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "fire",
-    "startMs": 5125.0,
-    "durationMs": 512.5
+    "text": "Flames",
+    "startMs": 500.0,
+    "durationMs": 662.5
   }
 ]

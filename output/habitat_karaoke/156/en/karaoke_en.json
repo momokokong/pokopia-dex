@@ -5,53 +5,13 @@
     "durationMs": 462.5
   },
   {
-    "text": "hole",
+    "text": "Hole",
     "startMs": 575.0,
-    "durationMs": 325.0
+    "durationMs": 337.5
   },
   {
-    "text": "inspection",
-    "startMs": 912.5,
-    "durationMs": 725.0
-  },
-  {
-    "text": "dark",
-    "startMs": 1650.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "and",
-    "startMs": 2025.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "damp",
-    "startMs": 2200.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Corviknight",
-    "startMs": 2937.5,
-    "durationMs": 687.5
-  },
-  {
-    "text": "and",
-    "startMs": 3637.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Tinkatuff",
-    "startMs": 3825.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "bravely",
-    "startMs": 4512.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "patrol",
-    "startMs": 5037.5,
-    "durationMs": 612.5
+    "text": "Inspection",
+    "startMs": 925.0,
+    "durationMs": 837.5
   }
 ]

@@ -2,56 +2,16 @@
   {
     "text": "Best",
     "startMs": 100.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "bread",
-    "startMs": 512.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "bakery",
-    "startMs": 850.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "smells",
-    "startMs": 1312.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "amazing",
-    "startMs": 1800.0,
-    "durationMs": 700.0
-  },
-  {
-    "text": "Fidough",
-    "startMs": 2800.0,
     "durationMs": 425.0
   },
   {
-    "text": "and",
-    "startMs": 3237.5,
-    "durationMs": 187.5
+    "text": "Bread",
+    "startMs": 537.5,
+    "durationMs": 337.5
   },
   {
-    "text": "Dachsbun",
-    "startMs": 3437.5,
-    "durationMs": 675.0
-  },
-  {
-    "text": "bake",
-    "startMs": 4125.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "yummy",
-    "startMs": 4400.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "bread",
-    "startMs": 4775.0,
-    "durationMs": 437.5
+    "text": "Bakery",
+    "startMs": 887.5,
+    "durationMs": 612.5
   }
 ]

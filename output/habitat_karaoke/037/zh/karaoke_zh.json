@@ -1,67 +1,17 @@
 [
   {
-    "text": "平整的",
+    "text": "平滑的",
     "startMs": 100.0,
-    "durationMs": 537.5
+    "durationMs": 550.0
   },
   {
     "text": "高",
-    "startMs": 700.0,
-    "durationMs": 162.5
+    "startMs": 712.5,
+    "durationMs": 150.0
   },
   {
     "text": "草叢",
     "startMs": 875.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "觸感",
-    "startMs": 1325.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "柔滑",
-    "startMs": 1662.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "大",
-    "startMs": 2462.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "岩",
-    "startMs": 2650.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "蛇",
-    "startMs": 2812.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "在",
-    "startMs": 3012.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "草",
-    "startMs": 3162.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "間",
-    "startMs": 3400.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "緩緩",
-    "startMs": 3587.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "穿行",
-    "startMs": 3950.0,
-    "durationMs": 500.0
+    "durationMs": 512.5
   }
 ]

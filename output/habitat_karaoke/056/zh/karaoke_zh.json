@@ -2,81 +2,11 @@
   {
     "text": "微風",
     "startMs": 100.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "輕",
-    "startMs": 487.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "拂的",
-    "startMs": 700.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "花圃",
-    "startMs": 1000.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "花香",
-    "startMs": 1400.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "飄散",
-    "startMs": 1800.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "索",
-    "startMs": 2650.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "羅亞",
-    "startMs": 2912.5,
     "durationMs": 337.5
   },
   {
-    "text": "和",
-    "startMs": 3262.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "帕",
-    "startMs": 3450.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "底",
-    "startMs": 3700.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "亞",
-    "startMs": 3862.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "在",
-    "startMs": 4025.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "花",
-    "startMs": 4162.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "間",
-    "startMs": 4350.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "玩耍",
-    "startMs": 4500.0,
-    "durationMs": 575.0
+    "text": "花圃",
+    "startMs": 475.0,
+    "durationMs": 537.5
   }
 ]

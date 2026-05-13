@@ -2,66 +2,11 @@
   {
     "text": "玩家",
     "startMs": 100.0,
-    "durationMs": 375.0
+    "durationMs": 387.5
   },
   {
     "text": "天堂",
-    "startMs": 500.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "遊戲",
-    "startMs": 887.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "不斷",
-    "startMs": 1262.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "巨",
-    "startMs": 2025.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "金",
-    "startMs": 2187.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "怪",
-    "startMs": 2400.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 2587.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "遊戲",
-    "startMs": 2725.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "世界",
-    "startMs": 3062.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "裡",
-    "startMs": 3425.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "稱霸",
-    "startMs": 3625.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "全場",
-    "startMs": 3987.5,
-    "durationMs": 512.5
+    "startMs": 512.5,
+    "durationMs": 462.5
   }
 ]

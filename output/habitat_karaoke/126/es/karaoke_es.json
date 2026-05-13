@@ -1,67 +1,17 @@
 [
   {
-    "text": "Un",
+    "text": "Escenario",
     "startMs": 100.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "escenario",
-    "startMs": 262.5,
-    "durationMs": 537.5
+    "durationMs": 625.0
   },
   {
     "text": "de",
-    "startMs": 812.5,
+    "startMs": 737.5,
     "durationMs": 100.0
   },
   {
     "text": "recital",
-    "startMs": 925.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "brillando",
-    "startMs": 1400.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "con",
-    "startMs": 1887.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "luces",
-    "startMs": 2075.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "Wigglytuff",
-    "startMs": 2737.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "y",
-    "startMs": 3350.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Jigglypuff",
-    "startMs": 3412.5,
+    "startMs": 850.0,
     "durationMs": 612.5
-  },
-  {
-    "text": "cantan",
-    "startMs": 4037.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "melodías",
-    "startMs": 4462.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "hermosas",
-    "startMs": 5012.5,
-    "durationMs": 662.5
   }
 ]

@@ -2,71 +2,11 @@
   {
     "text": "迷你",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 375.0
   },
   {
     "text": "博物館",
-    "startMs": 487.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "珍藏",
-    "startMs": 1012.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "豐富",
-    "startMs": 1412.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "風速",
-    "startMs": 2200.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "狗",
-    "startMs": 2562.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "和",
-    "startMs": 2800.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "硬幣",
-    "startMs": 2987.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "靈",
-    "startMs": 3350.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "在",
-    "startMs": 3587.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "展",
-    "startMs": 3737.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "品",
-    "startMs": 3937.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "間",
-    "startMs": 4125.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "探索",
-    "startMs": 4300.0,
-    "durationMs": 550.0
+    "startMs": 500.0,
+    "durationMs": 587.5
   }
 ]

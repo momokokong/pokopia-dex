@@ -1,82 +1,27 @@
 [
   {
-    "text": "Una",
+    "text": "Exhibición",
     "startMs": 100.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "exhibición",
-    "startMs": 300.0,
-    "durationMs": 525.0
+    "durationMs": 662.5
   },
   {
     "text": "de",
-    "startMs": 837.5,
-    "durationMs": 87.5
+    "startMs": 775.0,
+    "durationMs": 100.0
   },
   {
-    "text": "fósil",
-    "startMs": 937.5,
-    "durationMs": 375.0
+    "text": "fósiles",
+    "startMs": 887.5,
+    "durationMs": 500.0
   },
   {
     "text": "de",
-    "startMs": 1325.0,
-    "durationMs": 87.5
+    "startMs": 1400.0,
+    "durationMs": 75.0
   },
   {
     "text": "vela",
-    "startMs": 1425.0,
-    "durationMs": 250.0
-  },
-  {
-    "text": "elegante",
-    "startMs": 1687.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "y",
-    "startMs": 2150.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "hermosa",
-    "startMs": 2250.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Amaura",
-    "startMs": 2975.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "muestra",
-    "startMs": 3462.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "su",
-    "startMs": 3875.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "forma",
-    "startMs": 4037.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "bonita",
-    "startMs": 4362.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "del",
-    "startMs": 4775.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "fósil",
-    "startMs": 4962.5,
-    "durationMs": 437.5
+    "startMs": 1487.5,
+    "durationMs": 362.5
   }
 ]

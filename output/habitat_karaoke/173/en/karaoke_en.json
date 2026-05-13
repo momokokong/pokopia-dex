@@ -1,67 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Prank",
     "startMs": 100.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "prank",
-    "startMs": 225.0,
     "durationMs": 437.5
   },
   {
-    "text": "button",
-    "startMs": 675.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "that",
-    "startMs": 1050.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "gives",
-    "startMs": 1287.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "a",
-    "startMs": 1575.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "jump",
-    "startMs": 1675.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "Greninja",
-    "startMs": 2375.0,
-    "durationMs": 725.0
-  },
-  {
-    "text": "and",
-    "startMs": 3200.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "Frogadier",
-    "startMs": 3300.0,
-    "durationMs": 662.5
-  },
-  {
-    "text": "sneak",
-    "startMs": 3975.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "a",
-    "startMs": 4362.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "press",
-    "startMs": 4450.0,
-    "durationMs": 537.5
+    "text": "Button",
+    "startMs": 550.0,
+    "durationMs": 500.0
   }
 ]

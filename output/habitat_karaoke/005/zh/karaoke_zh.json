@@ -1,67 +1,17 @@
 [
   {
-    "text": "海邊的",
+    "text": "海濱",
     "startMs": 100.0,
-    "durationMs": 512.5
+    "durationMs": 350.0
   },
   {
-    "text": "高草",
-    "startMs": 675.0,
-    "durationMs": 387.5
+    "text": "深草",
+    "startMs": 512.5,
+    "durationMs": 412.5
   },
   {
-    "text": "叢",
-    "startMs": 1087.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "伴",
-    "startMs": 1287.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "著",
-    "startMs": 1462.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "海風",
-    "startMs": 1587.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "呆",
-    "startMs": 2350.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "呆",
-    "startMs": 2500.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "獸",
-    "startMs": 2662.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "懶",
-    "startMs": 2887.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "洋洋地",
-    "startMs": 3037.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "曬",
-    "startMs": 3475.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "太陽",
-    "startMs": 3650.0,
-    "durationMs": 487.5
+    "text": "地",
+    "startMs": 975.0,
+    "durationMs": 225.0
   }
 ]

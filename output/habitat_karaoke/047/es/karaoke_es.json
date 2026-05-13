@@ -2,56 +2,26 @@
   {
     "text": "Snorlax",
     "startMs": 100.0,
-    "durationMs": 700.0
+    "durationMs": 687.5
   },
   {
-    "text": "duerme",
-    "startMs": 812.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "bajo",
-    "startMs": 1125.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "la",
-    "startMs": 1375.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "sombra",
-    "startMs": 1487.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "del",
-    "startMs": 1812.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "árbol",
-    "startMs": 2012.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "Munchlax",
-    "startMs": 2725.0,
+    "text": "Durmiendo",
+    "startMs": 800.0,
     "durationMs": 487.5
   },
   {
-    "text": "duerme",
-    "startMs": 3225.0,
-    "durationMs": 300.0
+    "text": "bajo",
+    "startMs": 1300.0,
+    "durationMs": 225.0
   },
   {
-    "text": "dulcemente",
-    "startMs": 3537.5,
-    "durationMs": 650.0
+    "text": "la",
+    "startMs": 1537.5,
+    "durationMs": 87.5
   },
   {
-    "text": "cerca",
-    "startMs": 4200.0,
-    "durationMs": 475.0
+    "text": "Sombra",
+    "startMs": 1637.5,
+    "durationMs": 462.5
   }
 ]

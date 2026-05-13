@@ -1,62 +1,17 @@
 [
   {
-    "text": "Professor's",
+    "text": "Professors",
     "startMs": 100.0,
     "durationMs": 675.0
   },
   {
-    "text": "apprentice",
+    "text": "Apprentice",
     "startMs": 787.5,
-    "durationMs": 550.0
+    "durationMs": 587.5
   },
   {
-    "text": "program",
-    "startMs": 1350.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "is",
-    "startMs": 1887.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "on",
-    "startMs": 2050.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "Metang",
-    "startMs": 2637.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "learns",
-    "startMs": 3087.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "research",
-    "startMs": 3512.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "under",
-    "startMs": 4087.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "the",
-    "startMs": 4387.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "mentor's",
-    "startMs": 4487.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "guidance",
-    "startMs": 5012.5,
-    "durationMs": 687.5
+    "text": "Program",
+    "startMs": 1387.5,
+    "durationMs": 675.0
   }
 ]

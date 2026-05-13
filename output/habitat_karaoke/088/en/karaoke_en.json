@@ -1,62 +1,7 @@
 [
   {
-    "text": "Dockside",
+    "text": "Dock",
     "startMs": 100.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "with",
-    "startMs": 787.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "gentle",
-    "startMs": 1000.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "sea",
-    "startMs": 1487.5,
-    "durationMs": 262.5
-  },
-  {
-    "text": "breezes",
-    "startMs": 1762.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "Marill",
-    "startMs": 2725.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "and",
-    "startMs": 3337.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Azumarill",
-    "startMs": 3525.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "splash",
-    "startMs": 4250.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "in",
-    "startMs": 4787.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "the",
-    "startMs": 4925.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "water",
-    "startMs": 5025.0,
-    "durationMs": 500.0
+    "durationMs": 512.5
   }
 ]

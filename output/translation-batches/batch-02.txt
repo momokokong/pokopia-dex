@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[29] Lumberjacks Workplace
+[30] Bed With A Plush
+[31] Gently Lit Bed
+[32] Grave Offering
+[33] Creepy Grave Offering
+[34] Chansey Resting Area
+[35] Irresistible Scent And Glow
+[36] Floating In The Shade
+[37] Smooth Tall Grass
+[38] Factory Storage
+[39] Luxury Chirp Chirp Meal
+[40] Berry Feast Campsite
+[41] Rain Dance Site
+[42] Sunny Day Site
+[44] Crazy Log Handicrafts
+[45] Very Berry Space
+[46] Garden Terrace
+[47] Tree Shaded Snoozing Snorlax
+[48] Good Old Fashioned Antiques
+[49] Nothin But Poke Balls
+[50] Yellow Tall Grass
+[51] Tree Shaded Yellow Tall Grass
+[52] Elevated Yellow Tall Grass
+[53] Hydrated Yellow Tall Grass
+[54] Marshy Tall Grass
+
+{
+  "29": {"zh": "...", "es": "..."},
+  "30": {"zh": "...", "es": "..."},
+  "31": {"zh": "...", "es": "..."},
+  "32": {"zh": "...", "es": "..."},
+  "33": {"zh": "...", "es": "..."},
+  "34": {"zh": "...", "es": "..."},
+  "35": {"zh": "...", "es": "..."},
+  "36": {"zh": "...", "es": "..."},
+  "37": {"zh": "...", "es": "..."},
+  "38": {"zh": "...", "es": "..."},
+  "39": {"zh": "...", "es": "..."},
+  "40": {"zh": "...", "es": "..."},
+  "41": {"zh": "...", "es": "..."},
+  "42": {"zh": "...", "es": "..."},
+  "44": {"zh": "...", "es": "..."},
+  "45": {"zh": "...", "es": "..."},
+  "46": {"zh": "...", "es": "..."},
+  "47": {"zh": "...", "es": "..."},
+  "48": {"zh": "...", "es": "..."},
+  "49": {"zh": "...", "es": "..."},
+  "50": {"zh": "...", "es": "..."},
+  "51": {"zh": "...", "es": "..."},
+  "52": {"zh": "...", "es": "..."},
+  "53": {"zh": "...", "es": "..."},
+  "54": {"zh": "...", "es": "..."}
+}

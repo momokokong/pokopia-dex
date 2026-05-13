@@ -1,72 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Waterside",
     "startMs": 100.0,
-    "durationMs": 112.5
+    "durationMs": 775.0
   },
   {
-    "text": "waterside",
-    "startMs": 225.0,
-    "durationMs": 762.5
-  },
-  {
-    "text": "dinghy",
-    "startMs": 1000.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "bobbing",
-    "startMs": 1350.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "on",
-    "startMs": 1850.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "waves",
-    "startMs": 2075.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "Dragonite",
-    "startMs": 2850.0,
-    "durationMs": 737.5
-  },
-  {
-    "text": "rows",
-    "startMs": 3600.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "around",
-    "startMs": 3925.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "the",
-    "startMs": 4300.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "lake",
-    "startMs": 4425.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "for",
-    "startMs": 4750.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "a",
-    "startMs": 4987.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "ride",
-    "startMs": 5075.0,
+    "text": "Dinghy",
+    "startMs": 887.5,
     "durationMs": 462.5
   }
 ]

@@ -1,57 +1,12 @@
 [
   {
-    "text": "Un",
+    "text": "Tocador",
     "startMs": 100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "tocador",
-    "startMs": 275.0,
     "durationMs": 462.5
   },
   {
     "text": "privado",
-    "startMs": 750.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "y",
-    "startMs": 1175.0,
-    "durationMs": 37.5
-  },
-  {
-    "text": "lindo",
-    "startMs": 1225.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Cinccino",
-    "startMs": 1887.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "y",
-    "startMs": 2425.0,
-    "durationMs": 62.5
-  },
-  {
-    "text": "Minccino",
-    "startMs": 2500.0,
+    "startMs": 575.0,
     "durationMs": 512.5
-  },
-  {
-    "text": "se",
-    "startMs": 3025.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "arreglan",
-    "startMs": 3175.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "juntas",
-    "startMs": 3625.0,
-    "durationMs": 587.5
   }
 ]

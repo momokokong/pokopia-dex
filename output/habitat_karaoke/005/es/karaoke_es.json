@@ -2,61 +2,26 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 437.5
   },
   {
     "text": "alta",
-    "startMs": 512.5,
-    "durationMs": 212.5
+    "startMs": 550.0,
+    "durationMs": 250.0
   },
   {
     "text": "junto",
-    "startMs": 737.5,
-    "durationMs": 275.0
+    "startMs": 812.5,
+    "durationMs": 287.5
   },
   {
     "text": "al",
-    "startMs": 1025.0,
+    "startMs": 1112.5,
     "durationMs": 87.5
   },
   {
     "text": "mar",
-    "startMs": 1125.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "con",
-    "startMs": 1362.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "brisa",
-    "startMs": 1550.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "oceánica",
-    "startMs": 1862.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "donde",
-    "startMs": 2737.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "Slowpoke",
-    "startMs": 2987.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "descansa",
-    "startMs": 3600.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "perezosamente",
-    "startMs": 4162.5,
-    "durationMs": 950.0
+    "startMs": 1212.5,
+    "durationMs": 350.0
   }
 ]

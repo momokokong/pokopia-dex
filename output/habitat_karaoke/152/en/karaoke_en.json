@@ -5,68 +5,13 @@
     "durationMs": 562.5
   },
   {
-    "text": "teller's",
+    "text": "Tellers",
     "startMs": 675.0,
     "durationMs": 512.5
   },
   {
-    "text": "table",
+    "text": "Table",
     "startMs": 1200.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "with",
-    "startMs": 1637.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "a",
-    "startMs": 1825.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "glowing",
-    "startMs": 1912.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "crystal",
-    "startMs": 2412.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "ball",
-    "startMs": 2900.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "Kadabra",
-    "startMs": 3550.0,
-    "durationMs": 687.5
-  },
-  {
-    "text": "and",
-    "startMs": 4337.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Abra",
-    "startMs": 4525.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "predict",
-    "startMs": 4912.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "the",
-    "startMs": 5425.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "future",
-    "startMs": 5525.0,
-    "durationMs": 575.0
+    "durationMs": 525.0
   }
 ]

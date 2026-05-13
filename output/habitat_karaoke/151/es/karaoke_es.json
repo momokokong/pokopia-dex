@@ -2,61 +2,16 @@
   {
     "text": "Poder",
     "startMs": 100.0,
-    "durationMs": 300.0
+    "durationMs": 325.0
   },
   {
-    "text": "psíquico",
-    "startMs": 412.5,
+    "text": "Psíquico",
+    "startMs": 437.5,
+    "durationMs": 475.0
+  },
+  {
+    "text": "Fuerte",
+    "startMs": 925.0,
     "durationMs": 437.5
-  },
-  {
-    "text": "surgente",
-    "startMs": 862.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "increíble",
-    "startMs": 1375.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "de",
-    "startMs": 1912.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "sentir",
-    "startMs": 2025.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Alakazam",
-    "startMs": 2737.5,
-    "durationMs": 600.0
-  },
-  {
-    "text": "y",
-    "startMs": 3350.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "Abra",
-    "startMs": 3512.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "resuenan",
-    "startMs": 3762.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "con",
-    "startMs": 4262.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "telepatía",
-    "startMs": 4450.0,
-    "durationMs": 700.0
   }
 ]

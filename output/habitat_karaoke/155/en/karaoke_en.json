@@ -2,51 +2,11 @@
   {
     "text": "Interrogation",
     "startMs": 100.0,
-    "durationMs": 1000.0
+    "durationMs": 1012.5
   },
   {
-    "text": "desk",
-    "startMs": 1112.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "tense",
-    "startMs": 1550.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "but",
-    "startMs": 2037.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "fun",
-    "startMs": 2287.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "Sprigatito",
-    "startMs": 2987.5,
-    "durationMs": 925.0
-  },
-  {
-    "text": "and",
-    "startMs": 4012.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "Floragato",
-    "startMs": 4225.0,
-    "durationMs": 787.5
-  },
-  {
-    "text": "play",
-    "startMs": 5025.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "detective",
-    "startMs": 5337.5,
-    "durationMs": 775.0
+    "text": "Desk",
+    "startMs": 1125.0,
+    "durationMs": 512.5
   }
 ]

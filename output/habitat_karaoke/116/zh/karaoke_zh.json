@@ -1,92 +1,17 @@
 [
   {
-    "text": "挖",
+    "text": "挖掘",
     "startMs": 100.0,
-    "durationMs": 187.5
+    "durationMs": 362.5
   },
   {
-    "text": "呀",
-    "startMs": 287.5,
-    "durationMs": 162.5
+    "text": "與",
+    "startMs": 487.5,
+    "durationMs": 75.0
   },
   {
-    "text": "挖",
-    "startMs": 462.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "又",
-    "startMs": 625.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "烤",
-    "startMs": 775.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "呀",
-    "startMs": 962.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "烤",
-    "startMs": 1187.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "鴨",
-    "startMs": 1787.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "嘴",
-    "startMs": 1987.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "火",
-    "startMs": 2150.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "獸",
-    "startMs": 2337.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "在",
-    "startMs": 2525.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "熔岩",
-    "startMs": 2687.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "邊",
-    "startMs": 3050.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "又",
-    "startMs": 3300.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "挖",
-    "startMs": 3437.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "又",
-    "startMs": 3637.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "烤",
-    "startMs": 3800.0,
-    "durationMs": 262.5
+    "text": "燃燒",
+    "startMs": 650.0,
+    "durationMs": 500.0
   }
 ]

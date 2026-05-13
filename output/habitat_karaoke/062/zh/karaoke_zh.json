@@ -1,77 +1,12 @@
 [
   {
-    "text": "亂糟糟的",
+    "text": "永遠的",
     "startMs": 100.0,
-    "durationMs": 675.0
+    "durationMs": 512.5
   },
   {
-    "text": "空間",
-    "startMs": 837.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "充滿",
-    "startMs": 1250.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "歡樂",
-    "startMs": 1637.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "卡",
-    "startMs": 2450.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "蒂",
-    "startMs": 2625.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "狗",
-    "startMs": 2762.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "和",
-    "startMs": 2950.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "小",
-    "startMs": 3137.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "露",
-    "startMs": 3350.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "珠",
-    "startMs": 3525.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "在",
-    "startMs": 3687.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "混亂",
-    "startMs": 3837.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "中",
-    "startMs": 4225.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "玩耍",
-    "startMs": 4387.5,
-    "durationMs": 550.0
+    "text": "亂糟糟",
+    "startMs": 637.5,
+    "durationMs": 687.5
   }
 ]

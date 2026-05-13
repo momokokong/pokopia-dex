@@ -1,77 +1,22 @@
 [
   {
-    "text": "遊戲角",
+    "text": "遊戲",
     "startMs": 100.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "戰鬥",
-    "startMs": 700.0,
-    "durationMs": 287.5
+    "durationMs": 350.0
   },
   {
     "text": "區",
-    "startMs": 1037.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "競爭",
-    "startMs": 1300.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "激烈",
-    "startMs": 1675.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "3",
-    "startMs": 2500.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "D",
-    "startMs": 2712.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "龍",
-    "startMs": 2862.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "Z",
-    "startMs": 3100.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "在",
-    "startMs": 3262.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "虛擬",
-    "startMs": 3412.5,
-    "durationMs": 362.5
+    "startMs": 487.5,
+    "durationMs": 162.5
   },
   {
     "text": "對",
-    "startMs": 3812.5,
-    "durationMs": 125.0
+    "startMs": 662.5,
+    "durationMs": 162.5
   },
   {
-    "text": "戰",
-    "startMs": 3975.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "中",
-    "startMs": 4162.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "稱霸",
-    "startMs": 4362.5,
-    "durationMs": 487.5
+    "text": "戰場",
+    "startMs": 850.0,
+    "durationMs": 500.0
   }
 ]

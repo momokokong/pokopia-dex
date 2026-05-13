@@ -1,72 +1,7 @@
 [
   {
-    "text": "Un",
+    "text": "Campamento",
     "startMs": 100.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "campamento",
-    "startMs": 262.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "acogedor",
-    "startMs": 837.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "con",
-    "startMs": 1350.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "fogata",
-    "startMs": 1537.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "cálida",
-    "startMs": 1937.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Charmeleon",
-    "startMs": 2650.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "cuida",
-    "startMs": 3225.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "a",
-    "startMs": 3575.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "todos",
-    "startMs": 3637.5,
-    "durationMs": 375.0
-  },
-  {
-    "text": "junto",
-    "startMs": 4025.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "a",
-    "startMs": 4300.0,
-    "durationMs": 12.5
-  },
-  {
-    "text": "las",
-    "startMs": 4325.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "llamas",
-    "startMs": 4500.0,
-    "durationMs": 512.5
+    "durationMs": 750.0
   }
 ]

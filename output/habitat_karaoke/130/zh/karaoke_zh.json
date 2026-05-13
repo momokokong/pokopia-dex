@@ -1,62 +1,12 @@
 [
   {
-    "text": "清爽的",
+    "text": "清爽",
     "startMs": 100.0,
-    "durationMs": 562.5
+    "durationMs": 437.5
   },
   {
     "text": "更衣室",
-    "startMs": 737.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "煥然一新",
-    "startMs": 1225.0,
-    "durationMs": 762.5
-  },
-  {
-    "text": "閃焰",
-    "startMs": 2287.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "王牌",
-    "startMs": 2662.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "和",
-    "startMs": 3187.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "騰",
-    "startMs": 3375.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "蹴",
-    "startMs": 3562.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "小將",
-    "startMs": 3762.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "換",
-    "startMs": 4150.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "裝",
-    "startMs": 4350.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "上場",
-    "startMs": 4537.5,
-    "durationMs": 512.5
+    "startMs": 600.0,
+    "durationMs": 650.0
   }
 ]

@@ -2,61 +2,16 @@
   {
     "text": "沼澤",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 350.0
   },
   {
     "text": "高",
-    "startMs": 512.5,
-    "durationMs": 175.0
+    "startMs": 500.0,
+    "durationMs": 150.0
   },
   {
     "text": "草叢",
-    "startMs": 700.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "泥濘",
-    "startMs": 1137.5,
-    "durationMs": 237.5
-  },
-  {
-    "text": "好玩",
-    "startMs": 1412.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "泥",
-    "startMs": 2250.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "泥巴",
-    "startMs": 2400.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "在",
-    "startMs": 2737.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "泥地",
-    "startMs": 2900.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "裡",
-    "startMs": 3212.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "開心",
-    "startMs": 3425.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "打滾",
-    "startMs": 3775.0,
-    "durationMs": 475.0
+    "startMs": 662.5,
+    "durationMs": 512.5
   }
 ]

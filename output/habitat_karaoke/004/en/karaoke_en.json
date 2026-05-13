@@ -1,57 +1,17 @@
 [
   {
-    "text": "Damp",
+    "text": "Hydrated",
     "startMs": 100.0,
-    "durationMs": 350.0
+    "durationMs": 700.0
   },
   {
-    "text": "hydrated",
-    "startMs": 462.5,
-    "durationMs": 712.5
-  },
-  {
-    "text": "tall",
-    "startMs": 1187.5,
+    "text": "Tall",
+    "startMs": 812.5,
     "durationMs": 337.5
   },
   {
-    "text": "grass",
-    "startMs": 1537.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "where",
-    "startMs": 2000.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "water",
-    "startMs": 2250.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 2650.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "splash",
-    "startMs": 3312.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "and",
-    "startMs": 3875.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "play",
-    "startMs": 4037.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "happily",
-    "startMs": 4350.0,
-    "durationMs": 625.0
+    "text": "Grass",
+    "startMs": 1162.5,
+    "durationMs": 575.0
   }
 ]

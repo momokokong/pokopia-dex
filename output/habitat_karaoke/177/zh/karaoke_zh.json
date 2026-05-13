@@ -6,52 +6,7 @@
   },
   {
     "text": "發電機",
-    "startMs": 475.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "轟隆",
-    "startMs": 1050.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "作響",
-    "startMs": 1437.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "修建",
-    "startMs": 2200.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "老匠",
-    "startMs": 2562.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "用",
-    "startMs": 2912.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "電力",
-    "startMs": 3112.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "驅動",
-    "startMs": 3425.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "大型",
-    "startMs": 3812.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "機具",
-    "startMs": 4200.0,
-    "durationMs": 450.0
+    "startMs": 487.5,
+    "durationMs": 625.0
   }
 ]

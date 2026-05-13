@@ -1,72 +1,12 @@
 [
   {
-    "text": "Área",
+    "text": "Lectura",
     "startMs": 100.0,
-    "durationMs": 312.5
+    "durationMs": 500.0
   },
   {
-    "text": "de",
-    "startMs": 425.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "lectura",
-    "startMs": 550.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "pública",
-    "startMs": 975.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "amplia",
-    "startMs": 1475.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "y",
-    "startMs": 1812.5,
-    "durationMs": 62.5
-  },
-  {
-    "text": "cómoda",
-    "startMs": 1887.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Serperior",
-    "startMs": 2600.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "y",
-    "startMs": 3150.0,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Mime",
-    "startMs": 3212.5,
-    "durationMs": 225.0
-  },
-  {
-    "text": "Jr",
-    "startMs": 3450.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "leen",
-    "startMs": 4075.0,
-    "durationMs": 275.0
-  },
-  {
-    "text": "en",
-    "startMs": 4362.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "silencio",
-    "startMs": 4487.5,
-    "durationMs": 600.0
+    "text": "Pública",
+    "startMs": 612.5,
+    "durationMs": 525.0
   }
 ]

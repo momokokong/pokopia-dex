@@ -2,66 +2,16 @@
   {
     "text": "Elevated",
     "startMs": 100.0,
-    "durationMs": 662.5
+    "durationMs": 687.5
   },
   {
-    "text": "tall",
-    "startMs": 775.0,
+    "text": "Tall",
+    "startMs": 800.0,
     "durationMs": 350.0
   },
   {
-    "text": "grass",
-    "startMs": 1137.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "with",
-    "startMs": 1575.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "wide",
-    "startMs": 1775.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "views",
-    "startMs": 2162.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Pidgey",
-    "startMs": 2925.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "and",
-    "startMs": 3400.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Hoothoot",
-    "startMs": 3600.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "look",
-    "startMs": 4225.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "out",
-    "startMs": 4450.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "from",
-    "startMs": 4700.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "here",
-    "startMs": 4925.0,
-    "durationMs": 400.0
+    "text": "Grass",
+    "startMs": 1162.5,
+    "durationMs": 575.0
   }
 ]

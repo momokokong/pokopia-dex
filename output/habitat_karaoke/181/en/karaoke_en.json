@@ -5,63 +5,8 @@
     "durationMs": 375.0
   },
   {
-    "text": "central",
+    "text": "Central",
     "startMs": 487.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "soft",
-    "startMs": 975.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "and",
-    "startMs": 1475.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "cuddly",
-    "startMs": 1675.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "Drifloon",
-    "startMs": 2512.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "and",
-    "startMs": 3087.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "Drifblim",
-    "startMs": 3250.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "roll",
-    "startMs": 3887.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "around",
-    "startMs": 4200.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "in",
-    "startMs": 4637.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "stuffed",
-    "startMs": 4837.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "toys",
-    "startMs": 5300.0,
-    "durationMs": 525.0
+    "durationMs": 650.0
   }
 ]

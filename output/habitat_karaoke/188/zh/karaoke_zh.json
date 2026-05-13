@@ -6,52 +6,12 @@
   },
   {
     "text": "釣魚",
-    "startMs": 525.0,
+    "startMs": 537.5,
     "durationMs": 262.5
   },
   {
-    "text": "點火熱",
-    "startMs": 850.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "刺激",
-    "startMs": 1350.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "風速",
-    "startMs": 2200.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "狗",
-    "startMs": 2587.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 2800.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "熔岩",
-    "startMs": 2950.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "邊",
-    "startMs": 3325.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "大展",
-    "startMs": 3525.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "身手",
-    "startMs": 3900.0,
-    "durationMs": 537.5
+    "text": "點",
+    "startMs": 887.5,
+    "durationMs": 237.5
   }
 ]

@@ -1,62 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "Flower",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 562.5
   },
   {
-    "text": "flower",
-    "startMs": 212.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "garden",
-    "startMs": 737.5,
-    "durationMs": 412.5
-  },
-  {
-    "text": "in",
-    "startMs": 1162.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "full",
-    "startMs": 1337.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "bloom",
-    "startMs": 1675.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "Paras",
-    "startMs": 2375.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "strolls",
-    "startMs": 2787.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "leisurely",
-    "startMs": 3312.5,
-    "durationMs": 637.5
-  },
-  {
-    "text": "under",
-    "startMs": 3962.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "the",
-    "startMs": 4262.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "blossoms",
-    "startMs": 4387.5,
-    "durationMs": 787.5
+    "text": "Garden",
+    "startMs": 675.0,
+    "durationMs": 575.0
   }
 ]

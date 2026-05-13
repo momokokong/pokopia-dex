@@ -2,66 +2,11 @@
   {
     "text": "工廠",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 362.5
   },
   {
     "text": "倉庫",
-    "startMs": 550.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "裡",
-    "startMs": 987.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "機器",
-    "startMs": 1175.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "轟鳴",
-    "startMs": 1525.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "小",
-    "startMs": 2312.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "磁",
-    "startMs": 2525.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "怪",
-    "startMs": 2737.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 2912.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "零件",
-    "startMs": 3075.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "堆",
-    "startMs": 3487.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "中",
-    "startMs": 3637.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "探險",
-    "startMs": 3837.5,
-    "durationMs": 500.0
+    "startMs": 512.5,
+    "durationMs": 537.5
   }
 ]

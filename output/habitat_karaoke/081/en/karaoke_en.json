@@ -2,56 +2,11 @@
   {
     "text": "Full",
     "startMs": 100.0,
-    "durationMs": 337.5
+    "durationMs": 350.0
   },
   {
-    "text": "recovery",
-    "startMs": 450.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "station",
-    "startMs": 1037.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "refreshes",
-    "startMs": 1600.0,
+    "text": "Recovery",
+    "startMs": 462.5,
     "durationMs": 712.5
-  },
-  {
-    "text": "everyone",
-    "startMs": 2325.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "Chansey",
-    "startMs": 3175.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "cares",
-    "startMs": 3637.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "for",
-    "startMs": 4087.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "each",
-    "startMs": 4287.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 4575.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "tenderly",
-    "startMs": 5200.0,
-    "durationMs": 662.5
   }
 ]

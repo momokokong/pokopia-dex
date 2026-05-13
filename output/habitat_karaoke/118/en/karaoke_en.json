@@ -2,61 +2,16 @@
   {
     "text": "Creepy",
     "startMs": 100.0,
-    "durationMs": 437.5
+    "durationMs": 462.5
   },
   {
-    "text": "white",
-    "startMs": 550.0,
+    "text": "White",
+    "startMs": 575.0,
     "durationMs": 350.0
   },
   {
-    "text": "rocks",
-    "startMs": 912.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "glowing",
-    "startMs": 1287.5,
-    "durationMs": 437.5
-  },
-  {
-    "text": "faintly",
-    "startMs": 1737.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "Glimmora",
-    "startMs": 2625.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "and",
-    "startMs": 3225.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Glimmet",
-    "startMs": 3425.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "explore",
-    "startMs": 3837.5,
-    "durationMs": 625.0
-  },
-  {
-    "text": "between",
-    "startMs": 4475.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "the",
-    "startMs": 4900.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "crevices",
-    "startMs": 5000.0,
-    "durationMs": 787.5
+    "text": "Rocks",
+    "startMs": 937.5,
+    "durationMs": 550.0
   }
 ]

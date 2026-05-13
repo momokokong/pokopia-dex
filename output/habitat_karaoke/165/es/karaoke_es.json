@@ -2,61 +2,16 @@
   {
     "text": "Parque",
     "startMs": 100.0,
-    "durationMs": 325.0
+    "durationMs": 337.5
   },
   {
     "text": "de",
-    "startMs": 437.5,
+    "startMs": 450.0,
     "durationMs": 87.5
   },
   {
-    "text": "diversiones",
-    "startMs": 537.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "lleno",
-    "startMs": 1162.5,
-    "durationMs": 225.0
-  },
-  {
-    "text": "de",
-    "startMs": 1400.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "risas",
-    "startMs": 1512.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Snivy",
-    "startMs": 2237.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "corre",
-    "startMs": 2650.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "entre",
-    "startMs": 2975.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "los",
-    "startMs": 3250.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "juegos",
-    "startMs": 3400.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "divertidos",
-    "startMs": 3762.5,
-    "durationMs": 762.5
+    "text": "Diversiones",
+    "startMs": 550.0,
+    "durationMs": 812.5
   }
 ]

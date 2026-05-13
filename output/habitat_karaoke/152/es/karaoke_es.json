@@ -2,71 +2,16 @@
   {
     "text": "Mesa",
     "startMs": 100.0,
-    "durationMs": 362.5
+    "durationMs": 375.0
   },
   {
-    "text": "de",
-    "startMs": 475.0,
-    "durationMs": 87.5
+    "text": "del",
+    "startMs": 487.5,
+    "durationMs": 175.0
   },
   {
-    "text": "adivino",
-    "startMs": 575.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "con",
-    "startMs": 1025.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "bola",
-    "startMs": 1225.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "de",
-    "startMs": 1475.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "cristal",
-    "startMs": 1600.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "brillante",
-    "startMs": 2025.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "Kadabra",
-    "startMs": 2812.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "y",
-    "startMs": 3300.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Abra",
-    "startMs": 3475.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "predicen",
-    "startMs": 3725.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "el",
-    "startMs": 4212.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "futuro",
-    "startMs": 4325.0,
-    "durationMs": 512.5
+    "text": "Adivino",
+    "startMs": 675.0,
+    "durationMs": 525.0
   }
 ]

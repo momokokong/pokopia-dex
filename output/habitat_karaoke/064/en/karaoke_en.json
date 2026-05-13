@@ -2,61 +2,16 @@
   {
     "text": "Trash",
     "startMs": 100.0,
-    "durationMs": 462.5
+    "durationMs": 475.0
   },
   {
-    "text": "can",
-    "startMs": 575.0,
-    "durationMs": 200.0
+    "text": "Can",
+    "startMs": 587.5,
+    "durationMs": 225.0
   },
   {
-    "text": "central",
-    "startMs": 787.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "is",
-    "startMs": 1412.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "an",
-    "startMs": 1600.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "electric",
-    "startMs": 1725.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "hub",
-    "startMs": 2275.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "Magnezone",
-    "startMs": 2925.0,
-    "durationMs": 812.5
-  },
-  {
-    "text": "and",
-    "startMs": 3850.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "Electabuzz",
-    "startMs": 4012.5,
-    "durationMs": 737.5
-  },
-  {
-    "text": "recharge",
-    "startMs": 4762.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "here",
-    "startMs": 5362.5,
-    "durationMs": 400.0
+    "text": "Central",
+    "startMs": 825.0,
+    "durationMs": 650.0
   }
 ]

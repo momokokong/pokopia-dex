@@ -5,68 +5,18 @@
     "durationMs": 650.0
   },
   {
-    "text": "red",
+    "text": "Red",
     "startMs": 762.5,
     "durationMs": 337.5
   },
   {
-    "text": "tall",
+    "text": "Tall",
     "startMs": 1112.5,
     "durationMs": 350.0
   },
   {
-    "text": "grass",
+    "text": "Grass",
     "startMs": 1475.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "with",
-    "startMs": 1937.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "sweeping",
-    "startMs": 2162.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "views",
-    "startMs": 2712.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "Chatot",
-    "startMs": 3475.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "and",
-    "startMs": 4112.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "Murkrow",
-    "startMs": 4275.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "soar",
-    "startMs": 4800.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "in",
-    "startMs": 5187.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "the",
-    "startMs": 5375.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "wind",
-    "startMs": 5500.0,
-    "durationMs": 462.5
+    "durationMs": 575.0
   }
 ]

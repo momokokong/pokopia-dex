@@ -1,67 +1,12 @@
 [
   {
-    "text": "Un",
+    "text": "Escenario",
     "startMs": 100.0,
-    "durationMs": 150.0
+    "durationMs": 612.5
   },
   {
-    "text": "escenario",
-    "startMs": 262.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "iluminado",
-    "startMs": 787.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "con",
-    "startMs": 1350.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "luces",
-    "startMs": 1550.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "deslumbrantes",
-    "startMs": 1900.0,
-    "durationMs": 775.0
-  },
-  {
-    "text": "Electabuzz",
-    "startMs": 2912.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "y",
-    "startMs": 3575.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "Electivire",
-    "startMs": 3687.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "arrasan",
-    "startMs": 4275.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "en",
-    "startMs": 4750.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "el",
-    "startMs": 4875.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "show",
-    "startMs": 5000.0,
-    "durationMs": 275.0
+    "text": "brillante",
+    "startMs": 725.0,
+    "durationMs": 600.0
   }
 ]

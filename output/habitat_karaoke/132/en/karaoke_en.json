@@ -2,51 +2,11 @@
   {
     "text": "Railroad",
     "startMs": 100.0,
-    "durationMs": 625.0
+    "durationMs": 650.0
   },
   {
-    "text": "crossing",
-    "startMs": 737.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "ding-ding",
-    "startMs": 1300.0,
-    "durationMs": 587.5
-  },
-  {
-    "text": "Coalossal",
-    "startMs": 2200.0,
-    "durationMs": 800.0
-  },
-  {
-    "text": "and",
-    "startMs": 3100.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "Rolycoly",
-    "startMs": 3212.5,
-    "durationMs": 637.5
-  },
-  {
-    "text": "wait",
-    "startMs": 3862.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "by",
-    "startMs": 4212.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "the",
-    "startMs": 4387.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "tracks",
-    "startMs": 4512.5,
-    "durationMs": 637.5
+    "text": "Crossing",
+    "startMs": 762.5,
+    "durationMs": 687.5
   }
 ]

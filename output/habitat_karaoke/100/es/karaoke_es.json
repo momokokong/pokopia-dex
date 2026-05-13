@@ -2,61 +2,21 @@
   {
     "text": "Hierba",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 362.5
   },
   {
-    "text": "alta",
-    "startMs": 512.5,
-    "durationMs": 250.0
-  },
-  {
-    "text": "rocosa",
-    "startMs": 775.0,
-    "durationMs": 450.0
+    "text": "Roca",
+    "startMs": 475.0,
+    "durationMs": 325.0
   },
   {
     "text": "bajo",
-    "startMs": 1237.5,
-    "durationMs": 287.5
+    "startMs": 812.5,
+    "durationMs": 300.0
   },
   {
-    "text": "árboles",
-    "startMs": 1537.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "puntiagudos",
-    "startMs": 1950.0,
-    "durationMs": 687.5
-  },
-  {
-    "text": "Decidueye",
-    "startMs": 2912.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "vigila",
-    "startMs": 3462.5,
-    "durationMs": 425.0
-  },
-  {
-    "text": "silenciosamente",
-    "startMs": 3900.0,
-    "durationMs": 975.0
-  },
-  {
-    "text": "desde",
-    "startMs": 4887.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "lo",
-    "startMs": 5187.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "alto",
-    "startMs": 5350.0,
-    "durationMs": 375.0
+    "text": "Árboles",
+    "startMs": 1125.0,
+    "durationMs": 587.5
   }
 ]

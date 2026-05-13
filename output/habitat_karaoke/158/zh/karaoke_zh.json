@@ -2,66 +2,11 @@
   {
     "text": "家庭",
     "startMs": 100.0,
-    "durationMs": 325.0
+    "durationMs": 337.5
   },
   {
     "text": "劇院",
     "startMs": 525.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "大",
-    "startMs": 875.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "螢幕",
-    "startMs": 1075.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "超過癮",
-    "startMs": 1400.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "夢",
-    "startMs": 2275.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "妖魔",
-    "startMs": 2487.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "窩",
-    "startMs": 2800.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "在",
-    "startMs": 2937.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "沙發",
-    "startMs": 3100.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "上",
-    "startMs": 3500.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "看",
-    "startMs": 3700.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "電影",
-    "startMs": 3887.5,
-    "durationMs": 362.5
+    "durationMs": 487.5
   }
 ]

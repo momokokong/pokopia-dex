@@ -1,57 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Wing",
     "startMs": 100.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "wing",
-    "startMs": 237.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "fossil",
-    "startMs": 562.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "display",
-    "startMs": 1062.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "so",
-    "startMs": 1575.0,
     "durationMs": 300.0
   },
   {
-    "text": "amazing",
-    "startMs": 1887.5,
-    "durationMs": 687.5
+    "text": "Fossil",
+    "startMs": 412.5,
+    "durationMs": 512.5
   },
   {
-    "text": "Aerodactyl",
-    "startMs": 2850.0,
-    "durationMs": 687.5
-  },
-  {
-    "text": "visits",
-    "startMs": 3550.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "from",
-    "startMs": 4050.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "ancient",
-    "startMs": 4287.5,
-    "durationMs": 462.5
-  },
-  {
-    "text": "times",
-    "startMs": 4762.5,
-    "durationMs": 587.5
+    "text": "Display",
+    "startMs": 937.5,
+    "durationMs": 625.0
   }
 ]

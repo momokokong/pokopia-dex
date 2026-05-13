@@ -5,63 +5,8 @@
     "durationMs": 350.0
   },
   {
-    "text": "花圃",
+    "text": "花壇",
     "startMs": 475.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "美不勝收",
-    "startMs": 887.5,
-    "durationMs": 887.5
-  },
-  {
-    "text": "皮皮",
-    "startMs": 2075.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "和",
-    "startMs": 2437.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "小狗",
-    "startMs": 2612.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "寶",
-    "startMs": 2987.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "可",
-    "startMs": 3200.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "夢",
-    "startMs": 3350.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 3550.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "花叢",
-    "startMs": 3700.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "中",
-    "startMs": 4112.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "嬉戲",
-    "startMs": 4287.5,
-    "durationMs": 525.0
+    "durationMs": 475.0
   }
 ]

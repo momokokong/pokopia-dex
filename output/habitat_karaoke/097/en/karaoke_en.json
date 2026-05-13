@@ -1,62 +1,12 @@
 [
   {
-    "text": "Simple",
+    "text": "Plain",
     "startMs": 100.0,
-    "durationMs": 512.5
+    "durationMs": 425.0
   },
   {
-    "text": "life",
-    "startMs": 625.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "with",
-    "startMs": 1000.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "little",
-    "startMs": 1175.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "joys",
-    "startMs": 1550.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "Ampharos",
-    "startMs": 2312.5,
-    "durationMs": 700.0
-  },
-  {
-    "text": "enjoys",
-    "startMs": 3025.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "simple",
-    "startMs": 3575.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "happiness",
-    "startMs": 3987.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "under",
-    "startMs": 4650.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "warm",
-    "startMs": 5012.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "light",
-    "startMs": 5387.5,
-    "durationMs": 375.0
+    "text": "Life",
+    "startMs": 537.5,
+    "durationMs": 437.5
   }
 ]

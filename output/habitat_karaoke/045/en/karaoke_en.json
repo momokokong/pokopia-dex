@@ -1,57 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Very",
     "startMs": 100.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "berry-filled",
-    "startMs": 225.0,
-    "durationMs": 750.0
-  },
-  {
-    "text": "space",
-    "startMs": 987.5,
     "durationMs": 412.5
   },
   {
-    "text": "bursting",
-    "startMs": 1412.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "with",
-    "startMs": 1950.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "fruit",
-    "startMs": 2137.5,
+    "text": "Berry",
+    "startMs": 525.0,
     "durationMs": 412.5
   },
   {
-    "text": "Goodra",
-    "startMs": 2862.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "is",
-    "startMs": 3375.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "in",
-    "startMs": 3575.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "berry",
-    "startMs": 3750.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "paradise",
-    "startMs": 4125.0,
-    "durationMs": 812.5
+    "text": "Space",
+    "startMs": 950.0,
+    "durationMs": 612.5
   }
 ]

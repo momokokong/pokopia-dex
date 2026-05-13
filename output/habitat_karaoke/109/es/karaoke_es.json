@@ -1,77 +1,12 @@
 [
   {
-    "text": "Lentejas",
+    "text": "Lentejuela",
     "startMs": 100.0,
-    "durationMs": 600.0
+    "durationMs": 712.5
   },
   {
-    "text": "de",
-    "startMs": 712.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "agua",
+    "text": "Alegre",
     "startMs": 825.0,
-    "durationMs": 225.0
-  },
-  {
-    "text": "sostienen",
-    "startMs": 1062.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "suavemente",
-    "startMs": 1587.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "a",
-    "startMs": 2187.5,
-    "durationMs": 25.0
-  },
-  {
-    "text": "los",
-    "startMs": 2225.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 2400.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "Ludicolo",
-    "startMs": 3212.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "y",
-    "startMs": 3762.5,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Lotad",
-    "startMs": 3825.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "juegan",
-    "startMs": 4212.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "en",
-    "startMs": 4612.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "el",
-    "startMs": 4737.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "agua",
-    "startMs": 4875.0,
-    "durationMs": 325.0
+    "durationMs": 450.0
   }
 ]

@@ -1,52 +1,22 @@
 [
   {
-    "text": "Cool",
+    "text": "Tree",
     "startMs": 100.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "tree-shaded",
-    "startMs": 462.5,
-    "durationMs": 700.0
-  },
-  {
-    "text": "flower",
-    "startMs": 1175.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "bed",
-    "startMs": 1687.5,
     "durationMs": 337.5
   },
   {
-    "text": "where",
-    "startMs": 2037.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "Cacturne",
-    "startMs": 2262.5,
-    "durationMs": 612.5
-  },
-  {
-    "text": "and",
-    "startMs": 2887.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "bug",
-    "startMs": 3100.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 3450.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "rest",
-    "startMs": 4112.5,
+    "text": "Shaded",
+    "startMs": 450.0,
     "durationMs": 487.5
+  },
+  {
+    "text": "Flower",
+    "startMs": 950.0,
+    "durationMs": 487.5
+  },
+  {
+    "text": "Bed",
+    "startMs": 1450.0,
+    "durationMs": 362.5
   }
 ]

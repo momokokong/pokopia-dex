@@ -2,66 +2,16 @@
   {
     "text": "Gym",
     "startMs": 100.0,
+    "durationMs": 362.5
+  },
+  {
+    "text": "First",
+    "startMs": 475.0,
+    "durationMs": 450.0
+  },
+  {
+    "text": "Aid",
+    "startMs": 937.5,
     "durationMs": 350.0
-  },
-  {
-    "text": "first",
-    "startMs": 462.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "aid",
-    "startMs": 925.0,
-    "durationMs": 237.5
-  },
-  {
-    "text": "watches",
-    "startMs": 1175.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "over",
-    "startMs": 1725.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "fighting",
-    "startMs": 2025.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Pokémon",
-    "startMs": 2487.5,
-    "durationMs": 675.0
-  },
-  {
-    "text": "Hitmontop",
-    "startMs": 3487.5,
-    "durationMs": 700.0
-  },
-  {
-    "text": "rests",
-    "startMs": 4200.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "with",
-    "startMs": 4712.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "peace",
-    "startMs": 4937.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "of",
-    "startMs": 5275.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "mind",
-    "startMs": 5412.5,
-    "durationMs": 487.5
   }
 ]

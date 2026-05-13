@@ -1,62 +1,27 @@
 [
   {
-    "text": "迷人的",
+    "text": "無法",
     "startMs": 100.0,
-    "durationMs": 462.5
+    "durationMs": 362.5
+  },
+  {
+    "text": "抗拒的",
+    "startMs": 500.0,
+    "durationMs": 475.0
   },
   {
     "text": "香氣",
-    "startMs": 575.0,
-    "durationMs": 450.0
+    "startMs": 987.5,
+    "durationMs": 400.0
   },
   {
-    "text": "和",
-    "startMs": 1075.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "光芒",
-    "startMs": 1300.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "交織",
-    "startMs": 1662.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "喇叭",
-    "startMs": 2475.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "芽",
-    "startMs": 2837.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "被",
-    "startMs": 3025.0,
+    "text": "與",
+    "startMs": 1400.0,
     "durationMs": 112.5
   },
   {
-    "text": "芬芳",
-    "startMs": 3150.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "深",
-    "startMs": 3525.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "深",
-    "startMs": 3712.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "吸引",
-    "startMs": 3887.5,
-    "durationMs": 375.0
+    "text": "光芒",
+    "startMs": 1587.5,
+    "durationMs": 450.0
   }
 ]

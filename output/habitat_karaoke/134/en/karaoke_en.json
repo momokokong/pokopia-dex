@@ -2,51 +2,11 @@
   {
     "text": "Absolute",
     "startMs": 100.0,
-    "durationMs": 675.0
+    "durationMs": 700.0
   },
   {
-    "text": "luxury",
-    "startMs": 787.5,
-    "durationMs": 587.5
-  },
-  {
-    "text": "in",
-    "startMs": 1387.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "gleaming",
-    "startMs": 1550.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "gold",
-    "startMs": 2037.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Gholdengo",
-    "startMs": 2775.0,
+    "text": "Luxury",
+    "startMs": 812.5,
     "durationMs": 662.5
-  },
-  {
-    "text": "lives",
-    "startMs": 3450.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "the",
-    "startMs": 3850.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "high",
-    "startMs": 3962.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "life",
-    "startMs": 4250.0,
-    "durationMs": 500.0
   }
 ]

@@ -1,62 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Overgrowth",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 787.5
   },
   {
-    "text": "vending",
-    "startMs": 212.5,
-    "durationMs": 462.5
+    "text": "Vending",
+    "startMs": 900.0,
+    "durationMs": 487.5
   },
   {
-    "text": "machine",
-    "startMs": 687.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "overgrown",
-    "startMs": 1225.0,
-    "durationMs": 650.0
-  },
-  {
-    "text": "with",
-    "startMs": 1887.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "vines",
-    "startMs": 2075.0,
-    "durationMs": 550.0
-  },
-  {
-    "text": "Mareep",
-    "startMs": 2925.0,
-    "durationMs": 450.0
-  },
-  {
-    "text": "rests",
-    "startMs": 3387.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "nearby",
-    "startMs": 3925.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "in",
-    "startMs": 4562.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "the",
-    "startMs": 4762.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "greenery",
-    "startMs": 4875.0,
-    "durationMs": 625.0
+    "text": "Machine",
+    "startMs": 1400.0,
+    "durationMs": 562.5
   }
 ]

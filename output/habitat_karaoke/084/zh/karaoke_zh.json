@@ -1,62 +1,12 @@
 [
   {
-    "text": "販賣機",
+    "text": "販賣",
     "startMs": 100.0,
-    "durationMs": 562.5
-  },
-  {
-    "text": "組合",
-    "startMs": 700.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "提供",
-    "startMs": 1075.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "能量",
-    "startMs": 1462.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "補給",
-    "startMs": 1800.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "電擊",
-    "startMs": 2587.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "魔人",
-    "startMs": 2900.0,
-    "durationMs": 400.0
-  },
-  {
-    "text": "和",
-    "startMs": 3350.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "電擊",
-    "startMs": 3537.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "怪",
-    "startMs": 3900.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "痛快",
-    "startMs": 4062.5,
     "durationMs": 337.5
   },
   {
-    "text": "暢飲",
-    "startMs": 4412.5,
-    "durationMs": 412.5
+    "text": "機組",
+    "startMs": 487.5,
+    "durationMs": 487.5
   }
 ]

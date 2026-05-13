@@ -1,52 +1,17 @@
 [
   {
-    "text": "邪惡",
+    "text": "反派",
     "startMs": 100.0,
-    "durationMs": 400.0
+    "durationMs": 387.5
   },
   {
     "text": "組織",
-    "startMs": 537.5,
+    "startMs": 525.0,
     "durationMs": 350.0
   },
   {
     "text": "總部",
-    "startMs": 912.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "陰森",
-    "startMs": 1262.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "神秘",
-    "startMs": 1612.5,
-    "durationMs": 550.0
-  },
-  {
-    "text": "波斯貓",
-    "startMs": 2437.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "在",
-    "startMs": 2987.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "暗中",
-    "startMs": 3150.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "巡視",
-    "startMs": 3550.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "基地",
-    "startMs": 3912.5,
+    "startMs": 900.0,
     "durationMs": 500.0
   }
 ]

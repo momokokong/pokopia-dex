@@ -1,67 +1,17 @@
 [
   {
-    "text": "盾",
+    "text": "盾牌",
     "startMs": 100.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "化石",
-    "startMs": 287.5,
     "durationMs": 375.0
   },
   {
-    "text": "展覽",
-    "startMs": 675.0,
-    "durationMs": 387.5
+    "text": "化石",
+    "startMs": 500.0,
+    "durationMs": 400.0
   },
   {
-    "text": "堅",
-    "startMs": 1125.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "不可",
-    "startMs": 1312.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "摧",
-    "startMs": 1662.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "護",
-    "startMs": 2287.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "城",
-    "startMs": 2487.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "龍用",
-    "startMs": 2675.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "厚重的",
-    "startMs": 3000.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "盾牌",
-    "startMs": 3550.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "守護",
-    "startMs": 3875.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "大家",
-    "startMs": 4275.0,
-    "durationMs": 500.0
+    "text": "展示區",
+    "startMs": 912.5,
+    "durationMs": 762.5
   }
 ]

@@ -1,82 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Tundra",
     "startMs": 100.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "tundra",
-    "startMs": 237.5,
     "durationMs": 487.5
   },
   {
-    "text": "fossil",
-    "startMs": 737.5,
-    "durationMs": 500.0
+    "text": "Fossil",
+    "startMs": 600.0,
+    "durationMs": 537.5
   },
   {
-    "text": "display",
-    "startMs": 1250.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "sparkling",
-    "startMs": 1750.0,
+    "text": "Display",
+    "startMs": 1150.0,
     "durationMs": 625.0
-  },
-  {
-    "text": "with",
-    "startMs": 2387.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "ice",
-    "startMs": 2587.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "Aurorus",
-    "startMs": 3237.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "shines",
-    "startMs": 3737.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "with",
-    "startMs": 4250.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "icy",
-    "startMs": 4450.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "blue",
-    "startMs": 4900.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "light",
-    "startMs": 5225.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "in",
-    "startMs": 5550.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "the",
-    "startMs": 5712.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "cold",
-    "startMs": 5825.0,
-    "durationMs": 512.5
   }
 ]

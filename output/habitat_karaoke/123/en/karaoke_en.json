@@ -1,57 +1,12 @@
 [
   {
-    "text": "A",
+    "text": "House",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 350.0
   },
   {
-    "text": "house",
-    "startMs": 212.5,
-    "durationMs": 362.5
-  },
-  {
-    "text": "party",
-    "startMs": 587.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "in",
-    "startMs": 1050.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "full",
-    "startMs": 1237.5,
-    "durationMs": 300.0
-  },
-  {
-    "text": "swing",
-    "startMs": 1550.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "Diglett",
-    "startMs": 2287.5,
-    "durationMs": 562.5
-  },
-  {
-    "text": "and",
-    "startMs": 2950.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Sudowoodo",
-    "startMs": 3150.0,
-    "durationMs": 700.0
-  },
-  {
-    "text": "celebrate",
-    "startMs": 3862.5,
-    "durationMs": 637.5
-  },
-  {
-    "text": "together",
-    "startMs": 4512.5,
-    "durationMs": 600.0
+    "text": "Party",
+    "startMs": 462.5,
+    "durationMs": 525.0
   }
 ]

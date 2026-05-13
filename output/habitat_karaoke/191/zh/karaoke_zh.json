@@ -1,72 +1,17 @@
 [
   {
-    "text": "暗",
+    "text": "邪惡",
     "startMs": 100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "黑",
-    "startMs": 287.5,
-    "durationMs": 162.5
+    "durationMs": 375.0
   },
   {
     "text": "騎士",
-    "startMs": 475.0,
-    "durationMs": 362.5
+    "startMs": 487.5,
+    "durationMs": 375.0
   },
   {
     "text": "神殿",
-    "startMs": 875.0,
-    "durationMs": 387.5
-  },
-  {
-    "text": "莊嚴",
-    "startMs": 1325.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "肅穆",
-    "startMs": 1662.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "蒼炎",
-    "startMs": 2475.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "刃",
-    "startMs": 2825.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "鬼",
-    "startMs": 3050.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "在",
-    "startMs": 3237.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "神殿",
-    "startMs": 3387.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "中",
-    "startMs": 3800.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "守護",
-    "startMs": 4025.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "誓約",
-    "startMs": 4400.0,
-    "durationMs": 487.5
+    "startMs": 900.0,
+    "durationMs": 500.0
   }
 ]

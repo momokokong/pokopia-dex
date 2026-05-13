@@ -1,67 +1,12 @@
 [
   {
-    "text": "頭骨",
+    "text": "骷髏化石",
     "startMs": 100.0,
-    "durationMs": 337.5
+    "durationMs": 800.0
   },
   {
-    "text": "化石",
-    "startMs": 462.5,
-    "durationMs": 387.5
-  },
-  {
-    "text": "展覽",
-    "startMs": 862.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "神秘",
-    "startMs": 1237.5,
-    "durationMs": 325.0
-  },
-  {
-    "text": "有趣",
-    "startMs": 1575.0,
-    "durationMs": 537.5
-  },
-  {
-    "text": "頭",
-    "startMs": 2437.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "蓋",
-    "startMs": 2600.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "龍",
-    "startMs": 2787.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "從",
-    "startMs": 2962.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "化石",
-    "startMs": 3150.0,
-    "durationMs": 325.0
-  },
-  {
-    "text": "中",
-    "startMs": 3525.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "重新",
-    "startMs": 3775.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "甦醒",
-    "startMs": 4162.5,
-    "durationMs": 475.0
+    "text": "展示區",
+    "startMs": 912.5,
+    "durationMs": 762.5
   }
 ]

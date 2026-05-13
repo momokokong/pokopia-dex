@@ -1,62 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Bench",
     "startMs": 100.0,
-    "durationMs": 112.5
+    "durationMs": 387.5
   },
   {
-    "text": "bench",
-    "startMs": 225.0,
-    "durationMs": 400.0
+    "text": "With",
+    "startMs": 500.0,
+    "durationMs": 237.5
   },
   {
-    "text": "surrounded",
-    "startMs": 637.5,
-    "durationMs": 650.0
-  },
-  {
-    "text": "by",
-    "startMs": 1300.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "greenery",
-    "startMs": 1500.0,
-    "durationMs": 625.0
-  },
-  {
-    "text": "Ivysaur",
-    "startMs": 2425.0,
+    "text": "Greenery",
+    "startMs": 750.0,
     "durationMs": 675.0
-  },
-  {
-    "text": "and",
-    "startMs": 3200.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "Tangrowth",
-    "startMs": 3325.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "relax",
-    "startMs": 4012.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "in",
-    "startMs": 4562.5,
-    "durationMs": 150.0
-  },
-  {
-    "text": "the",
-    "startMs": 4725.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "shade",
-    "startMs": 4812.5,
-    "durationMs": 450.0
   }
 ]

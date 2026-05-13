@@ -2,66 +2,21 @@
   {
     "text": "在",
     "startMs": 100.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "樹蔭",
-    "startMs": 287.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "下",
-    "startMs": 650.0,
-    "durationMs": 200.0
-  },
-  {
-    "text": "輕",
-    "startMs": 850.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "輕",
-    "startMs": 1050.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "飄浮",
-    "startMs": 1262.5,
-    "durationMs": 575.0
-  },
-  {
-    "text": "水",
-    "startMs": 2062.5,
     "durationMs": 187.5
   },
   {
-    "text": "箭",
-    "startMs": 2287.5,
-    "durationMs": 150.0
+    "text": "陰影",
+    "startMs": 287.5,
+    "durationMs": 275.0
   },
   {
-    "text": "龜",
-    "startMs": 2512.5,
+    "text": "中",
+    "startMs": 650.0,
     "durationMs": 137.5
   },
   {
-    "text": "悠閒",
-    "startMs": 2662.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "地",
-    "startMs": 3025.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "享受",
-    "startMs": 3150.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "清涼",
-    "startMs": 3537.5,
-    "durationMs": 475.0
+    "text": "漂浮",
+    "startMs": 837.5,
+    "durationMs": 575.0
   }
 ]

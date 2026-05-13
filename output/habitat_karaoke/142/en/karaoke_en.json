@@ -1,77 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Fluffy",
     "startMs": 100.0,
-    "durationMs": 100.0
+    "durationMs": 525.0
   },
   {
-    "text": "fluffy",
-    "startMs": 212.5,
-    "durationMs": 475.0
+    "text": "Flower",
+    "startMs": 637.5,
+    "durationMs": 487.5
   },
   {
-    "text": "flower",
-    "startMs": 700.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "bed",
-    "startMs": 1187.5,
-    "durationMs": 287.5
-  },
-  {
-    "text": "soft",
-    "startMs": 1487.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "to",
-    "startMs": 1900.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "touch",
-    "startMs": 2012.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Ninetales",
-    "startMs": 2762.5,
-    "durationMs": 800.0
-  },
-  {
-    "text": "and",
-    "startMs": 3575.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "Vulpix",
-    "startMs": 3775.0,
-    "durationMs": 600.0
-  },
-  {
-    "text": "nap",
-    "startMs": 4387.5,
+    "text": "Bed",
+    "startMs": 1137.5,
     "durationMs": 362.5
-  },
-  {
-    "text": "among",
-    "startMs": 4762.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "the",
-    "startMs": 5087.5,
-    "durationMs": 87.5
-  },
-  {
-    "text": "fuzzy",
-    "startMs": 5187.5,
-    "durationMs": 400.0
-  },
-  {
-    "text": "blooms",
-    "startMs": 5600.0,
-    "durationMs": 612.5
   }
 ]

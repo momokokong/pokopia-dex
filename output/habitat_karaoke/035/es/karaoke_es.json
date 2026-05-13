@@ -2,51 +2,21 @@
   {
     "text": "Aroma",
     "startMs": 100.0,
-    "durationMs": 412.5
+    "durationMs": 425.0
   },
   {
     "text": "y",
-    "startMs": 525.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "brillo",
-    "startMs": 612.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "irresistibles",
-    "startMs": 937.5,
-    "durationMs": 850.0
-  },
-  {
-    "text": "Weepinbell",
-    "startMs": 2025.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "es",
-    "startMs": 2612.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "atraído",
-    "startMs": 2750.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "por",
-    "startMs": 3262.5,
-    "durationMs": 187.5
-  },
-  {
-    "text": "la",
-    "startMs": 3462.5,
+    "startMs": 537.5,
     "durationMs": 87.5
   },
   {
-    "text": "fragancia",
-    "startMs": 3562.5,
-    "durationMs": 600.0
+    "text": "Brillo",
+    "startMs": 637.5,
+    "durationMs": 312.5
+  },
+  {
+    "text": "Irresistible",
+    "startMs": 962.5,
+    "durationMs": 787.5
   }
 ]

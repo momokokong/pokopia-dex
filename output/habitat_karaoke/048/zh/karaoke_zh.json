@@ -1,82 +1,22 @@
 [
   {
-    "text": "懷舊",
+    "text": "古色",
     "startMs": 100.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "古董",
-    "startMs": 500.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "散發",
-    "startMs": 862.5,
     "durationMs": 387.5
   },
   {
-    "text": "溫馨",
-    "startMs": 1250.0,
-    "durationMs": 275.0
+    "text": "古香的",
+    "startMs": 537.5,
+    "durationMs": 462.5
   },
   {
-    "text": "氣息",
-    "startMs": 1600.0,
-    "durationMs": 550.0
+    "text": "古董",
+    "startMs": 1062.5,
+    "durationMs": 287.5
   },
   {
-    "text": "臭",
-    "startMs": 2425.0,
-    "durationMs": 175.0
-  },
-  {
-    "text": "臭",
-    "startMs": 2637.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "泥",
-    "startMs": 2837.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "和",
-    "startMs": 3000.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "卡",
-    "startMs": 3212.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "比",
-    "startMs": 3437.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "獸",
-    "startMs": 3587.5,
-    "durationMs": 175.0
-  },
-  {
-    "text": "在",
-    "startMs": 3787.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "此",
-    "startMs": 3937.5,
-    "durationMs": 162.5
-  },
-  {
-    "text": "悠閒",
-    "startMs": 4100.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "歇息",
-    "startMs": 4487.5,
-    "durationMs": 575.0
+    "text": "店",
+    "startMs": 1437.5,
+    "durationMs": 262.5
   }
 ]

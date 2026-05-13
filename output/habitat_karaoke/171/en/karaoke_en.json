@@ -2,61 +2,16 @@
   {
     "text": "Public",
     "startMs": 100.0,
-    "durationMs": 437.5
+    "durationMs": 450.0
   },
   {
-    "text": "reading",
-    "startMs": 550.0,
-    "durationMs": 437.5
+    "text": "Reading",
+    "startMs": 562.5,
+    "durationMs": 387.5
   },
   {
-    "text": "area",
-    "startMs": 1000.0,
-    "durationMs": 362.5
-  },
-  {
-    "text": "spacious",
-    "startMs": 1375.0,
-    "durationMs": 612.5
-  },
-  {
-    "text": "and",
-    "startMs": 2000.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "comfortable",
-    "startMs": 2225.0,
-    "durationMs": 700.0
-  },
-  {
-    "text": "Serperior",
-    "startMs": 3212.5,
-    "durationMs": 787.5
-  },
-  {
-    "text": "and",
-    "startMs": 4012.5,
-    "durationMs": 125.0
-  },
-  {
-    "text": "Mime",
-    "startMs": 4150.0,
-    "durationMs": 312.5
-  },
-  {
-    "text": "Jr.",
-    "startMs": 4475.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "read",
-    "startMs": 4975.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "quietly",
-    "startMs": 5275.0,
-    "durationMs": 712.5
+    "text": "Material",
+    "startMs": 962.5,
+    "durationMs": 762.5
   }
 ]

@@ -1,57 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Tableside",
     "startMs": 100.0,
-    "durationMs": 112.5
+    "durationMs": 750.0
   },
   {
-    "text": "tableside",
-    "startMs": 225.0,
-    "durationMs": 725.0
+    "text": "Delivery",
+    "startMs": 862.5,
+    "durationMs": 550.0
   },
   {
-    "text": "delivery",
-    "startMs": 962.5,
-    "durationMs": 537.5
-  },
-  {
-    "text": "cart",
-    "startMs": 1512.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "zipping",
-    "startMs": 1875.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "around",
-    "startMs": 2262.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "Empoleon",
-    "startMs": 3050.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "serves",
-    "startMs": 3775.0,
+    "text": "Cart",
+    "startMs": 1425.0,
     "durationMs": 450.0
-  },
-  {
-    "text": "dishes",
-    "startMs": 4237.5,
-    "durationMs": 475.0
-  },
-  {
-    "text": "with",
-    "startMs": 4725.0,
-    "durationMs": 187.5
-  },
-  {
-    "text": "style",
-    "startMs": 4925.0,
-    "durationMs": 562.5
   }
 ]

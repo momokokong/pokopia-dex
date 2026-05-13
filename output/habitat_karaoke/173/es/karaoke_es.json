@@ -1,67 +1,17 @@
 [
   {
-    "text": "Un",
+    "text": "Botón",
     "startMs": 100.0,
-    "durationMs": 150.0
-  },
-  {
-    "text": "botón",
-    "startMs": 262.5,
-    "durationMs": 312.5
+    "durationMs": 387.5
   },
   {
     "text": "de",
-    "startMs": 587.5,
-    "durationMs": 75.0
+    "startMs": 500.0,
+    "durationMs": 100.0
   },
   {
-    "text": "broma",
-    "startMs": 675.0,
-    "durationMs": 300.0
-  },
-  {
-    "text": "que",
-    "startMs": 987.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "asusta",
-    "startMs": 1112.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "Greninja",
-    "startMs": 1875.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "y",
-    "startMs": 2362.5,
-    "durationMs": 50.0
-  },
-  {
-    "text": "Frogadier",
-    "startMs": 2425.0,
-    "durationMs": 512.5
-  },
-  {
-    "text": "se",
-    "startMs": 2950.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "escurren",
-    "startMs": 3075.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "para",
-    "startMs": 3562.5,
-    "durationMs": 212.5
-  },
-  {
-    "text": "presionarlo",
-    "startMs": 3787.5,
-    "durationMs": 675.0
+    "text": "Bromas",
+    "startMs": 612.5,
+    "durationMs": 562.5
   }
 ]

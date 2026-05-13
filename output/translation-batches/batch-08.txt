@@ -1,0 +1,55 @@
+Translate these Pokemon habitat/location names from English to Chinese (Traditional, zh-TW) AND Spanish (es-MX). Keep kid-friendly (5-7 year olds). Output ONLY a JSON object with IDs as keys:
+
+[183] Top Pop
+[184] Fishing Pond
+[185] Ocean Fishing Spot
+[186] Marsh Fishing Spot
+[187] Hot Spring Fishing Spot
+[188] Magma Fishing Spot
+[191] Malicious Knights Shrine
+[192] Auspicious Knights Shrine
+[193] Wing Fossil Display
+[194] Skull Fossil Display
+[195] Headbutt Fossil Display
+[196] Armor Fossil Display
+[197] Shield Fossil Display
+[198] Jaw Fossil Display
+[199] Despot Fossil Display
+[200] Sail Fossil Display
+[201] Tundra Fossil Display
+[202] Boundless Blue Beverage
+[203] Electrifying Potatoes
+[204] Burning Hot Spice
+[205] Elegant Daytime Treats
+[206] Dark Chocolate Cookies
+[207] Leafy Greens Sandwich
+[208] Chilly Shaved Ice
+[209] Lovely Ribbon Cake
+
+{
+  "183": {"zh": "...", "es": "..."},
+  "184": {"zh": "...", "es": "..."},
+  "185": {"zh": "...", "es": "..."},
+  "186": {"zh": "...", "es": "..."},
+  "187": {"zh": "...", "es": "..."},
+  "188": {"zh": "...", "es": "..."},
+  "191": {"zh": "...", "es": "..."},
+  "192": {"zh": "...", "es": "..."},
+  "193": {"zh": "...", "es": "..."},
+  "194": {"zh": "...", "es": "..."},
+  "195": {"zh": "...", "es": "..."},
+  "196": {"zh": "...", "es": "..."},
+  "197": {"zh": "...", "es": "..."},
+  "198": {"zh": "...", "es": "..."},
+  "199": {"zh": "...", "es": "..."},
+  "200": {"zh": "...", "es": "..."},
+  "201": {"zh": "...", "es": "..."},
+  "202": {"zh": "...", "es": "..."},
+  "203": {"zh": "...", "es": "..."},
+  "204": {"zh": "...", "es": "..."},
+  "205": {"zh": "...", "es": "..."},
+  "206": {"zh": "...", "es": "..."},
+  "207": {"zh": "...", "es": "..."},
+  "208": {"zh": "...", "es": "..."},
+  "209": {"zh": "...", "es": "..."}
+}

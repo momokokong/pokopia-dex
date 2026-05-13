@@ -2,66 +2,11 @@
   {
     "text": "Playa",
     "startMs": 100.0,
-    "durationMs": 300.0
+    "durationMs": 350.0
   },
   {
     "text": "sombreada",
-    "startMs": 412.5,
-    "durationMs": 500.0
-  },
-  {
-    "text": "para",
-    "startMs": 925.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "refrescarse",
-    "startMs": 1150.0,
-    "durationMs": 712.5
-  },
-  {
-    "text": "Exeggutor",
-    "startMs": 2162.5,
-    "durationMs": 625.0
-  },
-  {
-    "text": "se",
-    "startMs": 2800.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "relaja",
-    "startMs": 2950.0,
-    "durationMs": 412.5
-  },
-  {
-    "text": "en",
-    "startMs": 3375.0,
-    "durationMs": 87.5
-  },
-  {
-    "text": "la",
-    "startMs": 3475.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "arena",
-    "startMs": 3600.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "a",
-    "startMs": 3987.5,
-    "durationMs": 37.5
-  },
-  {
-    "text": "la",
-    "startMs": 4037.5,
-    "durationMs": 112.5
-  },
-  {
-    "text": "sombra",
-    "startMs": 4162.5,
-    "durationMs": 475.0
+    "startMs": 462.5,
+    "durationMs": 612.5
   }
 ]

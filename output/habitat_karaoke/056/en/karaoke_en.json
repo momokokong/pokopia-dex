@@ -1,72 +1,17 @@
 [
   {
-    "text": "A",
+    "text": "Breezy",
     "startMs": 100.0,
-    "durationMs": 112.5
-  },
-  {
-    "text": "breezy",
-    "startMs": 225.0,
     "durationMs": 450.0
   },
   {
-    "text": "flower",
-    "startMs": 687.5,
+    "text": "Flower",
+    "startMs": 562.5,
     "durationMs": 512.5
   },
   {
-    "text": "bed",
-    "startMs": 1212.5,
-    "durationMs": 312.5
-  },
-  {
-    "text": "with",
-    "startMs": 1537.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "drifting",
-    "startMs": 1750.0,
-    "durationMs": 487.5
-  },
-  {
-    "text": "scents",
-    "startMs": 2250.0,
-    "durationMs": 525.0
-  },
-  {
-    "text": "Zoroark",
-    "startMs": 3075.0,
-    "durationMs": 662.5
-  },
-  {
-    "text": "and",
-    "startMs": 3750.0,
-    "durationMs": 162.5
-  },
-  {
-    "text": "Pawmi",
-    "startMs": 3925.0,
-    "durationMs": 425.0
-  },
-  {
-    "text": "play",
-    "startMs": 4362.5,
-    "durationMs": 350.0
-  },
-  {
-    "text": "among",
-    "startMs": 4725.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "the",
-    "startMs": 5075.0,
-    "durationMs": 100.0
-  },
-  {
-    "text": "blooms",
-    "startMs": 5187.5,
-    "durationMs": 612.5
+    "text": "Bed",
+    "startMs": 1087.5,
+    "durationMs": 362.5
   }
 ]

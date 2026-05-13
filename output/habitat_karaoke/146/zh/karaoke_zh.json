@@ -1,72 +1,12 @@
 [
   {
-    "text": "明亮",
+    "text": "發光",
     "startMs": 100.0,
-    "durationMs": 375.0
+    "durationMs": 350.0
   },
   {
     "text": "瀑布",
     "startMs": 500.0,
-    "durationMs": 287.5
-  },
-  {
-    "text": "壯觀",
-    "startMs": 837.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "又",
-    "startMs": 1200.0,
-    "durationMs": 125.0
-  },
-  {
-    "text": "美麗",
-    "startMs": 1337.5,
-    "durationMs": 525.0
-  },
-  {
-    "text": "暴鯉龍",
-    "startMs": 2125.0,
-    "durationMs": 500.0
-  },
-  {
-    "text": "在",
-    "startMs": 2712.5,
-    "durationMs": 137.5
-  },
-  {
-    "text": "飛瀑",
-    "startMs": 2862.5,
-    "durationMs": 337.5
-  },
-  {
-    "text": "中",
-    "startMs": 3250.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "威風",
-    "startMs": 3425.0,
-    "durationMs": 350.0
-  },
-  {
-    "text": "凜凜",
-    "startMs": 3800.0,
-    "durationMs": 262.5
-  },
-  {
-    "text": "地",
-    "startMs": 4137.5,
-    "durationMs": 100.0
-  },
-  {
-    "text": "躍",
-    "startMs": 4250.0,
-    "durationMs": 137.5
-  },
-  {
-    "text": "起",
-    "startMs": 4425.0,
-    "durationMs": 350.0
+    "durationMs": 450.0
   }
 ]

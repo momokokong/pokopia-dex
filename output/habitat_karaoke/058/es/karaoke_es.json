@@ -1,67 +1,22 @@
 [
   {
-    "text": "Lecho",
+    "text": "Macizo",
     "startMs": 100.0,
-    "durationMs": 387.5
+    "durationMs": 525.0
   },
   {
     "text": "de",
-    "startMs": 500.0,
-    "durationMs": 100.0
+    "startMs": 637.5,
+    "durationMs": 112.5
   },
   {
     "text": "flores",
-    "startMs": 612.5,
+    "startMs": 762.5,
     "durationMs": 375.0
   },
   {
     "text": "ventoso",
-    "startMs": 1000.0,
-    "durationMs": 475.0
-  },
-  {
-    "text": "con",
-    "startMs": 1487.5,
-    "durationMs": 200.0
-  },
-  {
-    "text": "pétalos",
-    "startMs": 1700.0,
-    "durationMs": 462.5
-  },
-  {
-    "text": "danzantes",
-    "startMs": 2175.0,
-    "durationMs": 675.0
-  },
-  {
-    "text": "Pelipper",
-    "startMs": 3062.5,
-    "durationMs": 487.5
-  },
-  {
-    "text": "vuela",
-    "startMs": 3562.5,
-    "durationMs": 275.0
-  },
-  {
-    "text": "en",
-    "startMs": 3850.0,
-    "durationMs": 75.0
-  },
-  {
-    "text": "la",
-    "startMs": 3937.5,
-    "durationMs": 75.0
-  },
-  {
-    "text": "brisa",
-    "startMs": 4025.0,
-    "durationMs": 337.5
-  },
-  {
-    "text": "suave",
-    "startMs": 4375.0,
-    "durationMs": 425.0
+    "startMs": 1150.0,
+    "durationMs": 562.5
   }
 ]

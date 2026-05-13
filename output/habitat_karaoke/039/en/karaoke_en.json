@@ -1,57 +1,22 @@
 [
   {
-    "text": "A",
+    "text": "Luxury",
     "startMs": 100.0,
-    "durationMs": 87.5
+    "durationMs": 612.5
   },
   {
-    "text": "luxury",
-    "startMs": 200.0,
-    "durationMs": 575.0
-  },
-  {
-    "text": "chirp",
-    "startMs": 787.5,
+    "text": "Chirp",
+    "startMs": 725.0,
     "durationMs": 387.5
   },
   {
-    "text": "chirp",
-    "startMs": 1187.5,
-    "durationMs": 350.0
+    "text": "Chirp",
+    "startMs": 1125.0,
+    "durationMs": 362.5
   },
   {
-    "text": "meal",
-    "startMs": 1550.0,
-    "durationMs": 375.0
-  },
-  {
-    "text": "Pidgeot",
-    "startMs": 2212.5,
-    "durationMs": 512.5
-  },
-  {
-    "text": "dines",
-    "startMs": 2737.5,
-    "durationMs": 450.0
-  },
-  {
-    "text": "elegantly",
-    "startMs": 3200.0,
-    "durationMs": 687.5
-  },
-  {
-    "text": "on",
-    "startMs": 3900.0,
-    "durationMs": 212.5
-  },
-  {
-    "text": "gourmet",
-    "startMs": 4125.0,
-    "durationMs": 437.5
-  },
-  {
-    "text": "treats",
-    "startMs": 4575.0,
-    "durationMs": 612.5
+    "text": "Meal",
+    "startMs": 1500.0,
+    "durationMs": 425.0
   }
 ]
