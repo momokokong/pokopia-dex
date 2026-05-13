@@ -7856,7 +7856,7 @@
     "pokopia_id": 43,
     "pokedex_number": 43,
     "name": {
-      "en": "Scizor",
+      "en": "Oddish",
       "zh": "走路草",
       "es": "Oddish"
     },
@@ -13316,9 +13316,9 @@
     "pokopia_id": 75,
     "pokedex_number": 75,
     "name": {
-      "en": "Sliggoo",
-      "zh": "小拳石",
-      "es": "Geodude"
+      "en": "Graveler",
+      "zh": "隆隆石",
+      "es": "Graveler"
     },
     "description": {
       "en": "The swirly protrusion on its back is filled with all its vital organs, such as its brain and heart.",
