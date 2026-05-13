@@ -287,9 +287,9 @@
           <div class="detail-hero__names">
             <div class="detail-hero__name-main">${habitatName}
               <span class="desc-voice-btns" style="margin-left:8px">
-                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.zh || h.name.en}', 'zh')" title="中文">🇹🇼 🔊</button>
-                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.en}', 'en')" title="English">🇺🇸 🔊</button>
-                <button class="voice-btn voice-btn--sm" onclick="playVoice('${h.name.es || h.name.en}', 'es')" title="Español">🇪🇸 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playHabitatNameAudio('zh')" title="中文">🇹🇼 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playHabitatNameAudio('en')" title="English">🇺🇸 🔊</button>
+                <button class="voice-btn voice-btn--sm" onclick="playHabitatNameAudio('es')" title="Español">🇪🇸 🔊</button>
               </span>
             </div>
             <div class="detail-hero__name-sub" id="heroNameSub"></div>
@@ -458,6 +458,24 @@
           }
         });
       }, 50);
+    }
+
+    async function playHabitatNameAudio(voiceLang) {
+      if (!currentHabitat) return;
+      var hId = String(currentHabitat.id).padStart(3, '0');
+      var mp3Path = 'output/habitat_karaoke/' + hId + '/' + voiceLang + '/audio_' + voiceLang + '.mp3';
+
+      // Stop description playback if any
+      stopHabitatKaraokeTick();
+      if (_habitatKaraokeAudio) { _habitatKaraokeAudio.pause(); _habitatKaraokeAudio = null; }
+      clearHabitatKaraokeHighlights();
+
+      var audio = new Audio(mp3Path);
+      audio.play().catch(function() {
+        // Fallback to Web Speech API
+        var name = currentHabitat.name[voiceLang] || currentHabitat.name.en;
+        playVoice(name, voiceLang);
+      });
     }
 
     async function playHabitatKaraokeAudio(voiceLang) {
