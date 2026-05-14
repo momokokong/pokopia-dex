@@ -15,9 +15,9 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "tall grass",
+          "zh": "高草叢",
+          "es": "Hierba alta"
         },
         "count": 4
       }
@@ -96,9 +96,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "large tree (any)",
+          "zh": "大樹",
+          "es": "Árbol grande"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "tall grass",
+          "zh": "高草叢",
+          "es": "Hierba alta"
         },
         "count": 4
       }
@@ -166,11 +174,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "tall grass",
+          "zh": "高草叢",
+          "es": "Hierba alta"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "large boulder",
+          "zh": "巨岩",
+          "es": "Roca grande"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -225,11 +241,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "tall grass",
+          "zh": "高草叢",
+          "es": "Hierba alta"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -295,11 +319,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "tall grass",
+          "zh": "高草叢",
+          "es": "Hierba alta"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "ocean water",
+          "zh": "海水",
+          "es": "Agua del océano"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -354,11 +386,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "tall grass",
+          "zh": "高草叢",
+          "es": "Hierba alta"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -424,11 +464,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "tall grass (any)",
+          "zh": "高草叢",
+          "es": "Hierba alta"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "lighting (any)",
+          "zh": "照明設備",
+          "es": "Iluminación"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -472,9 +520,9 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
         },
         "count": 4
       }
@@ -553,9 +601,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "berry tree (any)",
+          "zh": "莓果樹",
+          "es": "Árbol de bayas"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
         },
         "count": 4
       }
@@ -612,11 +668,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -660,11 +724,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
         },
-        "count": 4
+        "count": 8
       }
     ],
     "pokemon": [
@@ -719,11 +783,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -767,11 +839,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
         },
         "count": 4
+      },
+      {
+        "item": {
+          "en": "gravestone",
+          "zh": "墓碑",
+          "es": "Lápida"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -815,9 +895,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "hedges (any)",
+          "zh": "樹籬",
+          "es": "Setos"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
         },
         "count": 4
       }
@@ -863,11 +951,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "vegetable field (any)",
+          "zh": "vegetable field (any)",
+          "es": "vegetable field (any)"
         },
-        "count": 4
+        "count": 8
       }
     ],
     "pokemon": [
@@ -922,11 +1010,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "lit campfires",
+          "zh": "lit campfires",
+          "es": "lit campfires"
         },
-        "count": 4
+        "count": 3
       }
     ],
     "pokemon": [
@@ -959,11 +1047,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "lit campfire",
+          "zh": "lit campfire",
+          "es": "lit campfire"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "straw table",
+          "zh": "稻草桌",
+          "es": "Mesa de paja"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "straw stool",
+          "zh": "稻草凳",
+          "es": "Taburete de paja"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -996,11 +1100,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "waterfall",
+          "zh": "瀑布",
+          "es": "Cascada"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1033,11 +1153,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1070,11 +1206,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "picnic basket",
+          "zh": "野餐籃",
+          "es": "Cesta de picnic"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1118,11 +1270,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "small vase",
+          "zh": "小花瓶",
+          "es": "Pequeño jarrón"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1166,11 +1334,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "hedges (any)",
+          "zh": "樹籬",
+          "es": "Setos"
         },
-        "count": 4
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "seat (wide)",
+          "zh": "寬座椅",
+          "es": "Asiento ancho"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1225,11 +1401,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "seat (wide)",
+          "zh": "寬座椅",
+          "es": "Asiento ancho"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered streetlight (any)",
+          "zh": "powered streetlight (any)",
+          "es": "powered streetlight (any)"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1273,11 +1457,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "punching bag",
+          "zh": "沙袋",
+          "es": "Saco de boxeo"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1310,11 +1502,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "first aid kit",
+          "zh": "急救箱",
+          "es": "Botiquín de primeros auxilios"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1347,11 +1555,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "punching bag",
+          "zh": "沙袋",
+          "es": "Saco de boxeo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "first aid kit",
+          "zh": "急救箱",
+          "es": "Botiquín de primeros auxilios"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1384,11 +1608,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "arrow sign",
+          "zh": "箭頭路標",
+          "es": "Señal de flecha"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "wooden path",
+          "zh": "wooden path",
+          "es": "wooden path"
+        },
+        "count": 3
       }
     ],
     "pokemon": [
@@ -1421,11 +1653,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "cart",
+          "zh": "手推車",
+          "es": "Carro"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "wooden crates",
+          "zh": "木箱",
+          "es": "Cajas de madera"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -1480,11 +1720,35 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "log chair",
+          "zh": "原木椅",
+          "es": "Silla de tronco"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cart",
+          "zh": "手推車",
+          "es": "Carro"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "tree stump (any)",
+          "zh": "樹樁",
+          "es": "Tocon de árbol"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "log table",
+          "zh": "原木桌",
+          "es": "Mesa de tronco"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1539,11 +1803,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "bed (any)",
+          "zh": "床",
+          "es": "Cama"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "doll (any)",
+          "zh": "玩偶",
+          "es": "Muñeco"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1609,11 +1881,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "bed (any)",
+          "zh": "床",
+          "es": "Cama"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit slender candle",
+          "zh": "細長蠟燭（點燃）",
+          "es": "Vela delgada encendida"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1657,11 +1945,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "gravestone",
+          "zh": "墓碑",
+          "es": "Lápida"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit slender candles",
+          "zh": "lit slender candles",
+          "es": "lit slender candles"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -1705,11 +2009,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "lit eerie candles",
+          "zh": "詭異蠟燭（點燃）",
+          "es": "Velas inquietantes encendidas"
         },
-        "count": 4
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "gravestone",
+          "zh": "墓碑",
+          "es": "Lápida"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1764,11 +2084,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "hedges (any)",
+          "zh": "樹籬",
+          "es": "Setos"
         },
-        "count": 4
+        "count": 6
+      },
+      {
+        "item": {
+          "en": "chansey plant",
+          "zh": "chansey plant",
+          "es": "chansey plant"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (wide)",
+          "zh": "寬座椅",
+          "es": "Asiento ancho"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1812,11 +2148,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "pitcher-plant pot",
+          "zh": "豬籠草盆栽",
+          "es": "Maceta de planta jarra"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "mushroom lamp",
+          "zh": "蘑菇燈",
+          "es": "Lámpara de hongo"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1860,11 +2212,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "inflatable boat",
+          "zh": "充氣船",
+          "es": "Bote inflable"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "beach parasol",
+          "zh": "海灘陽傘",
+          "es": "Sombrilla de playa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -1897,11 +2265,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "dry tall grass",
+          "zh": "枯萎的高草叢",
+          "es": "Hierba alta seca"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "smooth rock",
+          "zh": "光滑的岩石",
+          "es": "Roca lisa"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1934,11 +2310,35 @@
     "requirements": [
       {
         "item": {
-          "en": "Tall Grass",
-          "zh": "Tall Grass",
-          "es": "Tall Grass"
+          "en": "powered streetlight (any)",
+          "zh": "powered streetlight (any)",
+          "es": "powered streetlight (any)"
         },
-        "count": 4
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "control unit",
+          "zh": "控制單元",
+          "es": "Unidad de control"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "metal drum",
+          "zh": "金屬桶",
+          "es": "Tambor de metal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "jumbled cords",
+          "zh": "jumbled cords",
+          "es": "jumbled cords"
+        },
+        "count": 1
       }
     ],
     "pokemon": [
@@ -1971,9 +2371,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Luxury Chirp Chirp Meal",
-          "zh": "奢華啾啾餐",
-          "es": "Comida pío pío de lujo"
+          "en": "wooden birdhouse",
+          "zh": "木製鳥屋",
+          "es": "Casita de pájaros de madera"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "berry basket",
+          "zh": "莓果籃",
+          "es": "Cesta de bayas"
         },
         "count": 1
       }
@@ -2008,9 +2416,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Berry Feast Campsite",
-          "zh": "莓果大餐營地",
-          "es": "Campamento de banquete de bayas"
+          "en": "castform weather charm (sun)",
+          "zh": "castform weather charm (sun)",
+          "es": "castform weather charm (sun)"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit bonfire",
+          "zh": "lit bonfire",
+          "es": "lit bonfire"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "berry basket",
+          "zh": "莓果籃",
+          "es": "Cesta de bayas"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
         },
         "count": 1
       }
@@ -2045,9 +2477,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Rain Dance Site",
-          "zh": "祈雨舞場所",
-          "es": "Lugar de danza de lluvia"
+          "en": "castform weather charm (rain)",
+          "zh": "castform weather charm (rain)",
+          "es": "castform weather charm (rain)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -2082,9 +2522,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Sunny Day Site",
-          "zh": "晴天場所",
-          "es": "Lugar de día soleado"
+          "en": "castform weather charm (sun)",
+          "zh": "castform weather charm (sun)",
+          "es": "castform weather charm (sun)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -2119,9 +2567,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Habitat 43",
-          "zh": "棲息地 43",
-          "es": "Hábitat 43"
+          "en": "professor's treasure trove",
+          "zh": "professor's treasure trove",
+          "es": "professor's treasure trove"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lost relics (large)",
+          "zh": "失落的遺物（大）",
+          "es": "Reliquias perdidas (grandes)"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "bed (any)",
+          "zh": "床",
+          "es": "Cama"
         },
         "count": 1
       }
@@ -2144,9 +2608,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Crazy Log Handicrafts",
-          "zh": "瘋狂木頭手作",
-          "es": "Manualidades locas de troncos"
+          "en": "log chair",
+          "zh": "原木椅",
+          "es": "Silla de tronco"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "log bed",
+          "zh": "原木床",
+          "es": "Cama de tronco"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "log table",
+          "zh": "原木桌",
+          "es": "Mesa de tronco"
         },
         "count": 1
       }
@@ -2203,9 +2683,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Very Berry Space",
-          "zh": "滿滿莓果空間",
-          "es": "Espacio lleno de bayas"
+          "en": "berry chair",
+          "zh": "莓果椅",
+          "es": "Silla de baya"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "berry bed",
+          "zh": "莓果床",
+          "es": "Cama de baya"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "berry table",
+          "zh": "莓果桌",
+          "es": "Mesa de baya"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered berry table lamp",
+          "zh": "powered berry table lamp",
+          "es": "powered berry table lamp"
         },
         "count": 1
       }
@@ -2240,9 +2744,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Garden Terrace",
-          "zh": "花園露台",
-          "es": "Terraza del jardín"
+          "en": "wildflowers",
+          "zh": "野花",
+          "es": "Flores silvestres"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "garden chair",
+          "zh": "花園椅",
+          "es": "Silla de jardín"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit garden light",
+          "zh": "亮著的花園燈",
+          "es": "Luz de jardín encendida"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "garden table",
+          "zh": "花園桌",
+          "es": "Mesa de jardín"
         },
         "count": 1
       }
@@ -2277,9 +2805,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Tree Shaded Snoozing Snorlax",
-          "zh": "樹蔭下打盹的卡比獸",
-          "es": "Snorlax dormitando a la sombra de los árboles"
+          "en": "large tree (any)",
+          "zh": "大樹",
+          "es": "Árbol grande"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "naptime bed",
+          "zh": "午睡床",
+          "es": "Cama de siesta"
         },
         "count": 1
       }
@@ -2325,9 +2861,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Good Old Fashioned Antiques",
-          "zh": "古色古香的古董",
-          "es": "Lindas antigüedades de antes"
+          "en": "antique closet",
+          "zh": "古董衣櫥",
+          "es": "Armario antiguo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "antique bed",
+          "zh": "古董床",
+          "es": "Cama antigua"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "antique dresser",
+          "zh": "古董梳妝台",
+          "es": "Tocador antiguo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "antique chair",
+          "zh": "古董椅",
+          "es": "Silla antigua"
         },
         "count": 1
       }
@@ -2373,9 +2933,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Nothin But Poke Balls",
-          "zh": "只有寶貝球",
-          "es": "Nada más que Poké Balls"
+          "en": "poké ball sofa",
+          "zh": "poké ball sofa",
+          "es": "poké ball sofa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "poké ball bed",
+          "zh": "poké ball bed",
+          "es": "poké ball bed"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "poké ball table",
+          "zh": "poké ball table",
+          "es": "poké ball table"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered poké ball light",
+          "zh": "powered poké ball light",
+          "es": "powered poké ball light"
         },
         "count": 1
       }
@@ -2410,11 +2994,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Yellow Tall Grass",
+          "en": "yellow tall grass",
           "zh": "黃色高草叢",
           "es": "Hierba alta amarilla"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -2469,11 +3053,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tree Shaded Yellow Tall Grass",
-          "zh": "樹蔭下的黃色高草叢",
-          "es": "Hierba alta amarilla a la sombra de los árboles"
+          "en": "large tree (any)",
+          "zh": "大樹",
+          "es": "Árbol grande"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "yellow tall grass",
+          "zh": "黃色高草叢",
+          "es": "Hierba alta amarilla"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -2539,9 +3131,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Elevated Yellow Tall Grass",
-          "zh": "高地的黃色高草叢",
-          "es": "Hierba alta amarilla elevada"
+          "en": "yellow tall grass",
+          "zh": "黃色高草叢",
+          "es": "Hierba alta amarilla"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
         },
         "count": 1
       }
@@ -2598,11 +3198,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Hydrated Yellow Tall Grass",
-          "zh": "潮濕的黃色高草叢",
-          "es": "Hierba alta amarilla húmeda"
+          "en": "yellow tall grass",
+          "zh": "黃色高草叢",
+          "es": "Hierba alta amarilla"
         },
-        "count": 1
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -2668,11 +3276,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Marshy Tall Grass",
-          "zh": "沼澤高草叢",
-          "es": "Hierba alta del pantano"
+          "en": "yellow tall grass",
+          "zh": "黃色高草叢",
+          "es": "Hierba alta amarilla"
         },
-        "count": 1
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "muddy water",
+          "zh": "泥水",
+          "es": "Agua lodosa"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -2716,9 +3332,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Overgrowth Vending Machine",
-          "zh": "雜草叢生的販賣機",
-          "es": "Máquina expendedora cubierta de maleza"
+          "en": "yellow tall grass",
+          "zh": "黃色高草叢",
+          "es": "Hierba alta amarilla"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "powered vending machine",
+          "zh": "自動販賣機（通電）",
+          "es": "Máquina expendedora (encendida)"
         },
         "count": 1
       }
@@ -2753,11 +3377,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Breezy Flower Bed",
-          "zh": "微風吹拂的花圃",
-          "es": "Macizo de flores con brisa"
+          "en": "seashore flowers",
+          "zh": "海濱花朵",
+          "es": "Flores de la costa"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -2812,11 +3436,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tropical Vibes",
-          "zh": "熱帶風情",
-          "es": "Vibras tropicales"
+          "en": "large palm tree",
+          "zh": "大型棕櫚樹",
+          "es": "Palmera grande"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "seashore flowers",
+          "zh": "海濱花朵",
+          "es": "Flores de la costa"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -2871,11 +3503,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Windy Flower Bed",
-          "zh": "風中的花圃",
-          "es": "Macizo de flores con viento"
+          "en": "windmill",
+          "zh": "風車",
+          "es": "Molino de viento"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "seashore flowers",
+          "zh": "海濱花朵",
+          "es": "Flores de la costa"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -2919,9 +3559,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Shaded Beach",
-          "zh": "遮蔭海灘",
-          "es": "Playa con sombra"
+          "en": "large palm tree",
+          "zh": "大型棕櫚樹",
+          "es": "Palmera grande"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "beach chair",
+          "zh": "海灘椅",
+          "es": "Silla de playa"
         },
         "count": 1
       }
@@ -2967,11 +3615,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tropical Seaside",
-          "zh": "熱帶海邊",
-          "es": "Orilla del mar tropical"
+          "en": "large palm tree",
+          "zh": "大型棕櫚樹",
+          "es": "Palmera grande"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "hedges (any)",
+          "zh": "樹籬",
+          "es": "Setos"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "ocean water",
+          "zh": "海水",
+          "es": "Agua del océano"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -3004,9 +3668,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Resting Spot",
-          "zh": "休息處",
-          "es": "Lugar de descanso"
+          "en": "cardboard box",
+          "zh": "cardboard box",
+          "es": "cardboard box"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "straw bed",
+          "zh": "稻草床",
+          "es": "Cama de paja"
         },
         "count": 1
       }
@@ -3041,11 +3713,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Perpetual Mess",
-          "zh": "永遠的混亂",
-          "es": "Desorden eterno"
+          "en": "cardboard box",
+          "zh": "cardboard box",
+          "es": "cardboard box"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "toys (any)",
+          "zh": "玩具",
+          "es": "Juguetes"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -3089,9 +3769,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Trash Collection Site",
-          "zh": "垃圾收集場",
-          "es": "Lugar de recolección de basura"
+          "en": "waste bin (any)",
+          "zh": "垃圾桶",
+          "es": "Bote de basura"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "sign (any)",
+          "zh": "標誌",
+          "es": "Señal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "garbage bag",
+          "zh": "garbage bag",
+          "es": "garbage bag"
         },
         "count": 1
       }
@@ -3159,11 +3855,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Trash Can Central",
-          "zh": "垃圾桶中心",
-          "es": "Centro de botes de basura"
+          "en": "garbage bins",
+          "zh": "垃圾桶",
+          "es": "Botes de basura"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -3218,9 +3914,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Trash Disposal Site",
-          "zh": "垃圾處理場",
-          "es": "Lugar de eliminación de basura"
+          "en": "utility pole",
+          "zh": "電線桿",
+          "es": "Poste de servicios"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "garbage bag",
+          "zh": "garbage bag",
+          "es": "garbage bag"
         },
         "count": 1
       }
@@ -3255,9 +3959,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Park Bench",
-          "zh": "公園長椅",
-          "es": "Banco del parque"
+          "en": "seat (wide)",
+          "zh": "寬座椅",
+          "es": "Asiento ancho"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "garbage bin",
+          "zh": "garbage bin",
+          "es": "garbage bin"
         },
         "count": 1
       }
@@ -3314,9 +4026,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Tantalizing Restaurant",
-          "zh": "誘人的餐廳",
-          "es": "Restaurante tentador"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "menu board",
+          "zh": "菜單板",
+          "es": "Menú"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -3362,9 +4098,41 @@
     "requirements": [
       {
         "item": {
-          "en": "Tableside Delivery Cart",
-          "zh": "桌邊送餐車",
-          "es": "Carrito de entrega a la mesa"
+          "en": "chic chairs",
+          "zh": "時尚椅子",
+          "es": "Sillas elegantes"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "chic table",
+          "zh": "時尚桌子",
+          "es": "Mesa elegante"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "small vase",
+          "zh": "小花瓶",
+          "es": "Pequeño jarrón"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "push cart",
+          "zh": "推車",
+          "es": "Carrito"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -3399,9 +4167,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Chirp Chirp Meal",
-          "zh": "啾啾餐",
-          "es": "Comida pío pío"
+          "en": "wooden birdhouse",
+          "zh": "木製鳥屋",
+          "es": "Casita de pájaros de madera"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -3447,9 +4231,41 @@
     "requirements": [
       {
         "item": {
-          "en": "Cafe Space",
-          "zh": "咖啡空間",
-          "es": "Espacio de café"
+          "en": "seats (any)",
+          "zh": "seats (any)",
+          "es": "seats (any)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "potted plant (any)",
+          "zh": "盆栽",
+          "es": "Planta en maceta"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "counters",
+          "zh": "櫃檯",
+          "es": "Mostradores"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "mug",
+          "zh": "馬克杯",
+          "es": "Taza"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "menu board",
+          "zh": "菜單板",
+          "es": "Menú"
         },
         "count": 1
       }
@@ -3506,9 +4322,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Beach Set",
-          "zh": "海灘組",
-          "es": "Set de playa"
+          "en": "beach chair",
+          "zh": "海灘椅",
+          "es": "Silla de playa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "beach parasol",
+          "zh": "海灘陽傘",
+          "es": "Sombrilla de playa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "side table",
+          "zh": "邊桌",
+          "es": "Mesa auxiliar"
         },
         "count": 1
       }
@@ -3543,9 +4375,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Light Up Stage",
-          "zh": "亮燈舞台",
-          "es": "Escenario iluminado"
+          "en": "powered spotlights",
+          "zh": "powered spotlights",
+          "es": "powered spotlights"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "powered small stage",
+          "zh": "powered small stage",
+          "es": "powered small stage"
         },
         "count": 1
       }
@@ -3591,9 +4431,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Surprise In Store",
-          "zh": "店裡有驚喜",
-          "es": "Sorpresa en la tienda"
+          "en": "balloons",
+          "zh": "氣球",
+          "es": "Globos"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "boo-in-the-box",
+          "zh": "驚嚇禮盒",
+          "es": "Caja sorpresa"
         },
         "count": 1
       }
@@ -3650,9 +4498,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Night Festival Venue",
-          "zh": "夜晚祭典會場",
-          "es": "Recinto del festival nocturno"
+          "en": "balloons",
+          "zh": "氣球",
+          "es": "Globos"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "powered raichu sign",
+          "zh": "powered raichu sign",
+          "es": "powered raichu sign"
         },
         "count": 1
       }
@@ -3687,9 +4543,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Changing Area",
-          "zh": "更衣區",
-          "es": "Área de cambio"
+          "en": "closet (any)",
+          "zh": "衣櫥",
+          "es": "Armario"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "mirror (large)",
+          "zh": "大鏡子",
+          "es": "Espejo grande"
         },
         "count": 1
       }
@@ -3724,9 +4588,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Private Makeup Stand",
-          "zh": "私人化妝台",
-          "es": "Tocador de maquillaje privado"
+          "en": "partitions (any)",
+          "zh": "隔板",
+          "es": "Divisores"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "closet (any)",
+          "zh": "衣櫥",
+          "es": "Armario"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "dresser (any)",
+          "zh": "梳妝台",
+          "es": "Tocador"
         },
         "count": 1
       }
@@ -3772,9 +4652,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Knitting Station",
-          "zh": "編織站",
-          "es": "Estación de tejido"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "knitting supplies",
+          "zh": "編織用品",
+          "es": "Suministros de tejido"
         },
         "count": 1
       }
@@ -3820,11 +4716,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Hot Spring Shower",
-          "zh": "溫泉淋浴",
-          "es": "Ducha de aguas termales"
+          "en": "shower",
+          "zh": "淋浴設備",
+          "es": "Ducha"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "hot-spring water",
+          "zh": "溫泉水",
+          "es": "Agua termal"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -3868,9 +4780,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Resort Meal Prep",
-          "zh": "度假村餐點準備",
-          "es": "Preparación de comida del resort"
+          "en": "large palm tree",
+          "zh": "大型棕櫚樹",
+          "es": "Palmera grande"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "campfire",
+          "zh": "營火",
+          "es": "Fogata"
         },
         "count": 1
       }
@@ -3927,11 +4863,19 @@
     "requirements": [
       {
         "item": {
-          "en": "All Packed Up",
-          "zh": "全部打包好",
-          "es": "Todo empacado"
+          "en": "cart",
+          "zh": "手推車",
+          "es": "Carro"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "cardboard boxes",
+          "zh": "紙箱",
+          "es": "Cajas de cartón"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -3986,9 +4930,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Full Recovery",
-          "zh": "完全恢復",
-          "es": "Recuperación total"
+          "en": "bed (any)",
+          "zh": "床",
+          "es": "Cama"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plain chest",
+          "zh": "普通寶箱",
+          "es": "Cofre sencillo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "first aid kit",
+          "zh": "急救箱",
+          "es": "Botiquín de primeros auxilios"
         },
         "count": 1
       }
@@ -4023,9 +4983,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Alarm Clock Sleep Zone",
-          "zh": "鬧鐘睡眠區",
-          "es": "Zona de dormir con alarma"
+          "en": "bed (any)",
+          "zh": "床",
+          "es": "Cama"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "alarm clock",
+          "zh": "鬧鐘",
+          "es": "Despertador"
         },
         "count": 1
       }
@@ -4060,9 +5036,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Vending Machine Break Area",
-          "zh": "販賣機休息區",
-          "es": "Área de descanso junto a la máquina expendedora"
+          "en": "powered vending machine",
+          "zh": "自動販賣機（通電）",
+          "es": "Máquina expendedora (encendida)"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (wide)",
+          "zh": "寬座椅",
+          "es": "Asiento ancho"
         },
         "count": 1
       }
@@ -4108,9 +5092,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Vending Machine Set",
-          "zh": "自動販賣機組",
-          "es": "Set de máquinas expendedoras"
+          "en": "waste bin (any)",
+          "zh": "垃圾桶",
+          "es": "Bote de basura"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered vending machine",
+          "zh": "自動販賣機（通電）",
+          "es": "Máquina expendedora (encendida)"
         },
         "count": 1
       }
@@ -4156,9 +5148,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Mini Game Corner",
-          "zh": "迷你遊戲角落",
-          "es": "Rincón de mini juegos"
+          "en": "powered arcade machine",
+          "zh": "街機（通電）",
+          "es": "Máquina arcade (encendida)"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "punching game",
+          "zh": "拳擊遊戲",
+          "es": "Juego de boxeo"
         },
         "count": 1
       }
@@ -4204,9 +5212,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Waterwheel Spot",
-          "zh": "水車場所",
-          "es": "Lugar de la noria"
+          "en": "waterwheel",
+          "zh": "水車",
+          "es": "Rueda hidráulica"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "waterfall",
+          "zh": "瀑布",
+          "es": "Cascada"
         },
         "count": 1
       }
@@ -4252,9 +5276,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Furnace Spot",
-          "zh": "熔爐地點",
-          "es": "Lugar del horno"
+          "en": "metal drum",
+          "zh": "金屬桶",
+          "es": "Tambor de metal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "furnace",
+          "zh": "熔爐",
+          "es": "Horno"
         },
         "count": 1
       }
@@ -4300,11 +5332,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Dock",
-          "zh": "碼頭",
-          "es": "Muelle"
+          "en": "walkways",
+          "zh": "走道",
+          "es": "Pasarelas"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "powered streetlight",
+          "zh": "powered streetlight",
+          "es": "powered streetlight"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "ocean water",
+          "zh": "海水",
+          "es": "Agua del océano"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -4348,9 +5396,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Spooky Study",
-          "zh": "陰森書房",
-          "es": "Estudio espeluznante"
+          "en": "bookcase",
+          "zh": "書架",
+          "es": "Librería"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "chic sofa",
+          "zh": "時尚沙發",
+          "es": "Sofá elegante"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plain table",
+          "zh": "普通桌子",
+          "es": "Mesa sencilla"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit slender candle",
+          "zh": "細長蠟燭（點燃）",
+          "es": "Vela delgada encendida"
         },
         "count": 1
       }
@@ -4396,11 +5468,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Playing Pirate",
-          "zh": "玩海盜遊戲",
-          "es": "Jugando a los piratas"
+          "en": "barrels",
+          "zh": "木桶",
+          "es": "Barriles"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "ship's wheel",
+          "zh": "船舵",
+          "es": "Timón de barco"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "cannons",
+          "zh": "大砲",
+          "es": "Cañones"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -4444,9 +5532,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Working The Register",
-          "zh": "收銀台工作",
-          "es": "Trabajando en la caja"
+          "en": "tables (any)",
+          "zh": "tables (any)",
+          "es": "tables (any)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "powered cash register",
+          "zh": "收銀機（通電）",
+          "es": "Caja registradora (encendida)"
         },
         "count": 1
       }
@@ -4514,9 +5610,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Tiny Atelier",
-          "zh": "小工作室",
-          "es": "Tallercito"
+          "en": "canvas",
+          "zh": "畫布",
+          "es": "Lienzo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
         },
         "count": 1
       }
@@ -4551,9 +5655,9 @@
     "requirements": [
       {
         "item": {
-          "en": "Habitat 93",
-          "zh": "棲息地 93",
-          "es": "Hábitat 93"
+          "en": "offering dish",
+          "zh": "供奉盤",
+          "es": "Plato de ofrendas"
         },
         "count": 1
       }
@@ -4576,9 +5680,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Pikachu Space",
-          "zh": "皮卡丘空間",
-          "es": "Espacio de Pikachu"
+          "en": "pikachu sofa",
+          "zh": "pikachu sofa",
+          "es": "pikachu sofa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "pikachu doll",
+          "zh": "pikachu doll",
+          "es": "pikachu doll"
         },
         "count": 1
       }
@@ -4613,9 +5725,41 @@
     "requirements": [
       {
         "item": {
-          "en": "Cuteness Overload",
-          "zh": "可愛大爆發",
-          "es": "Sobredosis de ternura"
+          "en": "cute sofa",
+          "zh": "可愛沙發",
+          "es": "Sofá lindo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cute table",
+          "zh": "可愛桌子",
+          "es": "Mesa linda"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered cute lamp",
+          "zh": "powered cute lamp",
+          "es": "powered cute lamp"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cute bed",
+          "zh": "可愛床",
+          "es": "Cama linda"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cute dresser",
+          "zh": "可愛梳妝台",
+          "es": "Tocador lindo"
         },
         "count": 1
       }
@@ -4650,9 +5794,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Welcoming Resort",
-          "zh": "溫馨度假村",
-          "es": "Resort acogedor"
+          "en": "resort sofa",
+          "zh": "度假沙發",
+          "es": "Sofá de resort"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "resort table",
+          "zh": "度假桌",
+          "es": "Mesa de resort"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "resort hammock",
+          "zh": "度假吊床",
+          "es": "Hamaca de resort"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered resort light",
+          "zh": "powered resort light",
+          "es": "powered resort light"
         },
         "count": 1
       }
@@ -4687,9 +5855,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Plain Life",
-          "zh": "平凡生活",
-          "es": "Vida sencilla"
+          "en": "plain bed",
+          "zh": "普通床",
+          "es": "Cama sencilla"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plain sofa",
+          "zh": "普通沙發",
+          "es": "Sofá sencillo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plain table",
+          "zh": "普通桌子",
+          "es": "Mesa sencilla"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit plain lamp",
+          "zh": "lit plain lamp",
+          "es": "lit plain lamp"
         },
         "count": 1
       }
@@ -4724,11 +5916,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Red Tall Grass",
+          "en": "red tall grass",
           "zh": "紅色高草叢",
           "es": "Hierba alta roja"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -4805,11 +5997,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tree Shaded Red Tall Grass",
-          "zh": "樹蔭下的紅色高草叢",
-          "es": "Hierba alta roja a la sombra de los árboles"
+          "en": "large tree (any)",
+          "zh": "大樹",
+          "es": "Árbol grande"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "red tall grass",
+          "zh": "紅色高草叢",
+          "es": "Hierba alta roja"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -4875,9 +6075,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Pointy Tree Shaded Rocky Tall Grass",
-          "zh": "尖樹蔭下的岩石高草叢",
-          "es": "Hierba alta rocosa a la sombra del árbol puntiagudo"
+          "en": "pointy tree",
+          "zh": "尖頂樹",
+          "es": "Árbol puntiagudo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "red tall grass",
+          "zh": "紅色高草叢",
+          "es": "Hierba alta roja"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "large boulder",
+          "zh": "巨岩",
+          "es": "Roca grande"
         },
         "count": 1
       }
@@ -4923,11 +6139,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Hydrated Red Tall Grass",
-          "zh": "潮濕的紅色高草叢",
-          "es": "Hierba alta roja húmeda"
+          "en": "red tall grass",
+          "zh": "紅色高草叢",
+          "es": "Hierba alta roja"
         },
-        "count": 1
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -4971,9 +6195,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Elevated Red Tall Grass",
-          "zh": "高地的紅色高草叢",
-          "es": "Hierba alta roja elevada"
+          "en": "red tall grass",
+          "zh": "紅色高草叢",
+          "es": "Hierba alta roja"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
         },
         "count": 1
       }
@@ -5030,11 +6262,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Grassy Training Field",
-          "zh": "草地訓練場",
-          "es": "Campo de entrenamiento con hierba"
+          "en": "sandbags",
+          "zh": "沙袋",
+          "es": "Sacos de arena"
         },
-        "count": 1
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "red tall grass",
+          "zh": "紅色高草叢",
+          "es": "Hierba alta roja"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -5078,11 +6318,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Graceful Flower Bed",
-          "zh": "優雅的花圃",
-          "es": "Macizo de flores elegante"
+          "en": "mountain flowers",
+          "zh": "山地花朵",
+          "es": "Flores de montaña"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -5159,11 +6399,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tree Shaded Graceful Flower Bed",
-          "zh": "樹蔭下的優雅花圃",
-          "es": "Macizo de flores elegante a la sombra de los árboles"
+          "en": "pointy tree",
+          "zh": "尖頂樹",
+          "es": "Árbol puntiagudo"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "mountain flowers",
+          "zh": "山地花朵",
+          "es": "Flores de montaña"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -5218,11 +6466,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Hydrated Graceful Flower Bed",
-          "zh": "潮濕的優雅花圃",
-          "es": "Macizo de flores elegante húmedo"
+          "en": "mountain flowers",
+          "zh": "山地花朵",
+          "es": "Flores de montaña"
         },
-        "count": 1
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -5277,11 +6533,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Flower Garden Stump Stage",
-          "zh": "花園樹樁舞台",
-          "es": "Escenario de tronco en el jardín de flores"
+          "en": "mountain flowers",
+          "zh": "山地花朵",
+          "es": "Flores de montaña"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "tree stump (any)",
+          "zh": "樹樁",
+          "es": "Tocon de árbol"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "mushroom lamps",
+          "zh": "mushroom lamps",
+          "es": "mushroom lamps"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -5336,9 +6608,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Toil In The Soil",
-          "zh": "土裡辛勞",
-          "es": "Trabajando la tierra"
+          "en": "vegetable fields (any)",
+          "zh": "蔬菜田",
+          "es": "Campos de verduras"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "wheelbarrow",
+          "zh": "wheelbarrow",
+          "es": "wheelbarrow"
         },
         "count": 1
       }
@@ -5373,11 +6653,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Uplifting Duckweed",
-          "zh": "令人振奮的浮萍",
-          "es": "Lenteja de agua inspiradora"
+          "en": "duckweed",
+          "zh": "浮萍",
+          "es": "Lenteja de agua"
         },
-        "count": 1
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -5421,11 +6709,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Mossy Rest Spot",
-          "zh": "長苔的休息處",
-          "es": "Lugar de descanso con musgo"
+          "en": "moss",
+          "zh": "苔蘚",
+          "es": "Musgo"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -5469,9 +6757,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Mossy Boulder",
-          "zh": "長苔的巨岩",
-          "es": "Roca con musgo"
+          "en": "moss",
+          "zh": "苔蘚",
+          "es": "Musgo"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "mossy boulder",
+          "zh": "苔蘚巨岩",
+          "es": "Roca musgosa"
         },
         "count": 1
       }
@@ -5517,11 +6813,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Mossy Hot Spring",
-          "zh": "長苔的溫泉",
-          "es": "Aguas termales con musgo"
+          "en": "moss",
+          "zh": "苔蘚",
+          "es": "Musgo"
         },
-        "count": 1
+        "count": 3
+      },
+      {
+        "item": {
+          "en": "hot-spring water",
+          "zh": "溫泉水",
+          "es": "Agua termal"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -5554,11 +6858,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Open Air Bath",
-          "zh": "露天浴池",
-          "es": "Baño al aire libre"
+          "en": "hot-spring spout",
+          "zh": "溫泉出水口",
+          "es": "Surtidor termal"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "hot-spring water",
+          "zh": "溫泉水",
+          "es": "Agua termal"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -5591,11 +6903,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Harmonious Hot Spring",
-          "zh": "和諧溫泉",
-          "es": "Aguas termales armoniosas"
+          "en": "hot-spring spout",
+          "zh": "溫泉出水口",
+          "es": "Surtidor termal"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "water basin",
+          "zh": "水盆",
+          "es": "Cuenco de agua"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "hot-spring water",
+          "zh": "溫泉水",
+          "es": "Agua termal"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -5628,11 +6956,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Piping Hot Lava",
-          "zh": "滾燙熔岩",
-          "es": "Lava hirviente"
+          "en": "molten rock",
+          "zh": "熔岩石",
+          "es": "Roca fundida"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "lava",
+          "zh": "熔岩",
+          "es": "Lava"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -5676,9 +7012,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Digging And Burning",
-          "zh": "挖掘與燃燒",
-          "es": "Cavando y quemando"
+          "en": "wheelbarrow",
+          "zh": "wheelbarrow",
+          "es": "wheelbarrow"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "smelting furnace",
+          "zh": "熔煉爐",
+          "es": "Horno de fundición"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "excavation tools",
+          "zh": "挖掘工具",
+          "es": "Herramientas de excavación"
         },
         "count": 1
       }
@@ -5713,9 +7065,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Clink Clang Iron Construction",
-          "zh": "鏗鏘鐵匠工地",
-          "es": "Construcción de hierro: ¡clín clán!"
+          "en": "iron beams or columns",
+          "zh": "鐵樑或鐵柱",
+          "es": "Vigas o columnas de hierro"
+        },
+        "count": 3
+      },
+      {
+        "item": {
+          "en": "wheelbarrow",
+          "zh": "wheelbarrow",
+          "es": "wheelbarrow"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "sandbag",
+          "zh": "sandbag",
+          "es": "sandbag"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "excavation tools",
+          "zh": "挖掘工具",
+          "es": "Herramientas de excavación"
         },
         "count": 1
       }
@@ -5761,9 +7137,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Creepy White Rocks",
-          "zh": "詭異白色岩石",
-          "es": "Rocas blancas espeluznantes"
+          "en": "stalagmites",
+          "zh": "鐘乳石",
+          "es": "Estalagmitas"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "moss",
+          "zh": "苔蘚",
+          "es": "Musgo"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "wooden crate",
+          "zh": "木箱",
+          "es": "Caja de madera"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lantern",
+          "zh": "燈籠",
+          "es": "Farol"
         },
         "count": 1
       }
@@ -5809,9 +7209,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Container Snacking",
-          "zh": "容器零食時間",
-          "es": "Merienda del contenedor"
+          "en": "barrel",
+          "zh": "木桶",
+          "es": "Barril"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "wooden crate",
+          "zh": "木箱",
+          "es": "Caja de madera"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lantern",
+          "zh": "燈籠",
+          "es": "Farol"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -5868,11 +7292,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Dinner Table Surprise",
-          "zh": "餐桌上的驚喜",
-          "es": "Sorpresa en la mesa"
+          "en": "seats (wide)",
+          "zh": "seats (wide)",
+          "es": "seats (wide)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "table (large)",
+          "zh": "table (large)",
+          "es": "table (large)"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "party platters",
+          "zh": "派對大餐盤",
+          "es": "Bandejas de fiesta"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -5905,9 +7345,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Best Bread Bakery",
-          "zh": "最佳麵包烘焙坊",
-          "es": "La mejor panadería"
+          "en": "bread oven",
+          "zh": "烤麵包爐",
+          "es": "Horno de pan"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "counters",
+          "zh": "櫃檯",
+          "es": "Mostradores"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -5953,9 +7409,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Mini Kitchen",
-          "zh": "迷你廚房",
-          "es": "Cocinita"
+          "en": "kitchen table",
+          "zh": "廚房桌",
+          "es": "Mesa de cocina"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cooking stove",
+          "zh": "烹飪爐",
+          "es": "Estufa de cocina"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "frying pan (any)",
+          "zh": "煎鍋",
+          "es": "Sartén"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "modern sink",
+          "zh": "現代水槽",
+          "es": "Fregadero moderno"
         },
         "count": 1
       }
@@ -5990,9 +7470,25 @@
     "requirements": [
       {
         "item": {
-          "en": "House Party",
-          "zh": "家庭派對",
-          "es": "Fiesta en casa"
+          "en": "food counter",
+          "zh": "食物櫃檯",
+          "es": "Mostrador de comida"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "paper party cups",
+          "zh": "紙製派對杯",
+          "es": "Vasos de fiesta de papel"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -6038,9 +7534,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Lazy Photo Album Scrolling",
-          "zh": "懶洋洋翻相簿",
-          "es": "Ojeando el álbum de fotos con pereza"
+          "en": "paper party cups",
+          "zh": "紙製派對杯",
+          "es": "Vasos de fiesta de papel"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "tablet",
+          "zh": "平板電腦",
+          "es": "Tableta"
         },
         "count": 1
       }
@@ -6075,9 +7579,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Chirping Recital",
-          "zh": "啾啾演奏會",
-          "es": "Recital de pío pío"
+          "en": "perch",
+          "zh": "棲木",
+          "es": "Percha"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "standing mic",
+          "zh": "落地麥克風",
+          "es": "Micrófono de pie"
         },
         "count": 1
       }
@@ -6123,9 +7635,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Recital Stage",
-          "zh": "演奏舞台",
-          "es": "Escenario de recital"
+          "en": "speakers",
+          "zh": "揚聲器",
+          "es": "Altavoces"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "powered small stage",
+          "zh": "powered small stage",
+          "es": "powered small stage"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "standing mic",
+          "zh": "落地麥克風",
+          "es": "Micrófono de pie"
         },
         "count": 1
       }
@@ -6171,9 +7699,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Box To The Rhythm",
-          "zh": "跟著節奏的箱子",
-          "es": "Caja al ritmo"
+          "en": "punching bag",
+          "zh": "沙袋",
+          "es": "Saco de boxeo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cd player",
+          "zh": "cd player",
+          "es": "cd player"
         },
         "count": 1
       }
@@ -6230,9 +7774,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Music And Magazines",
-          "zh": "音樂與雜誌",
-          "es": "Música y revistas"
+          "en": "cd player",
+          "zh": "cd player",
+          "es": "cd player"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cd rack",
+          "zh": "cd rack",
+          "es": "cd rack"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "magazine rack",
+          "zh": "雜誌架",
+          "es": "Revistero"
         },
         "count": 1
       }
@@ -6289,9 +7849,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Mini Museum",
-          "zh": "迷你博物館",
-          "es": "Museíto"
+          "en": "posts (any)",
+          "zh": "支柱",
+          "es": "Postes"
+        },
+        "count": 3
+      },
+      {
+        "item": {
+          "en": "pedestal/exhibition stand",
+          "zh": "展台",
+          "es": "Pedestal de exhibición"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lost relic (large)",
+          "zh": "失落的遺物（大）",
+          "es": "Reliquia perdida (grande)"
         },
         "count": 1
       }
@@ -6337,9 +7913,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Refreshing Locker Room",
-          "zh": "清爽更衣室",
-          "es": "Vestidor refrescante"
+          "en": "office lockers",
+          "zh": "辦公室置物櫃",
+          "es": "Taquillas de oficina"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "potted plant (any)",
+          "zh": "盆栽",
+          "es": "Planta en maceta"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (wide)",
+          "zh": "寬座椅",
+          "es": "Asiento ancho"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "punching game",
+          "zh": "拳擊遊戲",
+          "es": "Juego de boxeo"
         },
         "count": 1
       }
@@ -6385,9 +7985,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Bronze Landmark",
-          "zh": "青銅地標",
-          "es": "Monumento de bronce"
+          "en": "hedges (any)",
+          "zh": "樹籬",
+          "es": "Setos"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "moonlight dance statue",
+          "zh": "月光之舞雕像",
+          "es": "Estatua de la danza lunar"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "sign",
+          "zh": "sign",
+          "es": "sign"
         },
         "count": 1
       }
@@ -6433,9 +8049,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Railroad Crossing",
-          "zh": "鐵路平交道",
-          "es": "Cruce ferroviario"
+          "en": "railway track",
+          "zh": "鐵軌",
+          "es": "Vía ferroviaria"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "crossing gate",
+          "zh": "平交道柵欄",
+          "es": "Barrera de paso a nivel"
         },
         "count": 1
       }
@@ -6492,9 +8116,49 @@
     "requirements": [
       {
         "item": {
-          "en": "Chefs Kitchen",
-          "zh": "主廚廚房",
-          "es": "Cocina del chef"
+          "en": "cooking stove",
+          "zh": "烹飪爐",
+          "es": "Estufa de cocina"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "modern sink",
+          "zh": "現代水槽",
+          "es": "Fregadero moderno"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plain table",
+          "zh": "普通桌子",
+          "es": "Mesa sencilla"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "stylish cooking pot",
+          "zh": "時尚烹飪鍋",
+          "es": "Olla de cocina elegante"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cutting board",
+          "zh": "砧板",
+          "es": "Tabla de cortar"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "plated food",
+          "zh": "盤裝食物",
+          "es": "Comida en plato"
         },
         "count": 1
       }
@@ -6529,9 +8193,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Absolute Luxury",
-          "zh": "絕對奢華",
-          "es": "Lujo absoluto"
+          "en": "lit luxury lamp",
+          "zh": "奢華燈（點燃）",
+          "es": "Lámpara de lujo encendida"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "luxury bed",
+          "zh": "奢華床",
+          "es": "Cama de lujo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "luxury sofa",
+          "zh": "奢華沙發",
+          "es": "Sofa de lujo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "luxury table",
+          "zh": "奢華桌",
+          "es": "Mesa de lujo"
         },
         "count": 1
       }
@@ -6566,9 +8254,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Heavy Iron",
-          "zh": "沉重的鐵",
-          "es": "Hierro pesado"
+          "en": "iron bed",
+          "zh": "鐵床",
+          "es": "Cama de hierro"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "iron table",
+          "zh": "鐵桌",
+          "es": "Mesa de hierro"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "iron chair",
+          "zh": "鐵椅",
+          "es": "Silla de hierro"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit lantern",
+          "zh": "lit lantern",
+          "es": "lit lantern"
         },
         "count": 1
       }
@@ -6603,9 +8315,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Modern Living",
-          "zh": "現代生活",
-          "es": "Vida moderna"
+          "en": "industrial bed",
+          "zh": "工業風床",
+          "es": "Cama industrial"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "industrial desk",
+          "zh": "工業風書桌",
+          "es": "Escritorio industrial"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "industrial chair",
+          "zh": "工業風椅子",
+          "es": "Silla industrial"
         },
         "count": 1
       }
@@ -6640,11 +8368,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Pink Tall Grass",
-          "zh": "粉色高草叢",
+          "en": "pink tall grass",
+          "zh": "粉紅色高草叢",
           "es": "Hierba alta rosa"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -6721,11 +8449,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tree Shaded Pink Tall Grass",
-          "zh": "樹蔭下的粉色高草叢",
-          "es": "Hierba alta rosa a la sombra de los árboles"
+          "en": "large tree (any)",
+          "zh": "大樹",
+          "es": "Árbol grande"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "pink tall grass",
+          "zh": "粉紅色高草叢",
+          "es": "Hierba alta rosa"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -6791,11 +8527,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Hydrated Pink Tall Grass",
-          "zh": "潮濕的粉色高草叢",
-          "es": "Hierba alta rosa húmeda"
+          "en": "pink tall grass",
+          "zh": "粉紅色高草叢",
+          "es": "Hierba alta rosa"
         },
-        "count": 1
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -6850,9 +8594,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Elevated Pink Tall Grass",
-          "zh": "高地的粉色高草叢",
-          "es": "Hierba alta rosa elevada"
+          "en": "pink tall grass",
+          "zh": "粉紅色高草叢",
+          "es": "Hierba alta rosa"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
         },
         "count": 1
       }
@@ -6920,11 +8672,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Concrete Pipe Secret Base",
-          "zh": "水泥管祕密基地",
-          "es": "Base secreta del tubo de concreto"
+          "en": "concrete pipes",
+          "zh": "混凝土管",
+          "es": "Tubos de hormigón"
         },
-        "count": 1
+        "count": 3
+      },
+      {
+        "item": {
+          "en": "tall grass (any)",
+          "zh": "高草叢",
+          "es": "Hierba alta"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -6968,11 +8728,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Fluffy Flower Bed",
-          "zh": "毛茸茸的花圃",
-          "es": "Macizo de flores esponjoso"
+          "en": "skyland flowers",
+          "zh": "天空花朵",
+          "es": "Flores celestiales"
         },
-        "count": 1
+        "count": 4
       }
     ],
     "pokemon": [
@@ -7049,11 +8809,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Tree Shaded Fluffy Flower Bed",
-          "zh": "樹蔭下的毛茸茸花圃",
-          "es": "Macizo de flores esponjoso a la sombra de los árboles"
+          "en": "large tree (any)",
+          "zh": "大樹",
+          "es": "Árbol grande"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "skyland flowers",
+          "zh": "天空花朵",
+          "es": "Flores celestiales"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -7119,11 +8887,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Hydrated Fluffy Flower Bed",
-          "zh": "潮濕的毛茸茸花圃",
-          "es": "Macizo de flores esponjoso húmedo"
+          "en": "skyland flowers",
+          "zh": "天空花朵",
+          "es": "Flores celestiales"
         },
-        "count": 1
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -7178,9 +8954,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Waterside Dinghy",
-          "zh": "水邊小船",
-          "es": "Bote junto al agua"
+          "en": "canoe",
+          "zh": "獨木舟",
+          "es": "Canoa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "duckweed",
+          "zh": "浮萍",
+          "es": "Lenteja de agua"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
         },
         "count": 1
       }
@@ -7215,9 +9015,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Illuminated Waterfall",
-          "zh": "明亮的瀑布",
-          "es": "Cascada iluminada"
+          "en": "stepping stones",
+          "zh": "踏腳石",
+          "es": "Piedras peldaño"
+        },
+        "count": 3
+      },
+      {
+        "item": {
+          "en": "lit torches",
+          "zh": "亮著的火把",
+          "es": "Antorchas encendidas"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 3
+      },
+      {
+        "item": {
+          "en": "waterfall",
+          "zh": "瀑布",
+          "es": "Cascada"
         },
         "count": 1
       }
@@ -7252,9 +9076,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Birdsong Garden",
-          "zh": "鳥鳴花園",
-          "es": "Jardín del canto de los pájaros"
+          "en": "stylish hedge",
+          "zh": "時尚樹籬",
+          "es": "Seto elegante"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "wooden birdhouse",
+          "zh": "木製鳥屋",
+          "es": "Casita de pájaros de madera"
         },
         "count": 1
       }
@@ -7289,9 +9121,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Simple Bathroom",
-          "zh": "簡約浴室",
-          "es": "Baño sencillo"
+          "en": "shower",
+          "zh": "淋浴設備",
+          "es": "Ducha"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "bathtub",
+          "zh": "bathtub",
+          "es": "bathtub"
         },
         "count": 1
       }
@@ -7337,9 +9177,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Cycling Rest Stop",
-          "zh": "單車休息站",
-          "es": "Área de descanso para ciclistas"
+          "en": "bike",
+          "zh": "自行車",
+          "es": "Bicicleta"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered vending machine",
+          "zh": "自動販賣機（通電）",
+          "es": "Máquina expendedora (encendida)"
         },
         "count": 1
       }
@@ -7374,9 +9222,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Fireplace Nap Spot",
-          "zh": "壁爐旁小睡處",
-          "es": "Lugar para dormir junto a la chimenea"
+          "en": "lit stone fireplace",
+          "zh": "亮著的石造壁爐",
+          "es": "Chimenea de piedra encendida"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (wide)",
+          "zh": "寬座椅",
+          "es": "Asiento ancho"
         },
         "count": 1
       }
@@ -7422,9 +9278,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Surging Psychic Power",
-          "zh": "洶湧的超能力",
-          "es": "Poder psíquico arrollador"
+          "en": "simple cushion",
+          "zh": "簡單坐墊",
+          "es": "Cojín sencillo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "crystal ball",
+          "zh": "水晶球",
+          "es": "Bola de cristal"
         },
         "count": 1
       }
@@ -7470,9 +9334,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Fortune Tellers Table",
-          "zh": "占卜師的桌子",
-          "es": "Mesa de la quiromántica"
+          "en": "seats (any)",
+          "zh": "seats (any)",
+          "es": "seats (any)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "crystal ball",
+          "zh": "水晶球",
+          "es": "Bola de cristal"
         },
         "count": 1
       }
@@ -7518,9 +9398,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Trash Site Tv",
-          "zh": "垃圾場電視",
-          "es": "Televisión del basurero"
+          "en": "garbage bags",
+          "zh": "垃圾袋",
+          "es": "Bolsas de basura"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "powered television",
+          "zh": "powered television",
+          "es": "powered television"
         },
         "count": 1
       }
@@ -7566,9 +9454,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Oversized Dumping Ground",
-          "zh": "超大傾倒場",
-          "es": "Vertedero gigante"
+          "en": "iron beams or columns",
+          "zh": "鐵樑或鐵柱",
+          "es": "Vigas o columnas de hierro"
+        },
+        "count": 3
+      },
+      {
+        "item": {
+          "en": "tires",
+          "zh": "tires",
+          "es": "tires"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "waste bin (any)",
+          "zh": "垃圾桶",
+          "es": "Bote de basura"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "microwave oven",
+          "zh": "微波爐",
+          "es": "Horno microondas"
         },
         "count": 1
       }
@@ -7614,9 +9526,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Interrogation Desk",
-          "zh": "審問桌",
-          "es": "Escritorio de interrogatorio"
+          "en": "arcanine doll",
+          "zh": "arcanine doll",
+          "es": "arcanine doll"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "folding chairs",
+          "zh": "摺疊椅",
+          "es": "Sillas plegables"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "industrial desk",
+          "zh": "工業風書桌",
+          "es": "Escritorio industrial"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lit desk light",
+          "zh": "亮著的桌燈",
+          "es": "Lámpara de escritorio encendida"
         },
         "count": 1
       }
@@ -7662,9 +9598,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Sewer Hole Inspection",
-          "zh": "下水道口檢查",
-          "es": "Inspección de alcantarilla"
+          "en": "iron pipes",
+          "zh": "鐵管",
+          "es": "Tuberías de hierro"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "sewer-hole cover",
+          "zh": "下水道蓋",
+          "es": "Tapa de alcantarilla"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "excavation tools",
+          "zh": "挖掘工具",
+          "es": "Herramientas de excavación"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "traffic cone",
+          "zh": "交通錐",
+          "es": "Cono de tráfico"
         },
         "count": 1
       }
@@ -7732,9 +9692,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Spotless Washing Station",
-          "zh": "一塵不染的清洗站",
-          "es": "Estación de lavado impecable"
+          "en": "towel rack",
+          "zh": "毛巾架",
+          "es": "Toallero"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "wall mirror",
+          "zh": "壁鏡",
+          "es": "Espejo de pared"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "sink",
+          "zh": "洗手槽",
+          "es": "Lavabo"
         },
         "count": 1
       }
@@ -7780,9 +9756,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Home Theater",
-          "zh": "家庭劇院",
-          "es": "Casa con cine"
+          "en": "speakers",
+          "zh": "揚聲器",
+          "es": "Altavoces"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "stand (any)",
+          "zh": "支架",
+          "es": "Soporte"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered television",
+          "zh": "powered television",
+          "es": "powered television"
         },
         "count": 1
       }
@@ -7817,9 +9809,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Study Area",
-          "zh": "讀書區",
-          "es": "Área de estudio"
+          "en": "bookcase",
+          "zh": "書架",
+          "es": "Librería"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "pencil holder",
+          "zh": "筆筒",
+          "es": "Portalápices"
         },
         "count": 1
       }
@@ -7865,9 +9881,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Rhythmic Living Room",
-          "zh": "有節奏的客廳",
-          "es": "Sala de estar rítmica"
+          "en": "speakers",
+          "zh": "揚聲器",
+          "es": "Altavoces"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "music mats (any)",
+          "zh": "音樂墊",
+          "es": "Alfombrillas musicales"
+        },
+        "count": 4
+      },
+      {
+        "item": {
+          "en": "powered television",
+          "zh": "powered television",
+          "es": "powered television"
         },
         "count": 1
       }
@@ -7913,9 +9945,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Squeaky Clean",
-          "zh": "乾乾淨淨",
-          "es": "Limpio como una patena"
+          "en": "bathtub",
+          "zh": "bathtub",
+          "es": "bathtub"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cleaning supplies",
+          "zh": "清潔用品",
+          "es": "Suministros de limpieza"
         },
         "count": 1
       }
@@ -7950,9 +9990,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Moisturizing Makeup Stand",
-          "zh": "保濕化妝台",
-          "es": "Tocador de maquillaje hidratante"
+          "en": "dresser (any)",
+          "zh": "梳妝台",
+          "es": "Tocador"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "humidifier",
+          "zh": "加濕器",
+          "es": "Humidificador"
         },
         "count": 1
       }
@@ -7998,9 +10054,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Mini Library",
-          "zh": "迷你圖書館",
-          "es": "Bibliotecita"
+          "en": "bookcases",
+          "zh": "bookcases",
+          "es": "bookcases"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "step stool",
+          "zh": "踏腳凳",
+          "es": "Taburete"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "powered lighting (any)",
+          "zh": "照明設備（通電）",
+          "es": "Iluminación (encendida)"
         },
         "count": 1
       }
@@ -8035,11 +10115,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Game Corner Battle Zone",
-          "zh": "遊戲角落對戰區",
-          "es": "Zona de batalla del casino"
+          "en": "powered arcade machines",
+          "zh": "街機（通電）",
+          "es": "Máquinas arcade (encendidas)"
         },
-        "count": 1
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "seats (any)",
+          "zh": "seats (any)",
+          "es": "seats (any)"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -8072,9 +10160,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Playland",
-          "zh": "遊樂園",
-          "es": "Tierra de juegos"
+          "en": "slide",
+          "zh": "溜滑梯",
+          "es": "Tobogán"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "toy (any)",
+          "zh": "玩具",
+          "es": "Juguete"
         },
         "count": 1
       }
@@ -8109,9 +10205,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Work Desk",
+          "en": "office desk",
           "zh": "辦公桌",
-          "es": "Escritorio de trabajo"
+          "es": "Escritorio de oficina"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "laptop",
+          "zh": "筆電",
+          "es": "Laptop"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "mug",
+          "zh": "馬克杯",
+          "es": "Taza"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "office chair",
+          "zh": "辦公椅",
+          "es": "Silla de oficina"
         },
         "count": 1
       }
@@ -8146,9 +10266,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Office Storeroom",
-          "zh": "辦公室儲藏室",
-          "es": "Almacén de la oficina"
+          "en": "office shelf",
+          "zh": "辦公室層架",
+          "es": "Estantería de oficina"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "step stool",
+          "zh": "踏腳凳",
+          "es": "Taburete"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cardboard boxes",
+          "zh": "紙箱",
+          "es": "Cajas de cartón"
         },
         "count": 1
       }
@@ -8216,9 +10352,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Experiment Space",
-          "zh": "實驗空間",
-          "es": "Espacio de experimentos"
+          "en": "science experiment",
+          "zh": "科學實驗裝置",
+          "es": "Experimento científico"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "microscope",
+          "zh": "顯微鏡",
+          "es": "Microscopio"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "papers",
+          "zh": "文件",
+          "es": "Papeles"
         },
         "count": 1
       }
@@ -8253,9 +10405,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Professors Apprentice Program",
-          "zh": "博士的學徒計畫",
-          "es": "Programa de aprendiz del profesor"
+          "en": "whiteboard",
+          "zh": "白板",
+          "es": "Pizarra blanca"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "jumbled cords",
+          "zh": "jumbled cords",
+          "es": "jumbled cords"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "laptop",
+          "zh": "筆電",
+          "es": "Laptop"
         },
         "count": 1
       }
@@ -8290,9 +10466,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Researchers Desk",
-          "zh": "研究員的桌子",
-          "es": "Escritorio del investigador"
+          "en": "tables (any)",
+          "zh": "tables (any)",
+          "es": "tables (any)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "computer",
+          "zh": "電腦",
+          "es": "Computadora"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "science experiment",
+          "zh": "科學實驗裝置",
+          "es": "Experimento científico"
         },
         "count": 1
       }
@@ -8327,9 +10519,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Public Reading Material",
-          "zh": "公共閱讀資料",
-          "es": "Material de lectura público"
+          "en": "magazine rack",
+          "zh": "雜誌架",
+          "es": "Revistero"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "newspaper",
+          "zh": "報紙",
+          "es": "Periódico"
         },
         "count": 1
       }
@@ -8375,9 +10575,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Heart Pounding Surprise Box",
-          "zh": "心跳加速驚喜箱",
-          "es": "Caja sorpresa que hace latir el corazón"
+          "en": "spotlight",
+          "zh": "聚光燈",
+          "es": "Foco"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "big drum",
+          "zh": "大鼓",
+          "es": "Tambor grande"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "boo-in-the-box",
+          "zh": "驚嚇禮盒",
+          "es": "Caja sorpresa"
         },
         "count": 1
       }
@@ -8412,9 +10628,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Prank Button",
-          "zh": "惡作劇按鈕",
-          "es": "Botón de broma"
+          "en": "floor switch",
+          "zh": "地板開關",
+          "es": "Interruptor de suelo"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "boo-in-the-box",
+          "zh": "驚嚇禮盒",
+          "es": "Caja sorpresa"
         },
         "count": 1
       }
@@ -8460,9 +10684,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Picturesque Photo Cutout Board",
-          "zh": "風景人像立牌",
-          "es": "Recorte fotográfico pintoresco"
+          "en": "photo cutout board",
+          "zh": "拍照立牌",
+          "es": "Tablero de recortes fotográficos"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "spotlights",
+          "zh": "聚光燈",
+          "es": "Focos"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "high-up location",
+          "zh": "高處",
+          "es": "Lugar elevado"
         },
         "count": 1
       }
@@ -8508,11 +10748,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Tire Park",
-          "zh": "輪胎公園",
-          "es": "Parque de llantas"
+          "en": "slide",
+          "zh": "溜滑梯",
+          "es": "Tobogán"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "tires",
+          "zh": "tires",
+          "es": "tires"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "tire toys",
+          "zh": "輪胎玩具",
+          "es": "Juguetes de neumáticos"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -8545,9 +10801,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Natures Market",
-          "zh": "大自然市集",
-          "es": "Mercado de la naturaleza"
+          "en": "large tree (any)",
+          "zh": "大樹",
+          "es": "Árbol grande"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "large boulder",
+          "zh": "巨岩",
+          "es": "Roca grande"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cash register",
+          "zh": "收銀機",
+          "es": "Caja registradora"
         },
         "count": 1
       }
@@ -8582,9 +10862,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Construction Site Generator",
-          "zh": "工地發電機",
-          "es": "Generador de la obra"
+          "en": "furnace",
+          "zh": "熔爐",
+          "es": "Horno"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "iron scaffolds",
+          "zh": "鐵製腳手架",
+          "es": "Andamios de hierro"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "iron pipes",
+          "zh": "鐵管",
+          "es": "Tuberías de hierro"
         },
         "count": 1
       }
@@ -8619,11 +10915,19 @@
     "requirements": [
       {
         "item": {
-          "en": "Dojo Training",
-          "zh": "道場訓練",
-          "es": "Entrenamiento en el dojo"
+          "en": "hanging scrolls",
+          "zh": "掛軸",
+          "es": "Pergaminos colgantes"
         },
-        "count": 1
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "strength rocks",
+          "zh": "力量之石",
+          "es": "Rocas de fuerza"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -8667,9 +10971,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Evil Organization Hq",
-          "zh": "邪惡組織總部",
-          "es": "Cuartel general de la organización maligna"
+          "en": "potted plants (any)",
+          "zh": "potted plants (any)",
+          "es": "potted plants (any)"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "team rocket wall hanging",
+          "zh": "team rocket wall hanging",
+          "es": "team rocket wall hanging"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "luxury sofa",
+          "zh": "奢華沙發",
+          "es": "Sofa de lujo"
         },
         "count": 1
       }
@@ -8704,11 +11024,11 @@
     "requirements": [
       {
         "item": {
-          "en": "Nine Flames",
-          "zh": "九道烈焰",
-          "es": "Nueve llamas"
+          "en": "firepits",
+          "zh": "火坑",
+          "es": "Fogatas"
         },
-        "count": 1
+        "count": 9
       }
     ],
     "pokemon": [
@@ -8741,9 +11061,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Plush Central",
-          "zh": "布偶中心",
-          "es": "Centro de peluches"
+          "en": "arcanine doll",
+          "zh": "arcanine doll",
+          "es": "arcanine doll"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "pikachu doll",
+          "zh": "pikachu doll",
+          "es": "pikachu doll"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "dragonite doll",
+          "zh": "dragonite doll",
+          "es": "dragonite doll"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "eevee doll",
+          "zh": "eevee doll",
+          "es": "eevee doll"
         },
         "count": 1
       }
@@ -8789,9 +11133,41 @@
     "requirements": [
       {
         "item": {
-          "en": "Gamers Paradise",
-          "zh": "玩家天堂",
-          "es": "Paraíso de los jugadores"
+          "en": "gaming bed",
+          "zh": "電競床",
+          "es": "Cama gamer"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "gaming pc",
+          "zh": "gaming pc",
+          "es": "gaming pc"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "gaming chair",
+          "zh": "電競椅",
+          "es": "Silla gamer"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "gaming fridge",
+          "zh": "電競冰箱",
+          "es": "Nevera gamer"
         },
         "count": 1
       }
@@ -8826,9 +11202,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Top Pop",
-          "zh": "頂級汽水",
-          "es": "Refresco top"
+          "en": "pop art bed",
+          "zh": "波普藝術床",
+          "es": "Cama pop art"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "pop art sofa",
+          "zh": "波普藝術沙發",
+          "es": "Sofa pop art"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "pop art table",
+          "zh": "波普藝術桌",
+          "es": "Mesa pop art"
         },
         "count": 1
       }
@@ -8863,11 +11255,27 @@
     "requirements": [
       {
         "item": {
-          "en": "Fishing Pond",
-          "zh": "釣魚池",
-          "es": "Estanque de pesca"
+          "en": "fishing rod",
+          "zh": "fishing rod",
+          "es": "fishing rod"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "seat",
+          "zh": "seat",
+          "es": "seat"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
+        },
+        "count": 4
       }
     ],
     "pokemon": [
@@ -8911,9 +11319,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Ocean Fishing Spot",
-          "zh": "海釣場",
-          "es": "Lugar de pesca en el mar"
+          "en": "fishing rod",
+          "zh": "fishing rod",
+          "es": "fishing rod"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat",
+          "zh": "seat",
+          "es": "seat"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "water",
+          "zh": "水",
+          "es": "Agua"
         },
         "count": 1
       }
@@ -8959,9 +11383,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Marsh Fishing Spot",
-          "zh": "沼澤釣場",
-          "es": "Lugar de pesca en el pantano"
+          "en": "fishing rod",
+          "zh": "fishing rod",
+          "es": "fishing rod"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat",
+          "zh": "seat",
+          "es": "seat"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "ocean water",
+          "zh": "海水",
+          "es": "Agua del océano"
         },
         "count": 1
       }
@@ -9018,9 +11458,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Hot Spring Fishing Spot",
-          "zh": "溫泉釣場",
-          "es": "Lugar de pesca en aguas termales"
+          "en": "fishing rod",
+          "zh": "fishing rod",
+          "es": "fishing rod"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat",
+          "zh": "seat",
+          "es": "seat"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "muddy water",
+          "zh": "泥水",
+          "es": "Agua lodosa"
         },
         "count": 1
       }
@@ -9066,9 +11522,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Magma Fishing Spot",
-          "zh": "岩漿釣場",
-          "es": "Lugar de pesca en magma"
+          "en": "fishing rod",
+          "zh": "fishing rod",
+          "es": "fishing rod"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat",
+          "zh": "seat",
+          "es": "seat"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "hot-spring water",
+          "zh": "溫泉水",
+          "es": "Agua termal"
         },
         "count": 1
       }
@@ -9103,9 +11575,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Habitat 189",
-          "zh": "棲息地 189",
-          "es": "Hábitat 189"
+          "en": "fishing rod",
+          "zh": "fishing rod",
+          "es": "fishing rod"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "seat",
+          "zh": "seat",
+          "es": "seat"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "lava",
+          "zh": "熔岩",
+          "es": "Lava"
         },
         "count": 1
       }
@@ -9128,9 +11616,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Habitat 190",
-          "zh": "棲息地 190",
-          "es": "Hábitat 190"
+          "en": "speakers",
+          "zh": "揚聲器",
+          "es": "Altavoces"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "small stage",
+          "zh": "小舞台",
+          "es": "Escenario pequeño"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cool electric guitar",
+          "zh": "酷炫電吉他",
+          "es": "Guitarra eléctrica genial"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "standing mic",
+          "zh": "落地麥克風",
+          "es": "Micrófono de pie"
         },
         "count": 1
       }
@@ -9153,9 +11665,33 @@
     "requirements": [
       {
         "item": {
-          "en": "Malicious Knights Shrine",
-          "zh": "邪惡騎士神殿",
-          "es": "Santuario del caballero malvado"
+          "en": "speakers",
+          "zh": "揚聲器",
+          "es": "Altavoces"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "small stage",
+          "zh": "小舞台",
+          "es": "Escenario pequeño"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "cool bass guitar",
+          "zh": "酷炫貝斯",
+          "es": "Bajo genial"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "standing mic",
+          "zh": "落地麥克風",
+          "es": "Micrófono de pie"
         },
         "count": 1
       }
@@ -9190,11 +11726,35 @@
     "requirements": [
       {
         "item": {
-          "en": "Auspicious Knights Shrine",
-          "zh": "吉祥騎士神殿",
-          "es": "Santuario del caballero auspicioso"
+          "en": "pedestal",
+          "zh": "pedestal",
+          "es": "pedestal"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "malicious armor",
+          "zh": "惡意鎧甲",
+          "es": "Armadura maliciosa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "stepping stones",
+          "zh": "踏腳石",
+          "es": "Piedras peldaño"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "firepits",
+          "zh": "火坑",
+          "es": "Fogatas"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -9227,11 +11787,35 @@
     "requirements": [
       {
         "item": {
-          "en": "Wing Fossil Display",
-          "zh": "翅膀化石展示",
-          "es": "Exhibición de fósil ala"
+          "en": "pedestal",
+          "zh": "pedestal",
+          "es": "pedestal"
         },
         "count": 1
+      },
+      {
+        "item": {
+          "en": "auspicious armor",
+          "zh": "吉祥鎧甲",
+          "es": "Armadura auspiciosa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "stepping stones",
+          "zh": "踏腳石",
+          "es": "Piedras peldaño"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "firepits",
+          "zh": "火坑",
+          "es": "Fogatas"
+        },
+        "count": 2
       }
     ],
     "pokemon": [
@@ -9264,9 +11848,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Skull Fossil Display",
-          "zh": "頭蓋骨化石展示",
-          "es": "Exhibición de fósil cráneo"
+          "en": "pedestal",
+          "zh": "pedestal",
+          "es": "pedestal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "wing fossil",
+          "zh": "翼之化石",
+          "es": "Fósil de ala"
         },
         "count": 1
       }
@@ -9301,9 +11893,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Headbutt Fossil Display",
-          "zh": "頭錘化石展示",
-          "es": "Exhibición de fósil cabezazo"
+          "en": "pedestal",
+          "zh": "pedestal",
+          "es": "pedestal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "headbutt fossil",
+          "zh": "頭擊化石",
+          "es": "Fósil de cabezazo"
         },
         "count": 1
       }
@@ -9338,9 +11938,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Armor Fossil Display",
-          "zh": "鎧甲化石展示",
-          "es": "Exhibición de fósil coraza"
+          "en": "pedestal",
+          "zh": "pedestal",
+          "es": "pedestal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "armor fossil",
+          "zh": "甲殼化石",
+          "es": "Fósil de armadura"
         },
         "count": 1
       }
@@ -9375,9 +11983,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Shield Fossil Display",
-          "zh": "盾化石展示",
-          "es": "Exhibición de fósil escudo"
+          "en": "pedestals",
+          "zh": "pedestals",
+          "es": "pedestals"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "shield fossil",
+          "zh": "盾之化石",
+          "es": "Fósil de escudo"
         },
         "count": 1
       }
@@ -9412,9 +12028,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Jaw Fossil Display",
-          "zh": "下顎化石展示",
-          "es": "Exhibición de fósil mandíbula"
+          "en": "pedestal",
+          "zh": "pedestal",
+          "es": "pedestal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "jaw fossil",
+          "zh": "顎之化石",
+          "es": "Fósil de mandíbula"
         },
         "count": 1
       }
@@ -9449,9 +12073,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Despot Fossil Display",
-          "zh": "暴君化石展示",
-          "es": "Exhibición de fósil déspota"
+          "en": "pedestals",
+          "zh": "pedestals",
+          "es": "pedestals"
+        },
+        "count": 2
+      },
+      {
+        "item": {
+          "en": "deposit fossil",
+          "zh": "存款化石",
+          "es": "Fósil de depósito"
         },
         "count": 1
       }
@@ -9486,9 +12118,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Sail Fossil Display",
-          "zh": "帆化石展示",
-          "es": "Exhibición de fósil vela"
+          "en": "pedestal",
+          "zh": "pedestal",
+          "es": "pedestal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "sail fossil",
+          "zh": "帆之化石",
+          "es": "Fósil de vela"
         },
         "count": 1
       }
@@ -9523,9 +12163,17 @@
     "requirements": [
       {
         "item": {
-          "en": "Tundra Fossil Display",
-          "zh": "凍原化石展示",
-          "es": "Exhibición de fósiles de la tundra"
+          "en": "medestal",
+          "zh": "medestal",
+          "es": "medestal"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "tundra fossil",
+          "zh": "凍土化石",
+          "es": "Fósil de tundra"
         },
         "count": 1
       }
@@ -9560,9 +12208,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Boundless Blue Beverage",
-          "zh": "無限藍色飲品",
-          "es": "Bebida azul sin fin"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "soda float",
+          "zh": "蘇打冰淇淋",
+          "es": "Soda float"
         },
         "count": 1
       }
@@ -9597,9 +12261,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Electrifying Potatoes",
-          "zh": "帶電的馬鈴薯",
-          "es": "Papas electrificantes"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "fried potatoes",
+          "zh": "炸薯條",
+          "es": "Papas fritas"
         },
         "count": 1
       }
@@ -9634,9 +12314,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Burning Hot Spice",
-          "zh": "超辣辛香料",
-          "es": "Especias súper picantes"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "pizza",
+          "zh": "比薩",
+          "es": "Pizza"
         },
         "count": 1
       }
@@ -9671,9 +12367,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Elegant Daytime Treats",
-          "zh": "優雅的午茶甜點",
-          "es": "Delicias elegantes de día"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "afternoon tea set",
+          "zh": "下午茶組",
+          "es": "Set de té de la tarde"
         },
         "count": 1
       }
@@ -9708,9 +12420,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Dark Chocolate Cookies",
-          "zh": "黑巧克力餅乾",
-          "es": "Galletas de chocolate oscuro"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "chocolate cookies",
+          "zh": "巧克力餅乾",
+          "es": "Galletas de chocolate"
         },
         "count": 1
       }
@@ -9745,9 +12473,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Leafy Greens Sandwich",
-          "zh": "鮮綠蔬菜三明治",
-          "es": "Sándwich de verduras frescas"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "sandwiches",
+          "zh": "三明治",
+          "es": "Sándwiches"
         },
         "count": 1
       }
@@ -9782,9 +12526,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Chilly Shaved Ice",
-          "zh": "冰涼刨冰",
-          "es": "Raspado helado"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "shaved ice",
+          "zh": "刨冰",
+          "es": "Hielo raspado"
         },
         "count": 1
       }
@@ -9819,9 +12579,25 @@
     "requirements": [
       {
         "item": {
-          "en": "Lovely Ribbon Cake",
-          "zh": "可愛緞帶蛋糕",
-          "es": "Pastel con linda cinta"
+          "en": "seat (any)",
+          "zh": "座椅",
+          "es": "Asiento"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "table (any)",
+          "zh": "桌子",
+          "es": "Mesa"
+        },
+        "count": 1
+      },
+      {
+        "item": {
+          "en": "ribbon cake",
+          "zh": "絲帶蛋糕",
+          "es": "Pastel de cinta"
         },
         "count": 1
       }
