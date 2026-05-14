@@ -400,6 +400,7 @@
           <div class="detail-section__title">
             ${t.description}
             <span class="desc-voice-btns">
+              <button class="voice-btn voice-btn--sm speed-toggle-btn normal" id="speedToggleBtn" onclick="togglePlaybackSpeed()" title="正常 1x（點擊切換）">▶️</button>
               <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
               <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
               <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('es')" title="Español">🇸🇻 🔊</button>
@@ -466,6 +467,22 @@
         }, 700);
       }
       renderDetail();
+    }
+
+    // ── Playback Speed ──────────────────────────────────────
+    let _playbackSpeed = 1; // 1 = normal, 0.8 = slow
+
+    function togglePlaybackSpeed() {
+      _playbackSpeed = _playbackSpeed === 1 ? 0.8 : 1;
+      const btn = document.getElementById('speedToggleBtn');
+      if (btn) {
+        btn.textContent = _playbackSpeed === 0.8 ? '🐢' : '▶️';
+        btn.title = _playbackSpeed === 0.8 ? '慢速 0.8x（點擊切換）' : '正常 1x（點擊切換）';
+        btn.classList.toggle('slow', _playbackSpeed === 0.8);
+        btn.classList.toggle('normal', _playbackSpeed === 1);
+      }
+      // Apply to currently playing audio
+      if (_karaokeAudio) _karaokeAudio.playbackRate = _playbackSpeed;
     }
 
     // ── Edge-TTS Karaoke Player ──────────────────────────────
@@ -572,6 +589,7 @@
 
       // Create audio
       _karaokeAudio = new Audio(mp3Path);
+      _karaokeAudio.playbackRate = _playbackSpeed;
       _karaokeAudio.play().catch(() => {});
 
       startKaraokeTick();

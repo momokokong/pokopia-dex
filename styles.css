@@ -784,6 +784,32 @@ body {
   color: var(--text-primary);
 }
 
+.speed-toggle-btn {
+  position: relative;
+}
+
+.speed-toggle-btn::after {
+  content: attr(data-speed-label);
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  font-size: 9px;
+  background: var(--accent, #FF8C42);
+  color: #fff;
+  border-radius: 6px;
+  padding: 0 3px;
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+.speed-toggle-btn.slow::after {
+  content: '0.8x';
+}
+
+.speed-toggle-btn.normal::after {
+  content: '1x';
+}
+
 .detail-types-row {
   display: flex;
   justify-content: center;

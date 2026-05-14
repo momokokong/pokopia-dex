@@ -301,6 +301,7 @@
           <div class="detail-section__title" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
             <span>${lang === 'zh' ? '棲息地簡介' : lang === 'es' ? 'Descripción del hábitat' : 'Habitat Description'}</span>
             <span class="desc-voice-btns">
+              <button class="voice-btn voice-btn--sm speed-toggle-btn normal" id="speedToggleBtn" onclick="togglePlaybackSpeed()" title="正常 1x（點擊切換）">▶️</button>
               <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
               <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
               <button class="voice-btn voice-btn--sm" onclick="playHabitatKaraokeAudio('es')" title="Español">🇪🇸 🔊</button>
@@ -326,6 +327,22 @@
 
     let _voiceLangSave = null;
     let _cancelKaraoke = null;
+
+    // ── Playback Speed ──────────────────────────────────────
+    var _playbackSpeed = 1; // 1 = normal, 0.8 = slow
+
+    function togglePlaybackSpeed() {
+      _playbackSpeed = _playbackSpeed === 1 ? 0.8 : 1;
+      var btn = document.getElementById('speedToggleBtn');
+      if (btn) {
+        btn.textContent = _playbackSpeed === 0.8 ? '\uD83D\uDC22' : '\u25B6\uFE0F';
+        btn.title = _playbackSpeed === 0.8 ? '\u6162\u901F 0.8x\uFF08\u9EDE\u64CA\u5207\u63DB\uFF09' : '\u6B63\u5E38 1x\uFF08\u9EDE\u64CA\u5207\u63DB\uFF09';
+        btn.classList.toggle('slow', _playbackSpeed === 0.8);
+        btn.classList.toggle('normal', _playbackSpeed === 1);
+      }
+      // Apply to currently playing audio
+      if (_habitatKaraokeAudio) _habitatKaraokeAudio.playbackRate = _playbackSpeed;
+    }
 
 
     function playVoice(text, lang) {
@@ -506,6 +523,7 @@
       renderHabitatKaraokeWords(_habitatKaraokeWords, text, descEl);
 
       _habitatKaraokeAudio = new Audio(mp3Path);
+      _habitatKaraokeAudio.playbackRate = _playbackSpeed;
       _habitatKaraokeAudio.play().catch(function() {});
       startHabitatKaraokeTick();
 
