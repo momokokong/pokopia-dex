@@ -11,10 +11,10 @@
   - **玩法 D — 看敘述猜名**：顯示一段 Pokopia 敘述（中/英/西隨機），三個名字選項選出正確答案。
   - 語言組合可由設定控制（例如：題目語言固定、選項語言隨機、或全隨機）。
   - 計分機制、連續答對 combo、與 Badge 系統連動。
-- [ ] **語音播放速度控制 (0.8x 慢速)**：
+- [x] **語音播放速度控制 (0.8x 慢速)**：
   - 新增播放速度選項（0.8x / 1x），讓小孩跟著慢速唸。
-  - 技術方案：使用 HTML5 Audio `playbackRate` 屬性控制播放速度，Karaoke 逐字高亮時間軸需同步調整（`currentTime * 1000 / playbackRate` 或依比例縮放 timestamps）。
-  - 需修改 `detail.html` 的 `playKaraokeAudio()` 與 `habitat-detail.html` 的 `playHabitatKaraokeAudio()` 兩處邏輯。
+  - 技術方案：使用 HTML5 Audio `playbackRate` 屬性控制播放速度，Karaoke 逐字高亮時間軸自動同步（`currentTime` 反映減速後位置）。
+  - 修改 `detail.html` 的 `playKaraokeAudio()` 與 `habitat-detail.html` 的 `playHabitatKaraokeAudio()` 兩處邏輯。
 - [ ] **三語對照模式**：實作卡片同時顯示中英西三語名稱的渲染模式。
 - [ ] **Badge 獎勵系統**：邏輯實作（目前僅有 UI 頁面殼）。
 - [ ] **設定頁面完整化**：語言偏好、三語模式開關、資料匯出/匯入。
