@@ -401,12 +401,20 @@
     // ========================================
     // Format: POKOPIA:<base64url(json)>
     // JSON: { v:1, c:[collected_ids], l:lang, t:trilingual_bool }
+    //
+    // Forward compatibility rule:
+    //   - ENCODER always writes the CURRENT_VERSION
+    //   - DECODER accepts v <= CURRENT_VERSION and migrates old payloads
+    //   - When adding new fields, increment CURRENT_VERSION and add a migration
+    //   - Old codes (lower v) must always be importable
+
+    const PROGRESS_CODE_CURRENT_VERSION = 1;
 
     function encodeProgress() {
       const collected = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
       const lang = localStorage.getItem('pokopia-lang') || 'en';
       const trilingual = localStorage.getItem('pokopia-trilingual') === 'true';
-      const payload = { v: 1, c: collected, l: lang, t: trilingual };
+      const payload = { v: PROGRESS_CODE_CURRENT_VERSION, c: collected, l: lang, t: trilingual };
       const json = JSON.stringify(payload);
       // base64url encoding (URL-safe, no padding)
       const base64 = btoa(unescape(encodeURIComponent(json)));
@@ -421,7 +429,15 @@
         while (base64.length % 4) base64 += '=';
         const json = decodeURIComponent(escape(atob(base64)));
         const payload = JSON.parse(json);
-        if (payload.v !== 1 || !Array.isArray(payload.c)) return null;
+        if (!payload.v || !Array.isArray(payload.c)) return null;
+        // Forward compatibility: accept v <= CURRENT_VERSION
+        if (payload.v > PROGRESS_CODE_CURRENT_VERSION) {
+          // Code from a newer version — still import what we can
+          // but warn the user some fields may be ignored
+        }
+        // Migrate old versions to current structure
+        // v1 → v1 (no migration needed yet)
+        // When v2 is introduced, add: if (payload.v < 2) { ... migrate ... }
         return payload;
       } catch (e) {
         return null;
