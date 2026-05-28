@@ -79,6 +79,10 @@
       <span class="tab-bar__icon">🏝️</span>
       <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
     </a>
+    <a class="tab-bar__item" data-tab="quiz" href="quiz.html">
+      <span class="tab-bar__icon">🎮</span>
+      <span class="tab-bar__label" data-i18n="tab_quiz">猜謎挑戰</span>
+    </a>
     <a class="tab-bar__item" data-tab="badges" href="badges.html">
       <span class="tab-bar__icon">🏅</span>
       <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
@@ -88,7 +92,7 @@
       <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
     </a>
   </nav>
-
+  
   <script src="app.js"></script>
   <script>
     // --- Type configuration (18 types) ---
@@ -150,7 +154,7 @@
         allPokemon = await POKOPIA_DEX.loadData();
       } catch (e) {
         console.error('Failed to load pokemon data:', e);
-        document.getElementById('loadingState').textContent = '❌ 載入失敗，點擊重試';
+        document.getElementById('loadingState').textContent = '❌ 載入失敗,點擊重試';
         document.getElementById('loadingState').style.cursor = 'pointer';
         document.getElementById('loadingState').onclick = () => location.reload();
         return;

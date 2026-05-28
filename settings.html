@@ -63,6 +63,30 @@
       </div>
     </section>
 
+    <!-- Progress Code Sync -->
+    <section class="settings-section">
+      <h2 class="settings-section__title" data-i18n="settings_sync">🔗 進度碼同步</h2>
+      <p class="settings-sync-hint" data-i18n="settings_sync_hint">用進度碼在不同裝置間同步收集進度</p>
+
+      <div class="settings-action-row" id="generateCodeBtn">
+        <div class="settings-action-row__icon">📤</div>
+        <div class="settings-action-row__text">
+          <div class="settings-action-row__label" data-i18n="settings_generate_code">產生進度碼</div>
+          <div class="settings-action-row__hint" data-i18n="settings_generate_code_hint">產生 QR Code 與文字碼</div>
+        </div>
+        <span class="settings-action-row__arrow">›</span>
+      </div>
+
+      <div class="settings-action-row" id="importCodeBtn">
+        <div class="settings-action-row__icon">📥</div>
+        <div class="settings-action-row__text">
+          <div class="settings-action-row__label" data-i18n="settings_import_code">匯入進度碼</div>
+          <div class="settings-action-row__hint" data-i18n="settings_import_code_hint">貼上進度碼還原收集進度</div>
+        </div>
+        <span class="settings-action-row__arrow">›</span>
+      </div>
+    </section>
+
     <!-- Data Management -->
     <section class="settings-section">
       <h2 class="settings-section__title" data-i18n="settings_data">💾 資料管理</h2>
@@ -132,6 +156,47 @@
 
   </div>
 
+  <!-- Generate Code Modal -->
+  <div class="settings-modal" id="generateCodeModal">
+    <div class="settings-modal__overlay"></div>
+    <div class="settings-modal__content settings-modal__content--wide">
+      <div class="settings-modal__icon">🔗</div>
+      <h3 class="settings-modal__title" data-i18n="settings_code_title">你的進度碼</h3>
+      <p class="settings-modal__desc" data-i18n="settings_code_desc">掃描 QR Code 或複製進度碼到其他裝置</p>
+
+      <div class="sync-qr-wrap" id="qrCodeWrap">
+      </div>
+
+      <div class="sync-code-wrap">
+        <textarea class="sync-code-textarea" id="progressCodeText" readonly rows="3"></textarea>
+        <button class="sync-copy-btn" id="copyCodeBtn" data-i18n="settings_copy_code">📋 複製</button>
+      </div>
+
+      <div class="settings-modal__actions">
+        <button class="settings-modal__btn settings-modal__btn--cancel" id="generateCodeCloseBtn" data-i18n="settings_close">關閉</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Import Code Modal -->
+  <div class="settings-modal" id="importCodeModal">
+    <div class="settings-modal__overlay"></div>
+    <div class="settings-modal__content settings-modal__content--wide">
+      <div class="settings-modal__icon">📥</div>
+      <h3 class="settings-modal__title" data-i18n="settings_import_code_title">匯入進度碼</h3>
+      <p class="settings-modal__desc" data-i18n="settings_import_code_desc">貼上從其他裝置複製的進度碼</p>
+
+      <div class="sync-code-wrap">
+        <textarea class="sync-code-textarea" id="importCodeInput" placeholder="POKOPIA:..." rows="3"></textarea>
+      </div>
+
+      <div class="settings-modal__actions">
+        <button class="settings-modal__btn settings-modal__btn--cancel" id="importCodeCancelBtn" data-i18n="settings_cancel">取消</button>
+        <button class="settings-modal__btn settings-modal__btn--primary" id="importCodeConfirmBtn" data-i18n="settings_import_confirm">匯入</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Clear Data Confirmation Modal -->
   <div class="settings-modal" id="clearModal">
     <div class="settings-modal__overlay"></div>
@@ -146,7 +211,7 @@
     </div>
   </div>
 
-  <!-- Import Success Toast -->
+  <!-- Toasts -->
   <div class="settings-toast" id="importToast">
     <span class="settings-toast__icon">✅</span>
     <span class="settings-toast__text" data-i18n="settings_import_success">匯入成功！</span>
@@ -155,6 +220,11 @@
   <div class="settings-toast" id="exportToast">
     <span class="settings-toast__icon">✅</span>
     <span class="settings-toast__text" data-i18n="settings_export_success">匯出成功！</span>
+  </div>
+
+  <div class="settings-toast" id="syncToast">
+    <span class="settings-toast__icon">✅</span>
+    <span class="settings-toast__text" id="syncToastText">已複製！</span>
   </div>
 
   <!-- Bottom Tab Bar -->
@@ -177,6 +247,9 @@
     </a>
   </nav>
 
+  <!-- QR Code library (lightweight, no dependencies) -->
+  <script src="scripts/qrcode.min.js"></script>
+
   <script src="app.js"></script>
   <script>
     const I18N = {
@@ -186,6 +259,22 @@
         settings_trilingual: '📚 三語顯示模式',
         settings_trilingual_desc: '同時顯示三語名稱',
         settings_trilingual_hint: '在卡片上同時顯示中、英、西名稱',
+        settings_sync: '🔗 進度碼同步',
+        settings_sync_hint: '用進度碼在不同裝置間同步收集進度',
+        settings_generate_code: '產生進度碼',
+        settings_generate_code_hint: '產生 QR Code 與文字碼',
+        settings_import_code: '匯入進度碼',
+        settings_import_code_hint: '貼上進度碼還原收集進度',
+        settings_code_title: '你的進度碼',
+        settings_code_desc: '掃描 QR Code 或複製進度碼到其他裝置',
+        settings_copy_code: '📋 複製',
+        settings_import_code_title: '匯入進度碼',
+        settings_import_code_desc: '貼上從其他裝置複製的進度碼',
+        settings_import_confirm: '匯入',
+        settings_close: '關閉',
+        settings_copied: '已複製！',
+        settings_sync_success: '同步成功！已收集 {count} 隻',
+        settings_invalid_code: '無效的進度碼',
         settings_data: '💾 資料管理',
         settings_export: '匯出收集進度',
         settings_export_hint: '下載 JSON 檔案備份',
@@ -217,6 +306,22 @@
         settings_trilingual: '📚 Trilingual Mode',
         settings_trilingual_desc: 'Show all three languages',
         settings_trilingual_hint: 'Display Chinese, English & Spanish names on cards',
+        settings_sync: '🔗 Sync Progress Code',
+        settings_sync_hint: 'Use a progress code to sync across devices',
+        settings_generate_code: 'Generate Code',
+        settings_generate_code_hint: 'Generate QR Code & text code',
+        settings_import_code: 'Import Code',
+        settings_import_code_hint: 'Paste a progress code to restore',
+        settings_code_title: 'Your Progress Code',
+        settings_code_desc: 'Scan QR Code or copy code to another device',
+        settings_copy_code: '📋 Copy',
+        settings_import_code_title: 'Import Progress Code',
+        settings_import_code_desc: 'Paste the code from another device',
+        settings_import_confirm: 'Import',
+        settings_close: 'Close',
+        settings_copied: 'Copied!',
+        settings_sync_success: 'Synced! Collected {count} Pokémon',
+        settings_invalid_code: 'Invalid progress code',
         settings_data: '💾 Data Management',
         settings_export: 'Export Collection',
         settings_export_hint: 'Download JSON backup file',
@@ -248,6 +353,22 @@
         settings_trilingual: '📚 Modo trilingüe',
         settings_trilingual_desc: 'Mostrar los tres idiomas',
         settings_trilingual_hint: 'Mostrar nombres en chino, inglés y español en las tarjetas',
+        settings_sync: '🔗 Sincronizar código',
+        settings_sync_hint: 'Usa un código para sincronizar entre dispositivos',
+        settings_generate_code: 'Generar código',
+        settings_generate_code_hint: 'Generar código QR y texto',
+        settings_import_code: 'Importar código',
+        settings_import_code_hint: 'Pega un código para restaurar el progreso',
+        settings_code_title: 'Tu código de progreso',
+        settings_code_desc: 'Escanea el código QR o copia el código a otro dispositivo',
+        settings_copy_code: '📋 Copiar',
+        settings_import_code_title: 'Importar código de progreso',
+        settings_import_code_desc: 'Pega el código desde otro dispositivo',
+        settings_import_confirm: 'Importar',
+        settings_close: 'Cerrar',
+        settings_copied: '¡Copiado!',
+        settings_sync_success: '¡Sincronizado! {count} Pokémon coleccionados',
+        settings_invalid_code: 'Código de progreso inválido',
         settings_data: '💾 Gestión de datos',
         settings_export: 'Exportar colección',
         settings_export_hint: 'Descargar archivo JSON de respaldo',
@@ -275,6 +396,38 @@
       }
     };
 
+    // ========================================
+    // Progress Code: Encode / Decode
+    // ========================================
+    // Format: POKOPIA:<base64url(json)>
+    // JSON: { v:1, c:[collected_ids], l:lang, t:trilingual_bool }
+
+    function encodeProgress() {
+      const collected = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
+      const lang = localStorage.getItem('pokopia-lang') || 'en';
+      const trilingual = localStorage.getItem('pokopia-trilingual') === 'true';
+      const payload = { v: 1, c: collected, l: lang, t: trilingual };
+      const json = JSON.stringify(payload);
+      // base64url encoding (URL-safe, no padding)
+      const base64 = btoa(unescape(encodeURIComponent(json)));
+      return 'POKOPIA:' + base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    }
+
+    function decodeProgress(code) {
+      try {
+        if (!code.startsWith('POKOPIA:')) return null;
+        let base64 = code.slice(8).replace(/-/g, '+').replace(/_/g, '/');
+        // Restore padding
+        while (base64.length % 4) base64 += '=';
+        const json = decodeURIComponent(escape(atob(base64)));
+        const payload = JSON.parse(json);
+        if (payload.v !== 1 || !Array.isArray(payload.c)) return null;
+        return payload;
+      } catch (e) {
+        return null;
+      }
+    }
+
     function applyI18N() {
       const lang = POKOPIA_DEX.getLang();
       const strings = I18N[lang] || I18N.en;
@@ -282,7 +435,6 @@
         const key = el.dataset.i18n;
         if (strings[key]) el.textContent = strings[key];
       });
-      // Update page title
       document.title = (strings.settings_title || 'Settings') + ' | Pokopia';
     }
 
@@ -296,7 +448,6 @@
       trilingualToggle.checked = localStorage.getItem('pokopia-trilingual') === 'true';
       trilingualToggle.addEventListener('change', () => {
         localStorage.setItem('pokopia-trilingual', trilingualToggle.checked);
-        // Dispatch event so other pages can react
         document.dispatchEvent(new CustomEvent('trilingualchange', { detail: { enabled: trilingualToggle.checked } }));
       });
 
@@ -315,6 +466,114 @@
       // Update counts
       updateCounts();
 
+      // ---- Generate Progress Code ----
+      document.getElementById('generateCodeBtn').addEventListener('click', () => {
+        const code = encodeProgress();
+        document.getElementById('progressCodeText').value = code;
+
+        // Generate QR Code
+        const wrap = document.getElementById('qrCodeWrap');
+        wrap.innerHTML = '';
+        try {
+          if (typeof QRCode !== 'undefined') {
+            new QRCode(wrap, {
+              text: code,
+              width: 200,
+              height: 200,
+              colorDark: '#333333',
+              colorLight: '#FFFFFF',
+              correctLevel: QRCode.CorrectLevel.M
+            });
+            // Style the generated img/canvas
+            setTimeout(() => {
+              const img = wrap.querySelector('img');
+              if (img) img.style.borderRadius = '8px';
+              const cv = wrap.querySelector('canvas');
+              if (cv) cv.style.borderRadius = '8px';
+            }, 50);
+          }
+        } catch (e) {
+          console.warn('QR Code generation failed:', e);
+        }
+
+        document.getElementById('generateCodeModal').classList.add('open');
+      });
+
+      document.getElementById('generateCodeCloseBtn').addEventListener('click', () => {
+        document.getElementById('generateCodeModal').classList.remove('open');
+      });
+      document.querySelector('#generateCodeModal .settings-modal__overlay').addEventListener('click', () => {
+        document.getElementById('generateCodeModal').classList.remove('open');
+      });
+
+      // Copy code
+      document.getElementById('copyCodeBtn').addEventListener('click', () => {
+        const textarea = document.getElementById('progressCodeText');
+        textarea.select();
+        navigator.clipboard.writeText(textarea.value).then(() => {
+          const lang = POKOPIA_DEX.getLang();
+          const strings = I18N[lang] || I18N.en;
+          const toast = document.getElementById('syncToast');
+          document.getElementById('syncToastText').textContent = strings.settings_copied;
+          showToastById('syncToast');
+        }).catch(() => {
+          // Fallback for older browsers
+          document.execCommand('copy');
+          const lang = POKOPIA_DEX.getLang();
+          const strings = I18N[lang] || I18N.en;
+          document.getElementById('syncToastText').textContent = strings.settings_copied;
+          showToastById('syncToast');
+        });
+      });
+
+      // ---- Import Progress Code ----
+      document.getElementById('importCodeBtn').addEventListener('click', () => {
+        document.getElementById('importCodeInput').value = '';
+        document.getElementById('importCodeModal').classList.add('open');
+      });
+
+      document.getElementById('importCodeCancelBtn').addEventListener('click', () => {
+        document.getElementById('importCodeModal').classList.remove('open');
+      });
+      document.querySelector('#importCodeModal .settings-modal__overlay').addEventListener('click', () => {
+        document.getElementById('importCodeModal').classList.remove('open');
+      });
+
+      document.getElementById('importCodeConfirmBtn').addEventListener('click', () => {
+        const code = document.getElementById('importCodeInput').value.trim();
+        const payload = decodeProgress(code);
+        if (!payload) {
+          const lang = POKOPIA_DEX.getLang();
+          const strings = I18N[lang] || I18N.en;
+          alert(strings.settings_invalid_code);
+          return;
+        }
+
+        // Merge or replace collected list
+        const current = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
+        const merged = [...new Set([...current, ...payload.c])];
+        localStorage.setItem('pokopia-collected', JSON.stringify(merged));
+
+        if (payload.l) {
+          localStorage.setItem('pokopia-lang', payload.l);
+          POKOPIA_DEX.setLang(payload.l);
+        }
+        if (typeof payload.t === 'boolean') {
+          localStorage.setItem('pokopia-trilingual', payload.t);
+          document.getElementById('trilingualToggle').checked = payload.t;
+        }
+
+        updateCounts();
+        updateActiveLangBtn();
+        applyI18N();
+        document.getElementById('importCodeModal').classList.remove('open');
+
+        const lang = POKOPIA_DEX.getLang();
+        const strings = I18N[lang] || I18N.en;
+        document.getElementById('syncToastText').textContent = strings.settings_sync_success.replace('{count}', merged.length);
+        showToastById('syncToast');
+      });
+
       // Export
       document.getElementById('exportBtn').addEventListener('click', exportData);
       // Import
@@ -331,7 +590,7 @@
         document.getElementById('clearModal').classList.remove('open');
       });
       document.getElementById('clearConfirmBtn').addEventListener('click', clearAllData);
-      document.querySelector('.settings-modal__overlay').addEventListener('click', () => {
+      document.querySelector('#clearModal .settings-modal__overlay').addEventListener('click', () => {
         document.getElementById('clearModal').classList.remove('open');
       });
 
@@ -433,6 +692,12 @@
     }
 
     function showToast(toastId) {
+      const toast = document.getElementById(toastId);
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    function showToastById(toastId) {
       const toast = document.getElementById(toastId);
       toast.classList.add('show');
       setTimeout(() => toast.classList.remove('show'), 2500);
