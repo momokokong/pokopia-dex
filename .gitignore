@@ -4,5 +4,12 @@ tmp/
 .DS_Store
 test-*.png
 venv/
-dev/
 cloudflared
+coverage/
+test-results/
+playwright-report/
+dist/
+*.pid
+*.bak
+# dev/ tracking (keep PRD and tickets, ignore temp files)
+!dev/*.md
