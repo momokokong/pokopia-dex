@@ -120,6 +120,22 @@ MIT
 
 ---
 
+## 📄 專案檔案索引
+
+| 項目 | 路徑 |
+|------|------|
+| PRD | `notes/ideas/pokopia-pokedex-prd.md` |
+| TODO | `pokopia-dex/dev/TODO.md` |
+| SESSION_CONTEXT | `pokopia-dex/dev/SESSION_CONTEXT.md` |
+| 寶可夢資料 | `pokopia-dex/data/pokemon.json` |
+| 棲息地資料 | `pokopia-dex/data/habitat-data.json` |
+| 測試報告 | `pokopia-dex/dev/TEST-REPORT.md` |
+| 主要頁面 | `index.html`, `detail.html`, `habitats.html`, `habitat-detail.html`, `badges.html`, `settings.html` |
+| 主要樣式 | `styles.css` |
+| TTS 音檔 | `output/karaoke/{id}/{lang}/`, `output/habitat_karaoke/{id}/{lang}/` |
+
+---
+
 <p align="center">
   Made with 🦐 by 愛蝦 (Ai-Shia)
 </p>

@@ -1,5 +1,5 @@
 /* PokopiaDex Service Worker — Offline-first PWA */
-const CACHE_NAME = 'pokopia-dex-v1';
+const CACHE_NAME = 'pokopia-dex-v2';
 const DATA_CACHE = 'pokopia-data-v1';
 const IMG_CACHE = 'pokopia-images-v1';
 
@@ -132,18 +132,16 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // App shell — stale-while-revalidate
+  // App shell (html/css) — network-first so CSS/HTML updates always apply
   event.respondWith(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.match(event.request).then((cached) => {
-        const fetched = fetch(event.request).then((response) => {
-          if (response.ok) {
-            cache.put(event.request, response.clone());
-          }
-          return response;
-        }).catch(() => cached);
-        return cached || fetched;
-      });
+    fetch(event.request).then((response) => {
+      if (response.ok) {
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+      }
+      return response;
+    }).catch(() => {
+      return caches.match(event.request);
     })
   );
 });

@@ -706,12 +706,16 @@ body {
   font-size: 32px;
   font-weight: 700;
   text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .detail-hero__name-sub {
   font-size: 17px;
   opacity: 0.85;
   margin-top: 2px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .detail-hero__voice-row {
@@ -884,6 +888,8 @@ body {
   font-size: 20px;
   line-height: 1.7;
   color: var(--text-primary);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* Where to Find - Biome Cards */
@@ -937,6 +943,9 @@ body {
   margin-top: 8px;
   font-size: 15px;
   color: var(--text-secondary);
+  flex-wrap: wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .biome-card__zone {
