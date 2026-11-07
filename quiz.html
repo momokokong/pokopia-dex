@@ -1,248 +1,436 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Pokopia 猜謎挑戰 - 學習三語</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            background-color: #fdf6e3;
-            font-family: 'Klee One', 'Comic Sans MS', cursive, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            overflow: hidden;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Pokopia 猜謎挑戰 | Quiz Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF8C42">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <style>
+    .quiz-page {
+      padding: 12px 16px 96px;
+      max-width: 680px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
 
-        header {
-            background: #ffcb05;
-            color: #3c5aa1;
-            padding: 15px;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            box-shadow: 0 4px 0 #bd9803;
-            border-bottom: 4px solid #3c5aa1;
-        }
+    /* Mode Selector Bar */
+    .quiz-modes {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 4px 2px 8px;
+      scrollbar-width: none;
+    }
+    .quiz-modes::-webkit-scrollbar {
+      display: none;
+    }
+    .mode-filter-btn {
+      flex: 0 0 auto;
+      background: var(--bg-card, #ffffff);
+      border: 2px solid var(--border-color, #e5e0d8);
+      border-radius: 999px;
+      padding: 7px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-secondary, #6b5e54);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .mode-filter-btn.active {
+      background: var(--primary, #FF8C42);
+      border-color: var(--primary, #FF8C42);
+      color: #ffffff;
+      box-shadow: 0 3px 10px rgba(255, 140, 66, 0.35);
+    }
 
-        #quiz-container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            gap: 20px;
-            position: relative;
-        }
+    /* Language Pair Bar */
+    .quiz-lang-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--bg-card, #ffffff);
+      border-radius: 16px;
+      padding: 8px 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      font-size: 13px;
+    }
+    .quiz-lang-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+      color: var(--text-primary, #3d3028);
+    }
+    .quiz-lang-select {
+      border: 1.5px solid var(--border-color, #e0d6cc);
+      border-radius: 10px;
+      padding: 4px 8px;
+      font-size: 13px;
+      font-weight: 600;
+      background: #fff9f2;
+      color: var(--text-primary, #3d3028);
+    }
 
-        .score-board {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: white;
-            border: 3px solid #3c5aa1;
-            border-radius: 15px;
-            padding: 5px 15px;
-            font-size: 20px;
-            font-weight: bold;
-            color: #3c5aa1;
-        }
+    /* Status Header: Progress, Combo, Score */
+    .quiz-status-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      background: var(--bg-card, #ffffff);
+      border-radius: 18px;
+      padding: 10px 16px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    }
+    .quiz-progress-pill {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-primary, #3d3028);
+      background: #f5efe6;
+      padding: 5px 12px;
+      border-radius: 999px;
+    }
+    .combo-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      color: #d84315;
+      background: #ffe0b2;
+      padding: 5px 12px;
+      border-radius: 999px;
+      transition: transform 0.25s ease, opacity 0.25s ease;
+    }
+    .combo-badge.combo-hot {
+      background: linear-gradient(135deg, #ff7043, #ffca28);
+      color: #fff;
+      transform: scale(1.06);
+      box-shadow: 0 3px 10px rgba(255, 87, 34, 0.35);
+    }
+    .score-board {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--primary, #FF8C42);
+      background: #fff3e6;
+      padding: 5px 14px;
+      border-radius: 999px;
+    }
 
-        .question-box {
-            background: white;
-            border: 6px solid #3c5aa1;
-            border-radius: 30px;
-            padding: 20px;
-            width: 90%;
-            max-width: 500px;
-            text-align: center;
-            box-shadow: 0 8px 0 #b3d1ff;
-            transition: transform 0.2s;
-        }
+    /* Main Question Card */
+    #quiz-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .question-box {
+      background: var(--bg-card, #ffffff);
+      border: 3px solid #ffe0b2;
+      border-radius: 24px;
+      padding: 20px 18px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+      position: relative;
+    }
+    .question-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .question-text {
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--text-primary, #3d3028);
+      line-height: 1.4;
+    }
+    .audio-play-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: #fff3e6;
+      border: 2px solid var(--primary, #FF8C42);
+      color: var(--primary, #FF8C42);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.15s ease;
+      flex-shrink: 0;
+    }
+    .audio-play-btn:hover {
+      background: var(--primary, #FF8C42);
+      color: #fff;
+    }
+    .audio-play-btn:active {
+      transform: scale(0.95);
+    }
+    .audio-hero-btn {
+      padding: 18px 28px;
+      font-size: 18px;
+      margin: 12px auto;
+      background: linear-gradient(135deg, #FF8C42, #FFB347);
+      color: #ffffff;
+      border: none;
+      box-shadow: 0 6px 16px rgba(255, 140, 66, 0.35);
+    }
+    .audio-hero-btn:hover {
+      background: linear-gradient(135deg, #f57c2c, #ffa726);
+      color: #ffffff;
+    }
 
-        .question-text {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            color: #333;
-        }
+    .question-image {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      margin: 4px auto;
+      display: block;
+      filter: drop-shadow(0 6px 12px rgba(0,0,0,0.12));
+    }
 
-        .question-image {
-            width: 180px;
-            height: 180px;
-            object-fit: contain;
-            margin-bottom: 10px;
-            border-radius: 15px;
-        }
+    /* Options Grid */
+    .options-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .options-grid.options-grid--images {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .option-btn {
+      background: var(--bg-card, #ffffff);
+      border: 2.5px solid #e6dfd5;
+      border-radius: 18px;
+      padding: 14px 16px;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-primary, #3d3028);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      box-shadow: 0 4px 0 #e6dfd5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-align: center;
+      line-height: 1.35;
+      min-height: 58px;
+    }
+    .option-btn:hover:not(:disabled) {
+      border-color: var(--primary, #FF8C42);
+      background: #fffdf9;
+    }
+    .option-btn:active:not(:disabled) {
+      transform: translateY(2px);
+      box-shadow: 0 2px 0 #e6dfd5;
+    }
+    .option-btn.correct {
+      background: #e8f5e9;
+      border-color: #4caf50;
+      color: #2e7d32;
+      box-shadow: 0 4px 0 #81c784;
+    }
+    .option-btn.wrong {
+      background: #ffebee;
+      border-color: #ef5350;
+      color: #c62828;
+      box-shadow: 0 4px 0 #e57373;
+    }
+    .option-btn img {
+      width: 76px;
+      height: 76px;
+      object-fit: contain;
+    }
 
-        .options-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 15px;
-            width: 90%;
-            max-width: 500px;
-        }
+    /* Feedback Modal Overlay */
+    .feedback-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.52);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 16px;
+    }
+    .feedback-card {
+      background: #ffffff;
+      border: 4px solid var(--primary, #FF8C42);
+      border-radius: 28px;
+      padding: 24px 20px;
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+    }
+    .feedback-emoji {
+      font-size: 52px;
+      margin-bottom: 8px;
+    }
+    .feedback-text {
+      font-size: 21px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--text-primary, #3d3028);
+    }
+    .feedback-detail {
+      margin-bottom: 16px;
+      font-size: 15px;
+      color: var(--text-secondary, #6b5e54);
+      line-height: 1.5;
+    }
+    .feedback-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .next-btn {
+      background: var(--primary, #FF8C42);
+      color: #ffffff;
+      border: none;
+      border-radius: 999px;
+      padding: 12px 28px;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(255, 140, 66, 0.35);
+    }
+    .next-btn:active {
+      transform: translateY(2px);
+    }
 
-        .option-btn {
-            background: white;
-            border: 4px solid #3c5aa1;
-            border-radius: 20px;
-            padding: 15px;
-            font-size: 22px;
-            font-weight: bold;
-            color: #3c5aa1;
-            cursor: pointer;
-            transition: all 0.1s;
-            box-shadow: 0 6px 0 #b3d1ff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .option-btn:active {
-            transform: translateY(4px);
-            box-shadow: 0 2px 0 #b3d1ff;
-        }
-
-        .option-btn.correct {
-            background: #c8e6c9;
-            border-color: #4caf50;
-            color: #2e7d32;
-            box-shadow: 0 6px 0 #81c784;
-        }
-
-        .option-btn.wrong {
-            background: #ffcdd2;
-            border-color: #f44336;
-            color: #c62828;
-            box-shadow: 0 6px 0 #e57373;
-        }
-
-        .feedback-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 100;
-            animation: fadeIn 0.3s;
-        }
-
-        .feedback-card {
-            background: white;
-            border: 6px solid #ffcb05;
-            border-radius: 30px;
-            padding: 30px;
-            text-align: center;
-            max-width: 80%;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-        }
-
-        .feedback-emoji {
-            font-size: 60px;
-            margin-bottom: 10px;
-        }
-
-        .feedback-text {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .next-btn {
-            background: #3c5aa1;
-            color: white;
-            border: none;
-            border-radius: 15px;
-            padding: 12px 30px;
-            font-size: 20px;
-            font-weight: bold;
-            cursor: pointer;
-            box-shadow: 0 4px 0 #2a3f8a;
-        }
-
-        .next-btn:active {
-            transform: translateY(2px);
-            box-shadow: 0 2px 0 #2a3f8a;
-        }
-
-        .nav-bar {
-            background: #fff;
-            border-top: 4px solid #3c5aa1;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .back-btn {
-            background: #eee;
-            border: 2px solid #ccc;
-            border-radius: 10px;
-            padding: 5px 15px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        /* Animations for Correct/Wrong */
-        .pop {
-            animation: pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        @keyframes pop {
-            0% { transform: scale(0.8); }
-            100% { transform: scale(1); }
-        }
-    </style>
+    .pop {
+      animation: pop 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    @keyframes pop {
+      0% { transform: scale(0.85); opacity: 0.5; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  </style>
 </head>
 <body>
 
-    <header>Pokopia 猜謎挑戰 🦐</header>
+  <!-- Standard Pokopia Top Nav -->
+  <nav class="top-nav">
+    <div class="top-nav__left">
+      <span class="top-nav__title" id="quizPageTitle" data-i18n="quiz_title">🎮 猜謎挑戰</span>
+    </div>
+    <div class="top-nav__right">
+      <button class="lang-btn" data-lang="zh" aria-label="中文">🇹🇼</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
+      <button class="lang-btn" data-lang="es" aria-label="Español">🇪🇸</button>
+    </div>
+  </nav>
 
+  <main class="quiz-page">
+    <!-- Mode Selector Bar -->
+    <div class="quiz-modes" id="quizModesBar" role="tablist" aria-label="Quiz Modes">
+      <button class="mode-filter-btn active" data-mode="ALL" data-i18n="mode_all">🎲 全部隨機</button>
+      <button class="mode-filter-btn" data-mode="A" data-i18n="mode_a">🖼️ 看圖猜名</button>
+      <button class="mode-filter-btn" data-mode="B" data-i18n="mode_b">📖 看圖猜敘述</button>
+      <button class="mode-filter-btn" data-mode="C" data-i18n="mode_c">🔍 看名猜圖</button>
+      <button class="mode-filter-btn" data-mode="D" data-i18n="mode_d">💬 看敘述猜名</button>
+      <button class="mode-filter-btn" data-mode="E" data-i18n="mode_e">🔊 聽音辨怪</button>
+    </div>
+
+    <!-- Language Filter Controls -->
+    <div class="quiz-lang-bar">
+      <div class="quiz-lang-group">
+        <label for="questionLangSelect" data-i18n="label_q_lang">題目語言：</label>
+        <select id="questionLangSelect" class="quiz-lang-select">
+          <option value="random" data-i18n="lang_random">🎲 隨機</option>
+          <option value="zh">🇹🇼 中文</option>
+          <option value="en">🇺🇸 English</option>
+          <option value="es">🇪🇸 Español</option>
+        </select>
+      </div>
+      <div class="quiz-lang-group">
+        <label for="optionsLangSelect" data-i18n="label_opt_lang">選項語言：</label>
+        <select id="optionsLangSelect" class="quiz-lang-select">
+          <option value="random" data-i18n="lang_random">🎲 隨機</option>
+          <option value="zh">🇹🇼 中文</option>
+          <option value="en">🇺🇸 English</option>
+          <option value="es">🇪🇸 Español</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Status Bar: Progress, Combo, Score -->
+    <div class="quiz-status-bar">
+      <div id="progress-text" class="quiz-progress-pill">第 1 / 10 題</div>
+      <div id="combo-badge" class="combo-badge">🔥 Combo x<span id="combo-count">0</span></div>
+      <div class="score-board"><span data-i18n="score_label">Score</span>: <span id="current-score">0</span></div>
+    </div>
+
+    <!-- Quiz Question & Options Container -->
     <div id="quiz-container">
-        <div class="score-board">Score: <span id="current-score">0</span></div>
-        
-        <div class="question-box" id="question-box">
-            <div class="question-text" id="question-text">準備好了嗎？</div>
-            <div id="question-visual">
-                <!-- Image or Text will go here -->
-            </div>
+      <div class="question-box" id="question-box">
+        <div class="question-header-row">
+          <div class="question-text" id="question-text">準備好了嗎？</div>
+          <button type="button" class="audio-play-btn" id="question-audio-btn" title="播放發音" aria-label="播放發音">
+            🔊 <span data-i18n="btn_speak">發音</span>
+          </button>
         </div>
+        <div id="question-visual"></div>
+      </div>
 
-        <div class="options-grid" id="options-grid">
-            <!-- Options will be generated here -->
-        </div>
+      <div class="options-grid" id="options-grid"></div>
     </div>
+  </main>
 
-    <div class="nav-bar">
-        <button class="back-btn" onclick="window.location.href='index.html'">⬅️ 回到主頁</button>
-        <div id="progress-text" style="font-weight: bold; color: #3c5aa1;">第 1 / 10 題</div>
+  <!-- Feedback & Summary Modal -->
+  <div class="feedback-overlay" id="feedback-overlay">
+    <div class="feedback-card pop">
+      <div class="feedback-emoji" id="feedback-emoji">✨</div>
+      <div class="feedback-text" id="feedback-text">太棒了！</div>
+      <div class="feedback-detail" id="correct-answer-display"></div>
+      <div class="feedback-actions">
+        <button type="button" class="audio-play-btn" id="feedback-audio-btn">
+          🔊 <span data-i18n="btn_speak_answer">聽發音</span>
+        </button>
+        <button type="button" class="next-btn" id="next-btn">下一題 ➔</button>
+      </div>
     </div>
+  </div>
 
-    <div class="feedback-overlay" id="feedback-overlay">
-        <div class="feedback-card pop">
-            <div class="feedback-emoji" id="feedback-emoji">✨</div>
-            <div class="feedback-text" id="feedback-text">太棒了！</div>
-            <div id="correct-answer-display" style="margin-bottom: 20px; font-size: 20px; color: #666;"></div>
-            <button class="next-btn" id="next-btn">下一題 ➔</button>
-        </div>
-    </div>
+  <!-- Standard Bottom 5-Item Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-bar__item" data-tab="dex" href="index.html">
+      <span class="tab-bar__icon">📖</span>
+      <span class="tab-bar__label" data-i18n="tab_dex">圖鑑</span>
+    </a>
+    <a class="tab-bar__item" data-tab="habitats" href="habitats.html">
+      <span class="tab-bar__icon">🏝️</span>
+      <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
+    </a>
+    <a class="tab-bar__item active" data-tab="quiz" href="quiz.html">
+      <span class="tab-bar__icon">🎮</span>
+      <span class="tab-bar__label" data-i18n="tab_quiz">猜謎挑戰</span>
+    </a>
+    <a class="tab-bar__item" data-tab="badges" href="badges.html">
+      <span class="tab-bar__icon">🏅</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">徽章</span>
+    </a>
+    <a class="tab-bar__item" data-tab="settings" href="settings.html">
+      <span class="tab-bar__icon">⚙️</span>
+      <span class="tab-bar__label" data-i18n="tab_settings">設定</span>
+    </a>
+  </nav>
 
-    <script src="data/pokemon.json"></script>
-    <script src="scripts/quiz.js"></script>
+  <script src="app.js"></script>
+  <script src="js/quiz-engine.js"></script>
+  <script src="scripts/quiz.js"></script>
 </body>
 </html>

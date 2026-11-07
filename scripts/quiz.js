@@ -1,243 +1,512 @@
 /**
- * Pokopia Quiz Mode Logic
- * 實作四種玩法 (A/B/C/D) 與三語隨機學習
+ * Pokopia Quiz UI Controller (scripts/quiz.js)
+ * Connects quiz.html DOM to js/quiz-engine.js (POKOPIA_QUIZ_ENGINE) and app.js (POKOPIA_DEX).
  */
 
+const QUIZ_I18N = {
+  zh: {
+    quiz_title: '🎮 猜謎挑戰',
+    mode_all: '🎲 全部隨機',
+    mode_a: '🖼️ 看圖猜名',
+    mode_b: '📖 看圖猜敘述',
+    mode_c: '🔍 看名猜圖',
+    mode_d: '💬 看敘述猜名',
+    mode_e: '🔊 聽音辨怪',
+    label_q_lang: '題目語言：',
+    label_opt_lang: '選項語言：',
+    lang_random: '🎲 隨機',
+    score_label: '分數',
+    btn_speak: '發音',
+    btn_speak_answer: '聽發音',
+    btn_listen_mystery: '🔊 點擊播放神祕寶可夢發音',
+    progress_fmt: (cur, total) => `第 ${cur} / ${total} 題`,
+    correct_title: '太棒了！答對了！',
+    wrong_title: '沒關係，再接再厲！',
+    correct_ans_label: '正確答案：',
+    points_earned: (pts, combo) => `+${pts} 分 (🔥 Combo x${combo})`,
+    next_btn: '下一題 ➔',
+    play_again_btn: '再玩一次 ➔',
+    game_over_title: '挑戰完成！',
+    summary_stats: (score, correct, total, accuracy, maxCombo) =>
+      `總分：<strong>${score}</strong> 分<br>答對：<strong>${correct} / ${total}</strong> (${accuracy}%)<br>最高連擊：<strong>🔥 Combo x${maxCombo}</strong>`,
+    badge_unlocked_msg: '🎓 恭喜達成「猜謎大師 (Quiz Master)」徽章條件！',
+    load_error: '資料載入失敗，請刷新頁面 🦐💦',
+    tab_dex: '圖鑑',
+    tab_habitats: '棲息地',
+    tab_quiz: '猜謎挑戰',
+    tab_badges: '徽章',
+    tab_settings: '設定'
+  },
+  en: {
+    quiz_title: '🎮 Quiz Challenge',
+    mode_all: '🎲 All Modes',
+    mode_a: '🖼️ Pic ➔ Name',
+    mode_b: '📖 Pic ➔ Desc',
+    mode_c: '🔍 Name ➔ Pic',
+    mode_d: '💬 Desc ➔ Name',
+    mode_e: '🔊 Audio ➔ Name',
+    label_q_lang: 'Prompt:',
+    label_opt_lang: 'Options:',
+    lang_random: '🎲 Random',
+    score_label: 'Score',
+    btn_speak: 'Speak',
+    btn_speak_answer: 'Pronounce',
+    btn_listen_mystery: '🔊 Play Mystery Pokémon Voice',
+    progress_fmt: (cur, total) => `Question ${cur} / ${total}`,
+    correct_title: 'Awesome! Correct!',
+    wrong_title: 'Nice try! Keep going!',
+    correct_ans_label: 'Correct Answer: ',
+    points_earned: (pts, combo) => `+${pts} pts (🔥 Combo x${combo})`,
+    next_btn: 'Next ➔',
+    play_again_btn: 'Play Again ➔',
+    game_over_title: 'Challenge Complete!',
+    summary_stats: (score, correct, total, accuracy, maxCombo) =>
+      `Total Score: <strong>${score}</strong><br>Correct: <strong>${correct} / ${total}</strong> (${accuracy}%)<br>Max Combo: <strong>🔥 Combo x${maxCombo}</strong>`,
+    badge_unlocked_msg: '🎓 Quiz Master Badge Unlocked!',
+    load_error: 'Failed to load Pokémon data. Please refresh.',
+    tab_dex: 'Pokédex',
+    tab_habitats: 'Habitats',
+    tab_quiz: 'Quiz',
+    tab_badges: 'Badges',
+    tab_settings: 'Settings'
+  },
+  es: {
+    quiz_title: '🎮 Desafío Quiz',
+    mode_all: '🎲 Todos',
+    mode_a: '🖼️ Foto ➔ Nombre',
+    mode_b: '📖 Foto ➔ Desc',
+    mode_c: '🔍 Nombre ➔ Foto',
+    mode_d: '💬 Desc ➔ Nombre',
+    mode_e: '🔊 Audio ➔ Nombre',
+    label_q_lang: 'Pregunta:',
+    label_opt_lang: 'Opciones:',
+    lang_random: '🎲 Aleatorio',
+    score_label: 'Puntos',
+    btn_speak: 'Audio',
+    btn_speak_answer: 'Escuchar',
+    btn_listen_mystery: '🔊 Escuchar voz misteriosa',
+    progress_fmt: (cur, total) => `Pregunta ${cur} / ${total}`,
+    correct_title: '¡Excelente! ¡Correcto!',
+    wrong_title: '¡Buen intento! ¡Sigue así!',
+    correct_ans_label: 'Respuesta correcta: ',
+    points_earned: (pts, combo) => `+${pts} pts (🔥 Combo x${combo})`,
+    next_btn: 'Siguiente ➔',
+    play_again_btn: 'Jugar de nuevo ➔',
+    game_over_title: '¡Desafío completado!',
+    summary_stats: (score, correct, total, accuracy, maxCombo) =>
+      `Puntaje: <strong>${score}</strong><br>Aciertos: <strong>${correct} / ${total}</strong> (${accuracy}%)<br>Combo Máx: <strong>🔥 Combo x${maxCombo}</strong>`,
+    badge_unlocked_msg: '🎓 ¡Insignia Maestro del Quiz desbloqueada!',
+    load_error: 'Error al cargar datos. Por favor recarga.',
+    tab_dex: 'Pokédex',
+    tab_habitats: 'Hábitats',
+    tab_quiz: 'Quiz',
+    tab_badges: 'Insignias',
+    tab_settings: 'Ajustes'
+  }
+};
+
 class PokopiaQuiz {
-    constructor() {
-        this.score = 0;
-        this.currentQuestionIndex = 0;
-        this.totalQuestions = 10;
-        this.pokemonData = [];
-        this.currentQuestion = null;
-        this.gameActive = false;
+  constructor() {
+    const EngineClass =
+      (window.POKOPIA_QUIZ_ENGINE && window.POKOPIA_QUIZ_ENGINE.QuizEngine) ||
+      window.QuizEngine;
 
-        // 語言定義
-        this.langs = {
-            zh: '中文',
-            en: 'English',
-            es: 'Español'
-        };
-        this.langCodes = ['zh', 'en', 'es'];
+    this.uiLang =
+      (window.POKOPIA_DEX && window.POKOPIA_DEX.getLang()) ||
+      localStorage.getItem('pokopia-lang') ||
+      'zh';
 
-        this.init();
+    this.engine = new EngineClass([], {
+      totalQuestions: 10,
+      mode: 'ALL',
+      questionLang: 'random',
+      optionsLang: 'random',
+      uiLang: this.uiLang
+    });
+
+    this.pokemonData = [];
+    this.activeAudio = null;
+
+    this.init();
+  }
+
+  get score() {
+    return this.engine.score;
+  }
+
+  get combo() {
+    return this.engine.combo;
+  }
+
+  get maxCombo() {
+    return this.engine.maxCombo;
+  }
+
+  get currentQuestionIndex() {
+    return this.engine.currentQuestionIndex;
+  }
+
+  get totalQuestions() {
+    return this.engine.totalQuestions;
+  }
+
+  get currentQuestion() {
+    return this.engine.currentQuestion;
+  }
+
+  t(key) {
+    const dict = QUIZ_I18N[this.uiLang] || QUIZ_I18N.zh;
+    return dict[key] !== undefined ? dict[key] : QUIZ_I18N.zh[key];
+  }
+
+  async init() {
+    try {
+      if (window.POKOPIA_DEX) {
+        window.POKOPIA_DEX.renderLangButtons();
+        window.POKOPIA_DEX.renderTabBar('quiz');
+      }
+      this.applyTranslations();
+
+      if (window.POKOPIA_DEX && typeof window.POKOPIA_DEX.loadData === 'function') {
+        this.pokemonData = await window.POKOPIA_DEX.loadData();
+      } else {
+        const response = await fetch('data/pokemon.json');
+        this.pokemonData = await response.json();
+      }
+
+      this.engine.setPokemonData(this.pokemonData);
+      this.setupEventListeners();
+      this.startNewGame();
+    } catch (err) {
+      console.error('Failed to load pokemon data:', err);
+      const qText = document.getElementById('question-text');
+      if (qText) qText.textContent = this.t('load_error');
     }
+  }
 
-    async init() {
-        try {
-            // 讀取寶可夢資料
-            const response = await fetch('data/pokemon.json');
-            this.pokemonData = await response.json();
-            
-            this.setupEventListeners();
-            this.startNewGame();
-        } catch (err) {
-            console.error("Failed to load pokemon data:", err);
-            document.getElementById('question-text').innerText = "資料載入失敗，請刷新頁面 🦐💦";
-        }
-    }
+  applyTranslations() {
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      const key = el.dataset.i18n;
+      const val = this.t(key);
+      if (typeof val === 'string') {
+        el.textContent = val;
+      }
+    });
+    this.updateStatusDisplay();
+  }
 
-    setupEventListeners() {
-        document.getElementById('next-btn').addEventListener('click', () => {
-            this.nextQuestion();
-        });
-    }
-
-    startNewGame() {
-        this.score = 0;
-        this.currentQuestionIndex = 0;
-        this.gameActive = true;
-        this.updateScoreDisplay();
-        this.nextQuestion();
-    }
-
-    updateScoreDisplay() {
-        document.getElementById('current-score').innerText = this.score;
-    }
-
-    nextQuestion() {
-        this.currentQuestionIndex++;
-        if (this.currentQuestionIndex >= this.totalQuestions) {
-            this.endGame();
-            return;
-        }
-
-        document.getElementById('feedback-overlay').style.display = 'none';
-        document.getElementById('progress-text').innerText = `第 ${this.currentQuestionIndex + 1} / ${this.totalQuestions} 題`;
-        
-        this.generateQuestion();
-    }
-
-    generateQuestion() {
-        // 隨機選擇一個玩法 A, B, C, D
-        const modes = ['A', 'B', 'C', 'D'];
-        const mode = modes[Math.floor(Math.random() * modes.length)];
-        
-        // 隨機選擇一隻寶可夢
-        const targetPoke = this.pokemonData[Math.floor(Math.random() * this.pokemonData.length)];
-        
-        // 隨機選擇題目語言 (中/英/西)
-        const questionLang = this.langCodes[Math.floor(Math.random() * this.langCodes.length)];
-        // 隨機選擇選項語言
-        const optionsLang = this.langCodes[Math.floor(Math.random() * this.langCodes.length)];
-
-        this.currentQuestion = {
-            mode,
-            target: targetPoke,
-            questionLang,
-            optionsLang,
-            correctAnswer: ""
-        };
-
-        const qTextEl = document.getElementById('question-text');
-        const qVisualEl = document.getElementById('question-visual');
-        const optionsGrid = document.getElementById('options-grid');
-        
-        qVisualEl.innerHTML = '';
-        optionsGrid.innerHTML = '';
-
-        if (mode === 'A') {
-            // A — 看圖猜名
-            qTextEl.innerText = `這是誰？ (${this.langs[optionsLang]})`;
-            qVisualEl.innerHTML = `<img src="assets/sprites/${targetPoke.id}.png" class="question-image pop">`;
-            this.currentQuestion.correctAnswer = targetPoke.names[optionsLang];
-            this.generateOptions('name', optionsLang);
-        } 
-        else if (mode === 'B') {
-            // B — 看圖猜敘述
-            qTextEl.innerText = `這是什麼描述？ (${this.langs[optionsLang]})`;
-            qVisualEl.innerHTML = `<img src="assets/sprites/${targetPoke.id}.png" class="question-image pop">`;
-            this.currentQuestion.correctAnswer = targetPoke.descriptions[optionsLang];
-            this.generateOptions('desc', optionsLang);
-        } 
-        else if (mode === 'C') {
-            // C — 看名猜圖
-            qTextEl.innerText = `誰是 ${targetPoke.names[questionLang]}？ (${this.langs[questionLang]})`;
-            this.currentQuestion.correctAnswer = targetPoke.id;
-            this.generateOptions('image', null);
-        } 
-        else if (mode === 'D') {
-            // D — 看敘述猜名
-            qTextEl.innerText = `誰是「${targetPoke.descriptions[questionLang]}」？ (${this.langs[questionLang]})`;
-            this.currentQuestion.correctAnswer = targetPoke.names[optionsLang];
-            this.generateOptions('name', optionsLang);
-        }
-
-        this.renderOptions();
-    }
-
-    generateOptions(type, lang) {
-        let options = [];
-        const correctVal = this.currentQuestion.correctAnswer;
-
-        if (type === 'name') {
-            options.push(this.currentQuestion.target.names[lang]);
-            while (options.length < 3) {
-                const randomPoke = this.pokemonData[Math.floor(Math.random() * this.pokemonData.length)];
-                const val = randomPoke.names[lang];
-                if (!options.includes(val)) options.push(val);
-            }
-        } 
-        else if (type === 'desc') {
-            options.push(this.currentQuestion.target.descriptions[lang]);
-            while (options.length < 3) {
-                const randomPoke = this.pokemonData[Math.floor(Math.random() * this.pokemonData.length)];
-                const val = randomPoke.descriptions[lang];
-                if (!options.includes(val)) options.push(val);
-            }
-        } 
-        else if (type === 'image') {
-            options.push(this.currentQuestion.target.id);
-            while (options.length < 3) {
-                const randomPoke = this.pokemonData[Math.floor(Math.random() * this.pokemonData.length)];
-                const val = randomPoke.id;
-                if (!options.includes(val)) options.push(val);
-            }
-        }
-
-        // 隨機打亂選項
-        options.sort(() => Math.random() - 0.5);
-        this.currentOptions = options;
-    }
-
-    renderOptions() {
-        const optionsGrid = document.getElementById('options-grid');
-        
-        this.currentOptions.forEach(opt => {
-            const btn = document.createElement('button');
-            btn.className = 'option-btn';
-            
-            if (this.currentQuestion.mode === 'C') {
-                // C 模式是選圖片
-                btn.innerHTML = `<img src="assets/sprites/${opt}.png" style="width:60px; height:60px; object-fit:contain;">`;
-            } else {
-                btn.innerText = opt;
-            }
-            
-            btn.onclick = () => this.checkAnswer(opt);
-            optionsGrid.appendChild(btn);
-        });
-    }
-
-    checkAnswer(selected) {
-        if (!this.gameActive) return;
-        this.gameActive = false;
-
-        const isCorrect = selected === this.currentQuestion.correctAnswer;
-        const buttons = document.querySelectorAll('.option-btn');
-        
-        buttons.forEach(btn => {
-            if (btn.innerText === this.currentQuestion.correctAnswer || (this.currentQuestion.mode === 'C' && btn.innerHTML.includes(this.currentQuestion.correctAnswer))) {
-                btn.classList.add('correct');
-            }
-        });
-
-        if (isCorrect) {
-            this.score++;
-            this.updateScoreDisplay();
-            this.showFeedback(true);
+  setupEventListeners() {
+    const nextBtn = document.getElementById('next-btn');
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        if (this.engine.isFinished) {
+          this.startNewGame();
         } else {
-            this.showFeedback(false);
+          this.nextQuestion();
         }
+      });
     }
 
-    showFeedback(isCorrect) {
-        const overlay = document.getElementById('feedback-overlay');
-        const emoji = document.getElementById('feedback-emoji');
-        const text = document.getElementById('feedback-text');
-        const correctAnsDisp = document.getElementById('correct-answer-display');
-        
-        overlay.style.display = 'flex';
-        
-        if (isCorrect) {
-            emoji.innerText = '🌟';
-            text.innerText = '太棒了！答對了！';
-            correctAnsDisp.innerText = '';
-        } else {
-            emoji.innerText = '😅';
-            text.innerText = '沒關係，再接再厲！';
-            correctAnsDisp.innerText = `正確答案是：${this.currentQuestion.correctAnswer}`;
-        }
+    // Mode filter buttons
+    document.querySelectorAll('.mode-filter-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.mode-filter-btn').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        const mode = btn.dataset.mode || 'ALL';
+        this.engine.setConfig({ mode });
+        this.startNewGame();
+      });
+    });
+
+    // Language filter selects
+    const qLangSelect = document.getElementById('questionLangSelect');
+    if (qLangSelect) {
+      qLangSelect.addEventListener('change', (e) => {
+        this.engine.setConfig({ questionLang: e.target.value });
+        this.startNewGame();
+      });
     }
 
-    endGame() {
-        const overlay = document.getElementById('feedback-overlay');
-        const emoji = document.getElementById('document-feedback-emoji'); // 這裡原本寫錯了，修正為 feedback-emoji
-        const text = document.getElementById('feedback-text');
-        
-        // 修正 ID 選取
-        const feedbackEmoji = document.getElementById('feedback-emoji');
-        const feedbackText = document.getElementById('feedback-text');
-        
-        overlay.style.display = 'flex';
-        feedbackEmoji.innerText = '🏆';
-        feedbackText.innerHTML = `挑戰結束！<br>你的得分是：${this.score} / ${this.totalQuestions}`;
-        
-        document.getElementById('correct-answer-display').innerText = '恭喜你完成本次挑戰！🦐';
-        document.getElementById('next-btn').innerText = '再玩一次 ➔';
-        document.getElementById('next-btn').onclick = () => location.reload();
+    const optLangSelect = document.getElementById('optionsLangSelect');
+    if (optLangSelect) {
+      optLangSelect.addEventListener('change', (e) => {
+        this.engine.setConfig({ optionsLang: e.target.value });
+        this.startNewGame();
+      });
     }
+
+    // Audio buttons
+    const qAudioBtn = document.getElementById('question-audio-btn');
+    if (qAudioBtn) {
+      qAudioBtn.addEventListener('click', () => this.playCurrentQuestionAudio());
+    }
+
+    const fbAudioBtn = document.getElementById('feedback-audio-btn');
+    if (fbAudioBtn) {
+      fbAudioBtn.addEventListener('click', () => this.playTargetAnswerAudio());
+    }
+
+    // Global UI language switch listener
+    document.addEventListener('langchange', (e) => {
+      this.uiLang = (e.detail && e.detail.lang) || 'zh';
+      this.engine.setConfig({ uiLang: this.uiLang });
+      this.applyTranslations();
+      if (this.currentQuestion && !this.engine.isFinished) {
+        this.renderCurrentQuestion();
+      }
+    });
+  }
+
+  startNewGame() {
+    const overlay = document.getElementById('feedback-overlay');
+    if (overlay) overlay.style.display = 'none';
+
+    const nextBtn = document.getElementById('next-btn');
+    if (nextBtn) nextBtn.textContent = this.t('next_btn');
+
+    this.engine.startNewGame({ uiLang: this.uiLang });
+    this.updateStatusDisplay();
+    this.renderCurrentQuestion();
+  }
+
+  nextQuestion() {
+    const overlay = document.getElementById('feedback-overlay');
+    if (overlay) overlay.style.display = 'none';
+
+    const nextQ = this.engine.nextQuestion();
+    if (!nextQ || this.engine.isFinished) {
+      this.endGame();
+      return;
+    }
+
+    this.updateStatusDisplay();
+    this.renderCurrentQuestion();
+  }
+
+  updateStatusDisplay() {
+    const scoreEl = document.getElementById('current-score');
+    if (scoreEl) scoreEl.textContent = String(this.engine.score);
+
+    const comboCountEl = document.getElementById('combo-count');
+    if (comboCountEl) comboCountEl.textContent = String(this.engine.combo);
+
+    const comboBadgeEl = document.getElementById('combo-badge');
+    if (comboBadgeEl) {
+      comboBadgeEl.classList.toggle('combo-hot', this.engine.combo >= 2);
+    }
+
+    const progressEl = document.getElementById('progress-text');
+    if (progressEl) {
+      const fmt = this.t('progress_fmt');
+      progressEl.textContent = fmt(this.engine.getQuestionNumber(), this.engine.totalQuestions);
+    }
+  }
+
+  renderCurrentQuestion() {
+    const q = this.engine.currentQuestion;
+    if (!q) return;
+
+    const qTextEl = document.getElementById('question-text');
+    const qVisualEl = document.getElementById('question-visual');
+    const optionsGrid = document.getElementById('options-grid');
+
+    if (qTextEl) qTextEl.textContent = q.promptText;
+    if (qVisualEl) qVisualEl.innerHTML = '';
+    if (optionsGrid) {
+      optionsGrid.innerHTML = '';
+      optionsGrid.classList.toggle('options-grid--images', q.mode === 'C');
+    }
+
+    if (q.mode === 'A' || q.mode === 'B') {
+      const img = document.createElement('img');
+      img.src = q.spriteUrl;
+      img.alt = 'Pokémon';
+      img.className = 'question-image pop';
+      qVisualEl.appendChild(img);
+    } else if (q.mode === 'E') {
+      const heroBtn = document.createElement('button');
+      heroBtn.type = 'button';
+      heroBtn.className = 'audio-play-btn audio-hero-btn pop';
+      heroBtn.textContent = this.t('btn_listen_mystery');
+      heroBtn.addEventListener('click', () => this.playCurrentQuestionAudio());
+      qVisualEl.appendChild(heroBtn);
+      // Auto-play audio in Mode E
+      this.playCurrentQuestionAudio();
+    }
+
+    // Render options
+    q.optionItems.forEach((item) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'option-btn';
+      btn.dataset.value = String(item.value);
+
+      if (q.mode === 'C') {
+        const img = document.createElement('img');
+        img.src = item.spriteUrl;
+        img.alt = item.label || 'Pokémon option';
+        btn.appendChild(img);
+      } else {
+        btn.textContent = String(item.value);
+      }
+
+      btn.addEventListener('click', () => this.checkAnswer(item.value, btn));
+      optionsGrid.appendChild(btn);
+    });
+  }
+
+  checkAnswer(selectedValue, clickedBtn) {
+    if (!this.engine.gameActive || this.engine.answeredCurrent) return;
+
+    const result = this.engine.submitAnswer(selectedValue);
+    this.updateStatusDisplay();
+
+    const buttons = document.querySelectorAll('.option-btn');
+    buttons.forEach((btn) => {
+      btn.disabled = true;
+      if (btn.dataset.value === String(result.correctAnswer)) {
+        btn.classList.add('correct');
+      }
+    });
+
+    if (!result.isCorrect && clickedBtn) {
+      clickedBtn.classList.add('wrong');
+    }
+
+    this.showFeedback(result);
+  }
+
+  showFeedback(result) {
+    const overlay = document.getElementById('feedback-overlay');
+    const emoji = document.getElementById('feedback-emoji');
+    const text = document.getElementById('feedback-text');
+    const correctAnsDisp = document.getElementById('correct-answer-display');
+    const fbAudioBtn = document.getElementById('feedback-audio-btn');
+    const nextBtn = document.getElementById('next-btn');
+
+    if (fbAudioBtn) fbAudioBtn.style.display = 'inline-flex';
+    if (nextBtn) nextBtn.textContent = this.t('next_btn');
+
+    const q = this.engine.currentQuestion;
+    const targetName = window.POKOPIA_QUIZ_ENGINE.getPokemonName(q.target, q.optionsLang);
+
+    if (result.isCorrect) {
+      emoji.textContent = '🌟';
+      text.textContent = this.t('correct_title');
+      const ptsMsg = this.t('points_earned')(result.pointsEarned, result.combo);
+      correctAnsDisp.innerHTML = `<strong>${targetName}</strong><br><span style="color:#ff7043;font-weight:700">${ptsMsg}</span>`;
+    } else {
+      emoji.textContent = '😅';
+      text.textContent = this.t('wrong_title');
+      const answerLabel = q.mode === 'C' ? targetName : result.correctAnswer;
+      correctAnsDisp.textContent = `${this.t('correct_ans_label')}${answerLabel}`;
+    }
+
+    overlay.style.display = 'flex';
+  }
+
+  endGame() {
+    const summary = this.engine.endGame();
+    const overlay = document.getElementById('feedback-overlay');
+    const feedbackEmoji = document.getElementById('feedback-emoji');
+    const feedbackText = document.getElementById('feedback-text');
+    const correctAnsDisp = document.getElementById('correct-answer-display');
+    const fbAudioBtn = document.getElementById('feedback-audio-btn');
+    const nextBtn = document.getElementById('next-btn');
+
+    if (fbAudioBtn) fbAudioBtn.style.display = 'none';
+
+    feedbackEmoji.textContent = '🏆';
+    feedbackText.textContent = this.t('game_over_title');
+
+    let detailHtml = this.t('summary_stats')(
+      summary.score,
+      summary.correctCount,
+      summary.totalQuestions,
+      summary.accuracy,
+      summary.maxCombo
+    );
+
+    if (summary.quizMasterUnlocked) {
+      detailHtml += `<div style="margin-top:10px;padding:8px 12px;background:#fff8e1;border-radius:12px;color:#e65100;font-weight:700">${this.t('badge_unlocked_msg')}</div>`;
+    }
+
+    correctAnsDisp.innerHTML = detailHtml;
+    nextBtn.textContent = this.t('play_again_btn');
+    overlay.style.display = 'flex';
+  }
+
+  playCurrentQuestionAudio() {
+    const q = this.engine.currentQuestion;
+    if (!q) return;
+
+    const lang = q.mode === 'C' || q.mode === 'D' || q.mode === 'E' ? q.questionLang : q.optionsLang;
+    const text =
+      q.mode === 'D'
+        ? window.POKOPIA_QUIZ_ENGINE.getPokemonDescription(q.target, lang)
+        : window.POKOPIA_QUIZ_ENGINE.getPokemonName(q.target, lang);
+
+    this.playAudioWithFallback(q.audioUrl, text, lang);
+  }
+
+  playTargetAnswerAudio() {
+    const q = this.engine.currentQuestion;
+    if (!q) return;
+    const lang = q.optionsLang;
+    const text = window.POKOPIA_QUIZ_ENGINE.getPokemonName(q.target, lang);
+    const audioUrl = window.POKOPIA_QUIZ_ENGINE.getAudioUrl(q.target, lang);
+    this.playAudioWithFallback(audioUrl, text, lang);
+  }
+
+  playAudioWithFallback(audioUrl, fallbackText, lang) {
+    if (window.POKOPIA_SPEECH && typeof window.POKOPIA_SPEECH.playKaraoke === 'function') {
+      window.POKOPIA_SPEECH.playKaraoke({
+        audioUrl,
+        fallbackText,
+        lang
+      });
+      return;
+    }
+
+    try {
+      if (this.activeAudio) {
+        this.activeAudio.pause();
+        this.activeAudio = null;
+      }
+      if (typeof Audio !== 'undefined' && audioUrl) {
+        const audio = new Audio(audioUrl);
+        this.activeAudio = audio;
+        const playPromise = audio.play();
+        if (playPromise && typeof playPromise.catch === 'function') {
+          playPromise.catch(() => {
+            this.speakViaWebSpeech(fallbackText, lang);
+          });
+          return;
+        }
+        return;
+      }
+    } catch (_) {
+      // Fallback to Web Speech API
+    }
+    this.speakViaWebSpeech(fallbackText, lang);
+  }
+
+  speakViaWebSpeech(text, lang) {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window) || !text) return;
+    try {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      const langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-ES' };
+      utterance.lang = langMap[lang] || 'en-US';
+      utterance.rate = 0.85;
+      window.speechSynthesis.speak(utterance);
+    } catch (_) {
+      // Ignore speech synthesis errors in headless environments
+    }
+  }
 }
 
-// 啟動遊戲
-const quiz = new PokopiaQuiz();
+if (typeof window !== 'undefined') {
+  window.PokopiaQuiz = PokopiaQuiz;
+  window.quiz = new PokopiaQuiz();
+}
