@@ -166,7 +166,7 @@ flowchart LR
 ## Wave 2：頁面體驗升級、PWA 離線強化與 Android 原生封裝 (4 Subagents Parallel)
 
 ### [TICK-006] 三語同時對照模式 (Trilingual Simultaneous View) 與連續發音整合
-- **優先級**：P1 | **分支**：`feat/tick-006-trilingual-view` | **狀態**：🟡 In Progress
+- **優先級**：P1 | **分支**：`feat/tick-006-trilingual-view` | **狀態**：🟢 Done
 - **變更檔案**：
   - 修改：`index.html`, `detail.html`, `styles.css`
   - 新增：`tests/unit/trilingual.test.js`
@@ -180,24 +180,24 @@ flowchart LR
      - 新增「🔊 三語連播 (Play All 3 Languages)」按鈕，呼叫 `POKOPIA_SPEECH.playSequentialTrilingual` 依序朗讀中、英、西名稱，並高亮當前朗讀的語言標籤。
      - 同時修正 `index.html` 與 `detail.html` 西班牙國旗為 `🇪🇸`，為 `detail.html` 補齊底部第 5 個 `quiz.html` 頁籤，並在收集寶可夢時呼叫 `POKOPIA_BADGES.checkAndNotifyNewBadges()`。
 - **驗收測試**：
-  - [ ] 切換三語開關後，首頁卡片與詳細頁立即呈現三語並列區塊，且無橫向捲軸溢出。
+  - [x] 切換三語開關後，首頁卡片與詳細頁立即呈現三語並列區塊，且無橫向捲軸溢出（11/11 通過）。
 
 ---
 
 ### [TICK-007] 全站導覽列一致性、棲息地訪問紀錄與設定頁整合
-- **優先級**：P1 | **分支**：`feat/tick-007-nav-consistency` | **狀態**：🟡 In Progress
+- **優先級**：P1 | **分支**：`feat/tick-007-nav-consistency` | **狀態**：🟢 Done
 - **變更檔案**：
   - 修改：`habitats.html`, `habitat-detail.html`, `settings.html`
   - 新增：`tests/unit/pages-integration.test.js`
 - **技術細節與規格**：
   1. 為 `habitats.html`、`habitat-detail.html`、`settings.html` 補齊底部第 5 個頁籤「🎮 猜謎挑戰 (`quiz.html`)」，並統一載入 `js/i18n.js`、`js/storage.js`、`js/badges-engine.js`。
   2. `habitat-detail.html` 瀏覽棲息地時，自動呼叫 `POKOPIA_DEX.recordHabitatVisit(habitatId)` 與 `POKOPIA_BADGES.checkAndNotifyNewBadges()` 累計「棲息地獵人」徽章進度。
-  3. `settings.html` 的 `#trilingualToggle` 與 `POKOPIA_DEX.isTrilingualMode()` / `setTrilingualMode()` 完整同步，並支援 v1/v2 進度碼產生與匯入。
+  3. `settings.html` 的 `#trilingualToggle` 與 `POKOPIA_DEX.isTrilingualMode()` / `setTrilingualMode()` 完整同步，並支援 v1/v2 進度碼產生與匯入（8/8 通過）。
 
 ---
 
 ### [TICK-008] PWA Service Worker 離線快取優化與跨裝置進度碼強化
-- **優先級**：P2 | **分支**：`feat/tick-008-pwa-offline` | **狀態**：🟡 In Progress
+- **優先級**：P2 | **分支**：`feat/tick-008-pwa-offline` | **狀態**：🟢 Done
 - **變更檔案**：
   - 修改：`sw.js`, `manifest.json`
   - 新增：`tests/unit/sw-logic.test.js`
@@ -206,12 +206,12 @@ flowchart LR
   2. 新增 `AUDIO_CACHE = 'pokopia-audio-v1'`：
      - 針對 `/output/karaoke/` 與 `/output/habitat_karaoke/` 的音檔與 JSON 時間軸採 Cache-first + 數量上限控制（LRU 最多保留 150 個音檔，避免撐爆行動裝置容量）。
      - 離線且未快取時快速回傳 404 JSON，讓前端 `speech.js` 毫秒級無縫切換至 Web Speech API。
-  3. 更新 `manifest.json` 的 `start_url` 為 `./index.html`（相對路徑相容 GitHub Pages 子路徑 `/pokopia-dex/` 與 Android Capacitor 本地協定）。
+  3. 更新 `manifest.json` 的 `start_url` 為 `./index.html`（相對路徑相容 GitHub Pages 子路徑 `/pokopia-dex/` 與 Android Capacitor 本地協定）（8/8 通過）。
 
 ---
 
 ### [TICK-009] Android App (Capacitor) 專案建置與原生互動體驗整合
-- **優先級**：P1 | **分支**：`feat/tick-009-android-app` | **狀態**：🟡 In Progress
+- **優先級**：P1 | **分支**：`feat/tick-009-android-app` | **狀態**：🟢 Done
 - **變更檔案**：
   - 新增：`capacitor.config.json`, `js/native.js`, `scripts/build-web-dist.js`, `tests/unit/native.test.js`
   - 新增目錄：`android/` (Capacitor Android 原生工程結構與配置說明)
@@ -228,16 +228,16 @@ flowchart LR
      - `setupBackButton()`：在 Android 原生環境監聽硬體返回鍵——若 Drawer 或 Modal 開啟則先關閉；若在內頁 (`detail.html`, `quiz.html` 等) 則返回 `index.html`；在首頁則提示再按一次退出。
      - `requestWakeLock()`：在播放卡拉 OK 語音或進行猜謎時透過 Screen Wake Lock API 防止兒童平板自動黑屏。
 - **單元測試案例 (`tests/unit/native.test.js`)**：
-  - [ ] 驗證 Haptics 在有無 `navigator.vibrate` 環境下的安全執行。
-  - [ ] 驗證硬體返回鍵在不同頁面與 Modal 開啟狀態下的路由決策。
-  - [ ] 驗證 WakeLock 申請與釋放不拋出未捕捉異常。
+  - [x] 驗證 Haptics 在有無 `navigator.vibrate` 環境下的安全執行（11/11 通過）。
+  - [x] 驗證硬體返回鍵在不同頁面與 Modal 開啟狀態下的路由決策。
+  - [x] 驗證 WakeLock 申請與釋放不拋出未捕捉異常。
 
 ---
 
 ## Wave 3：全站整合與 E2E 自動化總驗收
 
 ### [TICK-010] Playwright E2E 整合測試套件與 `qa-tester` 全站總驗收
-- **優先級**：P0 | **分支**：`feat/tick-010-e2e-suite` | **狀態**：⚪ Todo
+- **優先級**：P0 | **分支**：`feat/tick-010-e2e-suite` | **狀態**：🔵 QA Review
 - **變更檔案**：
   - 新增：`tests/e2e/pokedex.spec.js`, `tests/e2e/quiz-and-badges.spec.js`, `tests/e2e/settings-and-trilingual.spec.js`
   - 新增：`dev/TEST-REPORT.md`
