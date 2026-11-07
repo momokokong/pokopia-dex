@@ -23,9 +23,10 @@
       <span class="top-nav__title">📖 Pokédex</span>
     </div>
     <div class="top-nav__right">
+      <button class="trilingual-toggle-btn" id="trilingualQuickBtn" type="button" data-i18n="trilingual_toggle" onclick="toggleTrilingualQuick()">🌐 三語</button>
       <button class="lang-btn" data-lang="zh">🇹🇼</button>
       <button class="lang-btn" data-lang="en">🇺🇸</button>
-      <button class="lang-btn" data-lang="es">🇸🇻</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
     </div>
   </nav>
 
@@ -93,6 +94,9 @@
     </a>
   </nav>
   
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/badges-engine.js"></script>
   <script src="app.js"></script>
   <script>
     // --- Type configuration (18 types) ---
@@ -123,21 +127,24 @@
     const I18N = {
       zh: {
         search_placeholder: '搜尋寶可夢...',
-        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_quiz: '猜謎挑戰', tab_badges: '徽章', tab_settings: '設定',
+        trilingual_toggle: '🌐 三語',
         filter_all: '全部', collected: '✅', uncollected: '❓',
         more_types: '+ 更多', drawer_title: '選擇屬性', drawer_clear: '清除全部', drawer_apply: '確定',
         ...Object.fromEntries(POKEMON_TYPES.map(t => ['type_' + t.key, t.emoji + ' ' + t.zh]))
       },
       en: {
         search_placeholder: 'Search Pokémon...',
-        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_quiz: 'Quiz', tab_badges: 'Badges', tab_settings: 'Settings',
+        trilingual_toggle: '🌐 3-Lang',
         filter_all: 'All', collected: '✅', uncollected: '❓',
         more_types: '+ More', drawer_title: 'Select Types', drawer_clear: 'Clear All', drawer_apply: 'Apply',
         ...Object.fromEntries(POKEMON_TYPES.map(t => ['type_' + t.key, t.emoji + ' ' + t.en]))
       },
       es: {
         search_placeholder: 'Buscar Pokémon...',
-        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_quiz: 'Desafío', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        trilingual_toggle: '🌐 3-Idiomas',
         filter_all: 'Todos', collected: '✅', uncollected: '❓',
         more_types: '+ Más', drawer_title: 'Seleccionar tipos', drawer_clear: 'Limpiar', drawer_apply: 'Aplicar',
         ...Object.fromEntries(POKEMON_TYPES.map(t => ['type_' + t.key, t.emoji + ' ' + t.es]))
@@ -148,6 +155,20 @@
     let allPokemon = [];
     let selectedTypes = ['all'];  // array of type keys; ['all'] means show all
     let searchQuery = '';
+
+    function syncTrilingualToggleUI() {
+      const btn = document.getElementById('trilingualQuickBtn');
+      if (!btn) return;
+      const enabled = POKOPIA_DEX.isTrilingualMode();
+      btn.classList.toggle('active', enabled);
+      btn.setAttribute('aria-pressed', String(enabled));
+    }
+
+    function toggleTrilingualQuick() {
+      POKOPIA_DEX.setTrilingualMode(!POKOPIA_DEX.isTrilingualMode());
+      syncTrilingualToggleUI();
+    }
+    window.toggleTrilingualQuick = toggleTrilingualQuick;
 
     async function init() {
       try {
@@ -165,6 +186,7 @@
       }
       POKOPIA_DEX.renderLangButtons();
       POKOPIA_DEX.renderTabBar('dex');
+      syncTrilingualToggleUI();
       setupTypeFilters();
       setupDrawer();
       setupSearch();
@@ -174,6 +196,10 @@
         renderList();
         updateFilterLabels();
         rebuildDrawerGrid();
+      });
+      document.addEventListener('trilingualchange', () => {
+        syncTrilingualToggleUI();
+        renderList();
       });
       updateI18N();
     }
@@ -366,8 +392,10 @@
     // --- Render ---
     function renderList() {
       const lang = POKOPIA_DEX.getLang();
+      const trilingual = POKOPIA_DEX.isTrilingualMode();
       const t = I18N[lang] || I18N.en;
       const list = document.getElementById('pokemonList');
+      if (!list) return;
       const filtered = filterPokemon();
 
       if (filtered.length === 0) {
@@ -386,16 +414,24 @@
           `<span class="type-tag" data-type="${t}">${POKOPIA_DEX.getTypeEmoji(t)} ${t}</span>`
         ).join('');
         const collectIcon = collected ? t.collected : t.uncollected;
+        const nameBlock = trilingual
+          ? `<div class="pokemon-card__name">${mainName}</div>
+              <div class="trilingual-badges-row">
+                <span class="trilingual-badge" data-lang="zh">🇹🇼 ${p.name.zh}</span>
+                <span class="trilingual-badge" data-lang="en">🇺🇸 ${p.name.en}</span>
+                <span class="trilingual-badge" data-lang="es">🇪🇸 ${p.name.es}</span>
+              </div>`
+          : `<div class="pokemon-card__name">${mainName}</div>
+              <div class="pokemon-card__name-sub">${subNames}</div>`;
 
         return `
-          <a class="pokemon-card ${collected ? '' : 'uncollected'}" href="detail.html?id=${p.id}">
+          <a class="pokemon-card ${collected ? '' : 'uncollected'}${trilingual ? ' pokemon-card--trilingual' : ''}" href="detail.html?id=${p.id}">
             <div class="pokemon-card__sprite-wrap">
               <img class="pokemon-card__sprite ${collected ? '' : 'breathe'}"
                    src="assets/sprites/${p.pokedex_number || p.id}.png" alt="${mainName}" loading="lazy">
             </div>
             <div class="pokemon-card__info">
-              <div class="pokemon-card__name">${mainName}</div>
-              <div class="pokemon-card__name-sub">${subNames}</div>
+              ${nameBlock}
               <div class="pokemon-card__meta">
                 <div class="pokemon-card__types">${typeTags}</div>
                 <span class="pokemon-card__stars">${stars}</span>
@@ -416,8 +452,10 @@
       } else {
         POKOPIA_DEX.setCollected(id);
       }
+      if (window.POKOPIA_BADGES) POKOPIA_BADGES.checkAndNotifyNewBadges({ pokemonData: allPokemon });
       renderList();
     }
+    window.toggleCollectFromList = toggleCollectFromList;
 
     init();
   </script>

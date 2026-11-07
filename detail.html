@@ -18,9 +18,10 @@
       <span class="top-nav__title" id="navTitle">Pokédex</span>
     </div>
     <div class="top-nav__right">
+      <button class="trilingual-toggle-btn" id="trilingualQuickBtn" type="button" data-i18n="trilingual_toggle" onclick="toggleTrilingualQuick()">🌐 三語</button>
       <button class="lang-btn" data-lang="zh">🇹🇼</button>
       <button class="lang-btn" data-lang="en">🇺🇸</button>
-      <button class="lang-btn" data-lang="es">🇸🇻</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
     </div>
   </nav>
 
@@ -48,6 +49,10 @@
       <span class="tab-bar__icon">🏝️</span>
       <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
     </a>
+    <a class="tab-bar__item" data-tab="quiz" href="quiz.html">
+      <span class="tab-bar__icon">🎮</span>
+      <span class="tab-bar__label" data-i18n="tab_quiz">猜謎挑戰</span>
+    </a>
     <a class="tab-bar__item" data-tab="badges" href="badges.html">
       <span class="tab-bar__icon">🏅</span>
       <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
@@ -58,11 +63,16 @@
     </a>
   </nav>
 
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/badges-engine.js"></script>
   <script src="app.js"></script>
   <script>
     const I18N = {
       zh: {
-        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_quiz: '猜謎挑戰', tab_badges: '徽章', tab_settings: '設定',
+        trilingual_toggle: '🌐 三語', play_all_langs: '🔊 三語連播',
         specialties: '特技', ideal_habitat: '理想棲息環境', favorites: '喜歡的東西',
         rarity: '稀有度', where_to_find: '哪裡可以找到', description: 'Pokopia 簡介',
         loved_items: '喜愛物品', furniture: '🪑 家具', food: '🍎 食物', misc: '📦 雜項',
@@ -73,7 +83,8 @@
         biome: '棲息地', common: '常見', uncommon: '較稀有', rare: '稀有'
       },
       en: {
-        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_quiz: 'Quiz', tab_badges: 'Badges', tab_settings: 'Settings',
+        trilingual_toggle: '🌐 3-Lang', play_all_langs: '🔊 Play All 3',
         specialties: 'Specialties', ideal_habitat: 'Ideal Habitat', favorites: 'Favorites',
         rarity: 'Rarity', where_to_find: 'Where to Find', description: 'Pokopia Description',
         loved_items: 'Loved Items', furniture: '🪑 Furniture', food: '🍎 Food', misc: '📦 Misc.',
@@ -84,7 +95,8 @@
         biome: 'Biome', common: 'Common', uncommon: 'Uncommon', rare: 'Rare'
       },
       es: {
-        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_quiz: 'Desafío', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        trilingual_toggle: '🌐 3-Idiomas', play_all_langs: '🔊 Reproducir 3 idiomas',
         specialties: 'Especialidades', ideal_habitat: 'Hábitat Ideal', favorites: 'Favoritos',
         rarity: 'Rareza', where_to_find: 'Dónde encontrar', description: 'Descripción Pokopia',
         loved_items: 'Objetos Favoritos', furniture: '🪑 Mobiliario', food: '🍎 Comida', misc: '📦 Varios',
@@ -164,6 +176,53 @@
       return HABITAT_EMOJI[habitatName] || '🏠';
     }
 
+    function syncTrilingualToggleUI() {
+      const btn = document.getElementById('trilingualQuickBtn');
+      if (!btn) return;
+      const enabled = POKOPIA_DEX.isTrilingualMode();
+      btn.classList.toggle('active', enabled);
+      btn.setAttribute('aria-pressed', String(enabled));
+    }
+
+    function toggleTrilingualQuick() {
+      POKOPIA_DEX.setTrilingualMode(!POKOPIA_DEX.isTrilingualMode());
+      syncTrilingualToggleUI();
+    }
+    window.toggleTrilingualQuick = toggleTrilingualQuick;
+
+    function highlightSpeakingLang(activeLang) {
+      document.querySelectorAll('.trilingual-badge[data-lang], .trilingual-block__row[data-lang], .voice-btn[data-voice-lang]').forEach(el => {
+        const elLang = el.dataset.lang || el.dataset.voiceLang;
+        const isCurrent = Boolean(activeLang) && elLang === activeLang;
+        el.classList.toggle('speaking', isCurrent);
+        el.classList.toggle('active', isCurrent);
+      });
+      const playAllBtn = document.getElementById('playTrilingualBtn');
+      if (playAllBtn) {
+        playAllBtn.classList.toggle('playing', Boolean(activeLang));
+      }
+    }
+
+    async function playTrilingualVoice() {
+      if (!pokemon || !window.POKOPIA_SPEECH) return;
+      await POKOPIA_SPEECH.playSequentialTrilingual({
+        id: pokemon.id,
+        type: 'pokemon',
+        langs: ['zh', 'en', 'es'],
+        texts: pokemon.description || {},
+        onLangStart: (l) => {
+          highlightSpeakingLang(l);
+        },
+        onLangEnd: () => {
+          highlightSpeakingLang(null);
+        },
+        onComplete: () => {
+          highlightSpeakingLang(null);
+        }
+      });
+    }
+    window.playTrilingualVoice = playTrilingualVoice;
+
     async function init() {
       // Support both ?id=X and #id=X for robustness
       let id;
@@ -186,9 +245,14 @@
       }
       _currentIndex = _allPokemon.findIndex(p => p.id === id);
       POKOPIA_DEX.renderLangButtons();
+      syncTrilingualToggleUI();
       renderDetail();
       document.addEventListener('langchange', () => {
         updateI18N();
+        renderDetail();
+      });
+      document.addEventListener('trilingualchange', () => {
+        syncTrilingualToggleUI();
         renderDetail();
       });
       updateI18N();
@@ -251,7 +315,9 @@
     }
 
     function renderDetail() {
+      if (!pokemon) return;
       const lang = POKOPIA_DEX.getLang();
+      const trilingual = POKOPIA_DEX.isTrilingualMode();
       const t = I18N[lang] || I18N.en;
       const collected = POKOPIA_DEX.isCollected(pokemon.id);
       const mainName = POKOPIA_DEX.getName(pokemon, lang);
@@ -275,9 +341,42 @@
         ? pokemon.specialties.map(s => `<span class="specialty-tag">${s}</span>`).join('')
         : `<span class="tag" style="color:var(--text-light);background:rgba(0,0,0,0.04)">—</span>`;
 
-      // Ideal habitat tag with emoji
+      // Ideal habitat tag with emoji or trilingual block
       const habitatEmoji = getHabitatEmoji(idealHabitat);
       const idealHabitatTag = `<span class="ideal-habitat-tag"><span class="ideal-habitat-tag__emoji">${habitatEmoji}</span> ${idealHabitat}</span>`;
+      const idealHabitatHTML = trilingual
+        ? `<div class="trilingual-block" id="idealHabitatTrilingual">
+            <div class="trilingual-block__row" data-lang="zh">
+              <span class="trilingual-block__flag">🇹🇼</span>
+              <span class="trilingual-block__text">${getHabitatEmoji(pokemon.ideal_habitat.zh)} ${pokemon.ideal_habitat.zh || ''}</span>
+            </div>
+            <div class="trilingual-block__row" data-lang="en">
+              <span class="trilingual-block__flag">🇺🇸</span>
+              <span class="trilingual-block__text">${getHabitatEmoji(pokemon.ideal_habitat.en)} ${pokemon.ideal_habitat.en || ''}</span>
+            </div>
+            <div class="trilingual-block__row" data-lang="es">
+              <span class="trilingual-block__flag">🇪🇸</span>
+              <span class="trilingual-block__text">${getHabitatEmoji(pokemon.ideal_habitat.es)} ${pokemon.ideal_habitat.es || ''}</span>
+            </div>
+          </div>`
+        : `<div class="tags-row">${idealHabitatTag}</div>`;
+
+      const descBlockHTML = trilingual
+        ? `<div class="detail-desc trilingual-block" id="descText">
+            <div class="trilingual-block__row" data-lang="zh">
+              <span class="trilingual-block__flag">🇹🇼</span>
+              <span class="trilingual-block__text" id="descText_zh">${pokemon.description.zh || ''}</span>
+            </div>
+            <div class="trilingual-block__row" data-lang="en">
+              <span class="trilingual-block__flag">🇺🇸</span>
+              <span class="trilingual-block__text" id="descText_en">${pokemon.description.en || ''}</span>
+            </div>
+            <div class="trilingual-block__row" data-lang="es">
+              <span class="trilingual-block__flag">🇪🇸</span>
+              <span class="trilingual-block__text" id="descText_es">${pokemon.description.es || ''}</span>
+            </div>
+          </div>`
+        : `<div class="detail-desc" id="descText">${desc}</div>`;
 
       // Favorites tags
       const favTags = pokemon.favorites.map(f => getFavTag(f)).join('');
@@ -368,6 +467,7 @@
       const collectBtnText = collected ? t.collected_btn : t.collect_btn;
 
       const container = document.getElementById('detailContainer');
+      if (!container) return;
       container.innerHTML = `
         <!-- 1. Hero Section -->
         <div class="detail-hero detail-hero--${primaryType}">
@@ -376,12 +476,22 @@
                src="assets/sprites/${(pokemon.pokedex_number || pokemon.id)}.png" alt="${mainName}">
           <div class="detail-hero__names">
             <div class="detail-hero__name-main">${mainName}</div>
-            <div class="detail-hero__name-sub">${subNames.join(' / ')}</div>
+            ${trilingual
+              ? `<div class="trilingual-badges-row trilingual-badges-row--hero">
+                  <span class="trilingual-badge" data-lang="zh">🇹🇼 ${pokemon.name.zh}</span>
+                  <span class="trilingual-badge" data-lang="en">🇺🇸 ${pokemon.name.en}</span>
+                  <span class="trilingual-badge" data-lang="es">🇪🇸 ${pokemon.name.es}</span>
+                </div>`
+              : `<div class="detail-hero__name-sub">${subNames.join(' / ')}</div>`
+            }
           </div>
           <div class="detail-hero__voice-row">
-            <button class="voice-btn" onclick="playVoice('${pokemon.name.zh}', 'zh')" title="中文">🇹🇼 🔊</button>
-            <button class="voice-btn" onclick="playVoice('${pokemon.name.en}', 'en')" title="English">🇺🇸 🔊</button>
-            <button class="voice-btn" onclick="playVoice('${pokemon.name.es}', 'es')" title="Español">🇸🇻 🔊</button>
+            <button class="voice-btn" data-voice-lang="zh" onclick="playVoice('${pokemon.name.zh}', 'zh')" title="中文">🇹🇼 🔊</button>
+            <button class="voice-btn" data-voice-lang="en" onclick="playVoice('${pokemon.name.en}', 'en')" title="English">🇺🇸 🔊</button>
+            <button class="voice-btn" data-voice-lang="es" onclick="playVoice('${pokemon.name.es}', 'es')" title="Español">🇪🇸 🔊</button>
+          </div>
+          <div class="detail-hero__trilingual-play">
+            <button class="play-trilingual-btn" id="playTrilingualBtn" type="button" data-i18n="play_all_langs" onclick="playTrilingualVoice()">${t.play_all_langs}</button>
           </div>
           <div class="detail-types-row">${typeTags}</div>
           <div class="detail-rarity" style="margin-top:8px;justify-content:center">
@@ -401,12 +511,12 @@
           <div class="detail-section__title">
             ${t.description}
             <span class="desc-voice-btns">
-              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
-              <button class="voice-btn voice-btn--sm" onclick="playKaraokeAudio('es')" title="Español">🇸🇻 🔊</button>
+              <button class="voice-btn voice-btn--sm" data-voice-lang="zh" onclick="playKaraokeAudio('zh')" title="中文">🇹🇼 🔊</button>
+              <button class="voice-btn voice-btn--sm" data-voice-lang="en" onclick="playKaraokeAudio('en')" title="English">🇺🇸 🔊</button>
+              <button class="voice-btn voice-btn--sm" data-voice-lang="es" onclick="playKaraokeAudio('es')" title="Español">🇪🇸 🔊</button>
             </span>
           </div>
-          <div class="detail-desc" id="descText">${desc}</div>
+          ${descBlockHTML}
         </div>
 
         <!-- 3. Where to Find -->
@@ -420,7 +530,7 @@
           <div class="detail-section__title">${t.specialties}</div>
           <div class="tags-row">${specTags}</div>
           <div class="detail-section__title" style="margin-top:14px">${t.ideal_habitat}</div>
-          <div class="tags-row">${idealHabitatTag}</div>
+          ${idealHabitatHTML}
           <div class="detail-section__title" style="margin-top:14px">${t.favorites}</div>
           <div class="tags-row">${favTags}</div>
         </div>
@@ -466,8 +576,10 @@
           btn.classList.remove('bounce');
         }, 700);
       }
+      if (window.POKOPIA_BADGES) POKOPIA_BADGES.checkAndNotifyNewBadges();
       renderDetail();
     }
+    window.toggleCollect = toggleCollect;
 
     // ── Playback Speed ──────────────────────────────────────
     let _playbackSpeed = 1; // 1 = normal, 0.8 = slow
@@ -571,7 +683,7 @@
       if (_karaokeAudio) { _karaokeAudio.pause(); _karaokeAudio.currentTime = 0; _karaokeAudio = null; }
       clearKaraokeHighlights();
 
-      const descEl = document.getElementById('descText');
+      const descEl = document.getElementById('descText_' + voiceLang) || document.getElementById('descText');
       const text = pokemon.description[voiceLang] || pokemon.description.en;
 
       try {
@@ -613,7 +725,7 @@
     function playVoice(text, lang) {
       if ('speechSynthesis' in window) {
         const utterance = new SpeechSynthesisUtterance(text);
-        const langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-SV' };
+        const langMap = { zh: 'zh-TW', en: 'en-US', es: 'es-ES' };
         utterance.lang = langMap[lang] || lang;
         utterance.rate = 0.85;
         utterance.pitch = 1.2;
@@ -685,7 +797,7 @@
     function playDescVoice(voiceLang) {
       if (!('speechSynthesis' in window)) return;
       const currentLang = POKOPIA_DEX.getLang();
-      const descEl = document.getElementById('descText');
+      const descEl = document.getElementById('descText_' + voiceLang) || document.getElementById('descText');
       if (!descEl || !pokemon) return;
 
       const text = pokemon.description[voiceLang] || pokemon.description.en;

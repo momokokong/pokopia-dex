@@ -1882,3 +1882,215 @@ body {
 }
  
  
+
+/* ── Trilingual Mode (TICK-006) ───────────────────── */
+.trilingual-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 18px;
+  border: 2px solid rgba(255, 140, 66, 0.35);
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--text-primary);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.trilingual-toggle-btn:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent-orange);
+}
+
+.trilingual-toggle-btn.active {
+  background: var(--accent-orange);
+  color: #FFF;
+  border-color: var(--accent-orange);
+  box-shadow: 0 0 0 3px rgba(255, 140, 66, 0.28), 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.pokemon-card--trilingual {
+  align-items: flex-start;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.pokemon-card--trilingual .pokemon-card__info {
+  min-width: 0;
+  max-width: 100%;
+  padding-right: 36px;
+}
+
+.trilingual-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+  max-width: 100%;
+}
+
+.trilingual-badges-row--hero {
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.trilingual-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px;
+  border-radius: 12px;
+  background: rgba(255, 140, 66, 0.12);
+  border: 1px solid rgba(255, 140, 66, 0.28);
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  transition: all 0.2s ease;
+}
+
+.trilingual-badges-row--hero .trilingual-badge {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.45);
+  color: #FFF;
+  backdrop-filter: blur(4px);
+}
+
+.trilingual-badge.speaking,
+.trilingual-badge.active {
+  background: var(--accent-orange);
+  border-color: #FFF;
+  color: #FFF;
+  transform: scale(1.06);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.45), 0 3px 10px rgba(0, 0, 0, 0.18);
+}
+
+.trilingual-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 6px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.trilingual-block__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(255, 140, 66, 0.07);
+  border: 1px solid rgba(255, 140, 66, 0.18);
+  transition: all 0.2s ease;
+  max-width: 100%;
+}
+
+.trilingual-block__row.speaking,
+.trilingual-block__row.active {
+  background: rgba(255, 140, 66, 0.2);
+  border-color: var(--accent-orange);
+  box-shadow: 0 2px 8px rgba(255, 140, 66, 0.2);
+}
+
+.trilingual-block__flag {
+  font-size: 16px;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.trilingual-block__text {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.detail-hero__trilingual-play {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#playTrilingualBtn,
+.play-trilingual-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.28);
+  color: #FFF;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.2s ease;
+  max-width: 100%;
+}
+
+#playTrilingualBtn:hover,
+.play-trilingual-btn:hover {
+  background: rgba(255, 255, 255, 0.42);
+  transform: translateY(-1px);
+}
+
+#playTrilingualBtn.playing,
+.play-trilingual-btn.playing {
+  background: #FFF;
+  color: var(--accent-orange);
+  border-color: #FFF;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
+}
+
+@media (max-width: 400px) {
+  .top-nav {
+    padding: 10px 10px;
+    gap: 6px;
+  }
+  .top-nav__title {
+    font-size: 18px;
+    max-width: 120px;
+  }
+  .top-nav__right {
+    gap: 4px;
+  }
+  .trilingual-toggle-btn {
+    height: 32px;
+    padding: 0 8px;
+    font-size: 12px;
+  }
+  .lang-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+  .pokemon-card--trilingual {
+    padding: 14px;
+    margin: 8px 12px;
+    gap: 12px;
+  }
+  .trilingual-badge {
+    font-size: 12px;
+    padding: 2px 7px;
+  }
+}
