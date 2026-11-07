@@ -51,9 +51,13 @@
       <span class="tab-bar__icon">🏝️</span>
       <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
     </a>
+    <a class="tab-bar__item" data-tab="quiz" href="quiz.html">
+      <span class="tab-bar__icon">🎮</span>
+      <span class="tab-bar__label" data-i18n="tab_quiz">猜謎挑戰</span>
+    </a>
     <a class="tab-bar__item active" data-tab="badges" href="badges.html">
       <span class="tab-bar__icon">🏅</span>
-      <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
+      <span class="tab-bar__label" data-i18n="tab_badges">徽章</span>
     </a>
     <a class="tab-bar__item" data-tab="settings" href="settings.html">
       <span class="tab-bar__icon">⚙️</span>
@@ -62,10 +66,11 @@
   </nav>
 
   <script src="app.js"></script>
+  <script src="js/badges-engine.js"></script>
   <script>
     const I18N = {
       zh: {
-        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: '徽章', tab_settings: '設定',
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_quiz: '猜謎挑戰', tab_badges: '徽章', tab_settings: '設定',
         badges_title: '🏅 徽章',
         progress_title: '收集進度',
         collected_of: '已收集',
@@ -94,10 +99,12 @@
         night_owl: '夜貓子',
         night_owl_desc: '在深夜使用圖鑑',
         early_bird: '早起的鳥兒',
-        early_bird_desc: '在早晨使用圖鑑'
+        early_bird_desc: '在早晨使用圖鑑',
+        quiz_master: '猜謎大師',
+        quiz_master_desc: '猜謎挑戰單場答對 8 題或達成 5 連擊'
       },
       en: {
-        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_quiz: 'Quiz', tab_badges: 'Badges', tab_settings: 'Settings',
         badges_title: '🏅 Badges',
         progress_title: 'Collection Progress',
         collected_of: 'collected',
@@ -126,10 +133,12 @@
         night_owl: 'Night Owl',
         night_owl_desc: 'Use Pokédex at night',
         early_bird: 'Early Bird',
-        early_bird_desc: 'Use Pokédex in the morning'
+        early_bird_desc: 'Use Pokédex in the morning',
+        quiz_master: 'Quiz Master',
+        quiz_master_desc: 'Score 8+ correct or 5+ combo in Quiz'
       },
       es: {
-        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_quiz: 'Quiz', tab_badges: 'Medallas', tab_settings: 'Ajustes',
         badges_title: '🏅 Medallas',
         progress_title: 'Progreso de Colección',
         collected_of: 'recogidos',
@@ -158,24 +167,26 @@
         night_owl: 'Noctámbulo',
         night_owl_desc: 'Usa el Pokédex de noche',
         early_bird: 'Madrugador',
-        early_bird_desc: 'Usa el Pokédex por la mañana'
+        early_bird_desc: 'Usa el Pokédex por la mañana',
+        quiz_master: 'Maestro del Quiz',
+        quiz_master_desc: 'Logra 8+ aciertos o combo de 5+ en el Quiz'
       }
     };
 
-    const BADGES = [
-      { id: 'collector',     threshold: 10,   emoji: '🥉', color: '#CD7F32' },
-      { id: 'explorer',      threshold: 30,   emoji: '🧭', color: '#4A90D9' },
-      { id: 'veteran',       threshold: 60,   emoji: '🛡️', color: '#7B68EE' },
-      { id: 'master',        threshold: 100,  emoji: '⭐', color: '#FFD700' },
-      { id: 'legend',        threshold: 150,  emoji: '👑', color: '#FF6B35' },
-      { id: 'completionist', threshold: 200,  emoji: '💎', color: '#00CED1' },
-      { id: 'ultimate',      threshold: 250,  emoji: '🏆', color: '#FF1493' },
-      { id: 'god',           threshold: 303,  emoji: '🌟', color: '#FFD700' }
-    ];
+    let allPokemon = [];
 
     async function init() {
-      await POKOPIA_DEX.loadData();
+      try {
+        allPokemon = await POKOPIA_DEX.loadData();
+      } catch (e) {
+        allPokemon = [];
+      }
       POKOPIA_DEX.renderLangButtons();
+      POKOPIA_DEX.renderTabBar('badges');
+      POKOPIA_BADGES.checkAndNotifyNewBadges({
+        pokemonData: allPokemon,
+        lang: POKOPIA_DEX.getLang()
+      });
       renderBadges();
       document.addEventListener('langchange', () => {
         updateI18N();
@@ -193,32 +204,43 @@
       });
     }
 
-    function getCollectedCount() {
-      const collected = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
-      return collected.length;
+    function getCollectedIds() {
+      try {
+        const parsed = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
+        return Array.isArray(parsed) ? parsed : [];
+      } catch (e) {
+        return [];
+      }
     }
 
     function renderBadges() {
       const lang = POKOPIA_DEX.getLang();
       const t = I18N[lang] || I18N.en;
-      const count = getCollectedCount();
+      const collectedIds = getCollectedIds();
+      const count = new Set(collectedIds.map(Number).filter(n => n > 0)).size;
       const total = 303;
 
       // Progress overview
       document.getElementById('progressTitle').textContent = t.progress_title;
       document.getElementById('progressSubtitle').textContent = `${count} / ${total} ${t.collected_of}`;
-      document.getElementById('progressBar').style.width = `${(count / total * 100).toFixed(1)}%`;
+      document.getElementById('progressBar').style.width = `${Math.min(100, (count / total * 100)).toFixed(1)}%`;
+
+      // Evaluate all 13 badges
+      const evaluatedBadges = POKOPIA_BADGES.evaluateAllBadges({
+        collectedIds,
+        pokemonData: allPokemon
+      });
 
       // Badge grid
       const grid = document.getElementById('badgeGrid');
-      grid.innerHTML = BADGES.map(badge => {
-        const unlocked = count >= badge.threshold;
-        const progress = Math.min(100, (count / badge.threshold * 100).toFixed(0));
-        const name = t[badge.id] || badge.id;
-        const desc = t[badge.id + '_desc'] || '';
+      grid.innerHTML = evaluatedBadges.map(badge => {
+        const unlocked = badge.unlocked;
+        const progress = badge.progressPercent;
+        const name = (badge.name && (badge.name[lang] || badge.name.en)) || t[badge.id] || badge.id;
+        const desc = (badge.desc && (badge.desc[lang] || badge.desc.en)) || t[badge.id + '_desc'] || '';
 
         return `
-          <div class="badge-card ${unlocked ? 'badge-card--unlocked' : 'badge-card--locked'}">
+          <div class="badge-card ${unlocked ? 'badge-card--unlocked' : 'badge-card--locked'}" data-badge-id="${badge.id}">
             <div class="badge-card__emoji">${unlocked ? badge.emoji : '🔒'}</div>
             <div class="badge-card__name">${name}</div>
             <div class="badge-card__desc">${desc}</div>
@@ -226,7 +248,7 @@
               <div class="badge-card__progress-bar">
                 <div class="badge-card__progress-fill" style="width:${progress}%;background:${badge.color}"></div>
               </div>
-              <span class="badge-card__progress-text">${count}/${badge.threshold}</span>
+              <span class="badge-card__progress-text">${badge.current}/${badge.threshold}</span>
             </div>
             <div class="badge-card__status">${unlocked ? t.unlocked : t.locked}</div>
           </div>
