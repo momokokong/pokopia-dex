@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PokopiaDex</string>
+    <string name="title_activity_main">PokopiaDex</string>
+    <string name="package_name">com.pokopia.dex</string>
+    <string name="custom_url_scheme">com.pokopia.dex</string>
+</resources>
