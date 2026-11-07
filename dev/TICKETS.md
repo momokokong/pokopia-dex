@@ -237,7 +237,7 @@ flowchart LR
 ## Wave 3：全站整合與 E2E 自動化總驗收
 
 ### [TICK-010] Playwright E2E 整合測試套件與 `qa-tester` 全站總驗收
-- **優先級**：P0 | **分支**：`feat/tick-010-e2e-suite` | **狀態**：🔵 QA Review
+- **優先級**：P0 | **分支**：`feat/tick-010-e2e-suite` | **狀態**：🟢 Done
 - **變更檔案**：
   - 新增：`tests/e2e/pokedex.spec.js`, `tests/e2e/quiz-and-badges.spec.js`, `tests/e2e/settings-and-trilingual.spec.js`
   - 新增：`dev/TEST-REPORT.md`
