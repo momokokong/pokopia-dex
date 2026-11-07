@@ -21,9 +21,9 @@
       <span class="top-nav__title" id="navTitle">🏝️ 棲息地</span>
     </div>
     <div class="top-nav__right">
-      <button class="lang-btn" data-lang="zh">🇹🇼</button>
-      <button class="lang-btn" data-lang="en">🇺🇸</button>
-      <button class="lang-btn" data-lang="es">🇪🇸</button>
+      <button class="lang-btn" data-lang="zh" aria-label="中文">🇹🇼</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
+      <button class="lang-btn" data-lang="es" aria-label="Español">🇪🇸</button>
     </div>
   </nav>
 
@@ -51,6 +51,10 @@
       <span class="tab-bar__icon">🏝️</span>
       <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
     </a>
+    <a class="tab-bar__item" data-tab="quiz" href="quiz.html">
+      <span class="tab-bar__icon">🎮</span>
+      <span class="tab-bar__label" data-i18n="tab_quiz">猜謎挑戰</span>
+    </a>
     <a class="tab-bar__item" data-tab="badges" href="badges.html">
       <span class="tab-bar__icon">🏅</span>
       <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
@@ -61,12 +65,16 @@
     </a>
   </nav>
 
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/badges-engine.js"></script>
   <script src="app.js"></script>
   <script src="data/habitat-data.js"></script>
   <script>
     const I18N = {
       zh: {
-        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_quiz: '猜謎挑戰', tab_badges: 'Badge', tab_settings: '設定',
         requirements: '建造需求', pokemon_in_habitat: '此處的寶可夢',
         time: '時間', weather: '天氣', all_day: '全天候', all_weather: '全天氣',
         common: '常見', uncommon: '較稀有', rare: '稀有', very_rare: '非常稀有',
@@ -75,7 +83,7 @@
         nav_title: '🏝️ 棲息地'
       },
       en: {
-        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_quiz: 'Quiz', tab_badges: 'Badges', tab_settings: 'Settings',
         requirements: 'Requirements', pokemon_in_habitat: 'Pokémon in this Habitat',
         time: 'Time', weather: 'Weather', all_day: 'All day', all_weather: 'All weather',
         common: 'Common', uncommon: 'Uncommon', rare: 'Rare', very_rare: 'Very Rare',
@@ -84,7 +92,7 @@
         nav_title: '🏝️ Habitat'
       },
       es: {
-        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_quiz: 'Desafío', tab_badges: 'Medallas', tab_settings: 'Ajustes',
         requirements: 'Requisitos', pokemon_in_habitat: 'Pokémon en este Hábitat',
         time: 'Hora', weather: 'Clima', all_day: 'Todo el día', all_weather: 'Todo clima',
         common: 'Común', uncommon: 'Poco común', rare: 'Raro', very_rare: 'Muy raro',
@@ -189,11 +197,21 @@
         return;
       }
 
+      const habitat = currentHabitat;
+      POKOPIA_DEX.recordHabitatVisit(habitat.id);
+      if (window.POKOPIA_BADGES) POKOPIA_BADGES.checkAndNotifyNewBadges();
+
+      _playbackSpeed = POKOPIA_DEX.getSpeechRate();
+
       POKOPIA_DEX.renderLangButtons();
+      POKOPIA_DEX.renderTabBar('habitats');
       renderHabitatDetail();
       updateNavButtons();
       document.addEventListener('langchange', () => {
         updateI18N();
+        renderHabitatDetail();
+      });
+      document.addEventListener('trilingualchange', () => {
         renderHabitatDetail();
       });
       updateI18N();
@@ -217,15 +235,17 @@
       const lang = POKOPIA_DEX.getLang();
       const t = I18N[lang] || I18N.en;
       const h = currentHabitat;
+      const isTrilingual = POKOPIA_DEX.isTrilingualMode();
 
       const habitatName = h.name[lang] || h.name.en;
       document.title = `${habitatName} | Pokopia`;
 
-      // Hero subtitle — show the two languages NOT currently selected
-      const otherLangs = ['zh','en','es'].filter(l => l !== lang);
-      const subParts = otherLangs.map(l => h.name[l]).filter(Boolean);
-      const subEl = document.getElementById('heroNameSub');
-      if (subEl) subEl.textContent = subParts.join(' / ');
+      // Hero subtitle — when Trilingual Mode is enabled, show all 3 language names (zh, en, es);
+      // otherwise show the two languages NOT currently selected.
+      const subParts = isTrilingual
+        ? [h.name.zh, h.name.en, h.name.es].filter(Boolean)
+        : ['zh', 'en', 'es'].filter(l => l !== lang).map(l => h.name[l]).filter(Boolean);
+      const heroSubText = subParts.join(' / ');
 
       // Requirements
       let reqHTML = '';
@@ -249,7 +269,9 @@
         const spriteUrl = SPRITE_BASE + p.pokedex_number + '.png';
         const collected = allPokemon.find(ap => ap.pokedex_number === p.pokedex_number);
         const isCollected = collected ? POKOPIA_DEX.isCollected(collected.id) : false;
-        const pokemonName = p.name[lang] || p.name.en;
+        const pokemonName = isTrilingual
+          ? [p.name.zh, p.name.en, p.name.es].filter(Boolean).join(' / ')
+          : (p.name[lang] || p.name.en);
         const rarityClass = getRarityClass(p.rarity);
         const rarityLabel = getRarityLabel(p.rarity, lang);
         const rarityStars = getRarityStars(p.rarity);
@@ -292,13 +314,13 @@
                 <button class="voice-btn voice-btn--sm" onclick="playHabitatNameAudio('es')" title="Español">🇪🇸 🔊</button>
               </span>
             </div>
-            <div class="detail-hero__name-sub" id="heroNameSub"></div>
+            <div class="detail-hero__name-sub" id="heroNameSub">${heroSubText}</div>
           </div>
         </div>
 
         <!-- Description -->
         <div class="detail-section detail-section--desc">
-          <button class="speed-toggle-btn" id="speedToggleBtn" onclick="togglePlaybackSpeed()" title="正常 1x（點擊切換）"><span class="speed-emoji">▶️</span><span class="speed-label">1x</span></button>
+          <button class="speed-toggle-btn ${_playbackSpeed === 0.8 ? 'slow' : ''}" id="speedToggleBtn" onclick="togglePlaybackSpeed()" title="${_playbackSpeed === 0.8 ? '慢速 0.8x（點擊切換）' : '正常 1x（點擊切換）'}"><span class="speed-emoji">${_playbackSpeed === 0.8 ? '🐢' : '▶️'}</span><span class="speed-label">${_playbackSpeed === 0.8 ? '0.8x' : '1x'}</span></button>
           <div class="detail-section__title" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
             <span>${lang === 'zh' ? '棲息地簡介' : lang === 'es' ? 'Descripción del hábitat' : 'Habitat Description'}</span>
             <span class="desc-voice-btns">
@@ -329,10 +351,11 @@
     let _cancelKaraoke = null;
 
     // ── Playback Speed ──────────────────────────────────────
-    var _playbackSpeed = 1; // 1 = normal, 0.8 = slow
+    var _playbackSpeed = POKOPIA_DEX.getSpeechRate(); // 1 = normal, 0.8 = slow
 
     function togglePlaybackSpeed() {
       _playbackSpeed = _playbackSpeed === 1 ? 0.8 : 1;
+      POKOPIA_DEX.setSpeechRate(_playbackSpeed);
       var btn = document.getElementById('speedToggleBtn');
       if (btn) {
         btn.title = _playbackSpeed === 0.8 ? '\u6162\u901F 0.8x\uFF08\u9EDE\u64CA\u5207\u63DB\uFF09' : '\u6B63\u5E38 1x\uFF08\u9EDE\u64CA\u5207\u63DB\uFF09';

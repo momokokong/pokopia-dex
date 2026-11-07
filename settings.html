@@ -18,9 +18,9 @@
       <span class="top-nav__title" data-i18n="settings_title">⚙️ 設定</span>
     </div>
     <div class="top-nav__right">
-      <button class="lang-btn" data-lang="zh">🇹🇼</button>
-      <button class="lang-btn" data-lang="en">🇺🇸</button>
-      <button class="lang-btn" data-lang="es">🇪🇸</button>
+      <button class="lang-btn" data-lang="zh" aria-label="中文">🇹🇼</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
+      <button class="lang-btn" data-lang="es" aria-label="Español">🇪🇸</button>
     </div>
   </nav>
 
@@ -58,6 +58,21 @@
         </div>
         <label class="settings-toggle">
           <input type="checkbox" id="trilingualToggle">
+          <span class="settings-toggle__slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Speech Rate -->
+    <section class="settings-section">
+      <h2 class="settings-section__title" data-i18n="settings_speech_rate">🔊 語音語速</h2>
+      <div class="settings-toggle-row">
+        <div class="settings-toggle-row__text">
+          <div class="settings-toggle-row__label" id="speechRateLabel" data-i18n="settings_speech_rate_desc">0.8x 慢速跟讀 / 1.0x 正常語速</div>
+          <div class="settings-toggle-row__hint" data-i18n="settings_speech_rate_hint">啟用慢速模式（0.8x）方便兒童跟讀學習</div>
+        </div>
+        <label class="settings-toggle">
+          <input type="checkbox" id="speechRateToggle">
           <span class="settings-toggle__slider"></span>
         </label>
       </div>
@@ -237,6 +252,10 @@
       <span class="tab-bar__icon">🏝️</span>
       <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
     </a>
+    <a class="tab-bar__item" data-tab="quiz" href="quiz.html">
+      <span class="tab-bar__icon">🎮</span>
+      <span class="tab-bar__label" data-i18n="tab_quiz">猜謎挑戰</span>
+    </a>
     <a class="tab-bar__item" data-tab="badges" href="badges.html">
       <span class="tab-bar__icon">🏅</span>
       <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
@@ -250,6 +269,9 @@
   <!-- QR Code library (lightweight, no dependencies) -->
   <script src="scripts/qrcode.min.js"></script>
 
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/badges-engine.js"></script>
   <script src="app.js"></script>
   <script>
     const I18N = {
@@ -259,6 +281,9 @@
         settings_trilingual: '📚 三語顯示模式',
         settings_trilingual_desc: '同時顯示三語名稱',
         settings_trilingual_hint: '在卡片上同時顯示中、英、西名稱',
+        settings_speech_rate: '🔊 語音語速',
+        settings_speech_rate_desc: '0.8x 慢速跟讀 / 1.0x 正常語速',
+        settings_speech_rate_hint: '啟用慢速模式（0.8x）方便兒童跟讀學習',
         settings_sync: '🔗 進度碼同步',
         settings_sync_hint: '用進度碼在不同裝置間同步收集進度',
         settings_generate_code: '產生進度碼',
@@ -297,6 +322,7 @@
         settings_export_success: '匯出成功！',
         tab_dex: '圖鑑',
         tab_habitats: '棲息地',
+        tab_quiz: '猜謎挑戰',
         tab_badges: 'Badge',
         tab_settings: '設定'
       },
@@ -306,6 +332,9 @@
         settings_trilingual: '📚 Trilingual Mode',
         settings_trilingual_desc: 'Show all three languages',
         settings_trilingual_hint: 'Display Chinese, English & Spanish names on cards',
+        settings_speech_rate: '🔊 Speech Rate',
+        settings_speech_rate_desc: '0.8x Slow / 1.0x Normal Speed',
+        settings_speech_rate_hint: 'Enable slow mode (0.8x) for easier read-along',
         settings_sync: '🔗 Sync Progress Code',
         settings_sync_hint: 'Use a progress code to sync across devices',
         settings_generate_code: 'Generate Code',
@@ -344,6 +373,7 @@
         settings_export_success: 'Export successful!',
         tab_dex: 'Pokédex',
         tab_habitats: 'Habitats',
+        tab_quiz: 'Quiz',
         tab_badges: 'Badges',
         tab_settings: 'Settings'
       },
@@ -353,6 +383,9 @@
         settings_trilingual: '📚 Modo trilingüe',
         settings_trilingual_desc: 'Mostrar los tres idiomas',
         settings_trilingual_hint: 'Mostrar nombres en chino, inglés y español en las tarjetas',
+        settings_speech_rate: '🔊 Velocidad de voz',
+        settings_speech_rate_desc: '0.8x Lento / 1.0x Normal',
+        settings_speech_rate_hint: 'Activa el modo lento (0.8x) para practicar pronunciación',
         settings_sync: '🔗 Sincronizar código',
         settings_sync_hint: 'Usa un código para sincronizar entre dispositivos',
         settings_generate_code: 'Generar código',
@@ -391,6 +424,7 @@
         settings_export_success: '¡Exportación exitosa!',
         tab_dex: 'Pokédex',
         tab_habitats: 'Hábitats',
+        tab_quiz: 'Desafío',
         tab_badges: 'Medallas',
         tab_settings: 'Configuración'
       }
@@ -399,8 +433,8 @@
     // ========================================
     // Progress Code: Encode / Decode
     // ========================================
-    // Format: POKOPIA:<base64url(json)>
-    // JSON: { v:1, c:[collected_ids], l:lang, t:trilingual_bool }
+    // Format: POKOPIA:<base64url(json)> or POKOPIA:v2:<base64url(json)>
+    // JSON: { v:1|2, c:[collected_ids], l:lang, t:trilingual_bool, s:stats }
     //
     // Forward compatibility rule:
     //   - ENCODER always writes the CURRENT_VERSION
@@ -408,13 +442,17 @@
     //   - When adding new fields, increment CURRENT_VERSION and add a migration
     //   - Old codes (lower v) must always be importable
 
-    const PROGRESS_CODE_CURRENT_VERSION = 1;
+    const PROGRESS_CODE_CURRENT_VERSION = 2;
 
     function encodeProgress() {
-      const collected = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
-      const lang = localStorage.getItem('pokopia-lang') || 'en';
-      const trilingual = localStorage.getItem('pokopia-trilingual') === 'true';
-      const payload = { v: PROGRESS_CODE_CURRENT_VERSION, c: collected, l: lang, t: trilingual };
+      if (POKOPIA_DEX.encodeProgressCode) {
+        const encoded = POKOPIA_DEX.encodeProgressCode(PROGRESS_CODE_CURRENT_VERSION);
+        if (encoded) return encoded;
+      }
+      const collected = POKOPIA_DEX.getCollectedIds();
+      const lang = POKOPIA_DEX.getLang() || 'en';
+      const trilingual = POKOPIA_DEX.isTrilingualMode();
+      const payload = { v: 1, c: collected, l: lang, t: trilingual };
       const json = JSON.stringify(payload);
       // base64url encoding (URL-safe, no padding)
       const base64 = btoa(unescape(encodeURIComponent(json)));
@@ -422,22 +460,20 @@
     }
 
     function decodeProgress(code) {
+      if (POKOPIA_DEX.decodeProgressCode) {
+        const res = POKOPIA_DEX.decodeProgressCode(code);
+        if (res && res.ok && res.data) {
+          return res.data;
+        }
+      }
       try {
-        if (!code.startsWith('POKOPIA:')) return null;
-        let base64 = code.slice(8).replace(/-/g, '+').replace(/_/g, '/');
+        if (!code || !code.startsWith('POKOPIA:')) return null;
+        let base64 = code.replace(/^POKOPIA:(v\d+:)?/, '').replace(/-/g, '+').replace(/_/g, '/');
         // Restore padding
         while (base64.length % 4) base64 += '=';
         const json = decodeURIComponent(escape(atob(base64)));
         const payload = JSON.parse(json);
         if (!payload.v || !Array.isArray(payload.c)) return null;
-        // Forward compatibility: accept v <= CURRENT_VERSION
-        if (payload.v > PROGRESS_CODE_CURRENT_VERSION) {
-          // Code from a newer version — still import what we can
-          // but warn the user some fields may be ignored
-        }
-        // Migrate old versions to current structure
-        // v1 → v1 (no migration needed yet)
-        // When v2 is introduced, add: if (payload.v < 2) { ... migrate ... }
         return payload;
       } catch (e) {
         return null;
@@ -461,11 +497,19 @@
 
       // Trilingual toggle
       const trilingualToggle = document.getElementById('trilingualToggle');
-      trilingualToggle.checked = localStorage.getItem('pokopia-trilingual') === 'true';
+      trilingualToggle.checked = POKOPIA_DEX.isTrilingualMode();
       trilingualToggle.addEventListener('change', () => {
-        localStorage.setItem('pokopia-trilingual', trilingualToggle.checked);
-        document.dispatchEvent(new CustomEvent('trilingualchange', { detail: { enabled: trilingualToggle.checked } }));
+        POKOPIA_DEX.setTrilingualMode(trilingualToggle.checked);
       });
+
+      // Speech Rate toggle (checked = 0.8x slow mode, unchecked = 1.0x normal speed)
+      const speechRateToggle = document.getElementById('speechRateToggle');
+      if (speechRateToggle) {
+        speechRateToggle.checked = POKOPIA_DEX.getSpeechRate() === 0.8;
+        speechRateToggle.addEventListener('change', () => {
+          POKOPIA_DEX.setSpeechRate(speechRateToggle.checked ? 0.8 : 1.0);
+        });
+      }
 
       // Language buttons in settings
       document.querySelectorAll('.settings-lang-btn').forEach(btn => {
@@ -566,17 +610,19 @@
         }
 
         // Merge or replace collected list
-        const current = JSON.parse(localStorage.getItem('pokopia-collected') || '[]');
+        const current = POKOPIA_DEX.getCollectedIds();
         const merged = [...new Set([...current, ...payload.c])];
         localStorage.setItem('pokopia-collected', JSON.stringify(merged));
 
         if (payload.l) {
-          localStorage.setItem('pokopia-lang', payload.l);
           POKOPIA_DEX.setLang(payload.l);
         }
         if (typeof payload.t === 'boolean') {
-          localStorage.setItem('pokopia-trilingual', payload.t);
+          POKOPIA_DEX.setTrilingualMode(payload.t);
           document.getElementById('trilingualToggle').checked = payload.t;
+        }
+        if (payload.s && Array.isArray(payload.s.visitedHabIds)) {
+          payload.s.visitedHabIds.forEach(id => POKOPIA_DEX.recordHabitatVisit(id));
         }
 
         updateCounts();
