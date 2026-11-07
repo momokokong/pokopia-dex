@@ -22,9 +22,9 @@
       <span class="top-nav__title" id="habitatNavTitle">🏝️ 棲息地</span>
     </div>
     <div class="top-nav__right">
-      <button class="lang-btn" data-lang="zh">🇹🇼</button>
-      <button class="lang-btn" data-lang="en">🇺🇸</button>
-      <button class="lang-btn" data-lang="es">🇪🇸</button>
+      <button class="lang-btn" data-lang="zh" aria-label="中文">🇹🇼</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
+      <button class="lang-btn" data-lang="es" aria-label="Español">🇪🇸</button>
     </div>
   </nav>
 
@@ -40,6 +40,10 @@
       <span class="tab-bar__icon">🏝️</span>
       <span class="tab-bar__label" data-i18n="tab_habitats">棲息地</span>
     </a>
+    <a class="tab-bar__item" data-tab="quiz" href="quiz.html">
+      <span class="tab-bar__icon">🎮</span>
+      <span class="tab-bar__label" data-i18n="tab_quiz">猜謎挑戰</span>
+    </a>
     <a class="tab-bar__item" data-tab="badges" href="badges.html">
       <span class="tab-bar__icon">🏅</span>
       <span class="tab-bar__label" data-i18n="tab_badges">Badge</span>
@@ -50,11 +54,14 @@
     </a>
   </nav>
 
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/badges-engine.js"></script>
   <script src="app.js"></script>
   <script>
     const I18N = {
       zh: {
-        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_badges: 'Badge', tab_settings: '設定',
+        tab_dex: '圖鑑', tab_habitats: '棲息地', tab_quiz: '猜謎挑戰', tab_badges: 'Badge', tab_settings: '設定',
         title: '🏝️ 棲息地', zone: '區域', biomes: 'Biome',
         ideal_habitat: '理想環境', time: '時間', weather: '天氣',
         all_day: '全天候', all_weather: '全天氣', special: '特殊',
@@ -67,7 +74,7 @@
         withered_wasteland: '🏜️ 枯萎荒地', general_area: '🌿 一般區域'
       },
       en: {
-        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_badges: 'Badges', tab_settings: 'Settings',
+        tab_dex: 'Pokédex', tab_habitats: 'Habitats', tab_quiz: 'Quiz', tab_badges: 'Badges', tab_settings: 'Settings',
         title: '🏝️ Habitats', zone: 'Zone', biomes: 'Biome',
         ideal_habitat: 'Ideal Habitat', time: 'Time', weather: 'Weather',
         all_day: 'All day', all_weather: 'All weather', special: 'Special',
@@ -80,7 +87,7 @@
         withered_wasteland: '🏜️ Withered Wasteland', general_area: '🌿 General Area'
       },
       es: {
-        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_badges: 'Medallas', tab_settings: 'Ajustes',
+        tab_dex: 'Pokédex', tab_habitats: 'Hábitats', tab_quiz: 'Desafío', tab_badges: 'Medallas', tab_settings: 'Ajustes',
         title: '🏝️ Hábitats', zone: 'Zona', biomes: 'Bioma',
         ideal_habitat: 'Hábitat Ideal', time: 'Hora', weather: 'Clima',
         all_day: 'Todo el día', all_weather: 'Todo clima', special: 'Especial',
