@@ -59,7 +59,7 @@ flowchart LR
 ## Wave 1：核心業務引擎平行開發 (4 Subagents Parallel)
 
 ### [TICK-002] 多語系 (i18n) 集中管理與 Storage 資料持久化引擎
-- **優先級**：P0 | **分支**：`feat/tick-002-i18n-storage` | **狀態**：🟡 In Progress
+- **優先級**：P0 | **分支**：`feat/tick-002-i18n-storage` | **狀態**：🟢 Done
 - **變更檔案**：
   - 新增：`js/i18n.js`, `js/storage.js`, `tests/unit/i18n.test.js`, `tests/unit/storage.test.js`
   - 修改：`app.js`
@@ -79,13 +79,13 @@ flowchart LR
        - 進度碼編解碼：`encodeProgressCode()`, `decodeProgressCode(codeString)`（支援 `POKOPIA:v1:` 與 `POKOPIA:v2:` 向下相容格式，包含已收集寶可夢與統計資料）。
   3. 向下相容掛載至 `window.POKOPIA_I18N`、`window.POKOPIA_STORAGE` 與 `window.POKOPIA_DEX`，同時支援 CommonJS / ES Module 匯出供 Vitest 測試。
 - **單元測試案例 (`tests/unit/i18n.test.js` & `tests/unit/storage.test.js`)**：
-  - [ ] 語系切換、非法語系 fallback、缺字回退、`applyI18nToDOM` DOM 更新。
-  - [ ] 收集 ID 新增/移除不重複、`localStorage` 髒資料容錯、進度碼 v1/v2 雙向編解碼與校驗錯誤處理。
+  - [x] 語系切換、非法語系 fallback、缺字回退、`applyI18nToDOM` DOM 更新（7/7 通過）。
+  - [x] 收集 ID 新增/移除不重複、`localStorage` 髒資料容錯、進度碼 v1/v2 雙向編解碼與校驗錯誤處理（9/9 通過）。
 
 ---
 
 ### [TICK-003] 語音播放控制引擎與三語連續跟讀 (Speech & Karaoke Engine)
-- **優先級**：P0 | **分支**：`feat/tick-003-speech-engine` | **狀態**：⚪ Todo
+- **優先級**：P0 | **分支**：`feat/tick-003-speech-engine` | **狀態**：🟢 Done
 - **變更檔案**：
   - 新增：`js/speech.js`, `tests/unit/speech.test.js`
 - **技術細節與規格**：
@@ -99,14 +99,14 @@ flowchart LR
        - 一鍵依序播放中 -> 英 -> 西三語名稱或簡介音檔，每段間隔 400ms，中途可呼叫 `stop()` 中斷。
      - `stop()`：立即停止正在播放的 HTML5 Audio 與 `speechSynthesis`。
 - **單元測試案例 (`tests/unit/speech.test.js`)**：
-  - [ ] 倍速設定 `0.8x` / `1.0x` 正確套用至 Mock Audio 實例。
-  - [ ] 音檔載入失敗 (404 / Network Error) 時，100% 觸發 `speechSynthesis` Fallback 且語言代碼映射正確。
-  - [ ] `playSequentialTrilingual` 能依序走完 `zh -> en -> es` 並支援中途 `stop()` 中斷。
+  - [x] 倍速設定 `0.8x` / `1.0x` 正確套用至 Mock Audio 實例（12/12 通過）。
+  - [x] 音檔載入失敗 (404 / Network Error) 時，100% 觸發 `speechSynthesis` Fallback 且語言代碼映射正確。
+  - [x] `playSequentialTrilingual` 能依序走完 `zh -> en -> es` 並支援中途 `stop()` 中斷。
 
 ---
 
 ### [TICK-004] 猜謎挑戰模式 (Quiz) 重大 Bug 修復與 4 大題型 + Combo 完整實作
-- **優先級**：P0 | **分支**：`feat/tick-004-quiz-mode` | **狀態**：⚪ Todo
+- **優先級**：P0 | **分支**：`feat/tick-004-quiz-mode` | **狀態**：🟢 Done
 - **變更檔案**：
   - 新增：`js/quiz-engine.js`, `tests/unit/quiz-engine.test.js`
   - 修改：`scripts/quiz.js`, `quiz.html`
@@ -129,14 +129,14 @@ flowchart LR
      - 顯示即時分數、當前 Combo 火焰特效 (`🔥 Combo x3`)、題目發音按鈕（點擊播放題目寶可夢語音）。
      - 結算畫面顯示總分、答對率、最高 Combo 與新解鎖徽章提示。
 - **單元測試案例 (`tests/unit/quiz-engine.test.js`)**：
-  - [ ] 驗證模式 A / B / C / D / E 產生的題目結構完整，正確讀取 `pokemon.name[lang]` 與 `pokemon.description[lang]`。
-  - [ ] 驗證連續 10 題索引從 `1/10` 走到 `10/10` 不跳號，選項無重複。
-  - [ ] 驗證 Combo 加分與答錯歸零計算準確。
+  - [x] 驗證模式 A / B / C / D / E 產生的題目結構完整，正確讀取 `pokemon.name[lang]` 與 `pokemon.description[lang]`（12/12 通過）。
+  - [x] 驗證連續 10 題索引從 `1/10` 走到 `10/10` 不跳號，選項無重複。
+  - [x] 驗證 Combo 加分與答錯歸零計算準確。
 
 ---
 
 ### [TICK-005] 徽章成就系統 (Badges) 12 項條件判定引擎、慶祝動效與頁面整合
-- **優先級**：P1 | **分支**：`feat/tick-005-badges-engine` | **狀態**：⚪ Todo
+- **優先級**：P1 | **分支**：`feat/tick-005-badges-engine` | **狀態**：🟢 Done
 - **變更檔案**：
   - 新增：`js/badges-engine.js`, `tests/unit/badges-engine.test.js`
   - 修改：`badges.html`, `styles-badges.css`
@@ -156,50 +156,48 @@ flowchart LR
      - `checkAndNotifyNewBadges()`：比對先前已解鎖紀錄 (`pokopia-unlocked-badges`)，若有新解鎖徽章，自動儲存並彈出可愛的慶祝 Toast 橫幅與 Web Audio 合成慶祝音效（免外部音檔依賴）。
   3. 更新 `badges.html` 渲染全部 13 個徽章、分類顯示進度條與解鎖狀態。
 - **單元測試案例 (`tests/unit/badges-engine.test.js`)**：
-  - [ ] 測試 0, 10, 30, 303 隻收集數量的邊界條件。
-  - [ ] 測試同屬性滿 10 隻自動解鎖 `type_specialist`、不同屬性未滿 10 隻不解鎖。
-  - [ ] 測試時段判定 (`hour = 23` 解鎖 `night_owl`，`hour = 6` 解鎖 `early_bird`) 與 `quiz_master` 判定。
-  - [ ] 測試新徽章首次觸發通知、重複檢查不重複彈窗。
+  - [x] 測試 0, 10, 30, 303 隻收集數量的邊界條件（14/14 通過）。
+  - [x] 測試同屬性滿 10 隻自動解鎖 `type_specialist`、不同屬性未滿 10 隻不解鎖。
+  - [x] 測試時段判定 (`hour = 23` 解鎖 `night_owl`，`hour = 6` 解鎖 `early_bird`) 與 `quiz_master` 判定。
+  - [x] 測試新徽章首次觸發通知、重複檢查不重複彈窗。
 
 ---
 
 ## Wave 2：頁面體驗升級、PWA 離線強化與 Android 原生封裝 (4 Subagents Parallel)
 
 ### [TICK-006] 三語同時對照模式 (Trilingual Simultaneous View) 與連續發音整合
-- **優先級**：P1 | **分支**：`feat/tick-006-trilingual-view` | **狀態**：⚪ Todo
+- **優先級**：P1 | **分支**：`feat/tick-006-trilingual-view` | **狀態**：🟡 In Progress
 - **變更檔案**：
-  - 修改：`index.html`, `detail.html`, `settings.html`, `styles.css`
+  - 修改：`index.html`, `detail.html`, `styles.css`
+  - 新增：`tests/unit/trilingual.test.js`
 - **技術細節與規格**：
-  1. **設定頁與頂部快速開關**：
-     - `settings.html` 的 `#trilingualToggle` 雙向綁定 `localStorage.getItem('pokopia-trilingual')`。
-     - 在 `index.html` 與 `detail.html` 頂部導覽列新增「🌐 三語」快速切換膠囊按鈕，一鍵開關三語並排模式。
+  1. **頂部快速開關**：
+     - 在 `index.html` 與 `detail.html` 頂部導覽列新增「🌐 三語」快速切換膠囊按鈕 (`#trilingualBtn`)，一鍵開關三語並排模式 (`POKOPIA_DEX.setTrilingualMode`)。
   2. **首頁卡片 (`index.html`) 三語對照渲染**：
      - 開啟三語模式時，卡片以清晰的三語標籤並排顯示：`🇹🇼 妙蛙種子` · `🇺🇸 Bulbasaur` · `🇪🇸 Bulbasaur`，確保西班牙文長字串自動換行不溢出。
   3. **詳細頁 (`detail.html`) 三語對照與一鍵三語連播**：
      - 開啟三語模式時，「Pokopia 簡介 (Description)」與「理想棲息環境」同時並列顯示中、英、西三段對照文字。
      - 新增「🔊 三語連播 (Play All 3 Languages)」按鈕，呼叫 `POKOPIA_SPEECH.playSequentialTrilingual` 依序朗讀中、英、西名稱，並高亮當前朗讀的語言標籤。
+     - 同時修正 `index.html` 與 `detail.html` 西班牙國旗為 `🇪🇸`，為 `detail.html` 補齊底部第 5 個 `quiz.html` 頁籤，並在收集寶可夢時呼叫 `POKOPIA_BADGES.checkAndNotifyNewBadges()`。
 - **驗收測試**：
   - [ ] 切換三語開關後，首頁卡片與詳細頁立即呈現三語並列區塊，且無橫向捲軸溢出。
 
 ---
 
-### [TICK-007] 全站導覽列一致性、國旗修正與兒童友善回饋優化
-- **優先級**：P1 | **分支**：`feat/tick-007-nav-consistency` | **狀態**：⚪ Todo
+### [TICK-007] 全站導覽列一致性、棲息地訪問紀錄與設定頁整合
+- **優先級**：P1 | **分支**：`feat/tick-007-nav-consistency` | **狀態**：🟡 In Progress
 - **變更檔案**：
-  - 修改：`index.html`, `detail.html`, `habitats.html`, `habitat-detail.html`, `badges.html`, `quiz.html`, `settings.html`
-- **發現之現存不一致 Bug**：
-  1. `index.html` 與 `detail.html` 的西班牙文按鈕誤用了薩爾瓦多國旗 `🇸🇻`，而其他頁面使用西班牙國旗 `🇪🇸`，需統一為 `🇪🇸`。
-  2. 底部導覽列 (`tab-bar`) 在 `index.html` 有 5 個項目（圖鑑、棲息地、猜謎挑戰、徽章、設定），但在 `detail.html`、`habitats.html`、`habitat-detail.html`、`badges.html`、`settings.html` 卻漏掉了「🎮 猜謎挑戰 (`quiz.html`)」，只有 4 個項目！
-  3. `habitat-detail.html` 瀏覽棲息地時，需自動呼叫 `recordHabitatVisit(habitatId)` 以便累計「棲息地獵人」徽章進度。
+  - 修改：`habitats.html`, `habitat-detail.html`, `settings.html`
+  - 新增：`tests/unit/pages-integration.test.js`
 - **技術細節與規格**：
-  1. 全站 7 個 HTML 頁面統一底部 5 頁籤 (`dex`, `habitats`, `quiz`, `badges`, `settings`) 並支援三語切換。
-  2. 統一頂部語言按鈕為 `🇹🇼`、`🇺🇸`、`🇪🇸` 並加上 `aria-label` 無障礙標籤。
-  3. 在收集寶可夢時連動觸發 `checkAndNotifyNewBadges()`，即時給小朋友成就回饋。
+  1. 為 `habitats.html`、`habitat-detail.html`、`settings.html` 補齊底部第 5 個頁籤「🎮 猜謎挑戰 (`quiz.html`)」，並統一載入 `js/i18n.js`、`js/storage.js`、`js/badges-engine.js`。
+  2. `habitat-detail.html` 瀏覽棲息地時，自動呼叫 `POKOPIA_DEX.recordHabitatVisit(habitatId)` 與 `POKOPIA_BADGES.checkAndNotifyNewBadges()` 累計「棲息地獵人」徽章進度。
+  3. `settings.html` 的 `#trilingualToggle` 與 `POKOPIA_DEX.isTrilingualMode()` / `setTrilingualMode()` 完整同步，並支援 v1/v2 進度碼產生與匯入。
 
 ---
 
 ### [TICK-008] PWA Service Worker 離線快取優化與跨裝置進度碼強化
-- **優先級**：P2 | **分支**：`feat/tick-008-pwa-offline` | **狀態**：⚪ Todo
+- **優先級**：P2 | **分支**：`feat/tick-008-pwa-offline` | **狀態**：🟡 In Progress
 - **變更檔案**：
   - 修改：`sw.js`, `manifest.json`
   - 新增：`tests/unit/sw-logic.test.js`
@@ -213,7 +211,7 @@ flowchart LR
 ---
 
 ### [TICK-009] Android App (Capacitor) 專案建置與原生互動體驗整合
-- **優先級**：P1 | **分支**：`feat/tick-009-android-app` | **狀態**：⚪ Todo
+- **優先級**：P1 | **分支**：`feat/tick-009-android-app` | **狀態**：🟡 In Progress
 - **變更檔案**：
   - 新增：`capacitor.config.json`, `js/native.js`, `scripts/build-web-dist.js`, `tests/unit/native.test.js`
   - 新增目錄：`android/` (Capacitor Android 原生工程結構與配置說明)
